@@ -311,6 +311,10 @@
     "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
     "path": "/PROJECTS/refaiya/"
   },
+  "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6": {
+    "title": "Romantic Period Poetry Archive",
+    "path": "/PROJECTS/romantic_period_poetry_archive/"
+  },
   "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8": {
     "title": "Belegwörterbuch der sabäischen Sprache",
     "path": "/PROJECTS/sabaweb/"
@@ -394,9 +398,5 @@
   "5f3c2fbb-ca17-41c9-acdb-d3e147869400": {
     "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s ’History of the Physicians’",
     "path": "/PROJECTS/wissensgemeinschaften/"
-  },
-  "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6": {
-    "title": "Romantic Period Poetry Archive",
-    "path": "/PROJECTS/romantic_period_poetry_archive/"
   }
 }

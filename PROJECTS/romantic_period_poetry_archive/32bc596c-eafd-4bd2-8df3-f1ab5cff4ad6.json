@@ -1,4 +1,4 @@
- {
+{
   "schema_version": "0.1.6",
   "record_metadata": {
     "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6",
@@ -132,6 +132,7 @@
     },
     "policies": [],
     "keywords": [
+      "",
       "catalogue",
       "literature",
       "poetry"
