@@ -1,0 +1,141 @@
+ {
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6",
+    "record_created": "2022-07-19",
+    "record_created_by": "Huber, Alexander",
+    "record_modified": [
+      {
+        "record_modified": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Romantic Period Poetry Archive",
+    "abbr": "RPPA",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.romanticperiodpoetry.org/"
+    ],
+    "project_desc": "The Romantic Period Poetry Archive, or RPPA for short, is an open access digital platform of global Romantic-period poetry. It comprises a full-text poetry database and an open scholarship platform. Over 600 poets from 70 countries will be included in the database by the end of the alpha phase of the project (2020-2025).",
+    "places": [
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.752022",
+          "lng": "-1.257677"
+        }
+      }
+    ],
+    "topic_relations": {
+      "dh": true,
+      "nls": true,
+      "rdm": false,
+      "infrastructure": false,
+      "meta": true
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Huber, Alexander",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://c18ah.hcommons.org/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        ""
+      ],
+      "publications": {
+        "access": {
+          "open": "0",
+          "closed": 0,
+          "margin": 0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [],
+    "keywords": [
+      "catalogue",
+      "literature",
+      "poetry"
+    ],
+    "comment": ""
+  }
+}
