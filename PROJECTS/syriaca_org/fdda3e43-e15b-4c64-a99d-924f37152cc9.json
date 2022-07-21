@@ -80,7 +80,7 @@
         "org_name": {
           "text": "Vanderbilt University",
           "ref": [
-            "https://www.grid.ac/institutes/grid.152326.1"
+            "https://www.wikidata.org/wiki/Q29052"
           ]
         },
         "websites": [
@@ -103,7 +103,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Princeton University",
-          "ref": "https://www.wikidata.org/wiki/Q21578"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q21578"
+          ]
         },
         "websites": [
           "https://www.princeton.edu/"
@@ -125,7 +127,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Marquette University",
-          "ref": "https://www.wikidata.org/wiki/Q188370"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q188370"
+          ]
         },
         "websites": [
           "http://www.marquette.edu"
@@ -147,7 +151,9 @@
         "type": "organisation",
         "org_name": {
           "text": "New York University",
-          "ref": "https://www.wikidata.org/wiki/Q49210"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q49210"
+          ]
         },
         "websites": [
           "http://www.nyu.edu"

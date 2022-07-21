@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1.5",
+  "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc",
-    "record_created": "2022-06-16",
+    "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c",
+    "record_created": "2022-07-21",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,63 +12,63 @@
     ]
   },
   "project": {
-    "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
-    "abbr": "",
+    "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
+    "abbr": "HumanWeb",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2014-10",
-        "to": "2016-06"
+        "from": "2013",
+        "to": "2014"
       }
     ],
     "websites": [
-      "https://www.uni-bamberg.de/aspra/forschung/projekte/compilation-and-critical-edition-of-pre-19th-century-kurmanji-kurdish/"
+      "https://erc.europa.eu/projects-figures/erc-funded-projects/results?search_api_views_fulltext=+HUMANWEB&=Apply"
     ],
-    "project_desc": "The main purpose of this project is to lay a foundation for serious academic research on the history of Kurdish, which until now is severely hampered due to the lack of written attestation prior to the 15th century. The project will thus compile a selection of 10 Kurdish texts from prior to 1800, transliterated in a standardized format and supplied with English translations and an authoritative critical apparatus. The texts will also be made fully accessible as a digital corpus, accompanied by a concordance, and the resulting two volumes will be published on the open-access portal of the University of Bamberg.",
+    "project_desc": "",
     "places": [
       {
         "place_name": {
-          "text": "Bamberg",
+          "text": "Berlin",
           "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
+            "https://www.geonames.org/2950159/berlin.html"
           ]
         },
         "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       }
     ],
     "lang": [
-      "eng"
+      ""
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
+      "meta": true,
+      "rdm": true,
+      "infrastructure": true
     },
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Otto-Friedrich-Universität Bamberg",
+          "text": "",
           "ref": [
-            "https://www.wikidata.org/wiki/Q707272"
+            ""
           ]
         },
         "websites": [
-          "https://www.uni-bamberg.de/"
+          ""
         ],
         "places": [
           {
             "place_name": {
-              "text": "Bamberg",
+              "text": "",
               "ref": [
-                "https://www.geonames.org/2952984/bamberg.html"
+                ""
               ]
             }
           }
@@ -76,52 +76,67 @@
         "relations": []
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "parent",
         "type": "project",
-        "title": "Multilingual Corpus of Annotated Spoken Texts",
-        "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
+        "title": "",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          ""
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": [
+                ""
+              ]
+            }
+          }
+        ],
+        "relations": []
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "parent",
         "type": "project",
-        "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
-        "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
+        "title": "",
+        "uuid": ""
       },
       {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Documentation of Gorani, an endangered language of West Iran",
-        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
-        "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": [
+            ""
+          ]
+        },
+        "uuid": ""
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Öpengin, Ergin",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1121608140"
+            ""
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.uni-bamberg.de/aspra/team/ehemalige-mitarbeitende/dr-ergin-oepengin/"
+          ""
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "kur"
+        ""
       ],
       "publications": {
         "access": {
-          "open": 0.0,
-          "closed": 100.0,
+          "open": 0,
+          "closed": 100,
           "margin": 0.0
         },
         "licensing": [
@@ -195,9 +210,7 @@
       }
     ],
     "keywords": [
-      "kur",
-      "language_history",
-      "linguistics"
+      ""
     ],
     "comment": ""
   }

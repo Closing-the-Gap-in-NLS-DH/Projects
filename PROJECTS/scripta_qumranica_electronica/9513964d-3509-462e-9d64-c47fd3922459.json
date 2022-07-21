@@ -117,7 +117,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Tel Aviv University",
-          "ref": "https://www.wikidata.org/wiki/Q319239"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q319239"
+          ]
         },
         "websites": [
           "http://english.tau.ac.il/"
@@ -139,7 +141,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Israel Antiquities Authority",
-          "ref": "https://www.wikidata.org/wiki/Q2744135"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2744135"
+          ]
         },
         "websites": [
           "http://www.antiquities.org.il/about_en"

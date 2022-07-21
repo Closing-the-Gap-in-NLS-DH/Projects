@@ -56,9 +56,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "WWU Münster",
+          "text": "Westfälische Wilhelms-Universität Münster",
           "ref": [
-            "https://d-nb.info/gnd/36175-6"
+            "https://www.wikidata.org/wiki/Q168426"
           ]
         },
         "websites": [

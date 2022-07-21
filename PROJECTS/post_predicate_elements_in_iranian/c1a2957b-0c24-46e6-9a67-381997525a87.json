@@ -69,9 +69,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Bamberg",
+          "text": "Otto-Friedrich-Universität Bamberg",
           "ref": [
-            "https://www.grid.ac/institutes/grid.7359.8"
+            "https://www.wikidata.org/wiki/Q707272"
           ]
         },
         "websites": [
@@ -94,7 +94,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Bu-Ali Sina University",
-          "ref": "https://www.wikidata.org/wiki/Q4982044"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4982044"
+          ]
         },
         "websites": [
           "http://www.basu.ac.ir/"

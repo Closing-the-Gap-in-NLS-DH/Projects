@@ -57,7 +57,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Martin-Luther-Universität Halle-Wittenberg",
-          "ref": "https://www.wikidata.org/wiki/Q32120"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q32120"
+          ]
         },
         "websites": [
           "http://www.uni-halle.de/?lang=en"

@@ -33,6 +33,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`lexicography` – projects producing dictionaries or infrastructure for such projects 
     -	`religion_history` – projects dedicated to the research on development of religious communities, religious texts etc. 
     -	`literature`
+    -   `poetry`
     -	`translation`
     -	`music` – projects working on musical manuscripts, song texts, etc. 
     -	`medicine` – projects working on text about medicine 

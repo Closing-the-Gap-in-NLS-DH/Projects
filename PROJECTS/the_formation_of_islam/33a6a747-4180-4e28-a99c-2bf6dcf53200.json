@@ -60,7 +60,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Leiden University",
-          "ref": "https://www.wikidata.org/wiki/Q156598"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q156598"
+          ]
         },
         "websites": [
           "http://www.leiden.edu"

@@ -64,7 +64,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
-          "ref": "https://www.wikidata.org/wiki/Q161976"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q161976"
+          ]
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite/"

@@ -68,7 +68,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Harvard University",
-          "ref": "https://www.wikidata.org/wiki/Q13371"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q13371"
+          ]
         },
         "websites": [
           "http://www.harvard.edu/"
@@ -91,7 +93,7 @@
         "org_name": {
           "text": "Tufts University",
           "ref": [
-            "https://www.grid.ac/institutes/grid.429997.8"
+            "https://www.wikidata.org/wiki/Q49120"
           ]
         },
         "websites": [

@@ -84,7 +84,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Doha Institute for Graduate Studies",
-          "ref": "https://www.wikidata.org/wiki/Q23418976"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q23418976"
+          ]
         },
         "websites": [
           "https://www.dohainstitute.org/en/Pages/index.aspx"

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6",
+    "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad7",
     "record_created": "2022-07-19",
     "record_created_by": "Huber, Alexander",
     "record_modified": [
@@ -93,7 +93,9 @@
       }
     ],
     "research_data": {
-      "lang": [],
+      "lang": [
+        ""
+      ],
       "publications": {
         "access": {
           "open": "0",
@@ -128,6 +130,7 @@
     },
     "policies": [],
     "keywords": [
+      "",
       "catalogue",
       "literature",
       "poetry"

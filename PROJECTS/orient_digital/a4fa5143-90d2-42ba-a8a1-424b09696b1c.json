@@ -101,7 +101,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q170109"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q170109"
+          ]
         },
         "websites": [
           "https://staatsbibliothek-berlin.de/"
@@ -124,7 +126,7 @@
         "org_name": {
           "text": "Universität Erfurt",
           "ref": [
-            "https://www.grid.ac/institutes/grid.32801.38"
+            "https://www.wikidata.org/wiki/Q702524"
           ]
         },
         "websites": [
@@ -146,9 +148,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Leipzig University",
+          "text": "Universität Leipzig",
           "ref": [
-            "https://www.grid.ac/institutes/grid.9647.c"
+            "https://www.wikidata.org/wiki/Q154804"
           ]
         },
         "websites": [
@@ -170,7 +172,7 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Bavarian State Library",
+          "text": "Bayerische Staatsbibliothek",
           "ref": [
             "https://www.wikidata.org/wiki/Q256507"
           ]

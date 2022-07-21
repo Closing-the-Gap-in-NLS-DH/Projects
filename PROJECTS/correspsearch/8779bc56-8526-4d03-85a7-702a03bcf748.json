@@ -61,7 +61,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-          "ref": "https://www.wikidata.org/wiki/Q219989"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q219989"
+          ]
         },
         "websites": [
           "https://www.bbaw.de/"

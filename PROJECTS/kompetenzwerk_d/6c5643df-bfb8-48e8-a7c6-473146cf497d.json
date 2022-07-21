@@ -61,7 +61,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q27891200"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27891200"
+          ]
         },
         "websites": [
           "https://www.saw-leipzig.de/de/aktuelles"
@@ -83,7 +85,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
-          "ref": "https://www.wikidata.org/wiki/Q1499019"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1499019"
+          ]
         },
         "websites": [
           "https://leibniz-gwzo.de/de"
@@ -104,9 +108,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "das Leibniz-Institut für jüdische Geschichte und Kultur – Simon Dubnow e.V",
+          "text": "Simon-Dubnow-Institut für Jüdische Geschichte und Kultur",
           "ref": [
-            "https://www.grid.ac/institutes/grid.505963.c"
+            "https://d-nb.info/gnd/5236159-7"
           ]
         },
         "websites": [
@@ -129,7 +133,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
-          "ref": "https://d-nb.info/gnd/10048270-3"
+          "ref": [
+            "https://d-nb.info/gnd/10048270-3"
+          ]
         },
         "websites": [
           "https://www.isgv.de/"

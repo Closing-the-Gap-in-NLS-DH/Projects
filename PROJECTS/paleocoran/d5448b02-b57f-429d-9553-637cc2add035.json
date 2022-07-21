@@ -73,9 +73,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "die Berlin-Brandenburgische Akademie der Wissenschaften",
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
-            "https://www.grid.ac/institutes/grid.420264.6"
+            "https://www.wikidata.org/wiki/Q219989"
           ]
         },
         "websites": [
@@ -98,7 +98,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Collège de France",
-          "ref": "https://www.wikidata.org/wiki/Q202660"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q202660"
+          ]
         },
         "websites": [
           "http://www.college-de-france.fr/site/college/index.htm"

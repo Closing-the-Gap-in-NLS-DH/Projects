@@ -62,7 +62,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q152087"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152087"
+          ]
         },
         "websites": [
           "https://www.hu-berlin.de"
@@ -84,7 +86,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q153006"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
         },
         "websites": [
           "https://www.fu-berlin.de/"

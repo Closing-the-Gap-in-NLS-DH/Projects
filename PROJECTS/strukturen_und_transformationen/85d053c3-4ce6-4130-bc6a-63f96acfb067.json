@@ -91,7 +91,7 @@
             "org_name": {
               "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
               "ref": [
-                "https://www.grid.ac/institutes/grid.420264.6"
+                "https://www.wikidata.org/wiki/Q153006"
               ]
             },
             "website": [
@@ -116,7 +116,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q27891200"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27891200"
+          ]
         },
         "websites": [
           "https://www.saw-leipzig.de/"

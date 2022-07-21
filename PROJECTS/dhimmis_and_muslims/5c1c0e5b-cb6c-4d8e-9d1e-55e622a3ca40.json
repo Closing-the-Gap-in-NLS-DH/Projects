@@ -83,7 +83,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
-          "ref": "https://www.wikidata.org/wiki/Q50662"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q50662"
+          ]
         },
         "websites": [
           "http://www.goethe-university-frankfurt.de/en?"
@@ -106,7 +108,7 @@
         "org_name": {
           "text": "Universität Stuttgart",
           "ref": [
-            "https://www.grid.ac/institutes/grid.5719.a"
+            "https://www.wikidata.org/wiki/Q122453"
           ]
         },
         "websites": [
@@ -129,7 +131,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q152087"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152087"
+          ]
         },
         "websites": [
           "https://www.hu-berlin.de/de"

@@ -69,7 +69,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": "https://www.wikidata.org/wiki/Q156598"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q156598"
+          ]
         },
         "websites": [
           "https://www.lmu.de/de/index.html"
@@ -92,7 +94,7 @@
         "org_name": {
           "text": "Universität Zürich",
           "ref": [
-            "https://www.geonames.org/6930857/university-of-zuerich.html"
+            "https://www.wikidata.org/wiki/Q206702"
           ]
         },
         "websites": [

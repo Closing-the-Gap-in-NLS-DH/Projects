@@ -57,7 +57,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": "https://www.wikidata.org/wiki/Q27891200"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27891200"
+          ]
         },
         "websites": [
           "https://www.saw-leipzig.de/de"

@@ -20,7 +20,7 @@
     "abbr": "HMML",
     "type": "organisation",
     "ref": [
-      "https://www.grid.ac/institutes/grid.497318.0"
+      "https://www.wikidata.org/wiki/Property:P9943"
     ],
     "date": [
       {
@@ -62,7 +62,9 @@
         "type": "organisation",
         "org_name": {
           "text": "College of Saint Benedict & Saint John's University",
-          "ref": "https://www.wikidata.org/wiki/Q5146820"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5146820"
+          ]
         },
         "websites": [
           "https://www.csbsju.edu/"

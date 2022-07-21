@@ -60,7 +60,9 @@
         "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
-          "ref": "https://www.wikidata.org/wiki/Q4690953"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
         },
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",

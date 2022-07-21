@@ -201,7 +201,7 @@
         "org_name": {
           "text": "The Institute of the Polish Language of the Polish Academy of Sciences",
           "ref": [
-            "https://www.grid.ac/institutes/grid.460376.0"
+            "https://www.wikidata.org/wiki/Q941016"
           ]
         },
         "websites": [
@@ -223,9 +223,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Potsdam",
+          "text": "Universität Potsdam",
           "ref": [
-            "https://www.grid.ac/institutes/grid.11348.3f"
+            "https://www.wikidata.org/wiki/Q153012"
           ]
         },
         "websites": [
@@ -249,7 +249,7 @@
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
-            "https://www.grid.ac/institutes/grid.4299.6"
+            "https://www.wikidata.org/wiki/Q299015"
           ]
         },
         "websites": [
@@ -272,7 +272,9 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Distance Education",
-          "ref": "https://www.wikidata.org/wiki/Q421739"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q421739"
+          ]
         },
         "websites": [
           "https://www.uned.es/universidad/inicio.html"
@@ -295,7 +297,7 @@
         "org_name": {
           "text": "École Normale Supérieure de Lyon",
           "ref": [
-            "https://www.grid.ac/institutes/grid.15140.31"
+            "https://www.wikidata.org/wiki/Q10159"
           ]
         },
         "websites": [
@@ -318,7 +320,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
-          "ref": "https://www.wikidata.org/wiki/Q152087"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152087"
+          ]
         },
         "websites": [
           "https://www.hu-berlin.de/?set_language=en&cl=en"
@@ -340,7 +344,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Charles University",
-          "ref": "https://www.wikidata.org/wiki/Q31519"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q31519"
+          ]
         },
         "websites": [
           "https://cuni.cz/UKEN-1.html"
@@ -373,7 +379,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Ghent University",
-          "ref": "https://www.wikidata.org/wiki/Q1137665"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1137665"
+          ]
         },
         "websites": [
           "https://www.ugent.be/en"
@@ -419,7 +427,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Royal Netherlands Academy of Arts and Sciences",
-          "ref": "https://www.wikidata.org/wiki/Q253439"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q253439"
+          ]
         },
         "websites": [
           "http://www.knaw.nl/nl"
@@ -440,9 +450,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Trier",
+          "text": "Universität Trier",
           "ref": [
-            "https://www.grid.ac/institutes/grid.12391.38"
+            "https://www.wikidata.org/wiki/Q572286"
           ]
         },
         "websites": [
@@ -465,7 +475,9 @@
         "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
-          "ref": "https://www.wikidata.org/wiki/Q644478"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q644478"
+          ]
         },
         "websites": [
           "http://www.nuigalway.ie/"

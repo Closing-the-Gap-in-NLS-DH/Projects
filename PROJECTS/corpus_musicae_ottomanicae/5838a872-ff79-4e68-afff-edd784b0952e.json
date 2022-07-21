@@ -83,9 +83,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Münster",
+          "text": "Westfälische Wilhelms-Universität Münster",
           "ref": [
-            "https://www.grid.ac/institutes/grid.5949.1"
+            "https://www.wikidata.org/wiki/Q168426"
           ]
         },
         "websites": [
@@ -108,7 +108,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Max Weber Foundation International Humanities",
-          "ref": "https://www.wikidata.org/wiki/Q1913589"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1913589"
+          ]
         },
         "websites": [
           "http://www.maxweberstiftung.de/en/"

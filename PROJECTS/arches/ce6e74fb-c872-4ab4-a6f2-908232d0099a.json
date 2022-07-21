@@ -68,7 +68,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": "https://www.wikidata.org/wiki/Q156598"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q156598"
+          ]
         },
         "websites": [
           "https://www.lmu.de/de/index.html"
@@ -90,7 +92,9 @@
         "type": "organisation",
         "org_name": {
           "text": "The Hebrew University of Jerusalem",
-          "ref": "https://www.wikidata.org/wiki/Q174158"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q174158"
+          ]
         },
         "websites": [
           "https://en.huji.ac.il/en"

@@ -60,7 +60,9 @@
         "type": "organisation",
         "org_name": {
           "text": "King's College London",
-          "ref": "https://www.wikidata.org/wiki/Q245247"
+          "ref": [
+            "https://www.wikidata.org/wiki/Q245247"
+          ]
         },
         "websites": [
           "https://www.kcl.ac.uk/"
