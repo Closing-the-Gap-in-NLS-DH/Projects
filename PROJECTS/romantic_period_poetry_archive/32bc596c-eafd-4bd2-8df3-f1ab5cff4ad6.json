@@ -6,8 +6,8 @@
     "record_created_by": "Huber, Alexander",
     "record_modified": [
       {
-        "record_modified": "",
-        "record_modified_by": ""
+        "record_modified": "2022-07-21",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -20,8 +20,8 @@
     ],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2020",
+        "to": "2025"
       }
     ],
     "websites": [
@@ -47,7 +47,7 @@
       "nls": true,
       "rdm": false,
       "infrastructure": false,
-      "meta": true
+      "meta": false
     },
     "relations": [
       {
