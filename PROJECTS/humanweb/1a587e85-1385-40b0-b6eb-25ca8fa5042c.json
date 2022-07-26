@@ -74,6 +74,12 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "The Yemeni Manuscript Digitization Initiative",
+        "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0"
       }
     ],
     "contacts": [
