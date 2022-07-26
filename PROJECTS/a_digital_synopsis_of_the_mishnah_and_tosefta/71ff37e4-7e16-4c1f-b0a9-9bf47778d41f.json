@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
+    "record_created": "2022-07-26",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "A Digital Synopsis of the Mishnah and Tosefta",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015-01-12",
+        "to": "2018-01-12."
+      }
+    ],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
+      "https://gepris.dfg.de/gepris/projekt/273844901?context=projekt&task=showDetail&id=273844901&"
+    ],
+    "project_desc": "The aim of this project is to provide scholars and lay students of early rabbinic literature with digital tools to study and determine relationships between two central texts of rabbinic Judaism: the Mishnah (200 CE) and the Tosefta (250 CE) which share the same overall structure, the parallel organization, similar language and terminology and yet their relationship is tantalizingly problematic. The Synopsis Project will build upon and test computational methods for identifying \"text reuse\"; it will develop strategies and tools for presentation and visualization of overlapping texts which will provide access to the parallel and interrelated traditions of both texts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
+        "ref": [],
+        "websites": [
+          "https://www.sfb-episteme.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Maryland, College Park",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q503415"
+          ]
+        },
+        "websites": [
+          "https://www.umd.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "College Park",
+              "ref": [
+                "https://www.geonames.org/4351977/college-park.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Ilan, Tal",
+          "ref": [
+            "https://d-nb.info/gnd/121164306"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/001Professor_inn_en/Ilan.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Lapin, Hayim",
+          "ref": [
+            "https://d-nb.info/gnd/1026148820"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://history.umd.edu/directory/hayim-lapin"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "digital_edition",
+      "heb",
+      "manuscripts",
+      "religion_history",
+      "virtual_research_environment"
+    ],
+    "comment": ""
+  }
+}
