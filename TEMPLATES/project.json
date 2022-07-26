@@ -15,26 +15,20 @@
     "title": "",
     "abbr": "",
     "type": "",
-    "ref": [
-      ""
-    ],
+    "ref": [],
     "date": [
       {
         "from": "",
         "to": ""
       }
     ],
-    "websites": [
-      ""
-    ],
+    "websites": [],
     "project_desc": "",
     "places": [
       {
         "place_name": {
           "text": "",
-          "ref": [
-            ""
-          ]
+          "ref": []
         },
         "coordinates": {
           "lat": "",
@@ -42,9 +36,7 @@
         }
       }          
     ],
-    "lang": [
-      ""          
-    ],
+    "lang": [],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -58,20 +50,14 @@
         "type": "organisation",
         "org_name": {
           "text": "",
-          "ref": [
-            ""
-          ]
+          "ref": []
         },
-        "websites": [
-          ""
-        ],
+        "websites": [],
         "places":[
           {
             "place_name": {
               "text": "",
-              "ref": [
-                ""
-              ]
+              "ref": []
             }
           }
         ],
@@ -81,19 +67,13 @@
         "relation_type": "parent",
         "type": "project",
         "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
+        "ref": [],
+        "websites": [],
         "places":[
           {
             "place_name": {
               "text": "",
-              "ref": [
-                ""
-              ]
+              "ref": []
             }
           }
         ],
@@ -110,9 +90,7 @@
         "type": "organisation",
         "org_name": {
           "text": "",
-          "ref": [
-              ""
-          ]
+          "ref": []
         },
         "uuid": ""
       }
@@ -121,20 +99,14 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-              ""
-          ]
+          "ref": []
         },
         "role": 0,
-        "websites": [
-          ""
-        ]           
+        "websites": []           
       }         
     ],
     "research_data": {
-      "lang": [
-        ""
-      ],
+      "lang": [],
       "publications": {
         "access": {
           "open": 0,
@@ -208,9 +180,7 @@
         "uri": ""
       }
     ],
-    "keywords": [
-      ""
-    ],
+    "keywords": [],
     "comment": ""
   }
 }
