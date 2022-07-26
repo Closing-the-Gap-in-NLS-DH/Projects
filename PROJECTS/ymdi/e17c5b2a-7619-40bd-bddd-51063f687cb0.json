@@ -1,32 +1,45 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c",
-    "record_created": "2022-07-21",
+    "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
+    "record_created": "2022-07-26",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-07-26",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_on": "",
+        "record_modified_by": ""
       }
     ]
   },
   "project": {
-    "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
-    "abbr": "HumanWeb",
+    "title": "The Yemeni Manuscript Digitization Initiative",
+    "abbr": "YMDI",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2013",
-        "to": "2014"
+        "from": "2010",
+        "to": "2013"
       }
     ],
     "websites": [
-      "https://erc.europa.eu/projects-figures/erc-funded-projects/results?search_api_views_fulltext=+HUMANWEB&=Apply"
+      "https://ymdi.uoregon.edu/projects/",
+      "https://gepris.dfg.de/gepris/projekt/173778285?context=projekt&task=showDetail&id=173778285&"
     ],
-    "project_desc": "In this POC project will demonstrate that humanistic sciences can be productively coupled with sound business strategies to advance societal benefits and cultural sustainability. The grant will be used to get into contact and contract with potential joint venture partners for a cooperation which will result in a ground-braking universal online digital library for Yemeni manuscripts.",
+    "project_desc": "The Yemen Manuscript Digitization Initiative (YMDI) is a collaborative project between Princeton University Library and the Freie Universität, Berlin. YMDI's mission is the preservation and dissemination of the Arabic manuscripts in the private libraries of Yemen. The scope of the project is threefold: 1. preservation of three private libraries in Sana'a, a total of 236 manuscripts. 2. digitization of 12 additional manuscripts in the rare book collections of the State Library Berlin and the Princeton University Library. 3 creation of a freely accessible repository of Islamic manuscripts based on the digital-library infrastructure developed at Princeton.",
     "places": [
+      {
+        "place_name": {
+          "text": "Princeton",
+          "ref": [
+            "https://www.geonames.org/5102922/princeton.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "40.34872",
+          "lng": "-74.65905"
+        }
+      },
       {
         "place_name": {
           "text": "Berlin",
@@ -37,6 +50,18 @@
         "coordinates": {
           "lat": "52.52437",
           "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Sanaa",
+          "ref": [
+            "https://www.geonames.org/71137/sanaa.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "15.35472",
+          "lng": "44.20667"
         }
       }
     ],
@@ -76,10 +101,34 @@
         "relations": []
       },
       {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Princeton University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q21578"
+          ]
+        },
+        "websites": [
+          "https://www.princeton.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Princeton",
+              "ref": [
+                "https://www.geonames.org/5102922/princeton.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
         "relation_type": "sibling",
         "type": "project",
-        "title": "The Yemeni Manuscript Digitization Initiative",
-        "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0"
+        "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
+        "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c"
       }
     ],
     "contacts": [
@@ -93,6 +142,18 @@
         "role": 0,
         "websites": [
           "https://www.ias.edu/scholars/schmidtke"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Magier, David",
+          "ref": [
+            "https://d-nb.info/gnd/1050435206"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://library.princeton.edu/staff/dmagier"
         ]
       }
     ],
