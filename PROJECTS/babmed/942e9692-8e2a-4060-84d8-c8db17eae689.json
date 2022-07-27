@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "942e9692-8e2a-4060-84d8-c8db17eae689",
+    "record_created": "2022-07-27",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "BABMED - Babylonische Medizin",
+    "abbr": "BABMED",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013-07",
+        "to": "2018-06"
+      }
+    ],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/e/babmed/index.html"
+    ],
+    "project_desc": "BabMed represents the first comprehensive study of ancient Babylonian medical science since the decipherment of the cuneiform writing system. It aims to make Babylonian medical texts and available not only for the specialist, but for the wider public as well by publishing them in form of thematic online corpora. Its second objective is to study medicine in the Babylonian Talmud, in order to explore comparisons with later medical traditions from the same region in Aramaic, another language of ancient Mesopotamia.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Ramat Gan",
+          "ref": [
+            "https://www.geonames.org/293788/ramat-gan.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "32.08227",
+          "lng": "34.81065"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Bar-Ilan University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1124657"
+          ]
+        },
+        "websites": [
+          "https://www.biu.ac.il/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Ramat Gan",
+              "ref": [
+                "https://www.geonames.org/293788/ramat-gan.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Geller, Markham J.",
+          "ref": [
+            "https://d-nb.info/gnd/14301918X"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/babmed/Team/FU-Mitarbeiter/geller.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "arc"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "arc",
+      "catalogue",
+      "medicine"
+    ],
+    "comment": ""
+  }
+}
