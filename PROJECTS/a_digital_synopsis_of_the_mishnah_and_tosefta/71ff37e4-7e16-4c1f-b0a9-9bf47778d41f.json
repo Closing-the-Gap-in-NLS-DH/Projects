@@ -88,26 +88,6 @@
       },
       {
         "relation_type": "parent",
-        "type": "project",
-        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
-        "ref": [],
-        "websites": [
-          "https://www.sfb-episteme.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "University of Maryland, College Park",
@@ -129,6 +109,12 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
+        "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff"
       }
     ],
     "contacts": [

@@ -76,6 +76,12 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "A Digital Synopsis of the Mishnah and Tosefta",
+        "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f"
       }
     ],
     "contacts": [
