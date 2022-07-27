@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
-    "record_created": "2022-07-26",
+    "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff",
+    "record_created": "2022-07-27",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,21 @@
     ]
   },
   "project": {
-    "title": "A Digital Synopsis of the Mishnah and Tosefta",
+    "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2015-01-12",
-        "to": "2018-01-12."
+        "from": "2019-01-04",
+        "to": "2024-31-03"
       }
     ],
     "websites": [
-      "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
-      "https://gepris.dfg.de/gepris/projekt/273844901?context=projekt&task=showDetail&id=273844901&"
+      "https://www.geschkult.fu-berlin.de/en/e/knowledge_patterns/index.html",
+      "https://gepris.dfg.de/gepris/projekt/401023278"
     ],
-    "project_desc": "The aim of this project is to provide scholars and lay students of early rabbinic literature with digital tools to study and determine relationships between two central texts of rabbinic Judaism: the Mishnah (200 CE) and the Tosefta (250 CE) which share the same overall structure, the parallel organization, similar language and terminology and yet their relationship is tantalizingly problematic. The Synopsis Project will build upon and test computational methods for identifying \"text reuse\"; it will develop strategies and tools for presentation and visualization of overlapping texts which will provide access to the parallel and interrelated traditions of both texts.",
+    "project_desc": "This project aims to explore how Jewish esoteric knowledge circulated throughout history in multiple moves of transmission and reception that took place in various social, cultural, and material contexts in early modern East-Central Europe. To this end it will provide a systematic digital catalogue and quantitative analysis of esoteric Jewish texts produced and in circulation in East-Central Europe from 1500 to 1750. The catalogue will provide grounds for further analysis of transmission, reception, and movement of these texts and is designed to facilitate further qualitative studies of patterns of knowledge transmission based on quantitative analysis of relevant sources.",
     "places": [
       {
         "place_name": {
@@ -39,21 +39,12 @@
           "lat": "52.52437",
           "lng": "13.41053"
         }
-      },
-      {
-        "place_name": {
-          "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -87,59 +78,23 @@
         "relations": []
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "University of Maryland, College Park",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q503415"
-          ]
-        },
-        "websites": [
-          "https://www.umd.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "College Park",
-              "ref": [
-                "https://www.geonames.org/4351977/college-park.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
         "relation_type": "sibling",
         "type": "project",
-        "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
-        "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff"
+        "title": "A Digital Synopsis of the Mishnah and Tosefta",
+        "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Ilan, Tal",
+          "text": "Paluch, Agata",
           "ref": [
-            "https://d-nb.info/gnd/121164306"
+            "https://d-nb.info/gnd/1229106316"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/001Professor_inn_en/Ilan.html"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "Lapin, Hayim",
-          "ref": [
-            "https://d-nb.info/gnd/1026148820"
-          ]
-        },
-        "role": 0,
-        "websites": [
-          "https://history.umd.edu/directory/hayim-lapin"
+          "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/002Mitarbeiter_innen/paluch.html"
         ]
       }
     ],
@@ -224,11 +179,11 @@
       }
     ],
     "keywords": [
-      "digital_edition",
+      "catalogue",
       "heb",
+      "kabbalah",
       "manuscripts",
-      "religion_history",
-      "virtual_research_environment"
+      "religion_history"
     ],
     "comment": ""
   }

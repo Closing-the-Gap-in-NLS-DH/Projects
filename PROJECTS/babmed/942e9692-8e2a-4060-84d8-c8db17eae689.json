@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
-    "record_created": "2022-07-26",
+    "uuid": "942e9692-8e2a-4060-84d8-c8db17eae689",
+    "record_created": "2022-07-27",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,20 @@
     ]
   },
   "project": {
-    "title": "A Digital Synopsis of the Mishnah and Tosefta",
-    "abbr": "",
+    "title": "BABMED - Babylonische Medizin",
+    "abbr": "BABMED",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2015-01-12",
-        "to": "2018-01-12."
+        "from": "2013-07",
+        "to": "2018-06"
       }
     ],
     "websites": [
-      "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
-      "https://gepris.dfg.de/gepris/projekt/273844901?context=projekt&task=showDetail&id=273844901&"
+      "https://www.geschkult.fu-berlin.de/e/babmed/index.html"
     ],
-    "project_desc": "The aim of this project is to provide scholars and lay students of early rabbinic literature with digital tools to study and determine relationships between two central texts of rabbinic Judaism: the Mishnah (200 CE) and the Tosefta (250 CE) which share the same overall structure, the parallel organization, similar language and terminology and yet their relationship is tantalizingly problematic. The Synopsis Project will build upon and test computational methods for identifying \"text reuse\"; it will develop strategies and tools for presentation and visualization of overlapping texts which will provide access to the parallel and interrelated traditions of both texts.",
+    "project_desc": "BabMed represents the first comprehensive study of ancient Babylonian medical science since the decipherment of the cuneiform writing system. It aims to make Babylonian medical texts and available not only for the specialist, but for the wider public as well by publishing them in form of thematic online corpora. Its second objective is to study medicine in the Babylonian Talmud, in order to explore comparisons with later medical traditions from the same region in Aramaic, another language of ancient Mesopotamia.",
     "places": [
       {
         "place_name": {
@@ -42,18 +41,21 @@
       },
       {
         "place_name": {
-          "text": "College Park",
+          "text": "Ramat Gan",
           "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
+            "https://www.geonames.org/293788/ramat-gan.html"
           ]
         },
         "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
+          "lat": "32.08227",
+          "lng": "34.81065"
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -90,62 +92,44 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Maryland, College Park",
+          "text": "Bar-Ilan University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q503415"
+            "https://www.wikidata.org/wiki/Q1124657"
           ]
         },
         "websites": [
-          "https://www.umd.edu/"
+          "https://www.biu.ac.il/en"
         ],
         "places": [
           {
             "place_name": {
-              "text": "College Park",
+              "text": "Ramat Gan",
               "ref": [
-                "https://www.geonames.org/4351977/college-park.html"
+                "https://www.geonames.org/293788/ramat-gan.html"
               ]
             }
           }
         ],
         "relations": []
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
-        "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Ilan, Tal",
+          "text": "Geller, Markham J.",
           "ref": [
-            "https://d-nb.info/gnd/121164306"
+            "https://d-nb.info/gnd/14301918X"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/001Professor_inn_en/Ilan.html"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "Lapin, Hayim",
-          "ref": [
-            "https://d-nb.info/gnd/1026148820"
-          ]
-        },
-        "role": 0,
-        "websites": [
-          "https://history.umd.edu/directory/hayim-lapin"
+          "https://www.geschkult.fu-berlin.de/e/babmed/Team/FU-Mitarbeiter/geller.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "heb"
+        "arc"
       ],
       "publications": {
         "access": {
@@ -224,11 +208,9 @@
       }
     ],
     "keywords": [
-      "digital_edition",
-      "heb",
-      "manuscripts",
-      "religion_history",
-      "virtual_research_environment"
+      "arc",
+      "catalogue",
+      "medicine"
     ],
     "comment": ""
   }
