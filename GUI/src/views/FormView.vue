@@ -8,7 +8,7 @@
         We will continue to develop this service to include additional features, like validation on entry, automatically acquired coordinates or an option to load and continue to work on existing files.
       </p>
       <p class="p-4 bubble my-3 rounded-xl">After you finished entering your data, you have to click <span class="font-bold">twice</span> on the button at the end: Once for generating the JSON and once for the download.
-        To populate your data into our database, please provide the JSON-file to our main contact: jonas.mueller-laackman@fu-berlin.de</p>
+        To populate your data into our database, please provide the JSON-file to our main contact: bua321-nls@geschkult.fu-berlin.de</p>
       <h4 class="text-2xl text-left">Metadata</h4>
       <div class="grid grid-cols-2 gap-y-1 gap-x-4 text-left">
         <label class="block col-span-2">
