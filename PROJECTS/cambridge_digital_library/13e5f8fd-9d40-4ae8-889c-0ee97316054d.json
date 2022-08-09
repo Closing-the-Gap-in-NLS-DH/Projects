@@ -14,16 +14,20 @@
   "project": {
     "title": "Cambridge Digital Library",
     "abbr": "",
-    "type": "",
-    "ref": [],
+    "type": "project",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q15989882"
+    ],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2010",
+        "to": "2014"
       }
     ],
-    "websites": [],
-    "project_desc": "",
+    "websites": [
+      "https://cudl.lib.cam.ac.uk/"
+    ],
+    "project_desc": "The Cambridge Digital Library is a project designed to make items form the unique and distinctive collections of Cambridge University Library available online. Many of them contain manuscripts written in non-Latin scripts like Arabic or Hebrew, e.g. Islamic Manuscripts, Mingana-Lewis Palimpsest or Cairo Genizah.",
     "places": [
       {
         "place_name": {
@@ -42,73 +46,53 @@
     "topic_relations": {
       "nls": true,
       "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
     },
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "",
-          "ref": []
+          "text": "University of Cambridge",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q35794"
+          ]
         },
-        "websites": [],
+        "websites": [
+          "https://www.cam.ac.uk/"
+        ],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": []
+              "text": "Cambridge",
+              "ref": [
+                "http://www.geonames.org/2653941/cambridge.html"
+              ]
             }
           }
         ],
         "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "",
-        "ref": [],
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "uuid": ""
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
+          "text": "Jones, Huw",
           "ref": []
         },
         "role": 0,
-        "websites": []
+        "websites": [
+          "https://www.cdh.cam.ac.uk/about/people/huw-jones/"
+        ]
       }
     ],
     "research_data": {
-      "lang": [],
+      "lang": [
+        "ara",
+        "heb"
+      ],
       "publications": {
         "access": {
           "open": 0,
@@ -185,7 +169,13 @@
         "uri": ""
       }
     ],
-    "keywords": [],
+    "keywords": [
+      "ara",
+      "catalogue",
+      "heb",
+      "library",
+      "manuscripts"
+    ],
     "comment": ""
   }
 }
