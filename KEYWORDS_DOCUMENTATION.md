@@ -5,13 +5,15 @@ Last edited: 12-07-2022
 
 ## Introduction 
 Keywords should provide a general information about the topic, aim, result and type of a given project. To this end each project (except of RDM and infrastructure projects) should, if possible, contain at least one keyword for each category: 
+
 -	**output** - the aimed results of the project or services provided
 -	**field** - the field of study that the project can be assigned to 
 -	**research object** – information about the subject matter, topic or materials on with the research is being conducted. It can be both *general* (e.g. manuscripts) and *specific* (e.g. manuscripts´ author)
--   **method** - DH method applied in the research
+- **method** - DH method applied in the research
 -	**languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
 -	**infrastructure_projects** – for infrastructure and RDM projects keywords are not necessary, as they can be found through the *topic_relations* category. If available though, keywords should describe the kind of service provided or technology used
 -	**other** – for any keywords not matching the above mentioned 
+
 
 For the most part, the number of keywords should not exceed 5  (research data languages excluded) - all written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly. 
 
