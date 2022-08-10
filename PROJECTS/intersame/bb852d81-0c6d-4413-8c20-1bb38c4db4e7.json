@@ -1,0 +1,259 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7",
+    "record_created": "2022-08-10",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
+    "abbr": "InterSaME",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/research/current-projects/intersame.html",
+      "https://www.intersame.uni-hamburg.de/"
+    ],
+    "project_desc": "The scope of this project is to study the convergence of the three major religions of the Middle East, Islam, Christianity and Judaism, at their formative periods of development during the early Islamic centuries. Two particularly striking phenomena of this convergence include the development of notation systems in Arabic and Syriac representing the oral reading traditions and the assimilation of the mode of transmission of the Hebrew Bible in the 10th and 11th centuries to that of the Arabic Qur’an. The project will conduct digital analysis of the Qur’anic manuscripts, Syriac and Hebrew Bible based on digital annotation in order to contribute to the comprehension of the individual sacred traditions and to identify parallels across these traditions.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "http://www.geonames.org/2653941/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.2",
+          "lng": "0.11667"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "relation_type": "parent",
+            "type": "organisation",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ],
+            "relations": []
+          }
+        ]
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Cambridge",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q35794"
+          ]
+        },
+        "websites": [
+          "https://www.cam.ac.uk/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cambridge",
+              "ref": [
+                "http://www.geonames.org/2653941/cambridge.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Fedeli, Alba",
+          "ref": [
+            "http://viaf.org/viaf/13159335176612960925"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/fedeli.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Khan, Geoffrey",
+          "ref": [
+            "https://d-nb.info/gnd/136726224"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.ames.cam.ac.uk/people/professor-geoffrey-khan"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "heb",
+        "syr"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "ara",
+      "bible",
+      "heb",
+      "manuscripts",
+      "quran",
+      "religion_history",
+      "syr"
+    ],
+    "comment": ""
+  }
+}
