@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "13e5f8fd-9d40-4ae8-889c-0ee97316054d",
+    "record_created": "2022-08-09",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Cambridge Digital Library",
+    "abbr": "",
+    "type": "project",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q15989882"
+    ],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2014"
+      }
+    ],
+    "websites": [
+      "https://cudl.lib.cam.ac.uk/"
+    ],
+    "project_desc": "The Cambridge Digital Library is a project designed to make items form the unique and distinctive collections of Cambridge University Library available online. Many of them contain manuscripts written in non-Latin scripts like Arabic or Hebrew, e.g. Islamic Manuscripts, Mingana-Lewis Palimpsest or Cairo Genizah.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "http://www.geonames.org/2653941/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.2",
+          "lng": "0.11667"
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Cambridge",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q35794"
+          ]
+        },
+        "websites": [
+          "https://www.cam.ac.uk/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cambridge",
+              "ref": [
+                "http://www.geonames.org/2653941/cambridge.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Jones, Huw",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://www.cdh.cam.ac.uk/about/people/huw-jones/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "heb"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "catalogue",
+      "heb",
+      "library",
+      "manuscripts"
+    ],
+    "comment": ""
+  }
+}
