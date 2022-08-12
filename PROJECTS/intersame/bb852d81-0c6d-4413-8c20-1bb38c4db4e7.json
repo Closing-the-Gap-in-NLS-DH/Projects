@@ -134,6 +134,36 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
+        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968 "
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History",
+        "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "contacts": [
