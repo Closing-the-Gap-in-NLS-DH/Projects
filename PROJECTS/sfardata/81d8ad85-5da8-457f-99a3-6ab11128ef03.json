@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc",
-    "record_created": "2022-08-10",
+    "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03",
+    "record_created": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,21 +12,34 @@
     ]
   },
   "project": {
-    "title": "The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History",
+    "title": "SfarData",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021",
-        "to": "2027"
+        "from": "1965",
+        "to": ""
       }
     ],
     "websites": [
-      "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html"
+      "https://sfardata.nli.org.il/#/startSearch_En",
+      "https://www.csmc.uni-hamburg.de/news/2020-12-14-sfardata.html"
     ],
-    "project_desc": "This project examines the social history of the Islamic society from its birth until the 16th century using highly advanced computational methods of text analysis and data modeling. The core of the study is a corpus of Islamic text from that period containing approximately 300 titles, 100 million words, and c. 400,000 biographical records, which—for the first time—will be treated holistically as a unified corpus of historical information. One of the project´s outputs (next to two PhD theses, multiple articles and a monography) will be an open and expandable online research ecosystem, MasterChronicle, which will allow scholars in the field to engage in various modes of close and distant reading of the Arabic historical corpus.",
+    "project_desc": "SfarData is a bilingual (Hebrew/English) codicological database of the dated medieval manuscripts written in Hebrew script documented in 250 libraries. It has a 50 years long history of digital preservation of bibliographical, textual, numerical, palaeographical data and was recently incorporated to the National Library of Israel.",
     "places": [
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
+      },
       {
         "place_name": {
           "text": "Hamburg",
@@ -41,16 +54,65 @@
       }
     ],
     "lang": [
-      "eng"
+      "eng",
+      "heb"
     ],
     "topic_relations": {
       "nls": true,
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Israel Academy of Sciences and Humanities",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q209184"
+          ]
+        },
+        "websites": [
+          "https://www.academy.ac.il/english.aspx"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/281184/jerusalem.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "National Library of Israel",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q188915"
+          ]
+        },
+        "websites": [
+          "https://www.nli.org.il/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/281184/jerusalem.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
       {
         "relation_type": "parent",
         "type": "organisation",
@@ -97,53 +159,25 @@
             "relations": []
           }
         ]
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
-        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968 "
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
-        "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
+          "text": "Bet-Aryeh, Malʾakhi",
+          "ref": [
+            "https://d-nb.info/gnd/104345179"
+          ]
         },
         "role": 0,
         "websites": [
-          "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
+          "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        "heb"
       ],
       "publications": {
         "access": {
@@ -222,10 +256,7 @@
       }
     ],
     "keywords": [
-      "annotation",
-      "ara",
-      "religion_history",
-      "virtual_research_environment"
+      "heb"
     ],
     "comment": ""
   }

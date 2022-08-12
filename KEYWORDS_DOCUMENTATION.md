@@ -9,9 +9,9 @@ Keywords should provide a general information about the topic, aim, result and t
 -	**output** - the aimed results of the project or services provided
 -	**field** - the field of study that the project can be assigned to 
 -	**research object** – information about the subject matter, topic or materials on with the research is being conducted. It can be both *general* (e.g. manuscripts) and *specific* (e.g. manuscripts´ author)
-- **method** - DH method applied in the research
+-   **method** - DH method applied in the research
 -	**languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
--	**infrastructure_projects** – for infrastructure and RDM projects keywords are not necessary, as they can be found through the *topic_relations* category. If available though, keywords should describe the kind of service provided or technology used
+-	**infrastructure projects** – for infrastructure and RDM projects keywords are not necessary, as they can be found through the *topic_relations* category. If available though, keywords should describe the kind of service provided or technlogy used
 -	**other** – for any keywords not matching the above mentioned 
 
 

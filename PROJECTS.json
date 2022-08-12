@@ -188,7 +188,7 @@
     "path": "/PROJECTS/elexis/"
   },
   "659c0aba-3bdd-43eb-937d-dad4ad63e3fc": {
-    "title": "“The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History”",
+    "title": "The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History",
     "path": "/PROJECTS/evolution_of_islamic_societies/"
   },
   "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5": {
@@ -242,6 +242,10 @@
   "8e4ab5b4-7298-4d55-b490-eb2943527981": {
     "title": "Irankoran",
     "path": "/PROJECTS/irankoran/"
+  },
+  "31534c48-6b74-4cc5-8aff-ea8dbc60c445": {
+    "title": "Islamic Painted Page",
+    "path": "/PROJECTS/islamic_painted_page/"
   },
   "5755bad5-4162-48ce-84b4-997819fa61b7": {
     "title": "Kallimachos",
@@ -354,6 +358,10 @@
   "177501b1-c847-4547-a757-76f56c5af15f": {
     "title": "Sefaria",
     "path": "/PROJECTS/sefaria_org/"
+  },
+  "81d8ad85-5da8-457f-99a3-6ab11128ef03": {
+    "title": "SfarData",
+    "path": "/PROJECTS/sfardata/"
   },
   "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9": {
     "title": "Shawi",

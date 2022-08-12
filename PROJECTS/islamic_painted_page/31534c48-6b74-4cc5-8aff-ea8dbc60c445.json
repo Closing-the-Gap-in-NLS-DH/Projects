@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc",
-    "record_created": "2022-08-10",
+    "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445",
+    "record_created": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,20 +12,21 @@
     ]
   },
   "project": {
-    "title": "The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History",
+    "title": "Islamic Painted Page",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021",
-        "to": "2027"
+        "from": "2013",
+        "to": ""
       }
     ],
     "websites": [
-      "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html"
+      "https://ipp.manuscript-cultures.uni-hamburg.de/",
+      "https://blogs.bl.uk/asian-and-african/2019/06/islamic-painted-page-growing-a-database.html"
     ],
-    "project_desc": "This project examines the social history of the Islamic society from its birth until the 16th century using highly advanced computational methods of text analysis and data modeling. The core of the study is a corpus of Islamic text from that period containing approximately 300 titles, 100 million words, and c. 400,000 biographical records, which—for the first time—will be treated holistically as a unified corpus of historical information. One of the project´s outputs (next to two PhD theses, multiple articles and a monography) will be an open and expandable online research ecosystem, MasterChronicle, which will allow scholars in the field to engage in various modes of close and distant reading of the Arabic historical corpus.",
+    "project_desc": "Islamic Painted Page is an online database of Islamicate arts of the book, which originated from a personal project of Stephen Serpell and now turned to major international recourse with over 42,000 references to paintings, illuminations and bindings from over 270 collections around the globe. Its functions are twofold: firstly, it enables users to locate and compare works worldwide using a single database, displaying images wherever possible; and secondly, it signposts users onward to more authoritative sources, with hotlinks direct to the specific image pages of collection websites where available, and page-specific references for printed publications. The database is currently hosted by the University Hamburg.",
     "places": [
       {
         "place_name": {
@@ -48,7 +49,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
       {
@@ -97,53 +98,25 @@
             "relations": []
           }
         ]
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
-        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968 "
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
-        "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Romanov, Maxim",
+          "text": "Serpell, Stephen",
           "ref": []
         },
         "role": 0,
         "websites": [
-          "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
+          "https://www.csmc.uni-hamburg.de/about/people/serpell.html"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        "ara",
+        "per",
+        "tur"
       ],
       "publications": {
         "access": {
@@ -222,10 +195,12 @@
       }
     ],
     "keywords": [
-      "annotation",
       "ara",
-      "religion_history",
-      "virtual_research_environment"
+      "art",
+      "database",
+      "manuscripts",
+      "per",
+      "tur"
     ],
     "comment": ""
   }
