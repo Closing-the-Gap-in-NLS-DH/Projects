@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03",
+    "record_created": "2022-08-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "SfarData",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "1965",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://sfardata.nli.org.il/#/startSearch_En",
+      "https://www.csmc.uni-hamburg.de/news/2020-12-14-sfardata.html"
+    ],
+    "project_desc": "SfarData is a bilingual (Hebrew/English) codicological database of the dated medieval manuscripts written in Hebrew script documented in 250 libraries. It has a 50 years long history of digital preservation of bibliographical, textual, numerical, palaeographical data and was recently incorporated to the National Library of Israel.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "heb"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": true
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Israel Academy of Sciences and Humanities",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q209184"
+          ]
+        },
+        "websites": [
+          "https://www.academy.ac.il/english.aspx"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/281184/jerusalem.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "National Library of Israel",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q188915"
+          ]
+        },
+        "websites": [
+          "https://www.nli.org.il/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/281184/jerusalem.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "relation_type": "parent",
+            "type": "organisation",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ],
+            "relations": []
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Bet-Aryeh, Malʾakhi",
+          "ref": [
+            "https://d-nb.info/gnd/104345179"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "heb"
+    ],
+    "comment": ""
+  }
+}
