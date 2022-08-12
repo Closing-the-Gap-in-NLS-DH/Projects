@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445",
+    "record_created": "2022-08-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Islamic Painted Page",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://ipp.manuscript-cultures.uni-hamburg.de/",
+      "https://blogs.bl.uk/asian-and-african/2019/06/islamic-painted-page-growing-a-database.html"
+    ],
+    "project_desc": "Islamic Painted Page is an online database of Islamicate arts of the book, which originated from a personal project of Stephen Serpell and now turned to major international recourse with over 42,000 references to paintings, illuminations and bindings from over 270 collections around the globe. Its functions are twofold: firstly, it enables users to locate and compare works worldwide using a single database, displaying images wherever possible; and secondly, it signposts users onward to more authoritative sources, with hotlinks direct to the specific image pages of collection websites where available, and page-specific references for printed publications. The database is currently hosted by the University Hamburg.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": true
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Centre for the Study of Manuscript Cultures",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Hamburg",
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "relation_type": "parent",
+            "type": "organisation",
+            "org_name": {
+              "text": "Universität Hamburg",
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
+            },
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
+            "places": [
+              {
+                "place_name": {
+                  "text": "Hamburg",
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
+                }
+              }
+            ],
+            "relations": []
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Serpell, Stephen",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/about/people/serpell.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "per",
+        "tur"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "art",
+      "database",
+      "manuscripts",
+      "per",
+      "tur"
+    ],
+    "comment": ""
+  }
+}
