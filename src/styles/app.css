@@ -1,0 +1,152 @@
+/* ./src/styles/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Sans:wght@300&display=swap");
+
+body {
+  background-color: #2e4a61;
+}
+
+.head {
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.text-comfortaa {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav {
+  background-color: #f29559;
+  color: #202c39;
+}
+
+.box {
+  background-color: #b8b08d;
+}
+
+.tag-container {
+  background-color: #b8b08d;
+  border-color: #202c39;
+  cursor: pointer;
+}
+
+.box .footer {
+  background-color: #202c39;
+}
+
+.icon {
+  background-color: #f29559;
+  position: relative;
+  top: -50%;
+  border-color: #202c39;
+}
+
+.icon-text {
+}
+
+.bubble {
+  background-color: #f2d492;
+}
+
+a.bubble:hover {
+  color: #f29559;
+  background-color: #2e4a61;
+}
+
+.codebox {
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-item {
+}
+.nav-item:hover {
+  color: #f2d492;
+  cursor: pointer;
+}
+
+.bg-orange {
+  background-color: #f29559;
+}
+.text-orange {
+  color: #f29559 !important;
+}
+.bg-brightblue {
+  background-color: #202c39;
+  color: #b8b08d;
+}
+.bg-darkblue {
+  background-color: #202c39;
+  color: #b8b08d;
+}
+.bright-text {
+  color: #b8b08d;
+}
+
+.button {
+  cursor: pointer;
+  border-color: #202c39;
+}
+
+a:hover {
+  color: #f2d492;
+}
+
+#app {
+  font-family: Noto Sans, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#map {
+  min-height: 500px;
+  height: 100%;
+}
+
+#barchart {
+  color: #fff;
+}
+
+.visualbox {
+  overflow-x: scroll;
+}
+
+.stickybox {
+  z-index: 100;
+  background-color: #2e4a61;
+}
+
+.elementcount {
+  color: #fff;
+}
+
+.timeline-row:hover,
+.table-head {
+  background-color: #2e4a6151;
+}
+
+.border-darkblue {
+  border-left: 1px solid #202c39;
+}
+
+.first-col,
+.table-head {
+  z-index: 100;
+}
+
+.reset-btn {
+  background-color: #a30000;
+  color: white;
+}
+
+.reset-btn:hover {
+  background-color: #4d0000;
+  color: white;
+}
