@@ -110,6 +110,7 @@ export default defineComponent({
                   responseProject.data.project.keywords.map((tag) => {
                     if (!tags.value.includes(tag)) tags.value.push(tag);
                   });
+                  tags.value.sort();
                   projectList.value.sort((a, b) => {
                     if (
                       a.project.title.toLowerCase() >
@@ -133,6 +134,7 @@ export default defineComponent({
                   responseProject.data.project.keywords.map((tag) => {
                     if (!tags.value.includes(tag)) tags.value.push(tag);
                   });
+                  tags.value.sort();
                   projectList.value.sort((a, b) => {
                     if (
                       a.project.title.toLowerCase() >

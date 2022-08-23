@@ -91,6 +91,10 @@ export default defineComponent({
       },
     ]);
 
+    categories.value.sort((a, b) =>
+      a.label > b.label ? 1 : a.label === b.label ? 0 : -1
+    );
+
     return {
       collapse_btn,
       collapsed,
