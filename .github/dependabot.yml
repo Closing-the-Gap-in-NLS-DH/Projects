@@ -9,4 +9,4 @@ updates:
     directory: "/" # Location of package manifests
     target-branch: "gui"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
