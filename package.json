@@ -41,7 +41,7 @@
     "uuid": "^8.3.2",
     "vis-timeline": "^7.5.1",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.15"
+    "vue-router": "^4.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
