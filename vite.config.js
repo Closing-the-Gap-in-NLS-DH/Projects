@@ -5,6 +5,7 @@ const path = require("path");
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/Closing-The-Gap-In-Non-Latin-Script-Data/",
   plugins: [vue()],
   resolve: {
     alias: {
