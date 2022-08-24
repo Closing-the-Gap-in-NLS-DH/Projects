@@ -62,8 +62,8 @@ import { defineComponent, ref, watchEffect, watch } from "vue";
 import { useRoute } from "vue-router";
 import axios from "axios";
 // import * as d3 from "d3";
-import "leaflet/dist/leaflet.css";
-import "leaflet.markercluster";
+// import "leaflet/dist/leaflet.css";
+// import "leaflet.markercluster";
 
 export default defineComponent({
   components: {

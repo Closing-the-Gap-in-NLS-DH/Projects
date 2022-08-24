@@ -16,7 +16,7 @@ import axios from "axios";
 // import tagList from '@/components/TagList.vue';
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import "leaflet.markercluster";
+import { MarkerClusterGroup } from "leaflet.markercluster/src";
 
 export default defineComponent({
   components: {
@@ -27,7 +27,7 @@ export default defineComponent({
     const tags = ref([]);
     const route = useRoute();
     let map = null;
-    const markers = L.markerClusterGroup();
+    const markers = new MarkerClusterGroup({});
     const polylines = L.featureGroup();
     const svgIcon = L.divIcon({
       html: `
