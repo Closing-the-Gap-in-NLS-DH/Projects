@@ -99,7 +99,8 @@ export default defineComponent({
                   (route.params.cat &&
                     responseProject.data.project.topic_relations[
                       route.params.cat
-                    ])
+                    ]) ||
+                  (!route.params.tag && !route.params.cat)
                 ) {
                   projectList.value.push({
                     _id: key,
@@ -107,57 +108,27 @@ export default defineComponent({
                     project: responseProject.data.project,
                     source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
                   });
-                  responseProject.data.project.keywords.map((tag) => {
-                    if (!tags.value.includes(tag)) tags.value.push(tag);
-                  });
-                  tags.value.sort();
-                  projectList.value.sort((a, b) => {
-                    if (
-                      a.project.title.toLowerCase() >
-                      b.project.title.toLowerCase()
-                    )
-                      return 1;
-                    if (
-                      a.project.title.toLowerCase() <
-                      b.project.title.toLowerCase()
-                    )
-                      return -1;
-                    return 0;
-                  });
-                } else if (!route.params.tag && !route.params.cat) {
-                  projectList.value.push({
-                    _id: key,
-                    metadata: responseProject.data.record_metadata,
-                    project: responseProject.data.project,
-                    source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
-                  });
-                  responseProject.data.project.keywords.map((tag) => {
-                    if (!tags.value.includes(tag)) tags.value.push(tag);
-                  });
-                  tags.value.sort();
-                  projectList.value.sort((a, b) => {
-                    if (
-                      a.project.title.toLowerCase() >
-                      b.project.title.toLowerCase()
-                    )
-                      return 1;
-                    if (
-                      a.project.title.toLowerCase() <
-                      b.project.title.toLowerCase()
-                    )
-                      return -1;
-                    return 0;
-                  });
-                }
 
-                return null;
+                  projectList.value.sort((a, b) =>
+                    a.project.title.localeCompare(b.project.title, "en", {
+                      sensitivity: "base",
+                    })
+                  );
+
+                  responseProject.data.project.keywords.map((tag) => {
+                    if (!tags.value.includes(tag)) {
+                      tags.value.push(tag);
+                    }
+                  });
+
+                  tags.value.sort();
+                }
+              })
+              .then(() => {
+                console.log("finished");
+                console.log(tags.value);
               });
-            return null;
           });
-        })
-        .then(() => {
-          console.log("finished");
-          console.log(tags.value);
         });
     };
 
