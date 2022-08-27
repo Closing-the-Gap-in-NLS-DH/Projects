@@ -1,7 +1,7 @@
 <template>
-  <div class="w-auto mx-4">
+  <div class="mx-4 w-auto">
     <div
-      class="tag-container rounded-t-xl pointer px-5 py-2 mb-0"
+      class="tag-container pointer mb-0 rounded-t-xl px-5 py-2"
       :class="collapsed ? 'rounded-b-xl' : ''"
       @click="collapsed = !collapsed"
     >
@@ -9,7 +9,7 @@
       <svg
         v-if="collapsed"
         xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 float-right ml-2"
+        class="float-right ml-2 h-5 w-5"
         viewBox="-2 -2 18 18"
         fill="currentColor"
       >
@@ -22,7 +22,7 @@
       <svg
         v-if="!collapsed"
         xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 float-right ml-2"
+        class="float-right ml-2 h-5 w-5"
         viewBox="-2 -2 18 18"
         stroke="currentColor"
       >
@@ -35,7 +35,7 @@
     </div>
     <div
       v-if="!collapsed"
-      class="tag-container flex flex-wrap text-sm rounded-b-xl p-3 mt-0"
+      class="tag-container mt-0 flex flex-wrap rounded-b-xl p-3 text-sm"
     >
       <!--
     <tag-bubble

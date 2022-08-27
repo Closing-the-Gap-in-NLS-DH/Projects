@@ -5,7 +5,7 @@
       :taglist="tags"
     />
     -->
-    <div id="map" class="w-auto m-5" />
+    <div id="map" class="m-5 w-auto" />
   </div>
 </template>
 

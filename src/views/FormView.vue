@@ -16,16 +16,16 @@
         acquired coordinates or an option to load and continue to work on
         existing files.
       </p>
-      <p class="p-4 bubble my-3 rounded-xl">
+      <p class="bubble my-3 rounded-xl p-4">
         After you finished entering your data, you have to click
         <span class="font-bold">twice</span> on the button at the end: Once for
         generating the JSON and once for the download. To populate your data
         into our database, please provide the JSON-file to our main contact:
         bua321-nls@geschkult.fu-berlin.de
       </p>
-      <h4 class="text-2xl text-left">Metadata</h4>
+      <h4 class="text-left text-2xl">Metadata</h4>
       <div class="grid grid-cols-2 gap-y-1 gap-x-4 text-left">
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Name of the Editor (Surname, Forename)</span>
           <input
             type="text"
@@ -33,7 +33,7 @@
             v-model="project.record_metadata.record_created_by"
           />
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Name of the
             {{
@@ -63,7 +63,7 @@
           </select>
         </label>
         <!-- Refs -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Authority File URIs of the
             {{
@@ -79,7 +79,7 @@
             <svg
               @click="project.project.ref.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -95,7 +95,7 @@
               v-if="project.project.ref.length > 1"
               @click="project.project.ref.splice(refKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -109,13 +109,13 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.ref[refKey]"
             />
           </div>
         </label>
         <!-- Funding periods -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Funding periods</span>
           <div
             class="flex flex-row"
@@ -125,7 +125,7 @@
             <svg
               @click="project.project.date.push({ from: '', to: '' })"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -141,7 +141,7 @@
               v-if="project.project.date.length > 1"
               @click="project.project.date.splice(dateKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -155,19 +155,19 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left"
+              class="left mt-1"
               v-model="project.project.date[dateKey].from"
             />
             <span class="my-auto mx-2">to</span>
             <input
               type="text"
-              class="mt-1 right"
+              class="right mt-1"
               v-model="project.project.date[dateKey].to"
             />
           </div>
         </label>
         <!-- Websites -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Websites of the
             {{
@@ -183,7 +183,7 @@
             <svg
               @click="project.project.websites.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -199,7 +199,7 @@
               v-if="project.project.websites.length > 1"
               @click="project.project.websites.splice(websiteKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -213,21 +213,21 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.websites[websiteKey]"
             />
           </div>
         </label>
         <!-- description -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Project Description</span>
           <textarea
-            class="block w-full mt-1"
+            class="mt-1 block w-full"
             v-model="project.project.project_desc"
           ></textarea>
         </label>
         <!-- Places -->
-        <div class="block col-span-2">
+        <div class="col-span-2 block">
           <span
             >Locations of the
             {{
@@ -236,7 +236,7 @@
             }}</span
           >
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(place, placeKey) in project.project.places"
             :key="placeKey"
           >
@@ -254,7 +254,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -270,7 +270,7 @@
               v-if="project.project.places.length > 1"
               @click="project.project.places.splice(placeKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -283,13 +283,13 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
               <label class="block">
                 <span>Name of the place</span>
                 <input
                   type="text"
-                  class="mt-1 left w-full"
+                  class="left mt-1 w-full"
                   v-model="project.project.places[placeKey].place_name.text"
                 />
               </label>
@@ -298,7 +298,7 @@
                 <div
                   v-for="(ref, refKey) in project.project.places[placeKey]
                     .place_name.ref"
-                  class="flex flex-row ml-1"
+                  class="ml-1 flex flex-row"
                   :key="refKey"
                 >
                   <svg
@@ -306,7 +306,7 @@
                       project.project.places[placeKey].place_name.ref.push('')
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -329,7 +329,7 @@
                       )
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -343,14 +343,14 @@
                   </svg>
                   <input
                     type="text"
-                    class="mt-1 left w-full"
+                    class="left mt-1 w-full"
                     v-model="
                       project.project.places[placeKey].place_name.ref[refKey]
                     "
                   />
                 </div>
               </label>
-              <div class="block col-span-2">
+              <div class="col-span-2 block">
                 <div class="grid grid-cols-2 gap-2">
                   <label>
                     <span>Latitude</span>
@@ -375,7 +375,7 @@
         </div>
 
         <!-- Languages -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Languages used in the interfaces and publications of the
             {{
@@ -386,14 +386,14 @@
           >
           <div class="flex flex-wrap">
             <div
-              class="flex flex-row mr-7"
+              class="mr-7 flex flex-row"
               v-for="(lang, langKey) in project.project.lang"
               :key="langKey"
             >
               <svg
                 @click="project.project.lang.push('')"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -409,7 +409,7 @@
                 v-if="project.project.lang.length > 1"
                 @click="project.project.lang.splice(langKey, 1)"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -423,14 +423,14 @@
               </svg>
               <input
                 type="text"
-                class="mt-1 left w-20"
+                class="left mt-1 w-20"
                 v-model="project.project.lang[langKey]"
               />
             </div>
           </div>
         </label>
         <!-- Topic Relations -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Topics</span>
           <div class="flex flex-row">
             <label class="mr-7">
@@ -481,18 +481,18 @@
           </div>
         </label>
         <!-- Relations -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Related projects or organisations</span>
           <div class="w-full">
             <div
-              class="flex flex-row mr-7 w-full"
+              class="mr-7 flex w-full flex-row"
               v-for="(rel, relKey) in project.project.relations"
               :key="relKey"
             >
               <svg
                 @click="addRelation"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -508,7 +508,7 @@
                 v-if="project.project.relations.length > 1"
                 @click="project.project.relations.splice(relKey, 1)"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -521,7 +521,7 @@
                 />
               </svg>
               <div
-                class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+                class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
               >
                 <label>
                   <span>Relation Type</span>
@@ -566,11 +566,11 @@
                     project.project.relations[relKey].existingEntry === 'null'
                   "
                 >
-                  <label class="block col-span-2">
+                  <label class="col-span-2 block">
                     <span>Name of the {{ rel.type }}</span>
                     <input
                       type="text"
-                      class="mt-1 left w-full"
+                      class="left mt-1 w-full"
                       v-model="project.project.relations[relKey].title"
                     />
                   </label>
@@ -590,7 +590,7 @@
                       <svg
                         @click="project.project.relations[relKey].refs.push('')"
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6 mr-1 my-auto"
+                        class="my-auto mr-1 h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -611,7 +611,7 @@
                           )
                         "
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6 mr-1 my-auto"
+                        class="my-auto mr-1 h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -625,7 +625,7 @@
                       </svg>
                       <input
                         type="text"
-                        class="mt-1 left w-full"
+                        class="left mt-1 w-full"
                         v-model="
                           project.project.relations[relKey].refs[relRefKey]
                         "
@@ -650,7 +650,7 @@
                           project.project.relations[relKey].websites.push('')
                         "
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6 mr-1 my-auto"
+                        class="my-auto mr-1 h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -671,7 +671,7 @@
                           )
                         "
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6 mr-1 my-auto"
+                        class="my-auto mr-1 h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -685,7 +685,7 @@
                       </svg>
                       <input
                         type="text"
-                        class="mt-1 left w-full"
+                        class="left mt-1 w-full"
                         v-model="
                           project.project.relations[relKey].websites[
                             relWebsiteKey
@@ -695,7 +695,7 @@
                     </div>
                   </label>
                   <!-- Places -->
-                  <label class="block col-span-2">
+                  <label class="col-span-2 block">
                     <span
                       >Locations of the
                       {{
@@ -707,7 +707,7 @@
                     >
                     <div class="w-full">
                       <div
-                        class="flex flex-row mr-7 w-full"
+                        class="mr-7 flex w-full flex-row"
                         v-for="(place, placeKey) in project.project.relations[
                           relKey
                         ].places"
@@ -727,7 +727,7 @@
                             })
                           "
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6 mr-1 my-auto"
+                          class="my-auto mr-1 h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -750,7 +750,7 @@
                             )
                           "
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6 mr-1 my-auto"
+                          class="my-auto mr-1 h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -763,13 +763,13 @@
                           />
                         </svg>
                         <div
-                          class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+                          class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
                         >
                           <label class="block"
                             >Name of the place
                             <input
                               type="text"
-                              class="mt-1 left w-full"
+                              class="left mt-1 w-full"
                               v-model="
                                 project.project.relations[relKey].places[
                                   placeKey
@@ -785,7 +785,7 @@
                               v-for="(ref, refKey) in project.project.relations[
                                 relKey
                               ].places[placeKey].place_name.ref"
-                              class="flex flex-row ml-1"
+                              class="ml-1 flex flex-row"
                               :key="refKey"
                             >
                               <svg
@@ -795,7 +795,7 @@
                                   ].place_name.ref.push('')
                                 "
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6 mr-1 my-auto"
+                                class="my-auto mr-1 h-6 w-6"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -819,7 +819,7 @@
                                   ].place_name.ref.splice(placeKey, 1)
                                 "
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6 mr-1 my-auto"
+                                class="my-auto mr-1 h-6 w-6"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -833,7 +833,7 @@
                               </svg>
                               <input
                                 type="text"
-                                class="mt-1 left w-full"
+                                class="left mt-1 w-full"
                                 v-model="
                                   project.project.relations[relKey].places[
                                     placeKey
@@ -842,7 +842,7 @@
                               />
                             </div>
                           </div>
-                          <div class="block col-span-2">
+                          <div class="col-span-2 block">
                             <div class="grid grid-cols-2 gap-2">
                               <label>
                                 <span>Latitude</span>
@@ -880,7 +880,7 @@
           </div>
         </label>
         <!-- Contacts -->
-        <div class="block col-span-2">
+        <div class="col-span-2 block">
           <span
             >Main contacts of the
             {{
@@ -889,7 +889,7 @@
             }}</span
           >
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(contact, contactKey) in project.project.contacts"
             :key="contactKey"
           >
@@ -905,7 +905,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -921,7 +921,7 @@
               v-if="project.project.contacts.length > 1"
               @click="project.project.contacts.splice(contactKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -934,13 +934,13 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
               <label class="block"
                 >Name of the contact (Surname, Forename)
                 <input
                   type="text"
-                  class="mt-1 left w-full"
+                  class="left mt-1 w-full"
                   v-model="project.project.contacts[contactKey].pers_name.text"
                 />
               </label>
@@ -949,7 +949,7 @@
                 <div
                   v-for="(ref, refKey) in project.project.contacts[contactKey]
                     .pers_name.ref"
-                  class="flex flex-row ml-1"
+                  class="ml-1 flex flex-row"
                   :key="refKey"
                 >
                   <svg
@@ -959,7 +959,7 @@
                       )
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -983,7 +983,7 @@
                       )
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -997,7 +997,7 @@
                   </svg>
                   <input
                     type="text"
-                    class="mt-1 left w-full"
+                    class="left mt-1 w-full"
                     v-model="
                       project.project.contacts[contactKey].pers_name.ref[refKey]
                     "
@@ -1029,7 +1029,7 @@
                       project.project.contacts[contactKey].websites.push('')
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1050,7 +1050,7 @@
                       )
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1064,7 +1064,7 @@
                   </svg>
                   <input
                     type="text"
-                    class="mt-1 left w-full"
+                    class="left mt-1 w-full"
                     v-model="
                       project.project.contacts[contactKey].websites[
                         contactWebsiteKey
@@ -1079,7 +1079,7 @@
 
         <h4 class="text-2xl">Research Data</h4>
         <!-- Languages -->
-        <div class="block col-span-2">
+        <div class="col-span-2 block">
           <span
             >Languages of the research data of
             {{
@@ -1090,14 +1090,14 @@
           >
           <div class="flex flex-wrap">
             <div
-              class="flex flex-row mr-7"
+              class="mr-7 flex flex-row"
               v-for="(lang, langKey) in project.project.research_data.lang"
               :key="langKey"
             >
               <svg
                 @click="project.project.research_data.lang.push('')"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1113,7 +1113,7 @@
                 v-if="project.project.research_data.lang.length > 1"
                 @click="project.project.research_data.lang.splice(langKey, 1)"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-1 my-auto"
+                class="my-auto mr-1 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1127,19 +1127,19 @@
               </svg>
               <input
                 type="text"
-                class="mt-1 left w-20"
+                class="left mt-1 w-20"
                 v-model="project.project.research_data.lang[langKey]"
               />
             </div>
           </div>
         </div>
         <!-- Publications -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Percentage of Publications available in OpenAccess:
             {{ project.project.research_data.publications.access.open }}%</span
           >
-          <div class="w-full mt-1 flex flex-row">
+          <div class="mt-1 flex w-full flex-row">
             <span class="mx-2">0%</span>
             <input
               type="range"
@@ -1149,14 +1149,14 @@
             <span class="mx-2">100%</span>
           </div>
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Percentage of Publications available in ClosedAccess:
             {{
               project.project.research_data.publications.access.closed
             }}%</span
           >
-          <div class="w-full mt-1 flex flex-row">
+          <div class="mt-1 flex w-full flex-row">
             <span class="mx-2">0%</span>
             <input
               type="range"
@@ -1166,14 +1166,14 @@
             <span class="mx-2">100%</span>
           </div>
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Approximate margin of error:
             {{
               project.project.research_data.publications.access.margin
             }}%</span
           >
-          <div class="w-full mt-1 flex flex-row">
+          <div class="mt-1 flex w-full flex-row">
             <span class="mx-2">0%</span>
             <input
               type="range"
@@ -1184,7 +1184,7 @@
           </div>
         </label>
         <!-- Licensing -->
-        <div class="block col-span-2">
+        <div class="col-span-2 block">
           <span>Licenses under which the publications are published</span>
           <div
             class="flex flex-row"
@@ -1197,7 +1197,7 @@
                 project.project.research_data.publications.licensing.push('')
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1220,7 +1220,7 @@
                 )
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1234,7 +1234,7 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="
                 project.project.research_data.publications.licensing[licKey]
               "
@@ -1245,14 +1245,14 @@
         <div
           v-for="(dt, dtKey) in datatypes"
           :key="dtKey"
-          class="block col-span-2"
+          class="col-span-2 block"
         >
-          <h5 class="text-xl mt-3">{{ dt.label }}</h5>
+          <h5 class="mt-3 text-xl">{{ dt.label }}</h5>
           <div
             v-if="
               project.project.research_data.data[dt.key].datatypes.length === 0
             "
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="
@@ -1267,7 +1267,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1282,7 +1282,7 @@
             Add Datatype
           </div>
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(data, dataKey) in project.project.research_data.data[dt.key]
               .datatypes"
             :key="dataKey"
@@ -1300,7 +1300,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1320,7 +1320,7 @@
                 )
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1333,10 +1333,10 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
               <!-- label -->
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Label for the Datatype</span>
                 <input
                   type="text"
@@ -1345,12 +1345,12 @@
                 />
               </label>
               <!-- Access -->
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span
                   >Percentage of the Datatype available in OpenAccess:
                   {{ data.access.open }}%</span
                 >
-                <div class="w-full mt-1 flex flex-row">
+                <div class="mt-1 flex w-full flex-row">
                   <span class="mx-2">0%</span>
                   <input
                     type="range"
@@ -1360,12 +1360,12 @@
                   <span class="mx-2">100%</span>
                 </div>
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span
                   >Percentage of the Datatype available in ClosedAccess:
                   {{ data.access.closed }}%</span
                 >
-                <div class="w-full mt-1 flex flex-row">
+                <div class="mt-1 flex w-full flex-row">
                   <span class="mx-2">0%</span>
                   <input
                     type="range"
@@ -1375,11 +1375,11 @@
                   <span class="mx-2">100%</span>
                 </div>
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span
                   >Approximate margin of error: {{ data.access.margin }}%</span
                 >
-                <div class="w-full mt-1 flex flex-row">
+                <div class="mt-1 flex w-full flex-row">
                   <span class="mx-2">0%</span>
                   <input
                     type="range"
@@ -1390,7 +1390,7 @@
                 </div>
               </label>
               <!-- Licensing -->
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Licenses under which the Datatype is published</span>
                 <div
                   class="flex flex-row"
@@ -1404,7 +1404,7 @@
                       ].licensing.push('')
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1424,7 +1424,7 @@
                       ].licensing.splice(licKey, 1)
                     "
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 mr-1 my-auto"
+                    class="my-auto mr-1 h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -1438,7 +1438,7 @@
                   </svg>
                   <input
                     type="text"
-                    class="mt-1 left w-full"
+                    class="left mt-1 w-full"
                     v-model="
                       project.project.research_data.data[dt.key].datatypes[
                         dataKey
@@ -1455,7 +1455,7 @@
               project.project.research_data.data[dt.key].repositories.length ===
               0
             "
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="
@@ -1467,7 +1467,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1482,7 +1482,7 @@
             Add Repository
           </div>
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(repo, repoKey) in project.project.research_data.data[dt.key]
               .repositories"
             :key="repoKey"
@@ -1497,7 +1497,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1517,7 +1517,7 @@
                 )
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1530,9 +1530,9 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
-              <h5 class="col-span-2 text-xl mt-3">
+              <h5 class="col-span-2 mt-3 text-xl">
                 Repository for {{ dt.label }}
               </h5>
               <label class="block">
@@ -1563,7 +1563,7 @@
                   <option value="open">Open</option>
                 </select>
               </label>
-              <label class="block col-span-2" v-if="repo.type === 'remote'">
+              <label class="col-span-2 block" v-if="repo.type === 'remote'">
                 <span>Reference-URL or Link to the repository</span>
                 <input
                   type="text"
@@ -1575,7 +1575,7 @@
                   class="mt-1 block w-full"
                 />
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Description or Label for the repository</span>
                 <input
                   type="text"
@@ -1592,17 +1592,17 @@
         </div>
 
         <!-- Stack -->
-        <h5 class="text-xl mt-3">Stack</h5>
-        <label class="block col-span-2">
+        <h5 class="mt-3 text-xl">Stack</h5>
+        <label class="col-span-2 block">
           <span>Database</span>
           <div
             v-if="project.project.stack.database.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="project.project.stack.database.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1624,7 +1624,7 @@
             <svg
               @click="project.project.stack.database.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1639,7 +1639,7 @@
             <svg
               @click="project.project.stack.database.splice(dbKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1653,21 +1653,21 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.stack.database[dbKey]"
             />
           </div>
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Backend</span>
           <div
             v-if="project.project.stack.backend.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="project.project.stack.backend.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1689,7 +1689,7 @@
             <svg
               @click="project.project.stack.backend.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1704,7 +1704,7 @@
             <svg
               @click="project.project.stack.backend.splice(bKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1718,21 +1718,21 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.stack.backend[bKey]"
             />
           </div>
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Frontend</span>
           <div
             v-if="project.project.stack.frontend.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="project.project.stack.frontend.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1754,7 +1754,7 @@
             <svg
               @click="project.project.stack.frontend.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1769,7 +1769,7 @@
             <svg
               @click="project.project.stack.frontend.splice(fKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1783,21 +1783,21 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.stack.frontend[fKey]"
             />
           </div>
         </label>
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Programming, Query or Script Languages</span>
           <div
             v-if="project.project.stack.languages.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="project.project.stack.languages.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1819,7 +1819,7 @@
             <svg
               @click="project.project.stack.languages.push('')"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1834,7 +1834,7 @@
             <svg
               @click="project.project.stack.languages.splice(lKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1848,13 +1848,13 @@
             </svg>
             <input
               type="text"
-              class="mt-1 left w-full"
+              class="left mt-1 w-full"
               v-model="project.project.stack.languages[lKey]"
             />
           </div>
         </label>
         <div class="col-span-2">
-          <h5 class="text-xl mt-3">
+          <h5 class="mt-3 text-xl">
             Tools that were used and/or developed in the
             {{
               project.project.type.charAt(0).toUpperCase() +
@@ -1863,7 +1863,7 @@
           </h5>
           <div
             v-if="project.project.stack.tools.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="
@@ -1875,7 +1875,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1890,7 +1890,7 @@
             Add Tool
           </div>
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(tool, toolKey) in project.project.stack.tools"
             :key="toolKey"
           >
@@ -1904,7 +1904,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1919,7 +1919,7 @@
             <svg
               @click="project.project.stack.tools.splice(toolKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -1932,9 +1932,9 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <input
                   type="checkbox"
                   v-model="project.project.stack.tools[toolKey].self_developed"
@@ -1943,7 +1943,7 @@
                 />
                 <span class="ml-1">Is the tool self-developed?</span>
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Label for the tool</span>
                 <input
                   type="text"
@@ -1951,7 +1951,7 @@
                   class="mt-1 block w-full"
                 />
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Reference-URL or Link to the Tool</span>
                 <input
                   type="text"
@@ -1959,7 +1959,7 @@
                   class="mt-1 block w-full"
                 />
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Purpose of the Tool</span>
                 <input
                   type="text"
@@ -1973,7 +1973,7 @@
 
         <!-- Policies -->
         <div class="col-span-2">
-          <h5 class="text-xl mt-3">
+          <h5 class="mt-3 text-xl">
             Policies that apply to the
             {{
               project.project.type.charAt(0).toUpperCase() +
@@ -1982,7 +1982,7 @@
           </h5>
           <div
             v-if="project.project.policies.length === 0"
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
           >
             <svg
               @click="
@@ -1992,7 +1992,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-2 my-auto"
+              class="my-auto mr-2 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -2007,7 +2007,7 @@
             Add Policy
           </div>
           <div
-            class="flex flex-row mr-7 w-full"
+            class="mr-7 flex w-full flex-row"
             v-for="(p, pKey) in project.project.policies"
             :key="pKey"
           >
@@ -2019,7 +2019,7 @@
                 })
               "
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -2034,7 +2034,7 @@
             <svg
               @click="project.project.policies.splice(pKey, 1)"
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-1 my-auto"
+              class="my-auto mr-1 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -2047,9 +2047,9 @@
               />
             </svg>
             <div
-              class="border border-black rounded-xl grid grid-cols-2 border-1 m-2 p-4 w-full gap-2"
+              class="border-black border-1 m-2 grid w-full grid-cols-2 gap-2 rounded-xl border p-4"
             >
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Label for or Type of the Policy</span>
                 <input
                   type="text"
@@ -2057,7 +2057,7 @@
                   class="mt-1 block w-full"
                 />
               </label>
-              <label class="block col-span-2">
+              <label class="col-span-2 block">
                 <span>Reference-URL or Link to the Policy</span>
                 <input
                   type="text"
@@ -2069,9 +2069,9 @@
           </div>
         </div>
 
-        <h4 class="text-2xl mt-3">Other</h4>
+        <h4 class="mt-3 text-2xl">Other</h4>
         <!-- Keywords -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span
             >Keywords that describe the
             {{
@@ -2088,35 +2088,35 @@
           >
           <input
             type="text"
-            class="mt-1 left w-full"
+            class="left mt-1 w-full"
             v-model="keywordList"
             @input="addKeyword"
           />
         </label>
         <!-- Comment -->
-        <label class="block col-span-2">
+        <label class="col-span-2 block">
           <span>Comments</span>
           <textarea
-            class="block w-full mt-1"
+            class="mt-1 block w-full"
             v-model="project.project.comment"
           ></textarea>
         </label>
         <a
           v-if="output === null"
-          class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
+          class="bubble button col-span-2 mt-2 block rounded-2xl p-3 text-center"
           @click="generateJSON(project)"
           >Generate JSON</a
         >
         <a
           v-if="output !== null"
-          class="block col-span-2 bubble p-3 rounded-2xl mt-2 button text-center"
+          class="bubble button col-span-2 mt-2 block rounded-2xl p-3 text-center"
           :href="`data: text/json;charset=utf-8, ${output}`"
           :download="`${project.record_metadata.uuid}.json`"
           @click="reset()"
           >Download</a
         >
         <a
-          class="block col-span-2 reset-btn p-3 rounded-2xl mt-2 button text-center"
+          class="reset-btn button col-span-2 mt-2 block rounded-2xl p-3 text-center"
           href="#"
           @click="resetForm()"
           >Reset Form</a

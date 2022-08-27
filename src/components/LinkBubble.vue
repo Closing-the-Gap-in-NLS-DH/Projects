@@ -1,10 +1,10 @@
 <template>
-  <div class="icon rounded-full w-8 h-8 border-2 mr-1">
+  <div class="icon mr-1 h-8 w-8 rounded-full border-2">
     <a :href="href" target="_blank">
       <svg
         v-if="type === 'link'"
         xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 icon-text m-auto mt-1"
+        class="icon-text m-auto mt-1 h-5 w-5"
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -18,7 +18,7 @@
       <svg
         v-if="type === 'git'"
         xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5 icon-text m-auto mt-1"
+        class="icon-text m-auto mt-1 h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

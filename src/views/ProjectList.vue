@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-wrap m-5">
-    <div class="sticky top-0 stickybox rounded-xl w-full py-2">
+  <div class="m-5 flex flex-wrap">
+    <div class="stickybox sticky top-0 w-full rounded-xl py-2">
       <div class="w-full">
         <cat-list />
         <tag-list :taglist="tags" />
       </div>
     </div>
-    <div class="w-full text-xl m-2 elementcount">
+    <div class="elementcount m-2 w-full text-xl">
       {{ projectList.length }} Elements
     </div>
     <project-item

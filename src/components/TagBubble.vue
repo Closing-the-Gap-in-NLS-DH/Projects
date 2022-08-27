@@ -1,9 +1,9 @@
 <template>
   <router-link
     v-if="link"
-    class="bubble rounded-full pr-4 pl-4 ml-0 mr-2 my-1"
+    class="bubble my-1 ml-0 mr-2 rounded-full pr-4 pl-4"
     :class="
-      route.params[target] === link ? 'bg-darkblue pr-0 flex flex-row' : ''
+      route.params[target] === link ? 'bg-darkblue flex flex-row pr-0' : ''
     "
     :to="targetArr"
   >
@@ -11,7 +11,7 @@
     <svg
       v-if="route.params[target] === link"
       xmlns="http://www.w3.org/2000/svg"
-      class="ml-1 m-auto h-5 w-5"
+      class="m-auto ml-1 h-5 w-5"
       :class="small ? 'mr-0' : 'mr-1'"
       viewBox="0 0 20 20"
       fill="currentColor"

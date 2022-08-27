@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-wrap">
-    <div class="head w-full text-left p-5">
-      <h1 class="text-5xl ml-3">
+    <div class="head w-full p-5 text-left">
+      <h1 class="ml-3 text-5xl">
         {{ title }}
       </h1>
-      <h2 class="text-2xl ml-3 mt-4">
+      <h2 class="ml-3 mt-4 text-2xl">
         {{ subtitle }}
       </h2>
     </div>
@@ -12,7 +12,7 @@
       <div
         v-for="(item, key) in nav"
         :key="key"
-        class="nav-item float-left py-3 ml-5 text-xl"
+        class="nav-item float-left ml-5 py-3 text-xl"
       >
         <router-link :to="item.link">{{ item.label }}</router-link>
       </div>

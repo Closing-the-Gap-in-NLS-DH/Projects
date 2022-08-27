@@ -1,16 +1,16 @@
 <template>
-  <div class="w-full visualbox p-5">
+  <div class="visualbox w-full p-5">
     <!--
     <tag-list
       :taglist="tags"
     />
     -->
-    <table class="table-fixed box">
+    <table class="box table-fixed">
       <thead class="sticky top-0">
         <tr>
           <th
             :colspan="years.length + 1"
-            class="text-left py-5 px-3 sticky top-0"
+            class="sticky top-0 py-5 px-3 text-left"
           >
             <p>
               CAUTION! This timeline contains projects of which we do not have
@@ -19,12 +19,12 @@
             </p>
           </th>
         </tr>
-        <tr class="border-y table-head sticky">
+        <tr class="table-head sticky border-y">
           <th>Project</th>
           <th
             v-for="(y, yKey) in years"
             :key="yKey"
-            class="border-l text-xs px-3 pb-1 sticky top-0"
+            class="sticky top-0 border-l px-3 pb-1 text-xs"
           >
             {{ y }}
           </th>
@@ -34,9 +34,9 @@
         <tr
           v-for="(p, pKey) in projects"
           :key="pKey"
-          class="border-b timeline-row"
+          class="timeline-row border-b"
         >
-          <td class="whitespace-nowrap text-xs text-left first-col sticky p-2">
+          <td class="first-col sticky whitespace-nowrap p-2 text-left text-xs">
             <a :href="p.source" target="_blank">{{ p.title }}</a>
             <span v-if="p.noDataOnEnding">*</span>
           </td>
@@ -45,10 +45,10 @@
             :key="yKey"
             :class="
               isInFundingPeriod(p, y) && !p.noDataOnEnding
-                ? 'bg-darkblue p-2 border-b-1 border-darkblue'
+                ? 'bg-darkblue border-b-1 border-darkblue p-2'
                 : ''
             "
-            class="m-1 p-0 text-xs border-l"
+            class="m-1 border-l p-0 text-xs"
           ></td>
         </tr>
       </tbody>

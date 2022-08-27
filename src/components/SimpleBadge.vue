@@ -1,5 +1,5 @@
 <template>
-  <div class="bubble bg-brightblue rounded-full px-4 ml-0 mr-2 my-1">
+  <div class="bubble bg-brightblue my-1 ml-0 mr-2 rounded-full px-4">
     {{ label }}
   </div>
 </template>

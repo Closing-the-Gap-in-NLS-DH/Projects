@@ -1,12 +1,12 @@
 <template>
   <div class="md:basis-1/2 lg:basis-1/3">
-    <div class="box relative rounded-2xl m-4">
-      <div class="content h-auto relative p-4 pb-7 flex flex-wrap md:flex-row">
+    <div class="box relative m-4 rounded-2xl">
+      <div class="content relative flex h-auto flex-wrap p-4 pb-7 md:flex-row">
         <div class="left w-auto">
-          <div class="text-left flex flex-wrap p-3 py-0">
+          <div class="flex flex-wrap p-3 py-0 text-left">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 float-left mr-1"
+              class="float-left mr-1 h-5 w-5"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -25,7 +25,7 @@
           </div>
           <div
             @click="extend = !extend"
-            class="text-3xl text-left p-3 py-5 text-comfortaa leading-normal antialiased"
+            class="text-comfortaa p-3 py-5 text-left text-3xl leading-normal antialiased"
           >
             {{ project.title }}
           </div>
@@ -33,12 +33,12 @@
             <li
               v-for="(date, key) in project.date"
               :key="key"
-              class="text-left m-3 my-0 flex flex-row font-light"
+              class="m-3 my-0 flex flex-row text-left font-light"
             >
               <svg
                 v-if="date.from || date.to"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 mr-3"
+                class="mr-3 h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -56,7 +56,7 @@
               <svg
                 v-if="date.from || date.to"
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 m-auto mx-1"
+                class="m-auto mx-1 h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -69,10 +69,10 @@
               <span v-if="date.to">{{ new Date(date.to).getFullYear() }}</span>
             </li>
           </ul>
-          <div class="flex flex-row ml-3 mb-5 font-light">
+          <div class="ml-3 mb-5 flex flex-row font-light">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 mr-3"
+              class="mr-3 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -88,10 +88,10 @@
               lang
             }}</span>
           </div>
-          <div class="text-left w-full p-3 py-0 leading-relaxed antialiased">
+          <div class="w-full p-3 py-0 text-left leading-relaxed antialiased">
             {{ project.project_desc }}
           </div>
-          <div class="tagrow flex flex-wrap p-3 pb-10 mt-5">
+          <div class="tagrow mt-5 flex flex-wrap p-3 pb-10">
             <simple-badge
               v-if="project.topic_relations.nls"
               label="Non-Latin Script"
@@ -130,7 +130,7 @@
       </div>
       --></div>
       <div
-        class="footer absolute bottom-0 inset-x-0 rounded-b-2xl h-8 pl-7 flex flex-row"
+        class="footer absolute inset-x-0 bottom-0 flex h-8 flex-row rounded-b-2xl pl-7"
       >
         <link-bubble
           v-for="(link, key) in project.websites"
@@ -144,7 +144,7 @@
             metadata.record_modified[metadata.record_modified.length - 1]
               .record_modified_on
           "
-          class="text-sm bright-text mt-1 absolute right-5"
+          class="bright-text absolute right-5 mt-1 text-sm"
         >
           Last edit:
           {{
