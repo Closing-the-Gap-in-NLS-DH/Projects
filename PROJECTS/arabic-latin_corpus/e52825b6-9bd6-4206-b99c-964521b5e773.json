@@ -1,0 +1,144 @@
+ {
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773",
+    "record_created": "2022-09-01",
+    "record_created_by": "Müller-Laackman, Jonas",
+    "record_modified": [
+      {
+        "record_modified": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Arabic and Latin Corpus",
+    "abbr": "",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml"
+    ],
+    "project_desc": "The project is a digital collection of medieval Arabic-Latin translations to offer a deeper insight into the Arabic influence on Europe in the 10th to 14th centuries AD. ",
+    "places": [
+      {
+        "place_name": {
+          "text": "Würzburg",
+          "ref": [
+            "https://www.geonames.org/2805615"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
+        }
+      }
+    ],
+    "topic_relations": {
+      "dh": true,
+      "nls": true,
+      "rdm": false,
+      "infrastructure": false,
+      "meta": false
+    },
+    "relations": [
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Arabic and Latin Glossary",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          "https://algloss.de.dariah.eu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Würzburg",
+              "ref": [
+                "https://www.geonames.org/2805615"
+              ]
+            },
+            "coordinates": {
+              "lat": "49.79391",
+              "lng": "9.95121"
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Hasse, Dag Nikolaus",
+          "ref": [
+            "https://d-nb.info/gnd/11800638X"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "lat"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 0,
+          "margin": 0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [],
+    "keywords": [
+      "catalogue",
+      "translation",
+      "manuscripts",
+      "ara",
+      "lat"
+    ],
+    "comment": ""
+  }
+}
