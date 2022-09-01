@@ -438,5 +438,13 @@
   "e17c5b2a-7619-40bd-bddd-51063f687cb0": {
     "title": "The Yemeni Manuscript Digitization Initiative",
     "path": "/PROJECTS/ymdi/"
+  },
+  "e52825b6-9bd6-4206-b99c-964521b5e773": {
+    "title": "Arabic and Latin Corpus",
+    "path": "/PROJECTS/arabic-latin_corpus/"
+  },
+  "6a7e308d-0588-40b5-9a22-09354d313806": {
+    "title": "Arabic and Latin Glossary",
+    "path": "/PROJECTS/arabic-latin_glossary/"
   }
 }
