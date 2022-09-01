@@ -54,27 +54,7 @@
         "relation_type": "sibling",
         "type": "project",
         "title": "Arabic and Latin Glossary",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          "https://algloss.de.dariah.eu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg",
-              "ref": [
-                "https://www.geonames.org/2805615"
-              ]
-            },
-            "coordinates": {
-              "lat": "49.79391",
-              "lng": "9.95121"
-            }
-          }
-        ],
-        "relations": []
+        "uuid": "6a7e308d-0588-40b5-9a22-09354d313806"
       }
     ],
     "lang": [

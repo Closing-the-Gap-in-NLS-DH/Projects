@@ -58,27 +58,7 @@
         "relation_type": "sibling",
         "type": "project",
         "title": "Arabic and Latin Corpus",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg",
-              "ref": [
-                "https://www.geonames.org/2805615"
-              ]
-            },
-            "coordinates": {
-              "lat": "49.79391",
-              "lng": "9.95121"
-            }
-          }
-        ],
-        "relations": []
+        "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
       }
     ],
     "lang": [
