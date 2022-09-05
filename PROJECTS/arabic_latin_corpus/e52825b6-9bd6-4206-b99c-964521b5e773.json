@@ -1,7 +1,7 @@
- {
+{
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
+    "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773",
     "record_created": "2022-09-01",
     "record_created_by": "Müller-Laackman, Jonas",
     "record_modified": [
@@ -12,7 +12,7 @@
     ]
   },
   "project": {
-    "title": "Arabic and Latin Glossary",
+    "title": "Arabic and Latin Corpus",
     "abbr": "",
     "type": "project",
     "ref": [
@@ -20,18 +20,14 @@
     ],
     "date": [
       {
-        "from": "2005",
-        "to": "2013"
-      },
-      {
-        "from": "2013",
+        "from": "",
         "to": ""
       }
     ],
     "websites": [
-      "https://algloss.de.dariah.eu/"
+      "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml"
     ],
-    "project_desc": "The Arabic and Latin Glossary is a dictionary of medieval Arabic–Latin translations and corresponds to the project \"Arabic and Latin Corpus\" in terms of examining the Arabic influence on medieval Europe.",
+    "project_desc": "The project is a digital collection of medieval Arabic-Latin translations to offer a deeper insight into the Arabic influence on Europe in the 10th to 14th centuries AD. ",
     "places": [
       {
         "place_name": {
@@ -57,8 +53,8 @@
       {
         "relation_type": "sibling",
         "type": "project",
-        "title": "Arabic and Latin Corpus",
-        "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
+        "title": "Arabic and Latin Glossary",
+        "uuid": "6a7e308d-0588-40b5-9a22-09354d313806"
       }
     ],
     "lang": [
@@ -117,11 +113,11 @@
     },
     "policies": [],
     "keywords": [
-      "dictionary",
-      "translation",
-      "manuscripts",
       "ara",
-      "lat"
+      "catalogue",
+      "lat",
+      "manuscripts",
+      "translation"
     ],
     "comment": ""
   }
