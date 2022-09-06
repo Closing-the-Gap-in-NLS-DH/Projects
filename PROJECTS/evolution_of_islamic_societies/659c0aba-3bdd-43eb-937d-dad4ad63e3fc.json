@@ -23,7 +23,8 @@
       }
     ],
     "websites": [
-      "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html"
+      "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html",
+      "https://eis1600.github.io/"
     ],
     "project_desc": "This project examines the social history of the Islamic society from its birth until the 16th century using highly advanced computational methods of text analysis and data modeling. The core of the study is a corpus of Islamic text from that period containing approximately 300 titles, 100 million words, and c. 400,000 biographical records, which—for the first time—will be treated holistically as a unified corpus of historical information. One of the project´s outputs (next to two PhD theses, multiple articles and a monography) will be an open and expandable online research ecosystem, MasterChronicle, which will allow scholars in the field to engage in various modes of close and distant reading of the Arabic historical corpus.",
     "places": [
