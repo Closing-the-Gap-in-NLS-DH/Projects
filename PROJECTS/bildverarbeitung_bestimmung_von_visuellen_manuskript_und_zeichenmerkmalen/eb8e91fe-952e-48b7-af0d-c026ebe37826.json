@@ -24,6 +24,7 @@
     ],
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/203079013",
+      "https://www.inf.uni-hamburg.de/inst/ab/bv-old/research.html",
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/Z03_A4_P2.pdf",
       "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
     ],
@@ -139,6 +140,6 @@
       "manuscripts",
       "research_software"
     ],
-    "comment": "Previous websites have been deleted"
+    "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }
 }
