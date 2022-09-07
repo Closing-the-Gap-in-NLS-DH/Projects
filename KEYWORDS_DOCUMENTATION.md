@@ -44,7 +44,9 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`geography` – projects studying geographical manuscripts, building geographical visualizations, etc.
     -	`library`
     -	`african_studies`
-    -	`biographical_research` – projects studying biographical or prosopographical data, e.g. databases with ancient people names, network analysis of relationships between Muslim scholars, etc. 
+    -	`biographical_research` – projects studying biographical or prosopographical data, e.g. databases with ancient people names, network analysis of relationships between Muslim scholars, etc.
+    -   `optical_character_recognition`
+    -   `islamic_law` 
 
 3. Research object 
     -	General
@@ -86,7 +88,8 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`archive` – subcategory of database 
     -	`image_processing` 
     -	`manuscript_recovery`
-    -	`online_publishing`  
+    -	`online_publishing`
+    -   `research_software`
       
 6. Other
     -	`dh_center`
