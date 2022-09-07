@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1.5",
+  "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
-    "record_created": "07-06-2022",
+    "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
+    "record_created": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,93 +12,124 @@
     ]
   },
   "project": {
-    "title": "Belegwörterbuch der sabäischen Sprache",
-    "abbr": "Sabaweb",
+    "title": "CorpusBuilder",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2012",
-        "to": "2024"
+        "from": "2017",
+        "to": "2020"
       }
     ],
     "websites": [
-      "http://sabaweb.uni-jena.de/Sabaweb"
+      "https://openiti.org/projects/CorpusBuilder.html"
     ],
-    "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
+    "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
     "places": [
       {
         "place_name": {
-          "text": "Jena",
+          "text": "College Park",
           "ref": [
-            "https://www.geonames.org/2895044/jena.html"
+            "https://www.geonames.org/4351977/college-park.html"
           ]
         },
         "coordinates": {
-          "lat": "50.92878",
-          "lng": "11.5899"
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": [],
     "topic_relations": {
       "nls": true,
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Friedrich Schiller University Jena",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q154561"
-          ]
-        },
-        "websites": [
-          "https://www.uni-jena.de/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jena",
-              "ref": [
-                "https://www.geonames.org/2895044/jena.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        "type": "project",
+        "title": "SHARIAsource",
+        "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
+      },
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Nebes, Norbert",
-          "ref": [
-            "https://d-nb.info/gnd/1064027237"
-          ]
+          "text": "Allen, Jonathan",
+          "ref": []
         },
-        "role": 0,
+        "role": 1,
         "websites": [
-          "https://www.gw.uni-jena.de/nebes-norbert"
+          "https://sllc.umd.edu/directory/jonathan-allen"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "xsa"
+        "ara"
       ],
       "publications": {
         "access": {
-          "open": 0.0,
-          "closed": 100.0,
+          "open": 0,
+          "closed": 100,
           "margin": 0.0
         },
         "licensing": [
@@ -172,8 +203,10 @@
       }
     ],
     "keywords": [
-      "dictionary",
-      "xsa"
+      "ara",
+      "optical_character_recognition",
+      "per",
+      "research_software"
     ],
     "comment": ""
   }

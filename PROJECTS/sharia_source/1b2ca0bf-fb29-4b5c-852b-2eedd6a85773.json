@@ -1,8 +1,8 @@
 {
-  "schema_version": "0.1.5",
+  "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
-    "record_created": "07-06-2022",
+    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
+    "record_created": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,37 +12,36 @@
     ]
   },
   "project": {
-    "title": "Belegwörterbuch der sabäischen Sprache",
-    "abbr": "Sabaweb",
+    "title": "SHARIAsource",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2012",
-        "to": "2024"
+        "from": "",
+        "to": ""
       }
     ],
     "websites": [
-      "http://sabaweb.uni-jena.de/Sabaweb"
+      "https://pil.law.harvard.edu/shariasource-portal/"
     ],
-    "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
+    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
     "places": [
       {
         "place_name": {
-          "text": "Jena",
+          "text": "Cambridge",
           "ref": [
-            "https://www.geonames.org/2895044/jena.html"
+            "https://www.geonames.org/4931972/cambridge.html"
           ]
         },
         "coordinates": {
-          "lat": "50.92878",
-          "lng": "11.5899"
+          "lat": "42.3751",
+          "lng": "-71.10561"
         }
       }
     ],
     "lang": [
-      "eng",
-      "ger"
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
@@ -56,20 +55,20 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Friedrich Schiller University Jena",
+          "text": "Harvard University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q154561"
+            "https://www.wikidata.org/wiki/Q13371"
           ]
         },
         "websites": [
-          "https://www.uni-jena.de/en"
+          "https://www.harvard.edu/"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Jena",
+              "text": "Cambridge",
               "ref": [
-                "https://www.geonames.org/2895044/jena.html"
+                "https://www.geonames.org/4931972/cambridge.html"
               ]
             }
           }
@@ -80,25 +79,23 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Nebes, Norbert",
-          "ref": [
-            "https://d-nb.info/gnd/1064027237"
-          ]
+          "text": "Celik, Yusuf",
+          "ref": []
         },
         "role": 0,
         "websites": [
-          "https://www.gw.uni-jena.de/nebes-norbert"
+          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "xsa"
+        "ara"
       ],
       "publications": {
         "access": {
-          "open": 0.0,
-          "closed": 100.0,
+          "open": 0,
+          "closed": 100,
           "margin": 0.0
         },
         "licensing": [
@@ -172,8 +169,10 @@
       }
     ],
     "keywords": [
-      "dictionary",
-      "xsa"
+      "ara",
+      "catalogue",
+      "islamic_law",
+      "virtual_research_environment"
     ],
     "comment": ""
   }

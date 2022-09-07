@@ -84,8 +84,8 @@
       "nls": true,
       "dh": true,
       "meta": false,
-      "rdm": true,
-      "infrastructure": true
+      "rdm": false,
+      "infrastructure": false
     },
     "relations": [
       {

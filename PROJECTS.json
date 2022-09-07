@@ -1,4 +1,8 @@
 {
+  "5e7ab61a-0c33-44fc-8175-a1930e6d08bc": {
+    "title": "Automatic Collation for Diversifying Corpora",
+    "path": "/PROJECTS/acdc/"
+  },
   "173631fa-ddc3-4762-bfd9-5bf40ccef41a": {
     "title": "Ada Lovelace Center for Digital Humanities",
     "path": "/PROJECTS/ada_center/"
@@ -126,6 +130,10 @@
   "5f57a071-60c1-4fd2-b191-8fa8d15d70bb": {
     "title": "Coranica",
     "path": "/PROJECTS/coranica/"
+  },
+  "eb1591d7-75b9-4d62-9f67-0679e627587b": {
+    "title": "CorpusBuilder",
+    "path": "/PROJECTS/corpus_builder/"
   },
   "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0": {
     "title": "Corpus Coranicum",
@@ -374,6 +382,10 @@
   "81d8ad85-5da8-457f-99a3-6ab11128ef03": {
     "title": "SfarData",
     "path": "/PROJECTS/sfardata/"
+  },
+  "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773": {
+    "title": "SHARIAsource",
+    "path": "/PROJECTS/sharia_source/"
   },
   "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9": {
     "title": "Shawi",
