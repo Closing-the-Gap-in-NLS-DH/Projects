@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
+    "record_created": "2022-09-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "CorpusBuilder",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2020"
+      }
+    ],
+    "websites": [
+      "https://openiti.org/projects/CorpusBuilder.html"
+    ],
+    "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
+        }
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": true
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "SHARIAsource",
+        "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
+      },
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Allen, Jonathan",
+          "ref": []
+        },
+        "role": 1,
+        "websites": [
+          "https://sllc.umd.edu/directory/jonathan-allen"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "optical_character_recognition",
+      "per",
+      "research_software"
+    ],
+    "comment": ""
+  }
+}
