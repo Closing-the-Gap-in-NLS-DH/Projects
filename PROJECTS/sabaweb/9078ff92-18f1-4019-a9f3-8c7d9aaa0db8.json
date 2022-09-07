@@ -56,9 +56,9 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "",
+          "text": "Friedrich Schiller University Jena",
           "ref": [
-            "Friedrich Schiller University Jena"
+            "https://www.wikidata.org/wiki/Q154561"
           ]
         },
         "websites": [
