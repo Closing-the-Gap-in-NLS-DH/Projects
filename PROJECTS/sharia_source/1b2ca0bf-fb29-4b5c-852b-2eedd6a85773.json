@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
+    "record_created": "2022-09-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "SHARIAsource",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://pil.law.harvard.edu/shariasource-portal/"
+    ],
+    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Harvard University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q13371"
+          ]
+        },
+        "websites": [
+          "https://www.harvard.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cambridge",
+              "ref": [
+                "https://www.geonames.org/4931972/cambridge.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Celik, Yusuf",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "ara",
+      "catalogue",
+      "islamic_law",
+      "virtual_research_environment"
+    ],
+    "comment": ""
+  }
+}
