@@ -74,6 +74,18 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "CorpusBuilder",
+        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
       }
     ],
     "contacts": [
