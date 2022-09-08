@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
-    "record_created": "2022-09-07",
+    "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba",
+    "record_created": "2022-09-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,63 +12,62 @@
     ]
   },
   "project": {
-    "title": "SHARIAsource",
+    "title": "Scripta-PSL",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2016",
+        "to": "2019"
       }
     ],
     "websites": [
-      "https://pil.law.harvard.edu/shariasource-portal/"
+      "https://scripta.psl.eu/",
+      "https://escripta.hypotheses.org/"
     ],
-    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
+    "project_desc": "Scripta-PSL aims to integrate the fundamental sciences of the written word (paleography, codicology, epigraphy, history of the book, etc.) and other social and human sciences (linguistics, history, anthropology, etc.) into the digital and computational humanities. It will develop machine vision tools (for handwriting recognition and document analysis, for example) and tools for (semi)-automatic classification of symbols and texts, with a focus on pre-typographical and/or non-alphabetic cultures. It will also provide additional inquiry into written traditions of rare languages and writings, which are currently underrepresented at the University.",
     "places": [
       {
         "place_name": {
-          "text": "Cambridge",
+          "text": "Paris",
           "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
+            "http://www.geonames.org/2988506/paris.html"
           ]
         },
         "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
+          "lat": "48.85339",
+          "lng": "2.34864"
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": [],
     "topic_relations": {
       "nls": true,
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Harvard University",
+          "text": "PSL Research University Paris",
           "ref": [
-            "https://www.wikidata.org/wiki/Q13371"
+            "https://www.wikidata.org/wiki/Q1163431"
           ]
         },
         "websites": [
-          "https://www.harvard.edu/"
+          "https://psl.eu/en"
         ],
         "places": [
           {
             "place_name": {
-              "text": "Cambridge",
+              "text": "Paris",
               "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
+                "http://www.geonames.org/2988506/paris.html"
               ]
             }
           }
@@ -78,31 +77,39 @@
       {
         "relation_type": "child",
         "type": "project",
-        "title": "CorpusBuilder",
-        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
-      },
-      {
-        "relation_type": "child",
-        "type": "project",
-        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
-        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Celik, Yusuf",
-          "ref": []
+          "text": "Stauder, Andreas",
+          "ref": [
+            "https://d-nb.info/gnd/13153503X"
+          ]
         },
         "role": 0,
         "websites": [
-          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+          "https://www.ephe.psl.eu/andreas-stauder"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        "akk",
+        "ara",
+        "arm",
+        "chi",
+        "cop",
+        "gre",
+        "heb",
+        "jpn",
+        "lat",
+        "per",
+        "san",
+        "syr",
+        "tur"
       ],
       "publications": {
         "access": {
@@ -181,10 +188,22 @@
       }
     ],
     "keywords": [
+      "akk",
       "ara",
-      "catalogue",
-      "islamic_law",
-      "virtual_research_environment"
+      "arm",
+      "chi",
+      "cop",
+      "gre",
+      "heb",
+      "jpn",
+      "lat",
+      "manuscripts",
+      "optical_character_recognition",
+      "per",
+      "research_software",
+      "san",
+      "syr",
+      "tur"
     ],
     "comment": ""
   }

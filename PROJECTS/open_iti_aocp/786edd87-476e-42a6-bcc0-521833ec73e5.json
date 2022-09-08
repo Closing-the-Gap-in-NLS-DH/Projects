@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
-    "record_created": "2022-09-07",
+    "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5",
+    "record_created": "2022-09-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,31 +12,68 @@
     ]
   },
   "project": {
-    "title": "SHARIAsource",
-    "abbr": "",
+    "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+    "abbr": "OpenITI AOCP",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "",
-        "to": ""
+        "from": "2019-09",
+        "to": "2021-12"
       }
     ],
     "websites": [
-      "https://pil.law.harvard.edu/shariasource-portal/"
+      "https://openiti.org/projects/OpenITI%20AOCP%20Phase%20One.html",
+      "https://mith.umd.edu/research/openiti-aocp/"
     ],
-    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
+    "project_desc": "This project is led by an interdisciplinary team of humanities, computer science, and digital humanities co-principal investigators with the scope to challenge the technical and organizational barriers that historically have stymied the development of Arabic-script OCR and digital text production for Islamicate Studies. Its primary goal is to achieve approximately 97% character accuracy rates (CARs) for OCR on the most used Persian and Arabic print typefaces.",
     "places": [
       {
         "place_name": {
-          "text": "Cambridge",
+          "text": "College Park",
           "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
+            "https://www.geonames.org/4351977/college-park.html"
           ]
         },
         "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       }
     ],
@@ -48,61 +85,40 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Harvard University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q13371"
-          ]
-        },
-        "websites": [
-          "https://www.harvard.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       },
       {
-        "relation_type": "child",
+        "relation_type": "parent",
         "type": "project",
-        "title": "CorpusBuilder",
-        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
-      },
-      {
-        "relation_type": "child",
-        "type": "project",
-        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
-        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+        "title": "SHARIAsource",
+        "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Celik, Yusuf",
+          "text": "Allen, Jonathan",
           "ref": []
         },
-        "role": 0,
+        "role": 1,
         "websites": [
-          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+          "https://sllc.umd.edu/directory/jonathan-allen"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara"
+        "ara",
+        "per",
+        "tur",
+        "urd"
       ],
       "publications": {
         "access": {
@@ -182,9 +198,11 @@
     ],
     "keywords": [
       "ara",
-      "catalogue",
-      "islamic_law",
-      "virtual_research_environment"
+      "optical_character_recognition",
+      "per",
+      "research_software",
+      "tur",
+      "urd"
     ],
     "comment": ""
   }

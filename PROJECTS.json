@@ -211,6 +211,10 @@
     "title": "The Evolution of Islamic Societies (c.600-1600 CE): Algorithmic Analysis into Social History",
     "path": "/PROJECTS/evolution_of_islamic_societies/"
   },
+  "31ad93ff-ca97-4cf0-b30c-60685624e2c8": {
+    "title": "eScriptorium",
+    "path": "/PROJECTS/e_scriptorium/"
+  },
   "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5": {
     "title": "FDNext",
     "path": "/PROJECTS/fdnext/"
@@ -319,6 +323,10 @@
     "title": "Open Islamicate Texts Initiative",
     "path": "/PROJECTS/open_iti/"
   },
+  "786edd87-476e-42a6-bcc0-521833ec73e5": {
+    "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+    "path": "/PROJECTS/open_iti_aocp/"
+  },
   "a4fa5143-90d2-42ba-a8a1-424b09696b1c": {
     "title": "Orient-Digital",
     "path": "/PROJECTS/orient_digital/"
@@ -370,6 +378,10 @@
   "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8": {
     "title": "Belegwörterbuch der sabäischen Sprache",
     "path": "/PROJECTS/sabaweb/"
+  },
+  "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba": {
+    "title": "Scripta-PSL",
+    "path": "/PROJECTS/scripta_psl/"
   },
   "9513964d-3509-462e-9d64-c47fd3922459": {
     "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",

@@ -202,6 +202,30 @@
         "type": "project",
         "title": "Kitab",
         "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Automatic Collation for Diversifying Corpora",
+        "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "CorpusBuilder",
+        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
     "contacts": [

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
-    "record_created": "2022-09-07",
+    "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8",
+    "record_created": "2022-09-08",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,7 +12,7 @@
     ]
   },
   "project": {
-    "title": "SHARIAsource",
+    "title": "eScriptorium",
     "abbr": "",
     "type": "project",
     "ref": [],
@@ -23,20 +23,69 @@
       }
     ],
     "websites": [
-      "https://pil.law.harvard.edu/shariasource-portal/"
+      "https://escriptorium.openiti.org/",
+      "https://gitlab.com/scripta/escriptorium/"
     ],
-    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
+    "project_desc": "TThis project provides digital recognition of handwritten documents using machine learning techniques. It offers an integrated set of tools to transcribe, annotate, translate and publish historical documents written in Arabic script.",
     "places": [
       {
         "place_name": {
-          "text": "Cambridge",
+          "text": "Paris",
           "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
+            "http://www.geonames.org/2988506/paris.html"
           ]
         },
         "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
+      },
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       }
     ],
@@ -48,55 +97,31 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": false
+      "infrastructure": true
     },
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Harvard University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q13371"
-          ]
-        },
-        "websites": [
-          "https://www.harvard.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        "type": "project",
+        "title": "Scripta-PSL",
+        "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       },
       {
-        "relation_type": "child",
+        "relation_type": "parent",
         "type": "project",
-        "title": "CorpusBuilder",
-        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
-      },
-      {
-        "relation_type": "child",
-        "type": "project",
-        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
-        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+        "title": "Open Islamicate Texts Initiative",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Celik, Yusuf",
+          "text": "Allen, Jonathan",
           "ref": []
         },
-        "role": 0,
+        "role": 1,
         "websites": [
-          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+          "https://sllc.umd.edu/directory/jonathan-allen"
         ]
       }
     ],
@@ -182,9 +207,10 @@
     ],
     "keywords": [
       "ara",
-      "catalogue",
-      "islamic_law",
-      "virtual_research_environment"
+      "manuscripts",
+      "optical_character_recognition",
+      "research_software",
+      "transcription"
     ],
     "comment": ""
   }
