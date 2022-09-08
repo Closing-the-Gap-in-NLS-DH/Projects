@@ -220,6 +220,12 @@
         "type": "project",
         "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
         "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
     "contacts": [

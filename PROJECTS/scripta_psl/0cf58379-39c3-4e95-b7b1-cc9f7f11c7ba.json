@@ -73,6 +73,12 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
     "contacts": [
