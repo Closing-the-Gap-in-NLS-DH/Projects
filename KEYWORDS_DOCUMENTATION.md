@@ -46,6 +46,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`african_studies`
     -	`biographical_research` – projects studying biographical or prosopographical data, e.g. databases with ancient people names, network analysis of relationships between Muslim scholars, etc.    
     -   `islamic_law` 
+    -   `transcription`
 
 3. Research object 
     -	General
@@ -77,7 +78,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
             -	`tunisia`
 
 4. Method
-    - `annotation`
+    - `annotation`    
 
 4. Languages - [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
 
