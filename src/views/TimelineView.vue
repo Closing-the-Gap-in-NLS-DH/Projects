@@ -95,7 +95,7 @@ export default defineComponent({
     };
 
     const loadData = () => {
-      console.log("Begin to load data");
+      // console.log("Begin to load data");
       let promise = new Promise((resolve) => {
         axios
           .get(

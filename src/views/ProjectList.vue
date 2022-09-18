@@ -125,8 +125,8 @@ export default defineComponent({
                 }
               })
               .then(() => {
-                console.log("finished");
-                console.log(tags.value);
+                // console.log("finished");
+                // console.log(tags.value);
               });
           });
         });
