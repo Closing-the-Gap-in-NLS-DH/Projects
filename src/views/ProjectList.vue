@@ -79,6 +79,14 @@ export default defineComponent({
       projectList.value = [];
     };
 
+    const matchingCategory = (responseProject) =>
+      route.params.cat &&
+      responseProject.data.project.topic_relations[route.params.cat];
+
+    const matchingTag = (responseProject) =>
+      route.params.tag &&
+      responseProject.data.project.keywords.includes(route.params.tag);
+
     const loadData = () => {
       axios
         .get(
@@ -92,15 +100,10 @@ export default defineComponent({
               )
               .then((responseProject) => {
                 if (
-                  (route.params.tag &&
-                    responseProject.data.project.keywords.includes(
-                      route.params.tag
-                    )) ||
-                  (route.params.cat &&
-                    responseProject.data.project.topic_relations[
-                      route.params.cat
-                    ]) ||
-                  (!route.params.tag && !route.params.cat)
+                  matchingCategory(responseProject) ||
+                  matchingTag(responseProject) ||
+                  // Or, if no category or tag is selected, show every project
+                  (!route.params.cat && !route.params.tag)
                 ) {
                   projectList.value.push({
                     _id: key,
