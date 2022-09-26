@@ -1,0 +1,259 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9",
+    "record_created": "2022-09-26",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "QhoD – Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918",
+    "abbr": "QhoD",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://gams.uni-graz.at/context:qhod",
+      "https://www.oeaw.ac.at/ihb/forschungsbereiche/digitale-historiographie-und-editionen/forschung/habsburg-osmanische-diplomatie"
+    ],
+    "project_desc": "This project aims to provide a digital infrastructure to edit sources on Habsburg-Ottoman diplomacy from the beginning of diplomatic relations between the two empires at the turn of the 15th and 16th centuries to their demise at the end of World War I. The sources will be digitally processed on a historical-critical basis and made available in open access (CC-BY license). All forms of diplomatic relations and a large variety of source types are included.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Salzburg",
+          "ref": [
+            "http://www.geonames.org/2766823/salzburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "47.41667",
+          "lng": "13.25"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Graz",
+          "ref": [
+            "https://www.geonames.org/2778067/graz.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "47.06667",
+          "lng": "15.45"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Österreichische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q299015"
+          ]
+        },
+        "websites": [
+          "https://www.oeaw.ac.at/oesterreichische-akademie-der-wissenschaften"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Vienna",
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Graz",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q622683"
+          ]
+        },
+        "websites": [
+          "https://www.uni-graz.at/de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Graz",
+              "ref": [
+                "https://www.geonames.org/2778067/graz.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Salzburg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27265"
+          ]
+        },
+        "websites": [
+          "https://www.plus.ac.at/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Salzburg",
+              "ref": [
+                "http://www.geonames.org/2766823/salzburg.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Strohmeyer, Arno",
+          "ref": [
+            "https://d-nb.info/gnd/115840060"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ger",
+        "tur"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": "",
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {},
+        "final": {}
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
+    "keywords": [
+      "catalogue",
+      "digital_edition",
+      "ger",
+      "history",
+      "manuscripts",
+      "ottoman_empire",
+      "tur"
+    ],
+    "comment": ""
+  }
+}
