@@ -620,12 +620,6 @@
           },
           {
             "description": "If the entity is a project with a uuid",
-            "relation_type": {
-              "type": "string",
-              "enum": [
-                "parent", "sibling", "child"
-              ]
-            },
             "type": "object",
             "required": [
               "type",
@@ -633,6 +627,12 @@
               "uuid"
             ],
             "properties": {
+              "relation_type": {
+                "type": "string",
+                "enum": [
+                  "parent", "sibling", "child"
+                ]
+              },
               "type": {
                 "type": "string",
                 "const": "project"
@@ -646,13 +646,7 @@
             }
           },
           {
-            "description": "If the entity is an organisation with a uuid",
-            "relation_type": {
-              "type": "string",
-              "enum": [
-                "parent", "sibling", "child"
-              ]
-            },
+            "description": "If the entity is an organisation with a uuid",            
             "type": "object",
             "required": [
               "type",
@@ -660,6 +654,12 @@
               "uuid"
             ],
             "properties": {
+              "relation_type": {
+                "type": "string",
+                "enum": [
+                  "parent", "sibling", "child"
+                ]
+              },
               "type": {
                 "type": "string",
                 "const": "organisation"
