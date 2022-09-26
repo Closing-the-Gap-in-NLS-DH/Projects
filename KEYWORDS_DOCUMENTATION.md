@@ -47,6 +47,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`biographical_research` – projects studying biographical or prosopographical data, e.g. databases with ancient people names, network analysis of relationships between Muslim scholars, etc.    
     -   `islamic_law` 
     -   `transcription`
+    -   `history`
 
 3. Research object 
     -	General
@@ -76,6 +77,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
             -	`egypt`
             -	`palestine`
             -	`tunisia`
+            -   `ottoman_empire`
 
 4. Method
     - `annotation`    

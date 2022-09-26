@@ -108,6 +108,18 @@
         "type": "project",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Automatic Collation for Diversifying Corpora",
+        "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
       }
     ],
     "contacts": [
