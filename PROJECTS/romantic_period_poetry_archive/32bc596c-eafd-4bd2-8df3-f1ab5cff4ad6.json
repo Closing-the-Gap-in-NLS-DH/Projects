@@ -50,25 +50,17 @@
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": [],
         "places": [
           {
             "place_name": {
               "text": "",
-              "ref": [
-                ""
-              ]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
+              "ref": []
             }
           }
         ],
@@ -96,7 +88,7 @@
       "lang": [],
       "publications": {
         "access": {
-          "open": "0",
+          "open": 0,
           "closed": 0,
           "margin": 0
         },
