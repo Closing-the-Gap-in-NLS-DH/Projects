@@ -205,7 +205,12 @@
       "tools": [],
       "languages": []
     },
-    "policies": [],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "ara",
       "catalogue",

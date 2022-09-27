@@ -188,7 +188,12 @@
       "tools": [],
       "languages": []
     },
-    "policies": [],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalogue",
       "literature",
