@@ -115,17 +115,35 @@
       },
       "data": {
         "raw": {
-          "datatypes": [],
-          "repositories": []
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
         },
-        "refined": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "final": {
-          "datatypes": [],
-          "repositories": []
-        }
+        "refined": {},
+        "final": {}
       }
     },
     "stack": {
