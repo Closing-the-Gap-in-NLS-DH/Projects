@@ -218,19 +218,23 @@
         {
           "label": "csIngest",
           "self_developed": true,
-          "ref": "",
+          "ref": [],
           "purpose": "Ingest of the CMIF data into elasticSearch"
         },
         {
           "label": "CMIF Creator",
           "self_developed": true,
-          "ref": "https://github.com/correspSearch/CMIF-Creator",
+          "ref": [
+            "https://github.com/correspSearch/CMIF-Creator"
+          ],
           "purpose": "Browser-based CMIF creation"
         },
         {
           "label": "csLink",
           "self_developed": true,
-          "ref": "https://github.com/correspSearch/csLink",
+          "ref": [
+            "https://github.com/correspSearch/csLink"
+          ],
           "purpose": "Widget that shows connections in letter networks"
         }
       ],
