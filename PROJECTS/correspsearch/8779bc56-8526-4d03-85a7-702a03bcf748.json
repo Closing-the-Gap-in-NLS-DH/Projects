@@ -212,7 +212,7 @@
         {
           "label": "csHarvester",
           "self_developed": true,
-          "ref": "https://github.com/correspSearch/csHarvester",
+          "ref": [],
           "purpose": "Harvesting and validation of CMIF-files"
         },
         {
