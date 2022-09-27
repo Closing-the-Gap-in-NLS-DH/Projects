@@ -117,9 +117,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "endangered_languages"
-      ],
+      "lang": [],
       "publications": {
         "access": {
           "open": 0.0,
