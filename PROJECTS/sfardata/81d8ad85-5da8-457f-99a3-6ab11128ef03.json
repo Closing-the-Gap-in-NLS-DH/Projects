@@ -213,7 +213,7 @@
             {
               "type": "remote",
               "accessibility": "open",
-              "ref": "",
+              "ref": [],
               "description": "github"
             }
           ]
