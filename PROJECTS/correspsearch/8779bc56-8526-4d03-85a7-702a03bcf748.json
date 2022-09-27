@@ -244,7 +244,12 @@
         "css"
       ]
     },
-    "policies": [],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalogue",
       "digital_edition",

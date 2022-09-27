@@ -296,8 +296,8 @@
     },
     "policies": [
       {
-        "type": "",
-        "uri": ""
+        "description": "",
+        "ref": []
       }
     ],
     "keywords": [
