@@ -1,0 +1,389 @@
+{
+  "schema_version": "0.1.3",
+  "record_metadata": {
+    "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
+    "record_created": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "2021-11-22",
+        "record_modified_by": "Kudela, Xenia Monika"
+      },
+      {
+        "record_modified_on": "2022-04-05",
+        "record_modified_by": "Kudela, Xenia Monika"
+      }
+    ]
+  },
+  "project": {
+    "title": "FDNext",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "websites": [
+      "https://www.forschungsdaten.org/index.php/FDNext"
+    ],
+    "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Potsdam",
+          "ref": [
+            "http://www.geonames.org/2852458/potsdam.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Frankfurt (Oder)",
+          "ref": [
+            "http://www.geonames.org/2925535/frankfurt-oder.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.34714",
+          "lng": "14.55062"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cottbus",
+          "ref": [
+            "https://www.geonames.org/2939811/cottbus.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75769",
+          "lng": "14.32888"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "topic_relations": {
+      "nls": false,
+      "dh": false,
+      "meta": false,
+      "rdm": true,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Humboldt-Universität zu Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152087"
+          ]
+        },
+        "websites": [
+          "https://www.hu-berlin.de/de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Technische Universität Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q51985"
+          ]
+        },
+        "websites": [
+          "https://www.tu.berlin/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Berlin",
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Universität Potsdam",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153012"
+          ]
+        },
+        "websites": [
+          "https://www.uni-potsdam.de/de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Potsdam",
+              "ref": [
+                "http://www.geonames.org/2852458/potsdam.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Europa-Universität Viadrina Frankfurt (Oder)",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q149481"
+          ]
+        },
+        "websites": [
+          "https://www.europa-uni.de/en/index.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Frankfurt (Oder)",
+              "ref": [
+                "http://www.geonames.org/2925535/frankfurt-oder.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q149433"
+          ]
+        },
+        "websites": [
+          "https://www.b-tu.de/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Cottbus",
+              "ref": [
+                "https://www.geonames.org/2939811/cottbus.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Schmiederer, Simon",
+          "ref": [
+            "https://d-nb.info/gnd/1227354606"
+          ]
+        },
+        "role": 1,
+        "websites": [
+          "https://www.researchgate.net/profile/Simon-Schmiederer"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [],
+    "comment": ""
+  }
+}
