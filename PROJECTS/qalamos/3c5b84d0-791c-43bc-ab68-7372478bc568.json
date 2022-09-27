@@ -94,7 +94,7 @@
       "publications": {
         "access": {
           "open": 0,
-          "closed": "0",
+          "closed": 0,
           "margin": 0
         },
         "licensing": [
