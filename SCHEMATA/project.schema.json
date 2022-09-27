@@ -333,7 +333,7 @@
                     "description": "Is the tool developed by the project itself?"
                   },
                   "ref": {
-                    "type": "string",
+                    "type": "array",
                     "description": "Refs and URLs to the tool and codebase",
                     "$ref": "#/definitions/uri"
                   },
