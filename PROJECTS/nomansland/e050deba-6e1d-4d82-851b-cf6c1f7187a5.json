@@ -132,10 +132,137 @@
       "lang": [
         "ara",
         "per"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": "https://...",
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
       ]
     },
-    "stack": {},
-    "policies": [],
+    "policies": [
+      {
+        "type": "",
+        "uri": ""
+      }
+    ],
     "keywords": [
       "ara",
       "catalogue",

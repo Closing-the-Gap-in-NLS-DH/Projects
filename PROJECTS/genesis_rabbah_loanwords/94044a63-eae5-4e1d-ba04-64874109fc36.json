@@ -172,8 +172,8 @@
       ],
       "publications": {
         "access": {
-          "open": 0.0,
-          "closed": 100.0,
+          "open": 0,
+          "closed": 100,
           "margin": 0.0
         },
         "licensing": [
@@ -199,18 +199,72 @@
             {
               "type": "local",
               "accessibility": "restricted",
-              "label": "folder-based data storage"
+              "description": "folder-based data storage"
             },
             {
               "type": "remote",
               "accessibility": "open",
-              "ref": "",
-              "label": "github"
+              "ref": [],
+              "description": "github"
             }
           ]
         },
-        "refined": {},
-        "final": {}
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
       }
     },
     "stack": {
