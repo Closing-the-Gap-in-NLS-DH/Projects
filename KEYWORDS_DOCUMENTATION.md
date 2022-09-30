@@ -49,6 +49,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -   `islamic_law` 
     -   `transcription`
     -   `history`
+    -   `education`
 
 3. Research object 
     -	General
