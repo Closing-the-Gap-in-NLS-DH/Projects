@@ -26,7 +26,8 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`research_software` - software and tools build for Digital Humanities projects 
     -	`virtual_research_environment` - platforms offering tools and materials for Digital Humanities research
     -	`geographical_visualization`
-    -	`network_analysis` – projects studying relationships between people, institutions, etc., e.g. tracking down the transmission of knowledge   
+    -	`network_analysis` – projects studying relationships between people, institutions, etc., e.g. tracking down the transmission of knowledge  
+    -   `learning_platform`
 
 2. Field
     -	`linguistics`
