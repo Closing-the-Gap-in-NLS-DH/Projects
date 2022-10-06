@@ -60,6 +60,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
         -	`old_testament`
         -	`letters`
         -	`endangered_languages`
+        -   `inscriptions`
     -	Specific 
         -	Text´s titles (except of main religious text mentioned in *general*)
             -	`kalila_and_dimna`

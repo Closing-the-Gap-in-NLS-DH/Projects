@@ -1,37 +1,75 @@
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9",
-    "record_created": "2021-11-08",
+    "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
+    "record_created": "2022-10-06",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-02-18",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_on": "",
+        "record_modified_by": ""
       }
     ]
   },
   "project": {
-    "title": "Kalila and Dimna - AnonymClassic",
-    "abbr": "",
+    "title": "Cuneiform Digital Library Initiative",
+    "abbr": "CDLI",
     "type": "project",
-    "ref": [],
+    "ref": [
+      "https://viaf.org/viaf/146927082/"
+    ],
     "date": [
       {
-        "from": "2018-01-01",
-        "to": "2022-12-31"
+        "from": "2000",
+        "to": "2003"
+      },
+      {
+        "from": "2004",
+        "to": "2006"
+      },
+      {
+        "from": "2009",
+        "to": "2011"
+      },
+      {
+        "from": "2011",
+        "to": "2013"
       }
     ],
     "websites": [
-      "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html"
+      "https://cdli.ucla.edu/"
     ],
-    "project_desc": "Anonym Classic is the first ever comprehensive study of Kalila and Dimna, one of the most important text of premodern world literature which passed from Hinduism and Buddhism via Islam to Christianity. Its Arabic versions constitute a source of all further translations into European languages and are also the main focus of the project, which analyses the transmission processes of the work from India to Europe with Arabic as cultural bridge.",
+    "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
     "places": [
+      {
+        "place_name": {
+          "text": "Los Angeles",
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
       {
         "place_name": {
           "text": "Berlin",
           "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
+            "hhttps://www.geonames.org/2950159/berlin.html"
           ]
         },
         "coordinates": {
@@ -41,8 +79,7 @@
       }
     ],
     "lang": [
-      "eng",
-      "ger"
+      "eng"
     ],
     "topic_relations": {
       "nls": true,
@@ -56,20 +93,68 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Freie Universität Berlin",
+          "text": "University of California, Los Angeles",
           "ref": [
-            "https://www.wikidata.org/wiki/Q153006"
+            "https://www.wikidata.org/wiki/Q174710"
           ]
         },
         "websites": [
-          "https://www.fu-berlin.de/"
+          "https://www.ucla.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Los Angeles",
+              "ref": [
+                "https://www.geonames.org/5368361/los-angeles.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q34433"
+          ]
+        },
+        "websites": [
+          "http://www.ox.ac.uk"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Oxford",
+              "ref": [
+                "https://www.geonames.org/2640729/oxford.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Max-Planck-Institut für Wissenschaftsgeschichte",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q318118"
+          ]
+        },
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/de"
         ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
               "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
+                "hhttps://www.geonames.org/2950159/berlin.html"
               ]
             }
           }
@@ -80,21 +165,21 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Gruendler, Beatrice",
+          "text": "Renn, Jürgen",
           "ref": [
-            "https://d-nb.info/gnd/111749344X"
+            "https://d-nb.info/gnd/121180719"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+          "https://www.mpiwg-berlin.mpg.de/users/renn"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara",
-        "per"
+        "akk",
+        "sux"
       ],
       "publications": {
         "access": {
@@ -227,12 +312,10 @@
       }
     ],
     "keywords": [
-      "ara",
-      "digital_edition",
-      "kalila_and_dimna",
-      "literature",
-      "manuscripts",
-      "per"
+      "akk",
+      "catalogue",
+      "inscriptions",
+      "sux"
     ],
     "comment": ""
   }
