@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "ce4fc765-1578-4cfb-8efa-b82387c99590",
+    "record_created": "2022-10-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Tikkoun Sofrim",
+    "abbr": "",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://tikkoun-sofrim.firebaseapp.com/en",
+      "https://tikkunsofrim.hypotheses.org/about-2"
+    ],
+    "project_desc": "Add later",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Haifa",
+          "ref": [
+            "https://www.geonames.org/294801/haifa.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "32.81841",
+          "lng": "34.9885"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
+      }
+    ],
+    "topic_relations": {
+      "dh": true,
+      "nls": true,
+      "rdm": false,
+      "infrastructure": true,
+      "meta": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "PSL Research University Paris"
+        },
+        "websites": [
+          "https://psl.eu/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Paris",
+              "ref": [
+                "http://www.geonames.org/2988506/paris.html"
+              ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Haifa "
+        },
+        "websites": [
+          "https://www.haifa.ac.il/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Haifa",
+              "ref": [
+                "https://www.geonames.org/294801/haifa.html"
+              ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "National Library of Israel"
+        },
+        "websites": [
+          "https://www.nli.org.il/en"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Jerusalem",
+              "ref": [
+                "https://www.geonames.org/281184/jerusalem.html"
+              ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Scripta-PSL",
+        "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
+      }
+    ],
+    "lang": [
+      "eng",
+      "fre",
+      "heb"
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Wecker, Alan J.",
+          "ref": [
+            "https://viaf.org/viaf/19154921221763590939/#%D7%95%D7%95%D7%A7%D7%A8,_%D7%90%D7%94%D7%A8%D7%95%D7%9F"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "http://haifahci.net/people/alan-wecker/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 0,
+          "margin": 0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [],
+    "keywords": [
+      "",
+      "heb"
+    ],
+    "comment": ""
+  }
+}
