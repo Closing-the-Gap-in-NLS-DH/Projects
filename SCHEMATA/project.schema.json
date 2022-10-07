@@ -508,8 +508,16 @@
     "uri": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "http(s?):\\/\\/"
+        "anyOf":[
+          {
+          "type": "string",
+          "pattern": "http(s?):\\/\\/"
+          },
+          {
+            "type": "string",
+            "maxLength": 0
+          }
+      ]
       }
     },
     "access": {
