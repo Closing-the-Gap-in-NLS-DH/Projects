@@ -2183,11 +2183,11 @@ export default defineComponent({
       schema_version: "0.1.6",
       record_metadata: {
         uuid: uuidv4(),
-        record_created: new Date().toISOString().split("T")[0],
+        record_created_on: new Date().toISOString().split("T")[0],
         record_created_by: "",
         record_modified: [
           {
-            record_modified: "",
+            record_modified_on: "",
             record_modified_by: "",
           },
         ],
