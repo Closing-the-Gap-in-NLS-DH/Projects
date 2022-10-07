@@ -20,7 +20,7 @@
       "type": "object",
       "required": [
         "uuid",
-        "record_created",
+        "record_created_on",
         "record_created_by"
       ],
       "properties": {
@@ -28,7 +28,7 @@
           "description": "Universally Unique Identifier for the project",
           "type": "string"
         },
-        "record_created": {
+        "record_created_on": {
           "description": "Creation date of the record: YYYY-MM-DD",
           "type": "string",
           "default": "\\d{4}-\\d{2}-\\d{2}"
@@ -508,8 +508,16 @@
     "uri": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "http(s?):\\/\\/"
+        "anyOf":[
+          {
+          "type": "string",
+          "pattern": "http(s?):\\/\\/"
+          },
+          {
+            "type": "string",
+            "maxLength": 0
+          }
+      ]
       }
     },
     "access": {
