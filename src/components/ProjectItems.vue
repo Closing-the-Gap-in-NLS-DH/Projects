@@ -119,16 +119,7 @@
             />
           </div>
         </div>
-        <!--
-      <div
-        :class="(extend) ? '' : 'hidden'"
-        class="right h-full"
-      >
-        <div class="codebox max-w-2xl h-max text-left p-5 ml-5 mb-5 rounded-tr-lg overflow-scroll">
-          <pre>{{ project }}</pre>
-        </div>
       </div>
-      --></div>
       <div
         class="footer absolute inset-x-0 bottom-0 flex h-8 flex-row rounded-b-2xl pl-7"
       >

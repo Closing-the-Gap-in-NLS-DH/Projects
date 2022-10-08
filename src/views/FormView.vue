@@ -59,7 +59,7 @@
           <span>Type</span>
           <select class="mt-1 block w-full" v-model="project.project.type">
             <option value="project">Project</option>
-            <option value="organisation">Organisation</option>
+            <option value="organisation">Organization</option>
           </select>
         </label>
         <!-- Refs -->
@@ -482,7 +482,7 @@
         </label>
         <!-- Relations -->
         <label class="col-span-2 block">
-          <span>Related projects or organisations</span>
+          <span>Related projects or organizations</span>
           <div class="w-full">
             <div
               class="mr-7 flex w-full flex-row"
@@ -540,7 +540,7 @@
                     class="mt-1 block w-full"
                     v-model="project.project.relations[relKey].type"
                   >
-                    <option value="organisation">Organisation</option>
+                    <option value="organisation">Organization</option>
                     <option value="project">Project</option>
                   </select>
                 </label>
@@ -2078,7 +2078,7 @@
               project.project.type.charAt(0).toUpperCase() +
               project.project.type.slice(1)
             }}
-            (lowerkey, no whitespace, separated by comma), please consult the
+            (lowercase, no whitespace, comma-separated); please consult the
             <a
               class="font-bold"
               href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/KEYWORDS_DOCUMENTATION.md"

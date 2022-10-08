@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="box m-5 rounded-2xl p-5">
-      <h2 class="text-xl">About us</h2>
+      <h2 class="text-xl">About Us</h2>
       <p class="my-4 text-left">
         This database was created as part of the project
         <a
