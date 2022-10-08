@@ -1,10 +1,5 @@
 <template>
   <div class="visualbox w-full p-5">
-    <!--
-    <tag-list
-      :taglist="tags"
-    />
-    -->
     <table class="box table-fixed">
       <thead class="sticky top-0">
         <tr>
@@ -13,9 +8,9 @@
             class="sticky top-0 py-5 px-3 text-left"
           >
             <p>
-              CAUTION! This timeline contains projects of which we do not have
+              CAUTION! This timeline contains projects for which we do not have
               consistent funding information yet. Projects with unknown or
-              incomplete funding data are marked with an asterisk (*)
+              incomplete funding data are marked with an asterisk (*).
             </p>
           </th>
         </tr>
@@ -57,23 +52,13 @@
 </template>
 
 <script>
-/* eslint-disable no-unused-vars */
-import { defineComponent, ref, watchEffect, watch } from "vue";
-import { useRoute } from "vue-router";
+import { defineComponent, ref } from "vue";
 import axios from "axios";
-// import * as d3 from "d3";
-// import "leaflet/dist/leaflet.css";
-// import "leaflet.markercluster";
 
 export default defineComponent({
-  components: {
-    //    tagList,
-  },
+  components: {},
   setup() {
     const tags = ref([]);
-    const route = useRoute();
-    const network = ref([]);
-    const networkLinks = ref([]);
 
     const years = ref([]);
     const projects = ref([]);
@@ -81,21 +66,7 @@ export default defineComponent({
     let start = new Date().getFullYear();
     let finish = new Date().getFullYear();
 
-    let svg = null;
-    const width = 1000;
-    const height = 640;
-
-    const resetData = () => {
-      network.value = [];
-      networkLinks.value = [];
-    };
-
-    const ticked = () => {
-      /* eslint-disable-next-line no-unused-vars */
-    };
-
     const loadData = () => {
-      // console.log("Begin to load data");
       let promise = new Promise((resolve) => {
         axios
           .get(
@@ -110,6 +81,7 @@ export default defineComponent({
                 .then((responseProject) => {
                   const period = [];
                   let noEnding = false;
+
                   responseProject.data.project.date.map((p) => {
                     if (p.from !== "") {
                       let begin = Number(p.from);
@@ -122,6 +94,7 @@ export default defineComponent({
                       period.push([begin, end]);
                     }
                   });
+
                   if (period.length) {
                     projects.value.push({
                       title: responseProject.data.project.title,
@@ -130,38 +103,7 @@ export default defineComponent({
                       source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[uuid].path}${uuid}.json`,
                     });
                   }
-                  /*
-                const projectPeriods = [];
-                console.log(responseProject.data.project);
-                responseProject.data.project.date.map((p) => {
-                  if (p.from !== '') {
-                    let begin = Number(p.from);
-                    let end = (p.to !== '') ? Number(p.to) : new Date().getFullYear();
 
-                    for (let i =begin; i <= end; i += 1) {
-                      console.log(i);
-                      projectPeriods.push(i);
-                    }
-                  }
-                });
-
-                for (let i = 0; i < projectPeriods.length; i += 1) {
-                  let exists = false;
-                  for (let j = 0; j < years.value.length; j += 1) {
-                    if (projectPeriods[i] === years.value[j].year) {
-                      years.value[j].count += 1;
-                      exists = true;
-                      break;
-                    }
-                  }
-                  if (!exists) {
-                    years.value.push({
-                      year: projectPeriods[i],
-                      count: 1,
-                    });
-                  }
-                }
-                */
                   responseProject.data.project.keywords.map((tag) => {
                     if (!tags.value.includes(tag)) tags.value.push(tag);
                   });
@@ -169,12 +111,11 @@ export default defineComponent({
                   if (key === Object.keys(responseIndex.data).length - 1) {
                     resolve("ready");
                   }
-                  return null;
                 });
-              return null;
             });
           });
       });
+
       return promise;
     };
 
@@ -191,7 +132,7 @@ export default defineComponent({
     const filteredProjectYears = (project, years) => {
       const newYearArr = [...years];
       const yearsToDel = [];
-      project.periods.map((period, periodKey) => {
+      project.periods.map((period) => {
         for (let i = period[0] + 1; i <= period[1]; i += 1) {
           yearsToDel.push(i);
         }
@@ -208,6 +149,7 @@ export default defineComponent({
         for (let i = start; i <= finish; i += 1) {
           years.value.push(i);
         }
+
         projects.value.map((p, i) => {
           p.periods.map((pp, pi) => {
             if (pp[1] === -1) projects.value[i].periods[pi][1] = finish;
@@ -219,7 +161,6 @@ export default defineComponent({
           if (a.title < b.title) return -1;
           return 0;
         });
-        //Timeline
       })
       .catch((e) => {
         console.log(e);

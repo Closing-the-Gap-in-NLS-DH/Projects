@@ -1,11 +1,6 @@
 <template>
   <div class="w-full">
-    <!--
-    <tag-list
-      :taglist="tags"
-    />
-    -->
-    <div id="map" class="m-5 w-auto" />
+    <div id="map" class="m-5 w-auto"></div>
   </div>
 </template>
 
@@ -13,15 +8,12 @@
 import { defineComponent, ref, watchEffect, watch, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import axios from "axios";
-// import tagList from '@/components/TagList.vue';
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { MarkerClusterGroup } from "leaflet.markercluster/src";
 
 export default defineComponent({
-  components: {
-    //    tagList,
-  },
+  components: {},
   setup() {
     const projectList = ref([]);
     const tags = ref([]);
@@ -78,6 +70,7 @@ export default defineComponent({
                       polylines.addLayer(polyline);
                     }
                   });
+
                   const marker = L.marker(
                     [p.coordinates.lat, p.coordinates.lng],
                     {
@@ -86,6 +79,7 @@ export default defineComponent({
                       id: responseProject.data.record_metadata.uuid,
                     }
                   );
+
                   marker.on("click", () => {
                     polylines.eachLayer((p) => {
                       if (p.options.id === marker.options.id) {
@@ -99,6 +93,7 @@ export default defineComponent({
                       }
                     });
                   });
+
                   marker
                     .bindPopup(
                       `
@@ -120,9 +115,7 @@ export default defineComponent({
                 responseProject.data.project.keywords.map((tag) => {
                   if (!tags.value.includes(tag)) tags.value.push(tag);
                 });
-                return null;
               });
-            return null;
           });
         });
     };

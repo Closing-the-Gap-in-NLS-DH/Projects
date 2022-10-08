@@ -9,18 +9,18 @@
           class="font-bold"
           href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
           target="_blank"
-          >github</a
+          >GitHub</a
         >. Please make sure to provide as much information as possible for
         better reproducibility. We will continue to develop this service to
         include additional features, like validation on entry, automatically
-        acquired coordinates or an option to load and continue to work on
+        acquired coordinates, and an option to load and continue to work on
         existing files.
       </p>
       <p class="bubble my-3 rounded-xl p-4">
-        After you finished entering your data, you have to click
-        <span class="font-bold">twice</span> on the button at the end: Once for
+        After you have finished entering your data, you have to click
+        <span class="font-bold">twice</span> on the button at the end: once for
         generating the JSON and once for the download. To populate your data
-        into our database, please provide the JSON-file to our main contact:
+        into our database, please provide the JSON file to our main contact:
         bua321-nls@geschkult.fu-berlin.de
       </p>
       <h4 class="text-left text-2xl">Metadata</h4>
@@ -2132,9 +2132,7 @@ import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
 export default defineComponent({
-  components: {
-    //    tagList,
-  },
+  components: {},
   setup() {
     let output = ref(null);
     let oldRelArr = [];
@@ -2147,6 +2145,7 @@ export default defineComponent({
       editor: "",
       creationDate: new Date().toISOString().split("T")[0],
     });
+
     const roles = [
       {
         id: 0,
@@ -2165,6 +2164,7 @@ export default defineComponent({
         label: "Contractor, Honorary Staff or other",
       },
     ];
+
     const datatypes = [
       {
         label: "Raw Data",
@@ -2179,6 +2179,7 @@ export default defineComponent({
         key: "final",
       },
     ];
+
     const preset = {
       schema_version: "0.1.6",
       record_metadata: {
@@ -2307,47 +2308,7 @@ export default defineComponent({
         Object.assign(project, preset);
       }
     };
-    /* Nice to have, might continue later
 
-    const adjustPubAccess = (target, e) => {
-      const oldVal = Number(project.project.research_data.publications.access[target]);
-      const newVal = Number(e.target.value);
-
-      console.log(oldVal, newVal);
-      console.log(project.project.research_data.publications.access);
-
-      if (target === 'open') {
-        if (newVal + project.project.research_data.publications.access.closed > 100) {
-          project.project.research_data.publications.access.open = newVal;
-
-          if (newVal - oldVal > 0)
-            project.project.research_data.publications.access.closed -= (newVal - oldVal);
-          else
-            project.project.research_data.publications.access.closed += (oldVal - newVal);
-          
-          if (project.project.research_data.publications.access.closed < 0) project.project.research_data.publications.access.closed = 0;
-        } else 
-          project.project.research_data.publications.access.open = newVal;
-      }
-
-      if (target === 'closed') {
-        if (newVal + project.project.research_data.publications.access.open > 100) {
-          project.project.research_data.publications.access.closed = newVal;
-
-          if (newVal - oldVal > 0)
-            project.project.research_data.publications.access.open -= (newVal - oldVal);
-          else
-            project.project.research_data.publications.access.open += (oldVal - newVal);
-          
-          if (project.project.research_data.publications.access.open < 0) project.project.research_data.publications.access.open = 0;
-        } else 
-          project.project.research_data.publications.access.closed = newVal;
-      }
-
-      if (target === 'margin') {
-      }
-    };
-*/
     const addRelation = () => {
       console.log(project);
       project.project.relations.push({

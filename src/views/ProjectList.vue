@@ -17,41 +17,6 @@
       :source="project.source"
       :metadata="project.metadata"
     />
-    <!--
-    <p class="text-xs text-gray-400 font-mono mx-1 my-2">
-      Fetched from <a href="https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master/RESOURCES.json" target="_blank">https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master/RESOURCES.json</a>
-    </p>
-    <tagList
-      v-if="tags.length > 0"
-      v-bind:tagList="tags"
-      path="org"
-    />
-    <ul class="mx-1 mt-2 flex">
-      <li
-        v-for="(char, charKey) in alphaOrder"
-        v-bind:key="charKey"
-        class="mr-2"
-      >
-        <a v-bind:href="`#${char}`">{{ char }}</a>
-      </li>
-    </ul>
-    <ul>
-      <li v-for="(char, charKey) in alphaOrder"
-          v-bind:key="charKey">
-        <h3 class="ml-1 mt-2 text-xl">{{ char }}</h3>
-        <a v-bind:name="char" />
-        <resource-item
-          v-for="(r, rKey) in orgList.alpha[char]"
-          v-bind:key="rKey"
-          v-bind:label="r.label"
-          v-bind:comment="r.comment"
-          v-bind:link="r.ref"
-          v-bind:tags="r.tags"
-          v-bind:credit="r.collected_by"
-        ></resource-item>
-      </li>
-    </ul>
-    -->
   </div>
 </template>
 
@@ -128,7 +93,6 @@ export default defineComponent({
                 }
               })
               .then(() => {
-                // console.log("finished");
                 // console.log(tags.value);
               });
           });
