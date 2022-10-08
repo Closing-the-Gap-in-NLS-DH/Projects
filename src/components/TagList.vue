@@ -37,15 +37,6 @@
       v-if="!collapsed"
       class="tag-container mt-0 flex flex-wrap rounded-b-xl p-3 text-sm"
     >
-      <!--
-    <tag-bubble
-      v-for="(cat, key) in categories"
-      :key="key"
-      :label="cat.label"
-      :link="cat.link"
-      :small="true"
-    />
-    -->
       <tag-bubble
         v-for="(tag, key) in taglist"
         :key="key"
