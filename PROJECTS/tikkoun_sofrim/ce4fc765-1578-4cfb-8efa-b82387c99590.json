@@ -26,9 +26,10 @@
     ],
     "websites": [
       "https://tikkoun-sofrim.firebaseapp.com/en",
-      "https://tikkunsofrim.hypotheses.org/about-2"
+      "https://tikkunsofrim.hypotheses.org/about-2",
+      "https://elijahlab.haifa.ac.il/tikkoun-sofrim/?lang=en"
     ],
-    "project_desc": "Add later",
+    "project_desc": "The purpose of this project is to make Medieval Hebrew manuscripts openly and freely available as texts. To this end it combines automatic Handwritten Text-Recognition (HTR) and Crowdsourcing. The HTR is performed with a tool called Kraken with an error rate of less than 10%. In the next step, the resulting texts are made publicly available for correction. The amendments are than used both to improve Kraken’s capabilities and to place digital editions and scripts in libraries that will allow a literal search of the manuscripts.",
     "places": [
       {
         "place_name": {
@@ -214,8 +215,10 @@
     },
     "policies": [],
     "keywords": [
-      "",
-      "heb"
+      "handwritten_text_recognition",
+      "heb",
+      "manuscripts",
+      "optical_character_recognition"
     ],
     "comment": ""
   }
