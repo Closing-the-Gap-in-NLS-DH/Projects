@@ -53,7 +53,9 @@
         }
       }
     ],
-    "lang": [],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
