@@ -96,6 +96,7 @@ For the most part, the number of keywords should not exceed 5  (research data la
     -	`online_publishing`
     -   `research_software`
     -   `optical_character_recognition`
+    -   `handwritten_text_recognition`
       
 6. Other
     -	`dh_center`
