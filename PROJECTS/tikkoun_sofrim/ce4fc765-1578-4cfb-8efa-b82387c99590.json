@@ -80,7 +80,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "PSL Research University Paris"
+          "text": "PSL Research University Paris",
+          "ref": []
         },
         "websites": [
           "https://psl.eu/en"
@@ -105,7 +106,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "University of Haifa "
+          "text": "University of Haifa",
+          "ref": []
         },
         "websites": [
           "https://www.haifa.ac.il/"
@@ -130,7 +132,8 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "National Library of Israel"
+          "text": "National Library of Israel",
+          "ref": []
         },
         "websites": [
           "https://www.nli.org.il/en"
