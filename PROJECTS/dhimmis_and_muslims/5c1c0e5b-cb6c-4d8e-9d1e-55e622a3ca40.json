@@ -2,7 +2,7 @@
   "schema_version": "0.1.3",
   "record_metadata": {
     "uuid": "5c1c0e5b-cb6c-4d8e-9d1e-55e622a3ca40",
-    "record_created_on": "2022_05-09",
+    "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -84,7 +84,8 @@
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
           "ref": [
-            "https://www.wikidata.org/wiki/Q50662"
+            "https://www.wikidata.org/wiki/Q50662",
+            "https://ror.org/04cvxnb49"
           ]
         },
         "websites": [
@@ -108,7 +109,8 @@
         "org_name": {
           "text": "Universität Stuttgart",
           "ref": [
-            "https://www.wikidata.org/wiki/Q122453"
+            "https://www.wikidata.org/wiki/Q122453",
+            "https://ror.org/04vnq7t77"
           ]
         },
         "websites": [
@@ -132,7 +134,8 @@
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
-            "https://www.wikidata.org/wiki/Q152087"
+            "https://www.wikidata.org/wiki/Q152087",
+            "https://ror.org/01j818n92"
           ]
         },
         "websites": [

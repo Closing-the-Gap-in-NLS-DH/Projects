@@ -10,7 +10,7 @@
         "record_modified_by": "Kudela, Xenia Monika"
       },
       {
-        "record_modified_on": "2022-05_05",
+        "record_modified_on": "2022-05-05",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -74,7 +74,8 @@
         "org_name": {
           "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
-            "https://www.wikidata.org/wiki/Q8898015"
+            "https://www.wikidata.org/wiki/Q8898015",
+            "https://ror.org/001rdaz60"
           ]
         },
         "websites": [
@@ -98,7 +99,8 @@
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
-            "https://www.wikidata.org/wiki/Q161976"
+            "https://www.wikidata.org/wiki/Q161976",
+            "https://ror.org/00fbnyb24"
           ]
         },
         "websites": [

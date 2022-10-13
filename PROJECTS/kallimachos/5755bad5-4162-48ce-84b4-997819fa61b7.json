@@ -10,7 +10,7 @@
         "record_modified_by": "Kudela, Xenia Monika"
       },
       {
-        "record_modified_on": "2022-05_04",
+        "record_modified_on": "2022-05-04",
         "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
@@ -65,7 +65,8 @@
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
-            "https://www.wikidata.org/wiki/Q161976"
+            "https://www.wikidata.org/wiki/Q161976",
+            "https://ror.org/00fbnyb24"
           ]
         },
         "websites": [

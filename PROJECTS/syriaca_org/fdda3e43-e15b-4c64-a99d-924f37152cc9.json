@@ -53,9 +53,10 @@
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Center of Digital Humanities Research - Texas A&M University",
+          "text": "Texas A&M University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q7707466"
+            "https://www.wikidata.org/wiki/Q49212",
+            "https://ror.org/0034eay46"
           ]
         },
         "websites": [
@@ -80,7 +81,8 @@
         "org_name": {
           "text": "Vanderbilt University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q29052"
+            "https://www.wikidata.org/wiki/Q29052",
+            "https://ror.org/02vm5rt34"
           ]
         },
         "websites": [
@@ -104,7 +106,8 @@
         "org_name": {
           "text": "Princeton University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q21578"
+            "https://www.wikidata.org/wiki/Q21578",
+            "https://ror.org/00hx57361"
           ]
         },
         "websites": [
@@ -128,7 +131,8 @@
         "org_name": {
           "text": "Marquette University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q188370"
+            "https://www.wikidata.org/wiki/Q188370",
+            "https://ror.org/04gr4te78"
           ]
         },
         "websites": [
@@ -152,7 +156,8 @@
         "org_name": {
           "text": "New York University",
           "ref": [
-            "https://www.wikidata.org/wiki/Q49210"
+            "https://www.wikidata.org/wiki/Q49210",
+            "https://ror.org/03v8adn41"
           ]
         },
         "websites": [
