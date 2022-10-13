@@ -81,7 +81,9 @@
         "type": "organisation",
         "org_name": {
           "text": "PSL Research University Paris",
-          "ref": []
+          "ref": [
+            "https://ror.org/03k9z2963"
+          ]
         },
         "websites": [
           "https://psl.eu/en"
@@ -107,7 +109,9 @@
         "type": "organisation",
         "org_name": {
           "text": "University of Haifa",
-          "ref": []
+          "ref": [
+            "https://ror.org/02f009v59"
+          ]
         },
         "websites": [
           "https://www.haifa.ac.il/"
@@ -133,7 +137,9 @@
         "type": "organisation",
         "org_name": {
           "text": "National Library of Israel",
-          "ref": []
+          "ref": [
+            "https://ror.org/03be63z97"
+          ]
         },
         "websites": [
           "https://www.nli.org.il/en"
