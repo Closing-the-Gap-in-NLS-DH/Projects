@@ -240,12 +240,11 @@
         }
       ],
       "keywords": {
-        "lang": [], //taken form research_data/lang
-        "field":[], //literature, African studies, linguistics
-        "research_object":[], //manuscripts, inscriptions, Quran
-        "output": [], //catalogue, digital edition
-        "method": [] //OCR, annotation, image processing
-        // these categories should be also added to GUI
+        "lang": [], 
+        "discipline":[], 
+        "resources":[], 
+        "tools_and_services": [], 
+        "topics":[]
       },
       "comment": ""
     }
