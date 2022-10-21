@@ -83,8 +83,8 @@
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
-            "https://ror.org/03anc3s24",
-            "https://www.wikidata.org/wiki/Q299015"
+            "https://www.wikidata.org/wiki/Q299015",
+            "https://ror.org/03anc3s24"
           ]
         },
         "websites": [
@@ -108,8 +108,8 @@
         "org_name": {
           "text": "Universität Graz",
           "ref": [
-            "https://ror.org/02n0bts35",
-            "https://www.wikidata.org/wiki/Q622683"
+            "https://www.wikidata.org/wiki/Q622683",
+            "https://ror.org/02n0bts35"
           ]
         },
         "websites": [
@@ -133,8 +133,8 @@
         "org_name": {
           "text": "Universität Salzburg",
           "ref": [
-            "https://www.wikidata.org/wiki/Q27265",
-            "https://ror.org/00tfmqe91"
+            "https://ror.org/00tfmqe91",
+            "https://www.wikidata.org/wiki/Q27265"
           ]
         },
         "websites": [
@@ -151,6 +151,18 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)",
+        "uuid": "ff1ec94f-2233-46e9-b550-45c792ae581e"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574)",
+        "uuid": "e9b15bcd-05ec-4de1-95f5-07d5bb44e482"
       }
     ],
     "contacts": [
