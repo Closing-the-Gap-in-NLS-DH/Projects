@@ -1,59 +1,71 @@
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
-    "record_created_on": "2021-11-08",
+    "uuid": "ff1ec94f-2233-46e9-b550-45c792ae581e",
+    "record_created:on": "2022-10-21",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
-        "record_modified_on": "2022-02-21",
-        "record_modified_by": "Kudela, Xenia Monika"
+        "record_modified_on": "",
+        "record_modified_by": ""
       }
     ]
   },
   "project": {
-    "title": "ARCHES",
+    "title": "Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)",
     "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2019",
-        "to": "2024"
+        "from": "2020",
+        "to": ""
       }
     ],
     "websites": [
-      "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
+      "https://gams.uni-graz.at/context:vipa"
     ],
-    "project_desc": "The main objective of this project is the identification and cataloguing of Arabic and Judaeo-Arabic manuscripts related to Bible exegesis and translation, known as the Firkovitch Collection. The series contains approximately 2700 manuscripts dating back to the Golden Age of Arabic lands (between 9th and 13th centuries), which provide an extraordinary window to the intellectual and religious life of the Jewish communities living in those areas in that time. The metadata of the manuscripts will be made accessible for further research. ",
+    "project_desc": "The aim of this project is the edition of all Habsburg and Ottoman sources documenting the diplomatic mission of Damian Hugo of Virmont and Ibrahim Pasha 1719/20, which are letters reports, travelogues, invoices, pictures, maps, artifacts, leaflets, pamphlets and newspapers. Sources written in Ottoman Turkish are translated into English and the editing work is based on a dynamic indexing process, according to which sources and metadata are put online even before the historical-critical editing is fully completed.",
     "places": [
       {
         "place_name": {
-          "text": "Munich",
+          "text": "Vienna",
           "ref": [
-            "https://www.geonames.org/2867714/munich.html"
+            "https://www.geonames.org/2761369/vienna.html"
           ]
         },
         "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
+          "lat": "48.20849",
+          "lng": "16.37208"
         }
       },
       {
         "place_name": {
-          "text": "Jerusalem",
+          "text": "Salzburg",
           "ref": [
-            "https://www.geonames.org/293198/jerusalem.html"
+            "http://www.geonames.org/2766823/salzburg.html"
           ]
         },
         "coordinates": {
-          "lat": "31.75",
-          "lng": "35"
+          "lat": "47.41667",
+          "lng": "13.25"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Graz",
+          "ref": [
+            "https://www.geonames.org/2778067/graz.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "47.06667",
+          "lng": "15.45"
         }
       }
     ],
     "lang": [
-      "eng"
+      "ger"
     ],
     "topic_relations": {
       "nls": true,
@@ -65,97 +77,29 @@
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q156598",
-            "https://ror.org/05591te55"
-          ]
-        },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": [
-                "https://www.geonames.org/2867714/munich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "The Hebrew University of Jerusalem",
-          "ref": [
-            "https://ror.org/04d0szq68",
-            "https://www.wikidata.org/wiki/Q174158"
-          ]
-        },
-        "websites": [
-          "https://en.huji.ac.il/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": [
-                "https://www.geonames.org/293198/jerusalem.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        "type": "project",
+        "title": "QhoD – Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918",
+        "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Vollandt, Ronny",
+          "text": "Strohmeyer, Arno",
           "ref": [
-            "https://d-nb.info/gnd/1173742050"
+            "https://d-nb.info/gnd/115840060"
           ]
         },
         "role": 0,
         "websites": [
-          "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.htmll"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "Goldstein, Miriam",
-          "ref": [
-            "https://d-nb.info/gnd/1019351853"
-          ]
-        },
-        "role": 0,
-        "websites": [
-          "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "Sklare, David",
-          "ref": [
-            "https://d-nb.info/gnd/1158385684"
-          ]
-        },
-        "role": 1,
-        "websites": [
-          "https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/david-sklare/index.html"
+          "https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "ara",
-        "heb"
+        "ger",
+        "tur"
       ],
       "publications": {
         "access": {
@@ -288,12 +232,11 @@
       }
     ],
     "keywords": [
-      "ara",
-      "bible",
       "catalogue",
-      "heb",
-      "manuscripts",
-      "religion_history"
+      "digital_edition",
+      "ger",
+      "ottoman_empire",
+      "tur"
     ],
     "comment": ""
   }
