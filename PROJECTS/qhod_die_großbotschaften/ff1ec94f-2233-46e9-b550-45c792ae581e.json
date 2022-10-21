@@ -81,6 +81,12 @@
         "type": "project",
         "title": "QhoD – Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918",
         "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574)",
+        "uuid": "e9b15bcd-05ec-4de1-95f5-07d5bb44e482"
       }
     ],
     "contacts": [

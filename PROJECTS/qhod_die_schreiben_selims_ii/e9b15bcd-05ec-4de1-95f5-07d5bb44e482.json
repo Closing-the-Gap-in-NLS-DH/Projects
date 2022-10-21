@@ -81,6 +81,12 @@
         "type": "project",
         "title": "QhoD – Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918",
         "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)",
+        "uuid": "ff1ec94f-2233-46e9-b550-45c792ae581e"
       }
     ],
     "contacts": [
