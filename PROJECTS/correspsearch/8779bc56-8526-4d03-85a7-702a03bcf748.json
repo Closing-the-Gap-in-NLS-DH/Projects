@@ -26,17 +26,13 @@
         "to": "2022"
       }
     ],
-    "websites": [
-      "https://correspsearch.net/de/start.html"
-    ],
-    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
+    "websites": ["https://correspsearch.net/de/start.html"],
+    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -44,10 +40,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "topic_relations": {
       "nls": false,
       "dh": true,
@@ -66,16 +59,12 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ],
+        "websites": ["https://www.bbaw.de/"],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
+              "ref": ["https://www.geonames.org/2950159/berlin.html"]
             }
           }
         ],
@@ -86,9 +75,7 @@
       {
         "pers_name": {
           "text": "Dumont, Stefan",
-          "ref": [
-            "https://d-nb.info/gnd/1034877364"
-          ]
+          "ref": ["https://d-nb.info/gnd/1034877364"]
         },
         "role": 1,
         "websites": [
@@ -97,28 +84,21 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "eng",
-        "ger"
-      ],
+      "lang": ["eng", "ger"],
       "publications": {
         "access": {
           "open": 100.0,
           "closed": 0.0,
           "margin": 0.0
         },
-        "licensing": [
-          "CC-BY 4.0"
-        ]
+        "licensing": ["CC-BY 4.0"]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -144,9 +124,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -172,9 +150,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -199,16 +175,9 @@
       }
     },
     "stack": {
-      "database": [
-        "eXist-db"
-      ],
-      "backend": [
-        "elasticSearch"
-      ],
-      "frontend": [
-        "vue",
-        "xslt"
-      ],
+      "database": ["eXist-db"],
+      "backend": ["elasticSearch"],
+      "frontend": ["vue", "xslt"],
       "tools": [
         {
           "label": "csHarvester",
@@ -225,17 +194,13 @@
         {
           "label": "CMIF Creator",
           "self_developed": true,
-          "ref": [
-            "https://github.com/correspSearch/CMIF-Creator"
-          ],
+          "ref": ["https://github.com/correspSearch/CMIF-Creator"],
           "purpose": "Browser-based CMIF creation"
         },
         {
           "label": "csLink",
           "self_developed": true,
-          "ref": [
-            "https://github.com/correspSearch/csLink"
-          ],
+          "ref": ["https://github.com/correspSearch/csLink"],
           "purpose": "Widget that shows connections in letter networks"
         }
       ],
@@ -255,13 +220,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "catalogue",
-      "digital_edition",
-      "eng",
-      "ger",
-      "letters"
-    ],
+    "keywords": ["catalogue", "digital_edition", "eng", "ger", "letters"],
     "comment": ""
   }
 }
