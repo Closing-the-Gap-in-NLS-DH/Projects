@@ -1,7 +1,6 @@
-/* ./src/styles/app.css */
+/* stylelint-disable at-rule-no-unknown */
 
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +15,7 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
-.text-comfortaa {
+.text-noto {
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -46,9 +45,6 @@ body {
   border-color: #202c39;
 }
 
-.icon-text {
-}
-
 .bubble {
   background-color: #f2d492;
 }
@@ -63,8 +59,6 @@ a.bubble:hover {
   color: #fff;
 }
 
-.nav-item {
-}
 .nav-item:hover {
   color: #f2d492;
   cursor: pointer;
@@ -73,17 +67,21 @@ a.bubble:hover {
 .bg-orange {
   background-color: #f29559;
 }
+
 .text-orange {
   color: #f29559 !important;
 }
+
 .bg-brightblue {
   background-color: #202c39;
   color: #b8b08d;
 }
+
 .bg-darkblue {
   background-color: #202c39;
   color: #b8b08d;
 }
+
 .bright-text {
   color: #b8b08d;
 }
@@ -98,7 +96,7 @@ a:hover {
 }
 
 #app {
-  font-family: Noto Sans, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

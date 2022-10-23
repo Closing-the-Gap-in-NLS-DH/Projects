@@ -25,7 +25,7 @@
           </div>
           <div
             @click="extend = !extend"
-            class="text-comfortaa p-3 py-5 text-left text-3xl leading-normal antialiased"
+            class="text-noto p-3 py-5 text-left text-3xl leading-normal antialiased"
           >
             {{ project.title }}
           </div>
