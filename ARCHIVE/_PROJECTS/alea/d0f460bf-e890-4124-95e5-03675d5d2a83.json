@@ -22,17 +22,13 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://www.uni-muenster.de/ALEA/"
-    ],
+    "websites": ["https://www.uni-muenster.de/ALEA/"],
     "project_desc": "The main focus of ALEA project is the Arabic literature and rhetoric form the time between 11th and 18th century, which until now was regarded as a period of cultural and intellectual stagnation in the Middle East. Against this claim the researchers of ALEA project try to demonstrate that this period has not only produced a huge variety of fascinating texts but also hosted a vibrant literary life. In that they question the established concept of decadence and criticize it as scientifically wrong and moreover, as having impact on Arabic countries until these day.",
     "places": [
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/6553087/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
         "coordinates": {
           "lat": "51.95973",
@@ -40,9 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "ger"
-    ],
+    "lang": ["ger"],
     "topic_relations": {
       "nls": true,
       "dh": false,
@@ -56,20 +50,14 @@
         "type": "organisation",
         "org_name": {
           "text": "WWU Münster",
-          "ref": [
-            "https://d-nb.info/gnd/36175-6"
-          ]
+          "ref": ["https://d-nb.info/gnd/36175-6"]
         },
-        "websites": [
-          "https://www.uni-muenster.de"
-        ],
+        "websites": ["https://www.uni-muenster.de"],
         "places": [
           {
             "place_name": {
               "text": "Münster",
-              "ref": [
-                "https://www.geonames.org/6553087/muenster.html"
-              ]
+              "ref": ["https://www.geonames.org/6553087/muenster.html"]
             }
           }
         ],
@@ -86,9 +74,7 @@
       {
         "pers_name": {
           "text": "Bauer, Thomas",
-          "ref": [
-            "https://d-nb.info/gnd/130608467/"
-          ]
+          "ref": ["https://d-nb.info/gnd/130608467/"]
         },
         "role": 0,
         "websites": [
@@ -97,18 +83,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ]
+      "lang": ["ara"]
     },
     "stack": {},
     "policies": [],
-    "keywords": [
-      "11th_to_18th_century",
-      "ara",
-      "arabic_literature",
-      "edition"
-    ],
+    "keywords": ["11th_to_18th_century", "ara", "arabic_literature", "edition"],
     "comment": "The project is concluded. The published volumes are available by open access at https://www.nomos-elibrary.de/"
   }
 }

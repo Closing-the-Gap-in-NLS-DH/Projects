@@ -1,0 +1,23 @@
+{
+  "name": "closing-the-gap",
+  "version": "0.1.0",
+  "description": "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)",
+  "homepage": "https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data#readme",
+  "bugs": {
+    "url": "https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data.git"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Multilingual Digital Humanities",
+  "main": "PROJECTS.json",
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

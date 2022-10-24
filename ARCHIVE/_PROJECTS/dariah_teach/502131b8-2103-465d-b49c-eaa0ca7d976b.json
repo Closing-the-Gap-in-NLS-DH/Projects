@@ -22,17 +22,13 @@
         "to": "2017-06-30"
       }
     ],
-    "websites": [
-      "https://teach-blog.dariah.eu/"
-    ],
+    "websites": ["https://teach-blog.dariah.eu/"],
     "project_desc": "This international project is dedicated to development of open-source, high quality, multilingual teaching materials for the digital arts and humanities. Its second objective is to strengthen alliances and foster innovative teaching and learning practices among members of the ESFRI-roadmap Digital Research Infrastructure for the Arts and Humanities (DARIAH) network",
     "places": [
       {
         "place_name": {
           "text": "Maynooth",
-          "ref": [
-            "https://www.geonames.org/2962668/maynooth.html"
-          ]
+          "ref": ["https://www.geonames.org/2962668/maynooth.html"]
         },
         "coordinates": {
           "lat": "53.385",
@@ -42,9 +38,7 @@
       {
         "place_name": {
           "text": "Aarhus",
-          "ref": [
-            "https://www.geonames.org/2624652/arhus.html"
-          ]
+          "ref": ["https://www.geonames.org/2624652/arhus.html"]
         },
         "coordinates": {
           "lat": "56.15674",
@@ -54,9 +48,7 @@
       {
         "place_name": {
           "text": "Marousi",
-          "ref": [
-            "https://www.geonames.org/265243/marousi.html"
-          ]
+          "ref": ["https://www.geonames.org/265243/marousi.html"]
         },
         "coordinates": {
           "lat": "38.05",
@@ -66,9 +58,7 @@
       {
         "place_name": {
           "text": "Belgrade",
-          "ref": [
-            "https://www.geonames.org/792680/belgrade.html"
-          ]
+          "ref": ["https://www.geonames.org/792680/belgrade.html"]
         },
         "coordinates": {
           "lat": "44.80401",
@@ -78,9 +68,7 @@
       {
         "place_name": {
           "text": "Rotterdam",
-          "ref": [
-            "https://www.geonames.org/2747891/rotterdam.html"
-          ]
+          "ref": ["https://www.geonames.org/2747891/rotterdam.html"]
         },
         "coordinates": {
           "lat": "51.9225",
@@ -90,9 +78,7 @@
       {
         "place_name": {
           "text": "Luxembourg",
-          "ref": [
-            "https://www.geonames.org/2960316/luxembourg.html"
-          ]
+          "ref": ["https://www.geonames.org/2960316/luxembourg.html"]
         },
         "coordinates": {
           "lat": "49.61167",
@@ -102,9 +88,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -114,9 +98,7 @@
       {
         "place_name": {
           "text": "Lausanne",
-          "ref": [
-            "https://www.geonames.org/2659994/lausanne.html"
-          ]
+          "ref": ["https://www.geonames.org/2659994/lausanne.html"]
         },
         "coordinates": {
           "lat": "46.516",
@@ -126,9 +108,7 @@
       {
         "place_name": {
           "text": "Geneva",
-          "ref": [
-            "https://www.geonames.org/2660646/geneve.html"
-          ]
+          "ref": ["https://www.geonames.org/2660646/geneve.html"]
         },
         "coordinates": {
           "lat": "46.20222",
@@ -136,9 +116,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "topic_relations": {
       "nls": false,
       "dh": false,
@@ -152,9 +130,7 @@
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q49103279"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q49103279"]
         },
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       },
@@ -169,9 +145,7 @@
       {
         "pers_name": {
           "text": "Schreibman, Susan",
-          "ref": [
-            "https://d-nb.info/gnd/1113679360"
-          ]
+          "ref": ["https://d-nb.info/gnd/1113679360"]
         },
         "role": 0,
         "websites": [
@@ -187,18 +161,14 @@
           "closed": 100.0,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -225,18 +195,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -245,11 +206,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {

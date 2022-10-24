@@ -79,7 +79,7 @@
     "visualization",
     "xml-editor"
   ],
-  "topics_dh": [   
+  "topics_dh": [
     "europeana",
     "glam",
     "linked_data",
@@ -103,7 +103,7 @@
     "teaching",
     "terminology"
   ],
-  "topics_arabic_studies_and_others":[
+  "topics_arabic_studies_and_others": [
     "language_documentation",
     "language_history",
     "language_variation",
@@ -118,9 +118,9 @@
     "kabbalah",
     "old_testament",
     "quran",
-    "torah"    
+    "torah"
   ],
-  "people":[
+  "people": [
     "aristotele",
     "averroes",
     "galen",
@@ -128,20 +128,14 @@
     "ibn_bagga",
     "ptolemy"
   ],
-  "places":[
-    "egypt",
-    "palestine",
-    "tunisia",
-    "yemen"
-  ],
-  "questions":[
-      "repository, database, catalogue and archive",
-      "very precised keywords (colophons, commentary, letters, micro_texts) - should we keep them?",
-      "manuscripts or historical texts?",
-      "other keywords to delete: excellence_cluster",
-      "research_software and to tools_and_services or is it too general?",
-      "theology or religion_studies",
-      "GLAM or galleries, libraries, archives, and museums separately"
-      
+  "places": ["egypt", "palestine", "tunisia", "yemen"],
+  "questions": [
+    "repository, database, catalogue and archive",
+    "very precised keywords (colophons, commentary, letters, micro_texts) - should we keep them?",
+    "manuscripts or historical texts?",
+    "other keywords to delete: excellence_cluster",
+    "research_software and to tools_and_services or is it too general?",
+    "theology or religion_studies",
+    "GLAM or galleries, libraries, archives, and museums separately"
   ]
 }

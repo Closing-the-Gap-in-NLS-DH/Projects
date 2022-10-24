@@ -4,11 +4,7 @@
   "title": "Project",
   "description": "Project that in some way deals with either Digital Humanities, Research Data Management, Non-Latin Script or Infrastructure",
   "type": "object",
-  "required": [
-    "schema_version",
-    "record_metadata",
-    "project"
-  ],
+  "required": ["schema_version", "record_metadata", "project"],
   "properties": {
     "schema_version": {
       "description": "Version of the used JSON schema",
@@ -18,11 +14,7 @@
     "record_metadata": {
       "description": "Metadata of the record file",
       "type": "object",
-      "required": [
-        "uuid",
-        "record_created_on",
-        "record_created_by"
-      ],
+      "required": ["uuid", "record_created_on", "record_created_by"],
       "properties": {
         "uuid": {
           "description": "Universally Unique Identifier for the project",
@@ -42,10 +34,7 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": [
-              "record_modified_on",
-              "record_modified_by"
-            ],
+            "required": ["record_modified_on", "record_modified_by"],
             "properties": {
               "record_modified_on": {
                 "description": "Modification date of the record: YYYY-MM-DD",
@@ -85,10 +74,7 @@
         "type": {
           "description": "Type of the project: (organisation|project)",
           "type": "string",
-          "enum": [
-            "organisation",
-            "project"
-          ]
+          "enum": ["organisation", "project"]
         },
         "ref": {
           "description": "List of Authority file URIs: http(s)://...",
@@ -134,13 +120,7 @@
         "topic_relations": {
           "description": "Information on the project's relation to relevant topics. Possible values: (null|false|true)",
           "type": "object",
-          "required": [
-            "nls",
-            "dh",
-            "rdm",
-            "infrastructure",
-            "meta"
-          ],
+          "required": ["nls", "dh", "rdm", "infrastructure", "meta"],
           "properties": {
             "nls": {
               "description": "Is the project related to Non-Latin Script?",
@@ -173,10 +153,7 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": [
-              "pers_name",
-              "role"
-            ],
+            "required": ["pers_name", "role"],
             "properties": {
               "pers_name": {
                 "type": "object",
@@ -207,9 +184,7 @@
         "research_data": {
           "description": "Information on the research data of the project",
           "type": "object",
-          "required": [
-            "lang"
-          ],
+          "required": ["lang"],
           "properties": {
             "lang": {
               "description": "List of languages of the research data in ISO-639-2",
@@ -222,9 +197,7 @@
             "publications": {
               "description": "Information on access and licensing of publications",
               "type": "object",
-              "required": [
-                "access", "licensing"
-              ],
+              "required": ["access", "licensing"],
               "properties": {
                 "access": {
                   "description": "Percentage of publications that are available open access, closed access or else",
@@ -239,9 +212,7 @@
             "data": {
               "description": "Information on research data",
               "type": "object",
-              "required": [
-                "raw", "refined", "final"
-              ],
+              "required": ["raw", "refined", "final"],
               "properties": {
                 "raw": {
                   "type": "object",
@@ -267,9 +238,7 @@
           "description": "Information on policies (RDP, RDM, OA, ...) applicable to the project and its publications and data",
           "items": {
             "type": "object",
-            "required": [
-              "description", "ref"
-            ],
+            "required": ["description", "ref"],
             "properties": {
               "description": {
                 "type": "string",
@@ -320,9 +289,7 @@
               "description": "List of tools that are used by the project",
               "items": {
                 "type": "object",
-                "required": [
-                  "label", "self_developed", "ref"
-                ],
+                "required": ["label", "self_developed", "ref"],
                 "properties": {
                   "label": {
                     "type": "string",
@@ -365,18 +332,14 @@
   "definitions": {
     "data": {
       "type": "object",
-      "required": [
-        "datatypes", "repositories"
-      ],
+      "required": ["datatypes", "repositories"],
       "properties": {
         "datatypes": {
           "type": "array",
           "description": "Array of different datatypes contained in the research data",
           "items": {
             "type": "object",
-            "required": [
-              "label"
-            ],
+            "required": ["label"],
             "properties": {
               "label": {
                 "type": "string",
@@ -400,9 +363,7 @@
             "anyOf": [
               {
                 "type": "object",
-                "required": [
-                  "type", "accessibility", "description"
-                ],
+                "required": ["type", "accessibility", "description"],
                 "properties": {
                   "type": {
                     "type": "string",
@@ -411,9 +372,7 @@
                   "accessibility": {
                     "type": "string",
                     "description": "Information on the accessibility of the repository. If open and local, please specify under description",
-                    "enum": [
-                      "restricted", "open"
-                    ]
+                    "enum": ["restricted", "open"]
                   },
                   "description": {
                     "type": "string",
@@ -423,9 +382,7 @@
               },
               {
                 "type": "object",
-                "required": [
-                  "type", "accessibility", "description"
-                ],
+                "required": ["type", "accessibility", "description"],
                 "properties": {
                   "type": {
                     "type": "string",
@@ -434,9 +391,7 @@
                   "accessibility": {
                     "type": "string",
                     "description": "Information on the accessibility of the repository. If open and local, please specify under description",
-                    "enum": [
-                      "restricted", "open"
-                    ]
+                    "enum": ["restricted", "open"]
                   },
                   "ref": {
                     "description": "Link(s) to the repository",
@@ -476,9 +431,7 @@
           },
           "coordinates": {
             "type": "object",
-            "required": [
-              "lat", "lng"
-            ],
+            "required": ["lat", "lng"],
             "properties": {
               "lat": {
                 "description": "Latitude of the place",
@@ -508,23 +461,21 @@
     "uri": {
       "type": "array",
       "items": {
-        "anyOf":[
+        "anyOf": [
           {
-          "type": "string",
-          "pattern": "http(s?):\\/\\/"
+            "type": "string",
+            "pattern": "http(s?):\\/\\/"
           },
           {
             "type": "string",
             "maxLength": 0
           }
-      ]
+        ]
       }
     },
     "access": {
       "type": "object",
-      "required": [
-        "open", "closed", "margin"
-      ],
+      "required": ["open", "closed", "margin"],
       "properties": {
         "open": {
           "type": "integer",
@@ -550,16 +501,11 @@
           {
             "description": "If the entity is an organisation without a uuid",
             "type": "object",
-            "required": [
-              "type",
-              "org_name"
-            ],
+            "required": ["type", "org_name"],
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": [
-                  "parent", "sibling", "child"
-                ]
+                "enum": ["parent", "sibling", "child"]
               },
               "type": {
                 "type": "string",
@@ -588,16 +534,11 @@
           {
             "description": "If the entity is an project without a uuid",
             "type": "object",
-            "required": [
-              "type",
-              "title"
-            ],
+            "required": ["type", "title"],
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": [
-                  "parent", "sibling", "child"
-                ]
+                "enum": ["parent", "sibling", "child"]
               },
               "type": {
                 "type": "string",
@@ -629,17 +570,11 @@
           {
             "description": "If the entity is a project with a uuid",
             "type": "object",
-            "required": [
-              "type",
-              "title",
-              "uuid"
-            ],
+            "required": ["type", "title", "uuid"],
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": [
-                  "parent", "sibling", "child"
-                ]
+                "enum": ["parent", "sibling", "child"]
               },
               "type": {
                 "type": "string",
@@ -654,19 +589,13 @@
             }
           },
           {
-            "description": "If the entity is an organisation with a uuid",            
+            "description": "If the entity is an organisation with a uuid",
             "type": "object",
-            "required": [
-              "type",
-              "org_name",
-              "uuid"
-            ],
+            "required": ["type", "org_name", "uuid"],
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": [
-                  "parent", "sibling", "child"
-                ]
+                "enum": ["parent", "sibling", "child"]
               },
               "type": {
                 "type": "string",

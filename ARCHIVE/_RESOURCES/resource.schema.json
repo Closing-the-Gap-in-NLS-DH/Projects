@@ -7,11 +7,7 @@
   "properties": {
     "metadata": {
       "type": "object",
-      "required": [
-        "schema_version",
-        "last_modified",
-        "last_modified_by"
-      ],
+      "required": ["schema_version", "last_modified", "last_modified_by"],
       "properties": {
         "schema_version": {
           "description": "Version of the used JSON schema",
@@ -33,14 +29,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": [
-          "type",
-          "label",
-          "comment",
-          "ref",
-          "tags",
-          "collected_by"
-        ],
+        "required": ["type", "label", "comment", "ref", "tags", "collected_by"],
         "properties": {
           "type": {
             "type": "string"
