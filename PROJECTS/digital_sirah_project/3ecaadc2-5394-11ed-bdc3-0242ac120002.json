@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "3ecaadc2-5394-11ed-bdc3-0242ac120002",
+    "record_created_on": "2022-10-24",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Digital Sirah Project",
+    "abbr": "DSP",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2012"
+      }
+    ],
+    "websites": [
+      "https://kitab-project.org/about/funders#qatar-national-library-digital-sirah-project"
+    ],
+    "project_desc": "This project combines traditional methods of textual discovery and machine learning technologies with the goal of developing algorithms that are capable to locate reuse of Sirah (Biography) of the Prophet Muhammad, written by Muhammad b. Ishaq (d. 150/767) in a 1.5 billion word corpus of classical Arabic texts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "London",
+          "ref": ["https://www.geonames.org/2643743/london.html"]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Doha",
+          "ref": ["https://www.geonames.org/290030/doha.html"]
+        },
+        "coordinates": {
+          "lat": "25.28545",
+          "lng": "51.53096"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Knowledge, Information Technology, and the Arabic Book",
+        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Qatar National Library",
+          "ref": [
+            " https://ror.org/02jv93662",
+            "https://www.wikidata.org/wiki/Q1361436"
+          ]
+        },
+        "websites": ["https://www.qnl.qa/en"],
+        "places": [
+          {
+            "place_name": {
+              "text": "Doha",
+              "ref": ["https://www.geonames.org/290030/doha.html"]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Jaques, Kevin",
+          "ref": [" http://viaf.org/viaf/65884589"]
+        },
+        "role": 0,
+        "websites": [
+          "https://religiousstudies.indiana.edu/about/faculty/jaques-kevin.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": ["php", "javascript", "python"]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "ara",
+      "ibn_ishaq",
+      "religion_history",
+      "text_reuse_detection"
+    ],
+    "comment": ""
+  }
+}
