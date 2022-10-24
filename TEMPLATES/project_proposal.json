@@ -1,252 +1,235 @@
 //See the changes in lines:
-//54 
+//54
 //114
 //226
 //243
 
 {
-    "schema_version": "0.1.6",
-    "record_metadata": {
-      "uuid": "",
-      "record_created": "",
-      "record_created_by": "",
-      "record_modified": [
-        {
-          "record_modified_on": "",
-          "record_modified_by": ""
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "",
+    "record_created": "",
+    "record_created_by": "",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "",
+    "abbr": "",
+    "type": "",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "",
+          "ref": []
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
         }
-      ]
+      }
+    ],
+    "lang": [],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": true,
+      "rdm": true,
+      "infrastructure": true
     },
-    "project": {
-      "title": "",
-      "abbr": "",
-      "type": "",
-      "ref": [],
-      "date": [
-        {
-          "from": "",
-          "to": ""
-        }
-      ],
-      "websites": [],
-      "project_desc": "",
-      "places": [
-        {
-          "place_name": {
-            "text": "",
-            "ref": []
-          },
-          "coordinates": {
-            "lat": "",
-            "lng": ""
+    "relations": [
+      {
+        "relation_type": "parent", // here I would add cooperation as a possible category next to parent/child/sibling
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
           }
-        }          
-      ],
-      "lang": [],
-      "topic_relations": {
-        "nls": true,
-        "dh": true,
-        "meta": true,
-        "rdm": true,
-        "infrastructure": true
+        ],
+        "relations": []
       },
-      "relations": [
-        {
-          "relation_type": "parent", // here I would add cooperation as a possible category next to parent/child/sibling
-          "type": "organisation",
-          "org_name": {
-            "text": "",
-            "ref": []
-          },
-          "websites": [],
-          "places":[
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "",
+        "ref": [],
+        "websites": [],
+        "places": [
+          {
+            "place_name": {
+              "text": "",
+              "ref": []
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "",
+        "uuid": ""
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "uuid": ""
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "role": 0,
+        "websites": []
+      }
+    ],
+    "research_data": {
+      "sustainability_plan": true, // could be added also to policies, but I found it easer here
+      "lang": [],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
             {
-              "place_name": {
-                "text": "",
-                "ref": []
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
               }
             }
           ],
-          "relations": []
-        },
-        {
-          "relation_type": "parent",
-          "type": "project",
-          "title": "",
-          "ref": [],
-          "websites": [],
-          "places":[
+          "repositories": [
             {
-              "place_name": {
-                "text": "",
-                "ref": []
-              }
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
             }
-          ],
-          "relations": []
-        },
-        {
-          "relation_type": "parent",
-          "type": "project",
-          "title": "",
-          "uuid": ""
-        },
-        {
-          "relation_type": "parent",
-          "type": "organisation",
-          "org_name": {
-            "text": "",
-            "ref": []
-          },
-          "uuid": ""
-        }
-      ],
-      "contacts": [
-        {
-          "pers_name": {
-            "text": "",
-            "ref": []
-          },
-          "role": 0,
-          "websites": []           
-        }         
-      ],
-      "research_data": {
-        "sustainability_plan": true, // could be added also to policies, but I found it easer here 
-        "lang": [],
-        "publications": {
-          "access": {
-            "open": 0,
-            "closed": 100,
-            "margin": 0.0
-          },
-          "licensing": [
-            ""
           ]
         },
-        "data": {
-          "raw": {
-            "datatypes": [
-              {
-                "label": "",
-                "licensing": [
-                  ""
-                ],
-                "access": {
-                  "open": 0.0,
-                  "closed": 100.0,
-                  "margin": 0.0
-                }
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
               }
-            ],
-            "repositories": [
-              {
-                "type": "local",
-                "accessibility": "restricted",
-                "description": "folder-based data storage"
-              },
-              {
-                "type": "remote",
-                "accessibility": "open",
-                "ref": [],
-                "description": "github"
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
               }
-            ]
-          },
-          "refined": {
-            "datatypes": [
-              {
-                "label": "",
-                "licensing": [
-                  ""
-                ],
-                "access": {
-                  "open": 0.0,
-                  "closed": 100.0,
-                  "margin": 0.0
-                }
-              }
-            ],
-            "repositories": [
-              {
-                "type": "local",
-                "accessibility": "restricted",
-                "description": "folder-based data storage"
-              },
-              {
-                "type": "remote",
-                "accessibility": "open",
-                "ref": [],
-                "description": "github"
-              }
-            ]
-          },
-          "final": {
-            "datatypes": [
-              {
-                "label": "",
-                "licensing": [
-                  ""
-                ],
-                "access": {
-                  "open": 0.0,
-                  "closed": 100.0,
-                  "margin": 0.0
-                }
-              }
-            ],
-            "repositories": [
-              {
-                "type": "local",
-                "accessibility": "restricted",
-                "description": "folder-based data storage"
-              },
-              {
-                "type": "remote",
-                "accessibility": "open",
-                "ref": [],
-                "description": "github"
-              }
-            ]
-          }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
         }
-      },
-      "stack": {
-        "database": [
-          "sql", "xml", "json", "nosql"
-        ],
-        "backend": [
-          "laravel"
-        ],
-        "frontend": [
-          "vue"
-        ],
-        "tools": [
-          {
-            "label": "mallet", // this could be added to the "tools" tab
-            "self_developed": false,
-            "ref": [],
-            "purpose": "Zeit schinden"
-          }
-        ],
-        "languages": [
-          "php", "javascript", "python"
-        ]
-      },
-      "policies": [
+      }
+    },
+    "stack": {
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
+      "tools": [
         {
-          "description": "",
-          "ref": []
+          "label": "mallet", // this could be added to the "tools" tab
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
         }
       ],
-      "keywords": {
-        "lang": [], 
-        "discipline":[], 
-        "resources":[], 
-        "tools_and_services": [], 
-        "topics":[]
-      },
-      "comment": ""
-    }
+      "languages": ["php", "javascript", "python"]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": {
+      "lang": [],
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": [],
+      "topics": []
+    },
+    "comment": ""
   }
-  
+}

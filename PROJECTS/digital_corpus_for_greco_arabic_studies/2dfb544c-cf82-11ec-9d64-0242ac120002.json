@@ -22,17 +22,13 @@
         "to": "2013"
       }
     ],
-    "websites": [
-      "https://www.graeco-arabic-studies.org/home.html"
-    ],
+    "websites": ["https://www.graeco-arabic-studies.org/home.html"],
     "project_desc": "The Digital Corpus for Graeco-Arabic Studies was created in the course of a collaborative project at Harvard and Tufts University and contains ca. 230 texts, three fifths of which are Greek originals and the rest are Arabic translations. In addition, the platform offers a list of authors and works included in the corpus that can be filtered by language, subject and text type and a search interface to search for Arabic or Greek words and phrases.",
     "places": [
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
-          ]
+          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
         },
         "coordinates": {
           "lat": "42.3751",
@@ -42,9 +38,7 @@
       {
         "place_name": {
           "text": "Medford",
-          "ref": [
-            "https://www.geonames.org/4943629/medford.html"
-          ]
+          "ref": ["https://www.geonames.org/4943629/medford.html"]
         },
         "coordinates": {
           "lat": "42.41843",
@@ -52,9 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -73,16 +65,12 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": [
-          "http://www.harvard.edu/"
-        ],
+        "websites": ["http://www.harvard.edu/"],
         "places": [
           {
             "place_name": {
               "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
-              ]
+              "ref": ["https://www.geonames.org/4931972/cambridge.html"]
             }
           }
         ],
@@ -98,16 +86,12 @@
             "https://ror.org/05wvpxv85"
           ]
         },
-        "websites": [
-          "http://www.tufts.edu/"
-        ],
+        "websites": ["http://www.tufts.edu/"],
         "places": [
           {
             "place_name": {
               "text": "Medford",
-              "ref": [
-                "https://www.geonames.org/4943629/medford.html"
-              ]
+              "ref": ["https://www.geonames.org/4943629/medford.html"]
             }
           }
         ],
@@ -118,39 +102,28 @@
       {
         "pers_name": {
           "text": "Schiefsky, Mark",
-          "ref": [
-            "http://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"
-          ]
+          "ref": ["http://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
         },
         "role": 0,
-        "websites": [
-          "https://scholar.harvard.edu/schiefsky/home"
-        ]
+        "websites": ["https://scholar.harvard.edu/schiefsky/home"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "gre"
-      ],
+      "lang": ["ara", "gre"],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -176,9 +149,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -204,9 +175,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -231,18 +200,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -251,11 +211,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -263,13 +219,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "digital_edition",
-      "gre",
-      "manuscripts",
-      "translation"
-    ],
+    "keywords": ["ara", "digital_edition", "gre", "manuscripts", "translation"],
     "comment": ""
   }
 }

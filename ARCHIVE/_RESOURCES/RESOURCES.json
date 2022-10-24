@@ -10,10 +10,7 @@
       "label": "DNBLab",
       "comment": "Dataset and digital objects, with API",
       "ref": "https://www.dnb.de/DE/Professionell/Services/WissenschaftundForschung/DNBLab/dnblab_node.html",
-      "tags": [
-        "#dataset",
-        "#gnd"
-      ],
+      "tags": ["#dataset", "#gnd"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -24,10 +21,7 @@
       "label": "Markdown Cheatsheet",
       "comment": "Cheatsheet for Markdown-Basics",
       "ref": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
-      "tags": [
-        "#cheatsheet",
-        "#markdown"
-      ],
+      "tags": ["#cheatsheet", "#markdown"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -38,10 +32,7 @@
       "label": "GitHub Actions",
       "comment": "Automation of CI/CD",
       "ref": "https://github.com/features/actions",
-      "tags": [
-        "#automation",
-        "#git"
-      ],
+      "tags": ["#automation", "#git"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -52,10 +43,7 @@
       "label": "Open Encyclopedia System",
       "comment": "software for scholarly encyclopedias",
       "ref": "https://www.open-encyclopedia-system.org",
-      "tags": [
-        "#software",
-        "#encyclopedia"
-      ],
+      "tags": ["#software", "#encyclopedia"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -66,10 +54,7 @@
       "label": "\u0627\u0644\u0645\u0643\u062a\u0628\u0629 \u0627\u0644\u0634\u0627\u0645\u0644\u0629",
       "comment": "Database for Arabic primary and secondary Sources",
       "ref": "https://shamela.ws/",
-      "tags": [
-        "#library",
-        "#ara"
-      ],
+      "tags": ["#library", "#ara"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -80,10 +65,7 @@
       "label": "alkhalil morpho sys",
       "comment": "Arabic morphological analyzer",
       "ref": "https://sourceforge.net/projects/alkhalil/",
-      "tags": [
-        "#nlp",
-        "#ara"
-      ],
+      "tags": ["#nlp", "#ara"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -94,11 +76,7 @@
       "label": "obsidian.md",
       "comment": "Markdown-based App for organisation, daily notes and to create a knowledge base",
       "ref": "https://obsidian.md/",
-      "tags": [
-        "#software",
-        "#markdown",
-        "#orga"
-      ],
+      "tags": ["#software", "#markdown", "#orga"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -109,11 +87,7 @@
       "label": "swagger",
       "comment": "Interactive Browser-based editor for openAPI-yaml-Files",
       "ref": "https://editor.swagger.io/",
-      "tags": [
-        "#editor",
-        "#yaml",
-        "#openapi"
-      ],
+      "tags": ["#editor", "#yaml", "#openapi"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -124,11 +98,7 @@
       "label": "dredd",
       "comment": "Testing-Framework, e.g. for openAPI",
       "ref": "https://dredd.org/",
-      "tags": [
-        "#testing",
-        "#framework",
-        "#openapi"
-      ],
+      "tags": ["#testing", "#framework", "#openapi"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -143,11 +113,7 @@
       "label": "openAPI",
       "comment": "API-Guidelines and standards",
       "ref": "https://www.openapis.org/",
-      "tags": [
-        "#api",
-        "#guideline",
-        "#openapi"
-      ],
+      "tags": ["#api", "#guideline", "#openapi"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -162,11 +128,7 @@
       "label": "stackblitz",
       "comment": "Browser-based editor for JS-Frameworks (VSCode online lookalike)",
       "ref": "https://stackblitz.com/",
-      "tags": [
-        "#editor",
-        "#browserbased",
-        "#javascript"
-      ],
+      "tags": ["#editor", "#browserbased", "#javascript"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -177,11 +139,7 @@
       "label": "airbnb guide",
       "comment": "AirBnb Javascript Code-Style guide",
       "ref": "https://github.com/airbnb/javascript",
-      "tags": [
-        "#guideline",
-        "#javascript",
-        "#codestyle"
-      ],
+      "tags": ["#guideline", "#javascript", "#codestyle"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -192,11 +150,7 @@
       "label": "Balancing Creativity and Usability",
       "comment": "",
       "ref": "https://borism.medium.com/balancing-creativity-and-usability-9bb2cd0fe929",
-      "tags": [
-        "#UI",
-        "#UX",
-        "#interfacedesign"
-      ],
+      "tags": ["#UI", "#UX", "#interfacedesign"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -207,11 +161,7 @@
       "label": "Why Do All Websites Look the Same?",
       "comment": "",
       "ref": "https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73",
-      "tags": [
-        "#webdesign",
-        "#UI",
-        "#UX"
-      ],
+      "tags": ["#webdesign", "#UI", "#UX"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -222,11 +172,7 @@
       "label": "Refactoring UI",
       "comment": "Styleguide for UI",
       "ref": "https://www.refactoringui.com/",
-      "tags": [
-        "#UI",
-        "#UX",
-        "#interfacedesign"
-      ],
+      "tags": ["#UI", "#UX", "#interfacedesign"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -237,10 +183,7 @@
       "label": "PHP: The right way",
       "comment": "PHP programming style guide",
       "ref": "https://phptherightway.com/",
-      "tags": [
-        "#codestyle",
-        "#php"
-      ],
+      "tags": ["#codestyle", "#php"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -251,9 +194,7 @@
       "label": "Behaviour-Driven-Development",
       "comment": "Article on Behaviour-Driven-Development",
       "ref": "https://www.testing-board.com/bdd-behavior-driven-development/",
-      "tags": [
-        "#behaviourdrivendevelopment"
-      ],
+      "tags": ["#behaviourdrivendevelopment"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -264,10 +205,7 @@
       "label": "taiga.io",
       "comment": "OpenSource project management service with user stories, backlog and kanban board",
       "ref": "https://taiga.io",
-      "tags": [
-        "#service",
-        "#projectmanagement"
-      ],
+      "tags": ["#service", "#projectmanagement"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -278,11 +216,7 @@
       "label": "prot\u00e9g\u00e9",
       "comment": "Browser-based editor for creating onthologies",
       "ref": "https://protege.stanford.edu/",
-      "tags": [
-        "#editor",
-        "#onthology",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#onthology", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -293,11 +227,7 @@
       "label": "dts",
       "comment": "API for collections of TEI-documents",
       "ref": "https://distributed-text-services.github.io/",
-      "tags": [
-        "#library",
-        "#tei",
-        "#api"
-      ],
+      "tags": ["#library", "#tei", "#api"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -308,11 +238,7 @@
       "label": "figma",
       "comment": "Browser-based editor for creating mockups",
       "ref": "https://www.figma.com/",
-      "tags": [
-        "#editor",
-        "#mockup",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#mockup", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -323,10 +249,7 @@
       "label": "decodeunicode",
       "comment": "Unicode reference",
       "ref": "https://decodeunicode.org/",
-      "tags": [
-        "#reference",
-        "#utf8"
-      ],
+      "tags": ["#reference", "#utf8"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -337,11 +260,7 @@
       "label": "diagrams",
       "comment": "Browser-based editor for creating visualisations",
       "ref": "https://app.diagrams.net/",
-      "tags": [
-        "#editor",
-        "#visualisation",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#visualisation", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -352,12 +271,7 @@
       "label": "JSfiddle",
       "comment": "Browser-based editor for Javascript/HTML-snippets",
       "ref": "https://jsfiddle.net/",
-      "tags": [
-        "#editor",
-        "#html",
-        "#javascript",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#html", "#javascript", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -368,11 +282,7 @@
       "label": "deckdeckgo",
       "comment": "Online-Tool for creating presentations",
       "ref": "https://deckdeckgo.com/en/",
-      "tags": [
-        "#tool",
-        "#presentations",
-        "#browserbased"
-      ],
+      "tags": ["#tool", "#presentations", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -383,11 +293,7 @@
       "label": "geoJSON Editor",
       "comment": "GeoJSON-Viewer and -Editor",
       "ref": "http://geojson.io/",
-      "tags": [
-        "#editor",
-        "#geojson",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#geojson", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -398,11 +304,7 @@
       "label": "JSON Editor online",
       "comment": "JSON Editor",
       "ref": "https://jsoneditoronline.org/",
-      "tags": [
-        "#editor",
-        "#json",
-        "#browserbased"
-      ],
+      "tags": ["#editor", "#json", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -413,10 +315,7 @@
       "label": "deepL",
       "comment": "Translator, especially for long texts",
       "ref": "https://www.deepl.com/de/translator",
-      "tags": [
-        "#service",
-        "#translation"
-      ],
+      "tags": ["#service", "#translation"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -427,10 +326,7 @@
       "label": "regex101",
       "comment": "Regex-Tester",
       "ref": "https://regex101.com/",
-      "tags": [
-        "#service",
-        "#regex"
-      ],
+      "tags": ["#service", "#regex"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -441,11 +337,7 @@
       "label": "photopea",
       "comment": "Browser-based alternative to Photoshop",
       "ref": "https://www.photopea.com/",
-      "tags": [
-        "#tool",
-        "#photoshopping",
-        "#browserbased"
-      ],
+      "tags": ["#tool", "#photoshopping", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -456,11 +348,7 @@
       "label": "planttext",
       "comment": "Viewer for onthological relations",
       "ref": "https://www.planttext.com/",
-      "tags": [
-        "#editor",
-        "#browserbased",
-        "#onthology"
-      ],
+      "tags": ["#editor", "#browserbased", "#onthology"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -471,11 +359,7 @@
       "label": "vega",
       "comment": "Grammar and guidelines for interactive visualisations",
       "ref": "http://vega.github.io/",
-      "tags": [
-        "#grammar",
-        "#guideline",
-        "#visualisation"
-      ],
+      "tags": ["#grammar", "#guideline", "#visualisation"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -486,10 +370,7 @@
       "label": "devhints.io",
       "comment": "Collection of cheatsheets",
       "ref": "https://devhints.io/",
-      "tags": [
-        "#cheatsheet",
-        "#dev"
-      ],
+      "tags": ["#cheatsheet", "#dev"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -500,11 +381,7 @@
       "label": "typescript cheatsheet",
       "comment": "",
       "ref": "https://devhints.io/typescript",
-      "tags": [
-        "#cheatsheet",
-        "#typescript",
-        "#javascript"
-      ],
+      "tags": ["#cheatsheet", "#typescript", "#javascript"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -515,10 +392,7 @@
       "label": "ocr4all",
       "comment": "GUI for OCR",
       "ref": "http://www.ocr4all.org/de/home.php",
-      "tags": [
-        "#ocr",
-        "#gui"
-      ],
+      "tags": ["#ocr", "#gui"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -529,10 +403,7 @@
       "label": "dhall",
       "comment": "Discord channel for DHd",
       "ref": "https://discord.com/invite/84nxSXx6T8/login",
-      "tags": [
-        "#discord",
-        "#dhd"
-      ],
+      "tags": ["#discord", "#dhd"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -543,10 +414,7 @@
       "label": "grex",
       "comment": "Create regex easily",
       "ref": "https://github.com/pemistahl/grex",
-      "tags": [
-        "#tool",
-        "#regex"
-      ],
+      "tags": ["#tool", "#regex"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -557,10 +425,7 @@
       "label": "fig",
       "comment": "Autocomplete for CLI",
       "ref": "https://withfig.com/",
-      "tags": [
-        "#tool",
-        "#commandline"
-      ],
+      "tags": ["#tool", "#commandline"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -571,12 +436,7 @@
       "label": "al quran cloud",
       "comment": "Digital Qur'an, can be accessed via API",
       "ref": "https://alquran.cloud/",
-      "tags": [
-        "#service",
-        "#api",
-        "#ara",
-        "#quran"
-      ],
+      "tags": ["#service", "#api", "#ara", "#quran"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -587,10 +447,7 @@
       "label": "Text+ User-Stories",
       "comment": "Template for User stories, that being said, rather for research abstracts than for dev-style user stories",
       "ref": "https://www.text-plus.org/forschungsdaten/user-stories/",
-      "tags": [
-        "#guideline",
-        "#userstories"
-      ],
+      "tags": ["#guideline", "#userstories"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -601,10 +458,7 @@
       "label": "kraken ocr",
       "comment": "OCR engine for NLS",
       "ref": "http://kraken.re/",
-      "tags": [
-        "#ocr",
-        "#nls"
-      ],
+      "tags": ["#ocr", "#nls"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -615,11 +469,7 @@
       "label": "eScriptorium",
       "comment": "App for text recognition",
       "ref": "https://www.escriptorium.uk/",
-      "tags": [
-        "#ocr",
-        "#htr",
-        "#browserbased"
-      ],
+      "tags": ["#ocr", "#htr", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -630,11 +480,7 @@
       "label": "sosci.survey",
       "comment": "Create scholarly surveys",
       "ref": "https://www.soscisurvey.de/en/index)",
-      "tags": [
-        "#service",
-        "#survey",
-        "#browserbased"
-      ],
+      "tags": ["#service", "#survey", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -645,11 +491,7 @@
       "label": "The General Index",
       "comment": "Database of n-Grams of 100 million+ journal articles",
       "ref": "https://archive.org/details/GeneralIndex",
-      "tags": [
-        "#database",
-        "#ngrams",
-        "#literature"
-      ],
+      "tags": ["#database", "#ngrams", "#literature"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -660,12 +502,7 @@
       "label": "RDMO (Research Data Management Organizer)",
       "comment": "Create Research data management plans online",
       "ref": "https://rdmorganiser.github.io/",
-      "tags": [
-        "#tool",
-        "#service",
-        "#browserbased",
-        "#nlp"
-      ],
+      "tags": ["#tool", "#service", "#browserbased", "#nlp"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -676,12 +513,7 @@
       "label": "staticSearch",
       "comment": "Codebase for pure JSON search on XHTML5-documents",
       "ref": "https://github.com/projectEndings/staticSearch",
-      "tags": [
-        "#searchengine",
-        "#dev",
-        "#xhtml",
-        "#json"
-      ],
+      "tags": ["#searchengine", "#dev", "#xhtml", "#json"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -692,11 +524,7 @@
       "label": "iiiF",
       "comment": "Framework for providing pictures and related metadata",
       "ref": "https://iiif.io/",
-      "tags": [
-        "#framework",
-        "#images",
-        "#service"
-      ],
+      "tags": ["#framework", "#images", "#service"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -707,12 +535,7 @@
       "label": "StemmaWeb",
       "comment": "Collection of tools for empirical text analysis (Graph-based)",
       "ref": "https://stemmaweb.net/",
-      "tags": [
-        "#infrastructure",
-        "#tool",
-        "#nlp",
-        "#browserbased"
-      ],
+      "tags": ["#infrastructure", "#tool", "#nlp", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -723,11 +546,7 @@
       "label": "Passim",
       "comment": "Tool for Text Alignment",
       "ref": "https://github.com/dasmiq/passim",
-      "tags": [
-        "#tool",
-        "#nlp",
-        "#textalignment"
-      ],
+      "tags": ["#tool", "#nlp", "#textalignment"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -738,11 +557,7 @@
       "label": "miro",
       "comment": "Online-Whiteboard",
       "ref": "https://miro.com/",
-      "tags": [
-        "#tool",
-        "#editor",
-        "#browserbased"
-      ],
+      "tags": ["#tool", "#editor", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -753,11 +568,7 @@
       "label": "openRefine",
       "comment": "Tool for cleaning, transforming and formatting \"messy data\"",
       "ref": "https://openrefine.org/",
-      "tags": [
-        "#tool",
-        "#rdm",
-        "#browserbased"
-      ],
+      "tags": ["#tool", "#rdm", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -768,12 +579,7 @@
       "label": "openProject",
       "comment": "OpenSource Project management software with (commercial) hosting options",
       "ref": "https://www.openproject.org/",
-      "tags": [
-        "#tool",
-        "#projectmanagement",
-        "#service",
-        "#browserbased"
-      ],
+      "tags": ["#tool", "#projectmanagement", "#service", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -784,12 +590,7 @@
       "label": "CLARIN",
       "comment": "digital infrastructure services for language-based research",
       "ref": "https://www.clarin.eu/",
-      "tags": [
-        "#infrastructure",
-        "#tool",
-        "#nlp",
-        "#browserbased"
-      ],
+      "tags": ["#infrastructure", "#tool", "#nlp", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -800,10 +601,7 @@
       "label": "openEIRE",
       "comment": "Research Data Infrastructure",
       "ref": "https://www.openaire.eu/",
-      "tags": [
-        "#infrastructure",
-        "#browserbased"
-      ],
+      "tags": ["#infrastructure", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -814,12 +612,7 @@
       "label": "Hathi Trust",
       "comment": "Digital Library and provider of NLP-Tools",
       "ref": "https://www.hathitrust.org/",
-      "tags": [
-        "#library",
-        "#tool",
-        "#service",
-        "#nlp"
-      ],
+      "tags": ["#library", "#tool", "#service", "#nlp"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -830,11 +623,7 @@
       "label": "OSF",
       "comment": "Research data infrastructure",
       "ref": "https://osf.io/",
-      "tags": [
-        "#infrastructure",
-        "#service",
-        "#rdm"
-      ],
+      "tags": ["#infrastructure", "#service", "#rdm"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -845,11 +634,7 @@
       "label": "Calfa",
       "comment": "Web-based annotation tool for documents and images",
       "ref": "https://vision.calfa.fr/",
-      "tags": [
-        "#annotation",
-        "#tool",
-        "#browserbased"
-      ],
+      "tags": ["#annotation", "#tool", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -860,11 +645,7 @@
       "label": "Calamari",
       "comment": "Commandline based OCR-tool based on kraken and ocropy",
       "ref": "https://github.com/Calamari-OCR/calamari",
-      "tags": [
-        "#ocr",
-        "#commandline",
-        "#tool"
-      ],
+      "tags": ["#ocr", "#commandline", "#tool"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -875,11 +656,7 @@
       "label": "OCRopus",
       "comment": "Tool collection for ocr and document analysis",
       "ref": "https://github.com/ocropus/ocropy",
-      "tags": [
-        "#ocr",
-        "#nlp",
-        "#tool"
-      ],
+      "tags": ["#ocr", "#nlp", "#tool"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -890,11 +667,7 @@
       "label": "Arabic dictionary interface",
       "comment": "Collection of dictionaries",
       "ref": "https://ejtaal.net/aa/",
-      "tags": [
-        "#dictionary",
-        "#ara",
-        "#browserbased"
-      ],
+      "tags": ["#dictionary", "#ara", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -905,11 +678,7 @@
       "label": "ʿArūż",
       "comment": "Online tool that performs quantitative analysis of Persian meter",
       "ref": "http://prosody.ir/",
-      "tags": [
-        "#tool",
-        "#fas",
-        "#nlp"
-      ],
+      "tags": ["#tool", "#fas", "#nlp"],
       "collected_by": {
         "name": "Intellectual Digital Humanities Network",
         "ref": "https://idhn.org/resources/"
@@ -920,78 +689,66 @@
       "label": "XML",
       "ref": "https://www.w3schools.com/xml/xml_whatis.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#xml"
-      ]
+      "tags": ["#xml"]
     },
     {
       "type": "language:descriptive",
       "label": "HTML",
       "ref": "https://www.w3schools.com/html/default.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#html"
-      ]
+      "tags": ["#html"]
     },
     {
       "type": "language:descriptive",
       "label": "RDF",
       "ref": "https://www.w3.org/TR/rdf11-concepts/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#rdf"
-      ]
+      "tags": ["#rdf"]
     },
     {
       "type": "language:descriptive",
       "label": "Kdl",
       "ref": "https://kdl.dev/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#kdl"
-      ]
+      "tags": ["#kdl"]
     },
     {
       "type": "language:descriptive",
       "label": "BEACON",
       "ref": "https://de.wikipedia.org/wiki/Wikipedia:BEACON",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#beacon"
-      ]
+      "tags": ["#beacon"]
     },
     {
       "type": "language:web",
       "label": "JavaScript",
       "ref": "https://www.w3schools.com/js/default.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#javascript"
-      ],
+      "tags": ["#javascript"],
       "frameworks": [
         {
           "type": "framework:web",
@@ -1002,11 +759,7 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "tags": ["#framework", "#javascript", "#frontend"]
         },
         {
           "type": "framework:web",
@@ -1017,11 +770,7 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "tags": ["#framework", "#javascript", "#frontend"]
         },
         {
           "type": "framework:backend",
@@ -1032,11 +781,7 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#backend"
-          ]
+          "tags": ["#framework", "#javascript", "#backend"]
         },
         {
           "type": "framework:web",
@@ -1047,22 +792,14 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#frontend"
-          ]
+          "tags": ["#framework", "#javascript", "#frontend"]
         },
         {
           "type": "framework:presentation",
           "label": "revealJS",
           "comment": "JavaScript-Framework for presentations",
           "ref": "https://revealjs.com/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#presentations"
-          ],
+          "tags": ["#framework", "#javascript", "#presentations"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1073,12 +810,7 @@
           "label": "three.js",
           "comment": "Library for 3D-visualisations",
           "ref": "https://threejs.org/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#3d",
-            "#visualisation"
-          ],
+          "tags": ["#framework", "#javascript", "#3d", "#visualisation"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1089,11 +821,7 @@
           "label": "d3",
           "comment": "Javascript-Framework for visualisations",
           "ref": "https://d3js.org/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#visualisation"
-          ],
+          "tags": ["#framework", "#javascript", "#visualisation"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1104,11 +832,7 @@
           "label": "pixiJS",
           "comment": "Javascript/HTML5-Framework for WebGL",
           "ref": "https://www.pixijs.com/",
-          "tags": [
-            "#framework",
-            "#javascript",
-            "#webgl"
-          ],
+          "tags": ["#framework", "#javascript", "#webgl"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1121,13 +845,11 @@
       "label": "PHP",
       "ref": "https://laravel.com/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#php"
-      ],
+      "tags": ["#php"],
       "frameworks": [
         {
           "type": "framework:web",
@@ -1138,23 +860,14 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#frontend",
-            "#backend",
-            "#php"
-          ]
+          "tags": ["#framework", "#frontend", "#backend", "#php"]
         },
         {
           "type": "framework:documentation",
           "label": "daux.io",
           "comment": "Framework for documentations",
           "ref": "http://daux.io/",
-          "tags": [
-            "#framework",
-            "#php",
-            "#documentation"
-          ],
+          "tags": ["#framework", "#php", "#documentation"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1167,13 +880,11 @@
       "label": "Python",
       "ref": "https://www.w3schools.com/python/default.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#python"
-      ],
+      "tags": ["#python"],
       "frameworks": [
         {
           "type": "framework:web",
@@ -1184,26 +895,18 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#python"
-          ]
+          "tags": ["#framework", "#python"]
         },
         {
           "type": "framework:topicmodeling",
           "label": "Gensim",
           "ref": "https://radimrehurek.com/gensim/index.html",
           "collected_by": {
-                "name": "Mueller-Laackman, Jonas",
-                "ref": "https://orcid.org/0000-0003-2279-6751"
-              },
+            "name": "Mueller-Laackman, Jonas",
+            "ref": "https://orcid.org/0000-0003-2279-6751"
+          },
           "comment": "Python library for topic modeling",
-          "tags": [
-            "#topicmodeling",
-            "#nlp",
-            "#tool",
-            "#python"
-          ]
+          "tags": ["#topicmodeling", "#nlp", "#tool", "#python"]
         }
       ]
     },
@@ -1212,52 +915,44 @@
       "label": "R",
       "ref": "https://www.r-project.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#r"
-      ]
+      "tags": ["#r"]
     },
     {
       "type": "language:nlp",
       "label": "Go",
       "ref": "https://golang.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#go"
-      ]
+      "tags": ["#go"]
     },
     {
       "type": "language:nlp",
       "label": "Java",
       "ref": "https://www.java.com/de/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#java"
-      ]
+      "tags": ["#java"]
     },
     {
       "type": "language:style",
       "label": "CSS",
       "ref": "https://www.w3schools.com/css/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#css"
-      ],
+      "tags": ["#css"],
       "frameworks": [
         {
           "type": "framework:style",
@@ -1268,10 +963,7 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#css"
-          ]
+          "tags": ["#framework", "#css"]
         },
         {
           "type": "framework:style",
@@ -1282,20 +974,14 @@
             "ref": "https://orcid.org/0000-0003-2279-6751"
           },
           "comment": "",
-          "tags": [
-            "#framework",
-            "#css"
-          ]
+          "tags": ["#framework", "#css"]
         },
         {
           "type": "framework:style",
           "label": "skeleton",
           "comment": "CSS-Framework",
           "ref": "http://getskeleton.com/",
-          "tags": [
-            "#framework",
-            "#css"
-          ],
+          "tags": ["#framework", "#css"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1308,217 +994,185 @@
       "label": "SASS",
       "ref": "https://sass-lang.com/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#sass"
-      ]
+      "tags": ["#sass"]
     },
     {
       "type": "db:sql",
       "label": "MySQL",
       "ref": "https://www.mysql.com/de/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#sql"
-      ]
+      "tags": ["#sql"]
     },
     {
       "type": "db:sql",
       "label": "PostgreSQL",
       "ref": "https://www.postgresql.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#sql"
-      ]
+      "tags": ["#sql"]
     },
     {
       "type": "db:nosql",
       "label": "MongoDB",
       "ref": "https://www.mongodb.com/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#nosql"
-      ]
+      "tags": ["#nosql"]
     },
     {
       "type": "db:nosql",
       "label": "Cassandra",
       "ref": "https://cassandra.apache.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#nosql"
-      ]
+      "tags": ["#nosql"]
     },
     {
       "type": "db:nosql",
       "label": "elasticSearch",
       "ref": "https://www.elastic.co/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#nosql"
-      ]
+      "tags": ["#nosql"]
     },
     {
       "type": "db:xml",
       "label": "eXist-db",
       "ref": "http://exist-db.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#xml"
-      ]
+      "tags": ["#xml"]
     },
     {
       "type": "db:xml",
       "label": "baseX",
       "ref": "https://basex.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#xml"
-      ]
+      "tags": ["#xml"]
     },
     {
       "type": "db:nosql",
       "label": "Supabase",
       "ref": "https://supabase.io/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#nosql"
-      ]
+      "tags": ["#nosql"]
     },
     {
       "type": "db:nosql",
       "label": "Firebase",
       "ref": "https://firebase.google.com/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#nosql"
-      ]
+      "tags": ["#nosql"]
     },
     {
       "type": "db:xml",
       "label": "staticSearc",
       "ref": "https://github.com/projectEndings/staticSearch/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#xml"
-      ]
+      "tags": ["#xml"]
     },
     {
       "type": "db:graph",
       "label": "Neo4J",
       "ref": "https://neo4j.com/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#graph"
-      ]
+      "tags": ["#graph"]
     },
     {
       "type": "language:query:graph",
       "label": "GraphQL",
       "ref": "https://graphql.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#graph"
-      ]
+      "tags": ["#graph"]
     },
     {
       "type": "language:query:sql",
       "label": "SQL",
       "ref": "https://www.w3schools.com/sql/sql_intro.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#sql"
-      ]
+      "tags": ["#sql"]
     },
     {
       "type": "language:query:xml",
       "label": "XQuery",
       "ref": "https://www.w3schools.com/xml/xquery_intro.asp",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#xml"
-      ]
+      "tags": ["#xml"]
     },
     {
       "type": "language:query:rdf",
       "label": "SPARQL",
       "ref": "https://www.w3.org/TR/rdf-sparql-query/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#rdf"
-      ]
+      "tags": ["#rdf"]
     },
     {
       "type": "authority:general",
       "label": "VIAF",
       "ref": "https://viaf.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#authoritycontrol",
@@ -1534,9 +1188,9 @@
       "label": "GND",
       "ref": "https://lobid.org/gnd",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#authoritycontrol",
@@ -1553,9 +1207,9 @@
       "label": "Wikidata",
       "ref": "https://www.wikidata.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#wikidata",
@@ -1571,9 +1225,9 @@
       "label": "LCCN",
       "ref": "https://www.loc.gov/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#lccn",
@@ -1589,9 +1243,9 @@
       "label": "SUDOC",
       "ref": "https://www.idref.fr/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#sudoc",
@@ -1607,9 +1261,9 @@
       "label": "geonames",
       "ref": "http://www.geonames.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#gis",
@@ -1624,104 +1278,75 @@
       "label": "ISNI",
       "ref": "https://isni.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#isni",
-        "#authoritycontrol",
-        "#music",
-        "#people"
-      ]
+      "tags": ["#isni", "#authoritycontrol", "#music", "#people"]
     },
     {
       "type": "authority:people",
       "label": "SNAPDRGN",
       "ref": "https://snapdrgn.net/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "For ancient people",
-      "tags": [
-        "#snapdrgn",
-        "#antique",
-        "#people",
-        "#authoritycontrol"
-      ]
+      "tags": ["#snapdrgn", "#antique", "#people", "#authoritycontrol"]
     },
     {
       "type": "authority:ms",
       "label": "HAF & Titulus",
       "ref": "https://haf.vhmml.org/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#authoritycontrol",
-        "#manuscripts",
-        "#people"
-      ]
+      "tags": ["#authoritycontrol", "#manuscripts", "#people"]
     },
     {
       "type": "authority",
       "label": "GRID",
       "ref": "https://www.grid.ac/",
       "collected_by": {
-          "name": "Mueller-Laackman, Jonas",
-          "ref": "https://orcid.org/0000-0003-2279-6751"
-        },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Global Identifier for Research Organisations",
-      "tags": [
-        "#organisations",
-        "#authoritycontrol"
-      ]
+      "tags": ["#organisations", "#authoritycontrol"]
     },
     {
       "type": "reference",
       "label": "Syriaca",
       "ref": "https://syriaca.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#reference",
-        "#places",
-        "#people",
-        "#works",
-        "#syc"
-      ]
+      "tags": ["#reference", "#places", "#people", "#works", "#syc"]
     },
     {
       "type": "reference",
       "label": "Communities of Knowledge",
       "ref": "https://usaybia.net/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#reference",
-        "#people",
-        "#places",
-        "#works",
-        "#networks"
-      ]
+      "tags": ["#reference", "#people", "#places", "#works", "#networks"]
     },
     {
       "type": "reference",
       "label": "HIMME",
       "ref": "https://medievalmideast.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": [
         "#reference",
@@ -1739,24 +1364,20 @@
       "label": "HistoGis",
       "ref": "https://histogis.acdh.oeaw.ac.at/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
-      "tags": [
-        "#gis",
-        "#places",
-        "#europe"
-      ]
+      "tags": ["#gis", "#places", "#europe"]
     },
     {
       "type": "journal",
       "label": "Digital Humanities Quarterly",
       "ref": "http://digitalhumanities.org/dhq/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1765,9 +1386,9 @@
       "label": "Digital Scholarship in the Humanities",
       "ref": "https://academic.oup.com/dsh",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1776,9 +1397,9 @@
       "label": "Digital Studies / Le champ numérique",
       "ref": "https://www.digitalstudies.org/ojs/index.php/digital_studies",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1787,9 +1408,9 @@
       "label": "jTEI",
       "ref": "https://journals.openedition.org/jtei/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1798,9 +1419,9 @@
       "label": "Kairos",
       "ref": "https://kairos.technorhetoric.net/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1809,9 +1430,9 @@
       "label": "NFDI4Culture",
       "ref": "https://nfdi4culture.de/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1820,9 +1441,9 @@
       "label": "NFDI4Memory",
       "ref": "https://4memory.de/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1831,9 +1452,9 @@
       "label": "Text+",
       "ref": "https://www.text-plus.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1842,9 +1463,9 @@
       "label": "Islamicate Digital Humanities Network",
       "ref": "https://idhn.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1853,9 +1474,9 @@
       "label": "DARIAH",
       "ref": "https://www.dariah.eu/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1864,9 +1485,9 @@
       "label": "Research Data Alliance",
       "ref": "https://rd-alliance.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1875,9 +1496,9 @@
       "label": "Hist-ME",
       "ref": "https://github.com/Hist-ME",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "",
       "tags": []
     },
@@ -1886,98 +1507,75 @@
       "label": "Palmetto",
       "ref": "https://github.com/dice-group/Palmetto",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Quality measuring tool for topics",
-      "tags": [
-        "#topicmodeling",
-        "#nlp",
-        "#tool"
-      ]
+      "tags": ["#topicmodeling", "#nlp", "#tool"]
     },
     {
       "type": "other",
       "label": "Mallet",
       "ref": "https://mimno.github.io/Mallet/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Topic modeling toolkit",
-      "tags": [
-        "#topicmodeling",
-        "#nlp",
-        "#tool"
-      ]
+      "tags": ["#topicmodeling", "#nlp", "#tool"]
     },
     {
       "type": "other",
       "label": "Arabic betaCode",
       "ref": "https://github.com/PerseusDL/ArabicBetacode",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Coding scheme for Arabic transcription",
-      "tags": [
-        "#ara",
-        "#transcription"
-      ]
+      "tags": ["#ara", "#transcription"]
     },
     {
       "type": "other",
       "label": "Conceptboard",
       "ref": "https://conceptboard.com/de/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Online Whiteboard",
-      "tags": [
-        "#tool",
-        "#browserbased",
-        "#collaborative"
-      ]
+      "tags": ["#tool", "#browserbased", "#collaborative"]
     },
     {
       "type": "other",
       "label": "GatherTown",
       "ref": "https://www.gather.town/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Browser-based virtual space in 2D for meetings or conferences, JRPG-lookalike",
-      "tags": [
-        "#tool",
-        "#browserbased",
-        "#collaborative"
-      ]
+      "tags": ["#tool", "#browserbased", "#collaborative"]
     },
     {
       "type": "other",
       "label": "Mozilla Hubs",
       "ref": "https://hubs.mozilla.com/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Browser-based virtual space in 3D for meetings or conferences",
-      "tags": [
-        "#tool",
-        "#browserbased",
-        "#collaborative"
-      ]
+      "tags": ["#tool", "#browserbased", "#collaborative"]
     },
     {
       "type": "other",
       "label": "Nodegoat",
       "ref": "https://nodegoat.net/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Browser-based tool for building data models, datasets and visualisations",
       "tags": [
         "#service",
@@ -1992,55 +1590,42 @@
       "label": "correspSearch",
       "ref": "https://correspsearch.net/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Correspondence metadata aggregation service for searching in letter editions",
-      "tags": [
-        "#service",
-        "#letters",
-        "#tei",
-        "#browserbased"
-      ]
+      "tags": ["#service", "#letters", "#tei", "#browserbased"]
     },
     {
       "type": "other",
       "label": "List of markdown badges",
       "ref": "https://naereen.github.io/badges/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "List of badges to include in README (e.g. on github) with their respective markdown embed codes",
-      "tags": [
-        "#cheatsheet",
-        "#markdown",
-        "#readme"
-      ]
+      "tags": ["#cheatsheet", "#markdown", "#readme"]
     },
     {
       "type": "other",
       "label": "Javascript library for deep links",
       "ref": "https://github.com/WesleyAC/deeplinks",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Library to provide deep link functionality. You can select a text on your page, copy the url and the one who gets it will be navigated to the same selected text passage.",
-      "tags": [
-        "#javascript",
-        "#library",
-        "#deeplinks"
-      ]
+      "tags": ["#javascript", "#library", "#deeplinks"]
     },
     {
       "type": "other",
       "label": "Transform Tools",
       "ref": "https://transform.tools/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Tool for transforming data, e.g. from JavaScript to JSON or from JSON to TypeScript, GraphQL or MySQL",
       "tags": [
         "#tool",
@@ -2056,130 +1641,88 @@
       "label": "Data Detox Kit",
       "ref": "https://datadetoxkit.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Website with useful information and resources on privacy and data security",
-      "tags": [
-        "#security",
-        "#tool",
-        "#service",
-        "#privacy"
-      ]
+      "tags": ["#security", "#tool", "#service", "#privacy"]
     },
     {
       "type": "other",
       "label": "Fihrist",
       "ref": "https://www.fihrist.org.uk/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Catalogue of Manuscripts from the Islamicate World",
-      "tags": [
-        "#catalogue",
-        "#library",
-        "#manuscripts",
-        "#ara",
-        "#fas"
-      ]
+      "tags": ["#catalogue", "#library", "#manuscripts", "#ara", "#fas"]
     },
     {
       "type": "other",
       "label": "Arabic Transliteration Tool",
       "ref": "https://hawramani.com/arabic-transliteration-tool/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Simple browserbased transformation tool for Arabic Transliteration",
-      "tags": [
-        "#browserbased",
-        "#ara",
-        "#transcription"
-      ]
+      "tags": ["#browserbased", "#ara", "#transcription"]
     },
     {
       "type": "other",
       "label": "Arabic Lexikon",
       "ref": "http://arabiclexicon.hawramani.com/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Online Lexikon that provides browsing and search in multiple dictionaries and references",
-      "tags": [
-        "#browserbased",
-        "#ara",
-        "#dictionary",
-        "#lexikon"
-      ]
+      "tags": ["#browserbased", "#ara", "#dictionary", "#lexikon"]
     },
     {
       "type": "other",
       "label": "Tanzil",
       "ref": "https://tanzil.net/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Online Qurʾān navigator with several translations and display options",
-      "tags": [ 
-        "#browserbased",
-        "#ara",
-        "#translation",
-        "#quran"
-      ]
+      "tags": ["#browserbased", "#ara", "#translation", "#quran"]
     },
     {
       "type": "other",
       "label": "Wikidata Query Service",
       "ref": "https://query.wikidata.org/",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Online SPARQL-based querying service for Wikidata",
-      "tags": [ 
-        "#browserbased",
-        "#sparql",
-        "#authoritycontrol",
-        "#wikidata"
-      ]
+      "tags": ["#browserbased", "#sparql", "#authoritycontrol", "#wikidata"]
     },
     {
       "type": "other",
       "label": "TRSCR Keyboard for Transcribing Arabic/Persian/Osmanic",
       "ref": "https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Keyboard layout for Arabic/Persian/Osmanic Script for Mac OS and Windows",
-      "tags": [ 
-        "#keyboardlayout",
-        "#ara",
-        "#fas",
-        "#ota",
-        "#win",
-        "#macos"
-      ]
+      "tags": ["#keyboardlayout", "#ara", "#fas", "#ota", "#win", "#macos"]
     },
     {
       "type": "other",
       "label": "Keyboard Layout for Transcribing Arabic Script",
       "ref": "https://github.com/sixtyfive/de_dmg",
       "collected_by": {
-            "name": "Mueller-Laackman, Jonas",
-            "ref": "https://orcid.org/0000-0003-2279-6751"
-          },
+        "name": "Mueller-Laackman, Jonas",
+        "ref": "https://orcid.org/0000-0003-2279-6751"
+      },
       "comment": "Keyboard layout for Arabic Script for Linux and Windows",
-      "tags": [ 
-        "#keyboardlayout",
-        "#ara",
-        "#win",
-        "#linux"
-      ]
+      "tags": ["#keyboardlayout", "#ara", "#win", "#linux"]
     }
   ]
 }

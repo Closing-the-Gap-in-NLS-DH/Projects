@@ -36,9 +36,7 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": [
-            "https://www.geonames.org/2751773/leiden.html"
-          ]
+          "ref": ["https://www.geonames.org/2751773/leiden.html"]
         },
         "coordinates": {
           "lat": "52.15833",
@@ -46,9 +44,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "topic_relations": {
       "nls": true,
       "dh": false,
@@ -61,20 +57,14 @@
         "type": "organisation",
         "org_name": {
           "text": "Leiden University",
-          "ref": [
-            "https://www.grid.ac/institutes/grid.5132.5"
-          ]
+          "ref": ["https://www.grid.ac/institutes/grid.5132.5"]
         },
-        "websites": [
-          "https://www.universiteitleiden.nl/en"
-        ],
+        "websites": ["https://www.universiteitleiden.nl/en"],
         "places": [
           {
             "place_name": {
               "text": "Leiden",
-              "ref": [
-                "https://www.geonames.org/2751773/leiden.html"
-              ]
+              "ref": ["https://www.geonames.org/2751773/leiden.html"]
             }
           }
         ],
@@ -89,9 +79,7 @@
       {
         "pers_name": {
           "text": "Sijpesteijn, Petra",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q14084136"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q14084136"]
         },
         "role": 0,
         "websites": [
@@ -100,9 +88,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ]
+      "lang": ["ara"]
     },
     "stack": {},
     "policies": [],
