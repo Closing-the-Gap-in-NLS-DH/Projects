@@ -27,7 +27,7 @@
       }
     ],
     "websites": ["https://correspsearch.net/de/start.html"],
-    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date.",
+    "project_desc": "Web service that offers an extensive collection of metadata for letter editions. It enables to search through the indexes of digital and printed editions based on sender, receiver, place or date. ",
     "places": [
       {
         "place_name": {
