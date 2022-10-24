@@ -76,6 +76,7 @@ For the most part, the number of keywords should not exceed 5 (research data lan
     - `ptolemy`
     - `galen`
     - `ibn_abi_usaybia`
+    - `ibn_ishaq`
   - particular parts or types of documents
     - `colophons`
     - `commentary`
@@ -89,6 +90,7 @@ For the most part, the number of keywords should not exceed 5 (research data lan
 4. Method
 
 - `annotation`
+- `text_reuse_detection`
 
 5. Languages: [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
 
