@@ -26,7 +26,7 @@
       "https://althurayya.github.io/#home",
       "https://alraqmiyyat.github.io/althurayya/"
     ],
-    "project_desc": "To add later",
+    "project_desc": "This project aims to reconstruct the geospatial characteristics of the early Islamic world by creating a digital gazetteer with includes over 2,000 toponyms, their descriptions from Arabic sources and technical information which is used for placing them on the map. The visualization is enriched by a geospatial model which plots routes and itineraries as well as networks of reachable places from selected centers, allowing to find paths between two or more locations.",
     "places": [
       {
         "place_name": {
@@ -203,7 +203,7 @@
         "ref": []
       }
     ],
-    "keywords": ["ara"],
+    "keywords": ["ara", "geographical_visualization", "geography"],
     "comment": ""
   }
 }
