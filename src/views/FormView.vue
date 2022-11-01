@@ -59,7 +59,7 @@
           <span>Type</span>
           <select class="mt-1 block w-full" v-model="project.project.type">
             <option value="project">Project</option>
-            <option value="organisation">Organization</option>
+            <option value="organization">Organization</option>
           </select>
         </label>
         <!-- Refs -->
@@ -540,7 +540,7 @@
                     class="mt-1 block w-full"
                     v-model="project.project.relations[relKey].type"
                   >
-                    <option value="organisation">Organization</option>
+                    <option value="organization">Organization</option>
                     <option value="project">Project</option>
                   </select>
                 </label>
@@ -2368,10 +2368,10 @@ export default defineComponent({
               });
             }
           });
-        } else if (r.type === "organisation" && r.existingEntry === "null") {
+        } else if (r.type === "organization" && r.existingEntry === "null") {
           newRelationArr.push({
             relation_type: r.relation_type,
-            type: "organisation",
+            type: "organization",
             org_name: {
               text: r.title,
             },
@@ -2379,12 +2379,12 @@ export default defineComponent({
             places: r.places,
             relations: [],
           });
-        } else if (r.type === "organisation" && r.existingEntry !== "null") {
+        } else if (r.type === "organization" && r.existingEntry !== "null") {
           projectList.value.map((p) => {
             if (p.uuid === r.existingEntry) {
               newRelationArr.push({
                 relation_type: r.relation_type,
-                type: "organisation",
+                type: "organization",
                 org_name: {
                   text: p.title,
                 },
@@ -2421,6 +2421,7 @@ export default defineComponent({
           });
         });
       });
+
     return {
       resetForm,
       project,
