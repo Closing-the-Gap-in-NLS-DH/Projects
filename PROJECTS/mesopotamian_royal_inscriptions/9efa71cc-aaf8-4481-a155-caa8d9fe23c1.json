@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1",
+    "record_created_on": "2022-11-04",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Mesopotamian Royal Inscriptions",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://cdli.ucla.edu/projects/royal/royal.html"
+    ],
+    "project_desc": "In this sub-project of the Cuneiform Digital Library Initiative (CDLI), the focus lies on the digitization of royal and monumental texts, which despite representing a small share of the overall CDLI catalogue (20,000 of 350 000 texts) assume a disproportionately large role in history, literature, and linguistics in the several sub-fields of cuneiform studies.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Los Angeles",
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "hhttps://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Foxvog,  Daniel A.",
+          "ref": [
+            "https://d-nb.info/gnd/1077774133"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://cdli.ucla.edu/?q=daniel-foxvog"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "sux"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "akk",
+      "catalogue",
+      "digital_edition",
+      "inscriptions",
+      "sux"
+    ],
+    "comment": ""
+  }
+}
