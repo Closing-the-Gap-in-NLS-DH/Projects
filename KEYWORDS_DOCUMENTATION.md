@@ -53,6 +53,7 @@ For the most part, the number of keywords should not exceed 5 (research data lan
 - `transcription`
 - `history`
 - `education`
+- `archeology`
 
 3. Research object
 
