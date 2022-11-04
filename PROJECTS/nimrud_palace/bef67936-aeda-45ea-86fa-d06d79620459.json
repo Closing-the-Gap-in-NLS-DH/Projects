@@ -76,6 +76,12 @@
     },
     "relations": [
       {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Cuneiform Digital Library Initiative",
+        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
+      },
+      {
         "relation_type": "sibling",
         "type": "project",
         "title": "Mesopotamian Royal Inscriptions",
