@@ -315,6 +315,14 @@
     "title": "Middle East Librarians Association",
     "path": "/PROJECTS/mela/"
   },
+  "9efa71cc-aaf8-4481-a155-caa8d9fe23c1": {
+    "title": "Mesopotamian Royal Inscriptions",
+    "path": "/PROJECTS/mesopotamian_royal_inscriptions/"
+  },
+  "9497c5c0-0cdc-4f43-96de-4843bd246bac": {
+    "title": "Mesopotamian Seals",
+    "path": "/PROJECTS/mesopotamian_seals/"
+  },
   "892b783d-1788-451f-9efd-1c58bfb4b064": {
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "path": "/PROJECTS/methoden_der_manuskriptanalyse_zur_wiedergewinnung_verlorener_schrift/"
@@ -322,6 +330,10 @@
   "b37c6bd1-90d3-4718-ab58-fb1d60873186": {
     "title": "Multilingual Corpus of Annotated Spoken Texts",
     "path": "/PROJECTS/multi_cast/"
+  },
+  "bef67936-aeda-45ea-86fa-d06d79620459": {
+    "title": "Nimrud NW Palace",
+    "path": "/PROJECTS/nimrud_palace/"
   },
   "e050deba-6e1d-4d82-851b-cf6c1f7187a5": {
     "title": "NoMansLand: Nomads' Manuscripts Landscape",

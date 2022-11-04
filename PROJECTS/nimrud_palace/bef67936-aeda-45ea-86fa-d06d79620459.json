@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
-    "record_created_on": "2022-10-06",
+    "uuid": "bef67936-aeda-45ea-86fa-d06d79620459",
+    "record_created_on": "2022-11-04",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,34 +12,20 @@
     ]
   },
   "project": {
-    "title": "Cuneiform Digital Library Initiative",
-    "abbr": "CDLI",
+    "title": "Nimrud NW Palace",
+    "abbr": "",
     "type": "project",
-    "ref": [
-      "https://viaf.org/viaf/146927082/"
-    ],
+    "ref": [],
     "date": [
       {
-        "from": "2000",
-        "to": "2003"
-      },
-      {
-        "from": "2004",
-        "to": "2006"
-      },
-      {
-        "from": "2009",
-        "to": "2011"
-      },
-      {
-        "from": "2011",
-        "to": "2013"
+        "from": "",
+        "to": ""
       }
     ],
     "websites": [
-      "https://cdli.ucla.edu/"
+      "https://cdli.ucla.edu/projects/nimrud/index.html"
     ],
-    "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
+    "project_desc": "This project is a collaboration between Cuneiform Digital Library Initiative (CDLI) and a German researcher Klaudia Englund and is dedicated to the digital preservation of the heritage of the Nimrud palace, which suffered severe damage at the hands of ISIS. The main goal of the project lies in preparing for display the image and text files that the researcher gathered in the course of her work on the Northwest Palace and the over 600 relief slabs mounted along the walls of the building’s main rooms.",
     "places": [
       {
         "place_name": {
@@ -91,93 +77,18 @@
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "University of California, Los Angeles",
-          "ref": [
-            "https://ror.org/025j2nd68",
-            "https://www.wikidata.org/wiki/Q174710"
-          ]
-        },
-        "websites": [
-          "https://www.ucla.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Los Angeles",
-              "ref": [
-                "https://www.geonames.org/5368361/los-angeles.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        "type": "project",
+        "title": "Cuneiform Digital Library Initiative",
+        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "University of Oxford",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q34433",
-            "https://ror.org/052gg0110"
-          ]
-        },
-        "websites": [
-          "http://www.ox.ac.uk"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Oxford",
-              "ref": [
-                "https://www.geonames.org/2640729/oxford.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Max-Planck-Institut für Wissenschaftsgeschichte",
-          "ref": [
-            "https://ror.org/0492sjc74",
-            "https://www.wikidata.org/wiki/Q318118"
-          ]
-        },
-        "websites": [
-          "https://www.mpiwg-berlin.mpg.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "hhttps://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "child",
+        "relation_type": "sibling",
         "type": "project",
         "title": "Mesopotamian Royal Inscriptions",
         "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
       },
       {
-        "relation_type": "child",
-        "type": "project",
-        "title": "Nimrud NW Palace",
-        "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
-      },
-      {
-        "relation_type": "child",
+        "relation_type": "sibling",
         "type": "project",
         "title": "Mesopotamian Seals",
         "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
@@ -186,15 +97,13 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Renn, Jürgen",
+          "text": "Englund, Klaudia",
           "ref": [
-            "https://d-nb.info/gnd/121180719"
+            "http://viaf.org/viaf/30195222"
           ]
         },
         "role": 0,
-        "websites": [
-          "https://www.mpiwg-berlin.mpg.de/users/renn"
-        ]
+        "websites": []
       }
     ],
     "research_data": {
@@ -334,6 +243,7 @@
     ],
     "keywords": [
       "akk",
+      "archeology",
       "catalogue",
       "digital_edition",
       "inscriptions",
