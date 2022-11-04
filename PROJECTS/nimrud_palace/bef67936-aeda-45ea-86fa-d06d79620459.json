@@ -74,7 +74,20 @@
       "rdm": false,
       "infrastructure": false
     },
-    "relations": [],
+    "relations": [
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Mesopotamian Royal Inscriptions",
+        "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Mesopotamian Seals",
+        "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
