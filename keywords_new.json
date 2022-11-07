@@ -27,8 +27,7 @@
     "religion_studies",
     "social_sciences",
     "theatre_studies",
-    "theology",
-    "translation"
+    "theology"
   ],
   "resources": [
     "audio_recording",
@@ -103,9 +102,8 @@
     "teaching",
     "terminology"
   ],
-  "topics_arabic_studies_and_others": [
+  "topics_NLS": [
     "language_documentation",
-    "language_history",
     "language_variation",
     "endangered_languages",
     "islamic_law",
@@ -118,24 +116,15 @@
     "kabbalah",
     "old_testament",
     "quran",
-    "torah"
+    "torah",
+    "translation",
+    "religious_text",
+    "classical_text"
   ],
-  "people": [
-    "aristotele",
-    "averroes",
-    "galen",
-    "ibn_abi_usaybia",
-    "ibn_bagga",
-    "ptolemy"
-  ],
-  "places": ["egypt", "palestine", "tunisia", "yemen"],
-  "questions": [
-    "repository, database, catalogue and archive",
-    "very precised keywords (colophons, commentary, letters, micro_texts) - should we keep them?",
-    "manuscripts or historical texts?",
-    "other keywords to delete: excellence_cluster",
-    "research_software and to tools_and_services or is it too general?",
-    "theology or religion_studies",
-    "GLAM or galleries, libraries, archives, and museums separately"
+  "Type": [
+    "type_organisation",
+    "type_reading",
+    "type_resource",
+    "type_software"
   ]
 }

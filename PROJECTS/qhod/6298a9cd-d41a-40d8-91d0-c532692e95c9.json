@@ -267,15 +267,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "catalogue",
-      "digital_edition",
-      "ger",
-      "history",
-      "manuscripts",
-      "ottoman_empire",
-      "tur"
-    ],
+    "keywords": ["repository", "digital_edition", "ger", "manuscripts", "tur"],
     "comment": ""
   }
 }

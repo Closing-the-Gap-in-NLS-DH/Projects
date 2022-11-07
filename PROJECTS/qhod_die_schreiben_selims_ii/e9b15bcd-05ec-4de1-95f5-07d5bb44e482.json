@@ -209,13 +209,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "catalogue",
-      "digital_edition",
-      "ger",
-      "ottoman_empire",
-      "tur"
-    ],
+    "keywords": ["repository", "digital_edition", "ger", "tur"],
     "comment": ""
   }
 }

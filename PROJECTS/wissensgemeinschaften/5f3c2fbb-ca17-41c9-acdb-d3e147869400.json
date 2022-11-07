@@ -194,12 +194,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "biographical_research",
-      "ibn_abi_usaybia",
-      "network_analysis"
-    ],
+    "keywords": ["ara", "biographical_data", "social_network_analysis"],
     "comment": ""
   }
 }
