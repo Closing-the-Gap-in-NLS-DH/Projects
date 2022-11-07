@@ -202,13 +202,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "catalogue",
-      "digital_edition",
-      "library",
-      "manuscripts"
-    ],
+    "keywords": ["ara", "repository", "digital_edition", "glam", "manuscripts"],
     "comment": ""
   }
 }

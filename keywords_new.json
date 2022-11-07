@@ -27,8 +27,7 @@
     "religion_studies",
     "social_sciences",
     "theatre_studies",
-    "theology",
-    "translation"
+    "theology"
   ],
   "resources": [
     "audio_recording",
@@ -68,7 +67,6 @@
     "handwritten_text_recognition",
     "machine_translation",
     "metasearch",
-    "network_analysis",
     "parsing",
     "pos_tagging",
     "repository",
@@ -88,12 +86,9 @@
     "copyright_and_licensing",
     "cultural_heritage",
     "data_management",
-    "dh_center",
     "digital_preservation",
     "digitisation",
-    "e-learning",
-    "manuscript_recovery",
-    "online_publishing",
+    "e_learning",
     "open_access",
     "open_source",
     "research_data_management",
@@ -103,39 +98,15 @@
     "teaching",
     "terminology"
   ],
-  "topics_arabic_studies_and_others": [
-    "language_documentation",
-    "language_history",
-    "language_variation",
-    "endangered_languages",
-    "islamic_law",
-    "library",
-    "ottoman_empire",
-    "poetry",
-    "transcription",
-    "bible",
-    "kalila_and_dimna",
-    "kabbalah",
-    "old_testament",
-    "quran",
-    "torah"
+  "topics_NLS": [
+    "translation",
+    "religious_text",
+    "classical_text"
   ],
-  "people": [
-    "aristotele",
-    "averroes",
-    "galen",
-    "ibn_abi_usaybia",
-    "ibn_bagga",
-    "ptolemy"
-  ],
-  "places": ["egypt", "palestine", "tunisia", "yemen"],
-  "questions": [
-    "repository, database, catalogue and archive",
-    "very precised keywords (colophons, commentary, letters, micro_texts) - should we keep them?",
-    "manuscripts or historical texts?",
-    "other keywords to delete: excellence_cluster",
-    "research_software and to tools_and_services or is it too general?",
-    "theology or religion_studies",
-    "GLAM or galleries, libraries, archives, and museums separately"
+  "Type": [
+    "type_organisation",
+    "type_reading",
+    "type_resource",
+    "type_software"
   ]
 }

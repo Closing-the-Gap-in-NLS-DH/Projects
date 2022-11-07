@@ -195,11 +195,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "biographical_research",
-      "network_analysis",
-      "virtual_research_environment"
-    ],
+    "keywords": ["biographical_data", "social_network_analysis", "vre"],
     "comment": ""
   }
 }

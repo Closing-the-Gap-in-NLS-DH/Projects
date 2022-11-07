@@ -277,13 +277,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "arc",
-      "digital_edition",
-      "heb",
-      "manuscripts",
-      "virtual_research_environment"
-    ],
+    "keywords": ["arc", "digital_edition", "heb", "manuscripts", "vre"],
     "comment": ""
   }
 }

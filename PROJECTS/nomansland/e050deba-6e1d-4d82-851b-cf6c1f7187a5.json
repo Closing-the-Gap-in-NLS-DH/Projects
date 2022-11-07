@@ -229,13 +229,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "catalogue",
-      "manuscripts",
-      "per",
-      "virtual_research_environment"
-    ],
+    "keywords": ["ara", "repository", "manuscripts", "per", "vre"],
     "comment": ""
   }
 }
