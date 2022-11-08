@@ -98,11 +98,7 @@
     "teaching",
     "terminology"
   ],
-  "topics_NLS": [
-    "translation",
-    "religious_text",
-    "classical_text"
-  ],
+  "topics_NLS": ["translation", "religious_text", "classical_text"],
   "Type": [
     "type_organisation",
     "type_reading",
