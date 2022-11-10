@@ -16,8 +16,8 @@
     ]
   },
   "project": {
-    "title": "Text plus",
-    "abbr": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
+    "title": "Text+",
+    "abbr": "",
     "type": "organisation",
     "ref": [],
     "date": [
@@ -27,7 +27,7 @@
       }
     ],
     "websites": ["https://www.text-plus.org/"],
-    "project_desc": "",
+    "project_desc": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
     "places": [],
     "lang": ["eng", "ger"],
     "topic_relations": {
