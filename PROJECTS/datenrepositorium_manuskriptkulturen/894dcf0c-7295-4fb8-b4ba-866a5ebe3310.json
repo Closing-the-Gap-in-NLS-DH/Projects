@@ -13,7 +13,7 @@
   },
   "project": {
     "title": "Datenrepositorium Manuskriptkulturen",
-    "abbr": "This project was dedicated to the systematic securing and long-term use of all research data relevant for SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe). As result a centralized data repository was created for all the sub-projects of SBF synchronizing them with the administration and freeing them of the tasks of securing data and of developing specific tools. Next to the collection of all the data of SFB the created infrastructure helps to optimize manuscript research by making all manuscripts available in one place, offering the possibility to annotate documents, to write glossaries and to make results available to the public as well as by supporting the graduate college on using e-learning.",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
@@ -27,7 +27,7 @@
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/INF_A4_P2.pdf",
       "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
     ],
-    "project_desc": "",
+    "project_desc": "This project was dedicated to the systematic securing and long-term use of all research data relevant for SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe). As result a centralized data repository was created for all the sub-projects of SBF synchronizing them with the administration and freeing them of the tasks of securing data and of developing specific tools. Next to the collection of all the data of SFB the created infrastructure helps to optimize manuscript research by making all manuscripts available in one place, offering the possibility to annotate documents, to write glossaries and to make results available to the public as well as by supporting the graduate college on using e-learning.",
     "places": [
       {
         "place_name": {
