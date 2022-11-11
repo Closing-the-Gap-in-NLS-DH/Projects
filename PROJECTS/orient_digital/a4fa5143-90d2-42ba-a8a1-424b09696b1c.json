@@ -21,7 +21,7 @@
   },
   "project": {
     "title": "Orient-Digital",
-    "abbr": "Orient-Digital is a union catalogue and a portal for oriental manuscripts kept in Germany. It will contain the metadata of Arabic, Persian, and Ottoman-Turkish manuscripts from more than 25 cooperating institutions and will provide links to the digitized manuscripts that are available online.",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
@@ -34,7 +34,7 @@
       "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital",
       "http://www.orient-digital.de/content/index.xml"
     ],
-    "project_desc": "",
+    "project_desc": "Orient-Digital is a union catalogue and a portal for oriental manuscripts kept in Germany. It will contain the metadata of Arabic, Persian, and Ottoman-Turkish manuscripts from more than 25 cooperating institutions and will provide links to the digitized manuscripts that are available online.",
     "places": [
       {
         "place_name": {
