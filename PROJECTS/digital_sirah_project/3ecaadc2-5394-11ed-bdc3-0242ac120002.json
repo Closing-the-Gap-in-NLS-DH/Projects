@@ -69,7 +69,7 @@
         "org_name": {
           "text": "Qatar National Library",
           "ref": [
-            " https://ror.org/02jv93662",
+            "https://ror.org/02jv93662",
             "https://www.wikidata.org/wiki/Q1361436"
           ]
         },
@@ -89,7 +89,7 @@
       {
         "pers_name": {
           "text": "Jaques, Kevin",
-          "ref": [" http://viaf.org/viaf/65884589"]
+          "ref": ["http://viaf.org/viaf/65884589"]
         },
         "role": 0,
         "websites": [
