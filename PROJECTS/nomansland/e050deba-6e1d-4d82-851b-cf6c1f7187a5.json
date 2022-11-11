@@ -12,7 +12,7 @@
     ]
   },
   "project": {
-    "title": "NoMansLand: Nomads' Manuscripts Landscape",
+    "title": "NoMansLand: Nomads’ Manuscripts Landscape",
     "abbr": "NoMansLand",
     "type": "project",
     "ref": [],
@@ -72,7 +72,7 @@
       {
         "relation_type": "sibling",
         "type": "project",
-        "title": "WIBARAB: What is Bedouin-Type Arabic'?",
+        "title": "WIBARAB: What is Bedouin-Type Arabic?",
         "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
       },
       {

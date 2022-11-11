@@ -26,7 +26,7 @@
           "default": "\\d{4}-\\d{2}-\\d{2}"
         },
         "record_created_by": {
-          "description": "Name of the record's creator",
+          "description": "Name of the record’s creator",
           "type": "string"
         },
         "record_modified": {
@@ -110,7 +110,7 @@
           "$ref": "#/definitions/places"
         },
         "lang": {
-          "description": "List of languages used in the project's presentation (website, flyer, ...) in ISO-639-2",
+          "description": "List of languages used in the project’s presentation (website, flyer, ...) in ISO-639-2",
           "type": "array",
           "items": {
             "type": "string",
@@ -118,7 +118,7 @@
           }
         },
         "topic_relations": {
-          "description": "Information on the project's relation to relevant topics. Possible values: (null|false|true)",
+          "description": "Information on the project’s relation to relevant topics. Possible values: (null|false|true)",
           "type": "object",
           "required": ["nls", "dh", "rdm", "infrastructure", "meta"],
           "properties": {
@@ -242,7 +242,7 @@
             "properties": {
               "description": {
                 "type": "string",
-                "description": "Description of the policy, i.e. 'Research Data Policy'"
+                "description": "Description of the policy, i.e. ‘Research Data Policy’"
               },
               "ref": {
                 "type": "array",
@@ -323,7 +323,7 @@
           }
         },
         "comment": {
-          "description": "Comment on the entry, the project or field for any information that doesn't fit anywhere else",
+          "description": "Comment on the entry, the project or field for any information that doesn’t fit anywhere else",
           "type": "string"
         }
       }
@@ -376,7 +376,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "description": "Description of the repository, i.e. 'folder-based storage'"
+                    "description": "Description of the repository, i.e. ‘folder-based storage’"
                   }
                 }
               },
@@ -400,7 +400,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "description": "Description for the repository, i.e. 'github'"
+                    "description": "Description for the repository, i.e. ‘github’"
                   }
                 }
               }
