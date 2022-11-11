@@ -48,7 +48,7 @@
       {
         "type": "organisation",
         "org_name": {
-          "text": "King's College London",
+          "text": "King’s College London",
           "ref": ["https://www.grid.ac/institutes/grid.13097.3c"]
         },
         "websites": ["https://www.kcl.ac.uk/"],

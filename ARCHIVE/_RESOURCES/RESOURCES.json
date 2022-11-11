@@ -434,7 +434,7 @@
     {
       "type": "other",
       "label": "al quran cloud",
-      "comment": "Digital Qur'an, can be accessed via API",
+      "comment": "Digital Qur’an, can be accessed via API",
       "ref": "https://alquran.cloud/",
       "tags": ["#service", "#api", "#ara", "#quran"],
       "collected_by": {
