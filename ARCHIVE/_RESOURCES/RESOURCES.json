@@ -566,7 +566,7 @@
     {
       "type": "other",
       "label": "openRefine",
-      "comment": "Tool for cleaning, transforming and formatting \"messy data\"",
+      "comment": "Tool for cleaning, transforming and formatting “messy data”",
       "ref": "https://openrefine.org/",
       "tags": ["#tool", "#rdm", "#browserbased"],
       "collected_by": {
