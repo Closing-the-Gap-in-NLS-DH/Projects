@@ -23,7 +23,7 @@
       }
     ],
     "websites": ["https://gams.uni-graz.at/context:sema"],
-    "project_desc": "The purpose if this project was to edit documents from the MA thesis  \"Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574\", Vienna 2020, written by Halit Temiz and supervised by Univ.-Prof. Dr. Claudia Römer. They were converted into TEI-XML within the framework of the project Digital Edition of Sources on Habsburg-Ottoman Diplomacy 1500-1918 (QhoD), including all apparatus, and are available here under free license as an XML corpus.",
+    "project_desc": "The purpose if this project was to edit documents from the MA thesis \"Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574\", Vienna 2020, written by Halit Temiz and supervised by Univ.-Prof. Dr. Claudia Römer. They were converted into TEI-XML within the framework of the project Digital Edition of Sources on Habsburg-Ottoman Diplomacy 1500-1918 (QhoD), including all apparatus, and are available here under free license as an XML corpus.",
     "places": [
       {
         "place_name": {
