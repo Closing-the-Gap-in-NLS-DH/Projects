@@ -26,7 +26,7 @@
       "https://escriptorium.openiti.org/",
       "https://gitlab.com/scripta/escriptorium/"
     ],
-    "project_desc": "TThis project provides digital recognition of handwritten documents using machine learning techniques. It offers an integrated set of tools to transcribe, annotate, translate and publish historical documents written in Arabic script.",
+    "project_desc": "This project provides digital recognition of handwritten documents using machine learning techniques. It offers an integrated set of tools to transcribe, annotate, translate and publish historical documents written in Arabic script.",
     "places": [
       {
         "place_name": {

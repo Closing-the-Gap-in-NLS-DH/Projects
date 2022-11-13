@@ -26,7 +26,7 @@
       "https://multicast.aspra.uni-bamberg.de/#references",
       "https://www.uni-bamberg.de/aspra/forschung/projekte/multi-cast-multilingual-corpus-of-annotated-spoken-texts/"
     ],
-    "project_desc": "Mulit_Cast is a collection of annotated texts from a typologically diverse section of 15 languages including endangered once. The corpus is freely accessible via an online platform which provides multiple levels of parallel annotations, time-aligned with audio recordings, chiefly monologic, natural narrative texts from 15 languages, encompassing roughly 25 000 clause units available in multiple file formats, including as EAF files for the linguistic annotation software ELAN, as XML and TSV files, and via the multicastR package for R.",
+    "project_desc": "Multi-CAST is a collection of annotated texts from a typologically diverse selection of 15 languages including endangered ones. The corpus is freely accessible via an online platform which provides multiple levels of parallel annotations, time-aligned with audio recordings, chiefly monologic, natural narrative texts from 15 languages, encompassing roughly 25,000 clause units available in multiple file formats, including as EAF files for the linguistic annotation software ELAN, as XML and TSV files, and via the multicastR package for R.",
     "places": [
       {
         "place_name": {
