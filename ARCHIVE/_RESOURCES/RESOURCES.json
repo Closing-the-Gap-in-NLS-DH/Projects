@@ -675,7 +675,7 @@
     },
     {
       "type": "other",
-      "label": "ʿArūż",
+      "label": "‘Arūż",
       "comment": "Online tool that performs quantitative analysis of Persian meter",
       "ref": "http://prosody.ir/",
       "tags": ["#tool", "#fas", "#nlp"],
@@ -1688,7 +1688,7 @@
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
       },
-      "comment": "Online Qurʾān navigator with several translations and display options",
+      "comment": "Online Qur’ān navigator with several translations and display options",
       "tags": ["#browserbased", "#ara", "#translation", "#quran"]
     },
     {

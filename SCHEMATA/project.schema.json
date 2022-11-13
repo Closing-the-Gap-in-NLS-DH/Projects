@@ -242,7 +242,7 @@
             "properties": {
               "description": {
                 "type": "string",
-                "description": "Description of the policy, i.e. ‘Research Data Policy’"
+                "description": "Description of the policy, i.e. “Research Data Policy”"
               },
               "ref": {
                 "type": "array",
@@ -376,7 +376,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "description": "Description of the repository, i.e. ‘folder-based storage’"
+                    "description": "Description of the repository, i.e. “folder-based storage”"
                   }
                 }
               },
@@ -400,7 +400,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "description": "Description for the repository, i.e. ‘github’"
+                    "description": "Description for the repository, i.e. “github”"
                   }
                 }
               }
