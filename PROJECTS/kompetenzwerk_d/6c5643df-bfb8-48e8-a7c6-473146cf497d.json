@@ -326,7 +326,11 @@
         "ref": []
       }
     ],
-    "keywords": ["research_infrastructure", "type_organisation"], 
+    "keywords": [
+      "research_infrastructure",
+      "type_organisation",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

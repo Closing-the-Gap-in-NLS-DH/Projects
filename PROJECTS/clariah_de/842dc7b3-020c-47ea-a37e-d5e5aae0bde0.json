@@ -232,7 +232,9 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": [
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

@@ -224,7 +224,11 @@
         "ref": []
       }
     ],
-    "keywords": ["type_organisation", "research_infrastructure"],
+    "keywords": [
+      "type_organisation",
+      "research_infrastructure",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }
