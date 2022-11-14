@@ -34,9 +34,7 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": [
-            "https://www.geonames.org/2751773/leiden.html"
-          ]
+          "ref": ["https://www.geonames.org/2751773/leiden.html"]
         },
         "coordinates": {
           "lat": "52.15833",
@@ -44,9 +42,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -65,16 +61,12 @@
             "https://ror.org/027bh9e22"
           ]
         },
-        "websites": [
-          "http://www.leiden.edu"
-        ],
+        "websites": ["http://www.leiden.edu"],
         "places": [
           {
             "place_name": {
               "text": "Leiden",
-              "ref": [
-                "https://www.geonames.org/2751773/leiden.html"
-              ]
+              "ref": ["https://www.geonames.org/2751773/leiden.html"]
             }
           }
         ],
@@ -85,9 +77,7 @@
       {
         "pers_name": {
           "text": "Sijpesteijn, Petra",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q14084136"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q14084136"]
         },
         "role": 0,
         "websites": [
@@ -96,27 +86,21 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -142,9 +126,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -170,9 +152,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -197,18 +177,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -217,11 +188,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -229,11 +196,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "religion_studies",
-      "repository"
-    ],
+    "keywords": ["ara", "religion_studies", "repository"],
     "comment": ""
   }
 }

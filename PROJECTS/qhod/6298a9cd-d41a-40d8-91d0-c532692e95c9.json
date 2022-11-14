@@ -31,9 +31,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -43,9 +41,7 @@
       {
         "place_name": {
           "text": "Salzburg",
-          "ref": [
-            "http://www.geonames.org/2766823/salzburg.html"
-          ]
+          "ref": ["http://www.geonames.org/2766823/salzburg.html"]
         },
         "coordinates": {
           "lat": "47.41667",
@@ -55,9 +51,7 @@
       {
         "place_name": {
           "text": "Graz",
-          "ref": [
-            "https://www.geonames.org/2778067/graz.html"
-          ]
+          "ref": ["https://www.geonames.org/2778067/graz.html"]
         },
         "coordinates": {
           "lat": "47.06667",
@@ -65,10 +59,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -94,9 +85,7 @@
           {
             "place_name": {
               "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
+              "ref": ["https://www.geonames.org/2761369/vienna.html"]
             }
           }
         ],
@@ -112,16 +101,12 @@
             "https://ror.org/02n0bts35"
           ]
         },
-        "websites": [
-          "https://www.uni-graz.at/de/"
-        ],
+        "websites": ["https://www.uni-graz.at/de/"],
         "places": [
           {
             "place_name": {
               "text": "Graz",
-              "ref": [
-                "https://www.geonames.org/2778067/graz.html"
-              ]
+              "ref": ["https://www.geonames.org/2778067/graz.html"]
             }
           }
         ],
@@ -137,16 +122,12 @@
             "https://www.wikidata.org/wiki/Q27265"
           ]
         },
-        "websites": [
-          "https://www.plus.ac.at/"
-        ],
+        "websites": ["https://www.plus.ac.at/"],
         "places": [
           {
             "place_name": {
               "text": "Salzburg",
-              "ref": [
-                "http://www.geonames.org/2766823/salzburg.html"
-              ]
+              "ref": ["http://www.geonames.org/2766823/salzburg.html"]
             }
           }
         ],
@@ -169,39 +150,28 @@
       {
         "pers_name": {
           "text": "Strohmeyer, Arno",
-          "ref": [
-            "https://d-nb.info/gnd/115840060"
-          ]
+          "ref": ["https://d-nb.info/gnd/115840060"]
         },
         "role": 0,
-        "websites": [
-          "https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"
-        ]
+        "websites": ["https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ger",
-        "tur"
-      ],
+      "lang": ["ger", "tur"],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -227,9 +197,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -255,9 +223,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -282,18 +248,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -302,11 +259,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -314,13 +267,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "ger",
-      "manuscripts",
-      "repository",
-      "tur"
-    ],
+    "keywords": ["digital_edition", "ger", "manuscripts", "repository", "tur"],
     "comment": ""
   }
 }

@@ -32,9 +32,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -42,10 +40,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "topic_relations": {
       "nls": false,
       "dh": true,
@@ -61,16 +56,12 @@
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": [
-          "https://www.csmc.uni-hamburg.de/"
-        ],
+        "websites": ["https://www.csmc.uni-hamburg.de/"],
         "places": [
           {
             "place_name": {
               "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
+              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
             }
           }
         ],
@@ -80,20 +71,14 @@
             "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q156725"
-              ]
+              "ref": ["https://www.wikidata.org/wiki/Q156725"]
             },
-            "website": [
-              "http://www.uni-hamburg.de/"
-            ],
+            "website": ["http://www.uni-hamburg.de/"],
             "places": [
               {
                 "place_name": {
                   "text": "Hamburg",
-                  "ref": [
-                    "https://www.geonames.org/2911298/hamburg.html"
-                  ]
+                  "ref": ["https://www.geonames.org/2911298/hamburg.html"]
                 }
               }
             ],
@@ -118,9 +103,7 @@
       {
         "pers_name": {
           "text": "Friedrich, Michael",
-          "ref": [
-            "https://d-nb.info/gnd/1106567749"
-          ]
+          "ref": ["https://d-nb.info/gnd/1106567749"]
         },
         "role": 0,
         "websites": [
@@ -129,28 +112,21 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "eng",
-        "ger"
-      ],
+      "lang": ["eng", "ger"],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -176,9 +152,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -204,9 +178,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -231,18 +203,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -251,11 +214,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
