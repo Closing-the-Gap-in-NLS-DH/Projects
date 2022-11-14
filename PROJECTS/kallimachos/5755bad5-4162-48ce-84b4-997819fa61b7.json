@@ -18,7 +18,7 @@
   "project": {
     "title": "Kallimachos",
     "abbr": "",
-    "type": "project",
+    "type": "organisation",
     "ref": [],
     "date": [
       {
@@ -229,7 +229,10 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure", 
+      "type_organisation"],
     "comment": ""
   }
 }
