@@ -26,13 +26,17 @@
         "to": "2015-09-30"
       }
     ],
-    "websites": ["https://snapdrgn.net/"],
+    "websites": [
+      "https://snapdrgn.net/"
+    ],
     "project_desc": "SNAP:DRGNis aims to address the problem of linking together large collections of datasets containing information about historical persons names and person-like entities. For this reason it builds a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects.",
     "places": [
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -40,7 +44,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -59,12 +65,16 @@
             "https://www.wikidata.org/wiki/Q245247"
           ]
         },
-        "websites": ["https://www.kcl.ac.uk/"],
+        "websites": [
+          "https://www.kcl.ac.uk/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "London",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
             }
           }
         ],
@@ -75,7 +85,9 @@
       {
         "pers_name": {
           "text": "Bodard, Gabriel",
-          "ref": ["https://www.wikidata.org/wiki/Q65588728"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q65588728"
+          ]
         },
         "role": 0,
         "websites": [
@@ -92,14 +104,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -125,7 +141,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -151,7 +169,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -176,9 +196,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -187,7 +216,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -195,8 +228,11 @@
         "ref": []
       }
     ],
-    "keywords": ["biographical_data", "social_network_analysis", "vre"],
+    "keywords": [
+      "biographical_data",
+      "social_network_analysis",
+      "vre"
+    ],
     "comment": ""
-  },
-  "keywords": ["biographical_data", "social_network_analysis", "vre"]
+  }
 }

@@ -22,13 +22,17 @@
         "to": "2025-02-28"
       }
     ],
-    "websites": ["https://clsinfra.io/"],
+    "websites": [
+      "https://clsinfra.io/"
+    ],
     "project_desc": "This project is a partnership of various European research institutions to build a shared resource of high-quality data, tools and knowledge to aid new approaches to studying literature in the digital age. It aims to create an infrastructure which will align the diverse resources of Europe’s multilingual and interconnected literary heritage with each other, with the tools needed to interrogate them, and with a widened base of users.",
     "places": [
       {
         "place_name": {
           "text": "Krakow",
-          "ref": ["https://www.geonames.org/3094802/krakow.html"]
+          "ref": [
+            "https://www.geonames.org/3094802/krakow.html"
+          ]
         },
         "coordinates": {
           "lat": "50.06143",
@@ -38,7 +42,9 @@
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+          "ref": [
+            "http://www.geonames.org/2852458/potsdam.html"
+          ]
         },
         "coordinates": {
           "lat": "52.39886",
@@ -48,7 +54,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -58,7 +66,9 @@
       {
         "place_name": {
           "text": "Madrid",
-          "ref": ["https://www.geonames.org/3117735/madrid.html"]
+          "ref": [
+            "https://www.geonames.org/3117735/madrid.html"
+          ]
         },
         "coordinates": {
           "lat": "40.4165",
@@ -68,7 +78,9 @@
       {
         "place_name": {
           "text": "Lyon",
-          "ref": ["https://www.geonames.org/2996944/lyon.html"]
+          "ref": [
+            "https://www.geonames.org/2996944/lyon.html"
+          ]
         },
         "coordinates": {
           "lat": "45.74846",
@@ -78,7 +90,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -88,7 +102,9 @@
       {
         "place_name": {
           "text": "Prague",
-          "ref": ["https://www.geonames.org/3067696/prague.html"]
+          "ref": [
+            "https://www.geonames.org/3067696/prague.html"
+          ]
         },
         "coordinates": {
           "lat": "50.08804",
@@ -98,7 +114,9 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -108,7 +126,9 @@
       {
         "place_name": {
           "text": "Gent",
-          "ref": ["https://www.geonames.org/2797656/gent.html"]
+          "ref": [
+            "https://www.geonames.org/2797656/gent.html"
+          ]
         },
         "coordinates": {
           "lat": "51.05",
@@ -118,7 +138,9 @@
       {
         "place_name": {
           "text": "Belgrade",
-          "ref": ["https://www.geonames.org/792680/belgrade.html"]
+          "ref": [
+            "https://www.geonames.org/792680/belgrade.html"
+          ]
         },
         "coordinates": {
           "lat": "44.80401",
@@ -128,7 +150,9 @@
       {
         "place_name": {
           "text": "Amsterdam",
-          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
+          "ref": [
+            "https://www.geonames.org/2759794/amsterdam.html"
+          ]
         },
         "coordinates": {
           "lat": "52.37403",
@@ -138,7 +162,9 @@
       {
         "place_name": {
           "text": "Trier",
-          "ref": ["https://www.geonames.org/2821164/trier.html"]
+          "ref": [
+            "https://www.geonames.org/2821164/trier.html"
+          ]
         },
         "coordinates": {
           "lat": "49.75565",
@@ -148,7 +174,9 @@
       {
         "place_name": {
           "text": "Gaillimh",
-          "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
+          "ref": [
+            "https://www.geonames.org/2964180/gaillimh.html"
+          ]
         },
         "coordinates": {
           "lat": "53.27245",
@@ -156,7 +184,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
       "nls": false,
       "dh": false,
@@ -175,12 +205,16 @@
             "https://www.wikidata.org/wiki/Q941016"
           ]
         },
-        "websites": ["https://ijp.pan.pl/"],
+        "websites": [
+          "https://ijp.pan.pl/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Krakow",
-              "ref": ["https://www.geonames.org/3094802/krakow.html"]
+              "ref": [
+                "https://www.geonames.org/3094802/krakow.html"
+              ]
             }
           }
         ],
@@ -196,12 +230,16 @@
             "https://ror.org/03bnmw459"
           ]
         },
-        "websites": ["https://www.uni-potsdam.de/en/"],
+        "websites": [
+          "https://www.uni-potsdam.de/en/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Potsdam",
-              "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+              "ref": [
+                "http://www.geonames.org/2852458/potsdam.html"
+              ]
             }
           }
         ],
@@ -217,12 +255,16 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
             }
           }
         ],
@@ -238,12 +280,16 @@
             "https://ror.org/02msb5n36"
           ]
         },
-        "websites": ["https://www.uned.es/universidad/inicio.html"],
+        "websites": [
+          "https://www.uned.es/universidad/inicio.html"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Madrid",
-              "ref": ["https://www.geonames.org/3117735/madrid.html"]
+              "ref": [
+                "https://www.geonames.org/3117735/madrid.html"
+              ]
             }
           }
         ],
@@ -259,12 +305,16 @@
             "https://www.wikidata.org/wiki/Q10159"
           ]
         },
-        "websites": ["http://www.ens-lyon.fr/"],
+        "websites": [
+          "http://www.ens-lyon.fr/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Lyon",
-              "ref": ["https://www.geonames.org/2996944/lyon.html"]
+              "ref": [
+                "https://www.geonames.org/2996944/lyon.html"
+              ]
             }
           }
         ],
@@ -280,12 +330,16 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/?set_language=en&cl=en"],
+        "websites": [
+          "https://www.hu-berlin.de/?set_language=en&cl=en"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -301,12 +355,16 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": ["https://cuni.cz/UKEN-1.html"],
+        "websites": [
+          "https://cuni.cz/UKEN-1.html"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Prague",
-              "ref": ["https://www.geonames.org/3067696/prague.html"]
+              "ref": [
+                "https://www.geonames.org/3067696/prague.html"
+              ]
             }
           }
         ],
@@ -317,7 +375,9 @@
         "type": "organisation",
         "org_name": {
           "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-          "ref": ["https://www.wikidata.org/wiki/Q49103279"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q49103279"
+          ]
         },
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       },
@@ -331,12 +391,16 @@
             "https://ror.org/00cv9y106"
           ]
         },
-        "websites": ["https://www.ugent.be/en"],
+        "websites": [
+          "https://www.ugent.be/en"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Gent",
-              "ref": ["https://www.geonames.org/2797656/gent.html"]
+              "ref": [
+                "https://www.geonames.org/2797656/gent.html"
+              ]
             }
           }
         ],
@@ -358,7 +422,9 @@
           {
             "place_name": {
               "text": "Belgrade",
-              "ref": ["https://www.geonames.org/792680/belgrade.html"]
+              "ref": [
+                "https://www.geonames.org/792680/belgrade.html"
+              ]
             }
           }
         ],
@@ -374,12 +440,16 @@
             "https://www.wikidata.org/wiki/Q253439"
           ]
         },
-        "websites": ["http://www.knaw.nl/nl"],
+        "websites": [
+          "http://www.knaw.nl/nl"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Amsterdam",
-              "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
+              "ref": [
+                "https://www.geonames.org/2759794/amsterdam.html"
+              ]
             }
           }
         ],
@@ -395,12 +465,16 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"],
+        "websites": [
+          "https://www.uni-trier.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Trier",
-              "ref": ["https://www.geonames.org/2821164/trier.html"]
+              "ref": [
+                "https://www.geonames.org/2821164/trier.html"
+              ]
             }
           }
         ],
@@ -416,12 +490,16 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["http://www.nuigalway.ie/"],
+        "websites": [
+          "http://www.nuigalway.ie/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Gaillimh",
-              "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
+              "ref": [
+                "https://www.geonames.org/2964180/gaillimh.html"
+              ]
             }
           }
         ],
@@ -438,7 +516,9 @@
       {
         "pers_name": {
           "text": "Eder, Maciej",
-          "ref": ["https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"
+          ]
         },
         "role": 0,
         "websites": [
@@ -455,14 +535,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -488,7 +572,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -514,7 +600,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -539,9 +627,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -550,7 +647,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -560,6 +661,5 @@
     ],
     "keywords": [],
     "comment": ""
-  },
-  "keywords": []
+  }
 }

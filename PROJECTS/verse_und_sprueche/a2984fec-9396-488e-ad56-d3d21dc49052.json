@@ -38,7 +38,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -46,7 +48,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -65,12 +70,16 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -81,12 +90,16 @@
         "type": "project",
         "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
         "ref": [],
-        "websites": ["https://www.sfb-episteme.de/"],
+        "websites": [
+          "https://www.sfb-episteme.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -103,7 +116,9 @@
       {
         "pers_name": {
           "text": "Gruendler, Beatrice",
-          "ref": ["https://d-nb.info/gnd/111749344X"]
+          "ref": [
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
         "role": 0,
         "websites": [
@@ -112,21 +127,29 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "gre", "syr"],
+      "lang": [
+        "ara",
+        "gre",
+        "syr"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -152,7 +175,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -178,7 +203,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -203,9 +230,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -214,7 +250,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -222,8 +262,12 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "repository", "gre", "syr"],
+    "keywords": [
+      "ara",
+      "repository",
+      "gre",
+      "syr"
+    ],
     "comment": ""
-  },
-  "keywords": ["ara", "gre", "repository", "syr"]
+  }
 }

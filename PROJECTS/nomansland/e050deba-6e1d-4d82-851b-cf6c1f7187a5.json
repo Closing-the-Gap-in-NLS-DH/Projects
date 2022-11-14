@@ -31,7 +31,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -39,7 +41,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -58,12 +63,16 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
             }
           }
         ],
@@ -110,7 +119,9 @@
       {
         "pers_name": {
           "text": "De Nicola, Bruno",
-          "ref": ["https://d-nb.info/gnd/1081572116"]
+          "ref": [
+            "https://d-nb.info/gnd/1081572116"
+          ]
         },
         "role": 0,
         "websites": [
@@ -119,21 +130,28 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "per"],
+      "lang": [
+        "ara",
+        "per"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -159,7 +177,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -185,7 +205,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -210,9 +232,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -221,7 +252,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -229,8 +264,13 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "repository", "manuscripts", "per", "vre"],
+    "keywords": [
+      "ara",
+      "repository",
+      "manuscripts",
+      "per",
+      "vre"
+    ],
     "comment": ""
-  },
-  "keywords": ["ara", "manuscripts", "per", "repository", "vre"]
+  }
 }

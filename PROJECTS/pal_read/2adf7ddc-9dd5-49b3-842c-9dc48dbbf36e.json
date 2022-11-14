@@ -26,13 +26,17 @@
         "to": "2023-03-31"
       }
     ],
-    "websites": ["https://www.geschkult.fu-berlin.de/en/e/palread/index.html"],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/en/e/palread/index.html"
+    ],
     "project_desc": "PalREAD is a project dedicated to Palestinian literature from 1948 to the present which aims to find new ways to account for the literary production of a displaced population. It elaborates a new methodology of literary analysis that challenges and lies outside conventional conceptions of the nation-state and adopts an interdisciplinary and transmedial approach that embeds literary production in a wider cultural web of intersecting media and genres. The output of the project will be made accessible in the form of an online platform.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -59,12 +63,16 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -84,21 +92,27 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -124,7 +138,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -150,7 +166,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -175,9 +193,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -186,7 +213,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -194,8 +225,10 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "literary_studies"],
+    "keywords": [
+      "ara",
+      "literary_studies"
+    ],
     "comment": ""
-  },
-  "keywords": ["ara", "literary_studies"]
+  }
 }

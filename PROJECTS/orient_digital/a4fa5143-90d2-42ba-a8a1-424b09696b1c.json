@@ -39,7 +39,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -49,7 +51,9 @@
       {
         "place_name": {
           "text": "Gotha",
-          "ref": ["http://www.geonames.org/2918752/gotha.html"]
+          "ref": [
+            "http://www.geonames.org/2918752/gotha.html"
+          ]
         },
         "coordinates": {
           "lat": "50.94823",
@@ -59,7 +63,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -69,7 +75,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -77,7 +85,9 @@
         }
       }
     ],
-    "lang": ["ger"],
+    "lang": [
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -96,12 +106,16 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": ["https://staatsbibliothek-berlin.de/"],
+        "websites": [
+          "https://staatsbibliothek-berlin.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "http://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -117,12 +131,16 @@
             "https://www.wikidata.org/wiki/Q702524"
           ]
         },
-        "websites": ["https://www.uni-erfurt.de/"],
+        "websites": [
+          "https://www.uni-erfurt.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Erfurt",
-              "ref": ["https://www.geonames.org/2929670/erfurt.html"]
+              "ref": [
+                "https://www.geonames.org/2929670/erfurt.html"
+              ]
             }
           }
         ],
@@ -138,12 +156,16 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/"],
+        "websites": [
+          "https://www.uni-leipzig.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
             }
           }
         ],
@@ -159,12 +181,16 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": ["https://www.bsb-muenchen.de/"],
+        "websites": [
+          "https://www.bsb-muenchen.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Munich",
-              "ref": ["http://www.geonames.org/2867714/munich.html"]
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
             }
           }
         ],
@@ -175,7 +201,9 @@
       {
         "pers_name": {
           "text": "Rauch, Christoph",
-          "ref": ["https://d-nb.info/gnd/1102171662"]
+          "ref": [
+            "https://d-nb.info/gnd/1102171662"
+          ]
         },
         "role": 0,
         "websites": [
@@ -184,21 +212,29 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "per", "tur"],
+      "lang": [
+        "ara",
+        "per",
+        "tur"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -224,7 +260,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -250,7 +288,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -275,9 +315,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -286,7 +335,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -294,8 +347,14 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "repository", "glam", "manuscripts", "per", "tur"],
+    "keywords": [
+      "ara",
+      "repository",
+      "glam",
+      "manuscripts",
+      "per",
+      "tur"
+    ],
     "comment": ""
-  },
-  "keywords": ["ara", "glam", "manuscripts", "per", "repository", "tur"]
+  }
 }

@@ -34,7 +34,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -44,7 +46,9 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -52,7 +56,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -68,12 +74,16 @@
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"],
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ],
@@ -83,14 +93,20 @@
             "type": "organisation",
             "org_name": {
               "text": "Universität Hamburg",
-              "ref": ["https://www.grid.ac/institutes/grid.9026.d"]
+              "ref": [
+                "https://www.grid.ac/institutes/grid.9026.d"
+              ]
             },
-            "website": ["http://www.uni-hamburg.de/"],
+            "website": [
+              "http://www.uni-hamburg.de/"
+            ],
             "places": [
               {
                 "place_name": {
                   "text": "Hamburg",
-                  "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+                  "ref": [
+                    "https://www.geonames.org/2911298/hamburg.html"
+                  ]
                 }
               }
             ],
@@ -108,12 +124,16 @@
             "https://ror.org/04e8jbs38"
           ]
         },
-        "websites": ["https://www.hsu-hh.de/"],
+        "websites": [
+          "https://www.hsu-hh.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ],
@@ -129,12 +149,16 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["http://www.tuhh.de"],
+        "websites": [
+          "http://www.tuhh.de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+              "ref": [
+                "https://www.geonames.org/2911298/hamburg.html"
+              ]
             }
           }
         ],
@@ -150,12 +174,16 @@
             "https://ror.org/02jx3x895"
           ]
         },
-        "websites": ["http://www.ucl.ac.uk"],
+        "websites": [
+          "http://www.ucl.ac.uk"
+        ],
         "places": [
           {
             "place_name": {
               "text": "London",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
             }
           }
         ],
@@ -214,7 +242,9 @@
       {
         "pers_name": {
           "text": "Bausi, Alessandro",
-          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
         "role": 0,
         "websites": [
@@ -230,14 +260,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -263,7 +297,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -289,7 +325,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -314,9 +352,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -325,7 +372,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -333,8 +384,11 @@
         "ref": []
       }
     ],
-    "keywords": ["african_studies", "art", "manuscripts"],
+    "keywords": [
+      "african_studies",
+      "art",
+      "manuscripts"
+    ],
     "comment": ""
-  },
-  "keywords": ["african_studies", "art", "manuscripts"]
+  }
 }

@@ -22,13 +22,17 @@
         "to": "2024"
       }
     ],
-    "websites": ["http://sabaweb.uni-jena.de/Sabaweb"],
+    "websites": [
+      "http://sabaweb.uni-jena.de/Sabaweb"
+    ],
     "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
     "places": [
       {
         "place_name": {
           "text": "Jena",
-          "ref": ["https://www.geonames.org/2895044/jena.html"]
+          "ref": [
+            "https://www.geonames.org/2895044/jena.html"
+          ]
         },
         "coordinates": {
           "lat": "50.92878",
@@ -36,7 +40,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -55,12 +62,16 @@
             "https://ror.org/00zfe1b87"
           ]
         },
-        "websites": ["https://www.uni-jena.de/en"],
+        "websites": [
+          "https://www.uni-jena.de/en"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Jena",
-              "ref": ["https://www.geonames.org/2895044/jena.html"]
+              "ref": [
+                "https://www.geonames.org/2895044/jena.html"
+              ]
             }
           }
         ],
@@ -71,28 +82,38 @@
       {
         "pers_name": {
           "text": "Nebes, Norbert",
-          "ref": ["https://d-nb.info/gnd/1064027237"]
+          "ref": [
+            "https://d-nb.info/gnd/1064027237"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.gw.uni-jena.de/nebes-norbert"]
+        "websites": [
+          "https://www.gw.uni-jena.de/nebes-norbert"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["xsa"],
+      "lang": [
+        "xsa"
+      ],
       "publications": {
         "access": {
           "open": 0.0,
           "closed": 100.0,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -118,7 +139,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -144,7 +167,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -169,9 +194,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -180,7 +214,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -188,8 +226,10 @@
         "ref": []
       }
     ],
-    "keywords": ["dictionary", "xsa"],
+    "keywords": [
+      "dictionary",
+      "xsa"
+    ],
     "comment": ""
-  },
-  "keywords": ["dictionary", "xsa"]
+  }
 }

@@ -22,13 +22,17 @@
         "to": "2035"
       }
     ],
-    "websites": ["https://www.saw-leipzig.de/de/projekte/bibliotheca-arabica"],
+    "websites": [
+      "https://www.saw-leipzig.de/de/projekte/bibliotheca-arabica"
+    ],
     "project_desc": "This project is dedicated to research on Arabic literatures dating from 1150 to 1850, the period perceived as a steady cultural decline of the region. The project counters this narrative by focusing on manuscripts that were produced and read throughout this time. By combining literary and manuscript studies Bibliotheca Arabica aims to critically rethink the Arabic literary history and to form a more differentiated and nuanced notion of how certain genres and text types have developed at different times and in different regions. Next to publication of 16 volumes and numerous articles and working papers, the project will provide a bio-bibliographical research platform with a focus on integrating digitized catalogue data and collections of manuscript notes, as well as a curated compilation of bio-bibliographical sources and Linked Data collections.",
     "places": [
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -36,7 +40,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -55,12 +62,16 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de"],
+        "websites": [
+          "https://www.saw-leipzig.de/de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+              "ref": [
+                "https://www.geonames.org/2879139/leipzig.html"
+              ]
             }
           }
         ],
@@ -71,7 +82,9 @@
       {
         "pers_name": {
           "text": "Klemm-Kuhn, Verena",
-          "ref": ["https://www.wikidata.org/wiki/Q5675690"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
         },
         "role": 0,
         "websites": [
@@ -81,28 +94,40 @@
       {
         "pers_name": {
           "text": "Liebrenz, Boris",
-          "ref": ["https://d-nb.info/gnd/136837921"]
+          "ref": [
+            "https://d-nb.info/gnd/136837921"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"]
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "eng", "ger"],
+      "lang": [
+        "ara",
+        "eng",
+        "ger"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -128,7 +153,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -154,7 +181,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -179,9 +208,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -190,7 +228,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -208,14 +250,5 @@
       "vre"
     ],
     "comment": ""
-  },
-  "keywords": [
-    "ara",
-    "eng",
-    "ger",
-    "literary_studies",
-    "manuscripts",
-    "repository",
-    "vre"
-  ]
+  }
 }
