@@ -208,5 +208,6 @@
     ],
     "keywords": ["ara", "repository", "medicine"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "medicine", "repository"]
 }

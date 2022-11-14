@@ -201,5 +201,6 @@
     ],
     "keywords": ["repository", "digital_edition", "ger", "tur"],
     "comment": ""
-  }
+  },
+  "keywords": ["digital_edition", "ger", "repository", "tur"]
 }

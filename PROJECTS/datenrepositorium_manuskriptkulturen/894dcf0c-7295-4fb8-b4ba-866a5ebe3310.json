@@ -224,5 +224,6 @@
     ],
     "keywords": ["repository", "eng", "ger", "manuscripts"],
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
-  }
+  },
+  "keywords": ["eng", "ger", "manuscripts", "repository"]
 }

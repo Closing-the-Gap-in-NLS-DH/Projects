@@ -224,5 +224,6 @@
     ],
     "keywords": ["ara", "repository", "gre", "syr"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "gre", "repository", "syr"]
 }

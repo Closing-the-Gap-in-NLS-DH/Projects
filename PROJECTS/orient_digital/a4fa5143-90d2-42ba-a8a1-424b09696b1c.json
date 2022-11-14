@@ -296,5 +296,6 @@
     ],
     "keywords": ["ara", "repository", "glam", "manuscripts", "per", "tur"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "glam", "manuscripts", "per", "repository", "tur"]
 }

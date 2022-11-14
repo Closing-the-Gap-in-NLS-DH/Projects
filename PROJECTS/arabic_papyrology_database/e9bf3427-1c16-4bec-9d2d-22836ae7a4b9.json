@@ -232,5 +232,6 @@
     ],
     "keywords": ["ara", "repository", "digital_edition", "manuscripts"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "digital_edition", "manuscripts", "repository"]
 }

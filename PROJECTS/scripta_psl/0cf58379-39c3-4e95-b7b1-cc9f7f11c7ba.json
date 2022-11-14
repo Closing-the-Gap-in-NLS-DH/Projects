@@ -227,5 +227,23 @@
       "tur"
     ],
     "comment": ""
-  }
+  },
+  "keywords": [
+    "akk",
+    "ara",
+    "arm",
+    "chi",
+    "cop",
+    "gre",
+    "heb",
+    "jpn",
+    "lat",
+    "manuscripts",
+    "optical_character_recognition",
+    "per",
+    "san",
+    "syr",
+    "tur",
+    "type_software"
+  ]
 }

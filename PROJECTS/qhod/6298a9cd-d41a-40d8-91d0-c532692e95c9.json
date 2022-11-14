@@ -269,5 +269,6 @@
     ],
     "keywords": ["repository", "digital_edition", "ger", "manuscripts", "tur"],
     "comment": ""
-  }
+  },
+  "keywords": ["digital_edition", "ger", "manuscripts", "repository", "tur"]
 }

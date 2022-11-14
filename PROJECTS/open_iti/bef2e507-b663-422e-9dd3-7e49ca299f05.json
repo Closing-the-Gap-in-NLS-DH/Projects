@@ -328,5 +328,6 @@
     ],
     "keywords": ["ara", "repository", "per"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "per", "repository"]
 }

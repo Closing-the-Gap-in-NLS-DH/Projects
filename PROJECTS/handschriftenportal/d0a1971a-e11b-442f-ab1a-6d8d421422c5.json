@@ -282,5 +282,6 @@
     ],
     "keywords": ["repository", "manuscripts", "vre"],
     "comment": "In case of funding extension the second phase of the project should start in 2022"
-  }
+  },
+  "keywords": ["manuscripts", "repository", "vre"]
 }

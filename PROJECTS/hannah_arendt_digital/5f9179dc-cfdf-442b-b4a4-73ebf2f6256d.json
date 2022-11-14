@@ -209,5 +209,6 @@
     ],
     "keywords": ["digital_edition", "eng", "fre", "ger", "yid"],
     "comment": "Long-term project"
-  }
+  },
+  "keywords": ["digital_edition", "eng", "fre", "ger", "yid"]
 }

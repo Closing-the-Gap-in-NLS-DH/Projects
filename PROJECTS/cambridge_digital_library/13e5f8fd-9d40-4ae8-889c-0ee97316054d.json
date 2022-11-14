@@ -190,5 +190,6 @@
     ],
     "keywords": ["ara", "repository", "heb", "glam", "manuscripts"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "glam", "heb", "manuscripts", "repository"]
 }

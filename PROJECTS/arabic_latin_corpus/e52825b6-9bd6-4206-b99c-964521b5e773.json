@@ -200,5 +200,6 @@
     ],
     "keywords": ["ara", "repository", "lat", "manuscripts", "translation"],
     "comment": ""
-  }
+  },
+  "keywords": ["ara", "lat", "manuscripts", "repository", "translation"]
 }

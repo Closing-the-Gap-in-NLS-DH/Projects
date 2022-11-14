@@ -282,5 +282,6 @@
     ],
     "keywords": ["akk", "repository", "digital_edition", "inscriptions", "sux"],
     "comment": ""
-  }
+  },
+  "keywords": ["akk", "digital_edition", "inscriptions", "repository", "sux"]
 }
