@@ -243,7 +243,9 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": [
+      "research_data_management"
+    ],
     "comment": "The project is still ongoing (as of 05.04.2022)"
   }
 }
