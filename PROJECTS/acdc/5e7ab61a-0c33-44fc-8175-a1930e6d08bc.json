@@ -84,7 +84,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
