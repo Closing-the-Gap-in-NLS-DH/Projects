@@ -45,7 +45,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
@@ -209,7 +209,7 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "art", "repository", "manuscripts", "per", "tur"],
+    "keywords": ["ara", "art", "manuscripts", "per", "repository", "tur"],
     "comment": ""
   }
 }

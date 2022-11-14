@@ -44,7 +44,7 @@
       "dh": true,
       "meta": false,
       "rdm": true,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
@@ -206,7 +206,7 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": ["research_data_management"],
     "comment": "The project is still ongoing (as of 05.04.2022)"
   }
 }

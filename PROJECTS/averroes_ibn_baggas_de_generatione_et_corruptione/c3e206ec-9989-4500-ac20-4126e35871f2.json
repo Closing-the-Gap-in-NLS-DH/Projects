@@ -191,13 +191,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "philosophy",
-      "digital_edition",
-      "philosophy",
-      "manuscripts"
-    ],
+    "keywords": ["ara", "digital_edition", "manuscripts", "philosophy"],
     "comment": ""
   }
 }

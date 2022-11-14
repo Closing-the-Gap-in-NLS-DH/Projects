@@ -201,14 +201,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "philosophy",
-      "philosophy",
-      "digital_edition",
-      "heb",
-      "lat",
-      "manuscripts"
-    ],
+    "keywords": ["digital_edition", "heb", "lat", "manuscripts", "philosophy"],
     "comment": ""
   }
 }

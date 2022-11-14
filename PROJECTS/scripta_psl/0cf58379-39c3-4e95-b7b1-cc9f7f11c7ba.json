@@ -42,7 +42,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
@@ -221,10 +221,10 @@
       "manuscripts",
       "optical_character_recognition",
       "per",
-      "type_software",
       "san",
       "syr",
-      "tur"
+      "tur",
+      "type_software"
     ],
     "comment": ""
   }

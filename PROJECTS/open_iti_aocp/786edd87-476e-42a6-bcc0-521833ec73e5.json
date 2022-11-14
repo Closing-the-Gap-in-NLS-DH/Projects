@@ -75,7 +75,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
@@ -228,8 +228,8 @@
       "ara",
       "optical_character_recognition",
       "per",
-      "type_software",
       "tur",
+      "type_software",
       "urd"
     ],
     "comment": ""

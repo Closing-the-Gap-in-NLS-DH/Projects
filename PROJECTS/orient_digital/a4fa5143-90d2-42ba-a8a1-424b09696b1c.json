@@ -83,7 +83,7 @@
       "dh": true,
       "meta": false,
       "rdm": false,
-      "infrastructure": true
+      "infrastructure": false
     },
     "relations": [
       {
@@ -294,7 +294,7 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "repository", "glam", "manuscripts", "per", "tur"],
+    "keywords": ["ara", "glam", "manuscripts", "per", "repository", "tur"],
     "comment": ""
   }
 }

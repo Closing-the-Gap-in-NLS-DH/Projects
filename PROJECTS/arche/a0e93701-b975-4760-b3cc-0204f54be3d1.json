@@ -190,7 +190,12 @@
         "ref": []
       }
     ],
-    "keywords": ["glam", "repository"],
+    "keywords": [
+      "glam",
+      "repository",
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }
