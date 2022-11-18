@@ -250,7 +250,12 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "linguistics", "language_documentation"],
+    "keywords": [
+      "ara",
+      "language_documentation",
+      "linguistics",
+      "dialectology"
+    ],
     "comment": ""
   }
 }

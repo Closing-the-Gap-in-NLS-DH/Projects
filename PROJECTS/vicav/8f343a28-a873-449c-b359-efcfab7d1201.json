@@ -273,7 +273,12 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "linguistics"],
+    "keywords": [
+      "ara",
+      "language_documentation",
+      "linguistics",
+      "dialectology"
+    ],
     "comment": ""
   }
 }
