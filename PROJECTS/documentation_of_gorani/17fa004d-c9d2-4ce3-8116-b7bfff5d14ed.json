@@ -301,7 +301,13 @@
         "ref": []
       }
     ],
-    "keywords": ["hac", "kur", "language_documentation", "linguistics", "dialectology"], 
+    "keywords": [
+      "dialectology",
+      "hac",
+      "kur",
+      "language_documentation",
+      "linguistics"
+    ],
     "comment": ""
   }
 }
