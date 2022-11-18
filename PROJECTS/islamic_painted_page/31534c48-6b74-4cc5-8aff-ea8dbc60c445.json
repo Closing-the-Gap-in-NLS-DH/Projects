@@ -209,7 +209,15 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "art", "manuscripts", "per", "repository", "tur"],
+    "keywords": [
+      "ara",
+      "art_studies",
+      "image",
+      "manuscripts",
+      "per",
+      "repository",
+      "tur"
+    ],
     "comment": ""
   }
 }

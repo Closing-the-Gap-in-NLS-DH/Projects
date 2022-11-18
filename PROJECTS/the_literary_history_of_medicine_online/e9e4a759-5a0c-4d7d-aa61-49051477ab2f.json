@@ -233,7 +233,14 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "digital_edition", "medicine"],
+    "keywords": [
+      "ara",
+      "classical_text",
+      "digital_edition",
+      "history_studies",
+      "literary_studies",
+      "medicine"
+    ],
     "comment": ""
   }
 }

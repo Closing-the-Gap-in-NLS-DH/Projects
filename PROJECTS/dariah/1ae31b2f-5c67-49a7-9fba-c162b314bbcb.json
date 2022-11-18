@@ -804,7 +804,11 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure",
+      "type_organisation"
+    ],
     "comment": ""
   }
 }

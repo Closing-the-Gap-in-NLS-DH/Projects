@@ -341,7 +341,15 @@
         "ref": []
       }
     ],
-    "keywords": ["ara", "eri", "eth", "manuscripts", "per", "san"],
+    "keywords": [
+      "ara",
+      "eri",
+      "eth",
+      "history_studies",
+      "manuscripts",
+      "per",
+      "san"
+    ],
     "comment": ""
   }
 }

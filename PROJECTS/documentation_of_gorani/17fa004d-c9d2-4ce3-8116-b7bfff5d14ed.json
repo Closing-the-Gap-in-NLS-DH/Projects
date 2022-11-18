@@ -191,7 +191,7 @@
       }
     ],
     "research_data": {
-      "lang": [],
+      "lang": ["hac", "kur"],
       "publications": {
         "access": {
           "open": 0.0,
@@ -301,7 +301,13 @@
         "ref": []
       }
     ],
-    "keywords": ["", "linguistics"],
+    "keywords": [
+      "dialectology",
+      "hac",
+      "kur",
+      "language_documentation",
+      "linguistics"
+    ],
     "comment": ""
   }
 }
