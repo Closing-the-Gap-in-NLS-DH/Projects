@@ -194,7 +194,8 @@
       "glam",
       "repository",
       "research_data_management",
-      "research_infrastructure"
+      "research_infrastructure",
+      "type_organisation"
     ],
     "comment": ""
   }

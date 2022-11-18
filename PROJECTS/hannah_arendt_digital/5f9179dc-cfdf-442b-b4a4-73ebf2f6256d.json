@@ -207,7 +207,14 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "eng", "fre", "ger", "yid", "literary_studies"],
+    "keywords": [
+      "digital_edition",
+      "eng",
+      "fre",
+      "ger",
+      "yid",
+      "literary_studies"
+    ],
     "comment": "Long-term project"
   }
 }
