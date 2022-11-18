@@ -30,6 +30,7 @@ For the most part, the number of keywords should not exceed 6. All keywords shou
 - [corpus_linguistics](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept28.01)
 - [cultural_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept30)
 - [demography](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept15)
+- dialectology
 - [education](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept17)
 - [gender_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept11)
 - [geography](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept25)
