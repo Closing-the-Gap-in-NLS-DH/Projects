@@ -15,7 +15,8 @@ Keywords should provide a general information about the topic, aim, output and t
 3. **[Tools and Services](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection04)**
 4. **[Topics DH](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection05)** - topic related to DH research in general
 5. **Topics NLS** - topic related to the research on NLS
-6. **Languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
+6. **[Type](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection06)**
+7. **Languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
 
 For the most part, the number of keywords should not exceed 6. All keywords should be written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly.
 
@@ -132,7 +133,7 @@ For the most part, the number of keywords should not exceed 6. All keywords shou
 - religious_text
 - translation
 
-6. **[Type](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection06)**
+6. **Type**
 
 - [type_organisation](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept72)
 - [type_reading](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept71)
