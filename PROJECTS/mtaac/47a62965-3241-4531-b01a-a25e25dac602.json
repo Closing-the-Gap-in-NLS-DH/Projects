@@ -1,0 +1,315 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "47a62965-3241-4531-b01a-a25e25dac602",
+    "record_created_on": "2022-11.21",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Machine Translation and Automated Analysis of Cuneiform Language",
+    "abbr": "MTAAC",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2021"
+      }
+    ],
+    "websites": [
+      "https://cdli-gh.github.io/mtaac/",
+      "https://gepris.dfg.de/gepris/projekt/329145082?language=en"
+    ],
+    "project_desc": "Combining the newest developments in machine learning with statistical and neural machine translation technologies, this project formulates, tests and evaluates methodologies to translate and analyze the contents of some 67,000 highly standardized administrative documents from southern Mesopotamia. All outcomes of the projects, the methodologies, the translations and the data extracted from them, will be offered to the public in open access.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Toronto",
+          "ref": [
+            "https://www.geonames.org/6167865/toronto.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "43.70011",
+          "lng": "-79.4163"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Frankfurt",
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.11552",
+          "lng": "8.68417"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Los Angeles",
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of Toronto",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q180865",
+            "https://ror.org/03dbr7087"
+          ]
+        },
+        "websites": [
+          "https://www.utoronto.ca/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Toronto",
+              "ref": [
+                "https://www.geonames.org/6167865/toronto.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Goethe-Universität Frankfurt am Main",
+          "ref": [
+            "https://ror.org/04cvxnb49",
+            "https://www.wikidata.org/wiki/Q50662"
+          ]
+        },
+        "websites": [
+          "https://www.uni-frankfurt.de/de?locale=de"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Frankfurt",
+              "ref": [
+                "https://www.geonames.org/2925533/frankfurt-am-main.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of California, Los Angeles",
+          "ref": [
+            "https://ror.org/025j2nd68",
+            "https://www.wikidata.org/wiki/Q174710"
+          ]
+        },
+        "websites": [
+          "https://www.ucla.edu/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Los Angeles",
+              "ref": [
+                "https://www.geonames.org/5368361/los-angeles.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Baker, Heather D.",
+          "ref": [
+            "https://d-nb.info/gnd/1042917019"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.nmc.utoronto.ca/people/directories/all-faculty/heather-d-baker"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "sux"
+      ],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "akk",
+      "linguistics",
+      "machine_translation",
+      "nlp",
+      "sux",
+      "translation",
+      "type_software"
+    ],
+    "comment": ""
+  }
+}
