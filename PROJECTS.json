@@ -323,6 +323,10 @@
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "path": "/PROJECTS/methoden_der_manuskriptanalyse_zur_wiedergewinnung_verlorener_schrift/"
   },
+  "47a62965-3241-4531-b01a-a25e25dac602": {
+    "title": "Machine Translation and Automated Analysis of Cuneiform Language",
+    "path": "/PROJECTS/mtaac/"
+  },
   "b37c6bd1-90d3-4718-ab58-fb1d60873186": {
     "title": "Multilingual Corpus of Annotated Spoken Texts",
     "path": "/PROJECTS/multi_cast/"
@@ -350,6 +354,10 @@
   "786edd87-476e-42a6-bcc0-521833ec73e5": {
     "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
     "path": "/PROJECTS/open_iti_aocp/"
+  },
+  "d95ef708-8f9e-407f-9317-1da43fea7541": {
+    "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+    "path": "/PROJECTS/oracc/"
   },
   "a4fa5143-90d2-42ba-a8a1-424b09696b1c": {
     "title": "Orient-Digital",

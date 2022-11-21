@@ -15,7 +15,9 @@
     "title": "Cuneiform Digital Library Initiative",
     "abbr": "CDLI",
     "type": "project",
-    "ref": ["https://viaf.org/viaf/146927082/"],
+    "ref": [
+      "https://viaf.org/viaf/146927082/"
+    ],
     "date": [
       {
         "from": "2000",
@@ -34,13 +36,17 @@
         "to": "2013"
       }
     ],
-    "websites": ["https://cdli.ucla.edu/"],
+    "websites": [
+      "https://cdli.ucla.edu/"
+    ],
     "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
     "places": [
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -50,7 +56,9 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -60,7 +68,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["hhttps://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "hhttps://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -68,7 +78,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -87,12 +99,16 @@
             "https://www.wikidata.org/wiki/Q174710"
           ]
         },
-        "websites": ["https://www.ucla.edu/"],
+        "websites": [
+          "https://www.ucla.edu/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Los Angeles",
-              "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
+              "ref": [
+                "https://www.geonames.org/5368361/los-angeles.html"
+              ]
             }
           }
         ],
@@ -108,12 +124,16 @@
             "https://ror.org/052gg0110"
           ]
         },
-        "websites": ["http://www.ox.ac.uk"],
+        "websites": [
+          "http://www.ox.ac.uk"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Oxford",
-              "ref": ["https://www.geonames.org/2640729/oxford.html"]
+              "ref": [
+                "https://www.geonames.org/2640729/oxford.html"
+              ]
             }
           }
         ],
@@ -129,12 +149,16 @@
             "https://www.wikidata.org/wiki/Q318118"
           ]
         },
-        "websites": ["https://www.mpiwg-berlin.mpg.de/de"],
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["hhttps://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "hhttps://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -157,34 +181,57 @@
         "type": "project",
         "title": "Mesopotamian Seals",
         "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Machine Translation and Automated Analysis of Cuneiform Language",
+        "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+        "uuid": "d95ef708-8f9e-407f-9317-1da43fea7541"
       }
     ],
     "contacts": [
       {
         "pers_name": {
           "text": "Renn, Jürgen",
-          "ref": ["https://d-nb.info/gnd/121180719"]
+          "ref": [
+            "https://d-nb.info/gnd/121180719"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.mpiwg-berlin.mpg.de/users/renn"]
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/users/renn"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["akk", "sux"],
+      "lang": [
+        "akk",
+        "sux"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -210,7 +257,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -236,7 +285,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -261,9 +312,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -272,7 +332,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -280,7 +344,13 @@
         "ref": []
       }
     ],
-    "keywords": ["akk", "digital_edition", "inscriptions", "repository", "sux"],
+    "keywords": [
+      "akk",
+      "digital_edition",
+      "inscriptions",
+      "repository",
+      "sux"
+    ],
     "comment": ""
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1",
-    "record_created_on": "2022-11-04",
+    "uuid": "d95ef708-8f9e-407f-9317-1da43fea7541",
+    "record_created_on": "2022-11-21",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,8 +12,8 @@
     ]
   },
   "project": {
-    "title": "Mesopotamian Royal Inscriptions",
-    "abbr": "",
+    "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+    "abbr": "Oracc",
     "type": "project",
     "ref": [],
     "date": [
@@ -23,44 +23,20 @@
       }
     ],
     "websites": [
-      "https://cdli.ucla.edu/projects/royal/royal.html"
+      "http://oracc.museum.upenn.edu/index.html"
     ],
-    "project_desc": "In this sub-project of the Cuneiform Digital Library Initiative (CDLI), the focus lies on the digitization of royal and monumental texts, which despite representing a small share of the overall CDLI catalogue (20,000 of 350 000 texts) assume a disproportionately large role in history, literature, and linguistics in the several sub-fields of cuneiform studies.",
+    "project_desc": "Oracc is an ongoing project which emerged from The Cuneiform Digital Library Initiative (CDLI). It was designed to make the corpus of cuneiform compositions from the ancient Near East available online and accessible to users. It is a natural complement to CDLI's central archival role as a catalogue and image database of the entire cuneiform corpus and a repository for reference transliterations of that corpus. Oracc transliterations are automatically supplied to the CDLI repository.",
     "places": [
       {
         "place_name": {
-          "text": "Los Angeles",
+          "text": "Philadelphia",
           "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
+            "https://www.geonames.org/4560349/philadelphia.html"
           ]
         },
         "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "hhttps://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
+          "lat": "39.95238",
+          "lng": "-75.16362"
         }
       }
     ],
@@ -84,6 +60,12 @@
       {
         "relation_type": "sibling",
         "type": "project",
+        "title": "Mesopotamian Royal Inscriptions",
+        "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
+      },
+      {
+        "relation_type": "sibling",
+        "type": "project",
         "title": "Nimrud NW Palace",
         "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
       },
@@ -92,25 +74,19 @@
         "type": "project",
         "title": "Mesopotamian Seals",
         "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
-        "uuid": "d95ef708-8f9e-407f-9317-1da43fea7541"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Foxvog, Daniel A.",
+          "text": "Tinney, Stephen J.",
           "ref": [
-            "https://d-nb.info/gnd/1077774133"
+            "http://viaf.org/viaf/18932290"
           ]
         },
         "role": 0,
         "websites": [
-          "https://cdli.ucla.edu/?q=daniel-foxvog"
+          "https://nelc.sas.upenn.edu/people/stephen-tinney"
         ]
       }
     ],
