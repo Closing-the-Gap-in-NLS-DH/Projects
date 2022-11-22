@@ -1,0 +1,159 @@
+ {
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3",
+    "record_created_on": "2022-11-20",
+    "record_created_by": "Bednarkiewicz, Maroussia",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
+    "abbr": "",
+    "type": "project",
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2025"
+      }
+    ],
+    "websites": [
+      "https://github.com/dhakarat"
+    ],
+    "project_desc": "The aim of the present research project is to achieve a unique, broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We have now digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature as a whole. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning (ML) models, I want to map the use, reuse and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature. These patterns will both illustrate the diversity of Muslim societies and the Islamic specificities that unite them.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Tübingen, Germany",
+          "ref": [
+            ""
+          ]
+        },
+        "coordinates": {
+          "lat": "",
+          "lng": ""
+        }
+      }
+    ],
+    "topic_relations": {
+      "dh": true,
+      "nls": true,
+      "rdm": true,
+      "infrastructure": true,
+      "meta": true
+    },
+    "relations": [
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "isnalyser",
+        "ref": [
+          ""
+        ],
+        "websites": [
+          "https://github.com/dhakarat/isnalyser",
+          "https://github.com/dhakarat/isnalyserjs"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Tübingen, Germany",
+              "ref": [
+                ""
+              ]
+            },
+            "coordinates": {
+              "lat": "",
+              "lng": ""
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "lang": [
+      "eng",
+      "ara"
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Bednarkiewicz, Maroussia",
+          "ref": [
+            ""
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/faculty/maroussia-bednarkiewicz/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "eng",
+        "ara"
+      ],
+      "publications": {
+        "access": {
+          "open": "100",
+          "closed": 0,
+          "margin": 0
+        },
+        "licensing": [
+          "GPL 3.0"
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "isnalyser",
+          "self_developed": "true",
+          "ref": "https://github.com/dhakarat/isnalyser",
+          "purpose": "The isnalyser is a simple program for the automation of isnād trees drawing and their customisable display in handy formats."
+        },
+        {
+          "label": "isnalyser",
+          "self_developed": "true",
+          "ref": "https://github.com/dhakarat/isnalyserjs",
+          "purpose": "isnalysejs is an interactive isnalyse, i.e. isnad trees drawing application, which can be used over the network."
+        }
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    "policies": [],
+    "keywords": [
+      "islamic_studies",
+      "hadith",
+      "python"
+    ],
+    "comment": ""
+  }
+}
