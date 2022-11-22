@@ -436,8 +436,6 @@
             <label class="mr-7">
               <input
                 type="checkbox"
-                true-value="true"
-                false-value="false"
                 v-model="project.project.topic_relations.dh"
               />
               <span class="ml-1">Digital Humanities</span>
@@ -445,8 +443,6 @@
             <label class="mr-7">
               <input
                 type="checkbox"
-                true-value="true"
-                false-value="false"
                 v-model="project.project.topic_relations.nls"
               />
               <span class="ml-1">Non-Latin Script</span>
@@ -454,8 +450,6 @@
             <label class="mr-7">
               <input
                 type="checkbox"
-                true-value="true"
-                false-value="false"
                 v-model="project.project.topic_relations.rdm"
               />
               <span class="ml-1">Research Data Management</span>
@@ -463,8 +457,6 @@
             <label class="mr-7">
               <input
                 type="checkbox"
-                true-value="true"
-                false-value="false"
                 v-model="project.project.topic_relations.infrastructure"
               />
               <span class="ml-1">Infrastructure</span>
@@ -472,8 +464,6 @@
             <label class="mr-7">
               <input
                 type="checkbox"
-                true-value="true"
-                false-value="false"
                 v-model="project.project.topic_relations.meta"
               />
               <span class="ml-1">Meta</span>
@@ -1144,7 +1134,9 @@
             <input
               type="range"
               class="w-full"
-              v-model="project.project.research_data.publications.access.open"
+              v-model.number="
+                project.project.research_data.publications.access.open
+              "
             />
             <span class="mx-2">100%</span>
           </div>
@@ -1161,7 +1153,9 @@
             <input
               type="range"
               class="w-full"
-              v-model="project.project.research_data.publications.access.closed"
+              v-model.number="
+                project.project.research_data.publications.access.closed
+              "
             />
             <span class="mx-2">100%</span>
           </div>
@@ -1178,7 +1172,9 @@
             <input
               type="range"
               class="w-full"
-              v-model="project.project.research_data.publications.access.margin"
+              v-model.number="
+                project.project.research_data.publications.access.margin
+              "
             />
             <span class="mx-2">100%</span>
           </div>
@@ -1355,7 +1351,7 @@
                   <input
                     type="range"
                     class="w-full"
-                    v-model="data.access.open"
+                    v-model.number="data.access.open"
                   />
                   <span class="mx-2">100%</span>
                 </div>
@@ -1370,7 +1366,7 @@
                   <input
                     type="range"
                     class="w-full"
-                    v-model="data.access.closed"
+                    v-model.number="data.access.closed"
                   />
                   <span class="mx-2">100%</span>
                 </div>
@@ -1384,7 +1380,7 @@
                   <input
                     type="range"
                     class="w-full"
-                    v-model="data.access.margin"
+                    v-model.number="data.access.margin"
                   />
                   <span class="mx-2">100%</span>
                 </div>
@@ -1870,7 +1866,7 @@
                 project.project.stack.tools.push({
                   label: '',
                   self_developed: false,
-                  ref: '',
+                  ref: [],
                   purpose: '',
                 })
               "
@@ -1899,7 +1895,7 @@
                 project.project.stack.tools.push({
                   label: '',
                   self_developed: false,
-                  ref: '',
+                  ref: [],
                   purpose: '',
                 })
               "
@@ -1938,8 +1934,6 @@
                 <input
                   type="checkbox"
                   v-model="project.project.stack.tools[toolKey].self_developed"
-                  true-value="true"
-                  false-value="false"
                 />
                 <span class="ml-1">Is the tool self-developed?</span>
               </label>
@@ -1955,7 +1949,7 @@
                 <span>Reference-URL or Link to the Tool</span>
                 <input
                   type="text"
-                  v-model="project.project.stack.tools[toolKey].ref"
+                  v-model="project.project.stack.tools[toolKey].ref[0]"
                   class="mt-1 block w-full"
                 />
               </label>
