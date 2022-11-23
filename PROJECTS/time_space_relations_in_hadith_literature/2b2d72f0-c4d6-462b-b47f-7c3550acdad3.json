@@ -23,7 +23,7 @@
       }
     ],
     "websites": ["https://github.com/dhakarat"],
-    "project_desc": "The aim of the present research project is to achieve a unique, broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We have now digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature as a whole. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning (ML) models, I want to map the use, reuse and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature. These patterns will both illustrate the diversity of Muslim societies and the Islamic specificities that unite them.",
+    "project_desc": "The aim of the present research project is to achieve a unique, broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature as a whole. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning (ML) models, we will map the use, reuse and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature. These patterns will illustrate both the diversity of Muslim societies and the Islamic specificities that unite them.",
     "places": [
       {
         "place_name": {
@@ -115,13 +115,13 @@
           "label": "isnalyser",
           "self_developed": true,
           "ref": ["https://github.com/dhakarat/isnalyser"],
-          "purpose": "The isnalyser is a simple program for the automation of isnād trees drawing and their customisable display in handy formats."
+          "purpose": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         },
         {
-          "label": "isnalyser",
+          "label": "isnalyserjs",
           "self_developed": true,
           "ref": ["https://github.com/dhakarat/isnalyserjs"],
-          "purpose": "isnalysejs is an interactive isnalyse, i.e. isnad trees drawing application, which can be used over the network."
+          "purpose": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
         }
       ],
       "languages": ["Python"]
