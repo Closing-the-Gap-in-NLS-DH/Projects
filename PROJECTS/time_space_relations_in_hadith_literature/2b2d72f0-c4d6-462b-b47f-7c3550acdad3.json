@@ -23,7 +23,7 @@
       }
     ],
     "websites": ["https://github.com/dhakarat"],
-    "project_desc": "The aim of the present research project is to achieve a unique, broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature as a whole. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning (ML) models, we will map the use, reuse and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature. These patterns will illustrate both the diversity of Muslim societies and the Islamic specificities that unite them.",
+    "project_desc": "The aim of this project is to achieve a broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning models, we will map the use, reuse, and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature.",
     "places": [
       {
         "place_name": {
