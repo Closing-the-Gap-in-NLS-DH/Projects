@@ -283,6 +283,10 @@
     "title": "Islamic Painted Page",
     "path": "/PROJECTS/islamic_painted_page/"
   },
+  "da852d13-2483-443b-a2f3-77c0d19d08bd": {
+    "title": "Isnalyser",
+    "path": "/PROJECTS/isnalyser/"
+  },
   "5755bad5-4162-48ce-84b4-997819fa61b7": {
     "title": "Kallimachos",
     "path": "/PROJECTS/kallimachos/"
@@ -496,7 +500,7 @@
     "path": "/PROJECTS/tikkoun_sofrim/"
   },
   "2b2d72f0-c4d6-462b-b47f-7c3550acdad3": {
-    "title": "Time Space and Relations in Hadith Literature: A Machine Learning Approach",
+    "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
     "path": "/PROJECTS/time_space_relations_in_hadith_literature/"
   },
   "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b": {

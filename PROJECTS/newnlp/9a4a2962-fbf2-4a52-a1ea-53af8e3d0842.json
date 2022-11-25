@@ -1,4 +1,4 @@
- {
+{
   "schema_version": "0.1.6",
   "record_metadata": {
     "uuid": "9a4a2962-fbf2-4a52-a1ea-53af8e3d0842",
@@ -6,8 +6,8 @@
     "record_created_by": "Bednarkiewicz, Maroussia",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -15,9 +15,7 @@
     "title": "New Languages for NLP",
     "abbr": "new nlp",
     "type": "project",
-    "ref": [
-      "https://newnlp.princeton.edu/"
-    ],
+    "ref": [],
     "date": [
       {
         "from": "2021",
@@ -28,106 +26,77 @@
       "https://newnlp.princeton.edu/",
       "https://github.com/New-Languages-for-NLP"
     ],
-    "project_desc": "The practical aim of the project is to add so-called under-represented or low-resource languages to the library of spaCy. Ultimately the more general goal consists in increasing the diversity of languages and trained models to help natural language processing reflect the linguistic diversity of our world. ",
+    "project_desc": "The practical aim of the project is to add so-called under-represented or low-resource languages to the library of spaCy. Ultimately the more general goal consists in increasing the diversity of languages and trained models to help natural language processing reflect the linguistic diversity of our world.",
     "places": [
       {
         "place_name": {
           "text": "Princeton",
-          "ref": [
-            ""
-          ]
+          "ref": ["https://www.geonames.org/5102922/princeton.html"]
         },
         "coordinates": {
-          "lat": "",
-          "lng": ""
+          "lat": "40.34872",
+          "lng": "-74.65905"
         }
       }
     ],
     "topic_relations": {
       "dh": true,
       "nls": true,
-      "rdm": true,
-      "infrastructure": true,
+      "rdm": false,
+      "infrastructure": false,
       "meta": false
     },
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
-        "title": "",
-        "ref": [
-          ""
-        ],
-        "websites": [
-          ""
-        ],
+        "type": "organisation",
+        "org_name": {
+          "text": "Princeton University",
+          "ref": [
+            "https://ror.org/00hx57361",
+            "https://www.wikidata.org/wiki/Q21578"
+          ]
+        },
+        "websites": ["https://www.princeton.edu/"],
         "places": [
           {
             "place_name": {
-              "text": "",
-              "ref": [
-                ""
-              ]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
+              "text": "Princeton",
+              "ref": ["https://www.geonames.org/5102922/princeton.html"]
             }
           }
         ],
         "relations": []
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "contacts": [
       {
         "pers_name": {
           "text": "Ermolaev, Natalia",
-          "ref": [
-            "https://www.nataliaermolaev.com/"
-          ]
+          "ref": []
         },
         "role": 0,
-        "websites": [
-          "https://www.nataliaermolaev.com/"
-        ]
+        "websites": ["https://www.nataliaermolaev.com/"]
       },
       {
         "pers_name": {
           "text": "Janco, Andrew",
-          "ref": [
-            "https://apjan.co/"
-          ]
+          "ref": ["https://d-nb.info/gnd/1064765017"]
         },
         "role": 0,
-        "websites": [
-          "https://apjan.co/"
-        ]
+        "websites": ["https://apjan.co/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "eng",
-        "ara",
-        "yor",
-        "yid",
-        "ota",
-        "kan",
-        "tir",
-        "que",
-        "efi"
-      ],
+      "lang": ["ara", "efi", "eng", "kan", "ota", "que", "tir", "yid", "yor"],
       "publications": {
         "access": {
           "open": 100,
           "closed": 0,
           "margin": 0
         },
-        "licensing": [
-          "MIT"
-        ]
+        "licensing": ["MIT"]
       },
       "data": {
         "raw": {
@@ -152,24 +121,25 @@
         {
           "label": "cadet",
           "self_developed": true,
-          "ref": [
-            "https://github.com/New-Languages-for-NLP/cadet"
-          ],
+          "ref": ["https://github.com/New-Languages-for-NLP/cadet"],
           "purpose": "Help add new languages into spaCy library by generating and combining all the required units for a language entry in spaCy's library. The tool also exists in the form of a notebook available on the github page of the project."
         }
       ],
-      "languages": []
+      "languages": ["python"]
     },
     "policies": [],
     "keywords": [
-      "languages",
-      "low-resource",
-      "spacy",
-      "python",
-      "humanities",
-      "literature",
-      "machine_learning",
-      "nlp"
+      "ara",
+      "efi",
+      "eng",
+      "kan",
+      "literary_studies",
+      "nlp",
+      "ota",
+      "que",
+      "tir",
+      "yid",
+      "yor"
     ],
     "comment": "The research data include projects in Dostojewsi's Russian, Old Chinese and Kanbun for which there are no existing ISO-639-2 code. The Arabic language data is also in Classical Arabic for which there is no separate ISO-639-2 code."
   }

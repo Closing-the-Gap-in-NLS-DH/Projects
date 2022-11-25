@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd",
+    "record_created_on": "2022-11-25",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Isnalyser",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": ["https://github.com/dhakarat/isnalyser"],
+    "project_desc": "For scholars studying Ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious work and finding the right medium to desplay it fully can even prove to be impossible. The isnalyser is a simple program for the automation of isnād trees drawing and their customisable display in handy formats.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Tübingen",
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
+        },
+        "coordinates": {
+          "lat": "48.52266",
+          "lng": "9.05222"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "project",
+        "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
+        "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Bednarkiewicz, Maroussia",
+          "ref": [" http://viaf.org/viaf/915438092813029053"]
+        },
+        "role": 0,
+        "websites": [
+          "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/faculty/maroussia-bednarkiewicz/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "isnalyser",
+          "self_developed": true,
+          "ref": ["https://github.com/dhakarat/isnalyser"],
+          "purpose": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
+        }
+      ],
+      "languages": ["python"]
+    },
+    "policies": [],
+    "keywords": ["ara", "hadith", "religion_studies", "type_software"],
+    "comment": ""
+  }
+}

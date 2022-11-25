@@ -6,8 +6,8 @@
     "record_created_by": "Bednarkiewicz, Maroussia",
     "record_modified": [
       {
-        "record_modified_on": "",
-        "record_modified_by": ""
+        "record_modified_on": "2022-11-25",
+        "record_modified_by": "Kudela, Xenia Monika"
       }
     ]
   },
@@ -15,7 +15,7 @@
     "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
     "abbr": "",
     "type": "project",
-    "ref": [""],
+    "ref": [],
     "date": [
       {
         "from": "2020",
@@ -27,53 +27,57 @@
     "places": [
       {
         "place_name": {
-          "text": "Tübingen, Germany",
-          "ref": [""]
+          "text": "Tübingen",
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
-          "lat": "",
-          "lng": ""
+          "lat": "48.52266",
+          "lng": "9.05222"
         }
       }
     ],
     "topic_relations": {
       "dh": true,
       "nls": true,
-      "rdm": true,
-      "infrastructure": true,
-      "meta": true
+      "rdm": false,
+      "infrastructure": false,
+      "meta": false
     },
     "relations": [
       {
-        "relation_type": "child",
-        "type": "project",
-        "title": "isnalyser",
-        "ref": [""],
-        "websites": [
-          "https://github.com/dhakarat/isnalyser",
-          "https://github.com/dhakarat/isnalyserjs"
-        ],
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Eberhard Karls Universität Tübingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153978",
+            "https://ror.org/03a1kwz48"
+          ]
+        },
+        "websites": ["https://uni-tuebingen.de/en/university.html"],
         "places": [
           {
             "place_name": {
-              "text": "Tübingen, Germany",
-              "ref": [""]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
+              "text": "Tübingen",
+              "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
             }
-          }
+          }          
         ],
         "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Isnalyser",
+        "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": ["eng"],
     "contacts": [
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": [""]
+          "ref": [" http://viaf.org/viaf/915438092813029053"]
         },
         "role": 0,
         "websites": [
@@ -82,7 +86,7 @@
       }
     ],
     "research_data": {
-      "lang": ["eng", "ara"],
+      "lang": ["ara"],
       "publications": {
         "access": {
           "open": 100,
@@ -127,7 +131,13 @@
       "languages": ["Python"]
     },
     "policies": [],
-    "keywords": ["islamic_studies", "hadith", "python"],
+    "keywords": [
+      "ara",
+      "entity_linking",
+      "hadith",
+      "religion_studies",
+      "type_software"
+    ],
     "comment": ""
   }
 }
