@@ -62,6 +62,12 @@
           }
         ],
         "relations": []
+      },
+      {
+        "relation_type": "child",
+        "type": "project",
+        "title": "Isnalyser",
+        "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }
     ],
     "lang": ["eng"],
@@ -69,7 +75,7 @@
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": [""]
+          "ref": [" http://viaf.org/viaf/915438092813029053"]
         },
         "role": 0,
         "websites": [
@@ -78,7 +84,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "eng"],
+      "lang": ["ara"],
       "publications": {
         "access": {
           "open": 100,
@@ -125,7 +131,6 @@
     "policies": [],
     "keywords": [
       "ara",
-      "eng",
       "entity_linking",
       "hadith",
       "religion_studies",
