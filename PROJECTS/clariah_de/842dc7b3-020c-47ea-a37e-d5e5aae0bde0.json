@@ -198,7 +198,11 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure", "type_organisation"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure",
+      "type_organisation"
+    ],
     "comment": ""
   }
 }
