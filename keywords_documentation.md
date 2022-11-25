@@ -20,7 +20,7 @@ Keywords should provide a general information about the topic, aim, output and t
 
 For the most part, the number of keywords should not exceed 6. All keywords should be written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly.
 
-Note: Feel free to use the `comment` section in the JSON file to add any additional information. 
+Note: Feel free to use the `comment` section in the JSON file to add any additional information.
 
 ## List
 
