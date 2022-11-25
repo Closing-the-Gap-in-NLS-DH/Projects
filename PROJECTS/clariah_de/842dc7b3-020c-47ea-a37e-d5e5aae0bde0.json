@@ -14,7 +14,7 @@
   "project": {
     "title": "CLARIAH-DE",
     "abbr": "",
-    "type": "project",
+    "type": "organisation",
     "ref": [],
     "date": [
       {
@@ -198,7 +198,7 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": ["research_data_management", "research_infrastructure", "type_organisation"],
     "comment": ""
   }
 }
