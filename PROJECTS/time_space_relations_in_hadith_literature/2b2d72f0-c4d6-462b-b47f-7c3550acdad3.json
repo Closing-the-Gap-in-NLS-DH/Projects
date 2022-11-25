@@ -57,9 +57,11 @@
         "websites": ["https://uni-tuebingen.de/en/university.html"],
         "places": [
           {
-            "text": "Tübingen",
-            "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
-          }
+            "place_name": {
+              "text": "Tübingen",
+              "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
+            }
+          }          
         ],
         "relations": []
       },
