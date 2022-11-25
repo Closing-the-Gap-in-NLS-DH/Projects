@@ -20,6 +20,8 @@ You can either write plain JSON or use the form we provide on the Graphical User
 
 If you are not able or willing to write plain JSON, feel free to use the form we provide: https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/contribute
 
+Since we use a standardized vocabulary, please use the [keywords documentation]( https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/keywords_documentation.md) to choose tags for your project. As our taxonomy is still developing, feel free to contact us with any improvement suggestions. 
+
 After you finished your work, just provide us with the final JSON file, so we can ingest it. The data will be available immediately after the file is added to the store.
 
 ## Schema Documentation
