@@ -23,7 +23,7 @@
       }
     ],
     "websites": ["https://github.com/dhakarat/isnalyser"],
-    "project_desc": "For scholars studying Ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious work and finding the right medium to desplay it fully can even prove to be impossible. The isnalyser is a simple program for the automation of isnād trees drawing and their customisable display in handy formats.",
+    "project_desc": "For scholars studying Ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious work and finding the right medium to display it fully can even prove to be impossible. The isnalyser is a simple program for the automation of isnād trees drawing and their customizable display in handy formats.",
     "places": [
       {
         "place_name": {
@@ -56,7 +56,7 @@
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": [" http://viaf.org/viaf/915438092813029053"]
+          "ref": ["http://viaf.org/viaf/915438092813029053"]
         },
         "role": 0,
         "websites": [
