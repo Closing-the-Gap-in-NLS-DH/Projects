@@ -26,7 +26,7 @@
       "https://newnlp.princeton.edu/",
       "https://github.com/New-Languages-for-NLP"
     ],
-    "project_desc": "The practical aim of the project is to add so-called under-represented or low-resource languages to the library of spaCy. Ultimately the more general goal consists in increasing the diversity of languages and trained models to help natural language processing reflect the linguistic diversity of our world.",
+    "project_desc": "The practical aim of this project is to add so-called under-represented or low-resource languages to the library of spaCy. Ultimately, the more general goal consists in increasing the diversity of languages and trained models to help natural language processing reflect the linguistic diversity of our world.",
     "places": [
       {
         "place_name": {
@@ -122,7 +122,7 @@
           "label": "cadet",
           "self_developed": true,
           "ref": ["https://github.com/New-Languages-for-NLP/cadet"],
-          "purpose": "Help add new languages into spaCy library by generating and combining all the required units for a language entry in spaCy's library. The tool also exists in the form of a notebook available on the github page of the project."
+          "purpose": "Help add new languages into the spaCy library by generating and combining all the required units for a language entry. The tool also exists in the form of a notebook available on the GitHub page of the project."
         }
       ],
       "languages": ["python"]
@@ -141,6 +141,6 @@
       "yid",
       "yor"
     ],
-    "comment": "The research data include projects in Dostojewsi's Russian, Old Chinese and Kanbun for which there are no existing ISO-639-2 code. The Arabic language data is also in Classical Arabic for which there is no separate ISO-639-2 code."
+    "comment": "The research data include projects in Dostoevsky's Russian, Old Chinese, and Kanbun, for which there are no ISO-639-2 language codes. The Arabic language data is also in Classical Arabic, for which there is no separate ISO-639-2 code."
   }
 }

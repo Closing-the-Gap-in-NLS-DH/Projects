@@ -23,7 +23,7 @@
       }
     ],
     "websites": ["https://github.com/dhakarat/isnalyser"],
-    "project_desc": "For scholars studying Ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious work and finding the right medium to display it fully can even prove to be impossible. The isnalyser is a simple program for the automation of isnād trees drawing and their customizable display in handy formats.",
+    "project_desc": "For scholars studying ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious task, and finding the right medium to display it fully can even prove to be impossible. isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats.",
     "places": [
       {
         "place_name": {
