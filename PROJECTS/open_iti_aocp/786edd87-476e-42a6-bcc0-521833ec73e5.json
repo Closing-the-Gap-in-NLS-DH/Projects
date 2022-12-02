@@ -224,14 +224,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "optical_character_recognition",
-      "per",
-      "tur",
-      "type_software",
-      "urd"
-    ],
+    "keywords": ["optical_character_recognition", "type_software"],
     "comment": ""
   }
 }

@@ -198,15 +198,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "eng",
-      "ger",
-      "literary_studies",
-      "manuscripts",
-      "repository",
-      "vre"
-    ],
+    "keywords": ["literary_studies", "manuscripts", "repository", "vre"],
     "comment": ""
   }
 }

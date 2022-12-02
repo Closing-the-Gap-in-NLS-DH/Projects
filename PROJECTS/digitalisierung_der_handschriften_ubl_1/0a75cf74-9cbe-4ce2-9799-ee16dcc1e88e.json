@@ -205,14 +205,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "digital_edition",
-      "manuscripts",
-      "per",
-      "repository",
-      "tur"
-    ],
+    "keywords": ["digital_edition", "manuscripts", "repository"],
     "comment": ""
   }
 }

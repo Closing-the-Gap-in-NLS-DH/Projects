@@ -211,26 +211,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "amh",
-      "ara",
-      "arm",
-      "bam",
-      "ful",
-      "ger",
-      "gez",
-      "glam",
-      "lat",
-      "mal",
-      "manuscripts",
-      "mlt",
-      "nep",
-      "por",
-      "san",
-      "sla",
-      "syr",
-      "type_organisation"
-    ],
+    "keywords": ["glam", "manuscripts", "type_organisation"],
     "comment": "The history of the organization reaches back to 1964. In 2005 it was renamed to its current name, “Hill Museum & Manuscript Library”; see the history of the organization: https://hmml.org/about/history/"
   }
 }

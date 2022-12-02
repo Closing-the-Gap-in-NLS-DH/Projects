@@ -170,12 +170,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "heb",
-      "religious_text",
-      "type_organisation"
-    ],
+    "keywords": ["digital_edition", "religious_text", "type_organisation"],
     "comment": ""
   }
 }
