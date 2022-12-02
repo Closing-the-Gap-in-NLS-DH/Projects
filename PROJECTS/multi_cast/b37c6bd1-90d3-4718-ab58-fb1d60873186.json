@@ -233,25 +233,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "atz",
-      "cmn",
-      "dar",
-      "eng",
-      "erk",
-      "gre",
-      "kac",
-      "kgv",
-      "kmr",
-      "language_documentation",
-      "linguistics",
-      "per",
-      "tab",
-      "tdn",
-      "tio",
-      "tuh",
-      "vra"
-    ],
+    "keywords": ["language_documentation", "linguistics"],
     "comment": ""
   }
 }

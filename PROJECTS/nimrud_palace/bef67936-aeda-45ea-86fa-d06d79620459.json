@@ -211,14 +211,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "akk",
-      "archeology",
-      "digital_edition",
-      "inscriptions",
-      "repository",
-      "sux"
-    ],
+    "keywords": ["archeology", "digital_edition", "inscriptions", "repository"],
     "comment": ""
   }
 }

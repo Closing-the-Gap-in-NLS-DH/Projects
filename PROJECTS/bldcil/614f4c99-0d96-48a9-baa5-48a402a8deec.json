@@ -216,17 +216,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "bqi",
-      "ira",
-      "kur",
-      "language_documentation",
-      "linguistics",
-      "mzn",
-      "per",
-      "tks",
-      "zum"
-    ],
+    "keywords": ["language_documentation", "linguistics"],
     "comment": ""
   }
 }

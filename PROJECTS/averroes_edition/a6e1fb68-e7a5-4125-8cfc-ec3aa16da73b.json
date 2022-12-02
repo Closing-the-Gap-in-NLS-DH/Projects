@@ -311,14 +311,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "digital_edition",
-      "heb",
-      "lat",
-      "manuscripts",
-      "philosophy"
-    ],
+    "keywords": ["digital_edition", "manuscripts", "philosophy"],
     "comment": ""
   }
 }

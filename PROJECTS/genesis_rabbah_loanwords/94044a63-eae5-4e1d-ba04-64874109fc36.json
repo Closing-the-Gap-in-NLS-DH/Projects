@@ -260,14 +260,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "arc",
-      "dictionary",
-      "gre",
-      "heb",
-      "historical_language",
-      "linguistics"
-    ],
+    "keywords": ["dictionary", "historical_language", "linguistics"],
     "comment": ""
   }
 }

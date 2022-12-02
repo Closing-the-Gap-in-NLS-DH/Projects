@@ -204,18 +204,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "ara",
-      "cop",
-      "khm",
-      "manuscripts",
-      "otk",
-      "per",
-      "repository",
-      "san",
-      "tam",
-      "tib"
-    ],
+    "keywords": ["manuscripts", "repository"],
     "comment": ""
   }
 }
