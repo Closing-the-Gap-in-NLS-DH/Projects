@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 w-auto">
+  <div class="mx-4 mb-2 w-auto">
     <div
       class="tag-container pointer mb-0 rounded-t-xl px-5 py-2"
       :class="collapsed ? 'rounded-b-xl' : ''"

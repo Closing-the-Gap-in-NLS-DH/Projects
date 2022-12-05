@@ -1,5 +1,5 @@
-<template>
-  <div class="mx-4 mb-2 w-auto">
+<template>    
+  <div class="mx-4 mb-2 w-auto">    
     <div
       class="tag-container pointer mb-0 rounded-t-xl px-5 py-2"
       :class="collapsed ? 'rounded-b-xl' : ''"
@@ -53,6 +53,7 @@
 import { defineComponent, ref } from "vue";
 import { useRoute } from "vue-router";
 import TagBubble from "./TagBubble.vue";
+
 export default defineComponent({
   components: {
     TagBubble,
@@ -66,8 +67,9 @@ export default defineComponent({
     let collapsed = ref(
       route.params.cat && route.params.cat != "" ? false : true
     );
+
     const categories = ref([
-      {
+    {
         label: "Digital Humanities",
         link: "dh",
       },
@@ -86,11 +88,13 @@ export default defineComponent({
       {
         label: "Meta",
         link: "meta",
-      },
+      }
     ]);
+
     categories.value.sort((a, b) =>
       a.label > b.label ? 1 : a.label === b.label ? 0 : -1
     );
+
     return {
       collapse_btn,
       collapsed,

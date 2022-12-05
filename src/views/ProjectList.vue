@@ -4,6 +4,7 @@
       <div class="w-full">
         <cat-list />
         <tag-list :taglist="tags" />
+        <lang-list :langlist="langs" /> 
       </div>
     </div>
     <div class="elementcount m-2 w-full text-xl">
@@ -27,21 +28,25 @@ import axios from "axios";
 import projectItem from "@/components/ProjectItems.vue";
 import tagList from "@/components/TagList.vue";
 import catList from "@/components/CatList.vue";
+import langList from "@/components/LangList.vue";
 
 export default defineComponent({
   components: {
     projectItem,
     tagList,
     catList,
+    langList
   },
   setup() {
     const projectList = ref([]);
     const tags = ref([]);
+    const langs = ref([]);
     const route = useRoute();
 
     const resetData = () => {
       tags.value = [];
       projectList.value = [];
+      langs.value =[];
     };
 
     const matchingCategory = (responseProject) =>
@@ -51,6 +56,11 @@ export default defineComponent({
     const matchingTag = (responseProject) =>
       route.params.tag &&
       responseProject.data.project.keywords.includes(route.params.tag);
+
+    const matchingLanguge = (responseProject) =>
+      route.params.lang &&
+      responseProject.data.project.research_data.lang.includes(route.params.lang);
+
 
     const loadData = () => {
       axios
@@ -67,6 +77,7 @@ export default defineComponent({
                 if (
                   matchingCategory(responseProject) ||
                   matchingTag(responseProject) ||
+                  matchingLanguge(responseProject) ||
                   // Or, if no category or tag is selected, show every project
                   (!route.params.cat && !route.params.tag)
                 ) {
@@ -90,10 +101,20 @@ export default defineComponent({
                   });
 
                   tags.value.sort();
+                  
+                  
+                  responseProject.data.project.research_data.lang.map((lang) => {
+                    if (!langs.value.includes(lang)) {
+                      langs.value.push(lang);
+                    }
+                  });
+
+                  langs.value.sort();
                 }
               })
               .then(() => {
-                // console.log(tags.value);
+                //console.log(langs.value);
+                //console.log(tags.value);
               });
           });
         });
@@ -113,7 +134,10 @@ export default defineComponent({
     return {
       projectList,
       tags,
+      langs,
+      
     };
+    
   },
 });
 </script>
