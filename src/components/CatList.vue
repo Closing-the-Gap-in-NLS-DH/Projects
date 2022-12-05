@@ -53,7 +53,6 @@
 import { defineComponent, ref } from "vue";
 import { useRoute } from "vue-router";
 import TagBubble from "./TagBubble.vue";
-
 export default defineComponent({
   components: {
     TagBubble,
@@ -67,7 +66,6 @@ export default defineComponent({
     let collapsed = ref(
       route.params.cat && route.params.cat != "" ? false : true
     );
-
     const categories = ref([
       {
         label: "Digital Humanities",
@@ -90,11 +88,9 @@ export default defineComponent({
         link: "meta",
       },
     ]);
-
     categories.value.sort((a, b) =>
       a.label > b.label ? 1 : a.label === b.label ? 0 : -1
     );
-
     return {
       collapse_btn,
       collapsed,
