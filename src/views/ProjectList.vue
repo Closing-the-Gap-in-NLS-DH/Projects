@@ -79,7 +79,7 @@ export default defineComponent({
                   matchingTag(responseProject) ||
                   matchingLanguge(responseProject) ||
                   // Or, if no category or tag is selected, show every project
-                  (!route.params.cat && !route.params.tag)
+                  (!route.params.cat && !route.params.tag && !route.params.lang)
                 ) {
                   projectList.value.push({
                     _id: key,
