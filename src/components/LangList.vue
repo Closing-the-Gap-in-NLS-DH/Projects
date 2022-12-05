@@ -67,7 +67,6 @@
       let collapsed = ref(
         route.params.lang && route.params.lang != "" ? false : true
       );
-      console.log(route.params.lang)
       return {
         collapse_btn,
         collapsed,
