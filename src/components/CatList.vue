@@ -1,5 +1,5 @@
-<template>    
-  <div class="mx-4 mb-2 w-auto">    
+<template>
+  <div class="mx-4 mb-2 w-auto">
     <div
       class="tag-container pointer mb-0 rounded-t-xl px-5 py-2"
       :class="collapsed ? 'rounded-b-xl' : ''"
@@ -69,7 +69,7 @@ export default defineComponent({
     );
 
     const categories = ref([
-    {
+      {
         label: "Digital Humanities",
         link: "dh",
       },
@@ -88,7 +88,7 @@ export default defineComponent({
       {
         label: "Meta",
         link: "meta",
-      }
+      },
     ]);
 
     categories.value.sort((a, b) =>

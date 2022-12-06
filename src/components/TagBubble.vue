@@ -7,7 +7,7 @@
     "
     :to="targetArr"
   >
-    <span v-if="target === 'tag'||'lang'">#</span>{{ label }}
+    <span v-if="target === 'tag' || 'lang'">#</span>{{ label }}
     <svg
       v-if="route.params[target] === link"
       xmlns="http://www.w3.org/2000/svg"
@@ -59,25 +59,24 @@ export default defineComponent({
               cat: route.params.cat === props.link ? "" : props.link,
             },
           };
-          case "lang":{
-            return {
-              name: "projectsLanguages",
-              params: {
-                lang: route.params.lang === props.link ? "" : props.link,
+        case "lang": {
+          return {
+            name: "projectsLanguages",
+            params: {
+              lang: route.params.lang === props.link ? "" : props.link,
             },
           };
-          };
+        }
         default:
           return {};
       }
-    });  
+    });
     return {
       isArabic,
       now,
       route,
       targetArr,
     };
-    
   },
 });
 </script>

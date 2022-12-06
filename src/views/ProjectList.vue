@@ -4,7 +4,7 @@
       <div class="w-full">
         <cat-list />
         <tag-list :taglist="tags" />
-        <lang-list :langlist="langs" /> 
+        <lang-list :langlist="langs" />
       </div>
     </div>
     <div class="elementcount m-2 w-full text-xl">
@@ -35,7 +35,7 @@ export default defineComponent({
     projectItem,
     tagList,
     catList,
-    langList
+    langList,
   },
   setup() {
     const projectList = ref([]);
@@ -46,7 +46,7 @@ export default defineComponent({
     const resetData = () => {
       tags.value = [];
       projectList.value = [];
-      langs.value =[];
+      langs.value = [];
     };
 
     const matchingCategory = (responseProject) =>
@@ -59,8 +59,9 @@ export default defineComponent({
 
     const matchingLanguge = (responseProject) =>
       route.params.lang &&
-      responseProject.data.project.research_data.lang.includes(route.params.lang);
-
+      responseProject.data.project.research_data.lang.includes(
+        route.params.lang
+      );
 
     const loadData = () => {
       axios
@@ -101,13 +102,14 @@ export default defineComponent({
                   });
 
                   tags.value.sort();
-                  
-                  
-                  responseProject.data.project.research_data.lang.map((lang) => {
-                    if (!langs.value.includes(lang)) {
-                      langs.value.push(lang);
+
+                  responseProject.data.project.research_data.lang.map(
+                    (lang) => {
+                      if (!langs.value.includes(lang)) {
+                        langs.value.push(lang);
+                      }
                     }
-                  });
+                  );
 
                   langs.value.sort();
                 }
@@ -135,9 +137,7 @@ export default defineComponent({
       projectList,
       tags,
       langs,
-      
     };
-    
   },
 });
 </script>
