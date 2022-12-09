@@ -117,6 +117,14 @@
               target="tag"
               :small="true"
             />
+            <tag-bubble
+              v-for="(langs, key) in project.research_data.lang"
+              :key="key"
+              :label="langs"
+              :link="langs"
+              target="lang"
+              :small="true"
+            />
           </div>
         </div>
       </div>
