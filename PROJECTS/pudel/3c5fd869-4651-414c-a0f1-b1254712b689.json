@@ -207,6 +207,14 @@
       }
     ],
     "keywords": ["research_data_management"],
-    "comment": "The project is still ongoing (as of 05.04.2022)"
+    "comment": "The project is still ongoing (as of 05.04.2022)",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": [],
+      "topics_dh": ["research_data_management"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

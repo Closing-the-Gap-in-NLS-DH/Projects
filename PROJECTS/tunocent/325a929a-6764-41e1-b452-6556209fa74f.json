@@ -251,6 +251,14 @@
       }
     ],
     "keywords": ["dialectology", "language_documentation", "linguistics"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["dialectology", "linguistics"],
+      "resources": [],
+      "tools_and_services": [],
+      "topics_dh": [],
+      "topics_nls": ["language_documentation"],
+      "type": []
+    }
   }
 }

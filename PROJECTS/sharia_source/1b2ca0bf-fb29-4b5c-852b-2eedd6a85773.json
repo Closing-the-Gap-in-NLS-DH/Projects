@@ -201,6 +201,14 @@
       }
     ],
     "keywords": ["history_studies", "repository", "vre"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["history_studies"],
+      "resources": [],
+      "tools_and_services": ["repository", "vre"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

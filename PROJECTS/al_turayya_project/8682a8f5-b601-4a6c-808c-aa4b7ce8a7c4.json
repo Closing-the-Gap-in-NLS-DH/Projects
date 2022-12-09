@@ -204,6 +204,14 @@
       }
     ],
     "keywords": ["geography", "visualization"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["geography"],
+      "resources": [],
+      "tools_and_services": ["visualization"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

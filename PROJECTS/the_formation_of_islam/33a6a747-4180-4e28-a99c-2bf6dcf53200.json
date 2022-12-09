@@ -197,6 +197,14 @@
       }
     ],
     "keywords": ["religion_studies", "repository"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["religion_studies"],
+      "resources": [],
+      "tools_and_services": ["repository"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

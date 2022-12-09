@@ -278,6 +278,14 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "vre"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["digital_edition", "vre"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

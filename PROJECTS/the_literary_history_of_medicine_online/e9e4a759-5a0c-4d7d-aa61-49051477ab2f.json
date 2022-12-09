@@ -240,6 +240,14 @@
       "literary_studies",
       "medicine"
     ],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["history_studies", "literary_studies", "medicine"],
+      "resources": [],
+      "tools_and_services": ["digital_edition"],
+      "topics_dh": [],
+      "topics_nls": ["classical_text"],
+      "type": []
+    }
   }
 }

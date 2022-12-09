@@ -207,6 +207,14 @@
       }
     ],
     "keywords": ["history_studies", "medicine", "repository"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["history_studies", "medicine"],
+      "resources": [],
+      "tools_and_services": ["repository"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

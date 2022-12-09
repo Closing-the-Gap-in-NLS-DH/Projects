@@ -191,6 +191,14 @@
       }
     ],
     "keywords": ["manuscripts", "type_organisation"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": [],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": ["type_organisation"]
+    }
   }
 }

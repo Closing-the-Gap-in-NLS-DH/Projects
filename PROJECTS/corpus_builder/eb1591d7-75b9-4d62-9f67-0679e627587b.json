@@ -232,6 +232,14 @@
       }
     ],
     "keywords": ["optical_character_recognition", "type_software"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": ["optical_character_recognition"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": ["type_software"]
+    }
   }
 }

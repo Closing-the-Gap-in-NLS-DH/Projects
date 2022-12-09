@@ -228,6 +228,14 @@
       "research_data_management",
       "research_infrastructure"
     ],
-    "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
+    "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS).",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["repository"],
+      "topics_dh": ["research_data_management", "research_infrastructure"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

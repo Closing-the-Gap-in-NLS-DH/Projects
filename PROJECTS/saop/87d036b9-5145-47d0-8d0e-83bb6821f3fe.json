@@ -317,6 +317,14 @@
       }
     ],
     "keywords": ["e_learning", "education"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["education"],
+      "resources": [],
+      "tools_and_services": [],
+      "topics_dh": ["e_learning"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

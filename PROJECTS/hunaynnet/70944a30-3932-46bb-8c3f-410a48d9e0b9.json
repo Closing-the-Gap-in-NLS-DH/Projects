@@ -195,6 +195,14 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "translation"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["digital_edition"],
+      "topics_dh": [],
+      "topics_nls": ["translation"],
+      "type": []
+    }
   }
 }

@@ -199,6 +199,14 @@
       }
     ],
     "keywords": ["literary_studies", "manuscripts", "repository", "vre"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["literary_studies"],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["repository", "vre"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

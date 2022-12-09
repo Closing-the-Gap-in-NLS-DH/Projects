@@ -209,6 +209,14 @@
       }
     ],
     "keywords": ["classical_text", "nlp", "religion_studies"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["religion_studies"],
+      "resources": [],
+      "tools_and_services": ["nlp"],
+      "topics_dh": [],
+      "topics_nls": ["classical_text"],
+      "type": []
+    }
   }
 }

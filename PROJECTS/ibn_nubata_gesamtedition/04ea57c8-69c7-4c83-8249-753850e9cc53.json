@@ -200,6 +200,14 @@
       }
     ],
     "keywords": ["digital_edition", "literary_studies"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["literary_studies"],
+      "resources": [],
+      "tools_and_services": ["digital_edition"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

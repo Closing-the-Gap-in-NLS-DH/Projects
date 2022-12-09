@@ -272,6 +272,14 @@
       "religion_studies",
       "visualization"
     ],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["history_studies", "religion_studies"],
+      "resources": ["geodata"],
+      "tools_and_services": ["visualization"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

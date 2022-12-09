@@ -201,6 +201,14 @@
       }
     ],
     "keywords": ["dictionary", "manuscripts", "translation"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["dictionary"],
+      "topics_dh": [],
+      "topics_nls": ["translation"],
+      "type": []
+    }
   }
 }

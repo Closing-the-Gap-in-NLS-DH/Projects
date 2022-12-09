@@ -204,6 +204,14 @@
       }
     ],
     "keywords": ["biographical_data", "history_studies", "repository"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["history_studies"],
+      "resources": [],
+      "tools_and_services": ["repository"],
+      "topics_dh": ["biographical_data"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

@@ -219,6 +219,14 @@
       }
     ],
     "keywords": ["dictionary", "historical_language"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["historical_language"],
+      "tools_and_services": ["dictionary"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

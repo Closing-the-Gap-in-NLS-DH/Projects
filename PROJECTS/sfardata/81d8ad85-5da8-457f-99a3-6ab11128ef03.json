@@ -262,6 +262,14 @@
       }
     ],
     "keywords": ["manuscripts", "repository"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["repository"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

@@ -191,6 +191,14 @@
       }
     ],
     "keywords": ["digital_edition", "religious_text"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": ["digital_edition"],
+      "topics_dh": [],
+      "topics_nls": ["religious_text"],
+      "type": []
+    }
   }
 }

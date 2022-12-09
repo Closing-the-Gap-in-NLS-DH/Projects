@@ -229,6 +229,14 @@
       }
     ],
     "keywords": ["research_infrastructure"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": [],
+      "topics_dh": ["research_infrastructure"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

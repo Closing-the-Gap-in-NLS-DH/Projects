@@ -220,6 +220,14 @@
       }
     ],
     "keywords": ["cultural_studies", "history_studies"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["cultural_studies", "history_studies"],
+      "resources": [],
+      "tools_and_services": [],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

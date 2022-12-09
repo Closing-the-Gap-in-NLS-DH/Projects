@@ -230,6 +230,14 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "philosophy"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["philosophy"],
+      "resources": ["manuscripts"],
+      "tools_and_services": ["digital_edition"],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

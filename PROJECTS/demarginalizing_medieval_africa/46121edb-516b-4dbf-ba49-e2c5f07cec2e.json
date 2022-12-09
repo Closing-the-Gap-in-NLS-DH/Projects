@@ -334,6 +334,14 @@
       }
     ],
     "keywords": ["african_studies", "art_studies", "image", "manuscripts"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": ["african_studies", "art_studies"],
+      "resources": ["image", "manuscripts"],
+      "tools_and_services": [],
+      "topics_dh": [],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }

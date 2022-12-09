@@ -293,6 +293,14 @@
       }
     ],
     "keywords": ["cultural_heritage", "vre"],
-    "comment": ""
+    "comment": "",
+    "keywords_categories": {
+      "discipline": [],
+      "resources": [],
+      "tools_and_services": ["vre"],
+      "topics_dh": ["cultural_heritage"],
+      "topics_nls": [],
+      "type": []
+    }
   }
 }
