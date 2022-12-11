@@ -40,9 +40,8 @@ export default defineComponent({
   setup() {
     const projectList = ref([]);
     const tags = ref([]);
-    const langs = ref([]);   
+    const langs = ref([]);
     const route = useRoute();
-    
 
     const resetData = () => {
       tags.value = [];
@@ -89,7 +88,7 @@ export default defineComponent({
                     project: responseProject.data.project,
                     source: `https://github.com/Closing-the-Gap-in-NLS-DH/Projects/blob/master${responseIndex.data[key].path}${key}.json`,
                   });
-                  
+
                   projectList.value.sort((a, b) =>
                     a.project.title.localeCompare(b.project.title, "en", {
                       sensitivity: "base",
@@ -101,28 +100,27 @@ export default defineComponent({
                       tags.value.push(tag);
                     }
                   });
-                  
+
                   tags.value.sort();
 
                   responseProject.data.project.research_data.lang.map(
                     (lang) => {
                       if (!langs.value.includes(lang)) {
-                        langs.value.push(lang);                       
+                        langs.value.push(lang);
                       }
                     }
                   );
 
                   langs.value.sort();
                 }
-                
               })
               .then(() => {
-                //console.log(langs.value);          
+                //console.log(langs.value);
               });
           });
         });
     };
-    
+
     watchEffect(() => {
       loadData();
     });
@@ -137,8 +135,7 @@ export default defineComponent({
     return {
       projectList,
       tags,
-      langs
-      
+      langs,
     };
   },
 });
