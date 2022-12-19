@@ -194,14 +194,6 @@
       }
     ],
     "keywords": ["manuscripts", "religion_studies", "religious_text"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["religion_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": ["religious_text"],
-      "type": []
-    }
+    "comment": ""
   }
 }

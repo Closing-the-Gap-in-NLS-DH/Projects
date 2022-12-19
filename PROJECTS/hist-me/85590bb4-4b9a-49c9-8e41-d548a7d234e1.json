@@ -211,14 +211,6 @@
       }
     ],
     "keywords": ["research_data_management"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": [],
-      "topics_dh": ["research_data_management"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

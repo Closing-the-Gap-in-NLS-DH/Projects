@@ -310,14 +310,6 @@
       }
     ],
     "keywords": ["african_studies", "manuscripts", "repository", "vre"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["african_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["repository", "vre"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

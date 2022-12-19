@@ -137,14 +137,6 @@
       "religion_studies",
       "type_software"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["religion_studies"],
-      "resources": [],
-      "tools_and_services": ["entity_linking"],
-      "topics_dh": [],
-      "topics_nls": ["hadith"],
-      "type": ["type_software"]
-    }
+    "comment": ""
   }
 }

@@ -223,14 +223,6 @@
       }
     ],
     "keywords": ["repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": ["repository"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

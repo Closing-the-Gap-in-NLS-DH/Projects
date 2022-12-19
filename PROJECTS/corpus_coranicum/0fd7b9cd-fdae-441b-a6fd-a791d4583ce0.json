@@ -274,14 +274,6 @@
       "religious_text",
       "repository"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["religion_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["digital_edition", "repository"],
-      "topics_dh": [],
-      "topics_nls": ["religious_text"],
-      "type": []
-    }
+    "comment": ""
   }
 }

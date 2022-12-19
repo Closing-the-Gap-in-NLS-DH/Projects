@@ -221,14 +221,6 @@
       }
     ],
     "keywords": ["literary_studies", "vre"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["literary_studies"],
-      "resources": [],
-      "tools_and_services": ["vre"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

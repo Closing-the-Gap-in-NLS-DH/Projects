@@ -203,14 +203,6 @@
       }
     ],
     "keywords": ["digital_edition", "glam", "manuscripts", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["digital_edition", "repository"],
-      "topics_dh": ["glam"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

@@ -256,14 +256,6 @@
       "lexicography",
       "translation"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["lexicography"],
-      "resources": ["historical_language"],
-      "tools_and_services": ["dictionary"],
-      "topics_dh": [],
-      "topics_nls": ["translation"],
-      "type": []
-    }
+    "comment": ""
   }
 }

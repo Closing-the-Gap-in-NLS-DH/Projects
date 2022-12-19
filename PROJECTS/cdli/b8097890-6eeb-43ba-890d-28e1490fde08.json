@@ -293,14 +293,6 @@
       }
     ],
     "keywords": ["digital_edition", "inscriptions", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": ["digital_edition", "repository"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

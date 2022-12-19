@@ -195,14 +195,6 @@
       }
     ],
     "keywords": ["biographical_data", "social_network_analysis"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": ["social_network_analysis"],
-      "topics_dh": ["biographical_data"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

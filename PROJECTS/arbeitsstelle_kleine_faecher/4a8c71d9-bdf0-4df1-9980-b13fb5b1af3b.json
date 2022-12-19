@@ -201,14 +201,6 @@
       }
     ],
     "keywords": ["type_organisation"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": ["type_organisation"]
-    }
+    "comment": ""
   }
 }

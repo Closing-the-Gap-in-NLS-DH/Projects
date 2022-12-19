@@ -287,14 +287,6 @@
       "research_infrastructure",
       "vre"
     ],
-    "comment": "In case of funding extension the second phase of the project should start in 2022",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["repository", "vre"],
-      "topics_dh": ["research_data_management", "research_infrastructure"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": "In case of funding extension the second phase of the project should start in 2022"
   }
 }

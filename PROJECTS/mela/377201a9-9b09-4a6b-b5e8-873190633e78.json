@@ -171,14 +171,6 @@
       }
     ],
     "keywords": ["glam", "research_infrastructure", "type_organisation"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": [],
-      "topics_dh": ["glam", "research_infrastructure"],
-      "topics_nls": [],
-      "type": ["type_organisation"]
-    }
+    "comment": ""
   }
 }

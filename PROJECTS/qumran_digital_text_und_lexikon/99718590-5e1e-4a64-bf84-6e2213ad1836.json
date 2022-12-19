@@ -203,14 +203,6 @@
       "lexicography",
       "manuscripts"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["lexicography"],
-      "resources": ["historical_language", "manuscripts"],
-      "tools_and_services": ["dictionary"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

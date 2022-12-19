@@ -186,14 +186,6 @@
       }
     ],
     "keywords": ["literary_studies", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["literary_studies"],
-      "resources": [],
-      "tools_and_services": ["repository"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

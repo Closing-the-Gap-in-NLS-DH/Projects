@@ -217,14 +217,6 @@
       }
     ],
     "keywords": ["historical_language", "linguistics"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["linguistics"],
-      "resources": ["historical_language"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

@@ -239,14 +239,6 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "religion_studies", "vre"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["religion_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["digital_edition", "vre"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

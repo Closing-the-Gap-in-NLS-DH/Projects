@@ -206,14 +206,6 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["digital_edition", "repository"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

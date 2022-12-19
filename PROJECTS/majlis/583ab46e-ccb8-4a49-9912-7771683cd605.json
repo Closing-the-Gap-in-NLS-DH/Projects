@@ -197,14 +197,6 @@
       }
     ],
     "keywords": ["literary_studies", "manuscripts"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["literary_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

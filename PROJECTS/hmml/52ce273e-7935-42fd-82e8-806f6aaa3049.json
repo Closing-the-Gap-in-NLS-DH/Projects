@@ -212,14 +212,6 @@
       }
     ],
     "keywords": ["glam", "manuscripts", "type_organisation"],
-    "comment": "The history of the organization reaches back to 1964. In 2005 it was renamed to its current name, “Hill Museum & Manuscript Library”; see the history of the organization: https://hmml.org/about/history/",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": [],
-      "topics_dh": ["glam"],
-      "topics_nls": [],
-      "type": ["type_organisation"]
-    }
+    "comment": "The history of the organization reaches back to 1964. In 2005 it was renamed to its current name, “Hill Museum & Manuscript Library”; see the history of the organization: https://hmml.org/about/history/"
   }
 }

@@ -189,14 +189,6 @@
       }
     ],
     "keywords": ["glam", "manuscripts", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["repository"],
-      "topics_dh": ["glam"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

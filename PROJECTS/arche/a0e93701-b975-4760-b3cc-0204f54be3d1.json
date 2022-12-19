@@ -197,18 +197,6 @@
       "research_infrastructure",
       "type_organisation"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": ["repository"],
-      "topics_dh": [
-        "glam",
-        "research_data_management",
-        "research_infrastructure"
-      ],
-      "topics_nls": [],
-      "type": ["type_organisation"]
-    }
+    "comment": ""
   }
 }

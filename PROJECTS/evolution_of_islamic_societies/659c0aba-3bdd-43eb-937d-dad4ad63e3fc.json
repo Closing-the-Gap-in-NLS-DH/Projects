@@ -240,14 +240,6 @@
       }
     ],
     "keywords": ["annotation", "religion_studies", "vre"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["religion_studies"],
-      "resources": [],
-      "tools_and_services": ["annotation", "vre"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

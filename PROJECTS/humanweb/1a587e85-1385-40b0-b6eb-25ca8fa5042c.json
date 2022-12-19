@@ -197,14 +197,6 @@
       }
     ],
     "keywords": ["cultural_heritage", "manuscripts", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["repository"],
-      "topics_dh": ["cultural_heritage"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

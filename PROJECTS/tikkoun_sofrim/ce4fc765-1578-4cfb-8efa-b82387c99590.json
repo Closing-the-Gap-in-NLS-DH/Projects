@@ -192,17 +192,6 @@
       "manuscripts",
       "optical_character_recognition"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": [
-        "handwritten_text_recognition",
-        "optical_character_recognition"
-      ],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

@@ -213,14 +213,6 @@
       }
     ],
     "keywords": ["geography", "manuscripts"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["geography"],
-      "resources": ["manuscripts"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

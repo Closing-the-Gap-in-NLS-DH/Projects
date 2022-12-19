@@ -232,14 +232,6 @@
       }
     ],
     "keywords": ["digital_edition", "manuscripts", "religious_text"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": [],
-      "resources": ["manuscripts"],
-      "tools_and_services": ["digital_edition"],
-      "topics_dh": [],
-      "topics_nls": ["religious_text"],
-      "type": []
-    }
+    "comment": ""
   }
 }

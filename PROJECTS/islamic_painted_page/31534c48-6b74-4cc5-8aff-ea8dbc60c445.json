@@ -210,14 +210,6 @@
       }
     ],
     "keywords": ["art_studies", "image", "manuscripts", "repository"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["art_studies"],
-      "resources": ["image", "manuscripts"],
-      "tools_and_services": ["repository"],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

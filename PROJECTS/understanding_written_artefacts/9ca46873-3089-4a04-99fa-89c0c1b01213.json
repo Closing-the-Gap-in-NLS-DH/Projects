@@ -342,14 +342,6 @@
       }
     ],
     "keywords": ["history_studies", "manuscripts"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["history_studies"],
-      "resources": ["manuscripts"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }

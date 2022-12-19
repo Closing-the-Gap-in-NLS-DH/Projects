@@ -632,14 +632,6 @@
       "research_data_management",
       "research_infrastructure"
     ],
-    "comment": "Some of the partner institutions are private companies which were not included in the list, as the projects focuses only on research institutions",
-    "keywords_categories": {
-      "discipline": ["lexicography"],
-      "resources": [],
-      "tools_and_services": [],
-      "topics_dh": ["research_data_management", "research_infrastructure"],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": "Some of the partner institutions are private companies which were not included in the list, as the projects focuses only on research institutions"
   }
 }

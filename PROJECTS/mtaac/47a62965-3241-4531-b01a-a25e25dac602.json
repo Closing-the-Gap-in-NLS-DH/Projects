@@ -268,14 +268,6 @@
       "translation",
       "type_software"
     ],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["linguistics"],
-      "resources": [],
-      "tools_and_services": ["machine_translation", "nlp"],
-      "topics_dh": [],
-      "topics_nls": ["translation"],
-      "type": ["type_software"]
-    }
+    "comment": ""
   }
 }

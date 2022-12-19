@@ -254,14 +254,6 @@
       }
     ],
     "keywords": ["historical_language", "lexicography"],
-    "comment": "",
-    "keywords_categories": {
-      "discipline": ["lexicography"],
-      "resources": ["historical_language"],
-      "tools_and_services": [],
-      "topics_dh": [],
-      "topics_nls": [],
-      "type": []
-    }
+    "comment": ""
   }
 }
