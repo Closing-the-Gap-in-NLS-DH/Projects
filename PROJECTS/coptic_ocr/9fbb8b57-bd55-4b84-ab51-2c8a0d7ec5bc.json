@@ -31,9 +31,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -41,9 +39,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "topic_relations": {
       "nls": true,
       "dh": true,
@@ -62,16 +58,12 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": [
-          "https://www.uni-goettingen.de/"
-        ],
+        "websites": ["https://www.uni-goettingen.de/"],
         "places": [
           {
             "place_name": {
               "text": "Göttingen",
-              "ref": [
-                "https://www.geonames.org/2918632/goettingen.html"
-              ]
+              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
             }
           }
         ],
@@ -82,9 +74,7 @@
       {
         "pers_name": {
           "text": "Lincke, Eliese-Sophia",
-          "ref": [
-            "https://d-nb.info/gnd/1011716763"
-          ]
+          "ref": ["https://d-nb.info/gnd/1011716763"]
         },
         "role": 0,
         "websites": [
@@ -93,18 +83,14 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "cop"
-      ],
+      "lang": ["cop"],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
@@ -117,9 +103,7 @@
             {
               "type": "remote",
               "accessibility": "open",
-              "ref": [
-                "https://vcs.etrap.eu/Coptic-OCR/datasets"
-              ],
+              "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
               "description": "gitlab"
             }
           ]

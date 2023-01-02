@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "2ec36f1f-9f08-4284-964b-2f40a1d3e0db",
+    "record_created_on": "2023-01-02",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Barlaam and Josaphat in Arabic Literature and Culture",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017",
+        "to": ""
+      }
+    ],
+    "websites": ["https://barlaamandjosaphat.wp.st-andrews.ac.uk/"],
+    "project_desc": "The focus of this project lies on Arabic manuscripts of Barlaam and Josaphat, an outstanding work of world literature, and the rich history of its transmission in Arabic sources. In the course of the project the manuscripts will be published online in an open-access research platform ediarum developed at the Berlin Brandenburg Academy of Sciences and Humanities (Berlin, Germany). Along with the photocopies of the manuscripts, the platform will feature full transcriptions of the Arabic texts, an English translation of selected manuscripts as well as analytical metadata and bibliography. This will result in the creation of a comprehensive research tool on the history of Barlaam and Josaphat in Arabic literature.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Fife",
+          "ref": ["https://www.geonames.org/2649469/fife.html"]
+        },
+        "coordinates": {
+          "lat": "56.25",
+          "lng": "-3.16667"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "University of St Andrews",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q216273",
+            "https://ror.org/02wn5qz54"
+          ]
+        },
+        "websites": ["https://www.st-andrews.ac.uk/"],
+        "places": [
+          {
+            "place_name": {
+              "text": "Fife",
+              "ref": ["https://www.geonames.org/2649469/fife.html"]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Dmitriev, Kirill",
+          "ref": ["https://d-nb.info/gnd/138140030"]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Orfali, Bilal",
+          "ref": ["https://d-nb.info/gnd/140143777"]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.bilalorfali.com/en",
+          "https://www.aub.edu.lb/fas/arabic/Pages/Bilal-Orfali-Par.aspx"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": ["php", "javascript", "python"]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "classical_text",
+      "digital_edition",
+      "literary_studies",
+      "manuscripts",
+      "vre"
+    ],
+    "comment": ""
+  }
+}
