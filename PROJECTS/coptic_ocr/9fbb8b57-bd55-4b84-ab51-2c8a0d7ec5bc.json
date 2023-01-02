@@ -1,0 +1,132 @@
+{
+  "schema_version": "0.1.6",
+  "record_metadata": {
+    "uuid": "9fbb8b57-bd55-4b84-ab51-2c8a0d7ec5bc",
+    "record_created_on": "2023-01-02",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Copitc OCR",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "http://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
+      "https://vcs.etrap.eu/Coptic-OCR/datasets"
+    ],
+    "project_desc": "The aim of this project is to improve the quality and accessibility of OCR software for Coptic texts and their different fonds using Machine Learning technologies.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "topic_relations": {
+      "nls": true,
+      "dh": true,
+      "meta": false,
+      "rdm": false,
+      "infrastructure": false
+    },
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Georg-August-Universität Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152838",
+            "https://ror.org/01y9bpm73"
+          ]
+        },
+        "websites": ["https://www.uni-goettingen.de/"],
+        "places": [
+          {
+            "place_name": {
+              "text": "Göttingen",
+              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Lincke, Eliese-Sophia",
+          "ref": ["https://d-nb.info/gnd/1011716763"]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Lincke"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["cop"],
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [],
+          "repositories": []
+        },
+        "refined": {
+          "datatypes": [],
+          "repositories": [
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
+              "description": "gitlab"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [],
+          "repositories": []
+        }
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [],
+    "keywords": [
+      "historical_language",
+      "optical_character_recognition",
+      "type_software"
+    ],
+    "comment": ""
+  }
+}
