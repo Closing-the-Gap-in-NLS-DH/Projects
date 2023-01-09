@@ -72,6 +72,7 @@
     "search_service",
     "sentiment_analysis",
     "social_network_analysis",
+    "software",
     "tagging",
     "tokenisation",
     "visualization",
@@ -105,11 +106,5 @@
     "language_documentation",
     "religious_text",
     "translation"
-  ],
-  "type": [
-    "type_organisation",
-    "type_reading",
-    "type_resource",
-    "type_software"
   ]
 }

@@ -6,7 +6,7 @@ Last edited: 14-11-2022
 
 ## Introduction
 
-Following the principles of Open Data and Open Science, we use controlled vocabulary in order to ensure interoperability and future retrieval of our research data. In this respect, we link our keywords to the [DHA Taxonomy](https://vocabs.acdh.oeaw.ac.at/en/?clang=) for Digital Humanities created by the [Austrian Centre for Digital Humanities and Cultural Heritage ( ACDH-CH)](https://www.oeaw.ac.at/acdh/). Since many concepts relevant to NLS-specific research are not represented in general DH-related controlled vocabularies, we elaborated some additional keywords which are not linked to DHA Taxonomy. This document provides a list of all keywords used in our project as well as links to the vocabulary information on website of DHA Taxonomy.
+Following the principles of Open Data and Open Science, we use controlled vocabulary in order to ensure interoperability and future retrieval of our research data. In this respect, we link our keywords to the [DHA Taxonomy](https://vocabs.acdh.oeaw.ac.at/en/?clang=) for Digital Humanities created by the [Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)](https://www.oeaw.ac.at/acdh/). Since many concepts relevant to NLS-specific research are not represented in general DH-related controlled vocabularies, we elaborated some additional keywords which are not linked to DHA Taxonomy. This document provides a list of all keywords used in our project as well as links to the vocabulary information on website of DHA Taxonomy.
 
 Keywords should provide a general information about the topic, aim, output and type of a given project. To this end each project should, if possible, contain at least one keyword for each category:
 
@@ -15,8 +15,7 @@ Keywords should provide a general information about the topic, aim, output and t
 3. **[Tools and Services](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection04)**
 4. **[Topics DH](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection05)** - topic related to DH research in general
 5. **Topics NLS** - topic related to the research on NLS
-6. **[Type](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection06)**
-7. **Languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
+6. **Languages** - research data languages formatted according to the ISO 639-2 language codes (or ISO 639-3 if a given languages is not provided)
 
 For the most part, the number of keywords should not exceed 6. All keywords should be written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly.
 
@@ -100,6 +99,7 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
 - [search_service](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept45)
 - [sentiment_analysis](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept44)
 - [social_network_analysis](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept49)
+- software
 - [tagging](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept48.02)
 - [tokenisation](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept48.01)
 - [visualization](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept51)
@@ -136,11 +136,5 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
 - religious_text
 - translation
 
-6. **Type**
 
-- [type_organisation](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept72)
-- [type_reading](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept71)
-- [type_resource](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept73)
-- [type_software](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept74)
-
-7. **Languages**: [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
+6. **Languages**: [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
