@@ -67,11 +67,11 @@ export default defineComponent({
     let collapsed = ref(
       route.params.tag && route.params.tag != "" ? false : true
     );
-
     return {
       collapse_btn,
       collapsed,
     };
   },
 });
+
 </script>

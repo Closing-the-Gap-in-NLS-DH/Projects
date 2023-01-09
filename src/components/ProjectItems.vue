@@ -91,24 +91,7 @@
           <div class="w-full p-3 py-0 text-left leading-relaxed antialiased">
             {{ project.project_desc }}
           </div>
-          <div class="tagrow mt-5 flex flex-wrap p-3 pb-10">
-            <simple-badge
-              v-if="project.topic_relations.nls"
-              label="Non-Latin Script"
-            />
-            <simple-badge
-              v-if="project.topic_relations.dh"
-              label="Digital Humanities"
-            />
-            <simple-badge
-              v-if="project.topic_relations.rdm"
-              label="Research Data Management"
-            />
-            <simple-badge v-if="project.topic_relations.meta" label="Meta" />
-            <simple-badge
-              v-if="project.topic_relations.infrastructure"
-              label="Infrastructure"
-            />
+          <div class="tagrow mt-5 flex flex-wrap p-3 pb-10">            
             <tag-bubble
               v-for="(tags, key) in project.keywords"
               :key="key"
@@ -160,13 +143,11 @@
 import { defineComponent, inject, watch, ref } from "vue";
 import TagBubble from "@/components/TagBubble.vue";
 import LinkBubble from "@/components/LinkBubble.vue";
-import SimpleBadge from "@/components/SimpleBadge.vue";
 
 export default defineComponent({
   components: {
     TagBubble,
     LinkBubble,
-    SimpleBadge,
   },
   props: {
     project: Object,

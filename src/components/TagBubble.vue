@@ -1,13 +1,14 @@
 <template>
   <router-link
     v-if="link"
-    class="bubble my-1 ml-0 mr-2 rounded-full pr-4 pl-4"
+    class="bubble my-1 ml-0 mr-2 rounded-full pr-4 pl-4 possi"
     :class="
-      route.params[target] === link ? 'bg-darkblue flex flex-row pr-0' : ''
+      route.params[target] === link ? 'bg-darkblue flex flex-row place-content-between pr-0' : ''
     "
     :to="targetArr"
   >
-    <span v-if="target === 'tag' || 'lang'">#</span>{{ label }}
+    
+    <span v-if="target === 'tag' || 'lang'"> </span> # {{ label }}
     <svg
       v-if="route.params[target] === link"
       xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +68,7 @@ export default defineComponent({
             },
           };
         }
+        
         default:
           return {};
       }
@@ -79,4 +81,6 @@ export default defineComponent({
     };
   },
 });
+
 </script>
+
