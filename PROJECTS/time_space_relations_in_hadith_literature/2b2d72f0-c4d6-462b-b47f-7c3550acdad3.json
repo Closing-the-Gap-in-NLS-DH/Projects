@@ -131,12 +131,7 @@
       "languages": ["Python"]
     },
     "policies": [],
-    "keywords": [
-      "entity_linking",
-      "hadith",
-      "religion_studies",
-      "type_software"
-    ],
+    "keywords": ["entity_linking", "hadith", "religion_studies", "software"],
     "comment": ""
   }
 }
