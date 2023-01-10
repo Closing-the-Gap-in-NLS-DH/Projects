@@ -136,5 +136,4 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
 - religious_text
 - translation
 
-
 6. **Languages**: [ISO-639-2-Codes](https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes)
