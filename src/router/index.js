@@ -16,7 +16,7 @@ const routes = [
         path: "/projects/langs/:lang?",
         name: "projectsLanguages",
         component: () => import("../views/ProjectList.vue"),
-      }
+      },
     ],
   },
   {

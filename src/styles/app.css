@@ -49,7 +49,6 @@ body {
   background-color: #f2d492;
 }
 
-
 .bubble:hover {
   color: #f29559;
   background-color: #2e4a61;
@@ -78,7 +77,6 @@ body {
   color: #b8b08d;
 }
 
-
 .bg-darkblue {
   background-color: #202c39;
   color: #b8b08d;
@@ -97,10 +95,11 @@ a:hover {
   color: #f2d492;
 }
 
-.dropdown_content{
+.dropdown-content {
   display: flex;
   flex-flow: column nowrap;
-  /*align-items: center;*/
+
+  /* align-items: center; */
   justify-items: center;
 }
 

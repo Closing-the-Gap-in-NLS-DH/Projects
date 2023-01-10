@@ -1,6 +1,8 @@
 <template>
-  <div class="catbubble my-1 ml-0 mr-2 rounded-full px-4"
-  :class="cat ? '': 'w-60'">
+  <div
+    class="catbubble my-1 ml-0 mr-2 rounded-full px-4"
+    :class="cat ? '' : 'w-60'"
+  >
     {{ label }}
   </div>
 </template>

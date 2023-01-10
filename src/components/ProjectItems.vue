@@ -91,7 +91,7 @@
           <div class="w-full p-3 py-0 text-left leading-relaxed antialiased">
             {{ project.project_desc }}
           </div>
-          <div class="tagrow mt-5 flex flex-wrap p-3 pb-10">            
+          <div class="tagrow mt-5 flex flex-wrap p-3 pb-10">
             <tag-bubble
               v-for="(tags, key) in project.keywords"
               :key="key"
