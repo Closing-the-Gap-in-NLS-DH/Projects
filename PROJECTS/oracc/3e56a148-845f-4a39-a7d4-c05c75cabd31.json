@@ -1,15 +1,9 @@
-//See the changes in lines:
-//54
-//114
-//226
-//243
-
 {
   "schema_version": "0.1.6",
   "record_metadata": {
-    "uuid": "",
-    "record_created": "",
-    "record_created_by": "",
+    "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31",
+    "record_created_on": "2023-01-13",
+    "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
         "record_modified_on": "",
@@ -18,116 +12,127 @@
     ]
   },
   "project": {
-    "title": "",
-    "abbr": "",
-    "type": "",
-    "ref": [],
+    "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+    "abbr": "Oracc",
+    "type": "project",
+    "ref": [
+      "http://urn.fi/urn:nbn:fi:lb-2022031705"
+    ],
     "date": [
       {
         "from": "",
         "to": ""
       }
     ],
-    "websites": [],
-    "project_desc": "",
+    "websites": [
+      "http://oracc.museum.upenn.edu/index.html"
+    ],
+    "project_desc": "Oracc emerged from the CDLI project. It is a is a collaborative effort to develop a complete multilingual corpus of cuneiform whose rich annotation and open licensing support the next generation of scholarly research.",
     "places": [
       {
         "place_name": {
-          "text": "",
-          "ref": []
+          "text": "Los Angeles",
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
         },
         "coordinates": {
-          "lat": "",
-          "lng": ""
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "hhttps://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
         }
       }
     ],
-    "lang": [],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
-    },
+    "lang": [
+      "eng"
+    ],
     "relations": [
       {
-        "relation_type": "parent", // here I would add cooperation as a possible category next to parent/child/sibling
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
+        "relation_type": "sibling",
         "type": "project",
-        "title": "",
-        "ref": [],
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
+        "title": "Mesopotamian Royal Inscriptions",
+        "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
       },
       {
-        "relation_type": "parent",
+        "relation_type": "sibling",
         "type": "project",
-        "title": "",
-        "uuid": ""
+        "title": "Nimrud NW Palace",
+        "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "uuid": ""
+        "relation_type": "sibling",
+        "type": "project",
+        "title": "Mesopotamian Seals",
+        "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "",
-          "ref": []
+          "text": "Tinney, Stephen J.",
+          "ref": ["http://viaf.org/viaf/18932290"]
         },
         "role": 0,
-        "websites": []
+        "websites": [
+          "https://www.ling.upenn.edu/people/tinney"
+        ]
       }
     ],
     "research_data": {
-      "sustainability_plan": true, // could be added also to policies, but I found it easer here
-      "lang": [],
+      "lang": [
+        "akk",
+        "arc",
+        "elx",
+        "hit",
+        "peo",
+        "sux",
+        "syr",
+        "uga",
+        "xeb",
+        "xur"
+      ],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -153,7 +158,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -179,7 +186,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -204,18 +213,31 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
-          "label": "mallet", // this could be added to the "tools" tab
+          "label": "mallet",
           "self_developed": false,
           "ref": [],
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -223,13 +245,14 @@
         "ref": []
       }
     ],
-    "keywords": {
-      "lang": [],
-      "discipline": [],
-      "resources": [],
-      "tools_and_services": [],
-      "topics": []
-    },
+    "keywords": [
+      "annotation",
+      "corpus",
+      "corpus_linguistics",
+      "historical_language",
+      "history_studies",
+      "pos_tagging"
+    ],
     "comment": ""
   }
 }
