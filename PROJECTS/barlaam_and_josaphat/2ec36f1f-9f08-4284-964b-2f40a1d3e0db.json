@@ -80,7 +80,7 @@
           ]
         },
         "websites": [
-            "https://www.bbaw.de/en/"
+          "https://www.bbaw.de/en/"
         ],
         "places": [
           {
@@ -126,7 +126,7 @@
       "lang": [
         "ara"
       ],
-      "sustainability_plan": true,
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0,
