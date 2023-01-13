@@ -111,6 +111,7 @@
       }
     ],
     "research_data": {
+      "sustainability_plan": true,
       "lang": [
         "atz",
         "cmn",

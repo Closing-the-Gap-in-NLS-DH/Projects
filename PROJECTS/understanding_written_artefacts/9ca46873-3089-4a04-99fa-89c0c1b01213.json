@@ -256,6 +256,7 @@
       }
     ],
     "research_data": {
+      "sustainability_plan": true,
       "lang": [
         "ara",
         "eri",
