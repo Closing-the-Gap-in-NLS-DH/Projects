@@ -1,6 +1,6 @@
 name: Project Validation
 
-on: 
+on:
   pull_request:
     branches:
       - master

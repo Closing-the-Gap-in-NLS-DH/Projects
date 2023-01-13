@@ -32,9 +32,7 @@
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -44,9 +42,7 @@
       {
         "place_name": {
           "text": "Hamadan",
-          "ref": [
-            "https://www.geonames.org/132144/hamadan.html"
-          ]
+          "ref": ["https://www.geonames.org/132144/hamadan.html"]
         },
         "coordinates": {
           "lat": "34.79922",
@@ -54,9 +50,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "relations": [
       {
         "relation_type": "parent",
@@ -68,16 +62,12 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ],
+        "websites": ["https://www.uni-bamberg.de/"],
         "places": [
           {
             "place_name": {
               "text": "Bamberg",
-              "ref": [
-                "https://www.geonames.org/2952984/bamberg.html"
-              ]
+              "ref": ["https://www.geonames.org/2952984/bamberg.html"]
             }
           }
         ],
@@ -93,16 +83,12 @@
             "https://ror.org/04ka8rx28"
           ]
         },
-        "websites": [
-          "http://www.basu.ac.ir/"
-        ],
+        "websites": ["http://www.basu.ac.ir/"],
         "places": [
           {
             "place_name": {
               "text": "Hamadan",
-              "ref": [
-                "https://www.geonames.org/132144/hamadan.html"
-              ]
+              "ref": ["https://www.geonames.org/132144/hamadan.html"]
             }
           }
         ],
@@ -137,9 +123,7 @@
       {
         "pers_name": {
           "text": "Haig, Geoffrey",
-          "ref": [
-            "https://d-nb.info/gnd/1016008090"
-          ]
+          "ref": ["https://d-nb.info/gnd/1016008090"]
         },
         "role": 0,
         "websites": [
@@ -149,21 +133,14 @@
       {
         "pers_name": {
           "text": "Rasekh Mahand, Mohammad",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"]
         },
         "role": 0,
-        "websites": [
-          "https://basu.ac.ir/en/~rasekh"
-        ]
+        "websites": ["https://basu.ac.ir/en/~rasekh"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ira",
-        "per"
-      ],
+      "lang": ["ira", "per"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -171,18 +148,14 @@
           "closed": 100.0,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -208,9 +181,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -236,9 +207,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -263,18 +232,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -283,11 +243,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -295,10 +251,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "language_documentation",
-      "linguistics"
-    ],
+    "keywords": ["language_documentation", "linguistics"],
     "comment": ""
   }
 }

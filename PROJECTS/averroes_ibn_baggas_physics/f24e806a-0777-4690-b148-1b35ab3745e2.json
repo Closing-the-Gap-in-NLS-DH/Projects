@@ -22,17 +22,13 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://averroes.uni-koeln.de/edition/current-editions/"
-    ],
+    "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
     "project_desc": "Ibn Bāǧǧa’s commentaries provide an exposition of the content of Aristotle’s “Physics,” which is partly incomplete. They also had a decisive impact on Averroes’s commentaries on the same work. The project’s objective is a critical edition of Ibn Bāǧǧa’s commentaries, the study of their genesis and structure as well as their first ever presentation in form of a complete and reliable text.",
     "places": [
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -40,9 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "relations": [
       {
         "relation_type": "parent",
@@ -73,20 +67,14 @@
       {
         "pers_name": {
           "text": "Cherif Zahar, Farah",
-          "ref": [
-            "http://viaf.org/viaf/209127583"
-          ]
+          "ref": ["http://viaf.org/viaf/209127583"]
         },
         "role": 1,
-        "websites": [
-          "https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"
-        ]
+        "websites": ["https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -94,18 +82,14 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -131,9 +115,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -159,9 +141,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -186,18 +166,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -206,11 +177,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -218,11 +185,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "manuscripts",
-      "philosophy"
-    ],
+    "keywords": ["digital_edition", "manuscripts", "philosophy"],
     "comment": ""
   }
 }

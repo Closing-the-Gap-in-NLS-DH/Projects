@@ -31,9 +31,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -41,9 +39,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "relations": [
       {
         "relation_type": "parent",
@@ -55,16 +51,12 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
-        ],
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
+              "ref": ["https://www.geonames.org/2761369/vienna.html"]
             }
           }
         ],
@@ -80,16 +72,12 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": [
-          "https://www.univie.ac.at/en/"
-        ],
+        "websites": ["https://www.univie.ac.at/en/"],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
+              "ref": ["https://www.geonames.org/2761369/vienna.html"]
             }
           }
         ],
@@ -136,9 +124,7 @@
       {
         "pers_name": {
           "text": "Mörth, Karlheinz",
-          "ref": [
-            "http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
-          ]
+          "ref": ["http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."]
         },
         "role": 0,
         "websites": [
@@ -147,9 +133,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -157,18 +141,14 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -194,9 +174,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -222,9 +200,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -249,18 +225,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -269,11 +236,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -281,11 +244,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "dialectology",
-      "language_documentation",
-      "linguistics"
-    ],
+    "keywords": ["dialectology", "language_documentation", "linguistics"],
     "comment": ""
   }
 }

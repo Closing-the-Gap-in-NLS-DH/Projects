@@ -36,7 +36,7 @@
         }
       }
     ],
-    "lang": [],   
+    "lang": [],
     "relations": [
       {
         "relation_type": "parent",
@@ -98,7 +98,7 @@
         "websites": []
       }
     ],
-    "research_data": {      
+    "research_data": {
       "lang": [],
       "sustainability_plan": true,
       "publications": {

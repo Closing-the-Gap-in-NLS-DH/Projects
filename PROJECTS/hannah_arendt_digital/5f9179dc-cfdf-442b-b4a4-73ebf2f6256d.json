@@ -35,9 +35,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "http://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["http://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -45,10 +43,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "relations": [
       {
         "relation_type": "parent",
@@ -60,16 +55,12 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ],
+        "websites": ["https://www.fu-berlin.de/"],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
+              "ref": ["http://www.geonames.org/2950159/berlin.html"]
             }
           }
         ],
@@ -80,9 +71,7 @@
       {
         "pers_name": {
           "text": "Hahn, Barbara",
-          "ref": [
-            "https://d-nb.info/gnd/115655271"
-          ]
+          "ref": ["https://d-nb.info/gnd/115655271"]
         },
         "role": 0,
         "websites": [
@@ -101,12 +90,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "eng",
-        "fre",
-        "ger",
-        "yid"
-      ],
+      "lang": ["eng", "fre", "ger", "yid"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -114,18 +98,14 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -151,9 +131,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -179,9 +157,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -206,18 +182,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -226,11 +193,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -238,10 +201,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "literary_studies"
-    ],
+    "keywords": ["digital_edition", "literary_studies"],
     "comment": "Long-term project"
   }
 }
