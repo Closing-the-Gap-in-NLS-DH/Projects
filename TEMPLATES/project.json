@@ -36,14 +36,7 @@
         }
       }
     ],
-    "lang": [],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
-    },
+    "lang": [],   
     "relations": [
       {
         "relation_type": "parent",
