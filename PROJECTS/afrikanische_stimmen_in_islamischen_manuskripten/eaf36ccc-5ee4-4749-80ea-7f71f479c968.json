@@ -152,11 +152,11 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "mku",
         "snk"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

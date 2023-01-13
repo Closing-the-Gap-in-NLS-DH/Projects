@@ -101,13 +101,13 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "eng",
         "fre",
         "ger",
         "yid"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

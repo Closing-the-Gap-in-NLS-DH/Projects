@@ -123,10 +123,10 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "arc"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

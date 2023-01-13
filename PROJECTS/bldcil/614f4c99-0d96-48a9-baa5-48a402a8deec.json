@@ -109,7 +109,6 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "bqi",
         "ira",
@@ -119,6 +118,7 @@
         "tks",
         "zum"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0.0,

@@ -92,7 +92,6 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "amh",
         "ara",
@@ -110,6 +109,7 @@
         "sla",
         "syr"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

@@ -96,7 +96,6 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "efi",
@@ -108,6 +107,7 @@
         "yid",
         "yor"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 100,

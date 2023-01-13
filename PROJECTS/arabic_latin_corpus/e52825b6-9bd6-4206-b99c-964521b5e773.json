@@ -91,11 +91,11 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "lat"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

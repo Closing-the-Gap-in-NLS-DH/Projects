@@ -78,11 +78,11 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "akk",
         "sux"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

@@ -187,12 +187,12 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "heb",
         "syr"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

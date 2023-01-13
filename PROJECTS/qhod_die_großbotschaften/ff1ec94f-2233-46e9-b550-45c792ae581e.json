@@ -97,11 +97,11 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ger",
         "tur"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

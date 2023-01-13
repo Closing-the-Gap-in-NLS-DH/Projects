@@ -174,13 +174,13 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "eng",
         "fre",
         "ger"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

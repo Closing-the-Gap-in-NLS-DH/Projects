@@ -160,12 +160,12 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "arc",
         "gre",
         "heb"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

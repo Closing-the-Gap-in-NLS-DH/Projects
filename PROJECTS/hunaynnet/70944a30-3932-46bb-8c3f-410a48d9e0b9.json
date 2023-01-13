@@ -88,12 +88,12 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "gre",
         "syr"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

@@ -106,7 +106,6 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "cop",
@@ -117,6 +116,7 @@
         "tam",
         "tib"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

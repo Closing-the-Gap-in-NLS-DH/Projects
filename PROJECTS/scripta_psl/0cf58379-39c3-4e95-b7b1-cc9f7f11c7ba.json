@@ -90,7 +90,6 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "akk",
         "ara",
@@ -106,6 +105,7 @@
         "syr",
         "tur"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

@@ -112,11 +112,11 @@
       }
     ],
     "research_data": {
-      "sustainability_plan": true,
       "lang": [
         "ara",
         "per"
       ],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,
