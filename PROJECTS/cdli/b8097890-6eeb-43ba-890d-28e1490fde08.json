@@ -176,16 +176,16 @@
         "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
       },
       {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Machine Translation and Automated Analysis of Cuneiform Language",
-        "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
-      },
-      {
         "relation_type": "child",
         "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "d95ef708-8f9e-407f-9317-1da43fea7541"
+      },
+      {
+        "relation_type": "cooperation",
+        "type": "project",
+        "title": "Machine Translation and Automated Analysis of Cuneiform Language",
+        "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
       }
     ],
     "contacts": [
