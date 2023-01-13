@@ -90,12 +90,6 @@
         "relation_type": "sibling",
         "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
-        "uuid": "d95ef708-8f9e-407f-9317-1da43fea7541"
-      },
-      {
-        "relation_type": "sibling",
-        "type": "project",
-        "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
       }
     ],
