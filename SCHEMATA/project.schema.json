@@ -166,6 +166,10 @@
                 "pattern": "^\\w{1,3}$"
               }
             },
+            "sustainability_plan": {
+              "description": "Is there a plan to ensure the sustainability and reusability of research data and project´s outcome? ",
+              "type": ["boolean", "null"]
+            },
             "publications": {
               "description": "Information on access and licensing of publications",
               "type": "object",
