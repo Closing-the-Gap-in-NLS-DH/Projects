@@ -61,13 +61,6 @@
       }
     ],
     "lang": ["eng", "ger", "tur"],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -144,6 +137,7 @@
     ],
     "research_data": {
       "lang": ["ara", "tur"],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0.0,

@@ -37,13 +37,6 @@
       }
     ],
     "lang": [],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": true,
-      "rdm": true,
-      "infrastructure": true
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -107,6 +100,7 @@
     ],
     "research_data": {
       "lang": [],
+      "sustainability_plan": true,
       "publications": {
         "access": {
           "open": 0,

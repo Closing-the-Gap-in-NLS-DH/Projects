@@ -39,13 +39,6 @@
         }
       }
     ],
-    "topic_relations": {
-      "dh": true,
-      "nls": true,
-      "rdm": false,
-      "infrastructure": false,
-      "meta": false
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -90,6 +83,7 @@
     ],
     "research_data": {
       "lang": ["ara", "efi", "eng", "kan", "ota", "que", "tir", "yid", "yor"],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 100,

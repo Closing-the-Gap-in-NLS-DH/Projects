@@ -58,7 +58,6 @@
         "type",
         "lang",
         "project_desc",
-        "topic_relations",
         "research_data",
         "keywords"
       ],
@@ -117,33 +116,6 @@
             "pattern": "^\\w{1,3}$"
           }
         },
-        "topic_relations": {
-          "description": "Information on the project’s relation to relevant topics. Possible values: (null|false|true)",
-          "type": "object",
-          "required": ["nls", "dh", "rdm", "infrastructure", "meta"],
-          "properties": {
-            "nls": {
-              "description": "Is the project related to Non-Latin Script?",
-              "type": ["boolean", "null"]
-            },
-            "dh": {
-              "description": "Is the project related to Digital Humanities in general?",
-              "type": ["boolean", "null"]
-            },
-            "meta": {
-              "description": "Is the project a meta project?",
-              "type": ["boolean", "null"]
-            },
-            "rdm": {
-              "description": "Is the project related to Research Data Management?",
-              "type": ["boolean", "null"]
-            },
-            "infrastructure": {
-              "description": "Is the project related to building and maintaining infrastructure?",
-              "type": ["boolean", "null"]
-            }
-          }
-        },
         "relations": {
           "description": "Entities that are related to the project",
           "$ref": "#/definitions/relatives"
@@ -193,6 +165,10 @@
                 "type": "string",
                 "pattern": "^\\w{1,3}$"
               }
+            },
+            "sustainability_plan": {
+              "description": "Is there a plan to ensure the sustainability and reusability of research data and project´s outcome? ",
+              "type": ["boolean", "null"]
             },
             "publications": {
               "description": "Information on access and licensing of publications",
@@ -505,7 +481,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -528,6 +504,9 @@
               },
               "children": {
                 "$ref": "#/definitions/relatives"
+              },
+              "cooperation": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
@@ -538,7 +517,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -564,6 +543,9 @@
               },
               "children": {
                 "$ref": "#/definitions/relatives"
+              },
+              "cooperation": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
@@ -574,7 +556,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -595,7 +577,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",

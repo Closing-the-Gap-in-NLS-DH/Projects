@@ -41,13 +41,6 @@
       }
     ],
     "lang": ["ara"],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -103,6 +96,7 @@
     ],
     "research_data": {
       "lang": ["ara"],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0,

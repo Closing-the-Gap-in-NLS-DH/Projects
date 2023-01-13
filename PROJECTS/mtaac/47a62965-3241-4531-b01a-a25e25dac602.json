@@ -60,13 +60,6 @@
       }
     ],
     "lang": ["eng"],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -132,7 +125,7 @@
         "relations": []
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
@@ -152,6 +145,7 @@
     ],
     "research_data": {
       "lang": ["akk", "sux"],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0,

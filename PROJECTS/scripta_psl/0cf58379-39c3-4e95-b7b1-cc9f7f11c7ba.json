@@ -37,13 +37,6 @@
       }
     ],
     "lang": [],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
-    },
     "relations": [
       {
         "relation_type": "parent",
@@ -99,6 +92,7 @@
         "syr",
         "tur"
       ],
+      "sustainability_plan": null,
       "publications": {
         "access": {
           "open": 0,
