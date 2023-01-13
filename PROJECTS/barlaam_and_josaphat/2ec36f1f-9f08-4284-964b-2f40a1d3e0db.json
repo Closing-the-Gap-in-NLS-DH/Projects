@@ -70,8 +70,8 @@
         "relations": []
       },
       {
-        "relation_type": "parent",
-        "type": "cooperation",
+        "relation_type": "cooperation",
+        "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
