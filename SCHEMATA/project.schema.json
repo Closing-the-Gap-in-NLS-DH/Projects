@@ -481,7 +481,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -504,6 +504,9 @@
               },
               "children": {
                 "$ref": "#/definitions/relatives"
+              },
+              "cooperation": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
@@ -514,7 +517,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -540,6 +543,9 @@
               },
               "children": {
                 "$ref": "#/definitions/relatives"
+              },
+              "cooperation": {
+                "$ref": "#/definitions/relatives"
               }
             }
           },
@@ -550,7 +556,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
@@ -571,7 +577,7 @@
             "properties": {
               "relation_type": {
                 "type": "string",
-                "enum": ["parent", "sibling", "child"]
+                "enum": ["parent", "sibling", "child", "cooperation"]
               },
               "type": {
                 "type": "string",
