@@ -26,13 +26,17 @@
         "to": "2028"
       }
     ],
-    "websites": ["https://dohadictionary.org/"],
+    "websites": [
+      "https://dohadictionary.org/"
+    ],
     "project_desc": "This project aims to create a historical dictionary of Arabic language. The entries will follow changes in usage and meaning of each word from its first documented record until approximately 200 years AH / 820 AD (first phase of the project).",
     "places": [
       {
         "place_name": {
           "text": "Doha",
-          "ref": ["https://www.geonames.org/290030/doha.html"]
+          "ref": [
+            "https://www.geonames.org/290030/doha.html"
+          ]
         },
         "coordinates": {
           "lat": "25.28545",
@@ -40,28 +44,29 @@
         }
       }
     ],
-    "lang": ["ara"],
-    "topic_relations": {
-      "nls": true,
-      "dh": true,
-      "meta": false,
-      "rdm": false,
-      "infrastructure": false
-    },
+    "lang": [
+      "ara"
+    ],
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Arab Center for Research and Policy Studies",
-          "ref": ["https://www.wikidata.org/wiki/Q12192828"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q12192828"
+          ]
         },
-        "websites": ["https://www.dohainstitute.edu.qa/en/pages/default.aspx"],
+        "websites": [
+          "https://www.dohainstitute.edu.qa/en/pages/default.aspx"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Doha",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
             }
           }
         ],
@@ -77,12 +82,16 @@
             "https://www.wikidata.org/wiki/Q23418976"
           ]
         },
-        "websites": ["https://www.dohainstitute.org/en/Pages/index.aspx"],
+        "websites": [
+          "https://www.dohainstitute.org/en/Pages/index.aspx"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Doha",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
+              "ref": [
+                "https://www.geonames.org/2643743/london.html"
+              ]
             }
           }
         ],
@@ -93,7 +102,9 @@
       {
         "pers_name": {
           "text": "Baalbaki, Ramzi",
-          "ref": ["https://www.wikidata.org/wiki/Q19664932"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q19664932"
+          ]
         },
         "role": 0,
         "websites": [
@@ -102,21 +113,27 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "publications": {
         "access": {
           "open": 0,
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -142,7 +159,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -168,7 +187,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -193,9 +214,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -204,7 +234,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -212,7 +246,11 @@
         "ref": []
       }
     ],
-    "keywords": ["dictionary", "historical_language", "lexicography"],
+    "keywords": [
+      "dictionary",
+      "historical_language",
+      "lexicography"
+    ],
     "comment": ""
   }
 }
