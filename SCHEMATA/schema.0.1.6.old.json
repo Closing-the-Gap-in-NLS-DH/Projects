@@ -1,0 +1,617 @@
+{
+    "$id": "http://github.com/Closing-the-Gap-in-NLS-DH/Projects/SCHEMATA/project.schema.json#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Project",
+    "description": "Project that in some way deals with either Digital Humanities, Research Data Management, Non-Latin Script or Infrastructure",
+    "type": "object",
+    "required": ["schema_version", "record_metadata", "project"],
+    "properties": {
+      "schema_version": {
+        "description": "Version of the used JSON schema",
+        "type": "string",
+        "default": "0.1.5"
+      },
+      "record_metadata": {
+        "description": "Metadata of the record file",
+        "type": "object",
+        "required": ["uuid", "record_created_on", "record_created_by"],
+        "properties": {
+          "uuid": {
+            "description": "Universally Unique Identifier for the project",
+            "type": "string"
+          },
+          "record_created_on": {
+            "description": "Creation date of the record: YYYY-MM-DD",
+            "type": "string",
+            "default": "\\d{4}-\\d{2}-\\d{2}"
+          },
+          "record_created_by": {
+            "description": "Name of the record’s creator",
+            "type": "string"
+          },
+          "record_modified": {
+            "description": "List of editors",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["record_modified_on", "record_modified_by"],
+              "properties": {
+                "record_modified_on": {
+                  "description": "Modification date of the record: YYYY-MM-DD",
+                  "type": "string",
+                  "default": "\\d{4}-\\d{2}-\\d{2}"
+                },
+                "record_modified_by": {
+                  "description": "Name of the editor",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "project": {
+        "description": "Object for project information",
+        "type": "object",
+        "required": [
+          "title",
+          "type",
+          "lang",
+          "project_desc",
+          "topic_relations",
+          "research_data",
+          "keywords"
+        ],
+        "properties": {
+          "title": {
+            "description": "Official title of the project",
+            "type": "string"
+          },
+          "abbr": {
+            "description": "Optional: Abbreviation of the project title",
+            "type": "string"
+          },
+          "type": {
+            "description": "Type of the project: (organisation|project)",
+            "type": "string",
+            "enum": ["organisation", "project"]
+          },
+          "ref": {
+            "description": "List of Authority file URIs: http(s)://...",
+            "$ref": "#/definitions/uri"
+          },
+          "date": {
+            "description": "List of active terms: YYYY-MM-DD",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "from": {
+                  "type": "string",
+                  "default": "\\d{4}(-\\d{2})?(-\\d{2})?"
+                },
+                "to": {
+                  "type": "string",
+                  "default": "\\d{4}(-\\d{2})?(-\\d{2})?"
+                }
+              }
+            }
+          },
+          "websites": {
+            "description": "List of project websites: http(s)://...",
+            "$ref": "#/definitions/uri"
+          },
+          "project_desc": {
+            "description": "Short description of the project",
+            "type": "string"
+          },
+          "places": {
+            "description": "Location(s) of the project",
+            "$ref": "#/definitions/places"
+          },
+          "lang": {
+            "description": "List of languages used in the project’s presentation (website, flyer, ...) in ISO-639-2",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^\\w{1,3}$"
+            }
+          },
+          "topic_relations": {
+            "description": "Information on the project’s relation to relevant topics. Possible values: (null|false|true)",
+            "type": "object",
+            "required": ["nls", "dh", "rdm", "infrastructure", "meta"],
+            "properties": {
+              "nls": {
+                "description": "Is the project related to Non-Latin Script?",
+                "type": ["boolean", "null"]
+              },
+              "dh": {
+                "description": "Is the project related to Digital Humanities in general?",
+                "type": ["boolean", "null"]
+              },
+              "meta": {
+                "description": "Is the project a meta project?",
+                "type": ["boolean", "null"]
+              },
+              "rdm": {
+                "description": "Is the project related to Research Data Management?",
+                "type": ["boolean", "null"]
+              },
+              "infrastructure": {
+                "description": "Is the project related to building and maintaining infrastructure?",
+                "type": ["boolean", "null"]
+              }
+            }
+          },
+          "relations": {
+            "description": "Entities that are related to the project",
+            "$ref": "#/definitions/relatives"
+          },
+          "contacts": {
+            "description": "Main contact(s) of the project",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["pers_name", "role"],
+              "properties": {
+                "pers_name": {
+                  "type": "object",
+                  "required": ["text"],
+                  "properties": {
+                    "text": {
+                      "description": "Name of the contact",
+                      "type": "string"
+                    },
+                    "ref": {
+                      "description": "List of Authority file URIs",
+                      "$ref": "#/definitions/uri"
+                    }
+                  }
+                },
+                "role": {
+                  "description": "Role of the contact: (0 = Management|1 = Employee|2 = Student Employee|3 = Contractor or Honorar Staff)",
+                  "type": "integer",
+                  "enum": [0, 1, 2, 3]
+                },
+                "websites": {
+                  "description": "List of institutional and/or personal websites: http(s)://...",
+                  "$ref": "#/definitions/uri"
+                }
+              }
+            }
+          },
+          "research_data": {
+            "description": "Information on the research data of the project",
+            "type": "object",
+            "required": ["lang"],
+            "properties": {
+              "lang": {
+                "description": "List of languages of the research data in ISO-639-2",
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^\\w{1,3}$"
+                }
+              },              
+              "publications": {
+                "description": "Information on access and licensing of publications",
+                "type": "object",
+                "required": ["access", "licensing"],
+                "properties": {
+                  "access": {
+                    "description": "Percentage of publications that are available open access, closed access or else",
+                    "$ref": "#/definitions/access"
+                  },
+                  "licensing": {
+                    "type": "array",
+                    "description": "List of licenses that are applied to publications"
+                  }
+                }
+              },
+              "data": {
+                "description": "Information on research data",
+                "type": "object",
+                "required": ["raw", "refined", "final"],
+                "properties": {
+                  "raw": {
+                    "type": "object",
+                    "description": "Information on raw research data",
+                    "$ref": "#/definitions/data"
+                  },
+                  "refined": {
+                    "type": "object",
+                    "description": "Information on refined research data",
+                    "$ref": "#/definitions/data"
+                  },
+                  "final": {
+                    "type": "object",
+                    "description": "Information on final and publication-ready research data",
+                    "$ref": "#/definitions/data"
+                  }
+                }
+              }
+            }
+          },
+          "policies": {
+            "type": "array",
+            "description": "Information on policies (RDP, RDM, OA, ...) applicable to the project and its publications and data",
+            "items": {
+              "type": "object",
+              "required": ["description", "ref"],
+              "properties": {
+                "description": {
+                  "type": "string",
+                  "description": "Description of the policy, i.e. “Research Data Policy”"
+                },
+                "ref": {
+                  "type": "array",
+                  "description": "Refs or URLs to the policy",
+                  "$ref": "#/definitions/uri"
+                }
+              }
+            }
+          },
+          "stack": {
+            "type": "object",
+            "description": "Information on the stack used by the project",
+            "properties": {
+              "database": {
+                "type": "array",
+                "description": "List of database systems in use",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "backend": {
+                "type": "array",
+                "description": "List of backend technologies in use",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "frontend": {
+                "type": "array",
+                "description": "List of frontend technologies in use",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "languages": {
+                "type": "array",
+                "description": "List of programming, script and descriptive languages in use",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "tools": {
+                "type": "array",
+                "description": "List of tools that are used by the project",
+                "items": {
+                  "type": "object",
+                  "required": ["label", "self_developed", "ref"],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "description": "Name of the tool"
+                    },
+                    "self_developed": {
+                      "type": "boolean",
+                      "description": "Is the tool developed by the project itself?"
+                    },
+                    "ref": {
+                      "type": "array",
+                      "description": "Refs and URLs to the tool and codebase",
+                      "$ref": "#/definitions/uri"
+                    },
+                    "purpose": {
+                      "type": "string",
+                      "description": "Description of the purpose in the context of the project"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "keywords": {
+            "description": "List of keywords to describe the project, including all relevant languages in ISO-639-2",
+            "type": "array",
+            "items": {
+              "description": "Stick to lowercase, avoid whitespace or use lowerdash (_) instead of whitespace when needed",
+              "type": "string",
+              "pattern": "^(?!.*[A-Z -]).*"
+            }
+          },
+          "comment": {
+            "description": "Comment on the entry, the project or field for any information that doesn’t fit anywhere else",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "definitions": {
+      "data": {
+        "type": "object",
+        "required": ["datatypes", "repositories"],
+        "properties": {
+          "datatypes": {
+            "type": "array",
+            "description": "Array of different datatypes contained in the research data",
+            "items": {
+              "type": "object",
+              "required": ["label"],
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "description": "Label for the datatype"
+                },
+                "licensing": {
+                  "type": "array",
+                  "description": "List of licenses that are applied to the datatype"
+                },
+                "access": {
+                  "description": "Percentage of how much of this datatype is available open access, closed access or else",
+                  "$ref": "#/definitions/access"
+                }
+              }
+            }
+          },
+          "repositories": {
+            "type": "array",
+            "description": "Information on local or remote repositories",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "required": ["type", "accessibility", "description"],
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "local"
+                    },
+                    "accessibility": {
+                      "type": "string",
+                      "description": "Information on the accessibility of the repository. If open and local, please specify under description",
+                      "enum": ["restricted", "open"]
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Description of the repository, i.e. “folder-based storage”"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "required": ["type", "accessibility", "description"],
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "remote"
+                    },
+                    "accessibility": {
+                      "type": "string",
+                      "description": "Information on the accessibility of the repository. If open and local, please specify under description",
+                      "enum": ["restricted", "open"]
+                    },
+                    "ref": {
+                      "description": "Link(s) to the repository",
+                      "type": "array",
+                      "$ref": "#/definitions/uri"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Description for the repository, i.e. “github”"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "places": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["place_name"],
+          "properties": {
+            "place_name": {
+              "type": "object",
+              "required": ["text"],
+              "properties": {
+                "text": {
+                  "description": "Name of the place",
+                  "type": "string"
+                },
+                "ref": {
+                  "description": "List of Authority file URIs",
+                  "$ref": "#/definitions/uri"
+                }
+              }
+            },
+            "coordinates": {
+              "type": "object",
+              "required": ["lat", "lng"],
+              "properties": {
+                "lat": {
+                  "description": "Latitude of the place",
+                  "type": "string"
+                },
+                "lng": {
+                  "description": "Longitude of the place",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "org_name": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "ref": {
+            "$ref": "#/definitions/uri"
+          }
+        }
+      },
+      "uri": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "http(s?):\\/\\/"
+            },
+            {
+              "type": "string",
+              "maxLength": 0
+            }
+          ]
+        }
+      },
+      "access": {
+        "type": "object",
+        "required": ["open", "closed", "margin"],
+        "properties": {
+          "open": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "closed": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "margin": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      },
+      "relatives": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "description": "If the entity is an organisation without a uuid",
+              "type": "object",
+              "required": ["type", "org_name"],
+              "properties": {
+                "relation_type": {
+                  "type": "string",
+                  "enum": ["parent", "sibling", "child"]
+                },
+                "type": {
+                  "type": "string",
+                  "const": "organisation"
+                },
+                "org_name": {
+                  "$ref": "#/definitions/org_name"
+                },
+                "websites": {
+                  "$ref": "#/definitions/uri"
+                },
+                "places": {
+                  "$ref": "#/definitions/places"
+                },
+                "parents": {
+                  "$ref": "#/definitions/relatives"
+                },
+                "siblings": {
+                  "$ref": "#/definitions/relatives"
+                },
+                "children": {
+                  "$ref": "#/definitions/relatives"
+                }
+              }
+            },
+            {
+              "description": "If the entity is an project without a uuid",
+              "type": "object",
+              "required": ["type", "title"],
+              "properties": {
+                "relation_type": {
+                  "type": "string",
+                  "enum": ["parent", "sibling", "child"]
+                },
+                "type": {
+                  "type": "string",
+                  "const": "project"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "ref": {
+                  "$ref": "#/definitions/uri"
+                },
+                "websites": {
+                  "$ref": "#/definitions/uri"
+                },
+                "places": {
+                  "$ref": "#/definitions/places"
+                },
+                "parents": {
+                  "$ref": "#/definitions/relatives"
+                },
+                "siblings": {
+                  "$ref": "#/definitions/relatives"
+                },
+                "children": {
+                  "$ref": "#/definitions/relatives"
+                }
+              }
+            },
+            {
+              "description": "If the entity is a project with a uuid",
+              "type": "object",
+              "required": ["type", "title", "uuid"],
+              "properties": {
+                "relation_type": {
+                  "type": "string",
+                  "enum": ["parent", "sibling", "child"]
+                },
+                "type": {
+                  "type": "string",
+                  "const": "project"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "uuid": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "description": "If the entity is an organisation with a uuid",
+              "type": "object",
+              "required": ["type", "org_name", "uuid"],
+              "properties": {
+                "relation_type": {
+                  "type": "string",
+                  "enum": ["parent", "sibling", "child"]
+                },
+                "type": {
+                  "type": "string",
+                  "const": "organisation"
+                },
+                "org_name": {
+                  "$ref": "#/definitions/org_name"
+                },
+                "uuid": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
