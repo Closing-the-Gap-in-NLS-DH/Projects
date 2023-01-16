@@ -74,7 +74,7 @@
           {
             "place_name": {
               "text": "Würzburg ",
-              "ref": "https://www.geonames.org/2805615/wuerzburg.html"
+              "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
             }
           }
         ],
