@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b",
     "record_created_on": "2021-11-08",
@@ -22,13 +22,17 @@
         "to": "2041"
       }
     ],
-    "websites": ["https://averroes.uni-koeln.de/project/about/"],
+    "websites": [
+      "https://averroes.uni-koeln.de/project/about/"
+    ],
     "project_desc": "The project’s main goal is to generate a trilingual critical edition of all commentaries by Ibn Rušd (Averroes) on Aristotle’s Physics, which are the synthesis of the late antique and Arabic reception of Greek philosophy. Next to the Arabic commentaries the edition will also contain their Latin and Hebrew translations.",
     "places": [
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+          "ref": [
+            "https://www.geonames.org/2934246/duesseldorf.html"
+          ]
         },
         "coordinates": {
           "lat": "51.22172",
@@ -38,7 +42,9 @@
       {
         "place_name": {
           "text": "Köln",
-          "ref": ["https://www.geonames.org/2886242/koeln.html"]
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -46,7 +52,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -58,12 +67,16 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": ["https://thomasinstitut.uni-koeln.de/"],
+        "websites": [
+          "https://thomasinstitut.uni-koeln.de/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Köln",
-              "ref": ["https://www.geonames.org/2886242/koeln.html"]
+              "ref": [
+                "https://www.geonames.org/2886242/koeln.html"
+              ]
             }
           }
         ],
@@ -81,19 +94,25 @@
           {
             "place_name": {
               "text": "Cairo",
-              "ref": ["https://www.geonames.org/360630/cairo.html"]
+              "ref": [
+                "https://www.geonames.org/360630/cairo.html"
+              ]
             }
           },
           {
             "place_name": {
               "text": "Düsseldorf",
-              "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+              "ref": [
+                "https://www.geonames.org/2934246/duesseldorf.html"
+              ]
             }
           },
           {
             "place_name": {
               "text": "Jerusalem",
-              "ref": ["https://www.geonames.org/293198/jerusalem.html"]
+              "ref": [
+                "https://www.geonames.org/293198/jerusalem.html"
+              ]
             }
           }
         ],
@@ -105,12 +124,16 @@
               "text": "Academy of the Arabic Language",
               "ref": []
             },
-            "website": ["http://www.arabicacademy.org.eg/"],
+            "website": [
+              "http://www.arabicacademy.org.eg/"
+            ],
             "places": [
               {
                 "place_name": {
                   "text": "Cairo",
-                  "ref": ["https://www.geonames.org/360630/cairo.html"]
+                  "ref": [
+                    "https://www.geonames.org/360630/cairo.html"
+                  ]
                 }
               }
             ],
@@ -125,12 +148,16 @@
                 "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
               ]
             },
-            "website": ["https://www.awk.nrw.de/startseite.html"],
+            "website": [
+              "https://www.awk.nrw.de/startseite.html"
+            ],
             "places": [
               {
                 "place_name": {
                   "text": "Düsseldorf",
-                  "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+                  "ref": [
+                    "https://www.geonames.org/2934246/duesseldorf.html"
+                  ]
                 }
               }
             ],
@@ -141,14 +168,20 @@
             "type": "organisation",
             "org_name": {
               "text": "Israel Academy of Sciences and Humanities",
-              "ref": ["https://www.wikidata.org/wiki/Q209184"]
+              "ref": [
+                "https://www.wikidata.org/wiki/Q209184"
+              ]
             },
-            "website": ["https://www.academy.ac.il/english.aspx"],
+            "website": [
+              "https://www.academy.ac.il/english.aspx"
+            ],
             "places": [
               {
                 "place_name": {
                   "text": "Jerusalem",
-                  "ref": ["https://www.geonames.org/293198/jerusalem.html"]
+                  "ref": [
+                    "https://www.geonames.org/293198/jerusalem.html"
+                  ]
                 }
               }
             ],
@@ -194,7 +227,11 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "heb", "lat"],
+      "lang": [
+        "ara",
+        "heb",
+        "lat"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -202,14 +239,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -235,7 +276,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -261,7 +304,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -286,9 +331,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -297,7 +351,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -305,7 +363,11 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "philosophy"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "philosophy"
+    ],
     "comment": ""
   }
 }

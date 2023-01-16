@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.3",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "880f1d65-b815-4474-9fb4-b17f13bd3765",
     "record_created_on": "2021-11-01",
@@ -34,7 +34,9 @@
       {
         "place_name": {
           "text": "Coventry",
-          "ref": ["https://www.geonames.org/2652221/coventry.html"]
+          "ref": [
+            "https://www.geonames.org/2652221/coventry.html"
+          ]
         },
         "coordinates": {
           "lat": "52.40656",
@@ -42,7 +44,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -54,12 +58,16 @@
             "https://www.wikidata.org/wiki/Q865528"
           ]
         },
-        "websites": ["http://www2.warwick.ac.uk/"],
+        "websites": [
+          "http://www2.warwick.ac.uk/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Coventry",
-              "ref": ["https://www.geonames.org/2652221/coventry.html"]
+              "ref": [
+                "https://www.geonames.org/2652221/coventry.html"
+              ]
             }
           }
         ],
@@ -70,7 +78,9 @@
       {
         "pers_name": {
           "text": "Swain, Simon",
-          "ref": ["https://www.wikidata.org/wiki/Q55386758"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q55386758"
+          ]
         },
         "role": 0,
         "websites": [
@@ -80,7 +90,9 @@
       {
         "pers_name": {
           "text": "Vagelpohl, Uwe",
-          "ref": ["https://d-nb.info/gnd/1066384339"]
+          "ref": [
+            "https://d-nb.info/gnd/1066384339"
+          ]
         },
         "role": 1,
         "websites": [
@@ -89,7 +101,9 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -97,14 +111,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -130,7 +148,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -156,7 +176,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -181,9 +203,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -192,7 +223,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -200,7 +235,11 @@
         "ref": []
       }
     ],
-    "keywords": ["history_studies", "medicine", "repository"],
+    "keywords": [
+      "history_studies",
+      "medicine",
+      "repository"
+    ],
     "comment": ""
   }
 }

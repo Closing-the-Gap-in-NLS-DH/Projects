@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.6",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "e480a0fe-f152-11ec-8ea0-0242ac120002",
     "record_created_on": "2022-06-21",
@@ -15,14 +15,18 @@
     "title": "Documentation of Endangered Languages / Dokumentation Bedrohter Sprachen",
     "abbr": "DoBeS",
     "type": "project",
-    "ref": ["https://www.wikidata.org/wiki/Q28134351"],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q28134351"
+    ],
     "date": [
       {
         "from": "2000",
         "to": "2011"
       }
     ],
-    "websites": ["https://dobes.mpi.nl/"],
+    "websites": [
+      "https://dobes.mpi.nl/"
+    ],
     "project_desc": "DoBeS program was initiated in 2000 by the Volkswagen Foundation in order to document languages that are potentially in danger of becoming extinct within a few years’ time. It consisted of one archiving team and several documentation teams recording language data through fieldwork. Since the beginning of the pilot phase in 2000 the teams carried out 67 documentation projects collecting audio and video data in a close cooperation with the speech communities. The data are described with a set of standardized metadata categories and digitally archived according to open standards and made accessible. In addition, the archive has to take care of the long-term persistency of the digital material.",
     "places": [
       {
@@ -40,7 +44,9 @@
       {
         "place_name": {
           "text": "Nijmegen",
-          "ref": ["https://www.geonames.org/2750053/nijmegen.html"]
+          "ref": [
+            "https://www.geonames.org/2750053/nijmegen.html"
+          ]
         },
         "coordinates": {
           "lat": "51.8425",
@@ -48,14 +54,23 @@
         }
       }
     ],
-    "lang": ["eng", "fra", "ind", "spa", "por", "rus"],
+    "lang": [
+      "eng",
+      "fra",
+      "ind",
+      "spa",
+      "por",
+      "rus"
+    ],
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
           "text": "Volkswagen Stiftung",
-          "ref": ["https://www.wikidata.org/wiki/Q1766743"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1766743"
+          ]
         },
         "websites": [
           "https://www.volkswagenstiftung.de/",
@@ -84,10 +99,14 @@
       {
         "pers_name": {
           "text": "Austin, Peter",
-          "ref": ["https://d-nb.info/gnd/133996271"]
+          "ref": [
+            "https://d-nb.info/gnd/133996271"
+          ]
         },
         "role": 1,
-        "websites": ["https://www.soas.ac.uk/staff/staff30592.php"]
+        "websites": [
+          "https://www.soas.ac.uk/staff/staff30592.php"
+        ]
       }
     ],
     "research_data": {
@@ -99,14 +118,18 @@
           "closed": 100.0,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -132,7 +155,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -158,7 +183,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -183,9 +210,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -194,7 +230,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -202,7 +242,10 @@
         "ref": []
       }
     ],
-    "keywords": ["language_documentation", "linguistics"],
+    "keywords": [
+      "language_documentation",
+      "linguistics"
+    ],
     "comment": ""
   }
 }

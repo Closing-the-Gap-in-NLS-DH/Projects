@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.6",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "8682a8f5-b601-4a6c-808c-aa4b7ce8a7c4",
     "record_created_on": "2022-10-31",
@@ -31,7 +31,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -41,7 +43,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -49,7 +53,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -61,12 +67,16 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": ["https://www.univie.ac.at/en/"],
+        "websites": [
+          "https://www.univie.ac.at/en/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
             }
           }
         ],
@@ -86,7 +96,9 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -94,14 +106,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -127,7 +143,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -153,7 +171,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -178,9 +198,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -189,7 +218,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -197,7 +230,10 @@
         "ref": []
       }
     ],
-    "keywords": ["geography", "visualization"],
+    "keywords": [
+      "geography",
+      "visualization"
+    ],
     "comment": ""
   }
 }

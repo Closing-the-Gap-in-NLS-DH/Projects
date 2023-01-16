@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.6",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
     "record_created_on": "2022-09-01",
@@ -26,13 +26,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://algloss.de.dariah.eu/"],
+    "websites": [
+      "https://algloss.de.dariah.eu/"
+    ],
     "project_desc": "The Arabic and Latin Glossary is a dictionary of medieval Arabic–Latin translations and corresponds to the project “Arabic and Latin Corpus” in terms of examining the Arabic influence on medieval Europe.",
     "places": [
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": ["https://www.geonames.org/2805615"]
+          "ref": [
+            "https://www.geonames.org/2805615"
+          ]
         },
         "coordinates": {
           "lat": "49.79391",
@@ -51,12 +55,16 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite"],
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Würzburg",
-              "ref": ["https://www.geonames.org/2805615"]
+              "ref": [
+                "https://www.geonames.org/2805615"
+              ]
             }
           }
         ],
@@ -69,12 +77,16 @@
         "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "contacts": [
       {
         "pers_name": {
           "text": "Hasse, Dag Nikolaus",
-          "ref": ["https://d-nb.info/gnd/11800638X"]
+          "ref": [
+            "https://d-nb.info/gnd/11800638X"
+          ]
         },
         "role": 0,
         "websites": [
@@ -83,7 +95,10 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat"],
+      "lang": [
+        "ara",
+        "lat"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -91,14 +106,18 @@
           "closed": 0,
           "margin": 0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -124,7 +143,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -150,7 +171,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -175,9 +198,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -186,7 +218,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -194,7 +230,11 @@
         "ref": []
       }
     ],
-    "keywords": ["dictionary", "manuscripts", "translation"],
+    "keywords": [
+      "dictionary",
+      "manuscripts",
+      "translation"
+    ],
     "comment": ""
   }
 }
