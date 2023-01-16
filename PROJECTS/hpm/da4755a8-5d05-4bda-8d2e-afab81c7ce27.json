@@ -84,7 +84,7 @@
           {
             "place_name": {
               "text": "Mainz",
-              "ref": "https://www.geonames.org/2874225/mainz.html"
+              "ref": ["https://www.geonames.org/2874225/mainz.html"]
             }
           }
         ],
