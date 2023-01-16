@@ -186,6 +186,12 @@
         "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
+      },
+      {
+        "relation_type": "cooperation",
+        "type": "project",
+        "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+        "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c"
       }
     ],
     "contacts": [
