@@ -83,6 +83,7 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
 - dictionary
 - [digital_edition](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept42)
 - [editor](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept53)
+- [encyclopedia]
 - [entity_linking](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept48.06)
 - [gis](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept47)
 - [graph](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept51.01)

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.7.",
   "record_metadata": {
-    "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
-    "record_created_on": "2022-03-28",
+    "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27",
+    "record_created_on": "2023-16-01",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,75 +12,105 @@
     ]
   },
   "project": {
-    "title": "Qumran Digital: Text und Lexikon",
-    "abbr": "Qurman",
+    "title": "Hethitologie Portal Mainz",
+    "abbr": "HPM",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2021",
-        "to": "2033"
+        "from": "2001",
+        "to": "2007"
       }
     ],
-    "websites": [
-      "http://www.qwb.adw-goettingen.gwdg.de/index.html",
-      "https://gepris.dfg.de/gepris/projekt/465277421?context=projekt&task=showDetail&id=465277421&"
-    ],
-    "project_desc": "The main objective of this project it to elaborate a philological dictionary of a complete vocabulary the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and non-biblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD. The materials will be edited morphologically, etymologically and semantically and mad openly accessible for public.",
+    "websites": ["https://www.hethport.uni-wuerzburg.de/HPM/"],
+    "project_desc": "This concluded project is an infrastructure for digital publication of cuneiform documents. Its aim is to modernize and foster the development of hittitological research by building an openly accessible database for its founding and elaborating new standardized way of their documentation. Currently the HPM infrastructure hosts data of many external researchers and projects form the field of Hittitology.",
     "places": [
       {
         "place_name": {
-          "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "text": "Mainz",
+          "ref": ["https://www.geonames.org/2874225/mainz.html"]
         },
         "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
+          "lat": "49.98419",
+          "lng": "8.2791"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Würzburg ",
+          "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
+        },
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
         }
       }
     ],
-    "lang": ["ger"],
+    "lang": ["eng", "ger"],
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Akademie der Wissenschaften zu Göttingen",
+          "text": "Julius Maximilian University of Würzburg",
           "ref": [
-            "https://www.wikidata.org/wiki/Q414188",
-            "https://ror.org/04hsa7a08"
+            "https://ror.org/00fbnyb24",
+            "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://adw-goe.de"],
+        "websites": ["https://www.uni-wuerzburg.de/startseite/"],
         "places": [
           {
             "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+              "text": "Würzburg ",
+              "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
             }
           }
         ],
         "relations": []
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Akademie der Wissenschaften und der Literatur Mainz",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q414163",
+            "https://ror.org/01kdxra28"
+          ]
+        },
+        "websites": ["https://www.adwmainz.de/startseite.html"],
+        "places": [
+          {
+            "place_name": {
+              "text": "Mainz",
+              "ref": ["https://www.geonames.org/2874225/mainz.html"]
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "cooperation",
         "type": "project",
-        "title": "Scripta Qumranica Electronica",
-        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+        "title": "Cuneiform Digital Library Initiative",
+        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Kratz, Reinhard G.",
-          "ref": ["https://d-nb.info/gnd/115412700"]
+          "text": "Schwemer, Daniel",
+          "ref": ["https://d-nb.info/gnd/120374277"]
         },
         "role": 0,
-        "websites": ["https://www.uni-goettingen.de/de/56085.html"]
+        "websites": [
+          "https://www.phil.uni-wuerzburg.de/altorientalistik/team/schwemer/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "heb"],
+      "lang": ["hit"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -192,10 +222,11 @@
       }
     ],
     "keywords": [
-      "dictionary",
+      "corpus",
+      "digital_edition",
       "historical_language",
-      "lexicography",
-      "manuscripts"
+      "repository",
+      "research_infrastructure"
     ],
     "comment": ""
   }

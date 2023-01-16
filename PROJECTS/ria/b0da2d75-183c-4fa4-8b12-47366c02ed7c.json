@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.7.",
   "record_metadata": {
-    "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
-    "record_created_on": "2022-03-28",
+    "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c",
+    "record_created_on": "2023-01-16",
     "record_created_by": "Kudela, Xenia Monika",
     "record_modified": [
       {
@@ -12,75 +12,77 @@
     ]
   },
   "project": {
-    "title": "Qumran Digital: Text und Lexikon",
-    "abbr": "Qurman",
+    "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+    "abbr": "RIA",
     "type": "project",
-    "ref": [],
+    "ref": ["https://www.wikidata.org/wiki/Q1246462"],
     "date": [
       {
-        "from": "2021",
-        "to": "2033"
+        "from": "1928",
+        "to": "2018"
       }
     ],
     "websites": [
-      "http://www.qwb.adw-goettingen.gwdg.de/index.html",
-      "https://gepris.dfg.de/gepris/projekt/465277421?context=projekt&task=showDetail&id=465277421&"
+      "https://rla.badw.de/das-projekt.html",
+      "http://publikationen.badw.de/de/rla"
     ],
-    "project_desc": "The main objective of this project it to elaborate a philological dictionary of a complete vocabulary the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and non-biblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD. The materials will be edited morphologically, etymologically and semantically and mad openly accessible for public.",
+    "project_desc": "This project represents the most extensive publication in Ancient Near Eastern Studies, with its first fascicle published in 1928 and the last one in 2018. It is an encyclopedia whose entries cover names of locations, deities and kings, history, religion, literature, sciences, flora and fauna, material culture as well as art and architecture of the Ancient Near East. It is available as printed and digital edition, accessible either as PDF files or via an online List of Lemmata.",
     "places": [
       {
         "place_name": {
-          "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "text": "München",
+          "ref": ["http://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       }
     ],
-    "lang": ["ger"],
+    "lang": ["eng", "fre", "ger"],
     "relations": [
       {
         "relation_type": "parent",
         "type": "organisation",
         "org_name": {
-          "text": "Akademie der Wissenschaften zu Göttingen",
+          "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
-            "https://www.wikidata.org/wiki/Q414188",
-            "https://ror.org/04hsa7a08"
+            "https://www.wikidata.org/wiki/Q684415",
+            "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://adw-goe.de"],
+        "websites": ["https://badw.de/en/the-academy.html"],
         "places": [
           {
             "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+              "text": "München",
+              "ref": ["http://www.geonames.org/2867714/munich.html"]
             }
           }
         ],
         "relations": []
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "type": "project",
-        "title": "Scripta Qumranica Electronica",
-        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+        "title": "Cuneiform Digital Library Initiative",
+        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Kratz, Reinhard G.",
-          "ref": ["https://d-nb.info/gnd/115412700"]
+          "text": " Streck, Michael P.",
+          "ref": ["https://d-nb.info/gnd/130425893"]
         },
         "role": 0,
-        "websites": ["https://www.uni-goettingen.de/de/56085.html"]
+        "websites": [
+          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "heb"],
+      "lang": ["akk", "syr"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -192,10 +194,10 @@
       }
     ],
     "keywords": [
-      "dictionary",
-      "historical_language",
-      "lexicography",
-      "manuscripts"
+      "digital_edition",
+      "encyclopedia",
+      "history_studies",
+      "inscription"
     ],
     "comment": ""
   }

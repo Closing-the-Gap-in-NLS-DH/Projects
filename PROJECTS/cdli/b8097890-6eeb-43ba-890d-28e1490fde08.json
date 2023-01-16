@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.6",
+  "schema_version": "0.1.7.",
   "record_metadata": {
     "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
     "record_created_on": "2022-10-06",
@@ -162,6 +162,18 @@
         "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
+      },
+      {
+        "relation_type": "cooperation",
+        "type": "project",
+        "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+        "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c"
+      },
+      {
+        "relation_type": "cooperation",
+        "type": "project",
+        "title": "Hethitologie Portal Mainz",
+        "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27"
       }
     ],
     "contacts": [
