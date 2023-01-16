@@ -22,17 +22,13 @@
         "to": "2025"
       }
     ],
-    "websites": [
-      "https://github.com/dhakarat"
-    ],
+    "websites": ["https://github.com/dhakarat"],
     "project_desc": "The aim of this project is to achieve a broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning models, we will map the use, reuse, and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature.",
     "places": [
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -51,16 +47,12 @@
             "https://ror.org/03a1kwz48"
           ]
         },
-        "websites": [
-          "https://uni-tuebingen.de/en/university.html"
-        ],
+        "websites": ["https://uni-tuebingen.de/en/university.html"],
         "places": [
           {
             "place_name": {
               "text": "Tübingen",
-              "ref": [
-                "https://www.geonames.org/2820860/tuebingen.html"
-              ]
+              "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
             }
           }
         ],
@@ -73,16 +65,12 @@
         "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "contacts": [
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": [
-            "http://viaf.org/viaf/915438092813029053"
-          ]
+          "ref": ["http://viaf.org/viaf/915438092813029053"]
         },
         "role": 0,
         "websites": [
@@ -91,9 +79,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -101,9 +87,7 @@
           "closed": 0,
           "margin": 0
         },
-        "licensing": [
-          "GPL 3.0"
-        ]
+        "licensing": ["GPL 3.0"]
       },
       "data": {
         "raw": {
@@ -128,31 +112,20 @@
         {
           "label": "isnalyser",
           "self_developed": true,
-          "ref": [
-            "https://github.com/dhakarat/isnalyser"
-          ],
+          "ref": ["https://github.com/dhakarat/isnalyser"],
           "purpose": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         },
         {
           "label": "isnalyserjs",
           "self_developed": true,
-          "ref": [
-            "https://github.com/dhakarat/isnalyserjs"
-          ],
+          "ref": ["https://github.com/dhakarat/isnalyserjs"],
           "purpose": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
         }
       ],
-      "languages": [
-        "Python"
-      ]
+      "languages": ["Python"]
     },
     "policies": [],
-    "keywords": [
-      "entity_linking",
-      "hadith",
-      "religion_studies",
-      "software"
-    ],
+    "keywords": ["entity_linking", "hadith", "religion_studies", "software"],
     "comment": ""
   }
 }
