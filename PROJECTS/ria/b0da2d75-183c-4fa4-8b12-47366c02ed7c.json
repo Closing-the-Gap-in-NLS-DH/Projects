@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.7.",
+  "record_metadata": {
+    "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c",
+    "record_created_on": "2023-01-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+    "abbr": "RIA",
+    "type": "project",
+    "ref": [
+      "https://www.wikidata.org/wiki/Q1246462"
+    ],
+    "date": [
+      {
+        "from": "1928",
+        "to": "2018"
+      }
+    ],
+    "websites": [
+      "https://rla.badw.de/das-projekt.html",
+      "http://publikationen.badw.de/de/rla"
+    ],
+    "project_desc": "This project represents the most extensive publication in Ancient Near Eastern Studies, with its first fascicle published in 1928 and the last one in 2018. It is an encyclopedia whose entries cover names of locations, deities and kings, history, religion, literature, sciences, flora and fauna, material culture as well as art and architecture of the Ancient Near East. It is available as printed and digital edition, accessible either as PDF files or via an online List of Lemmata.",
+    "places": [
+      {
+        "place_name": {
+          "text": "München",
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "fre",
+      "ger"
+    ],
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Bayerische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q684415",
+            "https://ror.org/001rdaz60"
+          ]
+        },
+        "websites": [
+          "https://badw.de/en/the-academy.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "München",
+              "ref": [
+                "http://www.geonames.org/2867714/munich.html"
+              ]
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": " Streck, Michael P.",
+          "ref": [
+            "https://d-nb.info/gnd/130425893"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "syr"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "digital_edition",
+      "encyclopedia",
+      "history_studies",
+      "inscription"
+    ],
+    "comment": ""
+  }
+}
