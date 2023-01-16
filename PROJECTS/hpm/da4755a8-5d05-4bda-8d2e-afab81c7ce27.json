@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.7.",
+  "record_metadata": {
+    "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27",
+    "record_created_on": "2023-16-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "record_modified": [
+      {
+        "record_modified_on": "",
+        "record_modified_by": ""
+      }
+    ]
+  },
+  "project": {
+    "title": "Hethitologie Portal Mainz",
+    "abbr": "HPM",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2001",
+        "to": "2007"
+      }
+    ],
+    "websites": [
+      "https://www.hethport.uni-wuerzburg.de/HPM/"
+    ],
+    "project_desc": "This concluded project is an infrastructure for digital publication of cuneiform documents. Its aim is to modernize and foster the development of hittitological research by building an openly accessible database for its founding and elaborating new standardized way of their documentation. Currently the HPM infrastructure hosts data of many external researchers and projects form the field of Hittitology.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Mainz",
+          "ref": [
+            "https://www.geonames.org/2874225/mainz.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.98419",
+          "lng": "8.2791"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Würzburg ",
+          "ref": [
+            "https://www.geonames.org/2805615/wuerzburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ger"
+    ],
+    "relations": [
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Julius Maximilian University of Würzburg",
+          "ref": [
+            "https://ror.org/00fbnyb24",
+            "https://www.wikidata.org/wiki/Q161976"
+          ]
+        },
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite/"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Würzburg ",
+              "ref": "https://www.geonames.org/2805615/wuerzburg.html"
+            }
+          }
+        ],
+        "relations": []
+      },
+      {
+        "relation_type": "parent",
+        "type": "organisation",
+        "org_name": {
+          "text": "Akademie der Wissenschaften und der Literatur Mainz",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q414163",
+            "https://ror.org/01kdxra28"
+          ]
+        },
+        "websites": [
+          "https://www.adwmainz.de/startseite.html"
+        ],
+        "places": [
+          {
+            "place_name": {
+              "text": "Mainz",
+              "ref": "https://www.geonames.org/2874225/mainz.html"
+            }
+          }
+        ],
+        "relations": []
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Schwemer, Daniel",
+          "ref": [
+            "https://d-nb.info/gnd/120374277"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.phil.uni-wuerzburg.de/altorientalistik/team/schwemer/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "hit"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "access": {
+          "open": 0,
+          "closed": 100,
+          "margin": 0.0
+        },
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [
+                ""
+              ],
+              "access": {
+                "open": 0.0,
+                "closed": 100.0,
+                "margin": 0.0
+              }
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus",
+      "digital_edition",
+      "historical_language",
+      "repository",
+      "research_infrastructure"
+    ],
+    "comment": ""
+  }
+}
