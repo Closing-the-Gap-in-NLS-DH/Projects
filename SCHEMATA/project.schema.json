@@ -9,7 +9,7 @@
     "schema_version": {
       "description": "Version of the used JSON schema",
       "type": "string",
-      "default": "0.1.5"
+      "default": "0.1.7"
     },
     "record_metadata": {
       "description": "Metadata of the record file",
