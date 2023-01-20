@@ -32,13 +32,15 @@
       }
     ],
     "lang": [],
-    "host_institution":{
+    "host_institution":[
+      {
       "org_name": {
         "text": "",
         "ref": []
       },
       "websites": []
-    },
+      }
+    ],
     "relations": [      
       {
         "relation_type": "parent",
