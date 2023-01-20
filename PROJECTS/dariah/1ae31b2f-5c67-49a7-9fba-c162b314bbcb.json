@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
     "record_created_on": "2022-05-19",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
@@ -247,10 +242,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "French National Centre for Scientific Research",
           "ref": [
@@ -258,20 +251,9 @@
             "https://ror.org/0331qyx19"
           ]
         },
-        "websites": ["http://www.cnrs.fr/index.php"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": ["http://www.geonames.org/2988506/paris.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.cnrs.fr/index.php"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
           "ref": [
@@ -279,20 +261,9 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": ["http://www.unl.pt/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Lisbon",
-              "ref": ["https://www.geonames.org/2267057/lisbon.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.unl.pt/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National Research Council",
           "ref": [
@@ -300,20 +271,9 @@
             "https://ror.org/03bjn0010"
           ]
         },
-        "websites": ["https://www.cnr.it/it"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Rome",
-              "ref": ["https://www.geonames.org/3169070/rome.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.cnr.it/it"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University College Cork",
           "ref": [
@@ -321,20 +281,9 @@
             "https://www.wikidata.org/wiki/Q1574185"
           ]
         },
-        "websites": ["http://www.ucc.ie/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cork",
-              "ref": ["https://www.geonames.org/2965140/cork.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ucc.ie/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Luxembourg",
           "ref": [
@@ -342,20 +291,9 @@
             "https://ror.org/036x5ad56"
           ]
         },
-        "websites": ["http://wwwen.uni.lu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Luxembourg",
-              "ref": ["https://www.geonames.org/2960316/luxembourg.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://wwwen.uni.lu/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ghent University",
           "ref": [
@@ -363,20 +301,9 @@
             "https://ror.org/00cv9y106"
           ]
         },
-        "websites": ["https://www.ugent.be/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gent",
-              "ref": ["https://www.geonames.org/2797656/gent.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.ugent.be/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "International Institute of Social History",
           "ref": [
@@ -384,38 +311,16 @@
             "https://ror.org/05dq4pp56"
           ]
         },
-        "websites": ["https://socialhistory.org/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Amsterdam",
-              "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://socialhistory.org/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
           "ref": ["https://www.wikidata.org/wiki/Q564783"]
         },
-        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Danish Agency for Science and Higher Education",
           "ref": [
@@ -425,20 +330,9 @@
         },
         "websites": [
           "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Copenhagen",
-              "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Warsaw",
           "ref": [
@@ -446,20 +340,9 @@
             "https://ror.org/039bjqg32"
           ]
         },
-        "websites": ["http://en.uw.edu.pl/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Warsaw",
-              "ref": ["https://www.geonames.org/756135/warsaw.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://en.uw.edu.pl/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Charles University",
           "ref": [
@@ -467,20 +350,9 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": ["https://cuni.cz/UKEN-1.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Prague",
-              "ref": ["https://www.geonames.org/3067696/prague.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -488,20 +360,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute of Contemporary History",
           "ref": [
@@ -509,20 +370,9 @@
             "https://ror.org/008pp7a77"
           ]
         },
-        "websites": ["http://www.inz.si/index-en.php"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Ljubljana",
-              "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.inz.si/index-en.php"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute of Ethnology and Folklore Research",
           "ref": [
@@ -530,20 +380,9 @@
             "https://ror.org/04mpn1847"
           ]
         },
-        "websites": ["http://www.ief.hr/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Centar",
-              "ref": ["https://www.geonames.org/6618983/centar.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ief.hr/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Sarajevo",
           "ref": [
@@ -551,20 +390,9 @@
             "https://ror.org/02hhwgd43"
           ]
         },
-        "websites": ["http://www.unsa.ba/s/index.php"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Sarajevo",
-              "ref": ["https://www.geonames.org/3191281/sarajevo.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.unsa.ba/s/index.php"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Serbian Academy of Sciences and Arts",
           "ref": [
@@ -572,20 +400,9 @@
             "https://ror.org/02f2wk572"
           ]
         },
-        "websites": ["http://www.sanu.ac.rs/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Belgrade",
-              "ref": ["https://www.geonames.org/792680/belgrade.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.sanu.ac.rs/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sofia University",
           "ref": [
@@ -593,20 +410,9 @@
             "https://www.wikidata.org/wiki/Q841581"
           ]
         },
-        "websites": ["https://www.uni-sofia.bg/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Sofia",
-              "ref": ["https://www.geonames.org/727011/sofia.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-sofia.bg/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Academy of Athens",
           "ref": [
@@ -614,20 +420,9 @@
             "https://ror.org/00qsdn986"
           ]
         },
-        "websites": ["http://www.academyofathens.gr/echome.asp?lang=2"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Athens",
-              "ref": ["https://www.geonames.org/264371/athens.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.academyofathens.gr/echome.asp?lang=2"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
           "ref": [
@@ -635,35 +430,22 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": ["http://www.cut.ac.cy/?languageId=2"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Limassol",
-              "ref": ["https://www.geonames.org/146384/limassol.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["http://www.cut.ac.cy/?languageId=2"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "organisation",
-        "org_name": {
-          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
-          "ref": ["https://www.wikidata.org/wiki/Q55520740"]
-        },
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
         "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
         "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "DARIAH Reference Curriculum",
         "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
       }

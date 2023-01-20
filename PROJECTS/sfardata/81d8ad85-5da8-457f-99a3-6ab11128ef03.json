@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03",
     "record_created_on": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "SfarData",
@@ -50,10 +45,8 @@
       }
     ],
     "lang": ["eng", "heb"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Israel Academy of Sciences and Humanities",
           "ref": [
@@ -61,20 +54,9 @@
             "https://www.wikidata.org/wiki/Q209184"
           ]
         },
-        "websites": ["https://www.academy.ac.il/english.aspx"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": ["https://www.geonames.org/281184/jerusalem.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.academy.ac.il/english.aspx"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National Library of Israel",
           "ref": [
@@ -82,55 +64,17 @@
             "https://www.wikidata.org/wiki/Q188915"
           ]
         },
-        "websites": ["https://www.nli.org.il/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": ["https://www.geonames.org/281184/jerusalem.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.nli.org.il/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Universität Hamburg",
-              "ref": ["https://www.grid.ac/institutes/grid.9026.d"]
-            },
-            "website": ["http://www.uni-hamburg.de/"],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Hamburg",
-                  "ref": ["https://www.geonames.org/2911298/hamburg.html"]
-                }
-              }
-            ],
-            "relations": []
-          }
-        ]
+        "websites": ["https://www.csmc.uni-hamburg.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

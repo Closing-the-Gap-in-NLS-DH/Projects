@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "5838a872-ff79-4e68-afff-edd784b0952e",
     "record_created_on": "2022-14-06",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Corpus Musicae Ottomanicae",
@@ -61,10 +56,8 @@
       }
     ],
     "lang": ["eng", "ger", "tur"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Westfälische Wilhelms-Universität Münster",
           "ref": [
@@ -72,38 +65,16 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": ["https://www.uni-muenster.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Münster",
-              "ref": ["https://www.geonames.org/2867543/muenster.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-muenster.de/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Max Weber Foundation International Humanities",
           "ref": ["https://www.wikidata.org/wiki/Q1913589"]
         },
-        "websites": ["http://www.maxweberstiftung.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bonn",
-              "ref": ["https://www.geonames.org/2946447/bonn.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.maxweberstiftung.de/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Orient-Institut Istanbul",
           "ref": [
@@ -111,18 +82,10 @@
             "https://www.wikidata.org/wiki/Q15837722"
           ]
         },
-        "websites": ["https://www.oiist.org/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Istanbul",
-              "ref": ["https://www.geonames.org/745044/istanbul.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.oiist.org/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

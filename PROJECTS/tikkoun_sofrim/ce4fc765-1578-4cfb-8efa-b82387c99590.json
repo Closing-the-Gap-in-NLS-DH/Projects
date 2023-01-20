@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "ce4fc765-1578-4cfb-8efa-b82387c99590",
     "record_created_on": "2022-10-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Tikkoun Sofrim",
@@ -60,76 +55,32 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "PSL Research University Paris",
           "ref": ["https://ror.org/03k9z2963"]
         },
-        "websites": ["https://psl.eu/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": ["http://www.geonames.org/2988506/paris.html"]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://psl.eu/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Haifa",
           "ref": ["https://ror.org/02f009v59"]
         },
-        "websites": ["https://www.haifa.ac.il/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Haifa",
-              "ref": ["https://www.geonames.org/294801/haifa.html"]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.haifa.ac.il/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National Library of Israel",
           "ref": ["https://ror.org/03be63z97"]
         },
-        "websites": ["https://www.nli.org.il/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": ["https://www.geonames.org/281184/jerusalem.html"]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.nli.org.il/en"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Scripta-PSL",
         "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       }

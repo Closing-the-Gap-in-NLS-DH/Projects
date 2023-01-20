@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd",
     "record_created_on": "2022-11-25",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Isnalyser",
@@ -37,10 +32,10 @@
       }
     ],
     "lang": ["eng"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
         "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3"
       }

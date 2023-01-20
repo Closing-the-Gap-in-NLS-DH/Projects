@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "862e636c-6757-4dc6-a382-b77768b69cbc",
     "record_created_on": "2022-09-06",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "The Islamic Manuscript Association",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Cambridge",
           "ref": [
@@ -48,18 +41,10 @@
             "https://ror.org/013meh722"
           ]
         },
-        "websites": ["https://www.cam.ac.uk/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": ["https://www.geonames.org/2653941/cambridge.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.cam.ac.uk/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

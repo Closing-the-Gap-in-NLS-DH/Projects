@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703",
     "record_created_on": "2022-03-29",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-03-31",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-03-31"
   },
   "project": {
     "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
@@ -39,10 +34,8 @@
       }
     ],
     "lang": ["ara", "eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
           "ref": [
@@ -50,26 +43,17 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.uni-leipzig.de/en/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
         "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
         "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"
       }

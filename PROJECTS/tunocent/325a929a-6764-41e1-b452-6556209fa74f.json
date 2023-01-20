@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "325a929a-6764-41e1-b452-6556209fa74f",
     "record_created_on": "2022-05-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "TUNOCENT",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -51,20 +44,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Wien",
           "ref": [
@@ -72,50 +54,37 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": ["https://www.univie.ac.at/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.univie.ac.at/en/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "WIBARAB: What is Bedouin-Type Arabic?",
         "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Genesis Rabbah Loanwords",
         "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Vienna Corpus of Arabic Varieties",
         "uuid": "8f343a28-a873-449c-b359-efcfab7d1201"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Shawi",
         "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
         "uuid": "79462111-75a7-4fa0-8e11-9d424293a074"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "NoMansLand: Nomads’ Manuscripts Landscape",
         "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5"
       }

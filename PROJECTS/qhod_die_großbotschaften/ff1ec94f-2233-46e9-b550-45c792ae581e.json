@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "ff1ec94f-2233-46e9-b550-45c792ae581e",
     "record_created_on": "2022-10-21",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)",
@@ -57,16 +52,15 @@
       }
     ],
     "lang": ["eng", "ger"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "QhoD – Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918",
         "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574)",
         "uuid": "e9b15bcd-05ec-4de1-95f5-07d5bb44e482"
       }

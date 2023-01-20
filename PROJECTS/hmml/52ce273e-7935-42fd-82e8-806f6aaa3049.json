@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-26",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-26"
   },
   "project": {
     "title": "Hill Museum & Manuscript Library",
@@ -41,10 +32,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "College of Saint Benedict & Saint John’s University",
           "ref": [
@@ -52,18 +41,10 @@
             "https://www.wikidata.org/wiki/Q5146820"
           ]
         },
-        "websites": ["https://www.csbsju.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Collegeville",
-              "ref": ["https://www.geonames.org/5021784/collegeville.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.csbsju.edu/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

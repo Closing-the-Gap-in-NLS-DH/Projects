@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "9fbb8b57-bd55-4b84-ab51-2c8a0d7ec5bc",
     "record_created_on": "2023-01-02",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Copitc OCR",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Georg-August-Universität Göttingen",
           "ref": [
@@ -51,18 +44,10 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": ["https://www.uni-goettingen.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-goettingen.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

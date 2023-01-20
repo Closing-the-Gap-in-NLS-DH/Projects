@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8",
     "record_created_on": "2022-05-09",
     "record_created_by": "",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
@@ -247,10 +242,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -258,38 +251,16 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
           "ref": ["https://www.wikidata.org/wiki/Q5200436"]
         },
-        "websites": ["https://ivdnt.org/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leiden",
-              "ref": ["https://www.geonames.org/2751773/leiden.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://ivdnt.org/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bulgarian Academy of Sciences",
           "ref": [
@@ -297,20 +268,9 @@
             "https://www.wikidata.org/wiki/Q1003730"
           ]
         },
-        "websites": ["http://www.bas.bg/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Sofia",
-              "ref": ["https://www.geonames.org/727011/sofia.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.bas.bg/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Zagreb",
           "ref": [
@@ -318,20 +278,9 @@
             "https://www.wikidata.org/wiki/Q675848"
           ]
         },
-        "websites": ["http://www.unizg.hr/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Zagreb",
-              "ref": ["https://www.geonames.org/3186886/zagreb.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.unizg.hr/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Cyprus University of Technology",
           "ref": [
@@ -339,20 +288,9 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": ["http://www.cut.ac.cy/?languageId=2"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Limassol",
-              "ref": ["https://www.geonames.org/146384/limassol.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.cut.ac.cy/?languageId=2"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Charles University",
           "ref": [
@@ -360,20 +298,9 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": ["https://cuni.cz/UKEN-1.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Prague",
-              "ref": ["https://www.geonames.org/3067696/prague.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
           "ref": [
@@ -381,38 +308,16 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["http://www.ku.dk/english/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Copenhagen",
-              "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ku.dk/english/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Center of Estonian Language Resources",
           "ref": []
         },
-        "websites": ["https://keeleressursid.ee/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Tartu",
-              "ref": ["http://www.geonames.org/588335/tartu.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://keeleressursid.ee/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Helsinki",
           "ref": [
@@ -420,20 +325,9 @@
             "https://www.wikidata.org/wiki/Q28695"
           ]
         },
-        "websites": ["https://www.helsinki.fi/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Helsinki",
-              "ref": ["https://www.geonames.org/658225/helsinki.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.helsinki.fi/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Mannheim",
           "ref": [
@@ -441,20 +335,9 @@
             "https://ror.org/031bsb921"
           ]
         },
-        "websites": ["https://www.uni-mannheim.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Mannheim",
-              "ref": ["https://www.geonames.org/2873891/mannheim.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-mannheim.de/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute for Language and Speech Processing",
           "ref": [
@@ -462,20 +345,9 @@
             "https://ror.org/00z24kr14"
           ]
         },
-        "websites": ["http://www.ilsp.gr/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Maroúsi",
-              "ref": ["https://www.geonames.org/265243/marousi.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ilsp.gr/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
           "ref": [
@@ -483,20 +355,9 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["http://mta.hu/english/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Budapest",
-              "ref": ["https://www.geonames.org/3054643/budapest.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://mta.hu/english/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Árni Magnússon Institute for Icelandic Studies",
           "ref": [
@@ -504,20 +365,9 @@
             "https://www.wikidata.org/wiki/Q627418"
           ]
         },
-        "websites": ["http://www.arnastofnun.is/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Reykjavík",
-              "ref": ["https://www.geonames.org/3413829/reykjavik.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.arnastofnun.is/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
@@ -525,20 +375,9 @@
             "http://viaf.org/viaf/6050160062454135790009"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": ["https://www.geonames.org/3170647/pisa.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ilc.cnr.it/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Latvia",
           "ref": [
@@ -546,20 +385,9 @@
             "https://ror.org/00ss42h10"
           ]
         },
-        "websites": ["https://www.lu.lv"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Riga",
-              "ref": ["https://www.geonames.org/456172/riga.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.lu.lv"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Vytautas Magnus University",
           "ref": [
@@ -567,20 +395,9 @@
             "https://ror.org/04y7eh037"
           ]
         },
-        "websites": ["http://www.vdu.lt/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Kaunas",
-              "ref": ["https://www.geonames.org/598316/kaunas.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.vdu.lt/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Utrecht University",
           "ref": [
@@ -588,20 +405,9 @@
             "https://ror.org/04pp8hn57"
           ]
         },
-        "websites": ["http://www.uu.nl/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Utrecht",
-              "ref": ["https://www.geonames.org/2745912/utrecht.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.uu.nl/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Bergen",
           "ref": [
@@ -609,20 +415,9 @@
             "https://www.wikidata.org/wiki/Q204457"
           ]
         },
-        "websites": ["http://www.uib.no/en/node/36362"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bergen",
-              "ref": ["https://www.geonames.org/3161732/bergen.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.uib.no/en/node/36362"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Wrocław University of Science and Technology",
           "ref": [
@@ -630,20 +425,9 @@
             "https://www.wikidata.org/wiki/Q522109"
           ]
         },
-        "websites": ["http://www.portal.pwr.wroc.pl"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Wrocław",
-              "ref": ["https://www.geonames.org/3081368/wroclaw.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.portal.pwr.wroc.pl"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Lisbon",
           "ref": [
@@ -651,20 +435,9 @@
             "https://www.wikidata.org/wiki/Q1122926"
           ]
         },
-        "websites": ["http://www.ulisboa.pt/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Lisbon",
-              "ref": ["https://www.geonames.org/2267057/lisbon.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ulisboa.pt/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
           "ref": [
@@ -672,20 +445,9 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["http://www.ijs.si/ijsw"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Ljubljana",
-              "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ijs.si/ijsw"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Gothenburg",
           "ref": [
@@ -693,20 +455,12 @@
             "https://www.wikidata.org/wiki/Q371522"
           ]
         },
-        "websites": ["http://www.gu.se/english"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gothenburg",
-              "ref": ["https://www.geonames.org/2711537/goeteborg.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["http://www.gu.se/english"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
         "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
       }

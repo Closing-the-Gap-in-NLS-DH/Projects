@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2ec36f1f-9f08-4284-964b-2f40a1d3e0db",
     "record_created_on": "2023-01-02",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Barlaam and Josaphat in Arabic Literature and Culture",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of St Andrews",
           "ref": [
@@ -48,39 +41,10 @@
             "https://ror.org/02wn5qz54"
           ]
         },
-        "websites": ["https://www.st-andrews.ac.uk/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Fife",
-              "ref": ["https://www.geonames.org/2649469/fife.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "cooperation",
-        "type": "organisation",
-        "org_name": {
-          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-          "ref": [
-            "https://ror.org/05jgq9443",
-            "https://www.wikidata.org/wiki/Q219989"
-          ]
-        },
-        "websites": ["https://www.bbaw.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.st-andrews.ac.uk/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "3c5fd869-4651-414c-a0f1-b1254712b689",
     "record_created_on": "2022-04-05",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "SaxFDM-Fokusprojekt: Publikationsdienst für wissenschaftliche Datenmodelle und Vokabulare",
@@ -39,10 +34,8 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -50,34 +43,10 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Forschungsdatenmanagement in Sachsen (SaxFDM)",
-        "ref": [],
-        "websites": ["https://saxfdm.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Saxony",
-              "ref": ["http://www.geonames.org/2842566/saxony.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.saw-leipzig.de/de"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

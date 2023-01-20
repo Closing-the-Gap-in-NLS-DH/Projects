@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "HUNAYNNET",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -51,18 +44,10 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

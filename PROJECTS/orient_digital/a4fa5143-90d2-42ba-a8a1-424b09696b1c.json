@@ -1,23 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-02-07",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-05-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-05"
   },
   "project": {
     "title": "Orient-Digital",
@@ -78,10 +65,8 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
           "ref": [
@@ -89,20 +74,9 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": ["https://staatsbibliothek-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
           "ref": [
@@ -110,20 +84,9 @@
             "https://www.wikidata.org/wiki/Q702524"
           ]
         },
-        "websites": ["https://www.uni-erfurt.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Erfurt",
-              "ref": ["https://www.geonames.org/2929670/erfurt.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-erfurt.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
           "ref": [
@@ -131,20 +94,9 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-leipzig.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [
@@ -152,18 +104,10 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": ["https://www.bsb-muenchen.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": ["http://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

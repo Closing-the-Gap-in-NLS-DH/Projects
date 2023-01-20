@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445",
     "record_created_on": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Islamic Painted Page",
@@ -40,45 +35,16 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Universität Hamburg",
-              "ref": ["https://www.grid.ac/institutes/grid.9026.d"]
-            },
-            "website": ["http://www.uni-hamburg.de/"],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Hamburg",
-                  "ref": ["https://www.geonames.org/2911298/hamburg.html"]
-                }
-              }
-            ],
-            "relations": []
-          }
-        ]
+        "websites": ["https://www.csmc.uni-hamburg.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
     "record_created_on": "2022-02-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
@@ -50,47 +45,15 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
-        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-              "ref": ["https://www.wikidata.org/wiki/Q153006"]
-            },
-            "website": ["https://www.bbaw.de/"],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Berlin",
-                  "ref": ["https://www.geonames.org/2950159/berlin.html"]
-                }
-              }
-            ],
-            "relations": []
-          }
-        ]
+        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -98,26 +61,17 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.saw-leipzig.de/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Altägyptisches Wörterbuch",
         "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
       }

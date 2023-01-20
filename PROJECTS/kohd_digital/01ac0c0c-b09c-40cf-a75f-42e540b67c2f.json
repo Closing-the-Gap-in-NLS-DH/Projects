@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
     "record_created_on": "2022-02-14",
     "record_created_by": "Kudela, Monkia Xenia",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-18",
-        "record_modified_by": "Kudela, Monkia Xenia"
-      }
-    ]
+    "last_edited_on": "2022-02-18"
   },
   "project": {
     "title": "KOHD Digital",
@@ -37,45 +32,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Katalogisierung der Orientalischen Handschriften in Deutschland (KOHD)",
-        "ref": [],
-        "websites": [
-          "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/kohd/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Akademie der Wissenschaften zu Göttingen",
-              "ref": ["https://www.wikidata.org/wiki/Q414188"]
-            },
-            "websites": ["https://adw-goe.de"],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Göttingen",
-                  "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-                }
-              }
-            ],
-            "relations": []
-          }
-        ]
-      }
-    ],
+    "host_institutions": [],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

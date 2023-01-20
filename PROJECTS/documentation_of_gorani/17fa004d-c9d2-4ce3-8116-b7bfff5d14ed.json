@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Documentation of Gorani, an endangered language of West Iran",
@@ -60,10 +55,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Otto-Friedrich-Universität Bamberg",
           "ref": [
@@ -71,20 +64,9 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": ["https://www.uni-bamberg.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bamberg",
-              "ref": ["https://www.geonames.org/2952984/bamberg.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-bamberg.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Hamburg",
           "ref": [
@@ -92,20 +74,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["http://www.uni-hamburg.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": ["https://www.geonames.org/2911298/hamburg.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.uni-hamburg.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Georg-August-Universität Göttingen",
           "ref": [
@@ -113,44 +84,32 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": ["http://www.uni-goettingen.de/en/1.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["http://www.uni-goettingen.de/en/1.html"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Dokumentation Bedrohter Sprachen (DoBeS)",
         "uuid": "e480a0fe-f152-11ec-8ea0-0242ac120002"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Multilingual Corpus of Annotated Spoken Texts",
         "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
         "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
         "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
         "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
       }

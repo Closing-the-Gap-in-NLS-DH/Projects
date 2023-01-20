@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-05-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-05"
   },
   "project": {
     "title": "Open Encyclopedia System",
@@ -54,10 +45,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -65,20 +54,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [
@@ -86,18 +64,10 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": ["https://www.bsb-muenchen.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": ["http://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

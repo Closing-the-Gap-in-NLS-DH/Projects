@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-18",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-02-18"
   },
   "project": {
     "title": "Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",
@@ -57,10 +52,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -68,20 +61,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Tel Aviv University",
           "ref": [
@@ -89,20 +71,9 @@
             "https://ror.org/04mhzgx49"
           ]
         },
-        "websites": ["https://english.tau.ac.il/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Tel Aviv",
-              "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://english.tau.ac.il/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -110,18 +81,10 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": ["https://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.lmu.de/de/index.html"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

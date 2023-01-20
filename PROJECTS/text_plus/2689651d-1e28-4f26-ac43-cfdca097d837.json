@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2689651d-1e28-4f26-ac43-cfdca097d837",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-01-20",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-05-06",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-06"
   },
   "project": {
     "title": "Text+",
@@ -30,10 +21,8 @@
     "project_desc": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
     "places": [],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Die Nationale Forschungsdateninfrastruktur (NFDI)",
           "ref": [
@@ -41,18 +30,10 @@
             "https://ror.org/05qj6w324"
           ]
         },
-        "websites": ["https://www.nfdi.de/verein/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Karlsruhe",
-              "ref": ["https://www.geonames.org/2892794/karlsruhe.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.nfdi.de/verein/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

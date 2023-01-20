@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac",
     "record_created_on": "2022-11-04",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Mesopotamian Seals",
@@ -57,28 +52,25 @@
       }
     ],
     "lang": ["eng"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Mesopotamian Royal Inscriptions",
         "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Nimrud NW Palace",
         "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
       }

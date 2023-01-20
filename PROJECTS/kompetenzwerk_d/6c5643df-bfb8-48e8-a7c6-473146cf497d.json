@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "6c5643df-bfb8-48e8-a7c6-473146cf497d",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-05"
   },
   "project": {
     "title": "KompetenzwerkD",
@@ -44,10 +35,8 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -55,38 +44,16 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de/aktuelles"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.saw-leipzig.de/de/aktuelles"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
           "ref": ["https://www.wikidata.org/wiki/Q1499019"]
         },
-        "websites": ["https://leibniz-gwzo.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://leibniz-gwzo.de/de"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Simon-Dubnow-Institut für Jüdische Geschichte und Kultur",
           "ref": [
@@ -94,38 +61,16 @@
             "https://ror.org/03j1wg370"
           ]
         },
-        "websites": ["https://www.dubnow.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.dubnow.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
           "ref": ["https://d-nb.info/gnd/10048270-3"]
         },
-        "websites": ["https://www.isgv.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Dresden",
-              "ref": ["http://www.geonames.org/2935022/dresden.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.isgv.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
           "ref": [
@@ -133,18 +78,10 @@
             "https://www.wikidata.org/wiki/Q149887"
           ]
         },
-        "websites": ["https://www.serbski-institut.de/de/home/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bautzen",
-              "ref": ["https://www.geonames.org/2951881/bautzen.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.serbski-institut.de/de/home/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "43f49ea7-ec28-4e08-9ff4-57de8c755acd",
     "record_created_on": "2022-05-31",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "European Lexicographic Infrastructure",
@@ -187,10 +182,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Jožef Stefan Institute",
           "ref": [
@@ -198,20 +191,9 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["http://www.ijs.si/ijsw"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Ljubljana",
-              "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ijs.si/ijsw"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sapienza University of Rome",
           "ref": [
@@ -219,20 +201,9 @@
             "https://ror.org/011cabk38"
           ]
         },
-        "websites": ["http://www.uniroma1.it/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Rome",
-              "ref": ["https://www.geonames.org/3169070/rome.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.uniroma1.it/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -240,20 +211,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute of the Estonian Language",
           "ref": [
@@ -261,20 +221,9 @@
             "https://ror.org/041dzw371"
           ]
         },
-        "websites": ["http://en.eki.ee/index.php"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Tallinn",
-              "ref": ["https://www.geonames.org/588409/tallinn.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://en.eki.ee/index.php"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
           "ref": [
@@ -282,38 +231,16 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["http://www.nuigalway.ie/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gaillimh",
-              "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.nuigalway.ie/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Society for Danish Language and Literature",
           "ref": ["https://www.wikidata.org/wiki/Q12308333"]
         },
-        "websites": ["https://dsl.dk/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Copenhagen",
-              "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://dsl.dk/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Copenhagen",
           "ref": [
@@ -321,38 +248,16 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["http://www.ku.dk/english/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Copenhagen",
-              "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ku.dk/english/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
           "ref": ["https://www.wikidata.org/wiki/Q5200436"]
         },
-        "websites": ["https://ivdnt.org/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leiden",
-              "ref": ["https://www.geonames.org/2751773/leiden.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://ivdnt.org/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute for Bulgarian Language",
           "ref": [
@@ -360,20 +265,9 @@
             "https://www.wikidata.org/wiki/Q12281765"
           ]
         },
-        "websites": ["http://ibl.bas.bg/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Sofia",
-              "ref": ["https://www.geonames.org/727011/sofia.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://ibl.bas.bg/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Royal Spanish Academy",
           "ref": [
@@ -381,20 +275,9 @@
             "https://www.wikidata.org/wiki/Q11993457"
           ]
         },
-        "websites": ["http://www.rae.es/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Madrid",
-              "ref": ["https://www.geonames.org/3117735/madrid.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.rae.es/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
           "ref": [
@@ -402,20 +285,9 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": ["http://www.unl.pt/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Lisbon",
-              "ref": ["https://www.geonames.org/2267057/lisbon.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.unl.pt/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Belgrade Centre for Digital Humanities",
           "ref": []
@@ -424,20 +296,9 @@
           "http://www.humanistika.org/",
           "https://wbc-rti.info/object/link/6612",
           "https://elex.is/rs-bcdh/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Belgrade",
-              "ref": ["https://www.geonames.org/792680/belgrade.html"]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
           "ref": [
@@ -445,20 +306,9 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["http://mta.hu/english/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Budapest",
-              "ref": ["https://www.geonames.org/3054643/budapest.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://mta.hu/english/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Trier",
           "ref": [
@@ -466,20 +316,9 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Trier",
-              "ref": ["https://www.geonames.org/2821164/trier.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-trier.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
@@ -487,18 +326,10 @@
             "https://ror.org/028g3pe33"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": ["https://www.geonames.org/3170647/pisa.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ilc.cnr.it/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
     "record_created_on": "2022-07-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "The Yemeni Manuscript Digitization Initiative",
@@ -60,10 +55,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -71,20 +64,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -92,20 +74,12 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Princeton",
-              "ref": ["https://www.geonames.org/5102922/princeton.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.princeton.edu/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
         "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c"
       }

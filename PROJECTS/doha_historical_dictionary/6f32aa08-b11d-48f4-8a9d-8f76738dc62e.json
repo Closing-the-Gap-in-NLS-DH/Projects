@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "6f32aa08-b11d-48f4-8a9d-8f76738dc62e",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-22",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-04",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-04"
   },
   "project": {
     "title": "Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية)",
@@ -41,28 +32,15 @@
       }
     ],
     "lang": ["ara"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Arab Center for Research and Policy Studies",
           "ref": ["https://www.wikidata.org/wiki/Q12192828"]
         },
-        "websites": ["https://www.dohainstitute.edu.qa/en/pages/default.aspx"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Doha",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.dohainstitute.edu.qa/en/pages/default.aspx"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Doha Institute for Graduate Studies",
           "ref": [
@@ -70,18 +48,10 @@
             "https://www.wikidata.org/wiki/Q23418976"
           ]
         },
-        "websites": ["https://www.dohainstitute.org/en/Pages/index.aspx"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Doha",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.dohainstitute.org/en/Pages/index.aspx"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

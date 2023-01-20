@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
     "record_created_on": "2022-03-28",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Qumran Digital: Text und Lexikon",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften zu Göttingen",
           "ref": [
@@ -51,20 +44,12 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": ["https://adw-goe.de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://adw-goe.de"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Scripta Qumranica Electronica",
         "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
       }

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c",
     "record_created_on": "2023-01-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["eng", "fre", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
@@ -51,20 +44,12 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://badw.de/en/the-academy.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "München",
-              "ref": ["http://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://badw.de/en/the-academy.html"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

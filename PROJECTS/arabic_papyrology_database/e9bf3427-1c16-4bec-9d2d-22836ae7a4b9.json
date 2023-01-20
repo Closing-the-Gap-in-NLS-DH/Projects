@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
     "record_created_on": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-14",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-02-14"
   },
   "project": {
     "title": "Arabic Papyrology Database",
@@ -50,10 +45,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -61,20 +54,9 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": ["https://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.lmu.de/de/index.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Zürich",
           "ref": [
@@ -82,20 +64,12 @@
             "https://ror.org/02crff812"
           ]
         },
-        "websites": ["https://www.uzh.ch/de.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Zürich",
-              "ref": ["https://www.geonames.org/7287650/zuerich.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.uzh.ch/de.html"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "A Digital Typology of Arabic Documents",
         "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
       }

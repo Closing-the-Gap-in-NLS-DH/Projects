@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-14",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-02-14"
   },
   "project": {
     "title": "A Digital Typology of Arabic Documents",
@@ -47,10 +42,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Basel",
           "ref": [
@@ -58,20 +51,12 @@
             "https://www.wikidata.org/wiki/Q372608"
           ]
         },
-        "websites": ["https://www.unibas.ch/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Basel",
-              "ref": ["https://www.geonames.org/2661604/basel.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.unibas.ch/de"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Arabic Papyrology Database",
         "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
       }

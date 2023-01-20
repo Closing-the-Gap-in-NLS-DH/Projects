@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8",
     "record_created_on": "2022-09-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "eScriptorium",
@@ -80,16 +75,15 @@
       }
     ],
     "lang": ["eng"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Scripta-PSL",
         "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       },
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       }

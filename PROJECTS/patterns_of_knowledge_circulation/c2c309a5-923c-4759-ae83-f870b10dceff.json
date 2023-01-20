@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff",
     "record_created_on": "2022-07-27",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
@@ -40,10 +35,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -51,20 +44,12 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.fu-berlin.de/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "A Digital Synopsis of the Mishnah and Tosefta",
         "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f"
       }

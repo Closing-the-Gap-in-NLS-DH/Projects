@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "942e9692-8e2a-4060-84d8-c8db17eae689",
     "record_created_on": "2022-07-27",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "BABMED - Babylonische Medizin",
@@ -47,10 +42,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -58,20 +51,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bar-Ilan University",
           "ref": [
@@ -79,18 +61,10 @@
             "https://ror.org/000ke5995"
           ]
         },
-        "websites": ["https://www.biu.ac.il/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Ramat Gan",
-              "ref": ["https://www.geonames.org/293788/ramat-gan.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.biu.ac.il/en"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

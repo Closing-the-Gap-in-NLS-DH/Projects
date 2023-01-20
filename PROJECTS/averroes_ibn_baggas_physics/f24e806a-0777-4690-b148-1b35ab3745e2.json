@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2",
     "record_created_on": "2022-02-21",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-22",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-02-22"
   },
   "project": {
     "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
@@ -37,28 +32,25 @@
       }
     ],
     "lang": ["eng"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Averroes Edition",
         "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
         "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
         "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
         "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
       }

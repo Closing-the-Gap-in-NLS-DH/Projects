@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
     "record_created_on": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "SHARIAsource",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Harvard University",
           "ref": [
@@ -48,26 +41,17 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["https://www.harvard.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": ["https://www.geonames.org/4931972/cambridge.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.harvard.edu/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "CorpusBuilder",
         "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
         "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
       }

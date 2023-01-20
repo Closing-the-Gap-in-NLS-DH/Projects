@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "d5448b02-b57f-429d-9553-637cc2add035",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-05-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-05"
   },
   "project": {
     "title": "Paleocoran",
@@ -51,10 +42,8 @@
       }
     ],
     "lang": ["eng", "fre", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
@@ -62,20 +51,9 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.bbaw.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Collège de France",
           "ref": [
@@ -83,20 +61,12 @@
             "https://ror.org/04ex24z53"
           ]
         },
-        "websites": ["http://www.college-de-france.fr/site/college/index.htm"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": ["http://www.geonames.org/2988506/paris.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["http://www.college-de-france.fr/site/college/index.htm"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
       }

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "9a4a2962-fbf2-4a52-a1ea-53af8e3d0842",
     "record_created_on": "2022-11-23",
     "record_created_by": "Bednarkiewicz, Maroussia",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-11-25"
   },
   "project": {
     "title": "New Languages for NLP",
@@ -39,10 +34,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -50,18 +43,10 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Princeton",
-              "ref": ["https://www.geonames.org/5102922/princeton.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.princeton.edu/"]
       }
     ],
+    "relations": [],
     "lang": ["eng"],
     "contacts": [
       {

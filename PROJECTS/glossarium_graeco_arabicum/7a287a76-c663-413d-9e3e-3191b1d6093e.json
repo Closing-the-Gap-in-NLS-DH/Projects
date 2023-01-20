@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "7a287a76-c663-413d-9e3e-3191b1d6093e",
     "record_created_on": "2022-09-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Glossarium Graeco-Arabicum",
@@ -54,10 +49,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ruhr-Universität Bochum",
           "ref": [
@@ -65,20 +58,9 @@
             "https://www.wikidata.org/wiki/Q309948"
           ]
         },
-        "websites": ["https://www.ruhr-uni-bochum.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bochum",
-              "ref": ["https://www.geonames.org/2947416/bochum.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.ruhr-uni-bochum.de/de"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Pisa",
           "ref": [
@@ -86,40 +68,10 @@
             "https://www.wikidata.org/wiki/Q645663"
           ]
         },
-        "websites": ["https://www.unipi.it/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": ["https://www.geonames.org/3170647/pisa.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Greek into Arabic - Philosophical Concepts and Linguistic Bridges",
-        "ref": [],
-        "websites": ["http://www.greekintoarabic.eu/index0b30.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bochum",
-              "ref": ["https://www.geonames.org/2947416/bochum.html"]
-            }
-          },
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": ["https://www.geonames.org/3170647/pisa.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.unipi.it/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

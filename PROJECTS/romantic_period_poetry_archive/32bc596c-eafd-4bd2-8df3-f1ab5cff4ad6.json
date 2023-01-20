@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6",
     "record_created_on": "2022-07-19",
     "record_created_by": "Huber, Alexander",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-07-21",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-07-21"
   },
   "project": {
     "title": "Romantic Period Poetry Archive",
@@ -36,26 +31,16 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "",
           "ref": []
         },
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
+        "websites": []
       }
     ],
+    "relations": [],
     "lang": ["eng"],
     "contacts": [
       {

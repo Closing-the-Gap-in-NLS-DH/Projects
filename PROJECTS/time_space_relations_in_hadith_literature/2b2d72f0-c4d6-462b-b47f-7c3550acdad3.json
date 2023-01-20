@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3",
     "record_created_on": "2022-11-20",
     "record_created_by": "Bednarkiewicz, Maroussia",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-11-25"
   },
   "project": {
     "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
@@ -36,10 +31,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Eberhard Karls Universität Tübingen",
           "ref": [
@@ -47,20 +40,12 @@
             "https://ror.org/03a1kwz48"
           ]
         },
-        "websites": ["https://uni-tuebingen.de/en/university.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Tübingen",
-              "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://uni-tuebingen.de/en/university.html"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Isnalyser",
         "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }

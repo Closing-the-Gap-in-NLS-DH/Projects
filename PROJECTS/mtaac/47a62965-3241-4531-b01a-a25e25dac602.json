@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "47a62965-3241-4531-b01a-a25e25dac602",
     "record_created_on": "2022-11.21",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Machine Translation and Automated Analysis of Cuneiform Language",
@@ -60,10 +55,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Toronto",
           "ref": [
@@ -71,20 +64,9 @@
             "https://ror.org/03dbr7087"
           ]
         },
-        "websites": ["https://www.utoronto.ca/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Toronto",
-              "ref": ["https://www.geonames.org/6167865/toronto.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.utoronto.ca/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
           "ref": [
@@ -92,20 +74,9 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["https://www.uni-frankfurt.de/de?locale=de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt",
-              "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-frankfurt.de/de?locale=de"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of California, Los Angeles",
           "ref": [
@@ -113,20 +84,12 @@
             "https://www.wikidata.org/wiki/Q174710"
           ]
         },
-        "websites": ["https://www.ucla.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Los Angeles",
-              "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.ucla.edu/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

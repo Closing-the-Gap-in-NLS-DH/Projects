@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2dfb544c-cf82-11ec-9d64-0242ac120002",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela. Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Digital Corpus for Greco-Arabic Studies",
@@ -47,10 +42,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Harvard University",
           "ref": [
@@ -58,20 +51,9 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["http://www.harvard.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": ["https://www.geonames.org/4931972/cambridge.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.harvard.edu/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Tufts University",
           "ref": [
@@ -79,18 +61,10 @@
             "https://ror.org/05wvpxv85"
           ]
         },
-        "websites": ["http://www.tufts.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Medford",
-              "ref": ["https://www.geonames.org/4943629/medford.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.tufts.edu/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

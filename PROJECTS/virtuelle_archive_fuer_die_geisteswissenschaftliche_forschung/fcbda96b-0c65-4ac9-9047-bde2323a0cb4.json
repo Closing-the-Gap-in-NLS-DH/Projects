@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "fcbda96b-0c65-4ac9-9047-bde2323a0cb4",
     "record_created_on": "2022-04-05",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-04-08",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-08"
   },
   "project": {
     "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -48,18 +41,10 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.saw-leipzig.de/de"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

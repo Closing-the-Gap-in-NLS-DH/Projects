@@ -4,12 +4,7 @@
     "uuid": "",
     "record_created_on": "",
     "record_created_by": "",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "",
@@ -37,54 +32,19 @@
       }
     ],
     "lang": [],
+    "host_institutions": [
+      {
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": []
+      }
+    ],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
         "title": "",
-        "ref": [],
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "",
-        "uuid": ""
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
         "uuid": ""
       }
     ],

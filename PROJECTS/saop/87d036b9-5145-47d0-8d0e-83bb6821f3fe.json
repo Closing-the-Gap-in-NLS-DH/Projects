@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "87d036b9-5145-47d0-8d0e-83bb6821f3fe",
     "record_created_on": "2022-30-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Surayt-Aramaic Online Project",
@@ -85,10 +80,8 @@
       }
     ],
     "lang": ["ara", "dut", "eng", "ger", "fre", "swe", "tur"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -96,20 +89,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Stockholm University",
           "ref": [
@@ -117,38 +99,16 @@
             "https://www.wikidata.org/wiki/Q221645"
           ]
         },
-        "websites": ["https://www.su.se/cmlink/stockholm-university"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Stockholm",
-              "ref": ["https://www.geonames.org/2673730/stockholm.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.su.se/cmlink/stockholm-university"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "St Ephrem Syriac Orthodox Monastery",
           "ref": []
         },
-        "websites": ["https://morephrem.com/klooster/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Glane",
-              "ref": ["http://www.geonames.org/2755497/glane.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://morephrem.com/klooster/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Beth Mardutho Syriac Institute",
           "ref": [
@@ -156,36 +116,17 @@
             "https://ror.org/01agawy76"
           ]
         },
-        "websites": ["https://bethmardutho.org/surayt/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Piscataway",
-              "ref": ["https://www.geonames.org/5102713/piscataway.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://bethmardutho.org/surayt/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
-        "websites": ["http://midyatsuryanikulturdernegi.com/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gölcük",
-              "ref": ["http://www.geonames.org/746666/geulzuk.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://midyatsuryanikulturdernegi.com/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

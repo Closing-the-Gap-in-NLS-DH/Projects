@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
     "record_created_on": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "CorpusBuilder",
@@ -77,28 +72,25 @@
       }
     ],
     "lang": [],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "SHARIAsource",
         "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
       },
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
         "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Automatic Collation for Diversifying Corpora",
         "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
       }

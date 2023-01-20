@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba",
     "record_created_on": "2022-09-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Scripta-PSL",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": [],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "PSL Research University Paris",
           "ref": [
@@ -48,20 +41,12 @@
             "https://www.wikidata.org/wiki/Q1163431"
           ]
         },
-        "websites": ["https://psl.eu/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": ["http://www.geonames.org/2988506/paris.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://psl.eu/en"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "eScriptorium",
         "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }

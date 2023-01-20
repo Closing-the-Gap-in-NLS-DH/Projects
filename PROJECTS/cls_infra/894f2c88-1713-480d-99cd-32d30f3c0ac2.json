@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2",
     "record_created_on": "2022-05-24",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
@@ -157,10 +152,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "The Institute of the Polish Language of the Polish Academy of Sciences",
           "ref": [
@@ -168,20 +161,9 @@
             "https://www.wikidata.org/wiki/Q941016"
           ]
         },
-        "websites": ["https://ijp.pan.pl/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Krakow",
-              "ref": ["https://www.geonames.org/3094802/krakow.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://ijp.pan.pl/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
           "ref": [
@@ -189,20 +171,9 @@
             "https://ror.org/03bnmw459"
           ]
         },
-        "websites": ["https://www.uni-potsdam.de/en/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Potsdam",
-              "ref": ["http://www.geonames.org/2852458/potsdam.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-potsdam.de/en/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -210,20 +181,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National University of Distance Education",
           "ref": [
@@ -231,20 +191,9 @@
             "https://ror.org/02msb5n36"
           ]
         },
-        "websites": ["https://www.uned.es/universidad/inicio.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Madrid",
-              "ref": ["https://www.geonames.org/3117735/madrid.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uned.es/universidad/inicio.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "École Normale Supérieure de Lyon",
           "ref": [
@@ -252,20 +201,9 @@
             "https://www.wikidata.org/wiki/Q10159"
           ]
         },
-        "websites": ["http://www.ens-lyon.fr/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Lyon",
-              "ref": ["https://www.geonames.org/2996944/lyon.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.ens-lyon.fr/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -273,20 +211,9 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/?set_language=en&cl=en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.hu-berlin.de/?set_language=en&cl=en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Charles University",
           "ref": [
@@ -294,29 +221,9 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": ["https://cuni.cz/UKEN-1.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Prague",
-              "ref": ["https://www.geonames.org/3067696/prague.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-          "ref": ["https://www.wikidata.org/wiki/Q49103279"]
-        },
-        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ghent University",
           "ref": [
@@ -324,20 +231,9 @@
             "https://ror.org/00cv9y106"
           ]
         },
-        "websites": ["https://www.ugent.be/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gent",
-              "ref": ["https://www.geonames.org/2797656/gent.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.ugent.be/en"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Belgrade Centre for Digital Humanities",
           "ref": []
@@ -346,20 +242,9 @@
           "http://www.humanistika.org/",
           "https://wbc-rti.info/object/link/6612",
           "https://elex.is/rs-bcdh/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Belgrade",
-              "ref": ["https://www.geonames.org/792680/belgrade.html"]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Royal Netherlands Academy of Arts and Sciences",
           "ref": [
@@ -367,20 +252,9 @@
             "https://www.wikidata.org/wiki/Q253439"
           ]
         },
-        "websites": ["http://www.knaw.nl/nl"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Amsterdam",
-              "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.knaw.nl/nl"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Trier",
           "ref": [
@@ -388,20 +262,9 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Trier",
-              "ref": ["https://www.geonames.org/2821164/trier.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-trier.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National University of Ireland, Galway",
           "ref": [
@@ -409,20 +272,17 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["http://www.nuigalway.ie/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gaillimh",
-              "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.nuigalway.ie/"]
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "parent",
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
+        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "DARIAH Reference Curriculum",
         "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
       }

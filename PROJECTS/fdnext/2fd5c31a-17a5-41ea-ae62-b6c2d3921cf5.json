@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-22",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-05"
   },
   "project": {
     "title": "FDNext",
@@ -71,10 +62,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -82,20 +71,9 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.hu-berlin.de/de"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -103,20 +81,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Technische Universität Berlin",
           "ref": [
@@ -124,20 +91,9 @@
             "https://ror.org/03v4gjf40"
           ]
         },
-        "websites": ["https://www.tu.berlin/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.tu.berlin/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
           "ref": [
@@ -145,20 +101,9 @@
             "https://ror.org/03bnmw459"
           ]
         },
-        "websites": ["https://www.uni-potsdam.de/de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Potsdam",
-              "ref": ["http://www.geonames.org/2852458/potsdam.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-potsdam.de/de/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Europa-Universität Viadrina Frankfurt (Oder)",
           "ref": [
@@ -166,20 +111,9 @@
             "https://ror.org/02msan859"
           ]
         },
-        "websites": ["https://www.europa-uni.de/en/index.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt (Oder)",
-              "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.europa-uni.de/en/index.html"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
           "ref": [
@@ -187,18 +121,10 @@
             "https://ror.org/02wxx3e24"
           ]
         },
-        "websites": ["https://www.b-tu.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cottbus",
-              "ref": ["https://www.geonames.org/2939811/cottbus.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.b-tu.de/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27",
     "record_created_on": "2023-16-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Hethitologie Portal Mainz",
@@ -47,10 +42,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -58,20 +51,9 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg ",
-              "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften und der Literatur Mainz",
           "ref": [
@@ -79,20 +61,12 @@
             "https://ror.org/01kdxra28"
           ]
         },
-        "websites": ["https://www.adwmainz.de/startseite.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Mainz",
-              "ref": ["https://www.geonames.org/2874225/mainz.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.adwmainz.de/startseite.html"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

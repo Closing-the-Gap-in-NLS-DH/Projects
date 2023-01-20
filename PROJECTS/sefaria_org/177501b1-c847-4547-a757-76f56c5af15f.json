@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "177501b1-c847-4547-a757-76f56c5af15f",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-01-19",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-05-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-05"
   },
   "project": {
     "title": "Sefaria",
@@ -41,6 +32,7 @@
       }
     ],
     "lang": ["eng", "heb"],
+    "host_institutions": [],
     "relations": [],
     "contacts": [
       {

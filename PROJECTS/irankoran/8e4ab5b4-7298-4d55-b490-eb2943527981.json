@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-26",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-26"
   },
   "project": {
     "title": "Irankoran",
@@ -44,10 +35,8 @@
       }
     ],
     "lang": ["eng", "fre", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
@@ -55,20 +44,12 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["http://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.bbaw.de/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
       }

@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2021-05-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2021-05-05"
   },
   "project": {
     "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
@@ -43,10 +34,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -54,18 +43,10 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": ["https://www.geonames.org/2867714/munich.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.lmu.de/de/index.html"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

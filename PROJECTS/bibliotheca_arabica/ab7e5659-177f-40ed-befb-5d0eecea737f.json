@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "ab7e5659-177f-40ed-befb-5d0eecea737f",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Bibliotheca Arabica",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -48,18 +41,10 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.saw-leipzig.de/de"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

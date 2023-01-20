@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
     "record_created_on": "2022-06-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Belegwörterbuch der sabäischen Sprache",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Friedrich Schiller University Jena",
           "ref": [
@@ -48,18 +41,10 @@
             "https://ror.org/00zfe1b87"
           ]
         },
-        "websites": ["https://www.uni-jena.de/en"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jena",
-              "ref": ["https://www.geonames.org/2895044/jena.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.uni-jena.de/en"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

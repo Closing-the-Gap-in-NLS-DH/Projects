@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "1c38b421-95a2-4b2b-becf-119f36721a07",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-03-25",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-03-25"
   },
   "project": {
     "title": "Corpus Masoreticum",
@@ -43,26 +38,16 @@
       }
     ],
     "lang": ["eng", "ger"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
           "ref": ["https://www.wikidata.org/wiki/Q1622186"]
         },
-        "websites": ["http://www.hfjs.eu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Heidelberg",
-              "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.hfjs.eu/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

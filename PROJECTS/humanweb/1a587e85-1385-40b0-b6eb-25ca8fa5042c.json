@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c",
     "record_created_on": "2022-07-21",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-07-26",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-07-26"
   },
   "project": {
     "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
@@ -39,10 +34,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -50,20 +43,12 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        "websites": ["https://www.fu-berlin.de/"]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The Yemeni Manuscript Digitization Initiative",
         "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0"
       }

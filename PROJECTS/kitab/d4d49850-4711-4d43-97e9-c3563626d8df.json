@@ -1,19 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2021-11-23",
-        "record_modified_by": "Kudela, Xenia Monika"
-      },
-      {
-        "record_modified_on": "2022-04-05",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-05"
   },
   "project": {
     "title": "Knowledge, Information Technology, and the Arabic Book",
@@ -41,10 +32,8 @@
       }
     ],
     "lang": ["eng"],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
           "ref": ["https://www.wikidata.org/wiki/Q4690953"]
@@ -52,32 +41,17 @@
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
           "https://www.aku.edu/Pages/home.aspx"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Karachi",
-              "ref": ["https://www.geonames.org/1174872/karachi.html"]
-            }
-          },
-          {
-            "place_name": {
-              "text": "London",
-              "ref": ["https://www.geonames.org/2643743/london.html"]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "OpenITI",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f0"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Digital Sirah Project",
         "uuid": "3ecaadc2-5394-11ed-bdc3-0242ac120002"
       }

@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7",
     "record_created_on": "2022-05-24",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
@@ -109,19 +104,15 @@
       }
     ],
     "lang": ["eng", "ger"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "CLARIN - European Research Infrastructure for Language Resources and Technology",
-          "ref": ["https://www.wikidata.org/wiki/Q2986825"]
-        },
+        "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
         "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "CLARIAH-DE",
         "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0"
       }

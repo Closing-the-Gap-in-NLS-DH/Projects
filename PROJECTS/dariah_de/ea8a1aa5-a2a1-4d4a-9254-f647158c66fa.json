@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa",
     "record_created_on": "2022-05-19",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
@@ -37,19 +32,15 @@
       }
     ],
     "lang": ["eng", "ger"],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "organisation",
-        "org_name": {
-          "text": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-          "ref": ["https://www.wikidata.org/wiki/Q49103279"]
-        },
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "CLARIAH-DE",
         "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0"
       }

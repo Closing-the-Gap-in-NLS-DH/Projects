@@ -1,15 +1,10 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-05-06",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-05-06"
   },
   "project": {
     "title": "Syriaca.org: The Syriac Reference Portal",
@@ -37,10 +32,8 @@
       }
     ],
     "lang": [],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Texas A&M University",
           "ref": [
@@ -48,20 +41,9 @@
             "https://ror.org/0034eay46"
           ]
         },
-        "websites": ["https://codhr.dh.tamu.edu/", "https://www.tamu.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Laredo",
-              "ref": ["https://www.geonames.org/4705349/laredo.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://codhr.dh.tamu.edu/", "https://www.tamu.edu/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Vanderbilt University",
           "ref": [
@@ -69,20 +51,9 @@
             "https://www.wikidata.org/wiki/Q29052"
           ]
         },
-        "websites": ["https://www.vanderbilt.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Nashville",
-              "ref": ["https://www.geonames.org/4644585/nashville.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.vanderbilt.edu/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -90,20 +61,9 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Princeton",
-              "ref": ["https://www.geonames.org/5102922/princeton.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://www.princeton.edu/"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Marquette University",
           "ref": [
@@ -111,20 +71,9 @@
             "https://www.wikidata.org/wiki/Q188370"
           ]
         },
-        "websites": ["http://www.marquette.edu"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Milwaukee",
-              "ref": ["https://www.geonames.org/5263045/milwaukee.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.marquette.edu"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "New York University",
           "ref": [
@@ -132,36 +81,17 @@
             "https://www.wikidata.org/wiki/Q49210"
           ]
         },
-        "websites": ["http://www.nyu.edu"],
-        "places": [
-          {
-            "place_name": {
-              "text": "New York",
-              "ref": ["https://www.geonames.org/5128581/new-york-city.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["http://www.nyu.edu"]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Beth Mardutho Research Library",
           "ref": ["https://d-nb.info/gnd/1086900480"]
         },
-        "websites": ["https://bethmardutho.org/library/"],
-        "places": [
-          {
-            "place_name": {
-              "text": "Piscataway",
-              "ref": ["https://www.geonames.org/5102713/piscataway.html"]
-            }
-          }
-        ],
-        "relations": []
+        "websites": ["https://bethmardutho.org/library/"]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {
