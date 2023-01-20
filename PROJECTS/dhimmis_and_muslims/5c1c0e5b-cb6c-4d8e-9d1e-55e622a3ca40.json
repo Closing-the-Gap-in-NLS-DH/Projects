@@ -4,12 +4,7 @@
     "uuid": "5c1c0e5b-cb6c-4d8e-9d1e-55e622a3ca40",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Dhimmis and Muslims - Analysing Multi-Religious Spaces in the Medieval Muslim World",
@@ -32,7 +27,9 @@
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
         "coordinates": {
           "lat": "50.11552",
@@ -42,7 +39,9 @@
       {
         "place_name": {
           "text": "Stuttgart",
-          "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
+          "ref": [
+            "https://www.geonames.org/2825297/stuttgart.html"
+          ]
         },
         "coordinates": {
           "lat": "48.78232",
@@ -52,7 +51,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -60,7 +61,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -72,12 +76,16 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["http://www.goethe-university-frankfurt.de/en?"],
+        "websites": [
+          "http://www.goethe-university-frankfurt.de/en?"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Frankfurt",
-              "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+              "ref": [
+                "https://www.geonames.org/2925533/frankfurt-am-main.html"
+              ]
             }
           }
         ],
@@ -93,12 +101,16 @@
             "https://www.wikidata.org/wiki/Q122453"
           ]
         },
-        "websites": ["http://www.uni-stuttgart.de/home/index.en.html"],
+        "websites": [
+          "http://www.uni-stuttgart.de/home/index.en.html"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Stuttgart",
-              "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
+              "ref": [
+                "https://www.geonames.org/2825297/stuttgart.html"
+              ]
             }
           }
         ],
@@ -114,12 +126,16 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/de"],
+        "websites": [
+          "https://www.hu-berlin.de/de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Berlin",
-              "ref": ["https://www.geonames.org/2950159/berlin.html"]
+              "ref": [
+                "https://www.geonames.org/2950159/berlin.html"
+              ]
             }
           }
         ],
@@ -130,7 +146,9 @@
       {
         "pers_name": {
           "text": "Koch, Steffen",
-          "ref": ["https://d-nb.info/gnd/1041280173"]
+          "ref": [
+            "https://d-nb.info/gnd/1041280173"
+          ]
         },
         "role": 0,
         "websites": [
@@ -140,7 +158,9 @@
       {
         "pers_name": {
           "text": "Weltecke, Dorothea",
-          "ref": ["https://d-nb.info/gnd/124993095"]
+          "ref": [
+            "https://d-nb.info/gnd/124993095"
+          ]
         },
         "role": 0,
         "websites": [
@@ -149,7 +169,9 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -157,14 +179,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -190,7 +216,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -216,7 +244,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -241,9 +271,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -252,7 +291,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

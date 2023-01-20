@@ -4,12 +4,7 @@
     "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-04-26",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-04-26"
   },
   "project": {
     "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
@@ -31,7 +26,9 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": ["https://www.geonames.org/6553087/muenster.html"]
+          "ref": [
+            "https://www.geonames.org/6553087/muenster.html"
+          ]
         },
         "coordinates": {
           "lat": "51.95973",
@@ -39,7 +36,9 @@
         }
       }
     ],
-    "lang": ["ger"],
+    "lang": [
+      "ger"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -51,12 +50,16 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": ["https://www.uni-muenster.de"],
+        "websites": [
+          "https://www.uni-muenster.de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Münster",
-              "ref": ["https://www.geonames.org/6553087/muenster.html"]
+              "ref": [
+                "https://www.geonames.org/6553087/muenster.html"
+              ]
             }
           }
         ],
@@ -73,7 +76,9 @@
       {
         "pers_name": {
           "text": "Bauer, Thomas",
-          "ref": ["https://d-nb.info/gnd/130608467/"]
+          "ref": [
+            "https://d-nb.info/gnd/130608467/"
+          ]
         },
         "role": 0,
         "websites": [
@@ -82,7 +87,9 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -90,14 +97,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -123,7 +134,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -149,7 +162,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -174,9 +189,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -185,7 +209,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -193,7 +221,10 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "literary_studies"],
+    "keywords": [
+      "digital_edition",
+      "literary_studies"
+    ],
     "comment": ""
   }
 }

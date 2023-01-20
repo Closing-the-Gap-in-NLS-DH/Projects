@@ -4,12 +4,7 @@
     "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
     "record_created_on": "2022-03-28",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "Qumran Digital: Text und Lexikon",
@@ -31,7 +26,9 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -39,7 +36,9 @@
         }
       }
     ],
-    "lang": ["ger"],
+    "lang": [
+      "ger"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -51,12 +50,16 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": ["https://adw-goe.de"],
+        "websites": [
+          "https://adw-goe.de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Göttingen",
-              "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+              "ref": [
+                "https://www.geonames.org/2918632/goettingen.html"
+              ]
             }
           }
         ],
@@ -73,14 +76,21 @@
       {
         "pers_name": {
           "text": "Kratz, Reinhard G.",
-          "ref": ["https://d-nb.info/gnd/115412700"]
+          "ref": [
+            "https://d-nb.info/gnd/115412700"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.uni-goettingen.de/de/56085.html"]
+        "websites": [
+          "https://www.uni-goettingen.de/de/56085.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "heb"],
+      "lang": [
+        "arc",
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -88,14 +98,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -121,7 +135,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -147,7 +163,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -172,9 +190,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -183,7 +210,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

@@ -4,12 +4,7 @@
     "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "HUNAYNNET",
@@ -31,7 +26,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -39,7 +36,10 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": [
+      "eng",
+      "ger"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -51,12 +51,16 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
             }
           }
         ],
@@ -67,7 +71,9 @@
       {
         "pers_name": {
           "text": "Kessel, Grigory",
-          "ref": ["https://d-nb.info/gnd/1069608009"]
+          "ref": [
+            "https://d-nb.info/gnd/1069608009"
+          ]
         },
         "role": 0,
         "websites": [
@@ -77,7 +83,11 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "gre", "syr"],
+      "lang": [
+        "ara",
+        "gre",
+        "syr"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -85,14 +95,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -118,7 +132,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -144,7 +160,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -169,9 +187,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -180,7 +207,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -188,7 +219,11 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "translation"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "translation"
+    ],
     "comment": ""
   }
 }

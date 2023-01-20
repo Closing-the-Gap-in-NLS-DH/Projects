@@ -4,31 +4,32 @@
     "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8",
     "record_created_on": "2022-05-09",
     "record_created_by": "",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "last_edited_on": ""
   },
   "project": {
     "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
     "abbr": "CLARIN",
     "type": "organisation",
-    "ref": ["https://www.wikidata.org/wiki/Q2986825"],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q2986825"
+    ],
     "date": [
       {
         "from": "2012",
         "to": ""
       }
     ],
-    "websites": ["https://www.clarin.eu/"],
+    "websites": [
+      "https://www.clarin.eu/"
+    ],
     "project_desc": "CLARIN (Common Language Resources and Technology Infrastructure) is a pan-European infrastructure which provides access to digital language data and advanced tools to discover, annotate, analyze or combine this data via a network of European repositories. The infrastructure mainly serves for purposes of social sciences and humanities.",
     "places": [
       {
         "place_name": {
           "text": "Utrecht",
-          "ref": ["https://www.geonames.org/2745912/utrecht.html"]
+          "ref": [
+            "https://www.geonames.org/2745912/utrecht.html"
+          ]
         },
         "coordinates": {
           "lat": "52.09083",
@@ -38,7 +39,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -48,7 +51,9 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/leiden.html"]
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
         },
         "coordinates": {
           "lat": "52.15833",
@@ -58,7 +63,9 @@
       {
         "place_name": {
           "text": "Sofia",
-          "ref": ["https://www.geonames.org/727011/sofia.html"]
+          "ref": [
+            "https://www.geonames.org/727011/sofia.html"
+          ]
         },
         "coordinates": {
           "lat": "42.69751",
@@ -68,7 +75,9 @@
       {
         "place_name": {
           "text": "Zagreb",
-          "ref": ["https://www.geonames.org/3186886/zagreb.html"]
+          "ref": [
+            "https://www.geonames.org/3186886/zagreb.html"
+          ]
         },
         "coordinates": {
           "lat": "45.81444",
@@ -78,7 +87,9 @@
       {
         "place_name": {
           "text": "Limassol",
-          "ref": ["https://www.geonames.org/146384/limassol.html"]
+          "ref": [
+            "https://www.geonames.org/146384/limassol.html"
+          ]
         },
         "coordinates": {
           "lat": "34.68406",
@@ -88,7 +99,9 @@
       {
         "place_name": {
           "text": "Prague",
-          "ref": ["https://www.geonames.org/3067696/prague.html"]
+          "ref": [
+            "https://www.geonames.org/3067696/prague.html"
+          ]
         },
         "coordinates": {
           "lat": "50.08804",
@@ -98,7 +111,9 @@
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
+          "ref": [
+            "http://www.geonames.org/2618424/kobenhavn.html"
+          ]
         },
         "coordinates": {
           "lat": "55.6711",
@@ -108,7 +123,9 @@
       {
         "place_name": {
           "text": "Tartu",
-          "ref": ["http://www.geonames.org/588335/tartu.html"]
+          "ref": [
+            "http://www.geonames.org/588335/tartu.html"
+          ]
         },
         "coordinates": {
           "lat": "58.38062",
@@ -118,7 +135,9 @@
       {
         "place_name": {
           "text": "Helsinki",
-          "ref": ["https://www.geonames.org/658225/helsinki.html"]
+          "ref": [
+            "https://www.geonames.org/658225/helsinki.html"
+          ]
         },
         "coordinates": {
           "lat": "60.16952",
@@ -128,7 +147,9 @@
       {
         "place_name": {
           "text": "Mannheim",
-          "ref": ["https://www.geonames.org/2873891/mannheim.html"]
+          "ref": [
+            "https://www.geonames.org/2873891/mannheim.html"
+          ]
         },
         "coordinates": {
           "lat": "49.4891",
@@ -138,7 +159,9 @@
       {
         "place_name": {
           "text": "Maroúsi",
-          "ref": ["https://www.geonames.org/265243/marousi.html"]
+          "ref": [
+            "https://www.geonames.org/265243/marousi.html"
+          ]
         },
         "coordinates": {
           "lat": "38.05",
@@ -148,7 +171,9 @@
       {
         "place_name": {
           "text": "Budapest",
-          "ref": ["https://www.geonames.org/3054643/budapest.html"]
+          "ref": [
+            "https://www.geonames.org/3054643/budapest.html"
+          ]
         },
         "coordinates": {
           "lat": "47.49835",
@@ -158,7 +183,9 @@
       {
         "place_name": {
           "text": "Reykjavík",
-          "ref": ["https://www.geonames.org/3413829/reykjavik.html"]
+          "ref": [
+            "https://www.geonames.org/3413829/reykjavik.html"
+          ]
         },
         "coordinates": {
           "lat": "64.13548",
@@ -168,7 +195,9 @@
       {
         "place_name": {
           "text": "Pisa",
-          "ref": ["https://www.geonames.org/3170647/pisa.html"]
+          "ref": [
+            "https://www.geonames.org/3170647/pisa.html"
+          ]
         },
         "coordinates": {
           "lat": "43.70853",
@@ -178,7 +207,9 @@
       {
         "place_name": {
           "text": "Riga",
-          "ref": ["https://www.geonames.org/456172/riga.html"]
+          "ref": [
+            "https://www.geonames.org/456172/riga.html"
+          ]
         },
         "coordinates": {
           "lat": "56.946",
@@ -188,7 +219,9 @@
       {
         "place_name": {
           "text": "Kaunas",
-          "ref": ["https://www.geonames.org/598316/kaunas.html"]
+          "ref": [
+            "https://www.geonames.org/598316/kaunas.html"
+          ]
         },
         "coordinates": {
           "lat": "54.90272",
@@ -198,7 +231,9 @@
       {
         "place_name": {
           "text": "Bergen",
-          "ref": ["https://www.geonames.org/3161732/bergen.html"]
+          "ref": [
+            "https://www.geonames.org/3161732/bergen.html"
+          ]
         },
         "coordinates": {
           "lat": "60.39299",
@@ -208,7 +243,9 @@
       {
         "place_name": {
           "text": "Wrocław",
-          "ref": ["https://www.geonames.org/3081368/wroclaw.html"]
+          "ref": [
+            "https://www.geonames.org/3081368/wroclaw.html"
+          ]
         },
         "coordinates": {
           "lat": "51.1",
@@ -218,7 +255,9 @@
       {
         "place_name": {
           "text": "Lisbon",
-          "ref": ["https://www.geonames.org/2267057/lisbon.html"]
+          "ref": [
+            "https://www.geonames.org/2267057/lisbon.html"
+          ]
         },
         "coordinates": {
           "lat": "38.71667",
@@ -228,7 +267,9 @@
       {
         "place_name": {
           "text": "Ljubljana",
-          "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
+          "ref": [
+            "https://www.geonames.org/3196359/ljubljana.html"
+          ]
         },
         "coordinates": {
           "lat": "46.05108",
@@ -238,7 +279,9 @@
       {
         "place_name": {
           "text": "Gothenburg",
-          "ref": ["https://www.geonames.org/2711537/goeteborg.html"]
+          "ref": [
+            "https://www.geonames.org/2711537/goeteborg.html"
+          ]
         },
         "coordinates": {
           "lat": "57.70716",
@@ -246,7 +289,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -258,12 +303,16 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"],
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Vienna",
-              "ref": ["https://www.geonames.org/2761369/vienna.html"]
+              "ref": [
+                "https://www.geonames.org/2761369/vienna.html"
+              ]
             }
           }
         ],
@@ -274,14 +323,20 @@
         "type": "organisation",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": ["https://www.wikidata.org/wiki/Q5200436"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
         },
-        "websites": ["https://ivdnt.org/"],
+        "websites": [
+          "https://ivdnt.org/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Leiden",
-              "ref": ["https://www.geonames.org/2751773/leiden.html"]
+              "ref": [
+                "https://www.geonames.org/2751773/leiden.html"
+              ]
             }
           }
         ],
@@ -297,12 +352,16 @@
             "https://www.wikidata.org/wiki/Q1003730"
           ]
         },
-        "websites": ["http://www.bas.bg/"],
+        "websites": [
+          "http://www.bas.bg/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Sofia",
-              "ref": ["https://www.geonames.org/727011/sofia.html"]
+              "ref": [
+                "https://www.geonames.org/727011/sofia.html"
+              ]
             }
           }
         ],
@@ -318,12 +377,16 @@
             "https://www.wikidata.org/wiki/Q675848"
           ]
         },
-        "websites": ["http://www.unizg.hr/"],
+        "websites": [
+          "http://www.unizg.hr/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Zagreb",
-              "ref": ["https://www.geonames.org/3186886/zagreb.html"]
+              "ref": [
+                "https://www.geonames.org/3186886/zagreb.html"
+              ]
             }
           }
         ],
@@ -339,12 +402,16 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": ["http://www.cut.ac.cy/?languageId=2"],
+        "websites": [
+          "http://www.cut.ac.cy/?languageId=2"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Limassol",
-              "ref": ["https://www.geonames.org/146384/limassol.html"]
+              "ref": [
+                "https://www.geonames.org/146384/limassol.html"
+              ]
             }
           }
         ],
@@ -360,12 +427,16 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": ["https://cuni.cz/UKEN-1.html"],
+        "websites": [
+          "https://cuni.cz/UKEN-1.html"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Prague",
-              "ref": ["https://www.geonames.org/3067696/prague.html"]
+              "ref": [
+                "https://www.geonames.org/3067696/prague.html"
+              ]
             }
           }
         ],
@@ -381,12 +452,16 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["http://www.ku.dk/english/"],
+        "websites": [
+          "http://www.ku.dk/english/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Copenhagen",
-              "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
+              "ref": [
+                "http://www.geonames.org/2618424/kobenhavn.html"
+              ]
             }
           }
         ],
@@ -399,12 +474,16 @@
           "text": "Center of Estonian Language Resources",
           "ref": []
         },
-        "websites": ["https://keeleressursid.ee/en/"],
+        "websites": [
+          "https://keeleressursid.ee/en/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Tartu",
-              "ref": ["http://www.geonames.org/588335/tartu.html"]
+              "ref": [
+                "http://www.geonames.org/588335/tartu.html"
+              ]
             }
           }
         ],
@@ -420,12 +499,16 @@
             "https://www.wikidata.org/wiki/Q28695"
           ]
         },
-        "websites": ["https://www.helsinki.fi/"],
+        "websites": [
+          "https://www.helsinki.fi/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Helsinki",
-              "ref": ["https://www.geonames.org/658225/helsinki.html"]
+              "ref": [
+                "https://www.geonames.org/658225/helsinki.html"
+              ]
             }
           }
         ],
@@ -441,12 +524,16 @@
             "https://ror.org/031bsb921"
           ]
         },
-        "websites": ["https://www.uni-mannheim.de/en/"],
+        "websites": [
+          "https://www.uni-mannheim.de/en/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Mannheim",
-              "ref": ["https://www.geonames.org/2873891/mannheim.html"]
+              "ref": [
+                "https://www.geonames.org/2873891/mannheim.html"
+              ]
             }
           }
         ],
@@ -462,12 +549,16 @@
             "https://ror.org/00z24kr14"
           ]
         },
-        "websites": ["http://www.ilsp.gr/en"],
+        "websites": [
+          "http://www.ilsp.gr/en"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Maroúsi",
-              "ref": ["https://www.geonames.org/265243/marousi.html"]
+              "ref": [
+                "https://www.geonames.org/265243/marousi.html"
+              ]
             }
           }
         ],
@@ -483,12 +574,16 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["http://mta.hu/english/"],
+        "websites": [
+          "http://mta.hu/english/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Budapest",
-              "ref": ["https://www.geonames.org/3054643/budapest.html"]
+              "ref": [
+                "https://www.geonames.org/3054643/budapest.html"
+              ]
             }
           }
         ],
@@ -504,12 +599,16 @@
             "https://www.wikidata.org/wiki/Q627418"
           ]
         },
-        "websites": ["http://www.arnastofnun.is/"],
+        "websites": [
+          "http://www.arnastofnun.is/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Reykjavík",
-              "ref": ["https://www.geonames.org/3413829/reykjavik.html"]
+              "ref": [
+                "https://www.geonames.org/3413829/reykjavik.html"
+              ]
             }
           }
         ],
@@ -525,12 +624,16 @@
             "http://viaf.org/viaf/6050160062454135790009"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"],
+        "websites": [
+          "http://www.ilc.cnr.it/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Pisa",
-              "ref": ["https://www.geonames.org/3170647/pisa.html"]
+              "ref": [
+                "https://www.geonames.org/3170647/pisa.html"
+              ]
             }
           }
         ],
@@ -546,12 +649,16 @@
             "https://ror.org/00ss42h10"
           ]
         },
-        "websites": ["https://www.lu.lv"],
+        "websites": [
+          "https://www.lu.lv"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Riga",
-              "ref": ["https://www.geonames.org/456172/riga.html"]
+              "ref": [
+                "https://www.geonames.org/456172/riga.html"
+              ]
             }
           }
         ],
@@ -567,12 +674,16 @@
             "https://ror.org/04y7eh037"
           ]
         },
-        "websites": ["http://www.vdu.lt/en/"],
+        "websites": [
+          "http://www.vdu.lt/en/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Kaunas",
-              "ref": ["https://www.geonames.org/598316/kaunas.html"]
+              "ref": [
+                "https://www.geonames.org/598316/kaunas.html"
+              ]
             }
           }
         ],
@@ -588,12 +699,16 @@
             "https://ror.org/04pp8hn57"
           ]
         },
-        "websites": ["http://www.uu.nl/en"],
+        "websites": [
+          "http://www.uu.nl/en"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Utrecht",
-              "ref": ["https://www.geonames.org/2745912/utrecht.html"]
+              "ref": [
+                "https://www.geonames.org/2745912/utrecht.html"
+              ]
             }
           }
         ],
@@ -609,12 +724,16 @@
             "https://www.wikidata.org/wiki/Q204457"
           ]
         },
-        "websites": ["http://www.uib.no/en/node/36362"],
+        "websites": [
+          "http://www.uib.no/en/node/36362"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Bergen",
-              "ref": ["https://www.geonames.org/3161732/bergen.html"]
+              "ref": [
+                "https://www.geonames.org/3161732/bergen.html"
+              ]
             }
           }
         ],
@@ -630,12 +749,16 @@
             "https://www.wikidata.org/wiki/Q522109"
           ]
         },
-        "websites": ["http://www.portal.pwr.wroc.pl"],
+        "websites": [
+          "http://www.portal.pwr.wroc.pl"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Wrocław",
-              "ref": ["https://www.geonames.org/3081368/wroclaw.html"]
+              "ref": [
+                "https://www.geonames.org/3081368/wroclaw.html"
+              ]
             }
           }
         ],
@@ -651,12 +774,16 @@
             "https://www.wikidata.org/wiki/Q1122926"
           ]
         },
-        "websites": ["http://www.ulisboa.pt/"],
+        "websites": [
+          "http://www.ulisboa.pt/"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Lisbon",
-              "ref": ["https://www.geonames.org/2267057/lisbon.html"]
+              "ref": [
+                "https://www.geonames.org/2267057/lisbon.html"
+              ]
             }
           }
         ],
@@ -672,12 +799,16 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["http://www.ijs.si/ijsw"],
+        "websites": [
+          "http://www.ijs.si/ijsw"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Ljubljana",
-              "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
+              "ref": [
+                "https://www.geonames.org/3196359/ljubljana.html"
+              ]
             }
           }
         ],
@@ -693,12 +824,16 @@
             "https://www.wikidata.org/wiki/Q371522"
           ]
         },
-        "websites": ["http://www.gu.se/english"],
+        "websites": [
+          "http://www.gu.se/english"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Gothenburg",
-              "ref": ["https://www.geonames.org/2711537/goeteborg.html"]
+              "ref": [
+                "https://www.geonames.org/2711537/goeteborg.html"
+              ]
             }
           }
         ],
@@ -721,14 +856,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -754,7 +893,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -780,7 +921,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -805,9 +948,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -816,7 +968,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -824,7 +980,10 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

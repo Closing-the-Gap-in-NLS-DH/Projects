@@ -4,12 +4,7 @@
     "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "2022-02-14",
-        "record_modified_by": "Kudela, Xenia Monika"
-      }
-    ]
+    "last_edited_on": "2022-02-14"
   },
   "project": {
     "title": "A Digital Typology of Arabic Documents",
@@ -22,13 +17,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://www.naher-osten.lmu.de/apd"],
+    "websites": [
+      "https://www.naher-osten.lmu.de/apd"
+    ],
     "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is to create digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
     "places": [
       {
         "place_name": {
           "text": "Basel",
-          "ref": ["https://www.geonames.org/2661604/basel.html"]
+          "ref": [
+            "https://www.geonames.org/2661604/basel.html"
+          ]
         },
         "coordinates": {
           "lat": "47.55839",
@@ -38,7 +37,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -46,7 +47,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "relations": [
       {
         "relation_type": "parent",
@@ -58,12 +61,16 @@
             "https://www.wikidata.org/wiki/Q372608"
           ]
         },
-        "websites": ["https://www.unibas.ch/de"],
+        "websites": [
+          "https://www.unibas.ch/de"
+        ],
         "places": [
           {
             "place_name": {
               "text": "Basel",
-              "ref": ["https://www.geonames.org/2661604/basel.html"]
+              "ref": [
+                "https://www.geonames.org/2661604/basel.html"
+              ]
             }
           }
         ],
@@ -80,7 +87,9 @@
       {
         "pers_name": {
           "text": "Kaplony, Andreas",
-          "ref": ["https://d-nb.info/gnd/115211942"]
+          "ref": [
+            "https://d-nb.info/gnd/115211942"
+          ]
         },
         "role": 0,
         "websites": [
@@ -90,7 +99,9 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -98,14 +109,18 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -131,7 +146,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -157,7 +174,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -182,9 +201,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -193,7 +221,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -201,7 +233,11 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "repository"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "repository"
+    ],
     "comment": ""
   }
 }
