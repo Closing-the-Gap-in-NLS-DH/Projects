@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Princeton",
-          "ref": [
-            "https://www.geonames.org/5102922/princeton.html"
-          ]
+          "ref": ["https://www.geonames.org/5102922/princeton.html"]
         },
         "coordinates": {
           "lat": "40.34872",
@@ -45,15 +43,11 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": [
-          "https://www.princeton.edu/"
-        ]
+        "websites": ["https://www.princeton.edu/"]
       }
     ],
     "relations": [],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "contacts": [
       {
         "pers_name": {
@@ -61,35 +55,19 @@
           "ref": []
         },
         "role": 0,
-        "websites": [
-          "https://www.nataliaermolaev.com/"
-        ]
+        "websites": ["https://www.nataliaermolaev.com/"]
       },
       {
         "pers_name": {
           "text": "Janco, Andrew",
-          "ref": [
-            "https://d-nb.info/gnd/1064765017"
-          ]
+          "ref": ["https://d-nb.info/gnd/1064765017"]
         },
         "role": 0,
-        "websites": [
-          "https://apjan.co/"
-        ]
+        "websites": ["https://apjan.co/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "efi",
-        "eng",
-        "kan",
-        "ota",
-        "que",
-        "tir",
-        "yid",
-        "yor"
-      ],
+      "lang": ["ara", "efi", "eng", "kan", "ota", "que", "tir", "yid", "yor"],
       "sustainability_plan": null,
       "publications": {
         "access": {
@@ -97,9 +75,7 @@
           "closed": 0,
           "margin": 0
         },
-        "licensing": [
-          "MIT"
-        ]
+        "licensing": ["MIT"]
       },
       "data": {
         "raw": {
@@ -124,21 +100,14 @@
         {
           "label": "cadet",
           "self_developed": true,
-          "ref": [
-            "https://github.com/New-Languages-for-NLP/cadet"
-          ],
+          "ref": ["https://github.com/New-Languages-for-NLP/cadet"],
           "purpose": "Help add new languages into the spaCy library by generating and combining all the required units for a language entry. The tool also exists in the form of a notebook available on the GitHub page of the project."
         }
       ],
-      "languages": [
-        "python"
-      ]
+      "languages": ["python"]
     },
     "policies": [],
-    "keywords": [
-      "literary_studies",
-      "nlp"
-    ],
+    "keywords": ["literary_studies", "nlp"],
     "comment": "The research data include projects in Dostoevsky's Russian, Old Chinese, and Kanbun, for which there are no ISO-639-2 language codes. The Arabic language data is also in Classical Arabic, for which there is no separate ISO-639-2 code."
   }
 }

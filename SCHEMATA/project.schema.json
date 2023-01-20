@@ -29,11 +29,11 @@
           "description": "Name of the record’s creator",
           "type": "string"
         },
-       "last_edited_on":{
-        "description":"Modification date of the record: YYYY-MM-DD",
-        "type":"string",
-        "default": "\\d{4}-\\d{2}-\\d{2}"
-       }
+        "last_edited_on": {
+          "description": "Modification date of the record: YYYY-MM-DD",
+          "type": "string",
+          "default": "\\d{4}-\\d{2}-\\d{2}"
+        }
       }
     },
     "project": {
@@ -102,17 +102,17 @@
             "pattern": "^\\w{1,3}$"
           }
         },
-        "host_institutions":{
+        "host_institutions": {
           "description": "Universities or research organizations which host the project",
           "type": "array",
-          "items":{
-            "type":"object",
+          "items": {
+            "type": "object",
             "required": ["org_name"],
-            "properties":{
-              "org_name":{
-                "type":"object",
-                "required":["text"],
-                "properties":{
+            "properties": {
+              "org_name": {
+                "type": "object",
+                "required": ["text"],
+                "properties": {
                   "text": {
                     "description": "Name of the institution",
                     "type": "string"
@@ -488,22 +488,21 @@
       "description": "Projects or organisations with uuid related to the project",
       "type": "array",
       "items": {
-            "type": "object",
-            "required": ["relation_type", "title", "uuid"],
-            "properties": {
-              "relation_type": {
-                "type": "string",
-                "enum": ["parent", "sibling", "child", "cooperation"]
-              },
-              "title": {
-                "type": "string"
-              },
-              "uuid": {
-                "type": "string"
-              }
-            }
+        "type": "object",
+        "required": ["relation_type", "title", "uuid"],
+        "properties": {
+          "relation_type": {
+            "type": "string",
+            "enum": ["parent", "sibling", "child", "cooperation"]
+          },
+          "title": {
+            "type": "string"
+          },
+          "uuid": {
+            "type": "string"
           }
         }
+      }
     }
   }
-
+}

@@ -4,7 +4,7 @@
     "uuid": "",
     "record_created_on": "",
     "record_created_by": "",
-    "last_edited_on":""
+    "last_edited_on": ""
   },
   "project": {
     "title": "",
@@ -32,16 +32,16 @@
       }
     ],
     "lang": [],
-    "host_institutions":[
+    "host_institutions": [
       {
-      "org_name": {
-        "text": "",
-        "ref": []
-      },
-      "websites": []
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": []
       }
     ],
-    "relations": [      
+    "relations": [
       {
         "relation_type": "parent",
         "title": "",

@@ -17,17 +17,13 @@
         "to": "2021"
       }
     ],
-    "websites": [
-      "https://www.clariah.de/"
-    ],
+    "websites": ["https://www.clariah.de/"],
     "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
     "places": [
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -37,9 +33,7 @@
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -47,10 +41,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "host_institutions": [],
     "relations": [
       {
@@ -68,9 +59,7 @@
       {
         "pers_name": {
           "text": "Hinrichs, Erhard",
-          "ref": [
-            "https://d-nb.info/gnd/143840657"
-          ]
+          "ref": ["https://d-nb.info/gnd/143840657"]
         },
         "role": 0,
         "websites": [
@@ -88,18 +77,14 @@
           "closed": 100,
           "margin": 0.0
         },
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -125,9 +110,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -153,9 +136,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -180,18 +161,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -200,11 +172,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -212,10 +180,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }
 }
