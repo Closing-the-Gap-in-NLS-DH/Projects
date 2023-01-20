@@ -29,25 +29,11 @@
           "description": "Name of the record’s creator",
           "type": "string"
         },
-        "record_modified": {
-          "description": "List of editors",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["record_modified_on", "record_modified_by"],
-            "properties": {
-              "record_modified_on": {
-                "description": "Modification date of the record: YYYY-MM-DD",
-                "type": "string",
-                "default": "\\d{4}-\\d{2}-\\d{2}"
-              },
-              "record_modified_by": {
-                "description": "Name of the editor",
-                "type": "string"
-              }
-            }
-          }
-        }
+       "last_edited_on":{
+        "description":"Modification date of the record: YYYY-MM-DD",
+        "type":"string",
+        "default": "\\d{4}-\\d{2}-\\d{2}"
+       }
       }
     },
     "project": {
