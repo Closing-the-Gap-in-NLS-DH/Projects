@@ -50,57 +50,17 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
         "websites": [
           "https://www.csmc.uni-hamburg.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Universität Hamburg",
-              "ref": [
-                "https://www.grid.ac/institutes/grid.9026.d"
-              ]
-            },
-            "website": [
-              "http://www.uni-hamburg.de/"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Hamburg",
-                  "ref": [
-                    "https://www.geonames.org/2911298/hamburg.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          }
         ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Helmut-Schmidt-Universität",
           "ref": [
@@ -110,22 +70,9 @@
         },
         "websites": [
           "https://www.hsu-hh.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Technische Universität Hamburg",
           "ref": [
@@ -135,22 +82,9 @@
         },
         "websites": [
           "http://www.tuhh.de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University College London",
           "ref": [
@@ -160,64 +94,47 @@
         },
         "websites": [
           "http://www.ucl.ac.uk"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "London",
-              "ref": [
-                "https://www.geonames.org/2643743/london.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
         "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
         "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The Persian Documents from al-Ḥaram al-Šarīf",
         "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
         "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
         "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
         "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
         "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
       }

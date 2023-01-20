@@ -50,16 +50,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Knowledge, Information Technology, and the Arabic Book",
-        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
-      },
-      {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Qatar National Library",
           "ref": [
@@ -69,18 +61,14 @@
         },
         "websites": [
           "https://www.qnl.qa/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Doha",
-              "ref": [
-                "https://www.geonames.org/290030/doha.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "parent",
+        "title": "Knowledge, Information Technology, and the Arabic Book",
+        "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df"
       }
     ],
     "contacts": [

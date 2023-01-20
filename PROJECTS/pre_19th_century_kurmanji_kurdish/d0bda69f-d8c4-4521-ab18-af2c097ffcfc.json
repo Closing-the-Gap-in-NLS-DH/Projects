@@ -38,10 +38,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Otto-Friedrich-Universität Bamberg",
           "ref": [
@@ -51,40 +49,27 @@
         },
         "websites": [
           "https://www.uni-bamberg.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bamberg",
-              "ref": [
-                "https://www.geonames.org/2952984/bamberg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Multilingual Corpus of Annotated Spoken Texts",
         "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
         "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Documentation of Gorani, an endangered language of West Iran",
         "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
         "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
       }

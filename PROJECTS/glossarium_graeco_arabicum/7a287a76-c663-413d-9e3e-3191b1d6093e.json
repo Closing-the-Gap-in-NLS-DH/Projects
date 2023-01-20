@@ -55,10 +55,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ruhr-Universität Bochum",
           "ref": [
@@ -68,22 +66,9 @@
         },
         "websites": [
           "https://www.ruhr-uni-bochum.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bochum",
-              "ref": [
-                "https://www.geonames.org/2947416/bochum.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Pisa",
           "ref": [
@@ -93,48 +78,10 @@
         },
         "websites": [
           "https://www.unipi.it/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": [
-                "https://www.geonames.org/3170647/pisa.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Greek into Arabic - Philosophical Concepts and Linguistic Bridges",
-        "ref": [],
-        "websites": [
-          "http://www.greekintoarabic.eu/index0b30.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bochum",
-              "ref": [
-                "https://www.geonames.org/2947416/bochum.html"
-              ]
-            }
-          },
-          {
-            "place_name": {
-              "text": "Pisa",
-              "ref": [
-                "https://www.geonames.org/3170647/pisa.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

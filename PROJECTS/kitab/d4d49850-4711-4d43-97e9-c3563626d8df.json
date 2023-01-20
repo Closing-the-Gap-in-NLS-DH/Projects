@@ -38,10 +38,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "The Aga Khan University (International)",
           "ref": [
@@ -51,36 +49,17 @@
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
           "https://www.aku.edu/Pages/home.aspx"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Karachi",
-              "ref": [
-                "https://www.geonames.org/1174872/karachi.html"
-              ]
-            }
-          },
-          {
-            "place_name": {
-              "text": "London",
-              "ref": [
-                "https://www.geonames.org/2643743/london.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "OpenITI",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f0"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Digital Sirah Project",
         "uuid": "3ecaadc2-5394-11ed-bdc3-0242ac120002"
       }

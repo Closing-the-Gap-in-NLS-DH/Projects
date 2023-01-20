@@ -51,10 +51,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Wien",
           "ref": [
@@ -64,20 +62,10 @@
         },
         "websites": [
           "https://www.univie.ac.at/en/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

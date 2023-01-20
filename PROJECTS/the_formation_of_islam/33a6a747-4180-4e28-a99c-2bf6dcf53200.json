@@ -38,10 +38,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Leiden University",
           "ref": [
@@ -51,20 +49,10 @@
         },
         "websites": [
           "http://www.leiden.edu"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leiden",
-              "ref": [
-                "https://www.geonames.org/2751773/leiden.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

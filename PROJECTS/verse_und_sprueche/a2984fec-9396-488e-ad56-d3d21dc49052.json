@@ -39,10 +39,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -52,42 +50,12 @@
         },
         "websites": [
           "https://www.fu-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Episteme in Bewegung - Wissenstransfer von der Alten Welt bis in die Frühe Neuzeit",
-        "ref": [],
-        "websites": [
-          "https://www.sfb-episteme.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Glossarion",
         "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
       }

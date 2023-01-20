@@ -39,10 +39,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Georg-August-Universität Göttingen",
           "ref": [
@@ -52,20 +50,10 @@
         },
         "websites": [
           "https://www.uni-goettingen.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": [
-                "https://www.geonames.org/2918632/goettingen.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

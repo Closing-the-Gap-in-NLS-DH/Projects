@@ -38,10 +38,8 @@
     "lang": [
       "ara"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Arab Center for Research and Policy Studies",
           "ref": [
@@ -50,22 +48,9 @@
         },
         "websites": [
           "https://www.dohainstitute.edu.qa/en/pages/default.aspx"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Doha",
-              "ref": [
-                "https://www.geonames.org/2643743/london.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Doha Institute for Graduate Studies",
           "ref": [
@@ -75,20 +60,10 @@
         },
         "websites": [
           "https://www.dohainstitute.org/en/Pages/index.aspx"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Doha",
-              "ref": [
-                "https://www.geonames.org/2643743/london.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

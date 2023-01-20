@@ -38,10 +38,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Harvard University",
           "ref": [
@@ -51,28 +49,17 @@
         },
         "websites": [
           "https://www.harvard.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "CorpusBuilder",
         "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
         "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
       }

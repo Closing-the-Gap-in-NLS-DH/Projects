@@ -43,10 +43,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
           "ref": [
@@ -55,20 +53,10 @@
         },
         "websites": [
           "http://www.hfjs.eu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Heidelberg",
-              "ref": [
-                "https://www.geonames.org/2907911/heidelberg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

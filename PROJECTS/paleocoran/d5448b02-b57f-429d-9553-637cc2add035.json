@@ -52,10 +52,8 @@
       "fre",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
           "ref": [
@@ -65,22 +63,9 @@
         },
         "websites": [
           "https://www.bbaw.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Collège de France",
           "ref": [
@@ -90,22 +75,12 @@
         },
         "websites": [
           "http://www.college-de-france.fr/site/college/index.htm"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": [
-                "http://www.geonames.org/2988506/paris.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
       }

@@ -51,10 +51,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität zu Köln",
           "ref": [
@@ -64,147 +62,27 @@
         },
         "websites": [
           "https://thomasinstitut.uni-koeln.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Köln",
-              "ref": [
-                "https://www.geonames.org/2886242/koeln.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
-      {
-        "relation_type": "parent",
-        "type": "project",
-        "title": "Averrois Opera (Corpus Philosophorum Medii Aevi)",
-        "ref": [],
-        "websites": [
-          "http://www.uai-iua.org/en/projects/90/averrois-opera-corpus-philosophorum-medii-aevi"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cairo",
-              "ref": [
-                "https://www.geonames.org/360630/cairo.html"
-              ]
-            }
-          },
-          {
-            "place_name": {
-              "text": "Düsseldorf",
-              "ref": [
-                "https://www.geonames.org/2934246/duesseldorf.html"
-              ]
-            }
-          },
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": [
-                "https://www.geonames.org/293198/jerusalem.html"
-              ]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Academy of the Arabic Language",
-              "ref": []
-            },
-            "website": [
-              "http://www.arabicacademy.org.eg/"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Cairo",
-                  "ref": [
-                    "https://www.geonames.org/360630/cairo.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          },
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
-              "ref": [
-                "http://www.geonames.org/maps/wikipedia_51.2096_6.7714.html"
-              ]
-            },
-            "website": [
-              "https://www.awk.nrw.de/startseite.html"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Düsseldorf",
-                  "ref": [
-                    "https://www.geonames.org/2934246/duesseldorf.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          },
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Israel Academy of Sciences and Humanities",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q209184"
-              ]
-            },
-            "website": [
-              "https://www.academy.ac.il/english.aspx"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Jerusalem",
-                  "ref": [
-                    "https://www.geonames.org/293198/jerusalem.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          }
         ]
-      },
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
         "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
         "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
         "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
         "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2"
       }

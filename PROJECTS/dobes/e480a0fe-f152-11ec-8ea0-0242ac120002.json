@@ -57,10 +57,8 @@
       "por",
       "rus"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Volkswagen Stiftung",
           "ref": [
@@ -70,22 +68,12 @@
         "websites": [
           "https://www.volkswagenstiftung.de/",
           "https://www.volkswagenstiftung.de/en/funding/documentation-of-endangered-languages"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hanover",
-              "ref": [
-                "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Documentation of Gorani, an endangered language of West Iran",
         "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
       }

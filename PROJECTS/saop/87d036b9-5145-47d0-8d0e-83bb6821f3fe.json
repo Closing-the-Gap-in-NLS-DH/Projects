@@ -98,10 +98,8 @@
       "swe",
       "tur"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -111,22 +109,9 @@
         },
         "websites": [
           "https://www.fu-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Stockholm University",
           "ref": [
@@ -136,44 +121,18 @@
         },
         "websites": [
           "https://www.su.se/cmlink/stockholm-university"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Stockholm",
-              "ref": [
-                "https://www.geonames.org/2673730/stockholm.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "St Ephrem Syriac Orthodox Monastery",
           "ref": []
         },
         "websites": [
           "https://morephrem.com/klooster/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Glane",
-              "ref": [
-                "http://www.geonames.org/2755497/glane.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Beth Mardutho Syriac Institute",
           "ref": [
@@ -183,42 +142,19 @@
         },
         "websites": [
           "https://bethmardutho.org/surayt/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Piscataway",
-              "ref": [
-                "https://www.geonames.org/5102713/piscataway.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
         "websites": [
           "http://midyatsuryanikulturdernegi.com/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Gölcük",
-              "ref": [
-                "http://www.geonames.org/746666/geulzuk.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

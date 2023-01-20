@@ -39,10 +39,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -52,22 +50,9 @@
         },
         "websites": [
           "https://www.saw-leipzig.de/de/aktuelles"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": [
-                "https://www.geonames.org/2879139/leipzig.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
           "ref": [
@@ -76,22 +61,9 @@
         },
         "websites": [
           "https://leibniz-gwzo.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": [
-                "https://www.geonames.org/2879139/leipzig.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Simon-Dubnow-Institut für Jüdische Geschichte und Kultur",
           "ref": [
@@ -101,22 +73,9 @@
         },
         "websites": [
           "https://www.dubnow.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": [
-                "https://www.geonames.org/2879139/leipzig.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
           "ref": [
@@ -125,22 +84,9 @@
         },
         "websites": [
           "https://www.isgv.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Dresden",
-              "ref": [
-                "http://www.geonames.org/2935022/dresden.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
           "ref": [
@@ -150,20 +96,10 @@
         },
         "websites": [
           "https://www.serbski-institut.de/de/home/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Bautzen",
-              "ref": [
-                "https://www.geonames.org/2951881/bautzen.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

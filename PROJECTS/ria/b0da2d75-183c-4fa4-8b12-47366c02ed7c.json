@@ -43,10 +43,8 @@
       "fre",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
@@ -56,22 +54,12 @@
         },
         "websites": [
           "https://badw.de/en/the-academy.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "München",
-              "ref": [
-                "http://www.geonames.org/2867714/munich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

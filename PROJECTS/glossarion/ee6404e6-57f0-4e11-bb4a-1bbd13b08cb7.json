@@ -37,10 +37,10 @@
       "eng",
       "ger"
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
         "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
       }

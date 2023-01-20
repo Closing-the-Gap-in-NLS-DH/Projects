@@ -26,10 +26,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Die Nationale Forschungsdateninfrastruktur (NFDI)",
           "ref": [
@@ -39,20 +37,10 @@
         },
         "websites": [
           "https://www.nfdi.de/verein/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Karlsruhe",
-              "ref": [
-                "https://www.geonames.org/2892794/karlsruhe.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

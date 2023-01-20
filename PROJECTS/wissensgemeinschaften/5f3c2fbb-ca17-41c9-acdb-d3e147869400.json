@@ -39,10 +39,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -52,20 +50,10 @@
         },
         "websites": [
           "https://www.lmu.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": [
-                "http://www.geonames.org/2867714/munich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -38,10 +38,10 @@
     "lang": [
       "eng"
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
         "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3"
       }

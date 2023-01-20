@@ -51,10 +51,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -64,22 +62,9 @@
         },
         "websites": [
           "https://www.fu-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bar-Ilan University",
           "ref": [
@@ -89,20 +74,10 @@
         },
         "websites": [
           "https://www.biu.ac.il/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Ramat Gan",
-              "ref": [
-                "https://www.geonames.org/293788/ramat-gan.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

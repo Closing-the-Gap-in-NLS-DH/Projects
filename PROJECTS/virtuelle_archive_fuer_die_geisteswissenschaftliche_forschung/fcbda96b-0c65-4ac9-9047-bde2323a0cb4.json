@@ -38,10 +38,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -51,20 +49,10 @@
         },
         "websites": [
           "https://www.saw-leipzig.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": [
-                "https://www.geonames.org/2879139/leipzig.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -39,10 +39,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Martin-Luther-Universität Halle-Wittenberg",
           "ref": [
@@ -52,20 +50,10 @@
         },
         "websites": [
           "http://www.uni-halle.de/?lang=en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Halle (Saale)",
-              "ref": [
-                "https://www.geonames.org/2911522/halle-saale.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

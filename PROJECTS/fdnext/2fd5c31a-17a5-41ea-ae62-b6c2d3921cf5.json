@@ -75,10 +75,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -88,22 +86,9 @@
         },
         "websites": [
           "https://www.hu-berlin.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -113,22 +98,9 @@
         },
         "websites": [
           "https://www.fu-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Technische Universität Berlin",
           "ref": [
@@ -138,22 +110,9 @@
         },
         "websites": [
           "https://www.tu.berlin/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Potsdam",
           "ref": [
@@ -163,22 +122,9 @@
         },
         "websites": [
           "https://www.uni-potsdam.de/de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Potsdam",
-              "ref": [
-                "http://www.geonames.org/2852458/potsdam.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Europa-Universität Viadrina Frankfurt (Oder)",
           "ref": [
@@ -188,22 +134,9 @@
         },
         "websites": [
           "https://www.europa-uni.de/en/index.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt (Oder)",
-              "ref": [
-                "http://www.geonames.org/2925535/frankfurt-oder.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
           "ref": [
@@ -213,20 +146,10 @@
         },
         "websites": [
           "https://www.b-tu.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cottbus",
-              "ref": [
-                "https://www.geonames.org/2939811/cottbus.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

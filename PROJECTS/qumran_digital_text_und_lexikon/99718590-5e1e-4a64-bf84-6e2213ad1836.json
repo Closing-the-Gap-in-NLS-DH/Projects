@@ -39,10 +39,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften zu Göttingen",
           "ref": [
@@ -52,22 +50,12 @@
         },
         "websites": [
           "https://adw-goe.de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": [
-                "https://www.geonames.org/2918632/goettingen.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Scripta Qumranica Electronica",
         "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
       }

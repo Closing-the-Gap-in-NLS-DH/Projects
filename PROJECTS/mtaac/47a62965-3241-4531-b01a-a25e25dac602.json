@@ -63,10 +63,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Toronto",
           "ref": [
@@ -76,22 +74,9 @@
         },
         "websites": [
           "https://www.utoronto.ca/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Toronto",
-              "ref": [
-                "https://www.geonames.org/6167865/toronto.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
           "ref": [
@@ -101,22 +86,9 @@
         },
         "websites": [
           "https://www.uni-frankfurt.de/de?locale=de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt",
-              "ref": [
-                "https://www.geonames.org/2925533/frankfurt-am-main.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of California, Los Angeles",
           "ref": [
@@ -126,22 +98,12 @@
         },
         "websites": [
           "https://www.ucla.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Los Angeles",
-              "ref": [
-                "https://www.geonames.org/5368361/los-angeles.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

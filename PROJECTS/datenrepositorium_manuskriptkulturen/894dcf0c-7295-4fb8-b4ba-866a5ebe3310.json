@@ -41,63 +41,25 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
         "websites": [
           "https://www.csmc.uni-hamburg.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Universität Hamburg",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q156725"
-              ]
-            },
-            "website": [
-              "http://www.uni-hamburg.de/"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Hamburg",
-                  "ref": [
-                    "https://www.geonames.org/2911298/hamburg.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          }
         ]
-      },
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
         "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
         "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
       }

@@ -51,10 +51,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -64,22 +62,9 @@
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg ",
-              "ref": [
-                "https://www.geonames.org/2805615/wuerzburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften und der Literatur Mainz",
           "ref": [
@@ -89,22 +74,12 @@
         },
         "websites": [
           "https://www.adwmainz.de/startseite.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Mainz",
-              "ref": [
-                "https://www.geonames.org/2874225/mainz.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Cuneiform Digital Library Initiative",
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }

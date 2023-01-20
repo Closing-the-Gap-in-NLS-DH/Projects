@@ -36,10 +36,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -49,20 +47,10 @@
         },
         "websites": [
           "https://www.princeton.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Princeton",
-              "ref": [
-                "https://www.geonames.org/5102922/princeton.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "lang": [
       "eng"
     ],

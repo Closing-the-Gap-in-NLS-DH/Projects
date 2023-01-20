@@ -35,26 +35,16 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "",
           "ref": []
         },
-        "websites": [],
-        "places": [
-          {
-            "place_name": {
-              "text": "",
-              "ref": []
-            }
-          }
-        ],
-        "relations": []
+        "websites": []
       }
     ],
+    "relations": [],
     "lang": [
       "eng"
     ],

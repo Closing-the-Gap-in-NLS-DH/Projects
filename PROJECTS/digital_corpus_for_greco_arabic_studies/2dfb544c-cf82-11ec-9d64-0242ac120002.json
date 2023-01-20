@@ -50,10 +50,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Harvard University",
           "ref": [
@@ -63,22 +61,9 @@
         },
         "websites": [
           "http://www.harvard.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/4931972/cambridge.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Tufts University",
           "ref": [
@@ -88,20 +73,10 @@
         },
         "websites": [
           "http://www.tufts.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Medford",
-              "ref": [
-                "https://www.geonames.org/4943629/medford.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

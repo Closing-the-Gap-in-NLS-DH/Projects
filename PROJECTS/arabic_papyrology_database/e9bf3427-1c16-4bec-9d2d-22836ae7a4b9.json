@@ -51,10 +51,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Ludwig-Maximilians-Universität Munich",
           "ref": [
@@ -64,22 +62,9 @@
         },
         "websites": [
           "https://www.lmu.de/de/index.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": [
-                "https://www.geonames.org/2867714/munich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Zürich",
           "ref": [
@@ -89,22 +74,12 @@
         },
         "websites": [
           "https://www.uzh.ch/de.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Zürich",
-              "ref": [
-                "https://www.geonames.org/7287650/zuerich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "A Digital Typology of Arabic Documents",
         "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66"
       }

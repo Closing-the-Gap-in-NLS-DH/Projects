@@ -38,10 +38,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Johannes Gutenberg-Universität Mainz",
           "ref": [
@@ -51,20 +49,10 @@
         },
         "websites": [
           "https://www.uni-mainz.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Mainz",
-              "ref": [
-                "https://www.geonames.org/2874224/mainz.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

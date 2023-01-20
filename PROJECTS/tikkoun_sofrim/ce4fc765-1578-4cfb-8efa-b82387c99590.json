@@ -63,10 +63,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "PSL Research University Paris",
           "ref": [
@@ -75,26 +73,9 @@
         },
         "websites": [
           "https://psl.eu/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": [
-                "http://www.geonames.org/2988506/paris.html"
-              ]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Haifa",
           "ref": [
@@ -103,26 +84,9 @@
         },
         "websites": [
           "https://www.haifa.ac.il/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Haifa",
-              "ref": [
-                "https://www.geonames.org/294801/haifa.html"
-              ]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "National Library of Israel",
           "ref": [
@@ -131,26 +95,12 @@
         },
         "websites": [
           "https://www.nli.org.il/en"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Jerusalem",
-              "ref": [
-                "https://www.geonames.org/281184/jerusalem.html"
-              ]
-            },
-            "coordinates": {
-              "lat": "",
-              "lng": ""
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Scripta-PSL",
         "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       }

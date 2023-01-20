@@ -76,10 +76,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of California, Los Angeles",
           "ref": [
@@ -89,22 +87,9 @@
         },
         "websites": [
           "https://www.ucla.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Los Angeles",
-              "ref": [
-                "https://www.geonames.org/5368361/los-angeles.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Oxford",
           "ref": [
@@ -114,22 +99,9 @@
         },
         "websites": [
           "http://www.ox.ac.uk"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Oxford",
-              "ref": [
-                "https://www.geonames.org/2640729/oxford.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Max-Planck-Institut für Wissenschaftsgeschichte",
           "ref": [
@@ -139,58 +111,42 @@
         },
         "websites": [
           "https://www.mpiwg-berlin.mpg.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "hhttps://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Mesopotamian Royal Inscriptions",
         "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Nimrud NW Palace",
         "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Mesopotamian Seals",
         "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
       },
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Machine Translation and Automated Analysis of Cuneiform Language",
         "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
         "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
       },
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
         "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c"
       },
       {
         "relation_type": "cooperation",
-        "type": "project",
         "title": "Hethitologie Portal Mainz",
         "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27"
       }

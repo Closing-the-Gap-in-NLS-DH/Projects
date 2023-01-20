@@ -48,10 +48,10 @@
         }
       }
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Orient-Digital",
         "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c"
       }

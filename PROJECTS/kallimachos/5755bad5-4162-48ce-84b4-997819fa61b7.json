@@ -42,10 +42,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -55,20 +53,10 @@
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg",
-              "ref": [
-                "https://www.geonames.org/2805615/wuerzburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

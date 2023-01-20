@@ -38,40 +38,35 @@
     "lang": [
       "eng"
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Script Styles versus Dialect and Language: A Case for Songhay in Islamic Manuscripts of Timbuktu and Jenne",
         "uuid": "96c7995f-dfc8-489c-baf3-c4347b67c6db"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The Persian Documents from al-Ḥaram al-Šarīf",
         "uuid": "c0d5f0ed-cd33-4224-bcc9-d386f23b6446"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
         "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
         "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
         "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51.json"
       }

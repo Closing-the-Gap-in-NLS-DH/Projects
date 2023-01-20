@@ -50,10 +50,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Warwick University",
           "ref": [
@@ -63,22 +61,9 @@
         },
         "websites": [
           "http://www2.warwick.ac.uk/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Coventry",
-              "ref": [
-                "https://www.geonames.org/2652221/coventry.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Oxford",
           "ref": [
@@ -88,20 +73,10 @@
         },
         "websites": [
           "http://www.ox.ac.uk"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Oxford",
-              "ref": [
-                "https://www.geonames.org/2640729/oxford.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -39,10 +39,8 @@
       "ara",
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Institut de Recherche et d’Histoire des Textes (IRHT)",
           "ref": [
@@ -52,20 +50,10 @@
         },
         "websites": [
           "https://www.irht.cnrs.fr/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Paris",
-              "ref": [
-                "http://www.geonames.org/2988506/paris.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

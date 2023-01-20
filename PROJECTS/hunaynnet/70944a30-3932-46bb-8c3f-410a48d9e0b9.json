@@ -40,10 +40,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -53,20 +51,10 @@
         },
         "websites": [
           "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

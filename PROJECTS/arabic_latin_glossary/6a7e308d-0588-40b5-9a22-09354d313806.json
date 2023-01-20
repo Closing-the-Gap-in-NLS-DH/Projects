@@ -39,10 +39,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -52,22 +50,12 @@
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg",
-              "ref": [
-                "https://www.geonames.org/2805615"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Arabic and Latin Corpus",
         "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
       }

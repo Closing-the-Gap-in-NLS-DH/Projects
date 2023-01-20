@@ -40,10 +40,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "University of Cambridge",
           "ref": [
@@ -53,20 +51,10 @@
         },
         "websites": [
           "https://www.cam.ac.uk/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Cambridge",
-              "ref": [
-                "https://www.geonames.org/2653941/cambridge.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

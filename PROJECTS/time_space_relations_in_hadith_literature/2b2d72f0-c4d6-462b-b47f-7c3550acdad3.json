@@ -35,10 +35,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Eberhard Karls Universität Tübingen",
           "ref": [
@@ -48,22 +46,12 @@
         },
         "websites": [
           "https://uni-tuebingen.de/en/university.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Tübingen",
-              "ref": [
-                "https://www.geonames.org/2820860/tuebingen.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Isnalyser",
         "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }

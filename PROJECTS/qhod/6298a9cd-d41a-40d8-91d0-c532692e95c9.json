@@ -64,10 +64,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -77,22 +75,9 @@
         },
         "websites": [
           "https://www.oeaw.ac.at/oesterreichische-akademie-der-wissenschaften"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Vienna",
-              "ref": [
-                "https://www.geonames.org/2761369/vienna.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Graz",
           "ref": [
@@ -102,22 +87,9 @@
         },
         "websites": [
           "https://www.uni-graz.at/de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Graz",
-              "ref": [
-                "https://www.geonames.org/2778067/graz.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Salzburg",
           "ref": [
@@ -127,28 +99,17 @@
         },
         "websites": [
           "https://www.plus.ac.at/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Salzburg",
-              "ref": [
-                "http://www.geonames.org/2766823/salzburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)",
         "uuid": "ff1ec94f-2233-46e9-b550-45c792ae581e"
       },
       {
         "relation_type": "child",
-        "type": "project",
         "title": "Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574)",
         "uuid": "e9b15bcd-05ec-4de1-95f5-07d5bb44e482"
       }

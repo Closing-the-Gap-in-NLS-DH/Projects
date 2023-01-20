@@ -40,10 +40,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "College of Saint Benedict & Saint John’s University",
           "ref": [
@@ -53,20 +51,10 @@
         },
         "websites": [
           "https://www.csbsju.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Collegeville",
-              "ref": [
-                "https://www.geonames.org/5021784/collegeville.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -75,28 +75,25 @@
     "lang": [
       "eng"
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       },
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "SHARIAsource",
         "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Automatic Collation for Diversifying Corpora",
         "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "CorpusBuilder",
         "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
       }

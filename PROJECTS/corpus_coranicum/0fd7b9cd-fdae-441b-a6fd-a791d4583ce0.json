@@ -40,57 +40,17 @@
       "fre",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
         "websites": [
           "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q219989"
-              ]
-            },
-            "website": [
-              "https://www.bbaw.de/"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Berlin",
-                  "ref": [
-                    "https://www.geonames.org/2950159/berlin.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          }
         ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Union der Deutschen Akademien der Wissenschaften",
           "ref": [
@@ -100,46 +60,32 @@
         },
         "websites": [
           "https://www.akademienunion.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Altägyptisches Wörterbuch",
         "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Coranica",
         "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Irankoran",
         "uuid": "8e4ab5b4-7298-4d55-b490-eb2943527981"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Paleocoran",
         "uuid": "d5448b02-b57f-429d-9553-637cc2add035"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
         "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
       }

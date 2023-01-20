@@ -36,10 +36,8 @@
       }
     ],
     "lang": [],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Texas A&M University",
           "ref": [
@@ -50,22 +48,9 @@
         "websites": [
           "https://codhr.dh.tamu.edu/",
           "https://www.tamu.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Laredo",
-              "ref": [
-                "https://www.geonames.org/4705349/laredo.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Vanderbilt University",
           "ref": [
@@ -75,22 +60,9 @@
         },
         "websites": [
           "https://www.vanderbilt.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Nashville",
-              "ref": [
-                "https://www.geonames.org/4644585/nashville.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -100,22 +72,9 @@
         },
         "websites": [
           "https://www.princeton.edu/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Princeton",
-              "ref": [
-                "https://www.geonames.org/5102922/princeton.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Marquette University",
           "ref": [
@@ -125,22 +84,9 @@
         },
         "websites": [
           "http://www.marquette.edu"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Milwaukee",
-              "ref": [
-                "https://www.geonames.org/5263045/milwaukee.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "New York University",
           "ref": [
@@ -150,22 +96,9 @@
         },
         "websites": [
           "http://www.nyu.edu"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "New York",
-              "ref": [
-                "https://www.geonames.org/5128581/new-york-city.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Beth Mardutho Research Library",
           "ref": [
@@ -174,20 +107,10 @@
         },
         "websites": [
           "https://bethmardutho.org/library/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Piscataway",
-              "ref": [
-                "https://www.geonames.org/5102713/piscataway.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

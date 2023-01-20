@@ -74,22 +74,20 @@
     "lang": [
       "eng"
     ],
+    "host_institutions": [],
     "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
         "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "CorpusBuilder",
         "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
       }

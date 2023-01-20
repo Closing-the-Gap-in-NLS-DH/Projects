@@ -65,10 +65,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Goethe-Universität Frankfurt am Main",
           "ref": [
@@ -78,22 +76,9 @@
         },
         "websites": [
           "http://www.goethe-university-frankfurt.de/en?"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Frankfurt",
-              "ref": [
-                "https://www.geonames.org/2925533/frankfurt-am-main.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Stuttgart",
           "ref": [
@@ -103,22 +88,9 @@
         },
         "websites": [
           "http://www.uni-stuttgart.de/home/index.en.html"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Stuttgart",
-              "ref": [
-                "https://www.geonames.org/2825297/stuttgart.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -128,20 +100,10 @@
         },
         "websites": [
           "https://www.hu-berlin.de/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "https://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

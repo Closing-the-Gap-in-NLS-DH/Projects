@@ -75,10 +75,8 @@
     "lang": [
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Staatsbibliothek zu Berlin",
           "ref": [
@@ -88,22 +86,9 @@
         },
         "websites": [
           "https://staatsbibliothek-berlin.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Berlin",
-              "ref": [
-                "http://www.geonames.org/2950159/berlin.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Erfurt",
           "ref": [
@@ -113,22 +98,9 @@
         },
         "websites": [
           "https://www.uni-erfurt.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Erfurt",
-              "ref": [
-                "https://www.geonames.org/2929670/erfurt.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Leipzig",
           "ref": [
@@ -138,22 +110,9 @@
         },
         "websites": [
           "https://www.uni-leipzig.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Leipzig",
-              "ref": [
-                "https://www.geonames.org/2879139/leipzig.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       },
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [
@@ -163,20 +122,10 @@
         },
         "websites": [
           "https://www.bsb-muenchen.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Munich",
-              "ref": [
-                "http://www.geonames.org/2867714/munich.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

@@ -50,10 +50,8 @@
     "lang": [
       "eng"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Universität Basel",
           "ref": [
@@ -63,22 +61,12 @@
         },
         "websites": [
           "https://www.unibas.ch/de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Basel",
-              "ref": [
-                "https://www.geonames.org/2661604/basel.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "parent",
-        "type": "project",
         "title": "Arabic Papyrology Database",
         "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
       }

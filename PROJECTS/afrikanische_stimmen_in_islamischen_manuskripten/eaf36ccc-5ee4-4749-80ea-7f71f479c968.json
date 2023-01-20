@@ -53,81 +53,40 @@
       "fre",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
         "websites": [
           "https://www.csmc.uni-hamburg.de/"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Hamburg",
-              "ref": [
-                "https://www.geonames.org/2911298/hamburg.html"
-              ]
-            }
-          }
-        ],
-        "relations": [
-          {
-            "relation_type": "parent",
-            "type": "organisation",
-            "org_name": {
-              "text": "Universität Hamburg",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q156725"
-              ]
-            },
-            "website": [
-              "http://www.uni-hamburg.de/"
-            ],
-            "places": [
-              {
-                "place_name": {
-                  "text": "Hamburg",
-                  "ref": [
-                    "https://www.geonames.org/2911298/hamburg.html"
-                  ]
-                }
-              }
-            ],
-            "relations": []
-          }
         ]
-      },
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
         "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
         "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
         "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
         "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
       },
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }

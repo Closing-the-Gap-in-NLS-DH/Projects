@@ -40,10 +40,8 @@
       "eng",
       "ger"
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Akademie der Wissenschaften zu Göttingen",
           "ref": [
@@ -53,20 +51,10 @@
         },
         "websites": [
           "https://adw-goe.de"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Göttingen",
-              "ref": [
-                "https://www.geonames.org/2918632/goettingen.html"
-              ]
-            }
-          }
-        ],
-        "relations": []
+        ]
       }
     ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {

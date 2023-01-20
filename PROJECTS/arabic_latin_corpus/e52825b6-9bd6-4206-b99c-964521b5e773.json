@@ -35,10 +35,8 @@
         }
       }
     ],
-    "relations": [
+    "host_institutions": [
       {
-        "relation_type": "parent",
-        "type": "organisation",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -48,22 +46,12 @@
         },
         "websites": [
           "https://www.uni-wuerzburg.de/startseite"
-        ],
-        "places": [
-          {
-            "place_name": {
-              "text": "Würzburg",
-              "ref": [
-                "https://www.geonames.org/2805615"
-              ]
-            }
-          }
-        ],
-        "relations": []
-      },
+        ]
+      }
+    ],
+    "relations": [
       {
         "relation_type": "sibling",
-        "type": "project",
         "title": "Arabic and Latin Glossary",
         "uuid": "6a7e308d-0588-40b5-9a22-09354d313806"
       }
