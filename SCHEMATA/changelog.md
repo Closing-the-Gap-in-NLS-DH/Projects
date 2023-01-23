@@ -10,3 +10,4 @@
      - allowing only entries with a uuid
      - moving parent organizations to a new separate element _host_institutions_
      - removing all other entries without a uuid
+   - _research_data_ element simplified by changing the _access_ object to a single number _open_access_
