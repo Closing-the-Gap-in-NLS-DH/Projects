@@ -10,7 +10,9 @@
     "title": "Tikkoun Sofrim",
     "abbr": "",
     "type": "project",
-    "ref": [""],
+    "ref": [
+      ""
+    ],
     "date": [
       {
         "from": "",
@@ -27,7 +29,9 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -37,7 +41,9 @@
       {
         "place_name": {
           "text": "Haifa",
-          "ref": ["https://www.geonames.org/294801/haifa.html"]
+          "ref": [
+            "https://www.geonames.org/294801/haifa.html"
+          ]
         },
         "coordinates": {
           "lat": "32.81841",
@@ -47,7 +53,9 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -59,23 +67,35 @@
       {
         "org_name": {
           "text": "PSL Research University Paris",
-          "ref": ["https://ror.org/03k9z2963"]
+          "ref": [
+            "https://ror.org/03k9z2963"
+          ]
         },
-        "websites": ["https://psl.eu/en"]
+        "websites": [
+          "https://psl.eu/en"
+        ]
       },
       {
         "org_name": {
           "text": "University of Haifa",
-          "ref": ["https://ror.org/02f009v59"]
+          "ref": [
+            "https://ror.org/02f009v59"
+          ]
         },
-        "websites": ["https://www.haifa.ac.il/"]
+        "websites": [
+          "https://www.haifa.ac.il/"
+        ]
       },
       {
         "org_name": {
           "text": "National Library of Israel",
-          "ref": ["https://ror.org/03be63z97"]
+          "ref": [
+            "https://ror.org/03be63z97"
+          ]
         },
-        "websites": ["https://www.nli.org.il/en"]
+        "websites": [
+          "https://www.nli.org.il/en"
+        ]
       }
     ],
     "relations": [
@@ -85,7 +105,11 @@
         "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       }
     ],
-    "lang": ["eng", "fre", "heb"],
+    "lang": [
+      "eng",
+      "fre",
+      "heb"
+    ],
     "contacts": [
       {
         "pers_name": {
@@ -95,19 +119,21 @@
           ]
         },
         "role": 0,
-        "websites": ["http://haifahci.net/people/alan-wecker/"]
+        "websites": [
+          "http://haifahci.net/people/alan-wecker/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 0,
-          "margin": 0
-        },
-        "licensing": [""]
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {

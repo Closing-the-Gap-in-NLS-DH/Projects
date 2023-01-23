@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -44,7 +48,10 @@
         }
       }
     ],
-    "lang": ["eng", "heb"],
+    "lang": [
+      "eng",
+      "heb"
+    ],
     "host_institutions": [
       {
         "org_name": {
@@ -54,7 +61,9 @@
             "https://www.wikidata.org/wiki/Q209184"
           ]
         },
-        "websites": ["https://www.academy.ac.il/english.aspx"]
+        "websites": [
+          "https://www.academy.ac.il/english.aspx"
+        ]
       },
       {
         "org_name": {
@@ -64,14 +73,18 @@
             "https://www.wikidata.org/wiki/Q188915"
           ]
         },
-        "websites": ["https://www.nli.org.il/en"]
+        "websites": [
+          "https://www.nli.org.il/en"
+        ]
       },
       {
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"]
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ]
       }
     ],
     "relations": [],
@@ -79,7 +92,9 @@
       {
         "pers_name": {
           "text": "Bet-Aryeh, Mal’akhi",
-          "ref": ["https://d-nb.info/gnd/104345179"]
+          "ref": [
+            "https://d-nb.info/gnd/104345179"
+          ]
         },
         "role": 0,
         "websites": [
@@ -88,22 +103,24 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 100,
-          "margin": 0.0
-        },
-        "licensing": [""]
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -129,7 +146,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -155,7 +174,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -180,9 +201,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -191,7 +221,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -199,7 +233,10 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "repository"],
+    "keywords": [
+      "manuscripts",
+      "repository"
+    ],
     "comment": ""
   }
 }

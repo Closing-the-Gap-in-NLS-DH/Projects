@@ -25,7 +25,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -35,7 +37,9 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": [
+            "http://www.geonames.org/2988506/paris.html"
+          ]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -43,7 +47,11 @@
         }
       }
     ],
-    "lang": ["eng", "fre", "ger"],
+    "lang": [
+      "eng",
+      "fre",
+      "ger"
+    ],
     "host_institutions": [
       {
         "org_name": {
@@ -53,14 +61,20 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"]
+        "websites": [
+          "https://www.bbaw.de/"
+        ]
       },
       {
         "org_name": {
           "text": "Académie des Inscriptions et Belles-Lettres Paris",
-          "ref": ["https://www.wikidata.org/wiki/Q337526"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q337526"
+          ]
         },
-        "websites": ["https://www.aibl.fr/?lang=fr"]
+        "websites": [
+          "https://www.aibl.fr/?lang=fr"
+        ]
       }
     ],
     "relations": [
@@ -74,7 +88,9 @@
       {
         "pers_name": {
           "text": "Neuwirth, Angelika",
-          "ref": ["https://d-nb.info/gnd/108800083"]
+          "ref": [
+            "https://d-nb.info/gnd/108800083"
+          ]
         },
         "role": 0,
         "websites": [
@@ -84,7 +100,9 @@
       {
         "pers_name": {
           "text": "Robin, Christian Julien",
-          "ref": ["https://www.wikidata.org/wiki/Q27919930"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27919930"
+          ]
         },
         "role": 0,
         "websites": [
@@ -93,22 +111,24 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 100,
-          "margin": 0.0
-        },
-        "licensing": [""]
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -134,7 +154,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -160,7 +182,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "access": {
                 "open": 0.0,
                 "closed": 100.0,
@@ -185,9 +209,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -196,7 +229,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
