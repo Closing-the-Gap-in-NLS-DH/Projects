@@ -123,15 +123,13 @@
         <link-bubble :href="source" type="git" />
         <div
           v-if="
-            metadata.record_modified[metadata.record_modified.length - 1]
-              .record_modified_on
+            metadata.last_edited_on
           "
           class="bright-text absolute right-5 mt-1 text-sm"
         >
           Last edit:
           {{
-            metadata.record_modified[metadata.record_modified.length - 1]
-              .record_modified_on
+            metadata.last_edited_on
           }}
         </div>
       </div>
