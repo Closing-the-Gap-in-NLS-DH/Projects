@@ -34,7 +34,7 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": ["deu", "eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -88,11 +88,11 @@
         "dar",
         "eng",
         "erk",
-        "gre",
+        "fas",
+        "grc",
         "kac",
         "kgv",
         "kmr",
-        "per",
         "tab",
         "tdn",
         "tio",

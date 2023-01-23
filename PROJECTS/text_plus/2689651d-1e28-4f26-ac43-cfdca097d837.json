@@ -20,7 +20,7 @@
     "websites": ["https://www.text-plus.org/"],
     "project_desc": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
     "places": [],
-    "lang": ["eng", "ger"],
+    "lang": ["deu", "eng"],
     "host_institutions": [
       {
         "org_name": {

@@ -79,7 +79,7 @@
         }
       }
     ],
-    "lang": ["ara", "dut", "eng", "ger", "fre", "swe", "tur"],
+    "lang": ["ara", "deu", "eng", "fra", "nld", "swe", "tur"],
     "host_institutions": [
       {
         "org_name": {

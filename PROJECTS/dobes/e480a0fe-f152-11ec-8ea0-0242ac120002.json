@@ -43,7 +43,7 @@
         }
       }
     ],
-    "lang": ["eng", "fra", "ind", "spa", "por", "rus"],
+    "lang": ["eng", "fra", "ind", "por", "rus", "spa"],
     "host_institutions": [
       {
         "org_name": {

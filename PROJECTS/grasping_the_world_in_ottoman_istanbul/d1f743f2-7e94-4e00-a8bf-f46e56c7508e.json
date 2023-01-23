@@ -81,7 +81,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat", "per", "tur"],
+      "lang": ["ara", "fas", "lat", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
