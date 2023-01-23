@@ -67,11 +67,7 @@
       "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 100,
-          "closed": 0,
-          "margin": 0
-        },
+        "open_access": 100,
         "licensing": ["GPL 3.0"]
       },
       "data": {

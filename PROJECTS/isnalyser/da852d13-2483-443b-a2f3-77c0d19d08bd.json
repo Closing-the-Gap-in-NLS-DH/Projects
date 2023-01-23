@@ -56,11 +56,7 @@
       "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 100,
-          "margin": 0.0
-        },
+        "open_access": 0,
         "licensing": [""]
       },
       "data": {

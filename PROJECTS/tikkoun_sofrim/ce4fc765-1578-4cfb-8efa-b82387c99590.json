@@ -102,11 +102,7 @@
       "lang": ["heb"],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 0,
-          "margin": 0
-        },
+        "open_access": 0,
         "licensing": [""]
       },
       "data": {

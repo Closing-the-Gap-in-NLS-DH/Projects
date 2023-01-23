@@ -95,11 +95,7 @@
       "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 0,
-          "closed": 100,
-          "margin": 0.0
-        },
+        "open_access": 0,
         "licensing": [""]
       },
       "data": {
@@ -108,11 +104,7 @@
             {
               "label": "",
               "licensing": [""],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -134,11 +126,7 @@
             {
               "label": "",
               "licensing": [""],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -160,11 +148,7 @@
             {
               "label": "",
               "licensing": [""],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [

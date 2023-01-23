@@ -70,11 +70,7 @@
       "lang": ["ara", "efi", "eng", "kan", "ota", "que", "tir", "yid", "yor"],
       "sustainability_plan": null,
       "publications": {
-        "access": {
-          "open": 100,
-          "closed": 0,
-          "margin": 0
-        },
+        "open_access": 100,
         "licensing": ["MIT"]
       },
       "data": {
