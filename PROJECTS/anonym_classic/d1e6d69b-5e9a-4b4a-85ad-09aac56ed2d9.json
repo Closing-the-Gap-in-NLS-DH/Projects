@@ -88,11 +88,7 @@
               "licensing": [
                 ""
               ],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -116,11 +112,7 @@
               "licensing": [
                 ""
               ],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -144,11 +136,7 @@
               "licensing": [
                 ""
               ],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "open_access": 0
             }
           ],
           "repositories": [
