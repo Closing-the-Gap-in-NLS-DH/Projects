@@ -31,7 +31,7 @@
         }
       }
     ],
-    "lang": ["eng", "fre", "ger"],
+    "lang": ["deu", "eng", "fra"],
     "host_institutions": [
       {
         "org_name": {
@@ -101,7 +101,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "eng", "fre", "ger"],
+      "lang": ["ara", "deu", "eng", "fra"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

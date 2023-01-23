@@ -54,7 +54,7 @@
         }
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": ["deu", "eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -112,7 +112,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ger", "tur"],
+      "lang": ["deu", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

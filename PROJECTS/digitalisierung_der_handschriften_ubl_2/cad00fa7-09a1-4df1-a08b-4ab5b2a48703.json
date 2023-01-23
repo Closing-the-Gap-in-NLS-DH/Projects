@@ -33,7 +33,7 @@
         }
       }
     ],
-    "lang": ["ara", "eng", "ger"],
+    "lang": ["ara", "deu", "eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -71,7 +71,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "per", "tur"],
+      "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

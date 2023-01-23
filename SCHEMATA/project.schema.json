@@ -463,10 +463,10 @@
         ]
       }
     },
-    "open_access":{
-        "type": "number",
-        "minimum": 0,
-        "maximum": 100
+    "open_access": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
     },
     "relatives": {
       "description": "Projects or organisations with uuid related to the project",

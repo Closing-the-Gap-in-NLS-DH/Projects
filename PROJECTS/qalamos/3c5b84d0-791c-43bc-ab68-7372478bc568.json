@@ -52,7 +52,7 @@
         "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c"
       }
     ],
-    "lang": ["eng", "ger"],
+    "lang": ["deu", "eng"],
     "contacts": [
       {
         "pers_name": {
@@ -66,7 +66,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "per", "tur"],
+      "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
