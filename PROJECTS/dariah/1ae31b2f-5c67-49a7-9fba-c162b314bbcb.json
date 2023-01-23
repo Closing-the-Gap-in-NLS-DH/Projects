@@ -10,26 +10,20 @@
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
     "abbr": "DARIAH",
     "type": "organisation",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q49103279"
-    ],
+    "ref": ["https://www.wikidata.org/wiki/Q49103279"],
     "date": [
       {
         "from": "2006",
         "to": ""
       }
     ],
-    "websites": [
-      "https://www.dariah.eu/"
-    ],
+    "websites": ["https://www.dariah.eu/"],
     "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries. It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyze and interpret digital resources.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "http://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["http://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -39,9 +33,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -51,9 +43,7 @@
       {
         "place_name": {
           "text": "Dublin",
-          "ref": [
-            "https://www.geonames.org/2964574/dublin.html"
-          ]
+          "ref": ["https://www.geonames.org/2964574/dublin.html"]
         },
         "coordinates": {
           "lat": "53.33306",
@@ -63,9 +53,7 @@
       {
         "place_name": {
           "text": "The Hague",
-          "ref": [
-            "https://www.geonames.org/2747373/the-hague.html"
-          ]
+          "ref": ["https://www.geonames.org/2747373/the-hague.html"]
         },
         "coordinates": {
           "lat": "52.07667",
@@ -75,9 +63,7 @@
       {
         "place_name": {
           "text": "Lisbon",
-          "ref": [
-            "https://www.geonames.org/2267057/lisbon.html"
-          ]
+          "ref": ["https://www.geonames.org/2267057/lisbon.html"]
         },
         "coordinates": {
           "lat": "38.71667",
@@ -87,9 +73,7 @@
       {
         "place_name": {
           "text": "Rome",
-          "ref": [
-            "https://www.geonames.org/3169070/rome.html"
-          ]
+          "ref": ["https://www.geonames.org/3169070/rome.html"]
         },
         "coordinates": {
           "lat": "41.89193",
@@ -99,9 +83,7 @@
       {
         "place_name": {
           "text": "Cork",
-          "ref": [
-            "https://www.geonames.org/2965140/cork.html"
-          ]
+          "ref": ["https://www.geonames.org/2965140/cork.html"]
         },
         "coordinates": {
           "lat": "51.89797",
@@ -111,9 +93,7 @@
       {
         "place_name": {
           "text": "Luxembourg",
-          "ref": [
-            "https://www.geonames.org/2960316/luxembourg.html"
-          ]
+          "ref": ["https://www.geonames.org/2960316/luxembourg.html"]
         },
         "coordinates": {
           "lat": "49.61167",
@@ -123,9 +103,7 @@
       {
         "place_name": {
           "text": "Gent",
-          "ref": [
-            "https://www.geonames.org/2797656/gent.html"
-          ]
+          "ref": ["https://www.geonames.org/2797656/gent.html"]
         },
         "coordinates": {
           "lat": "51.05",
@@ -135,9 +113,7 @@
       {
         "place_name": {
           "text": "Amsterdam",
-          "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
-          ]
+          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
         },
         "coordinates": {
           "lat": "52.37403",
@@ -147,9 +123,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -159,9 +133,7 @@
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": [
-            "http://www.geonames.org/2618424/kobenhavn.html"
-          ]
+          "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
         },
         "coordinates": {
           "lat": "55.6711",
@@ -171,9 +143,7 @@
       {
         "place_name": {
           "text": "Warsaw",
-          "ref": [
-            "https://www.geonames.org/756135/warsaw.html"
-          ]
+          "ref": ["https://www.geonames.org/756135/warsaw.html"]
         },
         "coordinates": {
           "lat": "52.22977",
@@ -183,9 +153,7 @@
       {
         "place_name": {
           "text": "Prague",
-          "ref": [
-            "https://www.geonames.org/3067696/prague.html"
-          ]
+          "ref": ["https://www.geonames.org/3067696/prague.html"]
         },
         "coordinates": {
           "lat": "50.08804",
@@ -195,9 +163,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -207,9 +173,7 @@
       {
         "place_name": {
           "text": "Ljubljana",
-          "ref": [
-            "https://www.geonames.org/3196359/ljubljana.html"
-          ]
+          "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
         },
         "coordinates": {
           "lat": "46.05108",
@@ -219,9 +183,7 @@
       {
         "place_name": {
           "text": "Centar",
-          "ref": [
-            "https://www.geonames.org/6618983/centar.html"
-          ]
+          "ref": ["https://www.geonames.org/6618983/centar.html"]
         },
         "coordinates": {
           "lat": "45.81313",
@@ -231,9 +193,7 @@
       {
         "place_name": {
           "text": "Sarajevo",
-          "ref": [
-            "https://www.geonames.org/3191281/sarajevo.html"
-          ]
+          "ref": ["https://www.geonames.org/3191281/sarajevo.html"]
         },
         "coordinates": {
           "lat": "43.84864",
@@ -243,9 +203,7 @@
       {
         "place_name": {
           "text": "Belgrade",
-          "ref": [
-            "https://www.geonames.org/792680/belgrade.html"
-          ]
+          "ref": ["https://www.geonames.org/792680/belgrade.html"]
         },
         "coordinates": {
           "lat": "44.80401",
@@ -255,9 +213,7 @@
       {
         "place_name": {
           "text": "Sofia",
-          "ref": [
-            "https://www.geonames.org/727011/sofia.html"
-          ]
+          "ref": ["https://www.geonames.org/727011/sofia.html"]
         },
         "coordinates": {
           "lat": "42.69751",
@@ -267,9 +223,7 @@
       {
         "place_name": {
           "text": "Athens",
-          "ref": [
-            "https://www.geonames.org/264371/athens.html"
-          ]
+          "ref": ["https://www.geonames.org/264371/athens.html"]
         },
         "coordinates": {
           "lat": "37.98376",
@@ -279,9 +233,7 @@
       {
         "place_name": {
           "text": "Limassol",
-          "ref": [
-            "https://www.geonames.org/146384/limassol.html"
-          ]
+          "ref": ["https://www.geonames.org/146384/limassol.html"]
         },
         "coordinates": {
           "lat": "34.68406",
@@ -289,9 +241,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -301,9 +251,7 @@
             "https://ror.org/0331qyx19"
           ]
         },
-        "websites": [
-          "http://www.cnrs.fr/index.php"
-        ]
+        "websites": ["http://www.cnrs.fr/index.php"]
       },
       {
         "org_name": {
@@ -313,9 +261,7 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": [
-          "http://www.unl.pt/en/"
-        ]
+        "websites": ["http://www.unl.pt/en/"]
       },
       {
         "org_name": {
@@ -325,9 +271,7 @@
             "https://ror.org/03bjn0010"
           ]
         },
-        "websites": [
-          "https://www.cnr.it/it"
-        ]
+        "websites": ["https://www.cnr.it/it"]
       },
       {
         "org_name": {
@@ -337,9 +281,7 @@
             "https://www.wikidata.org/wiki/Q1574185"
           ]
         },
-        "websites": [
-          "http://www.ucc.ie/en/"
-        ]
+        "websites": ["http://www.ucc.ie/en/"]
       },
       {
         "org_name": {
@@ -349,9 +291,7 @@
             "https://ror.org/036x5ad56"
           ]
         },
-        "websites": [
-          "http://wwwen.uni.lu/"
-        ]
+        "websites": ["http://wwwen.uni.lu/"]
       },
       {
         "org_name": {
@@ -361,9 +301,7 @@
             "https://ror.org/00cv9y106"
           ]
         },
-        "websites": [
-          "https://www.ugent.be/en"
-        ]
+        "websites": ["https://www.ugent.be/en"]
       },
       {
         "org_name": {
@@ -373,20 +311,14 @@
             "https://ror.org/05dq4pp56"
           ]
         },
-        "websites": [
-          "https://socialhistory.org/en"
-        ]
+        "websites": ["https://socialhistory.org/en"]
       },
       {
         "org_name": {
           "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q564783"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q564783"]
         },
-        "websites": [
-          "https://www.sub.uni-goettingen.de/sub-aktuell/"
-        ]
+        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"]
       },
       {
         "org_name": {
@@ -408,9 +340,7 @@
             "https://ror.org/039bjqg32"
           ]
         },
-        "websites": [
-          "http://en.uw.edu.pl/"
-        ]
+        "websites": ["http://en.uw.edu.pl/"]
       },
       {
         "org_name": {
@@ -420,9 +350,7 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": [
-          "https://cuni.cz/UKEN-1.html"
-        ]
+        "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
         "org_name": {
@@ -432,9 +360,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
-        ]
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
         "org_name": {
@@ -444,9 +370,7 @@
             "https://ror.org/008pp7a77"
           ]
         },
-        "websites": [
-          "http://www.inz.si/index-en.php"
-        ]
+        "websites": ["http://www.inz.si/index-en.php"]
       },
       {
         "org_name": {
@@ -456,9 +380,7 @@
             "https://ror.org/04mpn1847"
           ]
         },
-        "websites": [
-          "http://www.ief.hr/"
-        ]
+        "websites": ["http://www.ief.hr/"]
       },
       {
         "org_name": {
@@ -468,9 +390,7 @@
             "https://ror.org/02hhwgd43"
           ]
         },
-        "websites": [
-          "http://www.unsa.ba/s/index.php"
-        ]
+        "websites": ["http://www.unsa.ba/s/index.php"]
       },
       {
         "org_name": {
@@ -480,9 +400,7 @@
             "https://ror.org/02f2wk572"
           ]
         },
-        "websites": [
-          "http://www.sanu.ac.rs/"
-        ]
+        "websites": ["http://www.sanu.ac.rs/"]
       },
       {
         "org_name": {
@@ -492,9 +410,7 @@
             "https://www.wikidata.org/wiki/Q841581"
           ]
         },
-        "websites": [
-          "https://www.uni-sofia.bg/"
-        ]
+        "websites": ["https://www.uni-sofia.bg/"]
       },
       {
         "org_name": {
@@ -504,9 +420,7 @@
             "https://ror.org/00qsdn986"
           ]
         },
-        "websites": [
-          "http://www.academyofathens.gr/echome.asp?lang=2"
-        ]
+        "websites": ["http://www.academyofathens.gr/echome.asp?lang=2"]
       },
       {
         "org_name": {
@@ -516,9 +430,7 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": [
-          "http://www.cut.ac.cy/?languageId=2"
-        ]
+        "websites": ["http://www.cut.ac.cy/?languageId=2"]
       }
     ],
     "relations": [
@@ -545,21 +457,15 @@
           "ref": []
         },
         "role": 0,
-        "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
-        ]
+        "websites": ["https://www.dariah.eu/network/we-are-dariah-team"]
       },
       {
         "pers_name": {
           "text": "Scharnhorst, Andrea",
-          "ref": [
-            "https://d-nb.info/gnd/1024345688"
-          ]
+          "ref": ["https://d-nb.info/gnd/1024345688"]
         },
         "role": 0,
-        "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
-        ]
+        "websites": ["https://www.dariah.eu/network/we-are-dariah-team"]
       }
     ],
     "research_data": {
@@ -567,18 +473,14 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -600,9 +502,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -624,9 +524,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -647,18 +545,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -667,11 +556,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -679,10 +564,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }
 }

@@ -62,7 +62,7 @@
       "lang": [],
       "sustainability_plan": null,
       "publications": {
-        "open_access":0,
+        "open_access": 0,
         "licensing": [""]
       },
       "data": {
@@ -71,7 +71,7 @@
             {
               "label": "",
               "licensing": [""],
-              "open_access":0
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -93,7 +93,7 @@
             {
               "label": "",
               "licensing": [""],
-              "open_access":0
+              "open_access": 0
             }
           ],
           "repositories": [
@@ -115,7 +115,7 @@
             {
               "label": "",
               "licensing": [""],
-              "open_access":0
+              "open_access": 0
             }
           ],
           "repositories": [

@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -36,10 +34,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "host_institutions": [
       {
         "org_name": {
@@ -49,9 +44,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
-        ]
+        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
         "org_name": {
@@ -61,9 +54,7 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": [
-          "https://www.univie.ac.at/en/"
-        ]
+        "websites": ["https://www.univie.ac.at/en/"]
       }
     ],
     "relations": [
@@ -102,9 +93,7 @@
       {
         "pers_name": {
           "text": "Procházka, Stephan",
-          "ref": [
-            "https://d-nb.info/gnd/136441688"
-          ]
+          "ref": ["https://d-nb.info/gnd/136441688"]
         },
         "role": 0,
         "websites": [
@@ -113,24 +102,18 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -152,9 +135,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -176,9 +157,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -199,18 +178,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -219,11 +189,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -231,11 +197,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "dialectology",
-      "language_documentation",
-      "linguistics"
-    ],
+    "keywords": ["dialectology", "language_documentation", "linguistics"],
     "comment": ""
   }
 }

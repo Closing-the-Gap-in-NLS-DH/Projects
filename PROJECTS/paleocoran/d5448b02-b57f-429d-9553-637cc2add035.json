@@ -17,17 +17,13 @@
         "to": "2018"
       }
     ],
-    "websites": [
-      "https://www.bbaw.de/forschung/paleocoran"
-    ],
+    "websites": ["https://www.bbaw.de/forschung/paleocoran"],
     "project_desc": "PALEOCORAN examines Qur’anic manuscripts that once belonged to the ‘Amr ibn al-‘Āṣ Mosque in al-Fusṭāṭ (Old Cairo) – one of the most significant Qur’anic Libraries – and are now scattered across the globe. The main objective of the project is to reconstruct the library and to make the manuscripts available digitally.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "http://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["http://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -37,9 +33,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "http://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["http://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -47,11 +41,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "fre",
-      "ger"
-    ],
+    "lang": ["eng", "fre", "ger"],
     "host_institutions": [
       {
         "org_name": {
@@ -61,9 +51,7 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       },
       {
         "org_name": {
@@ -73,9 +61,7 @@
             "https://ror.org/04ex24z53"
           ]
         },
-        "websites": [
-          "http://www.college-de-france.fr/site/college/index.htm"
-        ]
+        "websites": ["http://www.college-de-france.fr/site/college/index.htm"]
       }
     ],
     "relations": [
@@ -98,24 +84,18 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -137,9 +117,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -161,9 +139,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -184,18 +160,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -204,11 +171,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -216,11 +179,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "manuscripts",
-      "religious_text"
-    ],
+    "keywords": ["digital_edition", "manuscripts", "religious_text"],
     "comment": ""
   }
 }

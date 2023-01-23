@@ -17,17 +17,13 @@
         "to": "2012"
       }
     ],
-    "websites": [
-      "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch"
-    ],
+    "websites": ["https://www.bbaw.de/forschung/altaegyptisches-woerterbuch"],
     "project_desc": "Altägyptisches Wörterbuch is a digital corpus of religious, juristic and administrative texts form ancient Egypt which were originally found in temples, tombs or on papyrus documents and which cover over 3000 years of Egyptian language history. The corpus together with a vast documentation of vocabulary and the ways it was used has been made available by open access and is updated regularly.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -35,18 +31,14 @@
         }
       }
     ],
-    "lang": [
-      "ger"
-    ],
+    "lang": ["ger"],
     "host_institutions": [
       {
         "org_name": {
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
-        "websites": [
-          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
-        ]
+        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
       }
     ],
     "relations": [
@@ -65,9 +57,7 @@
       {
         "pers_name": {
           "text": "Seidlmayer, Stephan Johannes",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q2343850"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q2343850"]
         },
         "role": 0,
         "websites": [
@@ -76,24 +66,18 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "cop"
-      ],
+      "lang": ["cop"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -115,9 +99,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -139,9 +121,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -162,18 +142,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -182,11 +153,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -194,10 +161,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "dictionary",
-      "historical_language"
-    ],
+    "keywords": ["dictionary", "historical_language"],
     "comment": ""
   }
 }

@@ -25,9 +25,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -37,9 +35,7 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/293198/jerusalem.html"
-          ]
+          "ref": ["https://www.geonames.org/293198/jerusalem.html"]
         },
         "coordinates": {
           "lat": "31.75",
@@ -47,9 +43,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -59,9 +53,7 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
+        "websites": ["https://www.lmu.de/de/index.html"]
       },
       {
         "org_name": {
@@ -71,9 +63,7 @@
             "https://www.wikidata.org/wiki/Q174158"
           ]
         },
-        "websites": [
-          "https://en.huji.ac.il/en"
-        ]
+        "websites": ["https://en.huji.ac.il/en"]
       }
     ],
     "relations": [],
@@ -81,9 +71,7 @@
       {
         "pers_name": {
           "text": "Vollandt, Ronny",
-          "ref": [
-            "https://d-nb.info/gnd/1173742050"
-          ]
+          "ref": ["https://d-nb.info/gnd/1173742050"]
         },
         "role": 0,
         "websites": [
@@ -93,9 +81,7 @@
       {
         "pers_name": {
           "text": "Goldstein, Miriam",
-          "ref": [
-            "https://d-nb.info/gnd/1019351853"
-          ]
+          "ref": ["https://d-nb.info/gnd/1019351853"]
         },
         "role": 0,
         "websites": [
@@ -105,9 +91,7 @@
       {
         "pers_name": {
           "text": "Sklare, David",
-          "ref": [
-            "https://d-nb.info/gnd/1158385684"
-          ]
+          "ref": ["https://d-nb.info/gnd/1158385684"]
         },
         "role": 1,
         "websites": [
@@ -116,25 +100,18 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "heb"
-      ],
+      "lang": ["ara", "heb"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -156,9 +133,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -180,9 +155,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -203,18 +176,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -223,11 +187,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {

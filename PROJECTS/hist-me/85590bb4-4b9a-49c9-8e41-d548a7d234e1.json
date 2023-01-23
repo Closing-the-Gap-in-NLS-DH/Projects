@@ -17,9 +17,7 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://github.com/Hist-ME"
-    ],
+    "websites": ["https://github.com/Hist-ME"],
     "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
@@ -40,9 +38,7 @@
       {
         "pers_name": {
           "text": "Grossner, Karl",
-          "ref": [
-            "http://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"
-          ]
+          "ref": ["http://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"]
         },
         "role": 0,
         "websites": [
@@ -84,9 +80,7 @@
       {
         "pers_name": {
           "text": "Grallert, Till",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q110952396"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q110952396"]
         },
         "role": 0,
         "websites": [
@@ -99,18 +93,14 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -132,9 +122,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -156,9 +144,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -179,18 +165,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -199,11 +176,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -211,9 +184,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management"
-    ],
+    "keywords": ["research_data_management"],
     "comment": ""
   }
 }

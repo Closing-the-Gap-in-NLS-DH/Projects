@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -37,19 +35,14 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "ger"
-    ],
+    "lang": ["eng", "ger"],
     "host_institutions": [
       {
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": [
-          "https://www.csmc.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.csmc.uni-hamburg.de/"]
       }
     ],
     "relations": [
@@ -68,9 +61,7 @@
       {
         "pers_name": {
           "text": "Brockmann, Christian",
-          "ref": [
-            "https://d-nb.info/gnd/137576218"
-          ]
+          "ref": ["https://d-nb.info/gnd/137576218"]
         },
         "role": 0,
         "websites": [
@@ -84,18 +75,14 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -117,9 +104,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -141,9 +126,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -164,18 +147,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -184,11 +158,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -196,10 +166,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "manuscripts",
-      "software"
-    ],
+    "keywords": ["manuscripts", "software"],
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }
 }
