@@ -122,15 +122,11 @@
         />
         <link-bubble :href="source" type="git" />
         <div
-          v-if="
-            metadata.last_edited_on
-          "
+          v-if="metadata.last_edited_on"
           class="bright-text absolute right-5 mt-1 text-sm"
         >
           Last edit:
-          {{
-            metadata.last_edited_on
-          }}
+          {{ metadata.last_edited_on }}
         </div>
       </div>
     </div>
