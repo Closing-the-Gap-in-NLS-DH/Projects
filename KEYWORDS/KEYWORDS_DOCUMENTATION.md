@@ -15,7 +15,7 @@ Keywords should provide a general information about the topic, aim, output and t
 3. **[Tools and Services](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection04)**
 4. **[Topics DH](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Collection05)** - topic related to DH research in general
 5. **Topics NLS** - topic related to the research on NLS
-6. **Languages** - research data languages formatted according to the ISO 639-3 language codes 
+6. **Languages** - research data languages formatted according to the ISO 639-3 language codes
 
 For the most part, the number of keywords should not exceed 6. All keywords should be written in lower-case and spaces are to be replaced with underscores. New keywords can be added if the existing ones do not relate to, or do not describe a given project properly.
 
