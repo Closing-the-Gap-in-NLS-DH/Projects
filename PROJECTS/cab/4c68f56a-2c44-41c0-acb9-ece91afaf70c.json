@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.1.7",
+  "record_metadata": {
+    "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c",
+    "record_created_on": "2023-01-30",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Corpus Avesticum Berolinense",
+    "abbr": "CAB",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018",
+        "to": "2030"
+      }
+    ],
+    "websites": [
+      "https://cab.geschkult.fu-berlin.de/",
+      "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/CAB/index.html"
+    ],
+    "project_desc": "The CAB project represents the first attempt to edit the entire Avestan Zoroastrian textual corpus within its ritual context, and to produce and offer both printed and digital editions of the texts. It will also develop a set of tools for an assisted reading of these texts, including translations, grammatical and semantic analysis of words, etc., which will be accessible also for non-specialist readers. Amongst these tools, the project will offer a digital version of the standard dictionary of the Avestan language (Bartholomae’s Altiranisches Woerterbuch).",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "host_institutions": [
+      {
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": []
+      }
+    ],
+    "relations": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Cantera Glera, Alberto",
+          "ref": ["https://d-nb.info/gnd/1198415282"]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ave"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "raw": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "open_access": 0
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "refined": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "open_access": 0
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        },
+        "final": {
+          "datatypes": [
+            {
+              "label": "",
+              "licensing": [""],
+              "open_access": 0
+            }
+          ],
+          "repositories": [
+            {
+              "type": "local",
+              "accessibility": "restricted",
+              "description": "folder-based data storage"
+            },
+            {
+              "type": "remote",
+              "accessibility": "open",
+              "ref": [],
+              "description": "github"
+            }
+          ]
+        }
+      }
+    },
+    "stack": {
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
+      "tools": [
+        {
+          "label": "mallet",
+          "self_developed": false,
+          "ref": [],
+          "purpose": "Zeit schinden"
+        }
+      ],
+      "languages": ["php", "javascript", "python"]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "dictionary",
+      "digital_edition",
+      "linguistics",
+      "religious_text",
+      "vre"
+    ],
+    "comment": ""
+  }
+}
