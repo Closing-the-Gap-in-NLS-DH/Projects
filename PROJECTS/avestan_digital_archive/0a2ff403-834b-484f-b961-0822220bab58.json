@@ -1,27 +1,27 @@
 {
   "schema_version": "0.1.7",
   "record_metadata": {
-    "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c",
-    "record_created_on": "2023-01-30",
+    "uuid": "0a2ff403-834b-484f-b961-0822220bab58",
+    "record_created_on": "2023-02-03",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "Corpus Avesticum Berolinense",
-    "abbr": "CAB",
+    "title": "Avestan Digital Archive",
+    "abbr": "ADA",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2018",
-        "to": "2030"
+        "from": "2006",
+        "to": ""
       }
     ],
     "websites": [
-      "https://cab.geschkult.fu-berlin.de/",
-      "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/CAB/index.html"
+      "https://ada.geschkult.fu-berlin.de/",
+      "https://www.geschkult.fu-berlin.de/e/iranistik/news/ada-umsetzung.html"
     ],
-    "project_desc": "The CAB project represents the first attempt to edit the entire Avestan Zoroastrian textual corpus within its ritual context, and to produce and offer both printed and digital editions of the texts. It will also develop a set of tools for an assisted reading of these texts, including translations, grammatical and semantic analysis of words, etc., which will be accessible also for non-specialist readers. Amongst these tools, the project will offer a digital version of the standard dictionary of the Avestan language (Bartholomae’s Altiranisches Woerterbuch).",
+    "project_desc": "The ADA project seeks, on the one side, to find, to collect and to digitalize all the extant Avestan manuscripts. On the other hand, the ADA Project is developing a tool to provide all these manuscripts with indexes of the passages and to make them thus available on the web for researchers and for the general public. The electronic tool will allow an easy checking of all the manuscripts containing a concrete passage.",
     "places": [
       {
         "place_name": {
@@ -53,11 +53,11 @@
         ]
       }
     ],
-    "relations": [
+    "relations": [     
       {
         "relation_type": "sibling",
-        "title": "Avestan Digital Archive",
-        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
+        "title": "Corpus Avesticum Berolinense",
+        "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c"
       }
     ],
     "contacts": [
@@ -194,11 +194,10 @@
       }
     ],
     "keywords": [
-      "dictionary",
       "digital_edition",
+      "history_studies",
       "manuscripts",
-      "religious_text",
-      "vre"
+      "religious_text"
     ],
     "comment": ""
   }
