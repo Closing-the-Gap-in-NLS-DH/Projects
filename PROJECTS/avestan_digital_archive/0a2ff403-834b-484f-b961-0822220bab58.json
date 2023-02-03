@@ -53,11 +53,11 @@
         ]
       }
     ],
-    "relations": [
+    "relations": [     
       {
-        "relation_type": "parent",
-        "title": "",
-        "uuid": ""
+        "relation_type": "sibling",
+        "title": "Corpus Avesticum Berolinense",
+        "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c"
       }
     ],
     "contacts": [
