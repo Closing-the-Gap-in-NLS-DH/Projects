@@ -41,13 +41,7 @@
         "websites": []
       }
     ],
-    "relations": [
-      {
-        "relation_type": "parent",
-        "title": "",
-        "uuid": ""
-      }
-    ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {
