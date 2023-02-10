@@ -53,7 +53,18 @@
         ]
       }
     ],
-    "relations": [],
+    "relations": [
+      {
+        "relation_type": "cooperation",
+        "title": "Corpus Avesticum Berolinense",
+        "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Avestan Digital Archive",
+        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
