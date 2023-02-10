@@ -1,32 +1,34 @@
 {
   "schema_version": "0.1.7",
   "record_metadata": {
-    "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c",
-    "record_created_on": "2023-01-30",
+    "uuid": "57622367-8250-4932-ab3e-0356615d578a",
+    "record_created_on": "2023-02-10",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "Corpus Avesticum Berolinense",
-    "abbr": "CAB",
+    "title": "Tierrecht und Strafen im \"Gesetz zur Abwehr der Dämonen\" (Vidçvdâd, Kapitel 13-15).",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2018",
-        "to": "2030"
+        "from": "2010",
+        "to": "2013"
       }
     ],
     "websites": [
-      "https://cab.geschkult.fu-berlin.de/",
-      "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/CAB/index.html"
+      "https://www.geschkult.fu-berlin.de/e/iranistik/archiv/projekt-archiv/vorislamisches-recht/videvdad13-15/index.html",
+      "https://gepris.dfg.de/gepris/projekt/169903502"
     ],
-    "project_desc": "The CAB project represents the first attempt to edit the entire Avestan Zoroastrian textual corpus within its ritual context, and to produce and offer both printed and digital editions of the texts. It will also develop a set of tools for an assisted reading of these texts, including translations, grammatical and semantic analysis of words, etc., which will be accessible also for non-specialist readers. Amongst these tools, the project will offer a digital version of the standard dictionary of the Avestan language (Bartholomae’s Altiranisches Woerterbuch).",
+    "project_desc": "The main objective of this research project is to conclude a critical edition of the Avesta and Pahlavi versions of the Vīdēvdād chapters 13-15 which was started in the pre-project Vidēvdād chapters 5–8. The edition should be enriched by a complete translation of Avesta and Pahlavi texts, the completion of two glossaries as well as preparation of a commentary on linguistic and textual peculiarities and difficulties. The translated and edited chapters will be made available to the broader audience in a digital form. ",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -34,7 +36,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "host_institutions": [
       {
         "org_name": {
@@ -44,41 +48,57 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
-    "relations": [
-      {
-        "relation_type": "sibling",
-        "title": "Avestan Digital Archive",
-        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
-      }
-    ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Cantera Glera, Alberto",
-          "ref": ["https://d-nb.info/gnd/1198415282"]
+          "ref": [
+            "https://d-nb.info/gnd/1198415282"
+          ]
         },
         "role": 0,
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
         ]
+      },
+      {
+        "pers_name": {
+          "text": "Macuch, Maria",
+          "ref": [
+            "https://d-nb.info/gnd/108931838"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/ehemalige/macuch/index.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ave"],
+      "lang": [
+        "ave"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "open_access": 0
             }
           ],
@@ -100,7 +120,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "open_access": 0
             }
           ],
@@ -122,7 +144,9 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [
+                ""
+              ],
               "open_access": 0
             }
           ],
@@ -143,9 +167,18 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [
         {
           "label": "mallet",
@@ -154,7 +187,11 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -163,12 +200,10 @@
       }
     ],
     "keywords": [
-      "dictionary",
       "digital_edition",
+      "history_studies",
       "manuscripts",
-      "religious_text",
-      "repository",
-      "vre"
+      "religious_text"
     ],
     "comment": ""
   }
