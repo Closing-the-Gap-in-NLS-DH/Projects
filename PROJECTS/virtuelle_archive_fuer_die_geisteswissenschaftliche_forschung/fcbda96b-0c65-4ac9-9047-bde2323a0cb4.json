@@ -22,12 +22,12 @@
     "places": [
       {
         "place_name": {
-          "text": "Saxony",
-          "ref": ["http://www.geonames.org/2842566/saxony.html"]
+          "text": "Leipzig",
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
         "coordinates": {
-          "lat": "51",
-          "lng": "13.25"
+          "lat": "51.33962",
+          "lng": "12.37129"
         }
       }
     ],

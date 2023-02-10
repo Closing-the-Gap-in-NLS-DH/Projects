@@ -35,11 +35,11 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/293198/jerusalem.html"]
+          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
         "coordinates": {
-          "lat": "31.75",
-          "lng": "35"
+          "lat": "31.76904",
+          "lng": "35.21633"
         }
       }
     ],
