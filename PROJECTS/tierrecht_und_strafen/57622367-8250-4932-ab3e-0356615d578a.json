@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "57622367-8250-4932-ab3e-0356615d578a",
     "record_created_on": "2023-02-10",
@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,9 +34,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "host_institutions": [
       {
         "org_name": {
@@ -48,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "relations": [
@@ -69,9 +63,7 @@
       {
         "pers_name": {
           "text": "Cantera Glera, Alberto",
-          "ref": [
-            "https://d-nb.info/gnd/1198415282"
-          ]
+          "ref": ["https://d-nb.info/gnd/1198415282"]
         },
         "role": 0,
         "websites": [
@@ -81,9 +73,7 @@
       {
         "pers_name": {
           "text": "Macuch, Maria",
-          "ref": [
-            "https://d-nb.info/gnd/108931838"
-          ]
+          "ref": ["https://d-nb.info/gnd/108931838"]
         },
         "role": 0,
         "websites": [
@@ -92,24 +82,18 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ave"
-      ],
+      "lang": ["ave"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -131,9 +115,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -155,9 +137,7 @@
           "datatypes": [
             {
               "label": "",
-              "licensing": [
-                ""
-              ],
+              "licensing": [""],
               "open_access": 0
             }
           ],
@@ -178,18 +158,9 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [
         {
           "label": "mallet",
@@ -198,11 +169,7 @@
           "purpose": "Zeit schinden"
         }
       ],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
