@@ -1,27 +1,27 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.7",
   "record_metadata": {
-    "uuid": "0a2ff403-834b-484f-b961-0822220bab58",
-    "record_created_on": "2023-02-03",
+    "uuid": "57622367-8250-4932-ab3e-0356615d578a",
+    "record_created_on": "2023-02-10",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "Avestan Digital Archive",
-    "abbr": "ADA",
+    "title": "Tierrecht und Strafen im \"Gesetz zur Abwehr der Dämonen\" (Vidçvdâd, Kapitel 13-15).",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2006",
-        "to": ""
+        "from": "2010",
+        "to": "2013"
       }
     ],
     "websites": [
-      "https://ada.geschkult.fu-berlin.de/",
-      "https://www.geschkult.fu-berlin.de/e/iranistik/news/ada-umsetzung.html"
+      "https://www.geschkult.fu-berlin.de/e/iranistik/archiv/projekt-archiv/vorislamisches-recht/videvdad13-15/index.html",
+      "https://gepris.dfg.de/gepris/projekt/169903502"
     ],
-    "project_desc": "The ADA project seeks, on the one side, to find, to collect and to digitalize all the extant Avestan manuscripts. On the other hand, the ADA Project is developing a tool to provide all these manuscripts with indexes of the passages and to make them thus available on the web for researchers and for the general public. The electronic tool will allow an easy checking of all the manuscripts containing a concrete passage.",
+    "project_desc": "The main objective of this research project is to conclude a critical edition of the Avesta and Pahlavi versions of the Vīdēvdād chapters 13-15 which was started in the pre-project Vidēvdād chapters 5–8. The edition should be enriched by a complete translation of Avesta and Pahlavi texts, the completion of two glossaries as well as preparation of a commentary on linguistic and textual peculiarities and difficulties. The translated and edited chapters will be made available to the broader audience in a digital form. ",
     "places": [
       {
         "place_name": {
@@ -55,14 +55,14 @@
     ],
     "relations": [
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "title": "Corpus Avesticum Berolinense",
         "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c"
       },
       {
         "relation_type": "cooperation",
-        "title": "Tierrecht und Strafen im \"Gesetz zur Abwehr der Dämonen\" (Vidçvdâd, Kapitel 13-15).",
-        "uuid": "57622367-8250-4932-ab3e-0356615d578a"
+        "title": "Avestan Digital Archive",
+        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
       }
     ],
     "contacts": [
@@ -76,6 +76,18 @@
         "role": 0,
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Macuch, Maria",
+          "ref": [
+            "https://d-nb.info/gnd/108931838"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/ehemalige/macuch/index.html"
         ]
       }
     ],
@@ -202,8 +214,7 @@
       "digital_edition",
       "history_studies",
       "manuscripts",
-      "religious_text",
-      "repository"
+      "religious_text"
     ],
     "comment": ""
   }
