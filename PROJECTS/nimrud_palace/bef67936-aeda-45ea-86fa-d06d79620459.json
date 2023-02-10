@@ -181,7 +181,12 @@
         "ref": []
       }
     ],
-    "keywords": ["archeology", "digital_edition", "inscriptions", "repository"],
+    "keywords": [
+      "archaeology",
+      "digital_edition",
+      "inscriptions",
+      "repository"
+    ],
     "comment": ""
   }
 }
