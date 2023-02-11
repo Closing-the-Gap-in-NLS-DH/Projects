@@ -9,7 +9,7 @@
   "project": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
     "abbr": "DARIAH",
-    "type": "organisation",
+    "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q49103279"],
     "date": [
       {

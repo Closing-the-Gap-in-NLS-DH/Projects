@@ -9,7 +9,7 @@
   "project": {
     "title": "Sefaria",
     "abbr": "",
-    "type": "organisation",
+    "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q33424604"],
     "date": [
       {

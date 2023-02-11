@@ -57,9 +57,9 @@
           "type": "string"
         },
         "type": {
-          "description": "Type of the project: (organisation|project)",
+          "description": "Type of the project (organization | project)",
           "type": "string",
-          "enum": ["organisation", "project"]
+          "enum": ["organization", "project"]
         },
         "ref": {
           "description": "List of Authority file URIs: http(s)://...",
@@ -469,7 +469,7 @@
       "maximum": 100
     },
     "relatives": {
-      "description": "Projects or organisations with uuid related to the project",
+      "description": "Projects or organizations with uuid related to the project",
       "type": "array",
       "items": {
         "type": "object",

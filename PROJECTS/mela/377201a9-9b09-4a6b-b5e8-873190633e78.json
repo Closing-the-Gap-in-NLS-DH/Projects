@@ -9,7 +9,7 @@
   "project": {
     "title": "Middle East Librarians Association",
     "abbr": "MELA",
-    "type": "organisation",
+    "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q100320015"],
     "date": [
       {
