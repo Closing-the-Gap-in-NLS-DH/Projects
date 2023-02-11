@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.7",
+  "schema_version": "0.1.8",
   "record_metadata": {
     "uuid": "",
     "record_created_on": "",
@@ -9,7 +9,7 @@
   "project": {
     "title": "",
     "abbr": "",
-    "type": "",
+    "type": "project",
     "ref": [],
     "date": [
       {
@@ -26,8 +26,8 @@
           "ref": []
         },
         "coordinates": {
-          "lat": "",
-          "lng": ""
+          "lat": "0",
+          "lng": "0"
         }
       }
     ],
@@ -41,13 +41,7 @@
         "websites": []
       }
     ],
-    "relations": [
-      {
-        "relation_type": "parent",
-        "title": "",
-        "uuid": ""
-      }
-    ],
+    "relations": [],
     "contacts": [
       {
         "pers_name": {
@@ -63,14 +57,14 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": []
       },
       "data": {
         "raw": {
           "datatypes": [
             {
               "label": "",
-              "licensing": [""],
+              "licensing": [],
               "open_access": 0
             }
           ],
@@ -78,75 +72,39 @@
             {
               "type": "local",
               "accessibility": "restricted",
-              "description": "folder-based data storage"
+              "description": ""
             },
             {
               "type": "remote",
               "accessibility": "open",
               "ref": [],
-              "description": "github"
+              "description": ""
             }
           ]
         },
         "refined": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [""],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": "folder-based data storage"
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": "github"
-            }
-          ]
+          "datatypes": [],
+          "repositories": []
         },
         "final": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [""],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": "folder-based data storage"
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": "github"
-            }
-          ]
+          "datatypes": [],
+          "repositories": []
         }
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [],
+      "backend": [],
+      "frontend": [],
       "tools": [
         {
-          "label": "mallet",
+          "label": "",
           "self_developed": false,
           "ref": [],
-          "purpose": "Zeit schinden"
+          "purpose": ""
         }
       ],
-      "languages": ["php", "javascript", "python"]
+      "languages": []
     },
     "policies": [
       {
