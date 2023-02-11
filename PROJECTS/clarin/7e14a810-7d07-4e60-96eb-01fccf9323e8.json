@@ -9,7 +9,7 @@
   "project": {
     "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
     "abbr": "CLARIN",
-    "type": "organisation",
+    "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q2986825"],
     "date": [
       {

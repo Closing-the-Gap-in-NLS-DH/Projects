@@ -9,7 +9,7 @@
   "project": {
     "title": "Hill Museum & Manuscript Library",
     "abbr": "HMML",
-    "type": "organisation",
+    "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Property:P9943"],
     "date": [
       {
