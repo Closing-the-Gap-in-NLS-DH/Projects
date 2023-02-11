@@ -1,0 +1,25 @@
+name: Schema validation with Deno
+
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate project files
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Set up Deno
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Run tests
+        run: deno test --allow-read SCHEMATA/schema_tests.ts
