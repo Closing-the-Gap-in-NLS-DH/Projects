@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#json-schema-for-project-index--uuid-dictionary-v011)
-[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.7-blue.svg)](#json-schema-for-projects-v017)
+[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.1.8-blue.svg)](#json-schema-for-projects-v018)
 
 # Closing the Gap in Non-Latin-Script Data
 
@@ -32,7 +32,7 @@ Feel free to discuss possible improvements to the schema via GitHub issues.
 
 We will add a history of all upcoming schema versions beginning with `v0.1.6`.
 
-### JSON Schema for Projects (`v0.1.7`)
+### JSON Schema for Projects (`v0.1.8`)
 
 See `TEMPLATES/project.json` for a template and `SCHEMATA/project.schema.json` for a comprehensive schema of the latest version.
 
