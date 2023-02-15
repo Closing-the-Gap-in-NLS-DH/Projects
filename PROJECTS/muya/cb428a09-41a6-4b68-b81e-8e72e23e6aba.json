@@ -123,36 +123,8 @@
         "licensing": []
       },
       "data": {
-        "raw": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": ""
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": ""
-            }
-          ]
-        },
-        "refined": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "final": {
-          "datatypes": [],
-          "repositories": []
-        }
+        "datatypes": [],
+        "repositories": []
       }
     },
     "stack": {

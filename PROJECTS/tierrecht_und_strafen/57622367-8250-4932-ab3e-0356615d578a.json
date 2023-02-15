@@ -89,72 +89,8 @@
         "licensing": [""]
       },
       "data": {
-        "raw": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [""],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": "folder-based data storage"
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": "github"
-            }
-          ]
-        },
-        "refined": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [""],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": "folder-based data storage"
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": "github"
-            }
-          ]
-        },
-        "final": {
-          "datatypes": [
-            {
-              "label": "",
-              "licensing": [""],
-              "open_access": 0
-            }
-          ],
-          "repositories": [
-            {
-              "type": "local",
-              "accessibility": "restricted",
-              "description": "folder-based data storage"
-            },
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": [],
-              "description": "github"
-            }
-          ]
-        }
+        "datatypes": [],
+        "repositories": []
       }
     },
     "stack": {

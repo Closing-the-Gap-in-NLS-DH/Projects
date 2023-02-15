@@ -71,18 +71,8 @@
         "licensing": ["GPL 3.0"]
       },
       "data": {
-        "raw": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "refined": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "final": {
-          "datatypes": [],
-          "repositories": []
-        }
+        "datatypes": [],
+        "repositories": []
       }
     },
     "stack": {
