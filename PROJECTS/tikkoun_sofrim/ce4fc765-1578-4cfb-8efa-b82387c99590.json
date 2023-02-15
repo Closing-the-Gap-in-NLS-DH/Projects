@@ -106,18 +106,8 @@
         "licensing": [""]
       },
       "data": {
-        "raw": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "refined": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "final": {
-          "datatypes": [],
-          "repositories": []
-        }
+        "datatypes": [],
+        "repositories": []
       }
     },
     "stack": {

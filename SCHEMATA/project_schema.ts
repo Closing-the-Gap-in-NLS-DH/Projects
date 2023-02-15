@@ -211,182 +211,52 @@ export const projectSchema = z
               ),
             data: z
               .object({
-                raw: z
-                  .object({
-                    datatypes: z
-                      .array(
-                        z
-                          .object({
-                            label: z
-                              .string()
-                              .describe("Label for the datatype"),
-                            licensing: z
-                              .array(z.string())
-                              .describe(
-                                "List of licenses that apply to the datatype"
-                              ),
-                            open_access: z
-                              .number()
-                              .int()
-                              .min(0)
-                              .max(100)
-                              .describe(
-                                "Approximate percentage of this datatype available open-access"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "List of datatypes contained in the project's research data"
-                      ),
-                    repositories: z
-                      .array(
-                        z
-                          .object({
-                            type: z.enum(["local", "remote"]),
-                            accessibility: z
-                              .enum(["restricted", "open"])
-                              .describe(
-                                "Information about the accessibility of the repository; if local and open, please explain"
-                              ),
-                            ref: z
-                              .array(z.string().url())
-                              .optional()
-                              .describe(
-                                "List of repository URLs (if applicable)"
-                              ),
-                            description: z
-                              .string()
-                              .describe(
-                                "Repository description, e.g. 'GitHub'"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "Information about local or remote repositories"
-                      ),
-                  })
-                  .strict()
-                  .describe("Information about raw research data"),
-                refined: z
-                  .object({
-                    datatypes: z
-                      .array(
-                        z
-                          .object({
-                            label: z
-                              .string()
-                              .describe("Label for the datatype"),
-                            licensing: z
-                              .array(z.string())
-                              .describe(
-                                "List of licenses that apply to the datatype"
-                              ),
-                            open_access: z
-                              .number()
-                              .int()
-                              .min(0)
-                              .max(100)
-                              .describe(
-                                "Approximate percentage of this datatype available open-access"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "List of datatypes contained in the project's research data"
-                      ),
-                    repositories: z
-                      .array(
-                        z
-                          .object({
-                            type: z.enum(["local", "remote"]),
-                            accessibility: z
-                              .enum(["restricted", "open"])
-                              .describe(
-                                "Information about the accessibility of the repository; if local and open, please explain"
-                              ),
-                            ref: z
-                              .array(z.string().url())
-                              .optional()
-                              .describe(
-                                "List of repository URLs (if applicable)"
-                              ),
-                            description: z
-                              .string()
-                              .describe(
-                                "Repository description, e.g. 'GitHub'"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "Information about local or remote repositories"
-                      ),
-                  })
-                  .strict()
-                  .describe("Information about refined research data"),
-                final: z
-                  .object({
-                    datatypes: z
-                      .array(
-                        z
-                          .object({
-                            label: z
-                              .string()
-                              .describe("Label for the datatype"),
-                            licensing: z
-                              .array(z.string())
-                              .describe(
-                                "List of licenses that apply to the datatype"
-                              ),
-                            open_access: z
-                              .number()
-                              .int()
-                              .min(0)
-                              .max(100)
-                              .describe(
-                                "Approximate percentage of this datatype available open-access"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "List of datatypes contained in the project's research data"
-                      ),
-                    repositories: z
-                      .array(
-                        z
-                          .object({
-                            type: z.enum(["local", "remote"]),
-                            accessibility: z
-                              .enum(["restricted", "open"])
-                              .describe(
-                                "Information about the accessibility of the repository; if local and open, please explain"
-                              ),
-                            ref: z
-                              .array(z.string().url())
-                              .optional()
-                              .describe(
-                                "List of repository URLs (if applicable)"
-                              ),
-                            description: z
-                              .string()
-                              .describe(
-                                "Repository description, e.g. 'GitHub'"
-                              ),
-                          })
-                          .strict()
-                      )
-                      .describe(
-                        "Information about local or remote repositories"
-                      ),
-                  })
-                  .strict()
+                datatypes: z
+                  .array(
+                    z
+                      .object({
+                        stage: z.enum(["raw", "refined", "final"]),
+                        label: z.string().describe("Label for the datatype"),
+                        licensing: z
+                          .array(z.string())
+                          .describe(
+                            "List of licenses that apply to the datatype"
+                          ),
+                        open_access: z
+                          .number()
+                          .int()
+                          .min(0)
+                          .max(100)
+                          .describe(
+                            "Approximate percentage of this datatype available open-access"
+                          ),
+                      })
+                      .strict()
+                  )
                   .describe(
-                    "Information about final and publication-ready research data"
+                    "List of datatypes contained in the project's research data"
                   ),
+                repositories: z
+                  .array(
+                    z
+                      .object({
+                        stage: z.enum(["raw", "refined", "final"]),
+                        type: z.enum(["local", "remote"]),
+                        accessibility: z
+                          .enum(["restricted", "open"])
+                          .describe(
+                            "Information about the accessibility of the repository; if local and open, please explain"
+                          ),
+                        ref: z
+                          .array(z.string().url())
+                          .describe("List of repository URLs (if applicable)"),
+                        description: z
+                          .string()
+                          .describe("Repository description, e.g. 'GitHub'"),
+                      })
+                      .strict()
+                  )
+                  .describe("Information about local or remote repositories"),
               })
               .strict()
               .describe("Information about research data"),

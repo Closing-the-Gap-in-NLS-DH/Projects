@@ -68,25 +68,16 @@
         "licensing": [""]
       },
       "data": {
-        "raw": {
-          "datatypes": [],
-          "repositories": []
-        },
-        "refined": {
-          "datatypes": [],
-          "repositories": [
-            {
-              "type": "remote",
-              "accessibility": "open",
-              "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
-              "description": "gitlab"
-            }
-          ]
-        },
-        "final": {
-          "datatypes": [],
-          "repositories": []
-        }
+        "datatypes": [],
+        "repositories": [
+          {
+            "stage": "refined",
+            "type": "remote",
+            "accessibility": "open",
+            "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
+            "description": "GitLab"
+          }
+        ]
       }
     },
     "stack": {
