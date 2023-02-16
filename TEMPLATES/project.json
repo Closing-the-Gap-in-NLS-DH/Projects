@@ -60,8 +60,23 @@
         "licensing": []
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          {
+            "stage": "raw",
+            "label": "",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "stage": "refined",
+            "type": "remote",
+            "accessibility": "open",
+            "ref": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
