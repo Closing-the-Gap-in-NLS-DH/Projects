@@ -136,7 +136,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "eri", "eth", "fas", "san"],
+      "lang": ["ara", "fas", "san"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

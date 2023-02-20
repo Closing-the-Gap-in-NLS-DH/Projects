@@ -84,7 +84,6 @@
     "research_data": {
       "lang": [
         "atz",
-        "cmn",
         "dar",
         "eng",
         "erk",
@@ -92,12 +91,13 @@
         "grc",
         "kac",
         "kgv",
-        "kmr",
+        "kur",
         "tab",
         "tdn",
         "tio",
         "tuh",
-        "vra"
+        "vra",
+        "zho"
       ],
       "sustainability_plan": null,
       "publications": {
