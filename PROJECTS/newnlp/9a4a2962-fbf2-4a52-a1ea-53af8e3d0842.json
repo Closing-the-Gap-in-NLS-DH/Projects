@@ -67,7 +67,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "efi", "eng", "kan", "ota", "que", "tir", "yid", "yor"],
+      "lang": ["ara", "efi", "eng", "kan", "que", "tir", "tur", "yid", "yor"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 100,
