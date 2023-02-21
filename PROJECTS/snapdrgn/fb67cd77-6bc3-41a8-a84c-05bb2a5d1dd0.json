@@ -74,14 +74,7 @@
       "database": ["sql", "xml", "json", "nosql"],
       "backend": ["laravel"],
       "frontend": ["vue"],
-      "tools": [
-        {
-          "label": "mallet",
-          "self_developed": false,
-          "ref": [],
-          "purpose": "Zeit schinden"
-        }
-      ],
+      "tools": [],
       "languages": ["php", "javascript", "python"]
     },
     "policies": [

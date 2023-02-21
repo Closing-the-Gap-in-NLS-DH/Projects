@@ -71,11 +71,11 @@
         "datatypes": [],
         "repositories": [
           {
-            "stage": "refined",
-            "type": "remote",
-            "accessibility": "open",
+            "label": "GitLab",
+            "accessibility": "public",
             "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
-            "description": "GitLab"
+            "licensing": [],
+            "description": "A collection of training and test data, OCR models, and documentation"
           }
         ]
       }

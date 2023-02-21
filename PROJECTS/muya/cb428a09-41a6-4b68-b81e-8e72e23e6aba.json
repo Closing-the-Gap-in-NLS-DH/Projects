@@ -131,14 +131,7 @@
       "database": [],
       "backend": [],
       "frontend": [],
-      "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "purpose": ""
-        }
-      ],
+      "tools": [],
       "languages": []
     },
     "policies": [

@@ -84,13 +84,13 @@
           "label": "isnalyser",
           "self_developed": true,
           "ref": ["https://github.com/dhakarat/isnalyser"],
-          "purpose": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
+          "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         },
         {
           "label": "isnalyserjs",
           "self_developed": true,
           "ref": ["https://github.com/dhakarat/isnalyserjs"],
-          "purpose": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
+          "description": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
         }
       ],
       "languages": ["Python"]
