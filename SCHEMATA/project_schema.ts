@@ -215,8 +215,8 @@ export const projectSchema = z
                   .array(
                     z
                       .object({
-                        stage: z.enum(["raw", "refined", "final"]),
                         label: z.string().describe("Label for the datatype"),
+                        stage: z.enum(["raw", "refined", "final"]),
                         licensing: z
                           .array(z.string())
                           .describe(
@@ -240,19 +240,25 @@ export const projectSchema = z
                   .array(
                     z
                       .object({
-                        stage: z.enum(["raw", "refined", "final"]),
-                        type: z.enum(["local", "remote"]),
+                        label: z
+                          .string()
+                          .describe("Label for the repository, e.g. 'GitHub'"),
                         accessibility: z
-                          .enum(["restricted", "open"])
+                          .enum(["private", "public"])
                           .describe(
-                            "Information about the accessibility of the repository; if local and open, please explain"
+                            "Repository accessibility (private | public)"
                           ),
                         ref: z
                           .array(z.string().url())
                           .describe("List of repository URLs (if applicable)"),
+                        licensing: z
+                          .array(z.string())
+                          .describe(
+                            "List of licenses that apply to the repository"
+                          ),
                         description: z
                           .string()
-                          .describe("Repository description, e.g. 'GitHub'"),
+                          .describe("Description of repository contents"),
                       })
                       .strict()
                   )
@@ -308,10 +314,10 @@ export const projectSchema = z
                     ref: z
                       .array(z.string().url())
                       .describe("List of URLs for the tool and/or codebase"),
-                    purpose: z
+                    description: z
                       .string()
                       .describe(
-                        "Description of the purpose in the context of the project"
+                        "Description of the tool's purpose in the context of the project"
                       ),
                   })
                   .strict()

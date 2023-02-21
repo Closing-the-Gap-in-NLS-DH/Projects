@@ -62,18 +62,18 @@
       "data": {
         "datatypes": [
           {
-            "stage": "raw",
             "label": "",
+            "stage": "raw",
             "licensing": [],
             "open_access": 0
           }
         ],
         "repositories": [
           {
-            "stage": "refined",
-            "type": "remote",
-            "accessibility": "open",
+            "label": "",
+            "accessibility": "public",
             "ref": [],
+            "licensing": [],
             "description": ""
           }
         ]
@@ -88,7 +88,7 @@
           "label": "",
           "self_developed": false,
           "ref": [],
-          "purpose": ""
+          "description": ""
         }
       ],
       "languages": []
