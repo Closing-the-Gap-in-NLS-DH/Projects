@@ -33,7 +33,7 @@
     "leaflet": "^1.9.3",
     "leaflet-geonames": "^0.4.9",
     "leaflet.markercluster": "^1.5.3",
-    "timelines-chart": "^2.11.8",
+    "timelines-chart": "^2.12.1",
     "unisort": "^1.1.0",
     "uuid": "^8.3.2",
     "vis-timeline": "^7.7.0",
