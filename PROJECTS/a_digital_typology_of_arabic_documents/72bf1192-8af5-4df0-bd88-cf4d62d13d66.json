@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "parent",
         "title": "Arabic Papyrology Database",

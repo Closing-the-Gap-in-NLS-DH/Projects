@@ -104,7 +104,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "parent",
         "title": "Dokumentation Bedrohter Sprachen (DoBeS)",

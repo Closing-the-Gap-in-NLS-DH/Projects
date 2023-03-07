@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "parent",
         "title": "Knowledge, Information Technology, and the Arabic Book",

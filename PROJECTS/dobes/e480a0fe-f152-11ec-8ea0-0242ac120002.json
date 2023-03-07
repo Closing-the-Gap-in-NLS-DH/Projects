@@ -72,7 +72,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "child",
         "title": "Documentation of Gorani, an endangered language of West Iran",

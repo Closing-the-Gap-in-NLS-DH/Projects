@@ -54,7 +54,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",

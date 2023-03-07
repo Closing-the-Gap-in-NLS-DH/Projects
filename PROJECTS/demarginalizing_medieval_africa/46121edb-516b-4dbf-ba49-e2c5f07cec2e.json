@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "Understanding Written Artefacts",

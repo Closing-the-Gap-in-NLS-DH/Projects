@@ -339,7 +339,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "parent",
         "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",

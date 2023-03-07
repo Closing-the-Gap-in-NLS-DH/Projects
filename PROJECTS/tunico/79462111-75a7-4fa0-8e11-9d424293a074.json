@@ -54,7 +54,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "WIBARAB: What is Bedouin-Type Arabic?",

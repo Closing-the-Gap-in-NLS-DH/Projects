@@ -50,15 +50,15 @@
         ]
       }
     ],
-    "relations": [
+    "lang": [
+      "eng"
+    ],
+    "related_entities": [
       {
         "relation_type": "child",
         "title": "Isnalyser",
         "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
       }
-    ],
-    "lang": [
-      "eng"
     ],
     "contacts": [
       {

@@ -80,7 +80,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "Multilingual Corpus of Annotated Spoken Texts",

@@ -58,7 +58,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "cooperation",
         "title": "Cuneiform Digital Library Initiative",

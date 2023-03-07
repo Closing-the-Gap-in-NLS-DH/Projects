@@ -576,7 +576,7 @@
         ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "child",
         "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
