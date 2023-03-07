@@ -1,7 +1,7 @@
 import { z } from "https://deno.land/x/zod@v3.20.5/mod.ts";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.1.8";
+const schemaVersion = "0.1.9";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
