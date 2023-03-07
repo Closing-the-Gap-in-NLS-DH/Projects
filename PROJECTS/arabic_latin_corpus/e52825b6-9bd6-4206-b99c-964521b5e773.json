@@ -25,7 +25,9 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": ["https://www.geonames.org/2805615"]
+          "ref": [
+            "https://www.geonames.org/2805615"
+          ]
         },
         "coordinates": {
           "lat": "49.79391",
@@ -33,8 +35,9 @@
         }
       }
     ],
-    "host_institutions": [
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -42,7 +45,9 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite"]
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite"
+        ]
       }
     ],
     "relations": [
@@ -52,12 +57,16 @@
         "uuid": "6a7e308d-0588-40b5-9a22-09354d313806"
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "contacts": [
       {
         "pers_name": {
           "text": "Hasse, Dag Nikolaus",
-          "ref": ["https://d-nb.info/gnd/11800638X"]
+          "ref": [
+            "https://d-nb.info/gnd/11800638X"
+          ]
         },
         "role": 0,
         "websites": [
@@ -66,11 +75,16 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat"],
+      "lang": [
+        "ara",
+        "lat"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -78,11 +92,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -90,7 +117,11 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "repository", "translation"],
+    "keywords": [
+      "manuscripts",
+      "repository",
+      "translation"
+    ],
     "comment": ""
   }
 }

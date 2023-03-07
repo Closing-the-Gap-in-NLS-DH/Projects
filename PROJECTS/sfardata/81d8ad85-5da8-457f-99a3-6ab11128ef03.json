@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -44,9 +48,13 @@
         }
       }
     ],
-    "lang": ["eng", "heb"],
-    "host_institutions": [
+    "lang": [
+      "eng",
+      "heb"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Israel Academy of Sciences and Humanities",
           "ref": [
@@ -54,9 +62,12 @@
             "https://www.wikidata.org/wiki/Q209184"
           ]
         },
-        "websites": ["https://www.academy.ac.il/english.aspx"]
+        "websites": [
+          "https://www.academy.ac.il/english.aspx"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "National Library of Israel",
           "ref": [
@@ -64,14 +75,19 @@
             "https://www.wikidata.org/wiki/Q188915"
           ]
         },
-        "websites": ["https://www.nli.org.il/en"]
+        "websites": [
+          "https://www.nli.org.il/en"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Centre for the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"]
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/"
+        ]
       }
     ],
     "relations": [],
@@ -79,7 +95,9 @@
       {
         "pers_name": {
           "text": "Bet-Aryeh, Mal’akhi",
-          "ref": ["https://d-nb.info/gnd/104345179"]
+          "ref": [
+            "https://d-nb.info/gnd/104345179"
+          ]
         },
         "role": 0,
         "websites": [
@@ -88,11 +106,15 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -100,11 +122,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -112,7 +147,10 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "repository"],
+    "keywords": [
+      "manuscripts",
+      "repository"
+    ],
     "comment": ""
   }
 }

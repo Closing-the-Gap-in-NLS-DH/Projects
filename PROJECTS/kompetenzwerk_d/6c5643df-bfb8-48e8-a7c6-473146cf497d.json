@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -34,9 +36,12 @@
         }
       }
     ],
-    "lang": ["deu"],
-    "host_institutions": [
+    "lang": [
+      "deu"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
           "ref": [
@@ -44,16 +49,24 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de/aktuelles"]
+        "websites": [
+          "https://www.saw-leipzig.de/de/aktuelles"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Leibniz-Institut für Geschichte und Kultur des östlichen Europa e.V.",
-          "ref": ["https://www.wikidata.org/wiki/Q1499019"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1499019"
+          ]
         },
-        "websites": ["https://leibniz-gwzo.de/de"]
+        "websites": [
+          "https://leibniz-gwzo.de/de"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Simon-Dubnow-Institut für Jüdische Geschichte und Kultur",
           "ref": [
@@ -61,16 +74,24 @@
             "https://ror.org/03j1wg370"
           ]
         },
-        "websites": ["https://www.dubnow.de/"]
+        "websites": [
+          "https://www.dubnow.de/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Institut für Sächsische Geschichte und Volkskunde e.V",
-          "ref": ["https://d-nb.info/gnd/10048270-3"]
+          "ref": [
+            "https://d-nb.info/gnd/10048270-3"
+          ]
         },
-        "websites": ["https://www.isgv.de/"]
+        "websites": [
+          "https://www.isgv.de/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Sorbische Institut e.V. / serbski institut z.t.",
           "ref": [
@@ -78,7 +99,9 @@
             "https://www.wikidata.org/wiki/Q149887"
           ]
         },
-        "websites": ["https://www.serbski-institut.de/de/home/"]
+        "websites": [
+          "https://www.serbski-institut.de/de/home/"
+        ]
       }
     ],
     "relations": [],
@@ -86,10 +109,14 @@
       {
         "pers_name": {
           "text": "Wiesmeth, Hans",
-          "ref": ["https://d-nb.info/gnd/109432703"]
+          "ref": [
+            "https://d-nb.info/gnd/109432703"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.saw-leipzig.de/de/mitglieder/wiesmethh"]
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
+        ]
       }
     ],
     "research_data": {
@@ -97,7 +124,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -105,11 +134,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -117,7 +159,10 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -34,9 +36,13 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
-    "host_institutions": [
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -44,7 +50,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ]
       }
     ],
     "relations": [],
@@ -52,7 +60,9 @@
       {
         "pers_name": {
           "text": "Kessel, Grigory",
-          "ref": ["https://d-nb.info/gnd/1069608009"]
+          "ref": [
+            "https://d-nb.info/gnd/1069608009"
+          ]
         },
         "role": 0,
         "websites": [
@@ -62,11 +72,17 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "grc", "syr"],
+      "lang": [
+        "ara",
+        "grc",
+        "syr"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -74,11 +90,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -86,7 +115,11 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "translation"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "translation"
+    ],
     "comment": ""
   }
 }
