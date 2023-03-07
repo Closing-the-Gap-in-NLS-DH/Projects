@@ -112,10 +112,15 @@ export const projectSchema = z
           .describe(
             "List of languages used in the project's output (ISO-639-3 codes)"
           ),
-        host_institutions: z
+        related_institutions: z
           .array(
             z
               .object({
+                relation_type: z.enum([
+                  "host",
+                  "member",
+                  ""
+                ]),
                 org_name: z
                   .object({
                     text: z.string().describe("Name of the institution"),
@@ -133,7 +138,7 @@ export const projectSchema = z
           .describe(
             "Universities or research organizations which host the project"
           ),
-        relations: z
+        related_entities: z
           .array(
             z
               .object({
