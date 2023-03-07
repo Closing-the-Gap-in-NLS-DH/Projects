@@ -11,3 +11,7 @@
      - moving parent organizations to a new separate element _host_institutions_
      - removing all other entries without a uuid
    - _research_data_ element simplified by changing the _access_ object to a single number _open_access_
+3. From version 0.1.8 to 0.1.9 (2023-03-07):
+   - simplification of  _research_data_ element by merging _raw_, _refined_ and _final_ sections into one key. 
+   - _host_institutions_ replaced with _related_institutions_ with "relation_type" as an additional key.
+   - _relations_ renamed to _related_entities_.
