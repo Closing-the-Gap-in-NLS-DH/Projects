@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
     "record_created_on": "2022-07-26",
@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Princeton",
-          "ref": ["https://www.geonames.org/5102922/princeton.html"]
+          "ref": [
+            "https://www.geonames.org/5102922/princeton.html"
+          ]
         },
         "coordinates": {
           "lat": "40.34872",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -46,7 +50,9 @@
       {
         "place_name": {
           "text": "Sanaa",
-          "ref": ["https://www.geonames.org/71137/sanaa.html"]
+          "ref": [
+            "https://www.geonames.org/71137/sanaa.html"
+          ]
         },
         "coordinates": {
           "lat": "15.35472",
@@ -54,9 +60,12 @@
         }
       }
     ],
-    "lang": ["eng"],
-    "host_institutions": [
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -64,9 +73,12 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Princeton University",
           "ref": [
@@ -74,10 +86,12 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"]
+        "websites": [
+          "https://www.princeton.edu/"
+        ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
@@ -88,26 +102,38 @@
       {
         "pers_name": {
           "text": "Schmidtke, Sabine",
-          "ref": ["https://d-nb.info/gnd/143773771"]
+          "ref": [
+            "https://d-nb.info/gnd/143773771"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.ias.edu/scholars/schmidtke"]
+        "websites": [
+          "https://www.ias.edu/scholars/schmidtke"
+        ]
       },
       {
         "pers_name": {
           "text": "Magier, David",
-          "ref": ["https://d-nb.info/gnd/1050435206"]
+          "ref": [
+            "https://d-nb.info/gnd/1050435206"
+          ]
         },
         "role": 0,
-        "websites": ["https://library.princeton.edu/staff/dmagier"]
+        "websites": [
+          "https://library.princeton.edu/staff/dmagier"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -115,11 +141,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -127,7 +166,10 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "repository"],
+    "keywords": [
+      "manuscripts",
+      "repository"
+    ],
     "comment": ""
   }
 }

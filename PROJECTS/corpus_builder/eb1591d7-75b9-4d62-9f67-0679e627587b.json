@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
     "record_created_on": "2022-09-07",
@@ -17,13 +17,17 @@
         "to": "2020"
       }
     ],
-    "websites": ["https://openiti.org/projects/CorpusBuilder.html"],
+    "websites": [
+      "https://openiti.org/projects/CorpusBuilder.html"
+    ],
     "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
         "coordinates": {
           "lat": "38.98067",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -43,7 +49,9 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -53,7 +61,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -63,7 +73,9 @@
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
         },
         "coordinates": {
           "lat": "42.3751",
@@ -72,8 +84,8 @@
       }
     ],
     "lang": [],
-    "host_institutions": [],
-    "relations": [
+    "related_institutions": [],
+    "related_entities": [
       {
         "relation_type": "parent",
         "title": "SHARIAsource",
@@ -102,15 +114,21 @@
           "ref": []
         },
         "role": 1,
-        "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
+        "websites": [
+          "https://sllc.umd.edu/directory/jonathan-allen"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -118,11 +136,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -130,7 +161,10 @@
         "ref": []
       }
     ],
-    "keywords": ["optical_character_recognition", "software"],
+    "keywords": [
+      "optical_character_recognition",
+      "software"
+    ],
     "comment": ""
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created_on": "2021-11-01",
@@ -21,13 +21,17 @@
         "to": "2019"
       }
     ],
-    "websites": ["https://www.topoi.org"],
+    "websites": [
+      "https://www.topoi.org"
+    ],
     "project_desc": "The excellence cluster TOPOI is a research network with a focus on study of the ancient world. It enhances the interdisciplinary cooperation not only in different fields of humanities, but also between humanities and natural sciences. Its various research projects cover a wide range of topics, periods and cultures from Central and Eastern Europe to the Mediterranean and the Middle East.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,8 +40,9 @@
       }
     ],
     "lang": [],
-    "host_institutions": [
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Humboldt-Universität zu Berlin",
           "ref": [
@@ -45,9 +50,12 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de"]
+        "websites": [
+          "https://www.hu-berlin.de"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -55,15 +63,19 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Meyer, Michael",
-          "ref": ["https://www.wikidata.org/wiki/Q1928613"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1928613"
+          ]
         },
         "role": 0,
         "websites": [
@@ -76,7 +88,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -84,11 +98,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -96,7 +123,10 @@
         "ref": []
       }
     ],
-    "keywords": ["cultural_studies", "history_studies"],
+    "keywords": [
+      "cultural_studies",
+      "history_studies"
+    ],
     "comment": ""
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c",
     "record_created_on": "2023-01-16",
@@ -10,7 +10,9 @@
     "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
     "abbr": "RIA",
     "type": "project",
-    "ref": ["https://www.wikidata.org/wiki/Q1246462"],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q1246462"
+    ],
     "date": [
       {
         "from": "1928",
@@ -26,7 +28,9 @@
       {
         "place_name": {
           "text": "München",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -34,9 +38,14 @@
         }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
-    "host_institutions": [
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
@@ -44,10 +53,12 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://badw.de/en/the-academy.html"]
+        "websites": [
+          "https://badw.de/en/the-academy.html"
+        ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "cooperation",
         "title": "Cuneiform Digital Library Initiative",
@@ -58,7 +69,9 @@
       {
         "pers_name": {
           "text": " Streck, Michael P.",
-          "ref": ["https://d-nb.info/gnd/130425893"]
+          "ref": [
+            "https://d-nb.info/gnd/130425893"
+          ]
         },
         "role": 0,
         "websites": [
@@ -67,11 +80,16 @@
       }
     ],
     "research_data": {
-      "lang": ["akk", "syr"],
+      "lang": [
+        "akk",
+        "syr"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -79,11 +97,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

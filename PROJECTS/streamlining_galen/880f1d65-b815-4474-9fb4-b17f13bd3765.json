@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "880f1d65-b815-4474-9fb4-b17f13bd3765",
     "record_created_on": "2021-11-01",
@@ -25,7 +25,9 @@
       {
         "place_name": {
           "text": "Coventry",
-          "ref": ["https://www.geonames.org/2652221/coventry.html"]
+          "ref": [
+            "https://www.geonames.org/2652221/coventry.html"
+          ]
         },
         "coordinates": {
           "lat": "52.40656",
@@ -33,9 +35,12 @@
         }
       }
     ],
-    "lang": ["eng"],
-    "host_institutions": [
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Warwick University",
           "ref": [
@@ -43,15 +48,19 @@
             "https://www.wikidata.org/wiki/Q865528"
           ]
         },
-        "websites": ["http://www2.warwick.ac.uk/"]
+        "websites": [
+          "http://www2.warwick.ac.uk/"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Swain, Simon",
-          "ref": ["https://www.wikidata.org/wiki/Q55386758"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q55386758"
+          ]
         },
         "role": 0,
         "websites": [
@@ -61,7 +70,9 @@
       {
         "pers_name": {
           "text": "Vagelpohl, Uwe",
-          "ref": ["https://d-nb.info/gnd/1066384339"]
+          "ref": [
+            "https://d-nb.info/gnd/1066384339"
+          ]
         },
         "role": 1,
         "websites": [
@@ -70,11 +81,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -82,11 +97,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -94,7 +122,11 @@
         "ref": []
       }
     ],
-    "keywords": ["history_studies", "medicine", "repository"],
+    "keywords": [
+      "history_studies",
+      "medicine",
+      "repository"
+    ],
     "comment": ""
   }
 }

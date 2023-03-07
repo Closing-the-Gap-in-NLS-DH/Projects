@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52",
     "record_created_on": "2021-11-01",
@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "http://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -44,9 +48,13 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
-    "host_institutions": [
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
@@ -54,9 +62,12 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Bayerische Staatsbibliothek",
           "ref": [
@@ -64,10 +75,12 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": ["https://www.bsb-muenchen.de/"]
+        "websites": [
+          "https://www.bsb-muenchen.de/"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
@@ -85,7 +98,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -93,11 +108,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -105,7 +133,9 @@
         "ref": []
       }
     ],
-    "keywords": ["research_infrastructure"],
+    "keywords": [
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

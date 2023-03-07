@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "cb428a09-41a6-4b68-b81e-8e72e23e6aba",
     "record_created_on": "2023-02-13",
@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Birmingham",
-          "ref": ["https://www.geonames.org/2655603/birmingham.html"]
+          "ref": [
+            "https://www.geonames.org/2655603/birmingham.html"
+          ]
         },
         "coordinates": {
           "lat": "52.48142",
@@ -46,7 +50,9 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": ["https://www.geonames.org/2867543/muenster.html"]
+          "ref": [
+            "https://www.geonames.org/2867543/muenster.html"
+          ]
         },
         "coordinates": {
           "lat": "51.96236",
@@ -56,7 +62,9 @@
       {
         "place_name": {
           "text": "Trier",
-          "ref": ["https://www.geonames.org/2821164/trier.html"]
+          "ref": [
+            "https://www.geonames.org/2821164/trier.html"
+          ]
         },
         "coordinates": {
           "lat": "49.75565",
@@ -64,9 +72,12 @@
         }
       }
     ],
-    "lang": ["eng"],
-    "host_institutions": [
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "School of Oriental and African Studies, University of London",
           "ref": [
@@ -74,16 +85,24 @@
             "https://ror.org/04vrxay34"
           ]
         },
-        "websites": ["https://www.soas.ac.uk/"]
+        "websites": [
+          "https://www.soas.ac.uk/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "University of Birmingham",
-          "ref": ["https://www.wikidata.org/wiki/Q223429"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q223429"
+          ]
         },
-        "websites": ["https://www.birmingham.ac.uk/index.aspx"]
+        "websites": [
+          "https://www.birmingham.ac.uk/index.aspx"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Westfälische Wilhelms-Universität Münster",
           "ref": [
@@ -91,9 +110,12 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": ["https://www.uni-muenster.de/de/"]
+        "websites": [
+          "https://www.uni-muenster.de/de/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Universität Trier",
           "ref": [
@@ -101,22 +123,30 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"]
+        "websites": [
+          "https://www.uni-trier.de/"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Hintze, Almut",
-          "ref": ["https://d-nb.info/gnd/1138120693"]
+          "ref": [
+            "https://d-nb.info/gnd/1138120693"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.soas.ac.uk/about/almut-hintze"]
+        "websites": [
+          "https://www.soas.ac.uk/about/almut-hintze"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ave"],
+      "lang": [
+        "ave"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

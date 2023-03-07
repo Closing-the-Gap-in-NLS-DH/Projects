@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
     "record_created_on": "2021-11-01",
@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": ["https://www.geonames.org/6556942/wuerzburg.html"]
+          "ref": [
+            "https://www.geonames.org/6556942/wuerzburg.html"
+          ]
         },
         "coordinates": {
           "lat": "49.79708",
@@ -44,9 +48,12 @@
         }
       }
     ],
-    "lang": ["eng"],
-    "host_institutions": [
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Bayerische Akademie der Wissenschaften",
           "ref": [
@@ -54,9 +61,12 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://badw.de/die-akademie.html"]
+        "websites": [
+          "https://badw.de/die-akademie.html"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [
@@ -64,15 +74,19 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite/"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Hasse, Dag Nikolaus",
-          "ref": ["https://viaf.org/viaf/5717273/"]
+          "ref": [
+            "https://viaf.org/viaf/5717273/"
+          ]
         },
         "role": 0,
         "websites": [
@@ -82,11 +96,16 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat"],
+      "lang": [
+        "ara",
+        "lat"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -94,11 +113,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -106,7 +138,11 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "philosophy"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "philosophy"
+    ],
     "comment": ""
   }
 }

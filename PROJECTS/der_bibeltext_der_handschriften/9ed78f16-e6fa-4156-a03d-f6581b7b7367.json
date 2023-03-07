@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "9ed78f16-e6fa-4156-a03d-f6581b7b7367",
     "record_created_on": "2021-11-12",
@@ -25,7 +25,9 @@
       {
         "place_name": {
           "text": "Heidelberg",
-          "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
+          "ref": [
+            "https://www.geonames.org/2907911/heidelberg.html"
+          ]
         },
         "coordinates": {
           "lat": "49.40768",
@@ -33,22 +35,32 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
-    "host_institutions": [
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
-          "ref": ["https://www.wikidata.org/wiki/Q1622186"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1622186"
+          ]
         },
-        "websites": ["http://www.hfjs.eu"]
+        "websites": [
+          "http://www.hfjs.eu"
+        ]
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
           "text": "Liss, Hanna",
-          "ref": ["https://d-nb.info/gnd/115755853"]
+          "ref": [
+            "https://d-nb.info/gnd/115755853"
+          ]
         },
         "role": 0,
         "websites": [
@@ -57,11 +69,15 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -69,11 +85,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -81,7 +110,11 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "religion_studies", "religious_text"],
+    "keywords": [
+      "manuscripts",
+      "religion_studies",
+      "religious_text"
+    ],
     "comment": ""
   }
 }

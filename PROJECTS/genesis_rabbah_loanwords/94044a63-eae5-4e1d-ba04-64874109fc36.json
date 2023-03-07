@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36",
     "record_created_on": "2022-05-17",
@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Salzburg",
-          "ref": ["https://www.geonames.org/2766824/salzburg.html"]
+          "ref": [
+            "https://www.geonames.org/2766824/salzburg.html"
+          ]
         },
         "coordinates": {
           "lat": "47.79941",
@@ -44,9 +48,13 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
-    "host_institutions": [
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
       {
+        "relation_type": "",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -54,9 +62,12 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": [
+          "http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"
+        ]
       },
       {
+        "relation_type": "",
         "org_name": {
           "text": "Universität Salzburg",
           "ref": [
@@ -64,10 +75,12 @@
             "https://www.wikidata.org/wiki/Q27265"
           ]
         },
-        "websites": ["http://www.uni-salzburg.at/index.php?id=52"]
+        "websites": [
+          "http://www.uni-salzburg.at/index.php?id=52"
+        ]
       }
     ],
-    "relations": [
+    "related_entities": [
       {
         "relation_type": "sibling",
         "title": "WIBARAB: What is Bedouin-Type Arabic?",
@@ -103,7 +116,9 @@
       {
         "pers_name": {
           "text": "Plietzsch, Susanne",
-          "ref": ["https://d-nb.info/gnd/121776832"]
+          "ref": [
+            "https://d-nb.info/gnd/121776832"
+          ]
         },
         "role": 0,
         "websites": [
@@ -112,11 +127,17 @@
       }
     ],
     "research_data": {
-      "lang": ["arc", "grc", "heb"],
+      "lang": [
+        "arc",
+        "grc",
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -124,11 +145,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -136,7 +170,11 @@
         "ref": []
       }
     ],
-    "keywords": ["dictionary", "historical_language", "linguistics"],
+    "keywords": [
+      "dictionary",
+      "historical_language",
+      "linguistics"
+    ],
     "comment": ""
   }
 }

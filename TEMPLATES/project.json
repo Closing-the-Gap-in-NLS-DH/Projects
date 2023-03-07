@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.8",
+  "schema_version": "0.1.9",
   "record_metadata": {
     "uuid": "",
     "record_created_on": "",
@@ -32,8 +32,9 @@
       }
     ],
     "lang": [],
-    "host_institutions": [
+    "related_institutions": [      
       {
+        "relation_type":"",
         "org_name": {
           "text": "",
           "ref": []
@@ -41,7 +42,7 @@
         "websites": []
       }
     ],
-    "relations": [],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
