@@ -244,7 +244,7 @@
     "lang": ["eng"],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -255,7 +255,7 @@
         "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "The Dutch Language Institute",
           "ref": ["https://www.wikidata.org/wiki/Q5200436"]
@@ -263,7 +263,7 @@
         "websites": ["https://ivdnt.org/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Bulgarian Academy of Sciences",
           "ref": [
@@ -274,7 +274,7 @@
         "websites": ["http://www.bas.bg/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Zagreb",
           "ref": [
@@ -285,7 +285,7 @@
         "websites": ["http://www.unizg.hr/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Cyprus University of Technology",
           "ref": [
@@ -296,7 +296,7 @@
         "websites": ["http://www.cut.ac.cy/?languageId=2"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Charles University",
           "ref": [
@@ -307,7 +307,7 @@
         "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Copenhagen",
           "ref": [
@@ -318,7 +318,7 @@
         "websites": ["http://www.ku.dk/english/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Center of Estonian Language Resources",
           "ref": []
@@ -326,7 +326,7 @@
         "websites": ["https://keeleressursid.ee/en/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Helsinki",
           "ref": [
@@ -337,7 +337,7 @@
         "websites": ["https://www.helsinki.fi/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Universität Mannheim",
           "ref": [
@@ -348,7 +348,7 @@
         "websites": ["https://www.uni-mannheim.de/en/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Institute for Language and Speech Processing",
           "ref": [
@@ -359,7 +359,7 @@
         "websites": ["http://www.ilsp.gr/en"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
           "ref": [
@@ -370,7 +370,7 @@
         "websites": ["http://mta.hu/english/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Árni Magnússon Institute for Icelandic Studies",
           "ref": [
@@ -381,7 +381,7 @@
         "websites": ["http://www.arnastofnun.is/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
@@ -392,7 +392,7 @@
         "websites": ["http://www.ilc.cnr.it/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Latvia",
           "ref": [
@@ -403,7 +403,7 @@
         "websites": ["https://www.lu.lv"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Vytautas Magnus University",
           "ref": [
@@ -414,7 +414,7 @@
         "websites": ["http://www.vdu.lt/en/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Utrecht University",
           "ref": [
@@ -425,7 +425,7 @@
         "websites": ["http://www.uu.nl/en"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Bergen",
           "ref": [
@@ -436,7 +436,7 @@
         "websites": ["http://www.uib.no/en/node/36362"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Wrocław University of Science and Technology",
           "ref": [
@@ -447,7 +447,7 @@
         "websites": ["http://www.portal.pwr.wroc.pl"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Lisbon",
           "ref": [
@@ -458,7 +458,7 @@
         "websites": ["http://www.ulisboa.pt/"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "Jožef Stefan Institute",
           "ref": [
@@ -469,7 +469,7 @@
         "websites": ["http://www.ijs.si/ijsw"]
       },
       {
-        "relation_type": "",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Gothenburg",
           "ref": [
