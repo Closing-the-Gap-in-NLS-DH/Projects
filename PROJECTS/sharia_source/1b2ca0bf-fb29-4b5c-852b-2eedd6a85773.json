@@ -17,13 +17,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://pil.law.harvard.edu/shariasource-portal/"],
+    "websites": [
+      "https://pil.law.harvard.edu/shariasource-portal/"
+    ],
     "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
     "places": [
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
         },
         "coordinates": {
           "lat": "42.3751",
@@ -31,10 +35,12 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "Harvard University",
           "ref": [
@@ -42,7 +48,9 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["https://www.harvard.edu/"]
+        "websites": [
+          "https://www.harvard.edu/"
+        ]
       }
     ],
     "related_entities": [
@@ -64,15 +72,21 @@
           "ref": []
         },
         "role": 0,
-        "websites": ["https://pil.law.harvard.edu/fellow/yusuf-celik/"]
+        "websites": [
+          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -80,11 +94,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -92,7 +119,11 @@
         "ref": []
       }
     ],
-    "keywords": ["history_studies", "repository", "vre"],
+    "keywords": [
+      "history_studies",
+      "repository",
+      "vre"
+    ],
     "comment": ""
   }
 }

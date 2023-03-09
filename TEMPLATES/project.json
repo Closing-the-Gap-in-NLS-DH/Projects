@@ -34,7 +34,7 @@
     "lang": [],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "",
           "ref": []

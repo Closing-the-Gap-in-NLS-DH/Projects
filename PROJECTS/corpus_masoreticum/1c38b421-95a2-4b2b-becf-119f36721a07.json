@@ -29,7 +29,9 @@
       {
         "place_name": {
           "text": "Heidelberg",
-          "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
+          "ref": [
+            "https://www.geonames.org/2907911/heidelberg.html"
+          ]
         },
         "coordinates": {
           "lat": "49.40768",
@@ -37,15 +39,22 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
-          "ref": ["https://www.wikidata.org/wiki/Q1622186"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1622186"
+          ]
         },
-        "websites": ["http://www.hfjs.eu/"]
+        "websites": [
+          "http://www.hfjs.eu/"
+        ]
       }
     ],
     "related_entities": [],
@@ -53,7 +62,9 @@
       {
         "pers_name": {
           "text": "Liss, Hanna",
-          "ref": ["https://d-nb.info/gnd/115755853"]
+          "ref": [
+            "https://d-nb.info/gnd/115755853"
+          ]
         },
         "role": 0,
         "websites": [
@@ -62,11 +73,15 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -74,11 +89,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -44,10 +48,12 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "Universität Wien",
           "ref": [
@@ -55,7 +61,9 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": ["https://www.univie.ac.at/en/"]
+        "websites": [
+          "https://www.univie.ac.at/en/"
+        ]
       }
     ],
     "related_entities": [],
@@ -72,11 +80,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -84,11 +96,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -96,7 +121,10 @@
         "ref": []
       }
     ],
-    "keywords": ["geography", "visualization"],
+    "keywords": [
+      "geography",
+      "visualization"
+    ],
     "comment": ""
   }
 }

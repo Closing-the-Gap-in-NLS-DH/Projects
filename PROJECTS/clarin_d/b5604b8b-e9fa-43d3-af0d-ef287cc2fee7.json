@@ -17,13 +17,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://www.clarin-d.net/en/"],
+    "websites": [
+      "https://www.clarin-d.net/en/"
+    ],
     "project_desc": "CLARIN-D is a research-oriented infrastructure for the Humanities and Social Sciences which supports researchers with accessing, preparing and analyzing of research data based on all language-related resources. It offers information on a wide range of topics, including teaching material, help on data management plans and other, discipline-specific support and makes available tools for Humanities, Cultural and Social Sciences scholars to analyze their research data in different ways. It is a German center of a pan-European research infrastructure CLARIN.",
     "places": [
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
+          "ref": [
+            "https://www.geonames.org/2820860/tuebingen.html"
+          ]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -43,7 +49,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -53,7 +61,9 @@
       {
         "place_name": {
           "text": "Stuttgart",
-          "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
+          "ref": [
+            "https://www.geonames.org/2825297/stuttgart.html"
+          ]
         },
         "coordinates": {
           "lat": "48.78232",
@@ -63,7 +73,9 @@
       {
         "place_name": {
           "text": "Mannheim",
-          "ref": ["http://www.geonames.org/2873891/mannheim.html"]
+          "ref": [
+            "http://www.geonames.org/2873891/mannheim.html"
+          ]
         },
         "coordinates": {
           "lat": "49.4891",
@@ -73,7 +85,9 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "http://www.geonames.org/2867714/munich.html"
+          ]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -83,7 +97,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -103,7 +119,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -121,7 +140,9 @@
       {
         "pers_name": {
           "text": "Hinrichs, Erhard",
-          "ref": ["https://d-nb.info/gnd/143840657"]
+          "ref": [
+            "https://d-nb.info/gnd/143840657"
+          ]
         },
         "role": 0,
         "websites": [
@@ -135,7 +156,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -143,11 +166,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -155,7 +191,10 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }
