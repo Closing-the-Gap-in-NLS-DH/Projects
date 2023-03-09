@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/6553087/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
         "coordinates": {
           "lat": "51.95973",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de"
-        ]
+        "websites": ["https://www.uni-muenster.de"]
       }
     ],
     "related_entities": [
@@ -66,9 +60,7 @@
       {
         "pers_name": {
           "text": "Bauer, Thomas",
-          "ref": [
-            "https://d-nb.info/gnd/130608467/"
-          ]
+          "ref": ["https://d-nb.info/gnd/130608467/"]
         },
         "role": 0,
         "websites": [
@@ -77,15 +69,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -93,24 +81,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -118,10 +93,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "literary_studies"
-    ],
+    "keywords": ["digital_edition", "literary_studies"],
     "comment": ""
   }
 }

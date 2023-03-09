@@ -25,9 +25,7 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/2805615"
-          ]
+          "ref": ["https://www.geonames.org/2805615"]
         },
         "coordinates": {
           "lat": "49.79391",
@@ -45,14 +43,10 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": [
-          "https://www.uni-wuerzburg.de/startseite"
-        ]
+        "websites": ["https://www.uni-wuerzburg.de/startseite"]
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_entities": [
       {
         "relation_type": "sibling",
@@ -64,9 +58,7 @@
       {
         "pers_name": {
           "text": "Hasse, Dag Nikolaus",
-          "ref": [
-            "https://d-nb.info/gnd/11800638X"
-          ]
+          "ref": ["https://d-nb.info/gnd/11800638X"]
         },
         "role": 0,
         "websites": [
@@ -75,16 +67,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "lat"
-      ],
+      "lang": ["ara", "lat"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -92,24 +79,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -117,11 +91,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "manuscripts",
-      "repository",
-      "translation"
-    ],
+    "keywords": ["manuscripts", "repository", "translation"],
     "comment": ""
   }
 }
