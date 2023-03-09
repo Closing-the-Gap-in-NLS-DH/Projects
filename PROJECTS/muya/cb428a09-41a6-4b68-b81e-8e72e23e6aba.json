@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/london.html"
-          ]
+          "ref": ["https://www.geonames.org/2643743/london.html"]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -38,9 +36,7 @@
       {
         "place_name": {
           "text": "Birmingham",
-          "ref": [
-            "https://www.geonames.org/2655603/birmingham.html"
-          ]
+          "ref": ["https://www.geonames.org/2655603/birmingham.html"]
         },
         "coordinates": {
           "lat": "52.48142",
@@ -50,9 +46,7 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/2867543/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/2867543/muenster.html"]
         },
         "coordinates": {
           "lat": "51.96236",
@@ -62,9 +56,7 @@
       {
         "place_name": {
           "text": "Trier",
-          "ref": [
-            "https://www.geonames.org/2821164/trier.html"
-          ]
+          "ref": ["https://www.geonames.org/2821164/trier.html"]
         },
         "coordinates": {
           "lat": "49.75565",
@@ -72,9 +64,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -85,21 +75,15 @@
             "https://ror.org/04vrxay34"
           ]
         },
-        "websites": [
-          "https://www.soas.ac.uk/"
-        ]
+        "websites": ["https://www.soas.ac.uk/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "University of Birmingham",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q223429"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q223429"]
         },
-        "websites": [
-          "https://www.birmingham.ac.uk/index.aspx"
-        ]
+        "websites": ["https://www.birmingham.ac.uk/index.aspx"]
       },
       {
         "relation_type": "host",
@@ -110,9 +94,7 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de/de/"
-        ]
+        "websites": ["https://www.uni-muenster.de/de/"]
       },
       {
         "relation_type": "host",
@@ -123,9 +105,7 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": [
-          "https://www.uni-trier.de/"
-        ]
+        "websites": ["https://www.uni-trier.de/"]
       }
     ],
     "related_entities": [],
@@ -133,20 +113,14 @@
       {
         "pers_name": {
           "text": "Hintze, Almut",
-          "ref": [
-            "https://d-nb.info/gnd/1138120693"
-          ]
+          "ref": ["https://d-nb.info/gnd/1138120693"]
         },
         "role": 0,
-        "websites": [
-          "https://www.soas.ac.uk/about/almut-hintze"
-        ]
+        "websites": ["https://www.soas.ac.uk/about/almut-hintze"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ave"
-      ],
+      "lang": ["ave"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
