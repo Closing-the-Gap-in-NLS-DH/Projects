@@ -34,7 +34,7 @@
     "lang": ["eng"],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "College of Saint Benedict & Saint John’s University",
           "ref": [

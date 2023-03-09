@@ -38,7 +38,7 @@
     "lang": ["deu"],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "Julius Maximilian University of Würzburg",
           "ref": [

@@ -34,7 +34,7 @@
     "lang": ["deu", "eng"],
     "related_institutions": [
       {
-        "relation_type": "",
+        "relation_type": "host",
         "org_name": {
           "text": "Freie Universität Berlin",
           "ref": [
