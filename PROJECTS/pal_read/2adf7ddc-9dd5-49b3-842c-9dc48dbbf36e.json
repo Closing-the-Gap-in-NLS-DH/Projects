@@ -45,7 +45,18 @@
         "websites": ["https://www.fu-berlin.de/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+        "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

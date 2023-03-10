@@ -52,6 +52,16 @@
         "relation_type": "child",
         "title": "Glossarion",
         "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
       }
     ],
     "contacts": [

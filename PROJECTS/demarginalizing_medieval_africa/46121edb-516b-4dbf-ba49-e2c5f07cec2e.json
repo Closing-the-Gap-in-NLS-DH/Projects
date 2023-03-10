@@ -48,14 +48,6 @@
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Centre for the Study of Manuscript Cultures",
-          "ref": []
-        },
-        "websites": ["https://www.csmc.uni-hamburg.de/"]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
           "text": "Helmut-Schmidt-Universität",
           "ref": [
             "https://www.wikidata.org/wiki/Q530991",
@@ -85,6 +77,17 @@
           ]
         },
         "websites": ["http://www.ucl.ac.uk"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
+        },
+        "websites": ["http://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [

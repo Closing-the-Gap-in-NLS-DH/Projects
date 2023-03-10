@@ -9,7 +9,7 @@
   "project": {
     "title": "European Lexicographic Infrastructure",
     "abbr": "ELEXIS",
-    "type": "project",
+    "type": "organization",
     "ref": ["https://d-nb.info/gnd/124425259X"],
     "date": [
       {
@@ -184,7 +184,7 @@
     "lang": ["eng"],
     "related_institutions": [
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Jožef Stefan Institute",
           "ref": [
@@ -195,7 +195,7 @@
         "websites": ["http://www.ijs.si/ijsw"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Sapienza University of Rome",
           "ref": [
@@ -206,7 +206,7 @@
         "websites": ["http://www.uniroma1.it/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Österreichische Akademie der Wissenschaften",
           "ref": [
@@ -217,7 +217,7 @@
         "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Institute of the Estonian Language",
           "ref": [
@@ -228,7 +228,7 @@
         "websites": ["http://en.eki.ee/index.php"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "National University of Ireland, Galway",
           "ref": [
@@ -239,7 +239,7 @@
         "websites": ["http://www.nuigalway.ie/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Society for Danish Language and Literature",
           "ref": ["https://www.wikidata.org/wiki/Q12308333"]
@@ -247,7 +247,7 @@
         "websites": ["https://dsl.dk/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "University of Copenhagen",
           "ref": [
@@ -258,7 +258,7 @@
         "websites": ["http://www.ku.dk/english/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "The Dutch Language Institute",
           "ref": ["https://www.wikidata.org/wiki/Q5200436"]
@@ -266,7 +266,7 @@
         "websites": ["https://ivdnt.org/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Institute for Bulgarian Language",
           "ref": [
@@ -277,7 +277,7 @@
         "websites": ["http://ibl.bas.bg/en/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Royal Spanish Academy",
           "ref": [
@@ -288,7 +288,7 @@
         "websites": ["http://www.rae.es/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Universidade Nova de Lisboa",
           "ref": [
@@ -299,7 +299,7 @@
         "websites": ["http://www.unl.pt/en/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Belgrade Centre for Digital Humanities",
           "ref": []
@@ -311,7 +311,7 @@
         ]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Hungarian Academy of Sciences",
           "ref": [
@@ -322,7 +322,7 @@
         "websites": ["http://mta.hu/english/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Universität Trier",
           "ref": [
@@ -333,7 +333,7 @@
         "websites": ["https://www.uni-trier.de/"]
       },
       {
-        "relation_type": "host",
+        "relation_type": "member",
         "org_name": {
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
@@ -344,7 +344,18 @@
         "websites": ["http://www.ilc.cnr.it/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
+        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
+        "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
