@@ -47,7 +47,18 @@
         "websites": ["https://www.fu-berlin.de/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+        "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

@@ -49,10 +49,13 @@
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Centre for the Study of Manuscript Cultures",
-          "ref": []
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
         },
-        "websites": ["https://www.csmc.uni-hamburg.de/"]
+        "websites": ["http://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
