@@ -23,7 +23,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -133,7 +133,7 @@
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
+          "ref": ["https://www.geonames.org/2618424/kobenhavn.html"]
         },
         "coordinates": {
           "lat": "55.6711",
@@ -252,7 +252,7 @@
             "https://ror.org/0331qyx19"
           ]
         },
-        "websites": ["http://www.cnrs.fr/index.php"]
+        "websites": ["https://www.cnrs.fr/"]
       },
       {
         "relation_type": "member",
@@ -263,7 +263,7 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": ["http://www.unl.pt/en/"]
+        "websites": ["https://www.unl.pt/en/"]
       },
       {
         "relation_type": "member",
@@ -285,7 +285,7 @@
             "https://www.wikidata.org/wiki/Q1574185"
           ]
         },
-        "websites": ["http://www.ucc.ie/en/"]
+        "websites": ["https://www.ucc.ie/en/"]
       },
       {
         "relation_type": "member",
@@ -296,7 +296,7 @@
             "https://ror.org/036x5ad56"
           ]
         },
-        "websites": ["http://wwwen.uni.lu/"]
+        "websites": ["https://wwwen.uni.lu/"]
       },
       {
         "relation_type": "member",
@@ -350,7 +350,7 @@
             "https://ror.org/039bjqg32"
           ]
         },
-        "websites": ["http://en.uw.edu.pl/"]
+        "websites": ["https://en.uw.edu.pl/"]
       },
       {
         "relation_type": "member",
@@ -372,7 +372,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "member",
@@ -383,7 +383,7 @@
             "https://ror.org/008pp7a77"
           ]
         },
-        "websites": ["http://www.inz.si/index-en.php"]
+        "websites": ["https://www.inz.si/index-en.php"]
       },
       {
         "relation_type": "member",
@@ -394,7 +394,7 @@
             "https://ror.org/04mpn1847"
           ]
         },
-        "websites": ["http://www.ief.hr/"]
+        "websites": ["https://www.ief.hr/"]
       },
       {
         "relation_type": "member",
@@ -405,7 +405,7 @@
             "https://ror.org/02hhwgd43"
           ]
         },
-        "websites": ["http://www.unsa.ba/s/index.php"]
+        "websites": ["https://www.unsa.ba/s/index.php"]
       },
       {
         "relation_type": "member",
@@ -416,7 +416,7 @@
             "https://ror.org/02f2wk572"
           ]
         },
-        "websites": ["http://www.sanu.ac.rs/"]
+        "websites": ["https://www.sanu.ac.rs/"]
       },
       {
         "relation_type": "member",
@@ -438,7 +438,7 @@
             "https://ror.org/00qsdn986"
           ]
         },
-        "websites": ["http://www.academyofathens.gr/echome.asp?lang=2"]
+        "websites": ["https://www.academyofathens.gr/echome.asp?lang=2"]
       },
       {
         "relation_type": "member",
@@ -449,7 +449,7 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": ["http://www.cut.ac.cy/?languageId=2"]
+        "websites": ["https://www.cut.ac.cy/?languageId=2"]
       }
     ],
     "related_entities": [

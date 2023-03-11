@@ -86,7 +86,7 @@
             "https://ror.org/04mhzgx49"
           ]
         },
-        "websites": ["http://english.tau.ac.il/"]
+        "websites": ["https://english.tau.ac.il/"]
       },
       {
         "relation_type": "host",
@@ -97,7 +97,7 @@
             "https://www.wikidata.org/wiki/Q2744135"
           ]
         },
-        "websites": ["http://www.antiquities.org.il/about_en"]
+        "websites": ["https://www.antiquities.org.il/about_en"]
       }
     ],
     "related_entities": [

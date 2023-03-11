@@ -66,7 +66,7 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["http://www.goethe-university-frankfurt.de/en?"]
+        "websites": ["https://www.goethe-university-frankfurt.de/en?"]
       },
       {
         "relation_type": "host",
@@ -77,7 +77,7 @@
             "https://www.wikidata.org/wiki/Q122453"
           ]
         },
-        "websites": ["http://www.uni-stuttgart.de/home/index.en.html"]
+        "websites": ["https://www.uni-stuttgart.de/home/index.en.html"]
       },
       {
         "relation_type": "host",

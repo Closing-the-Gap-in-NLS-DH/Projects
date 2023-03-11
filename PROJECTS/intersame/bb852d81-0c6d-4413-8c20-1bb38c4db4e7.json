@@ -36,7 +36,7 @@
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["http://www.geonames.org/2653941/cambridge.html"]
+          "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
         "coordinates": {
           "lat": "52.2",
@@ -66,7 +66,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["http://www.uni-hamburg.de/"]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -100,7 +100,7 @@
       {
         "pers_name": {
           "text": "Fedeli, Alba",
-          "ref": ["http://viaf.org/viaf/13159335176612960925"]
+          "ref": ["https://viaf.org/viaf/13159335176612960925"]
         },
         "role": 0,
         "websites": [

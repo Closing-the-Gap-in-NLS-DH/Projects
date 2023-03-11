@@ -55,7 +55,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "host",
@@ -66,7 +66,7 @@
             "https://www.wikidata.org/wiki/Q27265"
           ]
         },
-        "websites": ["http://www.uni-salzburg.at/index.php?id=52"]
+        "websites": ["https://www.uni-salzburg.at/index.php?id=52"]
       }
     ],
     "related_entities": [

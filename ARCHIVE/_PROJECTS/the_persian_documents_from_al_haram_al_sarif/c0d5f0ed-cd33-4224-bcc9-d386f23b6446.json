@@ -65,7 +65,7 @@
               "text": "Universität Hamburg",
               "ref": ["https://www.grid.ac/institutes/grid.9026.d"]
             },
-            "website": ["http://www.uni-hamburg.de/"],
+            "website": ["https://www.uni-hamburg.de/"],
             "places": [
               {
                 "place_name": {
@@ -104,7 +104,7 @@
           "text": "Technische Universität Hamburg",
           "ref": ["https://www.grid.ac/institutes/grid.6884.2"]
         },
-        "websites": ["http://www.tuhh.de"],
+        "websites": ["https://www.tuhh.de/"],
         "places": [
           {
             "place_name": {

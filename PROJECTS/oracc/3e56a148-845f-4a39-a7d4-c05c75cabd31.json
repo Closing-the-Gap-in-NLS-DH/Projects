@@ -10,14 +10,14 @@
     "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
     "abbr": "Oracc",
     "type": "project",
-    "ref": ["http://urn.fi/urn:nbn:fi:lb-2022031705"],
+    "ref": ["https://urn.fi/urn:nbn:fi:lb-2022031705"],
     "date": [
       {
         "from": "",
         "to": ""
       }
     ],
-    "websites": ["http://oracc.museum.upenn.edu/index.html"],
+    "websites": ["https://oracc.museum.upenn.edu/index.html"],
     "project_desc": "Oracc emerged from the CDLI project. It is a is a collaborative effort to develop a complete multilingual corpus of cuneiform whose rich annotation and open licensing support the next generation of scholarly research.",
     "places": [
       {
@@ -79,7 +79,7 @@
       {
         "pers_name": {
           "text": "Tinney, Stephen J.",
-          "ref": ["http://viaf.org/viaf/18932290"]
+          "ref": ["https://viaf.org/viaf/18932290"]
         },
         "role": 0,
         "websites": ["https://www.ling.upenn.edu/people/tinney"]

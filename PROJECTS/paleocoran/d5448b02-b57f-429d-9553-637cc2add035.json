@@ -23,7 +23,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -33,7 +33,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -63,7 +63,7 @@
             "https://ror.org/04ex24z53"
           ]
         },
-        "websites": ["http://www.college-de-france.fr/site/college/index.htm"]
+        "websites": ["https://www.college-de-france.fr/site/college/index.htm"]
       }
     ],
     "related_entities": [

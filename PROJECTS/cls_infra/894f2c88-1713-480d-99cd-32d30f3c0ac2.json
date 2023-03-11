@@ -33,7 +33,7 @@
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
         "coordinates": {
           "lat": "52.39886",
@@ -93,7 +93,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -184,7 +184,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "host",
@@ -206,7 +206,7 @@
             "https://www.wikidata.org/wiki/Q10159"
           ]
         },
-        "websites": ["http://www.ens-lyon.fr/"]
+        "websites": ["https://www.ens-lyon.fr/"]
       },
       {
         "relation_type": "host",
@@ -248,7 +248,7 @@
           "ref": []
         },
         "websites": [
-          "http://www.humanistika.org/",
+          "https://www.humanistika.org/",
           "https://wbc-rti.info/object/link/6612",
           "https://elex.is/rs-bcdh/"
         ]
@@ -262,7 +262,7 @@
             "https://www.wikidata.org/wiki/Q253439"
           ]
         },
-        "websites": ["http://www.knaw.nl/nl"]
+        "websites": ["https://www.knaw.nl/nl"]
       },
       {
         "relation_type": "host",
@@ -284,7 +284,7 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["http://www.nuigalway.ie/"]
+        "websites": ["https://www.nuigalway.ie/"]
       }
     ],
     "related_entities": [
@@ -307,7 +307,7 @@
         },
         "role": 0,
         "websites": [
-          "http://maciejeder.org/",
+          "https://maciejeder.org/",
           "https://ijp.pan.pl/en/pracownicy/maciej-eder/"
         ]
       }
