@@ -55,7 +55,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["hhttps://www.geonames.org/2950159/berlin.html"]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
