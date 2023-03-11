@@ -23,7 +23,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -43,7 +43,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -53,7 +53,7 @@
       {
         "place_name": {
           "text": "Wolfenbüttel",
-          "ref": ["http://www.geonames.org/2806914/wolfenbuettel.html"]
+          "ref": ["https://www.geonames.org/2806914/wolfenbuettel.html"]
         },
         "coordinates": {
           "lat": "52.16442",
@@ -72,7 +72,7 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": ["http://staatsbibliothek-berlin.de/"]
+        "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
         "relation_type": "host",
@@ -102,7 +102,7 @@
             "https://ror.org/02y5mkh60"
           ]
         },
-        "websites": ["http://www.hab.de/"]
+        "websites": ["https://www.hab.de/"]
       }
     ],
     "related_entities": [],

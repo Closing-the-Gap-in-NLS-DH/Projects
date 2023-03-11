@@ -45,7 +45,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "host",
@@ -95,7 +95,7 @@
       {
         "pers_name": {
           "text": "Mörth, Karlheinz",
-          "ref": ["http://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."]
+          "ref": ["https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."]
         },
         "role": 0,
         "websites": [

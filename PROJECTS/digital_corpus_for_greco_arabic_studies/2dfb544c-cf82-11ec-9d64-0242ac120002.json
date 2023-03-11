@@ -52,7 +52,7 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["http://www.harvard.edu/"]
+        "websites": ["https://www.harvard.edu/"]
       },
       {
         "relation_type": "host",
@@ -63,7 +63,7 @@
             "https://ror.org/05wvpxv85"
           ]
         },
-        "websites": ["http://www.tufts.edu/"]
+        "websites": ["https://www.tufts.edu/"]
       }
     ],
     "related_entities": [],
@@ -71,7 +71,7 @@
       {
         "pers_name": {
           "text": "Schiefsky, Mark",
-          "ref": ["http://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
+          "ref": ["https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
         },
         "role": 0,
         "websites": ["https://scholar.harvard.edu/schiefsky/home"]

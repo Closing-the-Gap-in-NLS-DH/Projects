@@ -19,14 +19,14 @@
     ],
     "websites": [
       "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital",
-      "http://www.orient-digital.de/content/index.xml"
+      "https://www.orient-digital.de/content/index.xml"
     ],
     "project_desc": "Orient-Digital is a union catalogue and a portal for oriental manuscripts kept in Germany. It will contain the metadata of Arabic, Persian, and Ottoman-Turkish manuscripts from more than 25 cooperating institutions and will provide links to the digitized manuscripts that are available online.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,7 +36,7 @@
       {
         "place_name": {
           "text": "Gotha",
-          "ref": ["http://www.geonames.org/2918752/gotha.html"]
+          "ref": ["https://www.geonames.org/2918752/gotha.html"]
         },
         "coordinates": {
           "lat": "50.94823",
@@ -56,7 +56,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",

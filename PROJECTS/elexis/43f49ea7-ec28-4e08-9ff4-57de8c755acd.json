@@ -73,7 +73,7 @@
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
+          "ref": ["https://www.geonames.org/2618424/kobenhavn.html"]
         },
         "coordinates": {
           "lat": "55.6711",
@@ -192,7 +192,7 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["http://www.ijs.si/ijsw"]
+        "websites": ["https://www.ijs.si/ijsw"]
       },
       {
         "relation_type": "member",
@@ -203,7 +203,7 @@
             "https://ror.org/011cabk38"
           ]
         },
-        "websites": ["http://www.uniroma1.it/"]
+        "websites": ["https://www.uniroma1.it/"]
       },
       {
         "relation_type": "member",
@@ -214,7 +214,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "member",
@@ -225,7 +225,7 @@
             "https://ror.org/041dzw371"
           ]
         },
-        "websites": ["http://en.eki.ee/index.php"]
+        "websites": ["https://en.eki.ee/index.php"]
       },
       {
         "relation_type": "member",
@@ -236,7 +236,7 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["http://www.nuigalway.ie/"]
+        "websites": ["https://www.nuigalway.ie/"]
       },
       {
         "relation_type": "member",
@@ -255,7 +255,7 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["http://www.ku.dk/english/"]
+        "websites": ["https://www.ku.dk/english/"]
       },
       {
         "relation_type": "member",
@@ -274,7 +274,7 @@
             "https://www.wikidata.org/wiki/Q12281765"
           ]
         },
-        "websites": ["http://ibl.bas.bg/en/"]
+        "websites": ["https://ibl.bas.bg/en/"]
       },
       {
         "relation_type": "member",
@@ -285,7 +285,7 @@
             "https://www.wikidata.org/wiki/Q11993457"
           ]
         },
-        "websites": ["http://www.rae.es/"]
+        "websites": ["https://www.rae.es/"]
       },
       {
         "relation_type": "member",
@@ -296,7 +296,7 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": ["http://www.unl.pt/en/"]
+        "websites": ["https://www.unl.pt/en/"]
       },
       {
         "relation_type": "member",
@@ -305,7 +305,7 @@
           "ref": []
         },
         "websites": [
-          "http://www.humanistika.org/",
+          "https://www.humanistika.org/",
           "https://wbc-rti.info/object/link/6612",
           "https://elex.is/rs-bcdh/"
         ]
@@ -319,7 +319,7 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["http://mta.hu/english/"]
+        "websites": ["https://mta.hu/english/"]
       },
       {
         "relation_type": "member",
@@ -341,7 +341,7 @@
             "https://ror.org/028g3pe33"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"]
+        "websites": ["https://www.ilc.cnr.it/"]
       }
     ],
     "related_entities": [
@@ -360,7 +360,7 @@
       {
         "pers_name": {
           "text": "Krek, Simon",
-          "ref": ["http://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"]
+          "ref": ["https://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"]
         },
         "role": 0,
         "websites": ["https://www.simonkrek.si/en/"]

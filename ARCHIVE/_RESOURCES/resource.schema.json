@@ -1,5 +1,5 @@
 {
-  "$id": "http://github.com/Closing-the-Gap-in-NLS-DH/Resources/SCHEMATA/resource.schema.json#",
+  "$id": "https://github.com/Closing-the-Gap-in-NLS-DH/Resources/SCHEMATA/resource.schema.json#",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Resources",
   "description": "List of useful resources",

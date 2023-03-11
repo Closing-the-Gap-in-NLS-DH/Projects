@@ -18,7 +18,7 @@
       }
     ],
     "websites": [
-      "http://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
+      "https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
       "https://vcs.etrap.eu/Coptic-OCR/datasets"
     ],
     "project_desc": "The aim of this project is to improve the quality and accessibility of OCR software for Coptic texts and their different fonds using Machine Learning technologies.",

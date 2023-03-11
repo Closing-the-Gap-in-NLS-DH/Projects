@@ -22,7 +22,7 @@
         "to": "2014"
       }
     ],
-    "websites": ["http://www.digipal.eu/"],
+    "websites": ["https://www.digipal.eu/"],
     "project_desc": "The main objective of this project is to create a database and an innovative resource for the study of medieval manuscripts, mostly produced in England in the 11th century. The database is designed to felicitate and optimize the research by implementation of digital technology (digital photographs, characterization of handwriting, annotation, etc.).",
     "places": [
       {
@@ -71,10 +71,10 @@
       {
         "pers_name": {
           "text": "Stokes, Peter A.",
-          "ref": ["http://viaf.org/viaf/107883884/#Stokes,_Peter_A."]
+          "ref": ["https://viaf.org/viaf/107883884/#Stokes,_Peter_A."]
         },
         "role": 0,
-        "websites": ["http://peterstokes.org/cv/index.html"]
+        "websites": ["https://peterstokes.org/cv/index.html"]
       }
     ],
     "research_data": {

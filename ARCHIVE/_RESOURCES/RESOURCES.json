@@ -292,7 +292,7 @@
       "type": "other",
       "label": "geoJSON Editor",
       "comment": "GeoJSON-Viewer and -Editor",
-      "ref": "http://geojson.io/",
+      "ref": "https://geojson.io/",
       "tags": ["#editor", "#geojson", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -358,7 +358,7 @@
       "type": "other",
       "label": "vega",
       "comment": "Grammar and guidelines for interactive visualisations",
-      "ref": "http://vega.github.io/",
+      "ref": "https://vega.github.io/",
       "tags": ["#grammar", "#guideline", "#visualisation"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -391,7 +391,7 @@
       "type": "other",
       "label": "ocr4all",
       "comment": "GUI for OCR",
-      "ref": "http://www.ocr4all.org/de/home.php",
+      "ref": "https://www.ocr4all.org/de/home.php",
       "tags": ["#ocr", "#gui"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -457,7 +457,7 @@
       "type": "other",
       "label": "kraken ocr",
       "comment": "OCR engine for NLS",
-      "ref": "http://kraken.re/",
+      "ref": "https://kraken.re/",
       "tags": ["#ocr", "#nls"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -677,7 +677,7 @@
       "type": "other",
       "label": "‘Arūż",
       "comment": "Online tool that performs quantitative analysis of Persian meter",
-      "ref": "http://prosody.ir/",
+      "ref": "https://prosody.ir/",
       "tags": ["#tool", "#fas", "#nlp"],
       "collected_by": {
         "name": "Intellectual Digital Humanities Network",
@@ -866,7 +866,7 @@
           "type": "framework:documentation",
           "label": "daux.io",
           "comment": "Framework for documentations",
-          "ref": "http://daux.io/",
+          "ref": "https://daux.io/",
           "tags": ["#framework", "#php", "#documentation"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
@@ -980,7 +980,7 @@
           "type": "framework:style",
           "label": "skeleton",
           "comment": "CSS-Framework",
-          "ref": "http://getskeleton.com/",
+          "ref": "https://getskeleton.com/",
           "tags": ["#framework", "#css"],
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
@@ -1058,7 +1058,7 @@
     {
       "type": "db:xml",
       "label": "eXist-db",
-      "ref": "http://exist-db.org/",
+      "ref": "https://exist-db.org/",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1259,7 +1259,7 @@
     {
       "type": "authority:gis",
       "label": "geonames",
-      "ref": "http://www.geonames.org/",
+      "ref": "https://www.geonames.org/",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1373,7 +1373,7 @@
     {
       "type": "journal",
       "label": "Digital Humanities Quarterly",
-      "ref": "http://digitalhumanities.org/dhq/",
+      "ref": "https://digitalhumanities.org/dhq/",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1672,7 +1672,7 @@
     {
       "type": "other",
       "label": "Arabic Lexikon",
-      "ref": "http://arabiclexicon.hawramani.com/",
+      "ref": "https://arabiclexicon.hawramani.com/",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"

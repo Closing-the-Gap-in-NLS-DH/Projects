@@ -75,7 +75,7 @@
             "https://www.wikidata.org/wiki/Q188370"
           ]
         },
-        "websites": ["http://www.marquette.edu"]
+        "websites": ["https://www.marquette.edu"]
       },
       {
         "relation_type": "host",
@@ -86,7 +86,7 @@
             "https://www.wikidata.org/wiki/Q49210"
           ]
         },
-        "websites": ["http://www.nyu.edu"]
+        "websites": ["https://www.nyu.edu/"]
       },
       {
         "relation_type": "host",

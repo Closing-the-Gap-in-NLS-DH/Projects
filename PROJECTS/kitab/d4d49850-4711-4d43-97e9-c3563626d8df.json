@@ -17,7 +17,7 @@
         "to": "2023"
       }
     ],
-    "websites": ["http://kitab-project.org/"],
+    "websites": ["https://kitab-project.org/"],
     "project_desc": "KITAB is a platform which enables exploration of Arabic texts in digital form. It also provides a digital toolbox and a forum for discussions about Arabic literature. The main research focus of the project lies on the question of how authors copied from previous works. The research is conduced on the corpus of texts created for the needs of the project and powered by technologies at the cutting edge of computer science. All documentation is openly accessible on GitHub.",
     "places": [
       {
@@ -74,7 +74,7 @@
           "ref": []
         },
         "role": 1,
-        "websites": ["http://www.dh.uni-leipzig.de/wo/maxim-romanov/"]
+        "websites": ["https://www.dh.uni-leipzig.de/wo/maxim-romanov/"]
       }
     ],
     "research_data": {

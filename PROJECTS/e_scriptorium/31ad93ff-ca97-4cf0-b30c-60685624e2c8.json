@@ -26,7 +26,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",

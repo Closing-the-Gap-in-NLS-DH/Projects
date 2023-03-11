@@ -93,7 +93,7 @@
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["http://www.geonames.org/2618424/kobenhavn.html"]
+          "ref": ["https://www.geonames.org/2618424/kobenhavn.html"]
         },
         "coordinates": {
           "lat": "55.6711",
@@ -103,7 +103,7 @@
       {
         "place_name": {
           "text": "Tartu",
-          "ref": ["http://www.geonames.org/588335/tartu.html"]
+          "ref": ["https://www.geonames.org/588335/tartu.html"]
         },
         "coordinates": {
           "lat": "58.38062",
@@ -252,7 +252,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["http://www.oeaw.ac.at/en/austrian-academy-of-sciences/"]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "member",
@@ -271,7 +271,7 @@
             "https://www.wikidata.org/wiki/Q1003730"
           ]
         },
-        "websites": ["http://www.bas.bg/"]
+        "websites": ["https://www.bas.bg/"]
       },
       {
         "relation_type": "member",
@@ -282,7 +282,7 @@
             "https://www.wikidata.org/wiki/Q675848"
           ]
         },
-        "websites": ["http://www.unizg.hr/"]
+        "websites": ["https://www.unizg.hr/"]
       },
       {
         "relation_type": "member",
@@ -293,7 +293,7 @@
             "https://www.wikidata.org/wiki/Q1518320"
           ]
         },
-        "websites": ["http://www.cut.ac.cy/?languageId=2"]
+        "websites": ["https://www.cut.ac.cy/?languageId=2"]
       },
       {
         "relation_type": "member",
@@ -315,7 +315,7 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["http://www.ku.dk/english/"]
+        "websites": ["https://www.ku.dk/english/"]
       },
       {
         "relation_type": "member",
@@ -356,7 +356,7 @@
             "https://ror.org/00z24kr14"
           ]
         },
-        "websites": ["http://www.ilsp.gr/en"]
+        "websites": ["https://www.ilsp.gr/en"]
       },
       {
         "relation_type": "member",
@@ -367,7 +367,7 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["http://mta.hu/english/"]
+        "websites": ["https://mta.hu/english/"]
       },
       {
         "relation_type": "member",
@@ -378,7 +378,7 @@
             "https://www.wikidata.org/wiki/Q627418"
           ]
         },
-        "websites": ["http://www.arnastofnun.is/"]
+        "websites": ["https://www.arnastofnun.is/"]
       },
       {
         "relation_type": "member",
@@ -386,10 +386,10 @@
           "text": "Institute for Computational Linguistics “A. Zampolli”",
           "ref": [
             "https://ror.org/028g3pe33",
-            "http://viaf.org/viaf/6050160062454135790009"
+            "https://viaf.org/viaf/6050160062454135790009"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"]
+        "websites": ["https://www.ilc.cnr.it/"]
       },
       {
         "relation_type": "member",
@@ -411,7 +411,7 @@
             "https://ror.org/04y7eh037"
           ]
         },
-        "websites": ["http://www.vdu.lt/en/"]
+        "websites": ["https://www.vdu.lt/en/"]
       },
       {
         "relation_type": "member",
@@ -422,7 +422,7 @@
             "https://ror.org/04pp8hn57"
           ]
         },
-        "websites": ["http://www.uu.nl/en"]
+        "websites": ["https://www.uu.nl/en"]
       },
       {
         "relation_type": "member",
@@ -433,7 +433,7 @@
             "https://www.wikidata.org/wiki/Q204457"
           ]
         },
-        "websites": ["http://www.uib.no/en/node/36362"]
+        "websites": ["https://www.uib.no/en"]
       },
       {
         "relation_type": "member",
@@ -444,7 +444,7 @@
             "https://www.wikidata.org/wiki/Q522109"
           ]
         },
-        "websites": ["http://www.portal.pwr.wroc.pl"]
+        "websites": ["https://www.portal.pwr.wroc.pl"]
       },
       {
         "relation_type": "member",
@@ -455,7 +455,7 @@
             "https://www.wikidata.org/wiki/Q1122926"
           ]
         },
-        "websites": ["http://www.ulisboa.pt/"]
+        "websites": ["https://www.ulisboa.pt/"]
       },
       {
         "relation_type": "member",
@@ -466,7 +466,7 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["http://www.ijs.si/ijsw"]
+        "websites": ["https://www.ijs.si/ijsw"]
       },
       {
         "relation_type": "member",
@@ -477,7 +477,7 @@
             "https://www.wikidata.org/wiki/Q371522"
           ]
         },
-        "websites": ["http://www.gu.se/english"]
+        "websites": ["https://www.gu.se/english"]
       }
     ],
     "related_entities": [

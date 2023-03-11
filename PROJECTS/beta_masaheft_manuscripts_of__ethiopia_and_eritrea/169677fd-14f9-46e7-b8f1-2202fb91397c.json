@@ -56,7 +56,7 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["http://www.tuhh.de"]
+        "websites": ["https://www.tuhh.de/"]
       },
       {
         "relation_type": "host",
@@ -67,7 +67,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["http://www.uni-hamburg.de/"]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [

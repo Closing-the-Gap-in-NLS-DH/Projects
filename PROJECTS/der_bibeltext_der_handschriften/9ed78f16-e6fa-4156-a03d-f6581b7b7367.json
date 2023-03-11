@@ -18,7 +18,7 @@
       }
     ],
     "websites": [
-      "http://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"
+      "https://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"
     ],
     "project_desc": "This project is dedicated to the complete collection and computerization of textual variants of the Biblical manuscripts of the Babylonian and Yemenite tradition. The variants will be compered with other ancient textual witnesses and classified in their historical context. The analyses of the hitherto unexplored material will open a new perspective for the reconstruction of the biblical text history.",
     "places": [
@@ -41,7 +41,7 @@
           "text": "Hochschule für Jüdische Studien Heidelberg",
           "ref": ["https://www.wikidata.org/wiki/Q1622186"]
         },
-        "websites": ["http://www.hfjs.eu"]
+        "websites": ["https://www.hfjs.eu"]
       }
     ],
     "related_entities": [],
@@ -53,7 +53,7 @@
         },
         "role": 0,
         "websites": [
-          "http://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
+          "https://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
         ]
       }
     ],

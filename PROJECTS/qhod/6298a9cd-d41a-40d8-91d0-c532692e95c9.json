@@ -36,7 +36,7 @@
       {
         "place_name": {
           "text": "Salzburg",
-          "ref": ["http://www.geonames.org/2766823/salzburg.html"]
+          "ref": ["https://www.geonames.org/2766823/salzburg.html"]
         },
         "coordinates": {
           "lat": "47.41667",

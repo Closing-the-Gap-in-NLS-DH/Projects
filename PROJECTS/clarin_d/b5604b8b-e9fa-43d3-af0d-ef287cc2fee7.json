@@ -63,7 +63,7 @@
       {
         "place_name": {
           "text": "Mannheim",
-          "ref": ["http://www.geonames.org/2873891/mannheim.html"]
+          "ref": ["https://www.geonames.org/2873891/mannheim.html"]
         },
         "coordinates": {
           "lat": "49.4891",
@@ -73,7 +73,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",

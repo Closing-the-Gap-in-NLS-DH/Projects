@@ -22,7 +22,7 @@
       }
     ],
     "websites": [
-      "http://www.surayt.com/",
+      "https://www.surayt.com/",
       "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/saop/index.html",
       "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/aramaic-online-project/index.html"
     ],
@@ -51,7 +51,7 @@
       {
         "place_name": {
           "text": "Glane",
-          "ref": ["http://www.geonames.org/2755497/glane.html"]
+          "ref": ["https://www.geonames.org/2755497/glane.html"]
         },
         "coordinates": {
           "lat": "52.2325",
@@ -71,7 +71,7 @@
       {
         "place_name": {
           "text": "Gölcük",
-          "ref": ["http://www.geonames.org/746666/geulzuk.html"]
+          "ref": ["https://www.geonames.org/746666/geulzuk.html"]
         },
         "coordinates": {
           "lat": "40.71501",
@@ -128,7 +128,7 @@
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
-        "websites": ["http://midyatsuryanikulturdernegi.com/"]
+        "websites": ["https://midyatsuryanikulturdernegi.com/"]
       }
     ],
     "related_entities": [],

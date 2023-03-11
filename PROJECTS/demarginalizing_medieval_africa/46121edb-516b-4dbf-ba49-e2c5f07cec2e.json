@@ -65,7 +65,7 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["http://www.tuhh.de"]
+        "websites": ["https://www.tuhh.de/"]
       },
       {
         "relation_type": "host",
@@ -76,7 +76,7 @@
             "https://ror.org/02jx3x895"
           ]
         },
-        "websites": ["http://www.ucl.ac.uk"]
+        "websites": ["https://www.ucl.ac.uk"]
       },
       {
         "relation_type": "host",
@@ -87,7 +87,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["http://www.uni-hamburg.de/"]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [

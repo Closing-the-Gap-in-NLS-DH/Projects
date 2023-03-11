@@ -19,14 +19,14 @@
     ],
     "websites": [
       "https://rla.badw.de/das-projekt.html",
-      "http://publikationen.badw.de/de/rla"
+      "https://publikationen.badw.de/de/rla"
     ],
     "project_desc": "This project represents the most extensive publication in Ancient Near Eastern Studies, with its first fascicle published in 1928 and the last one in 2018. It is an encyclopedia whose entries cover names of locations, deities and kings, history, religion, literature, sciences, flora and fauna, material culture as well as art and architecture of the Ancient Near East. It is available as printed and digital edition, accessible either as PDF files or via an online List of Lemmata.",
     "places": [
       {
         "place_name": {
           "text": "München",
-          "ref": ["http://www.geonames.org/2867714/munich.html"]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",

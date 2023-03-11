@@ -23,7 +23,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["http://www.geonames.org/2950159/berlin.html"]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -33,7 +33,7 @@
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": ["http://www.geonames.org/2852458/potsdam.html"]
+          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
         "coordinates": {
           "lat": "52.39886",
@@ -43,7 +43,7 @@
       {
         "place_name": {
           "text": "Frankfurt (Oder)",
-          "ref": ["http://www.geonames.org/2925535/frankfurt-oder.html"]
+          "ref": ["https://www.geonames.org/2925535/frankfurt-oder.html"]
         },
         "coordinates": {
           "lat": "52.34714",

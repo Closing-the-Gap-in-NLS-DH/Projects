@@ -27,7 +27,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["http://www.geonames.org/2988506/paris.html"]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -98,7 +98,7 @@
           ]
         },
         "role": 0,
-        "websites": ["http://haifahci.net/people/alan-wecker/"]
+        "websites": ["https://haifahci.net/people/alan-wecker/"]
       }
     ],
     "research_data": {
