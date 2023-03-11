@@ -1,5 +1,10 @@
 # Exclude URLs and mail addresses from checking (supports regex)
-exclude = ['.*\.ac\.ir.*', '.*gepris\.dfg\.de.*', '.*researchgate\.net.*']
+exclude = [
+    '.*\.ac\.ir.*',
+    '.*gepris\.dfg\.de.*',
+    '.*\.git$',
+    '.*researchgate\.net.*',
+]
 
 # Exclude these filesystem paths from getting checked
 exclude_path = ["node_modules"]
