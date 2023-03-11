@@ -53,7 +53,9 @@
           "ref": ["https://d-nb.info/gnd/1011172860"]
         },
         "role": 0,
-        "websites": ["https://persoenlichewebsite"]
+        "websites": [
+          "https://www.fu-berlin.de/en/sites/ub/ueber-uns/team/mischke/"
+        ]
       }
     ],
     "research_data": {

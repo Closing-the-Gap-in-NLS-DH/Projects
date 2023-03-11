@@ -18,8 +18,8 @@
       }
     ],
     "websites": [
-      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/projekte/dfg-projekt-orient-digital",
-      "https://www.orient-digital.de/content/index.xml"
+      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-/-profil/projekte/dfg-projekt-orient-digital",
+      "https://www.qalamos.net/"
     ],
     "project_desc": "Orient-Digital is a union catalogue and a portal for oriental manuscripts kept in Germany. It will contain the metadata of Arabic, Persian, and Ottoman-Turkish manuscripts from more than 25 cooperating institutions and will provide links to the digitized manuscripts that are available online.",
     "places": [
@@ -120,7 +120,7 @@
         },
         "role": 0,
         "websites": [
-          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/service-und-benutzung/kontakt"
+          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
         ]
       }
     ],
