@@ -18,7 +18,7 @@
       }
     ],
     "websites": [
-      "https://www.islamic-manuscripts.net/content/index.xml?XSL.lastPage.SESSION=/content/index.xml&lang=de"
+      "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
     ],
     "project_desc": "In this project all the remaining Arabic, Persian and Turkish manuscripts at Leipzig University Library that have not been yet catalogued and digitized in previous projects (Refaiya and Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig) will be made accessible online until 2015.",
     "places": [
@@ -62,12 +62,12 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Verena Klemm-Kuhn",
+          "text": "Verena Klemm",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
         "role": 0,
         "websites": [
-          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
+          "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
       }
     ],

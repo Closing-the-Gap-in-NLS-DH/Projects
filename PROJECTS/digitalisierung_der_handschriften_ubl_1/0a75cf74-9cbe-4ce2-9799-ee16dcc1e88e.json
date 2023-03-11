@@ -19,7 +19,7 @@
     ],
     "websites": [
       "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-pilotprojekt/",
-      "https://www.islamic-manuscripts.net/content/index.xml?XSL.lastPage.SESSION=/content/index.xml&lang=de"
+      "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
     ],
     "project_desc": "In this project 55 Arabic, Persian and Ottoman-Turkish manuscripts, that has been purchased by Leipzig University Library in 1995 and 1996, will be catalogued and digitalized. It is a pioneer project, as it will for the first time integrate Arabic script into a database that also features German and American transliteration systems. The manuscripts contain texts that cover an amazingly broad spectrum, which comprises almost all traditional Islamic fields of knowledge and the main scope of this project to provide scholars of Oriental Studies with access to this hitherto unknown pool of information.",
     "places": [
@@ -63,12 +63,12 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Verena Klemm-Kuhn",
+          "text": "Verena Klemm",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
         "role": 0,
         "websites": [
-          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
+          "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
       }
     ],

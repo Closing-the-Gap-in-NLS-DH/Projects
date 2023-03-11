@@ -18,9 +18,9 @@ You want to participate and contribute data on your project to our database? Tha
 
 You can either write plain JSON or use the form we provide on the Graphical User Interface. If you decide to use plain JSON, please follow the provided JSON schema.
 
-If you are not able or willing to write plain JSON, feel free to use the form we provide: <https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/contribute>
+If you are not able or willing to write plain JSON, feel free to use the form we provide: <https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/>
 
-Since we use a standardized vocabulary, please use the [keywords documentation](https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/keywords_documentation.md) to choose tags for your project. As our taxonomy is still developing, feel free to contact us with any suggestions for improvement.
+Since we use a standardized vocabulary, please use the [keywords documentation](https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/KEYWORDS/KEYWORDS_DOCUMENTATION.md) to choose tags for your project. As our taxonomy is still developing, feel free to contact us with any suggestions for improvement.
 
 After you have finished your work, simply provide us with the final JSON file so that we can ingest it. The data will be available immediately after the file is added to our store.
 

@@ -305,7 +305,7 @@
           "ref": []
         },
         "websites": [
-          "https://www.humanistika.org/",
+          "https://web.archive.org/web/20211027232432/http://www.humanistika.org/",
           "https://wbc-rti.info/object/link/6612",
           "https://elex.is/rs-bcdh/"
         ]
@@ -341,7 +341,7 @@
             "https://ror.org/028g3pe33"
           ]
         },
-        "websites": ["https://www.ilc.cnr.it/"]
+        "websites": ["http://www.ilc.cnr.it/"]
       }
     ],
     "related_entities": [

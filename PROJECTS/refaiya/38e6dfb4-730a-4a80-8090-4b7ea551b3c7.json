@@ -17,7 +17,7 @@
         "to": "2013"
       }
     ],
-    "websites": ["https://www.refaiya.uni-leipzig.de/content/index.xml"],
+    "websites": ["https://refaiya.uni-leipzig.de/"],
     "project_desc": "This project is dedicated to digital presentation, cataloguing, and research on the private Arabic-Islamic library of the Damascene Rifā‘ī family. The Refaiya library contains 488 carefully preserved volumes, which can be seen as an archive of a traditional Islamic culture of scholarship, knowledge, and books handed down over several centuries—until its purchase by Prussian Consul and Arabist Johann Gottfried Wetzstein in the 19th century. A trilingual database (English, German, and Arabic) will make the manuscripts accessible internationally, including in the Islamic world.",
     "places": [
       {
@@ -60,12 +60,12 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Verena Klemm-Kuhn",
+          "text": "Verena Klemm",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
         "role": 0,
         "websites": [
-          "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-verena-klemm-kuhn"
+          "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
       }
     ],

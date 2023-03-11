@@ -22,7 +22,7 @@
       }
     ],
     "websites": [
-      "https://www.surayt.com/",
+      "http://www.surayt.com/",
       "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/saop/index.html",
       "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/aramaic-online-project/index.html"
     ],
@@ -128,7 +128,7 @@
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
-        "websites": ["https://midyatsuryanikulturdernegi.com/"]
+        "websites": ["http://midyatsuryanikulturdernegi.com/"]
       }
     ],
     "related_entities": [],

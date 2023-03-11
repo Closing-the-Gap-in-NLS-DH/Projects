@@ -282,7 +282,7 @@
             "https://www.wikidata.org/wiki/Q675848"
           ]
         },
-        "websites": ["https://www.unizg.hr/"]
+        "websites": ["http://www.unizg.hr/"]
       },
       {
         "relation_type": "member",
@@ -389,7 +389,7 @@
             "https://viaf.org/viaf/6050160062454135790009"
           ]
         },
-        "websites": ["https://www.ilc.cnr.it/"]
+        "websites": ["http://www.ilc.cnr.it/"]
       },
       {
         "relation_type": "member",
@@ -444,7 +444,7 @@
             "https://www.wikidata.org/wiki/Q522109"
           ]
         },
-        "websites": ["https://www.portal.pwr.wroc.pl"]
+        "websites": ["https://pwr.edu.pl/"]
       },
       {
         "relation_type": "member",
