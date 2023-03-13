@@ -181,7 +181,7 @@
               }
             },
             "sustainability_plan": {
-              "description": "Is there a plan to ensure the sustainability and reusability of research data and project´s outcome? ",
+              "description": "Is there a plan to ensure the sustainability and reusability of research data and the project's outcome?",
               "type": ["boolean", "null"]
             },
             "publications": {
