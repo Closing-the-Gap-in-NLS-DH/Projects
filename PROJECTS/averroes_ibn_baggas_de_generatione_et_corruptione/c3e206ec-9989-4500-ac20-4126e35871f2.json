@@ -62,7 +62,9 @@
           "ref": ["https://d-nb.info/gnd/118137412X"]
         },
         "role": 1,
-        "websites": ["https://thomasinstitut.uni-koeln.de/index.php?id=11981"]
+        "websites": [
+          "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/corrado-la-martire"
+        ]
       }
     ],
     "research_data": {

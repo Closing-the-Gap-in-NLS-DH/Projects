@@ -18,7 +18,7 @@
       }
     ],
     "websites": [
-      "https://webarchive.bbaw.de/default/20210819141519/https://www.coranica.de/front-page-en?set_language=en"
+      "https://webarchive.bbaw.de/default/20210819141519/https://www.coranica.de/front-page-en/"
     ],
     "project_desc": "The focus of Coranica Project is to understand the early development and canonization of the Qur’an by giving priority to the empirical approach (analyses of material evidence like manuscripts), rather than to the data of the Arabo-Islamic tradition. The project consists of two components: the first, “Manuscripta et testimonia coranica,” aims at producing catalogued inventories and studies of the earliest manuscripts of the Qur’an. The second part, Glossarium Coranicum, will provide focused analysis and documentation on the languages (spoken and written) and religions that were practiced in Arabia at the time of Muhammad, and on their impact on the Qur’anic lexicon.",
     "places": [
@@ -62,7 +62,7 @@
           "text": "Académie des Inscriptions et Belles-Lettres Paris",
           "ref": ["https://www.wikidata.org/wiki/Q337526"]
         },
-        "websites": ["https://www.aibl.fr/?lang=fr"]
+        "websites": ["https://aibl.fr/"]
       }
     ],
     "related_entities": [
