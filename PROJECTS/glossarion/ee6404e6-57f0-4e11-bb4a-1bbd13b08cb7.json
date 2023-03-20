@@ -23,7 +23,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -31,7 +33,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -57,7 +62,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -65,11 +72,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -77,7 +97,9 @@
         "ref": []
       }
     ],
-    "keywords": ["repository"],
+    "keywords": [
+      "repository"
+    ],
     "comment": ""
   }
 }

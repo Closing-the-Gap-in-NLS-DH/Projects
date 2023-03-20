@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -34,7 +36,11 @@
         }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"]
+        "websites": [
+          "https://www.bbaw.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -68,11 +76,16 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -80,11 +93,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -97,7 +123,8 @@
       "manuscripts",
       "religion_studies",
       "religious_text",
-      "repository"
+      "repository",
+      "arabic_studies"
     ],
     "comment": ""
   }

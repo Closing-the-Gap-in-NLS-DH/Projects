@@ -25,7 +25,9 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/leiden.html"]
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
         },
         "coordinates": {
           "lat": "52.15833",
@@ -33,7 +35,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -44,7 +48,9 @@
             "https://ror.org/027bh9e22"
           ]
         },
-        "websites": ["https://www.universiteitleiden.nl/en"]
+        "websites": [
+          "https://www.universiteitleiden.nl/en"
+        ]
       }
     ],
     "related_entities": [],
@@ -52,7 +58,9 @@
       {
         "pers_name": {
           "text": "Sijpesteijn, Petra",
-          "ref": ["https://www.wikidata.org/wiki/Q14084136"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q14084136"
+          ]
         },
         "role": 0,
         "websites": [
@@ -61,11 +69,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -73,11 +85,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -85,7 +110,11 @@
         "ref": []
       }
     ],
-    "keywords": ["religion_studies", "repository"],
+    "keywords": [
+      "religion_studies",
+      "repository",
+      "arabic_studies"
+    ],
     "comment": ""
   }
 }

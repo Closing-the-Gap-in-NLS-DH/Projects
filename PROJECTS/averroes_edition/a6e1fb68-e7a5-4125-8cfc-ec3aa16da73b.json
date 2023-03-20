@@ -17,13 +17,17 @@
         "to": "2041"
       }
     ],
-    "websites": ["https://averroes.uni-koeln.de/project/about/"],
+    "websites": [
+      "https://averroes.uni-koeln.de/project/about/"
+    ],
     "project_desc": "The project’s main goal is to generate a trilingual critical edition of all commentaries by Ibn Rušd (Averroes) on Aristotle’s Physics, which are the synthesis of the late antique and Arabic reception of Greek philosophy. Next to the Arabic commentaries the edition will also contain their Latin and Hebrew translations.",
     "places": [
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+          "ref": [
+            "https://www.geonames.org/2934246/duesseldorf.html"
+          ]
         },
         "coordinates": {
           "lat": "51.22172",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Köln",
-          "ref": ["https://www.geonames.org/2886242/koeln.html"]
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -41,7 +47,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,7 +61,9 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": ["https://thomasinstitut.uni-koeln.de/"]
+        "websites": [
+          "https://thomasinstitut.uni-koeln.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -90,11 +101,17 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "heb", "lat"],
+      "lang": [
+        "ara",
+        "heb",
+        "lat"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -102,11 +119,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -114,7 +144,12 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "philosophy"],
+    "keywords": [
+      "digital_edition",
+      "manuscripts",
+      "philosophy",
+      "arabic_studies"
+    ],
     "comment": ""
   }
 }
