@@ -17,17 +17,13 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://cdli.ucla.edu/projects/royal/royal.html"
-    ],
+    "websites": ["https://cdli.ucla.edu/projects/royal/royal.html"],
     "project_desc": "In this sub-project of the Cuneiform Digital Library Initiative (CDLI), the focus lies on the digitization of royal and monumental texts, which despite representing a small share of the overall CDLI catalogue (20,000 of 350 000 texts) assume a disproportionately large role in history, literature, and linguistics in the several sub-fields of cuneiform studies.",
     "places": [
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
-          ]
+          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -37,9 +33,7 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -49,9 +43,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -59,9 +51,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -89,25 +79,18 @@
       {
         "pers_name": {
           "text": "Foxvog, Daniel A.",
-          "ref": [
-            "https://d-nb.info/gnd/1077774133"
-          ]
+          "ref": ["https://d-nb.info/gnd/1077774133"]
         },
         "role": 0,
         "websites": ["https://cdli.mpiwg-berlin.mpg.de/authors/408"]
       }
     ],
     "research_data": {
-      "lang": [
-        "akk",
-        "sux"
-      ],
+      "lang": ["akk", "sux"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -115,24 +98,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -140,11 +110,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_edition",
-      "inscriptions",
-      "repository"
-    ],
+    "keywords": ["digital_edition", "inscriptions", "repository"],
     "comment": ""
   }
 }
