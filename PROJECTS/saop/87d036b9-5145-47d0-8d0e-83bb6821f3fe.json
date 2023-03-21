@@ -31,7 +31,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -41,7 +43,9 @@
       {
         "place_name": {
           "text": "Stockholm",
-          "ref": ["https://www.geonames.org/2673730/stockholm.html"]
+          "ref": [
+            "https://www.geonames.org/2673730/stockholm.html"
+          ]
         },
         "coordinates": {
           "lat": "59.32938",
@@ -51,7 +55,9 @@
       {
         "place_name": {
           "text": "Glane",
-          "ref": ["https://www.geonames.org/2755497/glane.html"]
+          "ref": [
+            "https://www.geonames.org/2755497/glane.html"
+          ]
         },
         "coordinates": {
           "lat": "52.2325",
@@ -61,7 +67,9 @@
       {
         "place_name": {
           "text": "Piscataway",
-          "ref": ["https://www.geonames.org/5102713/piscataway.html"]
+          "ref": [
+            "https://www.geonames.org/5102713/piscataway.html"
+          ]
         },
         "coordinates": {
           "lat": "40.49927",
@@ -71,7 +79,9 @@
       {
         "place_name": {
           "text": "Gölcük",
-          "ref": ["https://www.geonames.org/746666/geulzuk.html"]
+          "ref": [
+            "https://www.geonames.org/746666/geulzuk.html"
+          ]
         },
         "coordinates": {
           "lat": "40.71501",
@@ -79,7 +89,15 @@
         }
       }
     ],
-    "lang": ["ara", "deu", "eng", "fra", "nld", "swe", "tur"],
+    "lang": [
+      "ara",
+      "deu",
+      "eng",
+      "fra",
+      "nld",
+      "swe",
+      "tur"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -90,7 +108,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -101,7 +121,9 @@
             "https://www.wikidata.org/wiki/Q221645"
           ]
         },
-        "websites": ["https://www.su.se/cmlink/stockholm-university"]
+        "websites": [
+          "https://www.su.se/cmlink/stockholm-university"
+        ]
       },
       {
         "relation_type": "host",
@@ -109,7 +131,9 @@
           "text": "St Ephrem Syriac Orthodox Monastery",
           "ref": []
         },
-        "websites": ["https://morephrem.com/klooster/"]
+        "websites": [
+          "https://morephrem.com/klooster/"
+        ]
       },
       {
         "relation_type": "host",
@@ -120,7 +144,9 @@
             "https://ror.org/01agawy76"
           ]
         },
-        "websites": ["https://bethmardutho.org/surayt/"]
+        "websites": [
+          "https://bethmardutho.org/surayt/"
+        ]
       },
       {
         "relation_type": "host",
@@ -128,7 +154,9 @@
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
-        "websites": ["http://midyatsuryanikulturdernegi.com/"]
+        "websites": [
+          "http://midyatsuryanikulturdernegi.com/"
+        ]
       }
     ],
     "related_entities": [],
@@ -136,7 +164,9 @@
       {
         "pers_name": {
           "text": "Talay; Shabo",
-          "ref": ["https://d-nb.info/gnd/120744414"]
+          "ref": [
+            "https://d-nb.info/gnd/120744414"
+          ]
         },
         "role": 0,
         "websites": [
@@ -145,11 +175,16 @@
       }
     ],
     "research_data": {
-      "lang": ["arc", "tru"],
+      "lang": [
+        "arc",
+        "tru"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -157,11 +192,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -169,7 +217,10 @@
         "ref": []
       }
     ],
-    "keywords": ["e_learning", "education"],
+    "keywords": [
+      "e_learning",
+      "education"
+    ],
     "comment": ""
   }
 }
