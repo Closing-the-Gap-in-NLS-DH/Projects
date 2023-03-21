@@ -86,9 +86,7 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": [
-          "https://www.uni-frankfurt.de/de?locale=de"
-        ]
+        "websites": ["https://www.uni-frankfurt.de/de"]
       },
       {
         "relation_type": "host",
