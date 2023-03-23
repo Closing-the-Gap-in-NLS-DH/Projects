@@ -113,7 +113,7 @@
     ],
     "related_entities": [
       {
-        "relation_type": "Child",
+        "relation_type": "child",
         "title": "Qalamos",
         "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568"
       }
