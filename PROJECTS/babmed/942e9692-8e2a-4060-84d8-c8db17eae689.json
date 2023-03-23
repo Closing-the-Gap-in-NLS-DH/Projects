@@ -104,7 +104,12 @@
         "ref": []
       }
     ],
-    "keywords": ["history_studies", "medicine", "repository", "semitic_studies"],
+    "keywords": [
+      "history_studies",
+      "medicine",
+      "repository",
+      "semitic_studies"
+    ],
     "comment": ""
   }
 }

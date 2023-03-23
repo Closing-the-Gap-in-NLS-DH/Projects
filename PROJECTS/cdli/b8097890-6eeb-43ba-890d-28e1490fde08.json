@@ -171,7 +171,12 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "inscriptions", "repository", "semitic_studies"],
+    "keywords": [
+      "digital_edition",
+      "inscriptions",
+      "repository",
+      "semitic_studies"
+    ],
     "comment": ""
   }
 }
