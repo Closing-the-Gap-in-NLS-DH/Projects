@@ -111,7 +111,13 @@
         "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "Qalamos",
+        "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
@@ -149,7 +155,13 @@
         "ref": []
       }
     ],
-    "keywords": ["glam", "manuscripts", "repository", "arabic_studies"],
+    "keywords": [
+      "glam",
+      "manuscripts",
+      "repository",
+      "arabic_studies",
+      "iranian_studies"
+    ],
     "comment": ""
   }
 }
