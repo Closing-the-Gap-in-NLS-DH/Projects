@@ -17,13 +17,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://barlaamandjosaphat.wp.st-andrews.ac.uk/"],
+    "websites": [
+      "https://barlaamandjosaphat.wp.st-andrews.ac.uk/"
+    ],
     "project_desc": "The focus of this project lies on Arabic manuscripts of Barlaam and Josaphat, an outstanding work of world literature, and the rich history of its transmission in Arabic sources. In the course of the project the manuscripts will be published online in an open-access research platform ediarum developed at the Berlin Brandenburg Academy of Sciences and Humanities (Berlin, Germany). Along with the photocopies of the manuscripts, the platform will feature full transcriptions of the Arabic texts, an English translation of selected manuscripts as well as analytical metadata and bibliography. This will result in the creation of a comprehensive research tool on the history of Barlaam and Josaphat in Arabic literature.",
     "places": [
       {
         "place_name": {
           "text": "Fife",
-          "ref": ["https://www.geonames.org/2649469/fife.html"]
+          "ref": [
+            "https://www.geonames.org/2649469/fife.html"
+          ]
         },
         "coordinates": {
           "lat": "56.25",
@@ -31,7 +35,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +48,9 @@
             "https://ror.org/02wn5qz54"
           ]
         },
-        "websites": ["https://www.st-andrews.ac.uk/"]
+        "websites": [
+          "https://www.st-andrews.ac.uk/"
+        ]
       }
     ],
     "related_entities": [],
@@ -50,7 +58,9 @@
       {
         "pers_name": {
           "text": "Dmitriev, Kirill",
-          "ref": ["https://d-nb.info/gnd/138140030"]
+          "ref": [
+            "https://d-nb.info/gnd/138140030"
+          ]
         },
         "role": 0,
         "websites": [
@@ -60,7 +70,9 @@
       {
         "pers_name": {
           "text": "Orfali, Bilal",
-          "ref": ["https://d-nb.info/gnd/140143777"]
+          "ref": [
+            "https://d-nb.info/gnd/140143777"
+          ]
         },
         "role": 0,
         "websites": [
@@ -70,11 +82,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -82,11 +98,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -95,12 +124,12 @@
       }
     ],
     "keywords": [
+      "arabic_studies",
       "classical_text",
       "digital_edition",
       "literary_studies",
       "manuscripts",
-      "vre",
-      "arabic_studies"
+      "vre"
     ],
     "comment": ""
   }

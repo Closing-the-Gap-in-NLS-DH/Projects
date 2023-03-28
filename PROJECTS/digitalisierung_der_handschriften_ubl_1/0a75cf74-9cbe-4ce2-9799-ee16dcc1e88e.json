@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -34,7 +36,11 @@
         }
       }
     ],
-    "lang": ["ara", "deu", "eng"],
+    "lang": [
+      "ara",
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/en/"]
+        "websites": [
+          "https://www.uni-leipzig.de/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -64,7 +72,9 @@
       {
         "pers_name": {
           "text": "Verena Klemm",
-          "ref": ["https://www.wikidata.org/wiki/Q5675690"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
         },
         "role": 0,
         "websites": [
@@ -73,11 +83,17 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "tur"],
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -85,11 +101,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -99,9 +128,9 @@
     ],
     "keywords": [
       "digital_edition",
+      "islamic_studies",
       "manuscripts",
-      "repository",
-      "islamic_studies"
+      "repository"
     ],
     "comment": ""
   }

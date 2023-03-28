@@ -17,13 +17,17 @@
         "to": "2023"
       }
     ],
-    "websites": ["https://kitab-project.org/"],
+    "websites": [
+      "https://kitab-project.org/"
+    ],
     "project_desc": "KITAB is a platform which enables exploration of Arabic texts in digital form. It also provides a digital toolbox and a forum for discussions about Arabic literature. The main research focus of the project lies on the question of how authors copied from previous works. The research is conduced on the corpus of texts created for the needs of the project and powered by technologies at the cutting edge of computer science. All documentation is openly accessible on GitHub.",
     "places": [
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -31,13 +35,17 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "The Aga Khan University (International)",
-          "ref": ["https://www.wikidata.org/wiki/Q4690953"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
         },
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
@@ -61,7 +69,9 @@
       {
         "pers_name": {
           "text": "Savant, Sarah",
-          "ref": ["https://d-nb.info/gnd/1044734957"]
+          "ref": [
+            "https://d-nb.info/gnd/1044734957"
+          ]
         },
         "role": 0,
         "websites": [
@@ -80,11 +90,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -92,11 +106,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -104,7 +131,11 @@
         "ref": []
       }
     ],
-    "keywords": ["literary_studies", "vre", "arabic_studies"],
+    "keywords": [
+      "arabic_studies",
+      "literary_studies",
+      "vre"
+    ],
     "comment": ""
   }
 }

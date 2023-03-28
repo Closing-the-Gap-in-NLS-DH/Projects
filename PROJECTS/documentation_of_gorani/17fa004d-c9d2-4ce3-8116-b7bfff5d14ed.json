@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -36,7 +38,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -46,7 +50,9 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -54,7 +60,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -65,7 +73,9 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": ["https://www.uni-bamberg.de/"]
+        "websites": [
+          "https://www.uni-bamberg.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -76,7 +86,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -87,7 +99,9 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": ["https://www.uni-goettingen.de/en/1.html"]
+        "websites": [
+          "https://www.uni-goettingen.de/en/1.html"
+        ]
       }
     ],
     "related_entities": [
@@ -121,7 +135,9 @@
       {
         "pers_name": {
           "text": "Haig, Geoffrey",
-          "ref": ["https://d-nb.info/gnd/1016008090"]
+          "ref": [
+            "https://d-nb.info/gnd/1016008090"
+          ]
         },
         "role": 0,
         "websites": [
@@ -131,26 +147,39 @@
       {
         "pers_name": {
           "text": "Paul, Ludwig",
-          "ref": ["https://www.wikidata.org/wiki/Q24043463"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q24043463"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.aai.uni-hamburg.de/voror/personen/paul.html"]
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/paul.html"
+        ]
       },
       {
         "pers_name": {
           "text": "Kreyenbroek, Philip G",
-          "ref": ["https://d-nb.info/gnd/130880825"]
+          "ref": [
+            "https://d-nb.info/gnd/130880825"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.uni-goettingen.de/de/133087.html"]
+        "websites": [
+          "https://www.uni-goettingen.de/de/133087.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["hac", "kur"],
+      "lang": [
+        "hac",
+        "kur"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -158,11 +187,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -170,7 +212,12 @@
         "ref": []
       }
     ],
-    "keywords": ["dialectology", "language_documentation", "linguistics", "iranian_studies"],
+    "keywords": [
+      "dialectology",
+      "iranian_studies",
+      "language_documentation",
+      "linguistics"
+    ],
     "comment": ""
   }
 }
