@@ -150,7 +150,13 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "manuscripts", "vre", "semitic_studies"],
+    "keywords": [
+      "digital_edition",
+      "jewish_studies",
+      "manuscripts",
+      "semitic_studies",
+      "vre"
+    ],
     "comment": ""
   }
 }

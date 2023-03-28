@@ -10,11 +10,13 @@
     "demography",
     "dialectology",
     "education",
+    "egyptology",
     "gender_studies",
     "geography",
     "history_studies",
     "iranian_studies",
     "islamic_studies",
+    "jewish_studies",
     "law",
     "lexicography",
     "linguistics",
@@ -32,7 +34,8 @@
     "semitic_studies",
     "social_sciences",
     "theatre_studies",
-    "theology"
+    "theology",
+    "turkology"
   ],
   "resources": [
     "audio_recording",

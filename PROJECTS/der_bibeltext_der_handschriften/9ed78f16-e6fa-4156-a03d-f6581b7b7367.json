@@ -82,7 +82,12 @@
         "ref": []
       }
     ],
-    "keywords": ["manuscripts", "religion_studies", "religious_text"],
+    "keywords": [
+      "jewish_studies",
+      "manuscripts",
+      "religion_studies",
+      "religious_text"
+    ],
     "comment": ""
   }
 }

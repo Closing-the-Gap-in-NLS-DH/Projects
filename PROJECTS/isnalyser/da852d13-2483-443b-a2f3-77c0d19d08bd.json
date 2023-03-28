@@ -79,7 +79,7 @@
       "languages": ["python"]
     },
     "policies": [],
-    "keywords": ["hadith", "religion_studies", "software", "islamic_studies"],
+    "keywords": ["hadith", "islamic_studies", "religion_studies", "software"],
     "comment": ""
   }
 }
