@@ -17,17 +17,13 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://github.com/dhakarat/isnalyser"
-    ],
+    "websites": ["https://github.com/dhakarat/isnalyser"],
     "project_desc": "For scholars studying ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious task, and finding the right medium to display it fully can even prove to be impossible. isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats.",
     "places": [
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -35,9 +31,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -50,9 +44,7 @@
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": [
-            "https://viaf.org/viaf/9154380928130290538/"
-          ]
+          "ref": ["https://viaf.org/viaf/9154380928130290538/"]
         },
         "role": 0,
         "websites": [
@@ -61,15 +53,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -84,23 +72,14 @@
         {
           "label": "isnalyser",
           "self_developed": true,
-          "ref": [
-            "https://github.com/dhakarat/isnalyser"
-          ],
+          "ref": ["https://github.com/dhakarat/isnalyser"],
           "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         }
       ],
-      "languages": [
-        "python"
-      ]
+      "languages": ["python"]
     },
     "policies": [],
-    "keywords": [
-      "hadith",
-      "islamic_studies",
-      "religion_studies",
-      "software"
-    ],
+    "keywords": ["hadith", "islamic_studies", "religion_studies", "software"],
     "comment": ""
   }
 }

@@ -17,17 +17,13 @@
         "to": "2013"
       }
     ],
-    "websites": [
-      "https://refaiya.uni-leipzig.de/"
-    ],
+    "websites": ["https://refaiya.uni-leipzig.de/"],
     "project_desc": "This project is dedicated to digital presentation, cataloguing, and research on the private Arabic-Islamic library of the Damascene Rifā‘ī family. The Refaiya library contains 488 carefully preserved volumes, which can be seen as an archive of a traditional Islamic culture of scholarship, knowledge, and books handed down over several centuries—until its purchase by Prussian Consul and Arabist Johann Gottfried Wetzstein in the 19th century. A trilingual database (English, German, and Arabic) will make the manuscripts accessible internationally, including in the Islamic world.",
     "places": [
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -35,11 +31,7 @@
         }
       }
     ],
-    "lang": [
-      "ara",
-      "deu",
-      "eng"
-    ],
+    "lang": ["ara", "deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +42,7 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": [
-          "https://www.uni-leipzig.de/en/"
-        ]
+        "websites": ["https://www.uni-leipzig.de/en/"]
       }
     ],
     "related_entities": [
@@ -71,9 +61,7 @@
       {
         "pers_name": {
           "text": "Verena Klemm",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q5675690"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
         "role": 0,
         "websites": [
@@ -82,15 +70,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -98,24 +82,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
