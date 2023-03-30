@@ -18,6 +18,6 @@
     "test": "deno test --allow-read SCHEMATA/schema_tests.ts"
   },
   "devDependencies": {
-    "prettier": "^2.8.5"
+    "prettier": "^2.8.7"
   }
 }
