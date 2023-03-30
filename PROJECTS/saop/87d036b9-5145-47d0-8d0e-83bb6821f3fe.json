@@ -128,7 +128,9 @@
           "text": "Midyat Süryani Kültür Dernegi",
           "ref": []
         },
-        "websites": ["http://midyatsuryanikulturdernegi.com/"]
+        "websites": [
+          "https://web.archive.org/http://midyatsuryanikulturdernegi.com/"
+        ]
       }
     ],
     "related_entities": [],
