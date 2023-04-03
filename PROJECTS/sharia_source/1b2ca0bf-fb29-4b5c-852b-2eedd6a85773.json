@@ -17,7 +17,7 @@
         "to": ""
       }
     ],
-    "websites": ["https://pil.law.harvard.edu/shariasource-portal/"],
+    "websites": ["https://pil.law.harvard.edu/shariasource-portal/", "https://beta.shariasource.com/"],
     "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
     "places": [
       {
