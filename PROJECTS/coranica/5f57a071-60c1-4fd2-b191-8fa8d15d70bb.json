@@ -70,6 +70,11 @@
         "relation_type": "sibling",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Paleocoran",
+        "uuid": "d5448b02-b57f-429d-9553-637cc2add035"
       }
     ],
     "contacts": [
