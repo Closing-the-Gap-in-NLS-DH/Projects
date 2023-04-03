@@ -71,6 +71,11 @@
         "relation_type": "sibling",
         "title": "Corpus Coranicum",
         "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Coranica",
+        "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb"
       }
     ],
     "contacts": [
