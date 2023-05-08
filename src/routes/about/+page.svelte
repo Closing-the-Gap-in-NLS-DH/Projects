@@ -77,6 +77,16 @@
 				</li>
 
 				<li>
+					Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky (Dr. Jonas
+					Müller-Laackman, Referent <a
+						class="font-medium hover:underline"
+						href="https://www.sub.uni-hamburg.de/service/digitale-forschungsdienste.html"
+						target="_blank"
+						rel="noreferrer">Digitale Forschungsdienste</a
+					>)
+				</li>
+
+				<li>
 					<a
 						class="font-medium hover:underline"
 						href="https://dig-hum.de/ag-multilingual-dh"
