@@ -12,7 +12,10 @@ const config = {
 	],
 
 	kit: {
-		adapter: staticAdapter()
+		adapter: staticAdapter(),
+		paths: {
+			base: '/Closing-The-Gap-In-Non-Latin-Script-Data'
+		}
 	}
 };
 
