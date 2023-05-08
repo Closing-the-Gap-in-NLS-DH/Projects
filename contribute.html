@@ -30,8 +30,7 @@
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.aea4d8f1.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/stores.113910c6.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.9a50cd6f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/utils.006d87b8.js"><title>Closing the Gap in Non-Latin-Script Data – Projects</title><!-- HEAD_svelte-1ufen3v_START --><meta name="twitter:title" content="Closing the Gap in Non-Latin-Script Data – Projects"><!-- HEAD_svelte-1ufen3v_END -->
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.4e25ce64.js"><title>Closing the Gap in Non-Latin-Script Data – Contribute</title><!-- HEAD_svelte-3rxphf_START --><!-- HEAD_svelte-3rxphf_END -->
 	</head>
 	<body class="mx-0 my-6 bg-[#2e4a61] font-fira font-light text-slate-800">
 		<div>
@@ -40,34 +39,41 @@
 <div class="mx-auto mb-4 max-w-[76rem] px-4 text-gray-50"><h1 class="mb-2.5 text-5xl"><a href="/">Closing the Gap</a></h1>
 	<h2 class="text-2xl">in Non-Latin-Script Data</h2></div>
 
-<div class="mb-4 bg-[#f29559] py-3"><div class="mx-auto flex max-w-[76rem] space-x-4 px-4 text-xl font-normal"><a href="/" class="underline-offset-2 hover:underline underline">Projects</a>
+<div class="mb-4 bg-[#f29559] py-3"><div class="mx-auto flex max-w-[76rem] space-x-4 px-4 text-xl font-normal"><a href="/" class="underline-offset-2 hover:underline">Projects</a>
 		<a href="/map" class="underline-offset-2 hover:underline">Map</a>
 		<a href="/timeline" class="underline-offset-2 hover:underline">Timeline</a>
-		<a href="/contribute" class="underline-offset-2 hover:underline">Contribute</a>
+		<a href="/contribute" class="underline-offset-2 hover:underline underline">Contribute</a>
 		<a href="/about" class="underline-offset-2 hover:underline">About</a></div></div>
 
 <main>
 
+<div class="mx-auto max-w-6xl px-4"><div class="space-y-4 rounded-lg bg-[#b8b08d] p-4 text-lg"><h2 class="text-center text-2xl">Contribute</h2>
 
+		<p>This form is still under development, so bugs are likely to occur. If anything
+			doesn’t work as expected, please open an issue on
+			<a class="font-medium hover:underline" href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues" target="_blank" rel="noreferrer">GitHub</a>. Please make sure to provide as much information as possible for better
+			reproducibility. We will continue to iterate on this form to include additional
+			features, such as validation on entry, automatically acquired coordinates, and an
+			option to load and edit existing JSON files.
+		</p>
 
-<div class="mx-auto max-w-[76rem] px-4"><div class="mb-3.5 rounded-lg bg-[#b8b08d] p-4"><div class="mb-4 border-b border-b-slate-800"><ul class="flex gap-2 text-lg font-normal"><li class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559] bg-[#f29559] border-slate-800">Search
+		<p><em>To be implemented…</em></p>
+
+		<p>Most of the schema can be considered optional, but the following data points are
+			required:
+		</p>
+
+		<ul class="list-inside list-disc"><li>Name of the person adding the record</li>
+			<li>Project/organization name</li>
+			<li>Type (i.e., project or organization)</li>
+			<li>At least one website URL</li>
+			<li>Project/organization description</li>
+			<li>At least one associated place (usually a city)</li>
+			<li>Language(s) of the project/organization’s work (at least one)</li>
+			<li>Details for at least one contact person</li>
+			<li>Language(s) of sources with which the project/organization works (at least one)
 			</li>
-
-			<li class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559]   border-[#b8b08d]">Keywords
-			</li>
-
-			<li class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559]   border-[#b8b08d]">Languages
-			</li></ul></div>
-
-	
-
-	<div class="flex gap-2 font-normal"><input autocorrect="off" autocapitalize="none" class="w-56 rounded border border-[#2e4a61] bg-gray-100 px-2 py-1" value="">
-
-			</div></div>
-
-	<p class="mb-3.5 text-center text-lg font-normal text-gray-50">Loading…</p>
-
-	<div class="flex flex-wrap justify-center gap-4 lg:justify-start"></div></div></main>
+			<li>Relevant keywords (chosen from a list)</li></ul></div></div></main>
 
 
 			
@@ -87,7 +93,7 @@
 						import("./_app/immutable/entry/app.2c4ac2ed.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 2],
+							node_ids: [0, 4],
 							data,
 							form: null,
 							error: null
