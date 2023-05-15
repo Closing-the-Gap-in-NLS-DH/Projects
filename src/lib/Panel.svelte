@@ -187,6 +187,7 @@
 	{:else}
 		<div class="flex gap-2 font-normal">
 			<input
+				type="text"
 				autocorrect="off"
 				autocapitalize="none"
 				class="w-56 rounded border border-[#2e4a61] bg-gray-100 px-2 py-1"
