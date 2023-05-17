@@ -1,4 +1,4 @@
-## Changelog - Schema
+# Changelog - Schema
 
 1. From version 0.1.6 to 0.1.7 (2023-01-13):
    - _Topic_relations_ (dh, nls, meta, rdm, infrastructure) were removed, since the topic related information is now covered by the _keywords_ section.
