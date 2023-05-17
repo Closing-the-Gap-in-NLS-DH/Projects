@@ -9,7 +9,7 @@
 </div>
 
 <div class="mb-4 bg-[#f29559] py-3">
-	<div class="mx-auto flex max-w-[76rem] space-x-4 px-4 text-xl font-normal">
+	<div class="mx-auto flex max-w-[76rem] flex-wrap space-x-4 px-4 text-xl font-normal">
 		<a
 			href="{base}/"
 			class="underline-offset-2 hover:underline"
