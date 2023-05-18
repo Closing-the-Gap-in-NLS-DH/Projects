@@ -2,11 +2,12 @@
 	import { onMount } from 'svelte';
 	import { v4 as uuidv4 } from 'uuid';
 
+	// Form state
 	let entityType: 'project' | 'organization' = 'project';
 	$: typeUpper = entityType[0].toUpperCase() + entityType.slice(1);
 	let creator = '';
 	let title = '';
-	let acronym = '';
+	let acronym = ''; // The only optional field
 	let websites = '';
 	let desc = '';
 	let locName = '';
@@ -19,44 +20,53 @@
 	let sourceLangs = '';
 	let keywords = '';
 
+	// JSON template (defined below in onMount)
 	let template: Record<string, unknown>;
 
-	function handleForm() {
-		if (
-			!creator ||
-			!title ||
-			!websites ||
-			!desc ||
-			!locName ||
-			!locUrl ||
-			!locLat ||
-			!locLng ||
-			!outputLangs ||
-			!contactName ||
-			!contactWebsite ||
-			!sourceLangs ||
-			!keywords
-		) {
-			console.log('missing fields');
-			return;
-		}
+	$: validInput = !!(
+		template && // Make sure template was loaded
+		creator &&
+		title &&
+		websites &&
+		desc &&
+		locName &&
+		locUrl &&
+		locLat &&
+		locLng &&
+		outputLangs &&
+		contactName &&
+		contactWebsite &&
+		sourceLangs &&
+		keywords
+	);
 
-		generateRecord();
+	function handleForm() {
+		const [fileName, output] = generateRecord();
+
+		const blob = new Blob([JSON.stringify(output, null, 2)], {
+			type: 'application/json'
+		});
+
+		const link = document.createElement('a');
+		link.href = URL.createObjectURL(blob);
+		link.download = fileName;
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
 	}
 
-	function generateRecord() {
-		if (!template) {
-			return;
-		}
+	function generateRecord(): [string, Record<string, unknown>] {
+		const generated: Record<string, unknown> = JSON.parse(JSON.stringify(template));
 
-		const meta = template.record_metadata as Record<string, string>;
-		meta.uuid = uuidv4();
+		const meta = generated.record_metadata as Record<string, string>;
+		const uuid = uuidv4();
+		meta.uuid = uuid;
 		const today = new Date().toISOString().split('T')[0];
 		meta.record_created_on = today;
 		meta.record_created_by = creator.trim();
 		meta.last_edited_on = today;
 
-		const project = template.project as Record<string, unknown>;
+		const project = generated.project as Record<string, unknown>;
 		project.type = entityType;
 		project.title = title.trim();
 		if (acronym.trim()) {
@@ -111,7 +121,7 @@
 			return acc;
 		}, [] as string[]);
 
-		console.log(template);
+		return [uuid, generated];
 	}
 
 	onMount(async () => {
@@ -152,7 +162,7 @@
 				<input
 					bind:value={creator}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -160,7 +170,7 @@
 				<span class="block font-normal">Entity type</span>
 				<select
 					bind:value={entityType}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				>
 					<option value="project">Project</option>
 					<option value="organization">Organization</option>
@@ -172,7 +182,7 @@
 				<input
 					bind:value={title}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -181,7 +191,7 @@
 				<input
 					bind:value={acronym}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -190,7 +200,7 @@
 				<span class="block text-base"><em>Enter one per line</em></span>
 				<textarea
 					bind:value={websites}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -201,7 +211,7 @@
 				>
 				<textarea
 					bind:value={desc}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -210,7 +220,7 @@
 				<input
 					bind:value={locName}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -227,7 +237,7 @@
 				<input
 					bind:value={locUrl}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -236,7 +246,7 @@
 				<input
 					bind:value={locLat}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -245,7 +255,7 @@
 				<input
 					bind:value={locLng}
 					type="text"
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -265,7 +275,7 @@
 				>
 				<textarea
 					bind:value={outputLangs}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -274,7 +284,7 @@
 				<input
 					type="text"
 					bind:value={contactName}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -283,7 +293,7 @@
 				<input
 					type="text"
 					bind:value={contactWebsite}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -303,7 +313,7 @@
 				>
 				<textarea
 					bind:value={sourceLangs}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
@@ -321,14 +331,20 @@
 				>
 				<textarea
 					bind:value={keywords}
-					class="w-full rounded border border-[#2e4a61] bg-gray-100"
+					class="w-full rounded border border-ctgblue bg-gray-100"
 				/>
 			</label>
 
 			<button
-				class="mt-4 rounded bg-[#2e4a61] px-3 py-1.5 font-normal text-gray-100"
-				on:click={handleForm}>Download</button
+				on:click={handleForm}
+				disabled={!validInput}
+				class="mt-4 rounded bg-ctgblue px-3 py-1.5 font-normal text-gray-100"
+				class:bg-red-900={!validInput}>Download</button
 			>
+
+			<p class="mt-1 font-normal">
+				<em>Button becomes active when all required fields are filled</em>
+			</p>
 		</div>
 	</div>
 </div>

@@ -155,9 +155,9 @@
 							setHash('language', language);
 						}
 					}}
-					class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-[#2e4a61] hover:bg-[#2e4a61] hover:text-gray-50"
-					class:bg-[#2e4a61]={selectedTermValue === language}
-					class:border-[#2e4a61]={selectedTermValue === language}
+					class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
+					class:bg-ctgblue={selectedTermValue === language}
+					class:border-ctgblue={selectedTermValue === language}
 					class:border-slate-800={selectedTermValue !== language}
 					class:text-gray-50={selectedTermValue === language}
 					title={langNames[language] || language}>{language}</code
@@ -176,9 +176,9 @@
 							setHash('keyword', keyword);
 						}
 					}}
-					class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-[#2e4a61] hover:bg-[#2e4a61] hover:text-gray-50"
-					class:bg-[#2e4a61]={selectedTermValue === keyword}
-					class:border-[#2e4a61]={selectedTermValue === keyword}
+					class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
+					class:bg-ctgblue={selectedTermValue === keyword}
+					class:border-ctgblue={selectedTermValue === keyword}
 					class:border-slate-800={selectedTermValue !== keyword}
 					class:text-gray-50={selectedTermValue === keyword}>{keyword}</code
 				>
@@ -190,7 +190,7 @@
 				type="text"
 				autocorrect="off"
 				autocapitalize="none"
-				class="w-56 rounded border border-[#2e4a61] bg-gray-100 px-2 py-1"
+				class="w-56 rounded border border-ctgblue bg-gray-100 px-2 py-1"
 				bind:value={searchTermValue}
 				on:keydown={() => {
 					handleSearch();
