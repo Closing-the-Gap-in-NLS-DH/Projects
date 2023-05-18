@@ -138,23 +138,46 @@
 
 <div class="mx-auto max-w-6xl px-4">
 	<div class="space-y-4 rounded-lg bg-[#b8b08d] p-4 text-lg">
-		<h2 class="text-center text-2xl">Contribute</h2>
+		<h2 class="text-center text-2xl">Contribute Data</h2>
 
 		<p>
 			This form is still under development, so bugs are likely to occur. If anything
-			doesn’t work as expected, please open an issue on
+			doesn’t work as expected, please
 			<a
-				class="font-medium hover:underline"
 				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
 				target="_blank"
-				rel="noreferrer">GitHub</a
+				rel="noreferrer"
+				class="font-medium hover:underline">open an issue on GitHub</a
 			>. Please make sure to provide as much information as possible for better
 			reproducibility. We will continue to iterate on this form to include additional
 			features, such as validation on entry, automatically acquired coordinates, and an
 			option to load and edit existing JSON files.
 		</p>
 
-		<p><em>To be implemented…</em></p>
+		<p>
+			<em>For the time being</em>, you can use the form to create a basic entry for our
+			database of DH projects (and organizations) relating to non-Latin-script
+			languages. All fields are required unless otherwise noted. Once you have filled in
+			this information, the “Download” button at the bottom will become active. You can
+			then click it to download a JSON file that contains the relevant information and
+			is compliant with our schema. Finally, in order to contribute the new record to
+			our database, you should
+			<a
+				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
+				target="_blank"
+				rel="noreferrer"
+				class="font-medium hover:underline">open an issue at our GitHub repository</a
+			> and attach the JSON file. We can take it from there.
+		</p>
+
+		<p>
+			If you are comfortable editing JSON directly, then you can add further information
+			to the record before submitting it to us. This web form is—for the moment, at
+			least—intended to provide an easy way of generating a schema-compliant JSON file
+			with a basic subset of the information in which we are interested.
+		</p>
+
+		<hr class="border-ctgblue" />
 
 		<div>
 			<label class="block">
@@ -187,7 +210,7 @@
 			</label>
 
 			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} acronym</span>
+				<span class="block font-normal">{typeUpper} acronym (<em>optional</em>)</span>
 				<input
 					bind:value={acronym}
 					type="text"
