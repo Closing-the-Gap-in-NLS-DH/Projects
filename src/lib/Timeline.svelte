@@ -87,10 +87,8 @@
 	{#if entriesFiltered.length === 0}
 		<p class="text-center text-lg font-normal text-gray-50">Loading…</p>
 	{:else}
-		<table
-			class="mx-auto w-full table-auto border-separate border-spacing-0 bg-[#b8b08d]"
-		>
-			<thead class="sticky top-0 bg-[#a0a191]">
+		<table class="mx-auto w-full table-auto border-separate border-spacing-0 bg-ctgtan">
+			<thead class="sticky top-0">
 				<tr class="border-b border-slate-800">
 					<th class="border-b border-r border-slate-800">Project title</th>
 					{#each years as year, i}

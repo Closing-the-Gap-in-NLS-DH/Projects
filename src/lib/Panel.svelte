@@ -65,7 +65,7 @@
 	$: validSelection = validate(keywords, languages, selectedTermValue);
 </script>
 
-<div class="mb-3.5 rounded-lg bg-[#b8b08d] p-4">
+<div class="mb-3.5 rounded-lg bg-ctgtan p-4">
 	<div class="mb-4 border-b border-b-slate-800">
 		<ul class="flex gap-2 text-lg font-normal">
 			<li
@@ -79,10 +79,10 @@
 						resetHash();
 					}
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559]"
-				class:bg-[#f29559]={selectedTabValue === 'search'}
+				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class:bg-ctgorange={selectedTabValue === 'search'}
 				class:border-slate-800={selectedTabValue === 'search'}
-				class:border-[#b8b08d]={selectedTabValue !== 'search'}
+				class:border-ctgtan={selectedTabValue !== 'search'}
 			>
 				Search
 			</li>
@@ -98,10 +98,10 @@
 						resetHash();
 					}
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559]"
-				class:bg-[#f29559]={selectedTabValue === 'keywords'}
+				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class:bg-ctgorange={selectedTabValue === 'keywords'}
 				class:border-slate-800={selectedTabValue === 'keywords'}
-				class:border-[#b8b08d]={selectedTabValue !== 'keywords'}
+				class:border-ctgtan={selectedTabValue !== 'keywords'}
 			>
 				Keywords
 			</li>
@@ -117,10 +117,10 @@
 						resetHash();
 					}
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-[#f29559]"
-				class:bg-[#f29559]={selectedTabValue === 'languages'}
+				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class:bg-ctgorange={selectedTabValue === 'languages'}
 				class:border-slate-800={selectedTabValue === 'languages'}
-				class:border-[#b8b08d]={selectedTabValue !== 'languages'}
+				class:border-ctgtan={selectedTabValue !== 'languages'}
 			>
 				Languages
 			</li>

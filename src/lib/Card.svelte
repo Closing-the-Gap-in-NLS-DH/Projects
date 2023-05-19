@@ -26,7 +26,7 @@
 	$: jsonLink = prefix + suffix;
 </script>
 
-<div class="mb-auto w-[22.5rem] rounded-lg bg-[#b8b08d] text-base lg:w-96">
+<div class="mb-auto w-[22.5rem] rounded-lg bg-ctgtan text-base lg:w-96">
 	<div class="p-4 pb-0">
 		{#if places.length > 0}
 			<div class="mb-3 flex gap-x-1.5">
@@ -84,14 +84,14 @@
 
 		<div class="flex gap-x-2">
 			{#each websiteLinks as link}
-				<div class="w-8 rounded-full border border-slate-800 bg-[#f29559] p-1">
+				<div class="w-8 rounded-full border border-slate-800 bg-ctgorange p-1">
 					<a href={link} target="_blank" rel="noreferrer" class="hover:text-amber-200"
 						><Link /></a
 					>
 				</div>
 			{/each}
 
-			<div class="w-8 rounded-full border border-slate-800 bg-[#f29559] p-1">
+			<div class="w-8 rounded-full border border-slate-800 bg-ctgorange p-1">
 				<a href={jsonLink} target="_blank" rel="noreferrer" class="hover:text-amber-200"
 					><CodeLink /></a
 				>

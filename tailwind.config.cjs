@@ -4,7 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				ctgblue: '#2e4a61'
+				ctgblue: '#2e4a61',
+				ctgorange: '#f29559',
+				ctgtan: '#b8b08d'
 			},
 			fontFamily: {
 				fira: ['Fira Sans', 'sans-serif']

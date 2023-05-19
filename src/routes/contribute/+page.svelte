@@ -24,7 +24,6 @@
 	let template: Record<string, unknown>;
 
 	$: validInput = !!(
-		template && // Make sure template was loaded
 		creator &&
 		title &&
 		websites &&
@@ -41,6 +40,11 @@
 	);
 
 	function handleForm() {
+		if (!template) {
+			console.log('Error: JSON template not loaded');
+			return;
+		}
+
 		const [fileName, output] = generateRecord();
 
 		const blob = new Blob([JSON.stringify(output, null, 2)], {
@@ -137,18 +141,18 @@
 </svelte:head>
 
 <div class="mx-auto max-w-6xl px-4">
-	<div class="space-y-4 rounded-lg bg-[#b8b08d] p-4 text-lg">
+	<div class="space-y-4 rounded-lg bg-ctgtan p-4 pb-6 text-lg">
 		<h2 class="text-center text-2xl">Contribute Data</h2>
 
 		<p>
-			This form is still under development, so bugs are likely to occur. If anything
+			This form is still under development, so bugs are likely to occur! If anything
 			doesn’t work as expected, please
 			<a
 				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
 				target="_blank"
 				rel="noreferrer"
 				class="font-medium hover:underline">open an issue on GitHub</a
-			>. Please make sure to provide as much information as possible for better
+			>—and make sure to provide as much information as possible for better
 			reproducibility. We will continue to iterate on this form to include additional
 			features, such as validation on entry, automatically acquired coordinates, and an
 			option to load and edit existing JSON files.
@@ -156,8 +160,8 @@
 
 		<p>
 			<em>For the time being</em>, you can use the form to create a basic entry for our
-			database of DH projects (and organizations) relating to non-Latin-script
-			languages. All fields are required unless otherwise noted. Once you have filled in
+			database of DH projects (and organizations) involving non-Latin-script languages.
+			<em>All fields are required unless otherwise noted.</em> Once you have filled in
 			this information, the “Download” button at the bottom will become active. You can
 			then click it to download a JSON file that contains the relevant information and
 			is compliant with our schema. Finally, in order to contribute the new record to
@@ -172,55 +176,59 @@
 
 		<p>
 			If you are comfortable editing JSON directly, then you can add further information
-			to the record before submitting it to us. This web form is—for the moment, at
-			least—intended to provide an easy way of generating a schema-compliant JSON file
-			with a basic subset of the information in which we are interested.
+			to the record before submitting it to us. This web form is—in its current state,
+			at least—intended to provide an easy way of generating a schema-compliant JSON
+			file with a <em>basic subset</em> of the information in which we are interested.
 		</p>
 
 		<hr class="border-ctgblue" />
 
 		<div>
-			<label class="block">
-				<span class="block font-normal">Record contributor name</span>
-				<input
-					bind:value={creator}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
+			<div class="flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
+				<label class="w-full">
+					<span class="font-normal">Record contributor name</span>
+					<input
+						bind:value={creator}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+
+				<label class="w-full">
+					<span class="font-normal">Record type</span>
+					<select
+						bind:value={entityType}
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					>
+						<option value="project">Project</option>
+						<option value="organization">Organization</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="mt-3 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} title</span>
+					<input
+						bind:value={title}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} acronym (<em>optional</em>)</span>
+					<input
+						bind:value={acronym}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+			</div>
 
 			<label class="mt-3 block">
-				<span class="block font-normal">Entity type</span>
-				<select
-					bind:value={entityType}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				>
-					<option value="project">Project</option>
-					<option value="organization">Organization</option>
-				</select>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} title</span>
-				<input
-					bind:value={title}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} acronym (<em>optional</em>)</span>
-				<input
-					bind:value={acronym}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="-mb-0.5 block font-normal">{typeUpper} website URL(s)</span>
-				<span class="block text-base"><em>Enter one per line</em></span>
+				<span class="font-normal">{typeUpper} website URL(s)</span>
+				<span class="-mt-1 block text-base"><em>Enter one per line</em></span>
 				<textarea
 					bind:value={websites}
 					class="w-full rounded border border-ctgblue bg-gray-100"
@@ -228,8 +236,8 @@
 			</label>
 
 			<label class="mt-1.5 block">
-				<span class="-mb-0.5 block font-normal">{typeUpper} description</span>
-				<span class="block text-base"
+				<span class="font-normal">{typeUpper} description</span>
+				<span class="-mt-1 block text-base"
 					><em>Please keep it brief (max. 750 char.)</em></span
 				>
 				<textarea
@@ -238,55 +246,57 @@
 				/>
 			</label>
 
-			<label class="mt-1.5 block">
-				<span class="block font-normal">{typeUpper} location – name</span>
-				<input
-					bind:value={locName}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
+			<div class="mt-1.5 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} location – name</span>
+					<input
+						bind:value={locName}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+
+				<label class="w-full">
+					<span class="font-normal"
+						>{typeUpper} location –
+						<a
+							href="https://www.geonames.org/"
+							target="_blank"
+							rel="noreferrer"
+							class="font-medium hover:underline">GeoNames</a
+						> URL</span
+					>
+					<input
+						bind:value={locUrl}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+			</div>
+
+			<div class="mt-3 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} location – latitude</span>
+					<input
+						bind:value={locLat}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} location – longitude</span>
+					<input
+						bind:value={locLng}
+						type="text"
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+			</div>
 
 			<label class="mt-3 block">
-				<span class="block font-normal"
-					>{typeUpper} location –
-					<a
-						href="https://www.geonames.org/"
-						target="_blank"
-						rel="noreferrer"
-						class="font-medium hover:underline">GeoNames</a
-					> URL</span
-				>
-				<input
-					bind:value={locUrl}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} location – latitude</span>
-				<input
-					bind:value={locLat}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} location – longitude</span>
-				<input
-					bind:value={locLng}
-					type="text"
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="-mb-0.5 block font-normal"
-					>{typeUpper} <em>output</em> language(s)</span
-				>
-				<span class="block text-base"
+				<span class="font-normal">{typeUpper} <em>output</em> language(s)</span>
+				<span class="-mt-1 block text-base"
 					><em
 						>Enter <a
 							class="font-normal hover:underline"
@@ -302,29 +312,29 @@
 				/>
 			</label>
 
-			<label class="mt-1.5 block">
-				<span class="block font-normal">{typeUpper} contact – name</span>
-				<input
-					type="text"
-					bind:value={contactName}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
+			<div class="mt-1.5 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} contact – name</span>
+					<input
+						type="text"
+						bind:value={contactName}
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+
+				<label class="w-full">
+					<span class="font-normal">{typeUpper} contact – website URL</span>
+					<input
+						type="text"
+						bind:value={contactWebsite}
+						class="w-full rounded border border-ctgblue bg-gray-100"
+					/>
+				</label>
+			</div>
 
 			<label class="mt-3 block">
-				<span class="block font-normal">{typeUpper} contact – website URL</span>
-				<input
-					type="text"
-					bind:value={contactWebsite}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
-			</label>
-
-			<label class="mt-3 block">
-				<span class="-mb-0.5 block font-normal"
-					>{typeUpper} <em>source</em> language(s)</span
-				>
-				<span class="block text-base"
+				<span class="font-normal">{typeUpper} <em>source</em> language(s)</span>
+				<span class="-mt-1 block text-base"
 					><em
 						>Enter <a
 							class="font-normal hover:underline"
@@ -341,8 +351,8 @@
 			</label>
 
 			<label class="mt-1.5 block">
-				<span class="-mb-0.5 block font-normal">{typeUpper} keywords</span>
-				<span class="block text-base"
+				<span class="font-normal">{typeUpper} keywords</span>
+				<span class="-mt-1 block text-base"
 					><em
 						>Choose from <a
 							class="font-normal hover:underline"
@@ -358,16 +368,20 @@
 				/>
 			</label>
 
-			<button
-				on:click={handleForm}
-				disabled={!validInput}
-				class="mt-4 rounded bg-ctgblue px-3 py-1.5 font-normal text-gray-100"
-				class:bg-red-900={!validInput}>Download</button
-			>
+			<hr class="mt-4 border-ctgblue" />
 
-			<p class="mt-1 font-normal">
-				<em>Button becomes active when all required fields are filled</em>
-			</p>
+			<div class="mt-5 flex items-center gap-x-3">
+				<button
+					on:click={handleForm}
+					disabled={!validInput}
+					class="rounded bg-ctgblue px-3 py-1.5 font-normal text-gray-100"
+					class:bg-red-900={!validInput}>Download</button
+				>
+
+				{#if !validInput}
+					<span class="font-normal"><em>Form incomplete</em></span>
+				{/if}
+			</div>
 		</div>
 	</div>
 </div>
