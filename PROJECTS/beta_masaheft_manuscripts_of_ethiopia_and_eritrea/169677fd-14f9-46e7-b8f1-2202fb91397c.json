@@ -19,7 +19,8 @@
     ],
     "websites": [
       "https://www.betamasaheft.uni-hamburg.de/",
-      "https://www.csmc.uni-hamburg.de/research/current-projects/beta-masaheft.html"
+      "https://www.csmc.uni-hamburg.de/research/current-projects/beta-masaheft.html",
+      "https://github.com/BetaMasaheft"
     ],
     "project_desc": "The objective of this long-term project is to create a digital XML-based platform on Ethiopian and Eritrean manuscripts. It will provide its users not only with the textual content of the documents but also with all the available information on the documents themselves: authors, owners, scribes, provenance, various physical elements, colophons, notes, etc. The interoperability of the platform will allow search across all existing repositories. The incorporated manuscripts come both from western libraries as well as form Ethiopia and Eritrea.",
     "places": [
