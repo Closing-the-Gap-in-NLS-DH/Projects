@@ -468,7 +468,7 @@
       "type": "other",
       "label": "eScriptorium",
       "comment": "App for text recognition",
-      "ref": "https://www.escriptorium.uk/",
+      "ref": "https://escriptorium.openiti.org/",
       "tags": ["#ocr", "#htr", "#browserbased"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
