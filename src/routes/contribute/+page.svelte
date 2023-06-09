@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { v4 as uuidv4 } from 'uuid';
-
+	
 	// Form state
 	let entityType: 'project' | 'organization' = 'project';
 	$: typeUpper = entityType[0].toUpperCase() + entityType.slice(1);
@@ -11,9 +11,7 @@
 	let websites = '';
 	let desc = '';
 	let locName = '';
-	let locUrl = '';
-	let locLat = '';
-	let locLng = '';
+	let locUrl = '';	
 	let outputLangs = '';
 	let contactName = '';
 	let contactWebsite = '';
@@ -22,6 +20,8 @@
 
 	// JSON template (defined below in onMount)
 	let template: Record<string, unknown>;
+	let lat:string
+	let lng:string
 
 	$: validInput = !!(
 		creator &&
@@ -29,15 +29,32 @@
 		websites &&
 		desc &&
 		locName &&
-		locUrl &&
-		locLat &&
-		locLng &&
+		locUrl &&		
 		outputLangs &&
 		contactName &&
 		contactWebsite &&
 		sourceLangs &&
 		keywords
-	);
+	);	
+
+	async function getLatLng(url:string) {
+		const geonameId = String(url.match(/\d+/g));
+		const apiPrefix =
+			"http://api.geonames.org/getJSON?username=closing_the_gap&geonameId=";
+		const res = await fetch(apiPrefix + geonameId);
+		const data = await res.json();
+		const latInput = document.getElementById("locLatInput");
+		const lngInput = document.getElementById("locLngInput");
+		lat= data.lat
+		lng=data.lng
+		latInput.value = lat;
+		lngInput.value= lng;	
+	}
+	
+	function handleInput(event: Event) {
+		const { value } = event.target as HTMLInputElement;
+		getLatLng(value);
+	}	
 
 	function handleForm() {
 		if (!template) {
@@ -91,8 +108,8 @@
 				ref: [locUrl.trim()]
 			},
 			coordinates: {
-				lat: locLat.trim(),
-				lng: locLng.trim()
+				lat: lat,
+				lng: lng
 			}
 		};
 
@@ -266,10 +283,11 @@
 							class="font-medium hover:underline">GeoNames</a
 						> URL</span
 					>
-					<input
+					<input						
 						bind:value={locUrl}
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
+						on:input="{handleInput}"
 					/>
 				</label>
 			</div>
@@ -277,19 +295,21 @@
 			<div class="mt-3 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
 				<label class="w-full">
 					<span class="font-normal">{typeUpper} location – latitude</span>
-					<input
-						bind:value={locLat}
+					<input						
+						id="locLatInput"												
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
+						disabled
 					/>
 				</label>
 
 				<label class="w-full">
 					<span class="font-normal">{typeUpper} location – longitude</span>
 					<input
-						bind:value={locLng}
+						id="locLngInput"						
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
+						disabled
 					/>
 				</label>
 			</div>
