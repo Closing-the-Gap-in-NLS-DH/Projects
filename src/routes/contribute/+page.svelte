@@ -47,7 +47,7 @@
 		const geonamesId = matches[0];
 
 		const apiPrefix =
-			'http://api.geonames.org/getJSON?username=closing_the_gap&geonameId=';
+			'https://secure.geonames.org/getJSON?username=closing_the_gap&geonameId=';
 		const res = await fetch(apiPrefix + geonamesId);
 		const data = await res.json();
 
