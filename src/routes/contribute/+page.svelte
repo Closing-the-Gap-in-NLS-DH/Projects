@@ -12,6 +12,8 @@
 	let desc = '';
 	let locName = '';
 	let locUrl = '';
+	let locLat = '';
+	let locLng = '';
 	let outputLangs = '';
 	let contactName = '';
 	let contactWebsite = '';
@@ -20,8 +22,6 @@
 
 	// JSON template (defined below in onMount)
 	let template: Record<string, unknown>;
-	let lat: string;
-	let lng: string;
 
 	$: validInput = !!(
 		creator &&
@@ -30,6 +30,8 @@
 		desc &&
 		locName &&
 		locUrl &&
+		locLat &&
+		locLng &&
 		outputLangs &&
 		contactName &&
 		contactWebsite &&
@@ -38,22 +40,28 @@
 	);
 
 	async function getLatLng(url: string) {
-		const geonameId = String(url.match(/\d+/g));
+		const matches = url.match(/\d+/);
+		if (!matches) {
+			return;
+		}
+		const geonamesId = matches[0];
+
 		const apiPrefix =
 			'http://api.geonames.org/getJSON?username=closing_the_gap&geonameId=';
-		const res = await fetch(apiPrefix + geonameId);
+		const res = await fetch(apiPrefix + geonamesId);
 		const data = await res.json();
-		const latInput = document.getElementById('locLatInput') as HTMLInputElement;
-		const lngInput = document.getElementById('locLngInput') as HTMLInputElement;
-		lat = data.lat;
-		lng = data.lng;
-		latInput.value = lat;
-		lngInput.value = lng;
+
+		locLat = data.lat;
+		locLng = data.lng;
 	}
 
-	function handleInput(event: Event) {
-		const { value } = event.target as HTMLInputElement;
-		getLatLng(value);
+	let debounce: number;
+
+	function handleGeonames() {
+		clearTimeout(debounce);
+		debounce = setTimeout(() => {
+			getLatLng(locUrl);
+		}, 500);
 	}
 
 	function handleForm() {
@@ -108,8 +116,8 @@
 				ref: [locUrl.trim()]
 			},
 			coordinates: {
-				lat: lat,
-				lng: lng
+				lat: locLat,
+				lng: locLng
 			}
 		};
 
@@ -287,7 +295,7 @@
 						bind:value={locUrl}
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
-						on:input={handleInput}
+						on:input={() => handleGeonames()}
 					/>
 				</label>
 			</div>
@@ -296,20 +304,20 @@
 				<label class="w-full">
 					<span class="font-normal">{typeUpper} location – latitude</span>
 					<input
-						id="locLatInput"
+						bind:value={locLat}
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
-						disabled
+						readonly
 					/>
 				</label>
 
 				<label class="w-full">
 					<span class="font-normal">{typeUpper} location – longitude</span>
 					<input
-						id="locLngInput"
+						bind:value={locLng}
 						type="text"
 						class="w-full rounded border border-ctgblue bg-gray-100"
-						disabled
+						readonly
 					/>
 				</label>
 			</div>
