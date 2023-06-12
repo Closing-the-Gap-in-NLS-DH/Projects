@@ -1,4 +1,4 @@
-import{S as Mt,i as Pt,s as qt,a as c,k as i,q as o,Q as Vt,h as a,c as d,l as r,m as n,r as l,n as e,b as Jt,D as t,E as _t}from"../chunks/index.53712d3a.js";function Tt(Ct){let G,k,u,H,q,V,f,h,T,g,R,Q,p,K,W,x,X,Y,Z,I,$,tt,N,et,at,v,D,it,w,rt,nt,ot,j,lt,st,s,z,b,ht,ct,L,dt,y,ut,ft,vt,B,_,mt,gt,J,pt,wt,C,E,bt;return{c(){G=c(),k=i("div"),u=i("div"),H=i("h2"),q=o("About Us"),V=c(),f=i("div"),h=i("p"),T=o(`This database was created as part of the project
+import{S as Mt,i as Pt,s as qt,a as c,k as i,q as o,Q as Vt,h as a,c as d,l as r,m as n,r as l,n as e,b as Jt,D as t,E as _t}from"../chunks/index.1edde592.js";function Tt(Ct){let G,k,u,H,q,V,f,h,T,g,R,Q,p,K,W,x,X,Y,Z,I,$,tt,N,et,at,v,D,it,w,rt,nt,ot,j,lt,st,s,z,b,ht,ct,L,dt,y,ut,ft,vt,B,_,mt,gt,J,pt,wt,C,E,bt;return{c(){G=c(),k=i("div"),u=i("div"),H=i("h2"),q=o("About Us"),V=c(),f=i("div"),h=i("p"),T=o(`This database was created as part of the project
 				`),g=i("a"),R=o("Closing the Gap in Non-Latin-Script Data"),Q=o(`
 				under the auspices of the
 				`),p=i("a"),K=o("Berlin University Alliance"),W=o(`
