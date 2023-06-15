@@ -8,7 +8,7 @@
   },
   "project": {
     "title": "Dhimmis and Muslims - Analysing Multi-Religious Spaces in the Medieval Muslim World",
-    "abbr": "",
+    "abbr": "DAMAST",
     "type": "project",
     "ref": [],
     "date": [
@@ -18,9 +18,11 @@
       }
     ],
     "websites": [
+      "https://damast.geschichte.hu-berlin.de/",
       "https://www.geschichte.uni-frankfurt.de/87681539/Dhimmis_and_Muslims",
       "https://portal.volkswagenstiftung.de/search/projectDetails.do?ref=93252",
-      "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/gmspaet/forschung-projekte/projekte_weltecke/dhimmis-and-muslims"
+      "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/gmspaet/forschung-projekte/projekte_weltecke/dhimmis-and-muslims",
+      "https://github.com/UniStuttgart-VISUS/damast"
     ],
     "project_desc": "This project is dedicated to the study of religious diversity in medieval Muslim cities. The main purpose is to create a comprehensive database containing geographical information about religious communities compiled from various medieval sources and to make the data accessible via interactive visualization as well as a pilot web-based geo-temporal multi-view system.",
     "places": [
