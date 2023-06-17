@@ -292,11 +292,6 @@
         "relation_type": "parent",
         "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
         "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "DARIAH Reference Curriculum",
-        "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b"
       }
     ],
     "contacts": [
