@@ -17,9 +17,11 @@
         "to": "2012"
       }
     ],
-    "websites": ["https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
-                "https://aaew.bbaw.de/tla/index.html",
-                "https://thesaurus-linguae-aegyptiae.de/info/project"],
+    "websites": [
+      "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
+      "https://aaew.bbaw.de/tla/index.html",
+      "https://thesaurus-linguae-aegyptiae.de/info/project"
+    ],
     "project_desc": "Altägyptisches Wörterbuch is a digital corpus of religious, juristic and administrative texts form ancient Egypt which were originally found in temples, tombs or on papyrus documents and which cover over 3000 years of Egyptian language history. The corpus together with a vast documentation of vocabulary and the ways it was used has been made available by open access and is updated regularly.",
     "places": [
       {
