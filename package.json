@@ -15,6 +15,7 @@
   "main": "PROJECTS.json",
   "scripts": {
     "format": "prettier --ignore-path .gitignore --write .",
+    "map-langs": "deno run --allow-read --allow-write SCHEMATA/map_language_codes.ts",
     "test": "deno test --allow-read SCHEMATA/schema_tests.ts"
   },
   "devDependencies": {
