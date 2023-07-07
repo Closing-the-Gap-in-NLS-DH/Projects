@@ -12,6 +12,32 @@
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	export type JsonStuff = Record<string, any>;
 
+	export async function fetchCategories(
+		keywordsMap: Record<string, string[]>
+	): Promise<Record<string, string[]>> {
+		const usedKeys = Object.keys(keywordsMap);
+
+		const res = await fetch(
+			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/KEYWORDS/KEYWORDS.json'
+		);
+
+		const categorizedKeys: Record<string, string[]> = await res.json();
+
+		for (const [category, keywords] of Object.entries(categorizedKeys)) {
+			categorizedKeys[category] = keywords.sort();
+
+			for (const keyword of keywords) {
+				if (!usedKeys.includes(keyword)) {
+					categorizedKeys[category] = categorizedKeys[category].filter(
+						(i) => i !== keyword
+					);
+				}
+			}
+		}
+
+		return categorizedKeys;
+	}
+
 	export async function fetchEntries(
 		listData: Record<string, Listing>
 	): Promise<[string, JsonStuff][]> {
