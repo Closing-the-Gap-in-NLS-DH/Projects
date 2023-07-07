@@ -7,7 +7,7 @@
 		selectedTerm
 	} from '$lib/stores.svelte';
 
-	import { langNames } from '$lib/lang_names.svelte';
+	import { langNames } from '$lib/lang-names.svelte';
 
 	import { searchEntries, resetHash, setHash } from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
