@@ -4,6 +4,7 @@
 
 	import {
 		entries,
+		keywordsCats,
 		keywordsMap,
 		languagesMap,
 		searchTerm,
@@ -13,6 +14,7 @@
 	} from '$lib/stores.svelte';
 
 	import {
+		fetchCategories,
 		fetchEntries,
 		fetchList,
 		filterPlaces,
@@ -27,6 +29,7 @@
 	import Panel from '$lib/Panel.svelte';
 
 	let entriesValue: [string, JsonStuff][];
+	let keywordsCatsValue: Record<string, string[]>;
 	let keywordsMapValue: Record<string, string[]>;
 	let languagesMapValue: Record<string, string[]>;
 
@@ -38,6 +41,10 @@
 
 	entries.subscribe((value) => {
 		entriesValue = value;
+	});
+
+	keywordsCats.subscribe((value) => {
+		keywordsCatsValue = value;
 	});
 
 	keywordsMap.subscribe((value) => {
@@ -64,7 +71,6 @@
 		selectedTermValue = value;
 	});
 
-	$: keywords = Object.keys(keywordsMapValue).sort();
 	$: languages = Object.keys(languagesMapValue).sort();
 
 	function filterEntries(
@@ -107,10 +113,12 @@
 		if (entriesValue.length !== count) {
 			const freshEntries = await fetchEntries(listData);
 			const freshKeywords = getKeywords(freshEntries);
+			const freshKeywordCats = await fetchCategories(freshKeywords);
 			const freshLanguages = getLanguages(freshEntries);
 
 			entries.set(freshEntries);
 			keywordsMap.set(freshKeywords);
+			keywordsCats.set(freshKeywordCats);
 			languagesMap.set(freshLanguages);
 		}
 	});
@@ -127,7 +135,7 @@
 </svelte:head>
 
 <div class="mx-auto max-w-[76rem] px-4">
-	<Panel {keywords} {languages} />
+	<Panel keywordsCategorized={keywordsCatsValue} {languages} />
 
 	<p class="mb-3.5 text-center text-lg font-normal text-gray-50">
 		{#if entriesValue.length === 0}

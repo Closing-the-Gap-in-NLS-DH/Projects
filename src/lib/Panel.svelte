@@ -12,7 +12,7 @@
 	import { searchEntries, resetHash, setHash } from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
-	export let keywords: string[];
+	export let keywordsCategorized: Record<string, string[]>;
 	export let languages: string[];
 
 	let entriesValue: [string, JsonStuff][] = [];
@@ -37,22 +37,25 @@
 		selectedTermValue = value;
 	});
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	let timeout: any = null;
+	let debounce: number;
 
 	function handleSearch() {
-		clearTimeout(timeout);
+		clearTimeout(debounce);
 
-		timeout = setTimeout(() => {
+		debounce = setTimeout(() => {
 			searchTerm.set(searchTermValue);
 			const matchingEntries = searchEntries(entriesValue, searchTermValue);
 			selectedEntries.set(matchingEntries);
 		}, 500);
 	}
 
-	function validate(keywords: string[], langs: string[], selection: string) {
+	function validate(
+		keywords: Record<string, string[]>,
+		langs: string[],
+		selection: string
+	) {
 		if (selectedTabValue === 'keywords') {
-			return keywords.includes(selection);
+			return Object.values(keywords).flat().includes(selection);
 		}
 
 		if (selectedTabValue === 'languages') {
@@ -62,7 +65,7 @@
 		return false;
 	}
 
-	$: validSelection = validate(keywords, languages, selectedTermValue);
+	$: validSelection = validate(keywordsCategorized, languages, selectedTermValue);
 </script>
 
 <div class="mb-3.5 rounded-lg bg-ctgtan p-4">
@@ -164,26 +167,37 @@
 				>
 			{/each}
 		</div>
+		<p class="-mb-1.5 mt-2.5">
+			<em>Hover on a language code to see the full name</em>
+		</p>
 	{:else if selectedTabValue === 'keywords'}
-		<div class="flex flex-wrap gap-2.5 text-sm">
-			{#each keywords as keyword}
-				<code
-					on:click={() => {
-						setHash('keyword', keyword);
-					}}
-					on:keydown={(e) => {
-						if (e.key === 'Enter') {
-							setHash('keyword', keyword);
-						}
-					}}
-					class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
-					class:bg-ctgblue={selectedTermValue === keyword}
-					class:border-ctgblue={selectedTermValue === keyword}
-					class:border-slate-800={selectedTermValue !== keyword}
-					class:text-gray-50={selectedTermValue === keyword}>{keyword}</code
-				>
-			{/each}
-		</div>
+		{#each Object.keys(keywordsCategorized) as category, i}
+			<div class="flex">
+				<div class="w-1/6 text-sm"><code><em>{category}</em></code></div>
+				<div class="flex w-5/6 flex-wrap gap-2.5 text-sm">
+					{#each keywordsCategorized[category] as keyword}
+						<code
+							on:click={() => {
+								setHash('keyword', keyword);
+							}}
+							on:keydown={(e) => {
+								if (e.key === 'Enter') {
+									setHash('keyword', keyword);
+								}
+							}}
+							class="cursor-pointer rounded-md border px-2 py-0.5 hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
+							class:bg-ctgblue={selectedTermValue === keyword}
+							class:border-ctgblue={selectedTermValue === keyword}
+							class:border-slate-800={selectedTermValue !== keyword}
+							class:text-gray-50={selectedTermValue === keyword}>{keyword}</code
+						>
+					{/each}
+				</div>
+			</div>
+			{#if i < Object.keys(keywordsCategorized).length - 1}
+				<hr class="my-4 border-slate-800" />
+			{/if}
+		{/each}
 	{:else}
 		<div class="flex gap-2 font-normal">
 			<input
