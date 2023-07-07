@@ -1,14 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	import { entries, keywordsMap, languagesMap } from '$lib/stores.svelte';
-
-	import {
-		fetchList,
-		fetchEntries,
-		getKeywords,
-		getLanguages
-	} from '$lib/utils.svelte';
+	import { entries } from '$lib/stores.svelte';
+	import { fetchList, fetchEntries } from '$lib/utils.svelte';
 
 	import type { JsonStuff } from '$lib/utils.svelte';
 
@@ -73,12 +67,7 @@
 
 		if (entriesValue.length !== count) {
 			const freshEntries = await fetchEntries(listData);
-			const freshKeywords = getKeywords(freshEntries);
-			const freshLanguages = getLanguages(freshEntries);
-
 			entries.set(freshEntries);
-			keywordsMap.set(freshKeywords);
-			languagesMap.set(freshLanguages);
 		}
 	});
 </script>
