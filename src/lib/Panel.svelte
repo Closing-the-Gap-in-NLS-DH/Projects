@@ -172,9 +172,11 @@
 		</p>
 	{:else if selectedTabValue === 'keywords'}
 		{#each Object.keys(keywordsCategorized) as category, i}
-			<div class="flex">
-				<div class="w-1/6 text-sm"><code><em>{category}</em></code></div>
-				<div class="flex w-5/6 flex-wrap gap-2.5 text-sm">
+			<div class="lg:flex">
+				<div class="mb-4 text-sm lg:mb-0 lg:w-1/5 xl:w-1/6">
+					<code><em>{category}</em></code>
+				</div>
+				<div class="flex flex-wrap gap-2.5 text-sm lg:w-4/5 xl:w-5/6">
 					{#each keywordsCategorized[category] as keyword}
 						<code
 							on:click={() => {
