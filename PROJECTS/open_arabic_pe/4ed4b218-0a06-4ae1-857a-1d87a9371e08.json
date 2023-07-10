@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1.9",
+  "record_metadata": {
+    "uuid": "4ed4b218-0a06-4ae1-857a-1d87a9371e08",
+    "record_created_on": "2023-07-10",
+    "record_created_by": "Till Grallert",
+    "last_edited_on": "2023-07-10"
+  },
+  "project": {
+    "title": "Open Arabic Periodical Editions: A framework for bootstrapped digital scholarly editions outside the global north",
+    "abbr": "OpenArabicPE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "websites": ["https://openarabicpe.github.io"],
+    "project_desc": "Corpus of TEI/XML editions of Arabic periodicals, a static webview, and a framework of workflows for digital scholarly editions following the principles of minimal computing to address the affordances of the digital for cultural artefacts from the Global South",
+    "places": [
+      {
+        "place_name": {
+          "text": "Beirut",
+          "ref": ["https://www.geonames.org/276781/beirut.html"]
+        },
+        "coordinates": {
+          "lat": "33.89332",
+          "lng": "35.50157"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
+        "websites": []
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Till Grallert",
+          "ref": []
+        },
+        "role": 0,
+        "websites": ["https://openarabicpe.github.io/"]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "islamic_studies",
+      "oriental_studies",
+      "media_studies",
+      "corpus",
+      "language_resource",
+      "cultural_heritage",
+      "digital_preservation",
+      "linked_data",
+      "open_access"
+    ],
+    "comment": ""
+  }
+}
