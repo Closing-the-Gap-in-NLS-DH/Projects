@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/SCHEMATA/project.schema.json",
+  "$id": "https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/SCHEMATA/schema.0.1.6.old.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Project",
   "description": "Project that in some way deals with either Digital Humanities, Research Data Management, Non-Latin Script or Infrastructure",
