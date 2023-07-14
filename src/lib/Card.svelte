@@ -85,9 +85,7 @@
 		<div class="flex gap-x-2">
 			{#each websiteLinks as link}
 				<div class="w-8 rounded-full border border-slate-800 bg-ctgorange p-1">
-					<a href={link} target="_blank" rel="noreferrer" class="hover:text-amber-200"
-						><Link /></a
-					>
+					<a href={link} target="_blank" rel="noreferrer" class="hover:text-amber-200"><Link /></a>
 				</div>
 			{/each}
 

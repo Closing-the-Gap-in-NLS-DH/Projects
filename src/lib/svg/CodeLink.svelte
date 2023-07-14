@@ -5,9 +5,5 @@
 	stroke="currentColor"
 	stroke-width="2"
 >
-	<path
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		d="m10 20 4-16m4 4 4 4-4 4M6 16l-4-4 4-4"
-	/>
+	<path stroke-linecap="round" stroke-linejoin="round" d="m10 20 4-16m4 4 4 4-4 4M6 16l-4-4 4-4" />
 </svg>

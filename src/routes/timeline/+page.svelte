@@ -86,9 +86,7 @@
 					<th class="border-b border-r border-slate-800">Project title</th>
 					{#each years as year, i}
 						{#if i === years.length - 1}
-							<th class="border-b border-slate-800 px-1 py-1.5 text-sm"
-								>’{year.slice(-2)}</th
-							>
+							<th class="border-b border-slate-800 px-1 py-1.5 text-sm">’{year.slice(-2)}</th>
 						{:else}
 							<th class="border-b border-r border-slate-800 px-1 py-1.5 text-sm"
 								>’{year.slice(-2)}</th

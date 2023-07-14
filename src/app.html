@@ -22,7 +22,10 @@
 
 		%sveltekit.head%
 	</head>
-	<body class="mx-0 my-6 bg-ctgblue font-fira font-light text-slate-800">
-		<div>%sveltekit.body%</div>
+	<body
+		class="mx-0 my-6 bg-ctgblue font-fira font-light text-slate-800"
+		data-sveltekit-preload-data="hover"
+	>
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

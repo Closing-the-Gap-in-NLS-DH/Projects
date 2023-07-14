@@ -28,9 +28,7 @@
 
 			for (const keyword of keywords) {
 				if (!usedKeys.includes(keyword)) {
-					categorizedKeys[category] = categorizedKeys[category].filter(
-						(i) => i !== keyword
-					);
+					categorizedKeys[category] = categorizedKeys[category].filter((i) => i !== keyword);
 				}
 			}
 		}
@@ -75,9 +73,7 @@
 		return places.filter((place) => place.place_name.text);
 	}
 
-	export function getKeywords(
-		entries: [string, JsonStuff][]
-	): Record<string, string[]> {
+	export function getKeywords(entries: [string, JsonStuff][]): Record<string, string[]> {
 		const keywordsMap: Record<string, string[]> = {};
 
 		for (const [url, data] of entries) {
@@ -95,9 +91,7 @@
 		return keywordsMap;
 	}
 
-	export function getLanguages(
-		entries: [string, JsonStuff][]
-	): Record<string, string[]> {
+	export function getLanguages(entries: [string, JsonStuff][]): Record<string, string[]> {
 		const languagesMap: Record<string, string[]> = {};
 
 		for (const [url, data] of entries) {

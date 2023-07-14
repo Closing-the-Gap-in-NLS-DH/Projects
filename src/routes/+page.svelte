@@ -98,12 +98,7 @@
 		return entries;
 	}
 
-	$: filtered = filterEntries(
-		entriesValue,
-		searchTermValue,
-		selectedTabValue,
-		selectedTermValue
-	);
+	$: filtered = filterEntries(entriesValue, searchTermValue, selectedTabValue, selectedTermValue);
 
 	afterNavigate(handleHash);
 
@@ -128,10 +123,7 @@
 
 <svelte:head>
 	<title>Closing the Gap in Non-Latin-Script Data – Projects</title>
-	<meta
-		name="twitter:title"
-		content="Closing the Gap in Non-Latin-Script Data – Projects"
-	/>
+	<meta name="twitter:title" content="Closing the Gap in Non-Latin-Script Data – Projects" />
 </svelte:head>
 
 <div class="mx-auto max-w-[76rem] px-4">
@@ -156,8 +148,7 @@
 				languages={data.project.lang}
 				websiteLinks={data.project.websites}
 				{url}
-				lastEdited={data.record_metadata.last_edited_on ||
-					data.record_metadata.record_created_on}
+				lastEdited={data.record_metadata.last_edited_on || data.record_metadata.record_created_on}
 				keywords={data.project.keywords}
 			/>
 		{/each}

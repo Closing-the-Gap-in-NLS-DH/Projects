@@ -46,8 +46,7 @@
 		}
 		const geonamesId = matches[0];
 
-		const apiPrefix =
-			'https://secure.geonames.org/getJSON?username=closing_the_gap&geonameId=';
+		const apiPrefix = 'https://secure.geonames.org/getJSON?username=closing_the_gap&geonameId=';
 		const res = await fetch(apiPrefix + geonamesId);
 		const data = await res.json();
 
@@ -170,27 +169,25 @@
 		<h2 class="text-center text-2xl">Contribute Data</h2>
 
 		<p>
-			This form is still under development, so bugs are likely to occur! If anything
-			doesn’t work as expected, please
+			This form is still under development, so bugs are likely to occur! If anything doesn’t work as
+			expected, please
 			<a
 				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
 				target="_blank"
 				rel="noreferrer"
 				class="font-medium hover:underline">open an issue on GitHub</a
-			>—and make sure to provide as much information as possible for better
-			reproducibility. We will continue to iterate on this form to include additional
-			features, such as validation on entry, automatically acquired coordinates, and an
-			option to load and edit existing JSON files.
+			>—and make sure to provide as much information as possible for better reproducibility. We will
+			continue to iterate on this form to include additional features, such as validation on entry,
+			automatically acquired coordinates, and an option to load and edit existing JSON files.
 		</p>
 
 		<p>
-			<em>For the time being</em>, you can use the form to create a basic entry for our
-			database of DH projects (and organizations) involving non-Latin-script languages.
-			<em>All fields are required unless otherwise noted.</em> Once you have filled in
-			this information, the “Download” button at the bottom will become active. You can
-			then click it to download a JSON file that contains the relevant information and
-			is compliant with our schema. Finally, in order to contribute the new record to
-			our database, you should
+			<em>For the time being</em>, you can use the form to create a basic entry for our database of
+			DH projects (and organizations) involving non-Latin-script languages.
+			<em>All fields are required unless otherwise noted.</em> Once you have filled in this
+			information, the “Download” button at the bottom will become active. You can then click it to
+			download a JSON file that contains the relevant information and is compliant with our schema.
+			Finally, in order to contribute the new record to our database, you should
 			<a
 				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
 				target="_blank"
@@ -200,10 +197,10 @@
 		</p>
 
 		<p>
-			If you are comfortable editing JSON directly, then you can add further information
-			to the record before submitting it to us. This web form is—in its current state,
-			at least—intended to provide an easy way of generating a schema-compliant JSON
-			file with a <em>basic subset</em> of the information in which we are interested.
+			If you are comfortable editing JSON directly, then you can add further information to the
+			record before submitting it to us. This web form is—in its current state, at least—intended to
+			provide an easy way of generating a schema-compliant JSON file with a <em>basic subset</em> of
+			the information in which we are interested.
 		</p>
 
 		<hr class="border-ctgblue" />
@@ -221,10 +218,7 @@
 
 				<label class="w-full">
 					<span class="font-normal">Record type</span>
-					<select
-						bind:value={entityType}
-						class="w-full rounded border border-ctgblue bg-gray-100"
-					>
+					<select bind:value={entityType} class="w-full rounded border border-ctgblue bg-gray-100">
 						<option value="project">Project</option>
 						<option value="organization">Organization</option>
 					</select>
@@ -254,21 +248,13 @@
 			<label class="mt-3 block">
 				<span class="font-normal">{typeUpper} website URL(s)</span>
 				<span class="-mt-1 block text-base"><em>Enter one per line</em></span>
-				<textarea
-					bind:value={websites}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
+				<textarea bind:value={websites} class="w-full rounded border border-ctgblue bg-gray-100" />
 			</label>
 
 			<label class="mt-1.5 block">
 				<span class="font-normal">{typeUpper} description</span>
-				<span class="-mt-1 block text-base"
-					><em>Please keep it brief (max. 750 char.)</em></span
-				>
-				<textarea
-					bind:value={desc}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
+				<span class="-mt-1 block text-base"><em>Please keep it brief (max. 750 char.)</em></span>
+				<textarea bind:value={desc} class="w-full rounded border border-ctgblue bg-gray-100" />
 			</label>
 
 			<div class="mt-1.5 flex flex-wrap justify-between gap-x-4 gap-y-3 sm:flex-nowrap">
@@ -390,10 +376,7 @@
 						>&#8202;&#8202;; enter one per line</em
 					></span
 				>
-				<textarea
-					bind:value={keywords}
-					class="w-full rounded border border-ctgblue bg-gray-100"
-				/>
+				<textarea bind:value={keywords} class="w-full rounded border border-ctgblue bg-gray-100" />
 			</label>
 
 			<hr class="mt-4 border-ctgblue" />

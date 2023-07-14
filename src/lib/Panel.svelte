@@ -49,11 +49,7 @@
 		}, 500);
 	}
 
-	function validate(
-		keywords: Record<string, string[]>,
-		langs: string[],
-		selection: string
-	) {
+	function validate(keywords: Record<string, string[]>, langs: string[], selection: string) {
 		if (selectedTabValue === 'keywords') {
 			return Object.values(keywords).flat().includes(selection);
 		}

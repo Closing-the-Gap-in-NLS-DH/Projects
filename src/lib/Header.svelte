@@ -9,9 +9,7 @@
 </div>
 
 <div class="mb-4 bg-ctgorange py-3">
-	<div
-		class="mx-auto flex max-w-[76rem] flex-wrap gap-x-4 gap-y-2 px-4 text-xl font-normal"
-	>
+	<div class="mx-auto flex max-w-[76rem] flex-wrap gap-x-4 gap-y-2 px-4 text-xl font-normal">
 		<a
 			href="{base}/"
 			class="underline-offset-2 hover:underline"
