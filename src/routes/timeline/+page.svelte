@@ -95,6 +95,7 @@
 					{/each}
 				</tr>
 			</thead>
+
 			<tbody>
 				{#each entriesFiltered as [url, entry], i}
 					<tr>
