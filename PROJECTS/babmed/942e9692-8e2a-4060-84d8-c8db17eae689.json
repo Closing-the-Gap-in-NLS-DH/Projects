@@ -17,13 +17,17 @@
         "to": "2018-06"
       }
     ],
-    "websites": ["https://www.geschkult.fu-berlin.de/e/babmed/index.html"],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/e/babmed/index.html"
+    ],
     "project_desc": "BabMed represents the first comprehensive study of ancient Babylonian medical science since the decipherment of the cuneiform writing system. It aims to make Babylonian medical texts available not only for the specialist, but for the wider public as well by publishing them in form of thematic online corpora. Its second objective is to study medicine in the Babylonian Talmud, in order to explore comparisons with later medical traditions from the same region in Aramaic, another language of ancient Mesopotamia.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Ramat Gan",
-          "ref": ["https://www.geonames.org/293788/ramat-gan.html"]
+          "ref": [
+            "https://www.geonames.org/293788/ramat-gan.html"
+          ]
         },
         "coordinates": {
           "lat": "32.08227",
@@ -41,7 +47,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,7 +61,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -63,7 +74,9 @@
             "https://ror.org/000ke5995"
           ]
         },
-        "websites": ["https://www.biu.ac.il/en"]
+        "websites": [
+          "https://www.biu.ac.il/en"
+        ]
       }
     ],
     "related_entities": [
@@ -77,7 +90,9 @@
       {
         "pers_name": {
           "text": "Geller, Markham J.",
-          "ref": ["https://d-nb.info/gnd/14301918X"]
+          "ref": [
+            "https://d-nb.info/gnd/14301918X"
+          ]
         },
         "role": 0,
         "websites": [
@@ -86,11 +101,15 @@
       }
     ],
     "research_data": {
-      "lang": ["arc"],
+      "lang": [
+        "arc"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -98,11 +117,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -112,9 +144,9 @@
     ],
     "keywords": [
       "history_studies",
-      "medicine",
       "repository",
-      "semitic_studies"
+      "semitic_studies",
+      "medicine_history"
     ],
     "comment": ""
   }

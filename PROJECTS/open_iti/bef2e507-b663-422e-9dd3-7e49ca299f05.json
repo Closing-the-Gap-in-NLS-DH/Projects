@@ -27,7 +27,9 @@
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
         "coordinates": {
           "lat": "38.98067",
@@ -37,7 +39,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -47,7 +51,9 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -57,7 +63,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -65,7 +73,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -76,7 +86,9 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": ["https://www.umd.edu/"]
+        "websites": [
+          "https://www.umd.edu/"
+        ]
       },
       {
         "relation_type": "host",
@@ -87,13 +99,17 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/"]
+        "websites": [
+          "https://www.uni-leipzig.de/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "The Aga Khan University (International)",
-          "ref": ["https://www.wikidata.org/wiki/Q4690953"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q4690953"
+          ]
         },
         "websites": [
           "https://www.aku.edu/Pages/united-kingdom.aspx",
@@ -109,7 +125,9 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": ["https://www.univie.ac.at/"]
+        "websites": [
+          "https://www.univie.ac.at/"
+        ]
       }
     ],
     "related_entities": [
@@ -152,11 +170,16 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -164,11 +187,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -176,7 +212,10 @@
         "ref": []
       }
     ],
-    "keywords": ["islamic_studies", "repository"],
+    "keywords": [
+      "islamic_studies",
+      "repository"
+    ],
     "comment": ""
   }
 }

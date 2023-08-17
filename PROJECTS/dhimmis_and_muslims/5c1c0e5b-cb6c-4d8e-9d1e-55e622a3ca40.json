@@ -29,7 +29,9 @@
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
         "coordinates": {
           "lat": "50.11552",
@@ -39,7 +41,9 @@
       {
         "place_name": {
           "text": "Stuttgart",
-          "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
+          "ref": [
+            "https://www.geonames.org/2825297/stuttgart.html"
+          ]
         },
         "coordinates": {
           "lat": "48.78232",
@@ -49,7 +53,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -57,7 +63,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -68,7 +77,9 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["https://www.goethe-university-frankfurt.de/en?"]
+        "websites": [
+          "https://www.goethe-university-frankfurt.de/en?"
+        ]
       },
       {
         "relation_type": "host",
@@ -79,7 +90,9 @@
             "https://www.wikidata.org/wiki/Q122453"
           ]
         },
-        "websites": ["https://www.uni-stuttgart.de/home/index.en.html"]
+        "websites": [
+          "https://www.uni-stuttgart.de/home/index.en.html"
+        ]
       },
       {
         "relation_type": "host",
@@ -90,7 +103,9 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/de"]
+        "websites": [
+          "https://www.hu-berlin.de/de"
+        ]
       }
     ],
     "related_entities": [],
@@ -98,7 +113,9 @@
       {
         "pers_name": {
           "text": "Koch, Steffen",
-          "ref": ["https://d-nb.info/gnd/1041280173"]
+          "ref": [
+            "https://d-nb.info/gnd/1041280173"
+          ]
         },
         "role": 0,
         "websites": [
@@ -108,7 +125,9 @@
       {
         "pers_name": {
           "text": "Weltecke, Dorothea",
-          "ref": ["https://d-nb.info/gnd/124993095"]
+          "ref": [
+            "https://d-nb.info/gnd/124993095"
+          ]
         },
         "role": 0,
         "websites": [
@@ -117,11 +136,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -129,11 +152,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
