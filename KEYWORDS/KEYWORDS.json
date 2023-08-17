@@ -22,10 +22,10 @@
     "linguistics",
     "literary_studies",
     "media_studies",
-    "medicine",
+    "medicine_history",
     "methods_and_statistics",
     "morphology",
-    "musicology",
+    "music_studiess",
     "oriental_studies",
     "philosophy",
     "political_science",
@@ -35,6 +35,7 @@
     "social_sciences",
     "theatre_studies",
     "theology",
+    "translation_studies",
     "turkology"
   ],
   "resources": [
@@ -92,6 +93,7 @@
     "copyright_and_licensing",
     "cultural_heritage",
     "data_management",
+    "digital_publishing",       
     "digital_preservation",
     "digitisation",
     "e_learning",
@@ -113,6 +115,7 @@
     "hadith",
     "language_documentation",
     "religious_text",
-    "translation"
+    "translation",
+    "isnad"
   ]
 }
