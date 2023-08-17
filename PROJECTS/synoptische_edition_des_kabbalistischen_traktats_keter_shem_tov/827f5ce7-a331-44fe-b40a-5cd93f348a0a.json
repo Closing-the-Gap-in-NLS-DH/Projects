@@ -17,13 +17,17 @@
         "to": "2022"
       }
     ],
-    "websites": ["https://kabbalaheditions.org"],
+    "websites": [
+      "https://kabbalaheditions.org"
+    ],
     "project_desc": "The research object of this project is the approximately 700 years old Hebrew treatise Keter Shem Tov, which constitutes one of the most important introductory texts into the Kabbalah. The purpose of the project to prepare a critical printed edition of the text as well as its online, interactive and openly accessible version along with an English translation. To reach this objective the project contributes to the further development of an interactive, digital tool LERA.",
     "places": [
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": ["https://www.geonames.org/2911522/halle-saale.html"]
+          "ref": [
+            "https://www.geonames.org/2911522/halle-saale.html"
+          ]
         },
         "coordinates": {
           "lat": "51.48158",
@@ -31,7 +35,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +49,9 @@
             "https://www.wikidata.org/wiki/Q32120"
           ]
         },
-        "websites": ["https://www.uni-halle.de/?lang=en"]
+        "websites": [
+          "https://www.uni-halle.de/?lang=en"
+        ]
       }
     ],
     "related_entities": [],
@@ -59,11 +68,15 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -71,11 +84,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -83,7 +109,12 @@
         "ref": []
       }
     ],
-    "keywords": ["digital_edition", "jewish_studies", "religious_text"],
+    "keywords": [
+      "digital_edition",
+      "digital_preservation",
+      "jewish_studies",
+      "religious_text"
+    ],
     "comment": ""
   }
 }

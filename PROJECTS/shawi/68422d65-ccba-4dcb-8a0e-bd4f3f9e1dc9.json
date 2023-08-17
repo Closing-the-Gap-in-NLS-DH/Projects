@@ -17,13 +17,17 @@
         "to": "2025-02-28"
       }
     ],
-    "websites": ["https://www.oeaw.ac.at/acdh/projects/shawi"],
+    "websites": [
+      "https://www.oeaw.ac.at/acdh/projects/shawi"
+    ],
     "project_desc": "This project focuses on the Arabic dialects of the so-called Shawi-type spoken by small cattle breeding Bedouin tribes in various regions of the Fertile Crescent. The main objective is to create a text corpus of this dialects based on audio recordings, to provide a comprehensive grammar and a digital dictionary. The basis of these contributions is new linguistic data gathered from the field from speakers living in the Harran-Urfa region of Southeastern Turkey, Syria and Iran.",
     "places": [
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -31,7 +35,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +49,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       },
       {
         "relation_type": "host",
@@ -53,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": ["https://www.univie.ac.at/en/"]
+        "websites": [
+          "https://www.univie.ac.at/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -92,7 +103,9 @@
       {
         "pers_name": {
           "text": "Procházka, Stephan",
-          "ref": ["https://d-nb.info/gnd/136441688"]
+          "ref": [
+            "https://d-nb.info/gnd/136441688"
+          ]
         },
         "role": 0,
         "websites": [
@@ -101,11 +114,15 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -113,11 +130,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

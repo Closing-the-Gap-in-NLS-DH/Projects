@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -34,7 +36,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +49,9 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": ["https://www.uni-goettingen.de/"]
+        "websites": [
+          "https://www.uni-goettingen.de/"
+        ]
       }
     ],
     "related_entities": [],
@@ -53,7 +59,9 @@
       {
         "pers_name": {
           "text": "Lincke, Eliese-Sophia",
-          "ref": ["https://d-nb.info/gnd/1011716763"]
+          "ref": [
+            "https://d-nb.info/gnd/1011716763"
+          ]
         },
         "role": 0,
         "websites": [
@@ -62,11 +70,15 @@
       }
     ],
     "research_data": {
-      "lang": ["cop"],
+      "lang": [
+        "cop"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -74,7 +86,9 @@
           {
             "label": "GitLab",
             "accessibility": "public",
-            "ref": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
+            "ref": [
+              "https://vcs.etrap.eu/Coptic-OCR/datasets"
+            ],
             "licensing": [],
             "description": "A collection of training and test data, OCR models, and documentation"
           }
