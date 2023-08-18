@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -38,9 +36,7 @@
       {
         "place_name": {
           "text": "Gotha",
-          "ref": [
-            "https://www.geonames.org/2918752/gotha.html"
-          ]
+          "ref": ["https://www.geonames.org/2918752/gotha.html"]
         },
         "coordinates": {
           "lat": "50.94823",
@@ -50,9 +46,7 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -62,9 +56,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -72,9 +64,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -85,9 +75,7 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": [
-          "https://staatsbibliothek-berlin.de/"
-        ]
+        "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
         "relation_type": "host",
@@ -98,9 +86,7 @@
             "https://www.wikidata.org/wiki/Q702524"
           ]
         },
-        "websites": [
-          "https://www.uni-erfurt.de/"
-        ]
+        "websites": ["https://www.uni-erfurt.de/"]
       },
       {
         "relation_type": "host",
@@ -111,9 +97,7 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": [
-          "https://www.uni-leipzig.de/"
-        ]
+        "websites": ["https://www.uni-leipzig.de/"]
       },
       {
         "relation_type": "host",
@@ -124,9 +108,7 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": [
-          "https://www.bsb-muenchen.de/"
-        ]
+        "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
     "related_entities": [
@@ -140,9 +122,7 @@
       {
         "pers_name": {
           "text": "Rauch, Christoph",
-          "ref": [
-            "https://d-nb.info/gnd/1102171662"
-          ]
+          "ref": ["https://d-nb.info/gnd/1102171662"]
         },
         "role": 0,
         "websites": [
@@ -151,17 +131,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "tur"
-      ],
+      "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -169,24 +143,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -194,12 +155,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_preservation",
-      "glam",
-      "manuscripts",
-      "repository"
-    ],
+    "keywords": ["digital_preservation", "glam", "manuscripts", "repository"],
     "comment": ""
   }
 }

@@ -17,17 +17,13 @@
         "to": "2007"
       }
     ],
-    "websites": [
-      "https://www.hethport.uni-wuerzburg.de/HPM/"
-    ],
+    "websites": ["https://www.hethport.uni-wuerzburg.de/HPM/"],
     "project_desc": "This concluded project is an infrastructure for digital publication of cuneiform documents. Its aim is to modernize and foster the development of hittitological research by building an openly accessible database for its founding and elaborating new standardized way of their documentation. Currently the HPM infrastructure hosts data of many external researchers and projects form the field of Hittitology.",
     "places": [
       {
         "place_name": {
           "text": "Mainz",
-          "ref": [
-            "https://www.geonames.org/2874225/mainz.html"
-          ]
+          "ref": ["https://www.geonames.org/2874225/mainz.html"]
         },
         "coordinates": {
           "lat": "49.98419",
@@ -37,9 +33,7 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/2805615/wuerzburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
         },
         "coordinates": {
           "lat": "49.79391",
@@ -47,10 +41,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -61,9 +52,7 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": [
-          "https://www.uni-wuerzburg.de/startseite/"
-        ]
+        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
       },
       {
         "relation_type": "host",
@@ -74,9 +63,7 @@
             "https://ror.org/01kdxra28"
           ]
         },
-        "websites": [
-          "https://www.adwmainz.de/startseite.html"
-        ]
+        "websites": ["https://www.adwmainz.de/startseite.html"]
       }
     ],
     "related_entities": [
@@ -90,9 +77,7 @@
       {
         "pers_name": {
           "text": "Schwemer, Daniel",
-          "ref": [
-            "https://d-nb.info/gnd/120374277"
-          ]
+          "ref": ["https://d-nb.info/gnd/120374277"]
         },
         "role": 0,
         "websites": [
@@ -101,15 +86,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "hit"
-      ],
+      "lang": ["hit"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -117,24 +98,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
