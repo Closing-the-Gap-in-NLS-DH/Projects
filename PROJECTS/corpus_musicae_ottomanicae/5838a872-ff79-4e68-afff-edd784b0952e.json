@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/2867543/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/2867543/muenster.html"]
         },
         "coordinates": {
           "lat": "51.96236",
@@ -39,9 +37,7 @@
       {
         "place_name": {
           "text": "Bonn",
-          "ref": [
-            "https://www.geonames.org/2946447/bonn.html"
-          ]
+          "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
         "coordinates": {
           "lat": "50.73438",
@@ -51,9 +47,7 @@
       {
         "place_name": {
           "text": "Istanbul",
-          "ref": [
-            "https://www.geonames.org/745044/istanbul.html"
-          ]
+          "ref": ["https://www.geonames.org/745044/istanbul.html"]
         },
         "coordinates": {
           "lat": "41.01384",
@@ -61,11 +55,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng",
-      "tur"
-    ],
+    "lang": ["deu", "eng", "tur"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -76,21 +66,15 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de/en/"
-        ]
+        "websites": ["https://www.uni-muenster.de/en/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Max Weber Foundation International Humanities",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1913589"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1913589"]
         },
-        "websites": [
-          "https://www.maxweberstiftung.de/en/"
-        ]
+        "websites": ["https://www.maxweberstiftung.de/en/"]
       },
       {
         "relation_type": "host",
@@ -101,9 +85,7 @@
             "https://www.wikidata.org/wiki/Q15837722"
           ]
         },
-        "websites": [
-          "https://www.oiist.org/"
-        ]
+        "websites": ["https://www.oiist.org/"]
       }
     ],
     "related_entities": [],
@@ -111,9 +93,7 @@
       {
         "pers_name": {
           "text": "Jäger, Ralf Martin",
-          "ref": [
-            "https://d-nb.info/gnd/122654099"
-          ]
+          "ref": ["https://d-nb.info/gnd/122654099"]
         },
         "role": 0,
         "websites": [
@@ -122,16 +102,11 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "tur"
-      ],
+      "lang": ["ara", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -139,24 +114,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
