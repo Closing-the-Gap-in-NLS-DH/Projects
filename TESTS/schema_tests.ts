@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.192.0/testing/asserts.ts";
 import { v4 } from "https://deno.land/std@0.192.0/uuid/mod.ts";
-import { keywords, projectSchema } from "./project_schema.ts";
+import { keywords, projectSchema } from "../SCHEMATA/project_schema.ts";
 
 Deno.test("ensure no duplicate keywords", () => {
   const keywordsSet = new Set(keywords);

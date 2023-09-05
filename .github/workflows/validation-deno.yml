@@ -22,4 +22,4 @@ jobs:
           deno-version: v1.x
 
       - name: Run tests
-        run: deno test --allow-read SCHEMATA/schema_tests.ts
+        run: deno test --allow-read TESTS/schema_tests.ts
