@@ -28,7 +28,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -36,7 +38,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -47,7 +52,9 @@
             "https://ror.org/04e8jbs38"
           ]
         },
-        "websites": ["https://www.hsu-hh.de/"]
+        "websites": [
+          "https://www.hsu-hh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -58,7 +65,9 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["https://www.tuhh.de/"]
+        "websites": [
+          "https://www.tuhh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -69,7 +78,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -113,7 +124,9 @@
       {
         "pers_name": {
           "text": "Bausi, Alessandro",
-          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
         "role": 0,
         "websites": [
@@ -122,11 +135,15 @@
       }
     ],
     "research_data": {
-      "lang": ["gez"],
+      "lang": [
+        "gez"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -134,11 +151,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
