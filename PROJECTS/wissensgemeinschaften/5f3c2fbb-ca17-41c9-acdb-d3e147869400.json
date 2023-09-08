@@ -115,7 +115,8 @@
       "arabic_studies",
       "biographical_data",
       "geodata",
-      "network_analysis"
+      "network_analysis",
+      "visualization"
     ],
     "comment": ""
   }
