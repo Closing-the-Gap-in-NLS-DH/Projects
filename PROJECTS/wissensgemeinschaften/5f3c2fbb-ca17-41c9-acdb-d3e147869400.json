@@ -116,6 +116,7 @@
       "biographical_data",
       "geodata",
       "network_analysis",
+      "tei",
       "visualization"
     ],
     "comment": ""

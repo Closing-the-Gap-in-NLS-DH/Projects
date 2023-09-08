@@ -162,7 +162,8 @@
       "dialectology",
       "geodata",
       "language_documentation",
-      "linguistics"
+      "linguistics",
+      "tei"
     ],
     "comment": ""
   }
