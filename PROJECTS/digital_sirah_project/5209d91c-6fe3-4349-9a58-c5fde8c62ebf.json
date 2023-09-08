@@ -132,7 +132,8 @@
       "classical_text",
       "islamic_studies",
       "nlp",
-      "religion_studies"
+      "religion_studies",
+      "text_reuse"
     ],
     "comment": ""
   }
