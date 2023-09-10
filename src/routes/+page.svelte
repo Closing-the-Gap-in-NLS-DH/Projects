@@ -150,6 +150,7 @@
 				{url}
 				lastEdited={data.record_metadata.last_edited_on || data.record_metadata.record_created_on}
 				keywords={data.project.keywords}
+				uuid={data.record_metadata.uuid}
 			/>
 		{/each}
 	</div>
