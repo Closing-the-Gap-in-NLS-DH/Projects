@@ -17,13 +17,17 @@
         "to": "2023-06-30"
       }
     ],
-    "websites": ["https://openiti.org/projects/ACDC.html"],
+    "websites": [
+      "https://openiti.org/projects/ACDC.html"
+    ],
     "project_desc": "This project aims to significantly improve the accuracy of handwritten text recognition (HTR) for Arabic-script manuscripts. It will develop a collation tool to automatically create large amounts of training data from existing digital texts and manuscript images without time-consuming human annotation of individual manuscripts.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
         "coordinates": {
           "lat": "38.98067",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -43,7 +49,9 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -53,7 +61,9 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -61,7 +71,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -87,15 +99,22 @@
           "ref": []
         },
         "role": 1,
-        "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
+        "websites": [
+          "https://sllc.umd.edu/directory/jonathan-allen"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -103,11 +122,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -116,10 +148,10 @@
       }
     ],
     "keywords": [
-      "handwritten_text_recognition",
+      "htr",
       "islamic_studies",
-      "optical_character_recognition",
-      "software"
+      "machine_learning",
+      "ocr"
     ],
     "comment": ""
   }

@@ -10,7 +10,9 @@
     "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
     "abbr": "Oracc",
     "type": "project",
-    "ref": ["https://urn.fi/urn:nbn:fi:lb-2022031705"],
+    "ref": [
+      "https://urn.fi/urn:nbn:fi:lb-2022031705"
+    ],
     "date": [
       {
         "from": "",
@@ -26,7 +28,9 @@
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -36,7 +40,9 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -46,7 +52,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -54,7 +62,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -82,10 +92,14 @@
       {
         "pers_name": {
           "text": "Tinney, Stephen J.",
-          "ref": ["https://viaf.org/viaf/18932290"]
+          "ref": [
+            "https://viaf.org/viaf/18932290"
+          ]
         },
         "role": 0,
-        "websites": ["https://www.ling.upenn.edu/people/tinney"]
+        "websites": [
+          "https://www.ling.upenn.edu/people/tinney"
+        ]
       }
     ],
     "research_data": {
@@ -104,7 +118,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -112,11 +128,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -125,14 +154,13 @@
       }
     ],
     "keywords": [
-      "annotation",
-      "corpus",
       "corpus_linguistics",
+      "corpus_output",
       "digital_preservation",
-      "historical_language",
       "history_studies",
-      "pos_tagging",
-      "semitic_studies"
+      "inscript",
+      "semitic_studies",
+      "vre"
     ],
     "comment": ""
   }

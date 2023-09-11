@@ -26,7 +26,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -34,7 +36,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -59,7 +66,9 @@
       {
         "pers_name": {
           "text": "Paluch, Agata",
-          "ref": ["https://d-nb.info/gnd/1229106316"]
+          "ref": [
+            "https://d-nb.info/gnd/1229106316"
+          ]
         },
         "role": 0,
         "websites": [
@@ -68,11 +77,15 @@
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -80,11 +93,25 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python", "jewish_studies"]
+      "languages": [
+        "php",
+        "javascript",
+        "python",
+        "jewish_studies"
+      ]
     },
     "policies": [
       {
@@ -93,12 +120,13 @@
       }
     ],
     "keywords": [
+      "catalog",
       "digital_preservation",
       "jewish_studies",
-      "manuscripts",
+      "manuscript",
       "religion_studies",
       "religious_text",
-      "repository"
+      "vre"
     ],
     "comment": ""
   }
