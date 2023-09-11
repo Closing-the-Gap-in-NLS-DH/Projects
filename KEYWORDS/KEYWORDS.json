@@ -44,7 +44,7 @@
     "audio",
     "catalog",
     "collaboration_platform",
-    "corpus",
+    "corpus_output",
     "digital_edition",
     "encyclopedia",
     "htr",
@@ -56,7 +56,7 @@
     "vre"
   ],
   "resources": [
-    "corpus",
+    "corpus_resource",
     "geodata",
     "image",
     "inscript",
