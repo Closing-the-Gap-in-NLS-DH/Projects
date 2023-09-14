@@ -17,17 +17,13 @@
         "to": ""
       }
     ],
-    "websites": [
-      "https://onomasticon.irht.cnrs.fr"
-    ],
+    "websites": ["https://onomasticon.irht.cnrs.fr"],
     "project_desc": "Onomasticon Arabicum (OA) is an Arabic biographical database created in the course of a long-living project reaching back to the 1960s. It contains more than 27000 entries about scholars and celebrities from the first Muslim millenary. Its searching tools are designed to allow the user separate interrogation on any of the different elements of the Arabo-Muslim names, dates and places, reconstructing the identity of a person, trace ways of knowledge transmission and frame historical contexts.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -35,10 +31,7 @@
         }
       }
     ],
-    "lang": [
-      "ara",
-      "eng"
-    ],
+    "lang": ["ara", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -49,9 +42,7 @@
             "https://ror.org/05evznf71"
           ]
         },
-        "websites": [
-          "https://www.irht.cnrs.fr/"
-        ]
+        "websites": ["https://www.irht.cnrs.fr/"]
       }
     ],
     "related_entities": [],
@@ -70,26 +61,18 @@
       {
         "pers_name": {
           "text": "Roiland, Muriel",
-          "ref": [
-            "https://d-nb.info/gnd/1074308999"
-          ]
+          "ref": ["https://d-nb.info/gnd/1074308999"]
         },
         "role": 0,
-        "websites": [
-          "https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"
-        ]
+        "websites": ["https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -97,24 +80,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
