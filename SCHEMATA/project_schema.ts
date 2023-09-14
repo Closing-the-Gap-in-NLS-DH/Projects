@@ -58,14 +58,9 @@ export const projectSchema = z
           .array(
             z
               .object({
-                from: z.union([
-                  z.coerce.date().min(new Date("1900-01-01")),
-                  z.coerce.number().min(1900).max(2100),
-                  z.literal(""),
-                ]),
+                from: z.coerce.date().min(new Date("1900-01-01")),
                 to: z.union([
                   z.coerce.date().min(new Date("1900-01-01")),
-                  z.coerce.number().positive().min(1900).max(2100),
                   z.literal(""),
                 ]),
               })
