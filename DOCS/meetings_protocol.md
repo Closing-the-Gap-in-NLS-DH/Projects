@@ -2,8 +2,9 @@
 
 ## 2023-09-08
 
-Time: 10:00–11:30 (Berlin)
-Participants (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+**Time**: 10:00–11:30 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - Documentation
 
