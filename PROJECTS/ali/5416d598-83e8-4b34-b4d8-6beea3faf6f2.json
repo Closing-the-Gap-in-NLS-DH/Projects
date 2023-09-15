@@ -17,17 +17,13 @@
         "to": "2023"
       }
     ],
-    "websites": [
-      " http://iranatlas.ne"
-    ],
+    "websites": [" http://iranatlas.ne"],
     "project_desc": "The overall goal of the ALI research programme is to enable work toward a systematic understanding of the language situation in Iran. This initiative is guided by a set of interrelated themes which are: language distribution, linguistic and areal typology, language classification and language documentation. The output of the project can be found online in form of interactive maps and visualizations.",
     "places": [
       {
         "place_name": {
           "text": "Ottawa",
-          "ref": [
-            "https://www.geonames.org/6094817/ottawa.html"
-          ]
+          "ref": ["https://www.geonames.org/6094817/ottawa.html"]
         },
         "coordinates": {
           "lat": "45.41117",
@@ -37,9 +33,7 @@
       {
         "place_name": {
           "text": "Shahr-e Kord",
-          "ref": [
-            "https://www.geonames.org/115770/shahr-e-kord.html"
-          ]
+          "ref": ["https://www.geonames.org/115770/shahr-e-kord.html"]
         },
         "coordinates": {
           "lat": "32.32612",
@@ -49,9 +43,7 @@
       {
         "place_name": {
           "text": "Babmerg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -61,9 +53,7 @@
       {
         "place_name": {
           "text": "Bonn",
-          "ref": [
-            "https://www.geonames.org/2946447/bonn.html"
-          ]
+          "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
         "coordinates": {
           "lat": "50.73438",
@@ -71,10 +61,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "fas"
-    ],
+    "lang": ["eng", "fas"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -85,9 +72,7 @@
             "https://ror.org/02qtvee93"
           ]
         },
-        "websites": [
-          "https://carleton.ca/"
-        ]
+        "websites": ["https://carleton.ca/"]
       },
       {
         "relation_type": "host",
@@ -98,9 +83,7 @@
             "https://ror.org/051rngw70"
           ]
         },
-        "websites": [
-          "https://www.sku.ac.ir/en/"
-        ]
+        "websites": ["https://www.sku.ac.ir/en/"]
       },
       {
         "relation_type": "cooperation",
@@ -111,9 +94,7 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
+        "websites": ["https://www.uni-bamberg.de/"]
       },
       {
         "relation_type": "cooperation",
@@ -124,9 +105,7 @@
             "https://ror.org/012kf4317"
           ]
         },
-        "websites": [
-          "https://www.humboldt-foundation.de/"
-        ]
+        "websites": ["https://www.humboldt-foundation.de/"]
       }
     ],
     "related_entities": [],
@@ -134,9 +113,7 @@
       {
         "pers_name": {
           "text": "Anonby, Erik",
-          "ref": [
-            "https://d-nb.info/gnd/1111911843"
-          ]
+          "ref": ["https://d-nb.info/gnd/1111911843"]
         },
         "role": 0,
         "websites": [
@@ -146,11 +123,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "fas",
-        "hac",
-        "kur"
-      ],
+      "lang": ["fas", "hac", "kur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
