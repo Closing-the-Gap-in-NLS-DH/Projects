@@ -61,6 +61,10 @@
 	}}
 />
 
+<svelte:head>
+	<title>Closing the Gap in Non-Latin-Script Data</title>
+</svelte:head>
+
 <div class="mx-auto max-w-4xl px-4">
 	<div class="rounded-lg bg-ctgtan p-4 text-lg">
 		<h3 class="mb-3 text-2xl font-normal">{title}</h3>
