@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.9",
+  "record_metadata": {
+    "uuid": "fb7e7faa-8797-4db7-9061-3498dd7e1c6d",
+    "record_created_on": "2023-09-15",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Zodiac - Ancient Astral Science in Transformation",
+    "abbr": "Zodiac",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2026"
+      }
+    ],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/e/zodiac/index.html",
+      "https://zodiac.fly.dev/"
+    ],
+    "project_desc": "ZODIAC's main objective is to develop a convincing account of how zodiacal astral science emerged, was cross-culturally transmitted and able to take root in different ancient cultures. It also offers an online cross-cultural glossary of ancient astral science.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Ossendrijver, Mathieu A.J.H.",
+          "ref": [
+            "https://d-nb.info/gnd/1051590221"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/en/e/zodiac/team/ossendrijver/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "arc",
+        "egy",
+        "grc",
+        "heb",
+        "lat",
+        "san"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "egyptology",
+      "history_studies",
+      "lexicon",
+      "other",
+      "semitic_studies"
+    ],
+    "comment": "The focus of the project is not the lexicon, but rather reconstruction of zodiacal astral science. At the time of the creation of this record, the lexicon is the only aspect of the project that can be described as DH."
+  }
+}

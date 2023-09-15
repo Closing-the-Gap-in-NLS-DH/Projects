@@ -368,7 +368,7 @@
     "path": "/PROJECTS/onomasticon_arabicum/"
   },
   "4ed4b218-0a06-4ae1-857a-1d87a9371e08": {
-    "title": "Open Arabic Periodical Editions",
+    "title": "Open Arabic Periodical Editions: A framework for bootstrapped digital scholarly editions outside the global north",
     "path": "/PROJECTS/open_arabic_pe/"
   },
   "2860c96f-323e-4c33-97c6-4219bcf99f52": {
@@ -566,5 +566,9 @@
   "e17c5b2a-7619-40bd-bddd-51063f687cb0": {
     "title": "The Yemeni Manuscript Digitization Initiative",
     "path": "/PROJECTS/ymdi/"
+  },
+  "fb7e7faa-8797-4db7-9061-3498dd7e1c6d": {
+    "title": "Zodiac - Ancient Astral Science in Transformation",
+    "path": "/PROJECTS/zodiac/"
   }
 }
