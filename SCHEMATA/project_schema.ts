@@ -111,7 +111,7 @@ export const projectSchema = z
           .array(
             z
               .object({
-                relation_type: z.enum(["host", "member"]),
+                relation_type: z.enum(["host", "member", "cooperation"]),
                 org_name: z
                   .object({
                     text: z.string().describe("Name of the institution"),
