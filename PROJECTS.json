@@ -11,6 +11,10 @@
     "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
     "path": "/PROJECTS/afrikanische_stimmen_in_islamischen_manuskripten/"
   },
+  "5416d598-83e8-4b34-b4d8-6beea3faf6f2": {
+    "title": "Atlas of the Languages of Iran",
+    "path": "/PROJECTS/ali/"
+  },
   "a4d189e4-f03f-4db0-8742-b777e22da760": {
     "title": "Altägyptisches Wörterbuch",
     "path": "/PROJECTS/altaegyptisches_woerterbuch/"
@@ -368,7 +372,7 @@
     "path": "/PROJECTS/onomasticon_arabicum/"
   },
   "4ed4b218-0a06-4ae1-857a-1d87a9371e08": {
-    "title": "Open Arabic Periodical Editions",
+    "title": "Open Arabic Periodical Editions: A framework for bootstrapped digital scholarly editions outside the global north",
     "path": "/PROJECTS/open_arabic_pe/"
   },
   "2860c96f-323e-4c33-97c6-4219bcf99f52": {
@@ -566,5 +570,9 @@
   "e17c5b2a-7619-40bd-bddd-51063f687cb0": {
     "title": "The Yemeni Manuscript Digitization Initiative",
     "path": "/PROJECTS/ymdi/"
+  },
+  "fb7e7faa-8797-4db7-9061-3498dd7e1c6d": {
+    "title": "Zodiac - Ancient Astral Science in Transformation",
+    "path": "/PROJECTS/zodiac/"
   }
 }

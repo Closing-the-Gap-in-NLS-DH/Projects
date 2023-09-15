@@ -29,7 +29,6 @@ In order to help us maintain consistency, please refrain from including keywords
    - arabic_studies
    - [archaeology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept29)
    - [art_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept20)
-   - [corpus_linguistics](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept28.01)
    - [cultural_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept30)
    - dialectology
    - egyptology
