@@ -146,7 +146,7 @@
 			{:else}
 				{#each relatedEnts as ent}
 					<li>
-						<a href={`../project/#${ent.uuid}`} class="hover:underline">{ent.title}</a> (<em
+						<a href={`../entry/#${ent.uuid}`} class="hover:underline">{ent.title}</a> (<em
 							>{ent.relation_type}</em
 						>)
 					</li>

@@ -48,7 +48,7 @@
 			</div>
 		{/if}
 
-		<h3 class="mb-3 text-xl font-medium"><a href="project/#{uuid}">{title}</a></h3>
+		<h3 class="mb-3 text-xl font-medium"><a href="entry/#{uuid}">{title}</a></h3>
 
 		<div class="mb-3">
 			<div class="mb-2">
