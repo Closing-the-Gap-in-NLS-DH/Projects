@@ -1,3 +1,4 @@
+
 <script lang="ts">
 	import {
 		entries,
@@ -157,7 +158,13 @@
 							class:border-slate-800={selectedTermValue !== keyword}
 							class:text-gray-50={selectedTermValue === keyword}
 						>
-							{keyword}
+							{#if keyword === "corpus_output"  || keyword === "corpus_resource"}
+								corpus		
+							{:else}							
+								{keyword}
+							{/if}
+							
+							
 						</button>
 					{/each}
 				</div>
