@@ -424,7 +424,7 @@
       "type": "other",
       "label": "fig",
       "comment": "Autocomplete for CLI",
-      "ref": "https://withfig.com/",
+      "ref": "https://fig.io/",
       "tags": ["#tool", "#commandline"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -446,7 +446,7 @@
       "type": "other",
       "label": "Text+ User-Stories",
       "comment": "Template for User stories, that being said, rather for research abstracts than for dev-style user stories",
-      "ref": "https://www.text-plus.org/forschungsdaten/user-stories/",
+      "ref": "https://text-plus.org/themen-dokumentation/user-storys-2020/",
       "tags": ["#guideline", "#userstories"],
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
@@ -1320,7 +1320,7 @@
     {
       "type": "reference",
       "label": "Syriaca",
-      "ref": "https://syriaca.org/",
+      "ref": "https://syriaca.org/index.html",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1588,7 +1588,7 @@
     {
       "type": "other",
       "label": "correspSearch",
-      "ref": "https://correspsearch.net/",
+      "ref": "https://correspsearch.net/de/start.html",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"
