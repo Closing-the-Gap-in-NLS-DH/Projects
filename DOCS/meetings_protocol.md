@@ -1,5 +1,27 @@
 ﻿# Protocol of CtG Team Meetings
 
+## 2023-09-29
+
+**Time**: 10:00–11:15 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jonas Müller-Laackman
+
+- DHd conference abstracts: Reviews came back for the abstracts that we submitted, and they are overall quite positive. We can respond to the reviews, and final decisions will be made in due course.
+
+- Hamburg workshop: Plans are underway for a "Closing the Gap" mini-workshop, to be held in Hamburg in early 2024 (most likely in February). We have a specific date nearly fixed; there is just one guest participant who still needs to confirm. Soon, hopefully, we can develop a detailed schedule and begin to publicize the event.
+
+  - The workshop will feature two or three presentations (mostly by members of our team?), with plenty of time left for discussion and networking. It will be open to the public.
+
+- Open-Access-Tage 2023: This week, Xenia Kudela attended the [Open-Access-Tage conference](https://open-access-tage.de/open-access-tage-2023-berlin) on behalf of "Closing the Gap." She will report back to us about this soon, and may write a post for our blog.
+
+- BerlinUP: Beatrice Gründler brought to our attention a new initiative called [Berlin Universities Publishing](https://www.berlin-universities-publishing.de/)—"an open access publisher with a non-commercial, scholar-owned infrastructure." BerlinUP, as it's known for short, is "funded by the Berlin University Alliance and supported jointly by the libraries of Freie Universität Berlin, Humboldt Universität zu Berlin, Technische Universität Berlin and Charité – Universitätsmedizin Berlin." This is something that members of "Closing the Gap" can both promote and consider for publishing our own research.
+
+- Collaboration with librarians: We discussed the idea of strengthening our relationships with staff members at other university libraries in Berlin—i.e., in addition to the FU Library, with which we are already collaborating actively.
+
+- Questionnaire: The remainder of this meeting was devoted to a detailed review of the questionnaire that we plan to use when interviewing people affiliated with non-Latin-script DH projects. At this point, we are basically ready to conduct our first interview. We have a person in mind and are working on scheduling a time.
+
+- Our next team meeting will need to be scheduled via email, with input from Xenia Kudela.
+
 ## 2023-09-08
 
 **Time**: 10:00–11:30 (Berlin)
