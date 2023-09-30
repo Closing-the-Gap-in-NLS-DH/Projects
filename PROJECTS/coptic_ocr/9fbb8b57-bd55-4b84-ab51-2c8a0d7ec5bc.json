@@ -55,7 +55,7 @@
           "text": "Lincke, Eliese-Sophia",
           "ref": ["https://d-nb.info/gnd/1011716763"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Lincke"
         ]

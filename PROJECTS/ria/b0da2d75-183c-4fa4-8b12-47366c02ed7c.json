@@ -61,7 +61,7 @@
           "text": "Streck, Michael P.",
           "ref": ["https://d-nb.info/gnd/130425893"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
         ]

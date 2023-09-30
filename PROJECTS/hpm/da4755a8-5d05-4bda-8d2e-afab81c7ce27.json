@@ -79,7 +79,7 @@
           "text": "Schwemer, Daniel",
           "ref": ["https://d-nb.info/gnd/120374277"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.phil.uni-wuerzburg.de/altorientalistik/team/schwemer/"
         ]

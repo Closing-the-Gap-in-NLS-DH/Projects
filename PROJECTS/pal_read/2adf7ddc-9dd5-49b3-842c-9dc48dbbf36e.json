@@ -63,7 +63,7 @@
           "text": "Abu-Remaileh, Refqa",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Abu-Remaileh/index.html"
         ]

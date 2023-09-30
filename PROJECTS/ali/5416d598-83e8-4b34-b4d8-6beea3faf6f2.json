@@ -115,7 +115,7 @@
           "text": "Anonby, Erik",
           "ref": ["https://d-nb.info/gnd/1111911843"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://carleton.ca/french/people/erik-anonby-2/",
           "https://www.uni-bamberg.de/aspra/gastforschende/ehemalige-gastforschende/prof-dr-erik-anonby/"

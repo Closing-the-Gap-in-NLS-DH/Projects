@@ -107,7 +107,7 @@
           "text": "Plietzsch, Susanne",
           "ref": ["https://d-nb.info/gnd/121776832"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://uni-salzburg.elsevierpure.com/de/persons/susanne-plietzsch-4"
         ]

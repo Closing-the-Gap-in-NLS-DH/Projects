@@ -54,7 +54,7 @@
           "text": "Riesenweber, Christina",
           "ref": ["https://www.wikidata.org/wiki/Q57684019"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://web.archive.org/https://www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber"
         ]
@@ -64,7 +64,7 @@
           "text": "Lee, Martin",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.ub.hu-berlin.de/de/ueber-uns/kontakt/ansprechpartner/ansprechpartner-leitende-mitarbeiterinnen-und-mitarbeiter/"
         ]

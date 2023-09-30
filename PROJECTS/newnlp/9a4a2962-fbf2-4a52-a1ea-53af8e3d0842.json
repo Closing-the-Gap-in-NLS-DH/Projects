@@ -55,7 +55,7 @@
           "text": "Ermolaev, Natalia",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://cdh.princeton.edu/people/natasha-ermolaev/"]
       },
       {
@@ -63,7 +63,7 @@
           "text": "Janco, Andrew",
           "ref": ["https://d-nb.info/gnd/1064765017"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://apjan.co/"]
       }
     ],

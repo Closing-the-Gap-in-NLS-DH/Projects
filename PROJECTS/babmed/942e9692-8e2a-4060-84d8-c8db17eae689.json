@@ -79,7 +79,7 @@
           "text": "Geller, Markham J.",
           "ref": ["https://d-nb.info/gnd/14301918X"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/babmed/Team/FU-Mitarbeiter/geller.html"
         ]

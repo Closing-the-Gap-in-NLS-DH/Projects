@@ -68,7 +68,7 @@
           "text": "Kaplony, Andreas",
           "ref": ["https://d-nb.info/gnd/115211942"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/",
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"

@@ -70,7 +70,7 @@
           "text": "Jaques, Kevin",
           "ref": ["https://viaf.org/viaf/65884589"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://religiousstudies.indiana.edu/about/faculty/jaques-kevin.html"
         ]

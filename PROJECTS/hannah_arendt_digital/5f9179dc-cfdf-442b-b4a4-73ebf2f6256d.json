@@ -55,7 +55,7 @@
           "text": "Hahn, Barbara",
           "ref": ["https://d-nb.info/gnd/115655271"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/"
         ]
@@ -65,7 +65,7 @@
           "text": "Grote, Brigitte",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]

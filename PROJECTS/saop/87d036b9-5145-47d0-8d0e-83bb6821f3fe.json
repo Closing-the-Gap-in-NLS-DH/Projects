@@ -140,7 +140,7 @@
           "text": "Talay; Shabo",
           "ref": ["https://d-nb.info/gnd/120744414"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/Seminar/mitarbeiterInnen/Professor_innen/talay/index.html"
         ]

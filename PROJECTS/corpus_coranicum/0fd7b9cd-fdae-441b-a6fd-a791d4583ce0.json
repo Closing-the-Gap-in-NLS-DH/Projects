@@ -86,7 +86,7 @@
           "text": "Neuwirth, Angelika",
           "ref": ["https://d-nb.info/gnd/108800083"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://web.archive.org/https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/index.html"
         ]
@@ -96,7 +96,7 @@
           "text": "Marx, Michael",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
         ]

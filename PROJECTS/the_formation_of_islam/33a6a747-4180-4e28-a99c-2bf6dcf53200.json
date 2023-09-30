@@ -54,7 +54,7 @@
           "text": "Sijpesteijn, Petra",
           "ref": ["https://www.wikidata.org/wiki/Q14084136"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.universiteitleiden.nl/en/staffmembers/petra-sijpesteijn#tab-1"
         ]

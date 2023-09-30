@@ -54,7 +54,7 @@
           "text": "Vollandt, Ronny",
           "ref": ["https://d-nb.info/gnd/1173742050"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]

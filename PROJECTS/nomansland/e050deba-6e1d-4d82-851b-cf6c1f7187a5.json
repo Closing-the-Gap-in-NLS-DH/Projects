@@ -87,7 +87,7 @@
           "text": "De Nicola, Bruno",
           "ref": ["https://d-nb.info/gnd/1081572116"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.oeaw.ac.at/en/iran/institute/staff/research-staff/bruno-de-nicola#c50728"
         ]

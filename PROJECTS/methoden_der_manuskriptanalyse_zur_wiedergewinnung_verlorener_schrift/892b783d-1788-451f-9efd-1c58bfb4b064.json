@@ -67,7 +67,7 @@
           "text": "Brockmann, Christian",
           "ref": ["https://d-nb.info/gnd/137576218"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/brockmann.html",
           "https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"

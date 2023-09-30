@@ -80,7 +80,7 @@
           "text": "Endreß, Gerhard",
           "ref": ["https://d-nb.info/gnd/115696954"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.ruhr-uni-bochum.de/islamwiss/personen/endress.html"
         ]

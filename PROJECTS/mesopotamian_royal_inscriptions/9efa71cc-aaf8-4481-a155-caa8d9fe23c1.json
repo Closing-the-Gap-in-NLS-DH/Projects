@@ -81,7 +81,7 @@
           "text": "Foxvog, Daniel A.",
           "ref": ["https://d-nb.info/gnd/1077774133"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://cdli.mpiwg-berlin.mpg.de/authors/408"]
       }
     ],

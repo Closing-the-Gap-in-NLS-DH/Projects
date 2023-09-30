@@ -51,7 +51,7 @@
           "text": "Liss, Hanna",
           "ref": ["https://d-nb.info/gnd/115755853"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
         ]

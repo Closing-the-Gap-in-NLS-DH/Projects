@@ -75,7 +75,7 @@
           "text": "Vollandt, Ronny",
           "ref": ["https://d-nb.info/gnd/1173742050"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
@@ -85,7 +85,7 @@
           "text": "Goldstein, Miriam",
           "ref": ["https://d-nb.info/gnd/1019351853"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
         ]
@@ -95,7 +95,7 @@
           "text": "Sklare, David",
           "ref": ["https://d-nb.info/gnd/1158385684"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://biblia-arabica.com/team/david-sklare/"]
       }
     ],

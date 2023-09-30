@@ -40,7 +40,7 @@
           "text": "Salamon, Anaïs",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.mcgill.ca/library/librarians/anais-salamon"]
       }
     ],

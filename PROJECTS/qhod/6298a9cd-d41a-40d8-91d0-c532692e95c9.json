@@ -111,7 +111,7 @@
           "text": "Strohmeyer, Arno",
           "ref": ["https://d-nb.info/gnd/115840060"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"]
       }
     ],

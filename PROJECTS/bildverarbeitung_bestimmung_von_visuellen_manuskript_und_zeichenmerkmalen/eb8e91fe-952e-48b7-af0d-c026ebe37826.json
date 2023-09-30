@@ -68,7 +68,7 @@
           "text": "Stiehl, Hans Siegfried",
           "ref": ["https://www.wikidata.org/wiki/Q102416616"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/stiehl.html",
           "https://www.inf.uni-hamburg.de/en/inst/ab/bv/team/stiehl.html"

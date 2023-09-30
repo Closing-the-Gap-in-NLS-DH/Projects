@@ -40,7 +40,7 @@
           "text": "Grossner, Karl",
           "ref": ["https://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.worldhistory.pitt.edu/people/ant-23"]
       },
       {
@@ -50,7 +50,7 @@
             "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
           ]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       },
       {
@@ -58,7 +58,7 @@
           "text": "Beers, Theodore",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/bua/beers/"
         ]
@@ -68,7 +68,7 @@
           "text": "Grallert, Till",
           "ref": ["https://www.wikidata.org/wiki/Q110952396"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/till-grallert"
         ]

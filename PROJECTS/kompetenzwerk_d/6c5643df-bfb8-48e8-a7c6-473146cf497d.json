@@ -93,7 +93,7 @@
           "text": "Wiesmeth, Hans",
           "ref": ["https://d-nb.info/gnd/109432703"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.saw-leipzig.de/de/mitglieder/wiesmethh"]
       }
     ],

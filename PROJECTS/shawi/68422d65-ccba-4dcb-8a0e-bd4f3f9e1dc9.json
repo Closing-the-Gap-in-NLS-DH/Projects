@@ -94,7 +94,7 @@
           "text": "Procházka, Stephan",
           "ref": ["https://d-nb.info/gnd/136441688"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://orientalistik.univie.ac.at/ueber-uns/personal/detailansicht-personal/user/prochas8/inum/1073/backpid/86555/"
         ]

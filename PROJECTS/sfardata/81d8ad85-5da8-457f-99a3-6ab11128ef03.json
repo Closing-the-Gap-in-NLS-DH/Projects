@@ -87,7 +87,7 @@
           "text": "Bet-Aryeh, Mal’akhi",
           "ref": ["https://d-nb.info/gnd/104345179"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
         ]

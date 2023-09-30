@@ -61,7 +61,7 @@
           "text": "Paluch, Agata",
           "ref": ["https://d-nb.info/gnd/1229106316"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/002Mitarbeiter_innen/paluch.html"
         ]

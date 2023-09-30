@@ -75,7 +75,7 @@
           "text": "Öpengin, Ergin",
           "ref": ["https://d-nb.info/gnd/1121608140"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-bamberg.de/aspra/team/ehemalige-mitarbeitende/dr-ergin-oepengin/"
         ]

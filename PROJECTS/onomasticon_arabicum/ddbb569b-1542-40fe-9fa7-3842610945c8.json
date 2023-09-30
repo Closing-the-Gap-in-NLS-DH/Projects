@@ -52,7 +52,7 @@
           "text": "Müller, Christian",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.irht.cnrs.fr/fr/annuaire/muller-christian",
           "https://www.universiteitleiden.nl/en/news/2019/03/meet-our-spring-fellow-christian-muller"
@@ -63,7 +63,7 @@
           "text": "Roiland, Muriel",
           "ref": ["https://d-nb.info/gnd/1074308999"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"]
       }
     ],

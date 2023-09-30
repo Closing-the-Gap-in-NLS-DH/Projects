@@ -151,7 +151,7 @@
           "text": "Klemm, Verena",
           "ref": ["https://d-nb.info/gnd/172189101"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]

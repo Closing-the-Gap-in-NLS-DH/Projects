@@ -64,7 +64,7 @@
           "text": "Seidlmayer, Stephan Johannes",
           "ref": ["https://www.wikidata.org/wiki/Q2343850"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/seidlmayer/"
         ]

@@ -51,7 +51,7 @@
           "text": "Horstmann, Wolfram",
           "ref": ["https://d-nb.info/gnd/129236187"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.sub.uni-goettingen.de/kontakt/direktion/dr-wolfram-horstmann/"
         ]

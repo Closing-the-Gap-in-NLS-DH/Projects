@@ -70,7 +70,7 @@
           "text": "Austin, Peter",
           "ref": ["https://d-nb.info/gnd/133996271"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://www.soas.ac.uk/staff/staff30592.php"]
       }
     ],

@@ -58,7 +58,7 @@
           "text": "Schmidtke, Sabine",
           "ref": ["https://d-nb.info/gnd/143773771"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.ias.edu/scholars/schmidtke"]
       }
     ],

@@ -100,7 +100,7 @@
           "text": "Koch, Steffen",
           "ref": ["https://d-nb.info/gnd/1041280173"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.vis.uni-stuttgart.de/en/institute/team/Koch-00006/"
         ]
@@ -110,7 +110,7 @@
           "text": "Weltecke, Dorothea",
           "ref": ["https://d-nb.info/gnd/124993095"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschichte.uni-frankfurt.de/66156354/Dorothea_Weltecke"
         ]

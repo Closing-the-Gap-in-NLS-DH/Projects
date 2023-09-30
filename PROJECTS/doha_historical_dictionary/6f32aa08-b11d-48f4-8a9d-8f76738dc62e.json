@@ -60,7 +60,7 @@
           "text": "Baalbaki, Ramzi",
           "ref": ["https://www.wikidata.org/wiki/Q19664932"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.aub.edu.lb/fas/arabic/Pages/Ramzi-Baalbaki-par.aspx"
         ]

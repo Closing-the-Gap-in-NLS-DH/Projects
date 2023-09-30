@@ -63,7 +63,7 @@
           "text": "Danilenko, Nadja",
           "ref": ["https://d-nb.info/gnd/1195099657"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
         ]

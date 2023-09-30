@@ -52,7 +52,7 @@
           "text": "Al-Nashar, Dalia",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.islamicmanuscript.org/DirectoryOfMembers/Person.aspx?mid=706"
         ]

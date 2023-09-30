@@ -54,7 +54,7 @@
           "text": "Swain, Simon",
           "ref": ["https://www.wikidata.org/wiki/Q55386758"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
         ]
@@ -64,7 +64,7 @@
           "text": "Vagelpohl, Uwe",
           "ref": ["https://d-nb.info/gnd/1066384339"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/vagelpohl"
         ]

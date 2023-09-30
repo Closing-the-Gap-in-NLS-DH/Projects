@@ -83,7 +83,7 @@
           "text": "Wirmer, David",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/david-wirmer"
         ]

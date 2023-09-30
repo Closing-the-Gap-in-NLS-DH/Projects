@@ -52,7 +52,7 @@
           "text": "Stewart, Columba",
           "ref": ["https://www.wikidata.org/wiki/Q5149540"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://hmml.org/about/staff/stewart/",
           "https://www.csbsju.edu/sot/sem/faculty/staff-listing/sot/sem-faculty/stewart-columba"

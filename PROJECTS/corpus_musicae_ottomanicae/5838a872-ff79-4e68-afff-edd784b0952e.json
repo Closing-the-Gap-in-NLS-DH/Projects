@@ -95,7 +95,7 @@
           "text": "Jäger, Ralf Martin",
           "ref": ["https://d-nb.info/gnd/122654099"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-muenster.de/CMO-Edition/mitarbeiter/leitung/ralf_martin_jaeger.html"
         ]

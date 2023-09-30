@@ -71,7 +71,7 @@
           "text": "Verena Klemm",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]

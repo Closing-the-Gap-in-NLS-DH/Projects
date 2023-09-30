@@ -60,7 +60,7 @@
           "text": "Hasse, Dag Nikolaus",
           "ref": ["https://d-nb.info/gnd/11800638X"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
         ]

@@ -54,7 +54,7 @@
           "text": "Schmidt, Uwe",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
         ]
@@ -64,7 +64,7 @@
           "text": "Bahlmann, Katharina",
           "ref": ["https://d-nb.info/gnd/1026820677"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"]
       }
     ],

@@ -76,7 +76,7 @@
           "text": "Hasse, Dag Nikolaus",
           "ref": ["https://viaf.org/viaf/5717273/"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/",
           "https://ptolemaeus.badw.de/team/3"

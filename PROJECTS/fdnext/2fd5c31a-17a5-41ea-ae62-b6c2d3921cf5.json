@@ -137,7 +137,7 @@
           "text": "Schmiederer, Simon",
           "ref": ["https://d-nb.info/gnd/1227354606"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://www.researchgate.net/profile/Simon-Schmiederer"]
       }
     ],

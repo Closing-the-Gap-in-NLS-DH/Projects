@@ -61,7 +61,7 @@
           "text": "Cherif Zahar, Farah",
           "ref": ["https://viaf.org/viaf/209127583"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"]
       }
     ],

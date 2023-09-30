@@ -362,7 +362,7 @@
           "text": "Krek, Simon",
           "ref": ["https://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.simonkrek.si/en/"]
       }
     ],

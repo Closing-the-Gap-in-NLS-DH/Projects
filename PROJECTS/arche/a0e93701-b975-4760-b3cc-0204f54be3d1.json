@@ -52,7 +52,7 @@
           "text": "Trognitz, Martina",
           "ref": ["https://d-nb.info/gnd/116996270X"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.oeaw.ac.at/de/acdh/team/current-team/martina-trognitz/"
         ]

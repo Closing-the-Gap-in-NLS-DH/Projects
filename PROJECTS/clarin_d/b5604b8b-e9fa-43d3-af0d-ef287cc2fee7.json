@@ -123,7 +123,7 @@
           "text": "Hinrichs, Erhard",
           "ref": ["https://d-nb.info/gnd/143840657"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
           "https://www.sfs.uni-tuebingen.de/~eh/"

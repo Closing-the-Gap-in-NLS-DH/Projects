@@ -74,7 +74,7 @@
           "text": "Rauch, Christoph",
           "ref": ["https://d-nb.info/gnd/1102171662"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
         ]

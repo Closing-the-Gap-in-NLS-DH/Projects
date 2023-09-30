@@ -82,7 +82,7 @@
           "text": "Kaplony, Andreas",
           "ref": ["https://d-nb.info/gnd/115211942"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
         ]

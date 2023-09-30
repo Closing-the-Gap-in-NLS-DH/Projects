@@ -115,7 +115,7 @@
           "text": "Hintze, Almut",
           "ref": ["https://d-nb.info/gnd/1138120693"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.soas.ac.uk/about/almut-hintze"]
       }
     ],

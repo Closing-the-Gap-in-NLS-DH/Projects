@@ -112,7 +112,7 @@
           "text": "Bonte, Achim",
           "ref": ["https://d-nb.info/gnd/1023548224"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/generaldirektion/info-gd"
         ]

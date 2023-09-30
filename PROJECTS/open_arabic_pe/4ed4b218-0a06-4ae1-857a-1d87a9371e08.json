@@ -49,7 +49,7 @@
           "text": "Till Grallert",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://openarabicpe.github.io/"]
       }
     ],

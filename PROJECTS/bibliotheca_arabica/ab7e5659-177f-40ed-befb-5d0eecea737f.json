@@ -52,7 +52,7 @@
           "text": "Klemm, Verena",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
@@ -62,7 +62,7 @@
           "text": "Liebrenz, Boris",
           "ref": ["https://d-nb.info/gnd/136837921"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"]
       }
     ],

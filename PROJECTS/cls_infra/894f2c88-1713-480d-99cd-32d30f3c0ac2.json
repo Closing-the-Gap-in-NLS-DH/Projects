@@ -300,7 +300,7 @@
           "text": "Eder, Maciej",
           "ref": ["https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://maciejeder.org/",
           "https://ijp.pan.pl/en/pracownicy/maciej-eder/"

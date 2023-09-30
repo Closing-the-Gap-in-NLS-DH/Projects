@@ -55,7 +55,7 @@
           "text": "Serpell, Stephen",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/serpell.html"
         ]

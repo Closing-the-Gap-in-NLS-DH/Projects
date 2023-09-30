@@ -104,7 +104,7 @@
           "text": "Gibson, Nathan",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       }
     ],

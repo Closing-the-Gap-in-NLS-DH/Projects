@@ -61,7 +61,7 @@
           "text": "Aghaei, Ali",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://kw.uni-paderborn.de/piit/personal-a-z/personen/87590"
         ]

@@ -52,7 +52,7 @@
           "text": "Gibson, Nathan",
           "ref": ["https://id.loc.gov/authorities/names/no2016135689.html"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       }
     ],

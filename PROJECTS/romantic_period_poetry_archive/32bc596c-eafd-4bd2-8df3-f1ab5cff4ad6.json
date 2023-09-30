@@ -40,7 +40,7 @@
           "text": "Huber, Alexander",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://c18ah.hcommons.org/"]
       }
     ],

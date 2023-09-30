@@ -86,7 +86,7 @@
           "text": "Allen, Jonathan",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
       }
     ],

@@ -63,7 +63,7 @@
           "text": "Savant, Sarah",
           "ref": ["https://d-nb.info/gnd/1044734957"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.aku.edu/ismc/people/Pages/sarah-bowen-savant.aspx"
         ]
@@ -73,7 +73,7 @@
           "text": "Romanov, Maxim",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.aai.uni-hamburg.de/en/voror/personen/romanov.html"
         ]

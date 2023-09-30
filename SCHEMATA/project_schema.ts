@@ -15,6 +15,24 @@ export const keywords = Object.values(keywordsObj).flat();
 // Make keywords list into Zod enum
 const keywordsEnum: [string, ...string[]] = [keywords[0], ...keywords.slice(1)];
 
+// List of valid roles in the CRediT taxonomy
+const creditRoles: [string, ...string[]] = [
+  "conceptualization",
+  "data curation",
+  "formal analysis",
+  "funding acquisition",
+  "investigation",
+  "methodology",
+  "project administration",
+  "resources",
+  "software",
+  "supervision",
+  "validation",
+  "visualization",
+  "writing – original draft",
+  "writing – review & editing",
+];
+
 //
 // SCHEMA
 //
@@ -157,13 +175,10 @@ export const projectSchema = z
                       .describe("List of authority file URIs"),
                   })
                   .strict(),
-                role: z
-                  .number()
-                  .int()
-                  .min(0)
-                  .max(3)
+                roles: z
+                  .array(z.enum(creditRoles))
                   .describe(
-                    "Role of the contact: (0 = Management | 1 = Employee | 2 = Student Employee | 3 = Contractor or Honorary Staff)",
+                    "Roles held by the contact (following the CRediT taxonomy)",
                   ),
                 websites: z
                   .array(z.string().url())

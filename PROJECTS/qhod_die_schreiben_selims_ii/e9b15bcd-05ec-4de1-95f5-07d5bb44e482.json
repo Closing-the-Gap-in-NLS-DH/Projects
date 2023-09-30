@@ -71,7 +71,7 @@
           "text": "Temiz, Halit",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://gams.uni-graz.at/context:sema/sdef:Context/get?mode=team"
         ]
@@ -81,7 +81,7 @@
           "text": "Kurz, Stephan",
           "ref": ["https://d-nb.info/gnd/13281899X"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://www.oeaw.ac.at/ihb/personen/kurz-stephan"]
       }
     ],

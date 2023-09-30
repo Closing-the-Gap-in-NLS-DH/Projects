@@ -86,7 +86,7 @@
           "text": "Mörth, Karlheinz",
           "ref": ["https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.oeaw.ac.at/acdh/team/current-team/karlheinz-moerth"
         ]

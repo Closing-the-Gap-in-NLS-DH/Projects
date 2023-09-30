@@ -53,7 +53,7 @@
           "text": "Jáka-Sövegjártó, Szilvia",
           "ref": ["https://d-nb.info/gnd/1156345170"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
         ]

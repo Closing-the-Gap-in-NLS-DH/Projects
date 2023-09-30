@@ -93,7 +93,7 @@
           "text": "Schmidtke, Sabine",
           "ref": ["https://d-nb.info/gnd/143773771"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.ias.edu/scholars/schmidtke"]
       },
       {
@@ -101,7 +101,7 @@
           "text": "Magier, David",
           "ref": ["https://d-nb.info/gnd/1050435206"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://library.princeton.edu/staff/dmagier"]
       }
     ],

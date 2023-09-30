@@ -56,7 +56,7 @@
           "text": "Bauer, Thomas",
           "ref": ["https://d-nb.info/gnd/130608467/"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]

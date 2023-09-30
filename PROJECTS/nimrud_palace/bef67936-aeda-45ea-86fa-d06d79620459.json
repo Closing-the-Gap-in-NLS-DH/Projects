@@ -81,7 +81,7 @@
           "text": "Englund, Klaudia",
           "ref": ["https://viaf.org/viaf/30195222"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": []
       }
     ],

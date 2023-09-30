@@ -52,7 +52,7 @@
           "text": "Pöckelmann, Marcus",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.informatik.uni-halle.de/ti/mitarbeiter/poeckelmann/"
         ]

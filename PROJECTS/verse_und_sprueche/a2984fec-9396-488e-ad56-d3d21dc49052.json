@@ -70,7 +70,7 @@
           "text": "Gruendler, Beatrice",
           "ref": ["https://d-nb.info/gnd/111749344X"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
         ]

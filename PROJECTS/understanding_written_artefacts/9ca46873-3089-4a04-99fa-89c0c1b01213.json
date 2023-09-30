@@ -131,7 +131,7 @@
           "text": "Bausi, Alessandro",
           "ref": ["https://www.wikidata.org/wiki/Q62559559"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]

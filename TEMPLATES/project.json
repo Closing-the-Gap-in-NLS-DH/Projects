@@ -49,7 +49,7 @@
           "text": "",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": []
       }
     ],

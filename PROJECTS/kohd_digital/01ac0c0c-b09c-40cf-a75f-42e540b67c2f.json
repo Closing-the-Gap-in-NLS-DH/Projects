@@ -40,7 +40,7 @@
           "text": "Seidensticker, Tilman",
           "ref": ["https://d-nb.info/gnd/131508415"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.gw.uni-jena.de/seidensticker-tilman"]
       }
     ],

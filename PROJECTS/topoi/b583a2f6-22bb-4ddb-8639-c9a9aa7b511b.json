@@ -67,7 +67,7 @@
           "text": "Meyer, Michael",
           "ref": ["https://www.wikidata.org/wiki/Q1928613"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/praehist/institut/Mitarbeiterinnen-und-Mitarbeiter/Professoren/Meyer.html"
         ]

@@ -103,7 +103,7 @@
           "text": "Baker, Heather D.",
           "ref": ["https://d-nb.info/gnd/1042917019"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.nmc.utoronto.ca/people/directories/all-faculty/heather-d-baker"
         ]

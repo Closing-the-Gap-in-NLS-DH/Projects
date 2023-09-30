@@ -98,7 +98,7 @@
           "text": "Haig, Geoffrey",
           "ref": ["https://d-nb.info/gnd/1016008090"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
         ]
@@ -108,7 +108,7 @@
           "text": "Rasekh Mahand, Mohammad",
           "ref": ["https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://basu.ac.ir/en/~rasekh"]
       }
     ],

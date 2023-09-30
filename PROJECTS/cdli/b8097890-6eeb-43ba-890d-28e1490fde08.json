@@ -147,7 +147,7 @@
           "text": "Renn, Jürgen",
           "ref": ["https://d-nb.info/gnd/121180719"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.mpiwg-berlin.mpg.de/users/renn"]
       }
     ],

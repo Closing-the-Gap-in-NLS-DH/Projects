@@ -58,7 +58,7 @@
           "text": "Stauder, Andreas",
           "ref": ["https://d-nb.info/gnd/13153503X"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.ephe.psl.eu/andreas-stauder"]
       }
     ],
