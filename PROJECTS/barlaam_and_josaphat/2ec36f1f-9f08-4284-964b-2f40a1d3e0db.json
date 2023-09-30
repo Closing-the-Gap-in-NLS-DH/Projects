@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "2ec36f1f-9f08-4284-964b-2f40a1d3e0db",
     "record_created_on": "2023-01-02",
@@ -52,7 +52,7 @@
           "text": "Dmitriev, Kirill",
           "ref": ["https://d-nb.info/gnd/138140030"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
         ]
@@ -62,7 +62,7 @@
           "text": "Orfali, Bilal",
           "ref": ["https://d-nb.info/gnd/140143777"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.bilalorfali.com/en",
           "https://www.aub.edu.lb/fas/arabic/Pages/Bilal-Orfali-Par.aspx"

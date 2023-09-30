@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd",
     "record_created_on": "2022-11-25",
@@ -46,7 +46,7 @@
           "text": "Bednarkiewicz, Maroussia",
           "ref": ["https://viaf.org/viaf/9154380928130290538/"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"
         ]

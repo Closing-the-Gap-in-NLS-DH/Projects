@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568",
     "record_created_on": "2022-07-12",
@@ -74,7 +74,7 @@
           "text": "Rauch, Christoph",
           "ref": ["https://d-nb.info/gnd/1102171662"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
         ]

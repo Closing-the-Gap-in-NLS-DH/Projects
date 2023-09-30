@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31",
     "record_created_on": "2023-01-13",
@@ -84,7 +84,7 @@
           "text": "Tinney, Stephen J.",
           "ref": ["https://viaf.org/viaf/18932290"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.ling.upenn.edu/people/tinney"]
       }
     ],

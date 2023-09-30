@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
     "record_created_on": "2022-09-01",
@@ -62,7 +62,7 @@
           "text": "Hasse, Dag Nikolaus",
           "ref": ["https://d-nb.info/gnd/11800638X"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
         ]

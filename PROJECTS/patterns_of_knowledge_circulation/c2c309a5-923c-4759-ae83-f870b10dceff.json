@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff",
     "record_created_on": "2022-07-27",
@@ -61,7 +61,7 @@
           "text": "Paluch, Agata",
           "ref": ["https://d-nb.info/gnd/1229106316"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/002Mitarbeiter_innen/paluch.html"
         ]

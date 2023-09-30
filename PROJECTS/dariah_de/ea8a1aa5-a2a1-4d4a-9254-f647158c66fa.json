@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa",
     "record_created_on": "2022-05-19",
@@ -51,7 +51,7 @@
           "text": "Horstmann, Wolfram",
           "ref": ["https://d-nb.info/gnd/129236187"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.sub.uni-goettingen.de/kontakt/direktion/dr-wolfram-horstmann/"
         ]

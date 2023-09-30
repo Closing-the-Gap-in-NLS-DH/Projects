@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created_on": "2021-11-01",
@@ -67,7 +67,7 @@
           "text": "Meyer, Michael",
           "ref": ["https://www.wikidata.org/wiki/Q1928613"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/praehist/institut/Mitarbeiterinnen-und-Mitarbeiter/Professoren/Meyer.html"
         ]

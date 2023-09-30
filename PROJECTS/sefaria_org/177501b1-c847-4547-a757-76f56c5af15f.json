@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "177501b1-c847-4547-a757-76f56c5af15f",
     "record_created_on": "2021-11-01",
@@ -40,7 +40,7 @@
           "text": "Septimus, Daniel",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": []
       }
     ],

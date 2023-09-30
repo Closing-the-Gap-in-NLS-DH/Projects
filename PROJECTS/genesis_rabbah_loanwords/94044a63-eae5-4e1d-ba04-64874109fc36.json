@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36",
     "record_created_on": "2022-05-17",
@@ -107,7 +107,7 @@
           "text": "Plietzsch, Susanne",
           "ref": ["https://d-nb.info/gnd/121776832"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://uni-salzburg.elsevierpure.com/de/persons/susanne-plietzsch-4"
         ]

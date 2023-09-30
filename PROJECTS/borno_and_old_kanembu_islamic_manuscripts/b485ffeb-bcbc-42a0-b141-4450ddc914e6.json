@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "b485ffeb-bcbc-42a0-b141-4450ddc914e6",
     "record_created_on": "2022-09-05",
@@ -60,7 +60,7 @@
           "text": "Bondarev, Dmitry",
           "ref": ["https://d-nb.info/gnd/1185835431"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
         ]

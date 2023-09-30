@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "1c38b421-95a2-4b2b-becf-119f36721a07",
     "record_created_on": "2021-11-12",
@@ -55,7 +55,7 @@
           "text": "Liss, Hanna",
           "ref": ["https://d-nb.info/gnd/115755853"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html#AF"
         ]

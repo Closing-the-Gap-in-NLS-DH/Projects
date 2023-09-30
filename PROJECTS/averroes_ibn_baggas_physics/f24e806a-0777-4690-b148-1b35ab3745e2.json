@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2",
     "record_created_on": "2022-02-21",
@@ -61,7 +61,7 @@
           "text": "Cherif Zahar, Farah",
           "ref": ["https://viaf.org/viaf/209127583"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"]
       }
     ],

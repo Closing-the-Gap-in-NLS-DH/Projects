@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9",
     "record_created_on": "2022-05-10",
@@ -94,7 +94,7 @@
           "text": "Procházka, Stephan",
           "ref": ["https://d-nb.info/gnd/136441688"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://orientalistik.univie.ac.at/ueber-uns/personal/detailansicht-personal/user/prochas8/inum/1073/backpid/86555/"
         ]

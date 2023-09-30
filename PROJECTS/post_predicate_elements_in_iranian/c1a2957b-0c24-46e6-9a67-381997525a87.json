@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87",
     "record_created_on": "2022-06-16",
@@ -98,7 +98,7 @@
           "text": "Haig, Geoffrey",
           "ref": ["https://d-nb.info/gnd/1016008090"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
         ]
@@ -108,7 +108,7 @@
           "text": "Rasekh Mahand, Mohammad",
           "ref": ["https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://basu.ac.ir/en/~rasekh"]
       }
     ],

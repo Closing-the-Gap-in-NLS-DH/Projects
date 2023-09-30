@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "0a2ff403-834b-484f-b961-0822220bab58",
     "record_created_on": "2023-02-03",
@@ -66,7 +66,7 @@
           "text": "Cantera Glera, Alberto",
           "ref": ["https://d-nb.info/gnd/1198415282"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
         ]

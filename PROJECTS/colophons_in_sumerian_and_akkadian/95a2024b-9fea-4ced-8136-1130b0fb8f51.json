@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51",
     "record_created_on": "2022-02-28",
@@ -53,7 +53,7 @@
           "text": "Jáka-Sövegjártó, Szilvia",
           "ref": ["https://d-nb.info/gnd/1156345170"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
         ]

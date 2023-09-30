@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
     "record_created_on": "2022-05-09",
@@ -55,7 +55,7 @@
           "text": "Kessel, Grigory",
           "ref": ["https://d-nb.info/gnd/1069608009"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.oeaw.ac.at/fileadmin/Institute/imafo/pdf/forschung/byzanzforschung/Staff/CV_GrigoryKessel_de.pdf",
           "https://www.ias.edu/scholars/grigory-kessel"

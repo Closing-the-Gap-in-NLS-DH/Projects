@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
     "record_created_on": "2022-07-26",
@@ -82,7 +82,7 @@
           "text": "Ilan, Tal",
           "ref": ["https://d-nb.info/gnd/121164306"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/001Professor_inn_en/Ilan.html"
         ]
@@ -92,7 +92,7 @@
           "text": "Lapin, Hayim",
           "ref": ["https://d-nb.info/gnd/1026148820"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://history.umd.edu/directory/hayim-lapin"]
       }
     ],

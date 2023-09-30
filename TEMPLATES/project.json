@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "",
     "record_created_on": "",
@@ -49,7 +49,7 @@
           "text": "",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": []
       }
     ],

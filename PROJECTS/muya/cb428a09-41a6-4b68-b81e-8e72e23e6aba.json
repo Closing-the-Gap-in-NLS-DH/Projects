@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "cb428a09-41a6-4b68-b81e-8e72e23e6aba",
     "record_created_on": "2023-02-13",
@@ -115,7 +115,7 @@
           "text": "Hintze, Almut",
           "ref": ["https://d-nb.info/gnd/1138120693"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.soas.ac.uk/about/almut-hintze"]
       }
     ],

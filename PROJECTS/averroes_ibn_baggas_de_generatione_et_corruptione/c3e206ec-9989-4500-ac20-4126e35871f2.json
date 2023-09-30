@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2",
     "record_created_on": "2022-02-21",
@@ -61,7 +61,7 @@
           "text": "La Martire, Corrado",
           "ref": ["https://d-nb.info/gnd/118137412X"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/corrado-la-martire"
         ]

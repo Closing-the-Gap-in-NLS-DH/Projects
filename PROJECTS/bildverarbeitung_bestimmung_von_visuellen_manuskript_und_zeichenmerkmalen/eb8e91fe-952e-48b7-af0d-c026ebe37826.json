@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826",
     "record_created_on": "2022-02-28",
@@ -68,7 +68,7 @@
           "text": "Stiehl, Hans Siegfried",
           "ref": ["https://www.wikidata.org/wiki/Q102416616"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/stiehl.html",
           "https://www.inf.uni-hamburg.de/en/inst/ab/bv/team/stiehl.html"

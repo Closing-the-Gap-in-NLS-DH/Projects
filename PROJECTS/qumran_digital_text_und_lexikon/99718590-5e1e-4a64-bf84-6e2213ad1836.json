@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836",
     "record_created_on": "2022-03-28",
@@ -61,7 +61,7 @@
           "text": "Kratz, Reinhard G.",
           "ref": ["https://d-nb.info/gnd/115412700"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.uni-goettingen.de/de/56085.html"]
       }
     ],

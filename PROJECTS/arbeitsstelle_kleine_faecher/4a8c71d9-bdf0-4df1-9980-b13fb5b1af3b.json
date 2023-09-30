@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
     "record_created_on": "2021-11-11",
@@ -54,7 +54,7 @@
           "text": "Schmidt, Uwe",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
         ]
@@ -64,7 +64,7 @@
           "text": "Bahlmann, Katharina",
           "ref": ["https://d-nb.info/gnd/1026820677"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"]
       }
     ],

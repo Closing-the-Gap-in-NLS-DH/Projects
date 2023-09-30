@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
     "record_created_on": "2021-10-29",
@@ -52,7 +52,7 @@
           "text": "Mischke, Dennis",
           "ref": ["https://d-nb.info/gnd/1011172860"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.fu-berlin.de/en/sites/ub/ueber-uns/team/mischke/"
         ]

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "ab7e5659-177f-40ed-befb-5d0eecea737f",
     "record_created_on": "2021-11-11",
@@ -52,7 +52,7 @@
           "text": "Klemm, Verena",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
@@ -62,7 +62,7 @@
           "text": "Liebrenz, Boris",
           "ref": ["https://d-nb.info/gnd/136837921"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"]
       }
     ],

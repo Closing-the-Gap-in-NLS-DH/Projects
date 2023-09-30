@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
     "record_created_on": "2022-05-19",
@@ -480,7 +480,7 @@
           "text": "Morselli, Francesca",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.dariah.eu/network/we-are-dariah-team"]
       },
       {
@@ -488,7 +488,7 @@
           "text": "Scharnhorst, Andrea",
           "ref": ["https://d-nb.info/gnd/1024345688"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.dariah.eu/network/we-are-dariah-team"]
       }
     ],

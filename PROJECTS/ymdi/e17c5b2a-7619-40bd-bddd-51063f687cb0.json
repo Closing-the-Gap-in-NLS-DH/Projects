@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
     "record_created_on": "2022-07-26",
@@ -93,7 +93,7 @@
           "text": "Schmidtke, Sabine",
           "ref": ["https://d-nb.info/gnd/143773771"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.ias.edu/scholars/schmidtke"]
       },
       {
@@ -101,7 +101,7 @@
           "text": "Magier, David",
           "ref": ["https://d-nb.info/gnd/1050435206"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://library.princeton.edu/staff/dmagier"]
       }
     ],

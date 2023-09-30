@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78",
     "record_created_on": "2021-11-01",
@@ -40,7 +40,7 @@
           "text": "Salamon, Anaïs",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.mcgill.ca/library/librarians/anais-salamon"]
       }
     ],

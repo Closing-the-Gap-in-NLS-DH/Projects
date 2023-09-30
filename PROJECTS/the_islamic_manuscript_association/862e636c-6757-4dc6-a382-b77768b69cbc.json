@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "862e636c-6757-4dc6-a382-b77768b69cbc",
     "record_created_on": "2022-09-06",
@@ -52,7 +52,7 @@
           "text": "Al-Nashar, Dalia",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.islamicmanuscript.org/DirectoryOfMembers/Person.aspx?mid=706"
         ]

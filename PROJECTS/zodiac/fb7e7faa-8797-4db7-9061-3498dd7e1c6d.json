@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "fb7e7faa-8797-4db7-9061-3498dd7e1c6d",
     "record_created_on": "2023-09-15",
@@ -55,7 +55,7 @@
           "text": "Ossendrijver, Mathieu A.J.H.",
           "ref": ["https://d-nb.info/gnd/1051590221"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/zodiac/team/ossendrijver/index.html"
         ]

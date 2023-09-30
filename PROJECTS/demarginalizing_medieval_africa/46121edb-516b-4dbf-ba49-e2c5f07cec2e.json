@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
     "record_created_on": "2021-11-12",
@@ -128,7 +128,7 @@
           "text": "Bausi, Alessandro",
           "ref": ["https://www.wikidata.org/wiki/Q62559559"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]

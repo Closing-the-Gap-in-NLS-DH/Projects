@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "7a287a76-c663-413d-9e3e-3191b1d6093e",
     "record_created_on": "2022-09-26",
@@ -80,7 +80,7 @@
           "text": "Endreß, Gerhard",
           "ref": ["https://d-nb.info/gnd/115696954"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.ruhr-uni-bochum.de/islamwiss/personen/endress.html"
         ]

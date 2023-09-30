@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e",
     "record_created_on": "2022-03-29",
@@ -71,7 +71,7 @@
           "text": "Verena Klemm",
           "ref": ["https://www.wikidata.org/wiki/Q5675690"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]

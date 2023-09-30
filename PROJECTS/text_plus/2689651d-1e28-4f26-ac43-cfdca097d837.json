@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "2689651d-1e28-4f26-ac43-cfdca097d837",
     "record_created_on": "2021-11-01",
@@ -151,7 +151,7 @@
           "text": "Klemm, Verena",
           "ref": ["https://d-nb.info/gnd/172189101"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]

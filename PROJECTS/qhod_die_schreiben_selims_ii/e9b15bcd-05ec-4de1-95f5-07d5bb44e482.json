@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "e9b15bcd-05ec-4de1-95f5-07d5bb44e482",
     "record_created_on": "2022-10-21",
@@ -71,7 +71,7 @@
           "text": "Temiz, Halit",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://gams.uni-graz.at/context:sema/sdef:Context/get?mode=team"
         ]
@@ -81,7 +81,7 @@
           "text": "Kurz, Stephan",
           "ref": ["https://d-nb.info/gnd/13281899X"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://www.oeaw.ac.at/ihb/personen/kurz-stephan"]
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "ce4fc765-1578-4cfb-8efa-b82387c99590",
     "record_created_on": "2022-10-07",
@@ -97,7 +97,7 @@
             "https://viaf.org/viaf/19154921221763590939/#%D7%95%D7%95%D7%A7%D7%A8,_%D7%90%D7%94%D7%A8%D7%95%D7%9F"
           ]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["http://haifahci.net/people/alan-wecker/"]
       }
     ],

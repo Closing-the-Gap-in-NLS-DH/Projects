@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "df700e7b-1fad-4e54-b534-f63cf5805925",
     "record_created_on": "2022-05-09",
@@ -73,7 +73,7 @@
           "text": "Schiefsky, Mark",
           "ref": ["https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://scholar.harvard.edu/schiefsky/home"]
       }
     ],

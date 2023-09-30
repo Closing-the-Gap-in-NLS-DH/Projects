@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
     "record_created_on": "2022-02-09",
@@ -85,7 +85,7 @@
           "text": "Richter, Tonio Sebastian",
           "ref": ["https://d-nb.info/gnd/142266140"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
           "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"

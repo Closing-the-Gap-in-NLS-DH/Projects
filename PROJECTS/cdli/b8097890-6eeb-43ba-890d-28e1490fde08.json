@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
     "record_created_on": "2022-10-06",
@@ -147,7 +147,7 @@
           "text": "Renn, Jürgen",
           "ref": ["https://d-nb.info/gnd/121180719"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.mpiwg-berlin.mpg.de/users/renn"]
       }
     ],

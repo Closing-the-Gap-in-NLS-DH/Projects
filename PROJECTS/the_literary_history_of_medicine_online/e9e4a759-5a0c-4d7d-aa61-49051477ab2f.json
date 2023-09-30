@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f",
     "record_created_on": "2021-11-01",
@@ -73,7 +73,7 @@
           "text": "Savage-Smith, Emilie",
           "ref": ["https://www.wikidata.org/wiki/Q64437299"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.orinst.ox.ac.uk/people/emilie-savage-smith"]
       },
       {
@@ -81,7 +81,7 @@
           "text": "Swain, Simon",
           "ref": ["https://www.wikidata.org/wiki/Q55386758"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
         ]

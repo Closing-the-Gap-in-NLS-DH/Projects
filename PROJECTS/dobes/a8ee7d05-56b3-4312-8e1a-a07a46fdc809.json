@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "a8ee7d05-56b3-4312-8e1a-a07a46fdc809",
     "record_created_on": "2022-06-21",
@@ -70,7 +70,7 @@
           "text": "Austin, Peter",
           "ref": ["https://d-nb.info/gnd/133996271"]
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": ["https://www.soas.ac.uk/staff/staff30592.php"]
       }
     ],

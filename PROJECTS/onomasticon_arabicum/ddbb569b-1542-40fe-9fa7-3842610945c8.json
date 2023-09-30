@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "ddbb569b-1542-40fe-9fa7-3842610945c8",
     "record_created_on": "2021-11-01",
@@ -52,7 +52,7 @@
           "text": "Müller, Christian",
           "ref": []
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.irht.cnrs.fr/fr/annuaire/muller-christian",
           "https://www.universiteitleiden.nl/en/news/2019/03/meet-our-spring-fellow-christian-muller"
@@ -63,7 +63,7 @@
           "text": "Roiland, Muriel",
           "ref": ["https://d-nb.info/gnd/1074308999"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.irht.cnrs.fr/fr/annuaire/roiland-muriel"]
       }
     ],

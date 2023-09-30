@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created_on": "2021-11-11",
@@ -94,7 +94,7 @@
           "text": "Vollandt, Ronny",
           "ref": ["https://d-nb.info/gnd/1173742050"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]

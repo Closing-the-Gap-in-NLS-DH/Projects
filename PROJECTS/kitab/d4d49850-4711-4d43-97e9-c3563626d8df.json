@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "d4d49850-4711-4d43-97e9-c3563626d8df",
     "record_created_on": "2021-11-01",
@@ -63,7 +63,7 @@
           "text": "Savant, Sarah",
           "ref": ["https://d-nb.info/gnd/1044734957"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": [
           "https://www.aku.edu/ismc/people/Pages/sarah-bowen-savant.aspx"
         ]
@@ -73,7 +73,7 @@
           "text": "Romanov, Maxim",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.aai.uni-hamburg.de/en/voror/personen/romanov.html"
         ]

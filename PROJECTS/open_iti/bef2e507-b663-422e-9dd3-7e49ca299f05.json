@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05",
     "record_created_on": "2021-11-01",
@@ -145,7 +145,7 @@
           "text": "Romanov, Maxim",
           "ref": []
         },
-        "role": 1,
+        "roles": ["investigation"],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
         ]

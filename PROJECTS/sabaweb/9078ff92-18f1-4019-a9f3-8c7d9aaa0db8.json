@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.2.1",
   "record_metadata": {
     "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
     "record_created_on": "2022-06-07",
@@ -52,7 +52,7 @@
           "text": "Nebes, Norbert",
           "ref": ["https://d-nb.info/gnd/1064027237"]
         },
-        "role": 0,
+        "roles": ["supervision"],
         "websites": ["https://www.gw.uni-jena.de/nebes-norbert"]
       }
     ],
