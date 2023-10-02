@@ -35,7 +35,7 @@ const langsSet = new Set(langs);
 const langsConsolidated = Array.from(langsSet);
 langsConsolidated.sort();
 
-const fullLangsFile = Deno.readTextFileSync("LANGUAGES.json");
+const fullLangsFile = Deno.readTextFileSync("TESTS/language_codes_all.json");
 const fullLangs: Record<string, string> = JSON.parse(fullLangsFile);
 
 const selectedLangs: Record<string, string> = {};
@@ -45,4 +45,4 @@ for (const lang of langsConsolidated) {
 }
 
 const stringified = JSON.stringify(selectedLangs, null, 2);
-Deno.writeTextFileSync("selected_langs.json", stringified);
+Deno.writeTextFileSync("TESTS/language_codes_selected.json", stringified);
