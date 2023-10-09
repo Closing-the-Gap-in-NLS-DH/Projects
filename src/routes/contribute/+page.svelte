@@ -187,13 +187,14 @@
 			<em>All fields are required unless otherwise noted.</em> Once you have filled in this
 			information, the “Download” button at the bottom will become active. You can then click it to
 			download a JSON file that contains the relevant information and is compliant with our schema.
-			Finally, in order to contribute the new record to our database, you should
+			Finally, in order to contribute the new record to our database, you can either 
 			<a
 				href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/issues"
 				target="_blank"
 				rel="noreferrer"
 				class="font-medium hover:underline">open an issue at our GitHub repository</a
-			> and attach the JSON file. We can take it from there.
+			> and attach the JSON file, or send it to us via e-mail at 
+			<a href="mailto:ctg@geschkult.fu-berlin.de" class="font-medium">ctg@geschkult.fu-berlin.de.</a>
 		</p>
 
 		<p>
