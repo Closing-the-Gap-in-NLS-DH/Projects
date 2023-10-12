@@ -194,9 +194,8 @@
 				rel="noreferrer"
 				class="font-medium hover:underline">open an issue at our GitHub repository</a
 			>
-			and attach the JSON file, or send it to us via e-mail at
-			<a href="mailto:ctg@geschkult.fu-berlin.de" class="font-medium">ctg@geschkult.fu-berlin.de.</a
-			>
+			and attach the JSON file, or send it to us
+			<a href="mailto:ctg@geschkult.fu-berlin.de" class="font-medium hover:underline">via email</a>.
 		</p>
 
 		<p>
