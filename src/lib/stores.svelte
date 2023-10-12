@@ -10,7 +10,7 @@
 
 	export const searchTerm: Writable<string> = writable('');
 	export const selectedTab: Writable<string> = writable('search');
-	export const selectedTerm: Writable<string> = writable('');
+	export const selectedTerms: Writable<Set<string>> = writable(new Set());
 
 	export const selectedEntries: Writable<[string, JsonStuff][]> = writable([]);
 </script>

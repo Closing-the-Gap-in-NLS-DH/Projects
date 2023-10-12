@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import { searchTerm, selectedTab, selectedTerm } from '$lib/stores.svelte';
+	import { searchTerm, selectedTab, selectedTerms } from '$lib/stores.svelte';
 
 	interface Listing {
 		title: string;
@@ -111,28 +111,36 @@
 
 	export function handleHash() {
 		if (window.location.hash) {
-			if (window.location.hash.startsWith('#keyword=')) {
+			if (window.location.hash.startsWith('#keywords=')) {
 				selectedTab.set('keywords');
-				selectedTerm.set(window.location.hash.split('keyword=')[1]);
-			} else if (window.location.hash.startsWith('#language=')) {
+
+				const keywords = window.location.hash.split('keywords=')[1];
+				const keywordsArray = keywords.split(',');
+
+				selectedTerms.set(new Set(keywordsArray));
+			} else if (window.location.hash.startsWith('#languages=')) {
 				selectedTab.set('languages');
-				selectedTerm.set(window.location.hash.split('language=')[1]);
+
+				const langs = window.location.hash.split('languages=')[1];
+				const langsArray = langs.split(',');
+
+				selectedTerms.set(new Set(langsArray));
 			} else {
 				// TODO: handle search hash?
 				// For now, just reset
 				searchTerm.set('');
-				selectedTerm.set('');
+				selectedTerms.set(new Set());
 			}
 		} else {
 			// No hash; just make sure everything is reset
 			searchTerm.set('');
-			selectedTerm.set('');
+			selectedTerms.set(new Set());
 		}
 	}
 
 	export function resetHash() {
 		searchTerm.set('');
-		selectedTerm.set('');
+		selectedTerms.set(new Set());
 		window.location.hash = '';
 	}
 
@@ -190,11 +198,6 @@
 		return matches;
 	}
 
-	export function setHash(type: string, term: string) {
-		selectedTerm.set(term);
-		window.location.hash = `#${type}=${term}`;
-	}
-
 	function sortTitles(a: JsonStuff, b: JsonStuff): 1 | -1 | 0 {
 		const aTitle = a.project.title.toLowerCase();
 		const bTitle = b.project.title.toLowerCase();
@@ -204,5 +207,29 @@
 		} else if (aTitle < bTitle) {
 			return -1;
 		} else return 0;
+	}
+
+	export function updateHash(type: string, term: string) {
+		selectedTerms.update((terms) => {
+			if (terms.has(term)) {
+				terms.delete(term);
+			} else {
+				terms.add(term);
+			}
+			return terms;
+		});
+
+		let termsArray: string[] = [];
+		selectedTerms.subscribe((terms) => {
+			termsArray = Array.from(terms);
+		});
+
+		if (termsArray.length === 0) {
+			window.location.hash = '';
+			return;
+		}
+
+		const termsString = termsArray.join(',');
+		window.location.hash = `#${type}=${termsString}`;
 	}
 </script>

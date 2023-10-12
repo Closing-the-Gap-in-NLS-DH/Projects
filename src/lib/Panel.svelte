@@ -4,12 +4,12 @@
 		searchTerm,
 		selectedEntries,
 		selectedTab,
-		selectedTerm
+		selectedTerms
 	} from '$lib/stores.svelte';
 
 	import { langNames } from '$lib/lang-names.svelte';
 
-	import { searchEntries, resetHash, setHash } from '$lib/utils.svelte';
+	import { searchEntries, resetHash, updateHash } from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
 	export let keywordsCategorized: Record<string, string[]>;
@@ -19,7 +19,7 @@
 	let searchTermValue: string;
 
 	let selectedTabValue: string;
-	let selectedTermValue: string;
+	let selectedTermsValue: Set<string>;
 
 	entries.subscribe((value) => {
 		entriesValue = value;
@@ -33,8 +33,8 @@
 		selectedTabValue = value;
 	});
 
-	selectedTerm.subscribe((value) => {
-		selectedTermValue = value;
+	selectedTerms.subscribe((value) => {
+		selectedTermsValue = value;
 	});
 
 	let debounce: number;
@@ -49,19 +49,47 @@
 		}, 500);
 	}
 
-	function validate(keywords: Record<string, string[]>, langs: string[], selection: string) {
-		if (selectedTabValue === 'keywords') {
-			return Object.values(keywords).flat().includes(selection);
+	function validate(
+		keywords: Record<string, string[]>,
+		langs: string[],
+		selections: Set<string>,
+		tab: string
+	) {
+		if (tab === 'search') {
+			return false;
 		}
 
-		if (selectedTabValue === 'languages') {
-			return langs.includes(selection);
+		const keywordsFlat = Object.values(keywords).flat();
+		const established = tab === 'keywords' ? keywordsFlat : langs;
+
+		// Race condition: langs, at least, could still be empty
+		// Function will run again
+		if (established.length === 0) {
+			return false;
 		}
 
-		return false;
+		for (const selection of selections) {
+			if (!established.includes(selection)) {
+				selectedTerms.update((value) => {
+					value.delete(selection);
+					return value;
+				});
+			}
+		}
+
+		if (selections.size === 0) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
-	$: validSelection = validate(keywordsCategorized, languages, selectedTermValue);
+	$: validSelection = validate(
+		keywordsCategorized,
+		languages,
+		selectedTermsValue,
+		selectedTabValue
+	);
 </script>
 
 <div class="mb-3.5 rounded-lg bg-ctgtan p-4">
@@ -121,13 +149,13 @@
 			{#each languages as language}
 				<button
 					on:click={() => {
-						setHash('language', language);
+						updateHash('languages', language);
 					}}
 					class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
-					class:bg-ctgblue={selectedTermValue === language}
-					class:border-ctgblue={selectedTermValue === language}
-					class:border-slate-800={selectedTermValue !== language}
-					class:text-gray-50={selectedTermValue === language}
+					class:bg-ctgblue={selectedTermsValue.has(language)}
+					class:border-ctgblue={selectedTermsValue.has(language)}
+					class:border-slate-800={!selectedTermsValue.has(language)}
+					class:text-gray-50={selectedTermsValue.has(language)}
 					title={langNames[language] || language}
 				>
 					{language}
@@ -149,13 +177,13 @@
 					{#each keywordsCategorized[category] as keyword}
 						<button
 							on:click={() => {
-								setHash('keyword', keyword);
+								updateHash('keywords', keyword);
 							}}
 							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
-							class:bg-ctgblue={selectedTermValue === keyword}
-							class:border-ctgblue={selectedTermValue === keyword}
-							class:border-slate-800={selectedTermValue !== keyword}
-							class:text-gray-50={selectedTermValue === keyword}
+							class:bg-ctgblue={selectedTermsValue.has(keyword)}
+							class:border-ctgblue={selectedTermsValue.has(keyword)}
+							class:border-slate-800={!selectedTermsValue.has(keyword)}
+							class:text-gray-50={selectedTermsValue.has(keyword)}
 						>
 							{#if keyword === 'corpus_output' || keyword === 'corpus_resource'}
 								corpus

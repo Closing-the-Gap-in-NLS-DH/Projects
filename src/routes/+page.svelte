@@ -10,7 +10,7 @@
 		searchTerm,
 		selectedEntries,
 		selectedTab,
-		selectedTerm
+		selectedTerms
 	} from '$lib/stores.svelte';
 
 	import {
@@ -20,7 +20,8 @@
 		filterPlaces,
 		getKeywords,
 		getLanguages,
-		handleHash
+		handleHash,
+		updateHash
 	} from '$lib/utils.svelte';
 
 	import type { JsonStuff } from '$lib/utils.svelte';
@@ -37,7 +38,7 @@
 	let selectedEntriesValue: [string, JsonStuff][];
 
 	let selectedTabValue: string;
-	let selectedTermValue: string;
+	let selectedTermsValue: Set<string>;
 
 	entries.subscribe((value) => {
 		entriesValue = value;
@@ -67,8 +68,8 @@
 		selectedTabValue = value;
 	});
 
-	selectedTerm.subscribe((value) => {
-		selectedTermValue = value;
+	selectedTerms.subscribe((value) => {
+		selectedTermsValue = value;
 	});
 
 	$: languages = Object.keys(languagesMapValue).sort();
@@ -77,28 +78,52 @@
 		entries: [string, JsonStuff][],
 		searchTerm: string,
 		selectedTab: string,
-		selectedTerm: string
+		selectedTerms: Set<string>
 	) {
-		if (selectedTab === 'search' && searchTerm) {
-			return selectedEntriesValue;
-		}
-
-		if (selectedTerm) {
-			if (selectedTab === 'keywords' && keywordsMapValue[selectedTerm]) {
-				const matches = keywordsMapValue[selectedTerm];
-				return entries.filter(([url]) => matches.includes(url));
-			}
-
-			if (selectedTab === 'languages' && languagesMapValue[selectedTerm]) {
-				const matches = languagesMapValue[selectedTerm];
-				return entries.filter(([url]) => matches.includes(url));
+		if (selectedTab === 'search') {
+			if (searchTerm) {
+				return selectedEntriesValue;
+			} else {
+				return entries;
 			}
 		}
 
-		return entries;
+		if (selectedTerms.size === 0) {
+			return entries;
+		}
+
+		const map = selectedTab === 'keywords' ? keywordsMapValue : languagesMapValue;
+
+		// Race condition: map might not be populated yet
+		// Function will run again
+		if (Object.keys(map).length === 0) {
+			return entries;
+		}
+
+		let matches: string[] = [];
+		let firstIteration = true;
+
+		for (const term of selectedTerms) {
+			if (!map[term]) {
+				updateHash(selectedTab, term);
+				return entries;
+			}
+
+			const newMatches = map[term];
+
+			if (firstIteration) {
+				matches = newMatches;
+				firstIteration = false;
+				continue;
+			}
+
+			matches = matches.filter((value) => newMatches.includes(value));
+		}
+
+		return entries.filter(([url]) => matches.includes(url));
 	}
 
-	$: filtered = filterEntries(entriesValue, searchTermValue, selectedTabValue, selectedTermValue);
+	$: filtered = filterEntries(entriesValue, searchTermValue, selectedTabValue, selectedTermsValue);
 
 	afterNavigate(handleHash);
 
