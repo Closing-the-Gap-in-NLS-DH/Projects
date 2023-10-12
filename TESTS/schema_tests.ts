@@ -1,6 +1,10 @@
 import { assertEquals } from "https://deno.land/std@0.201.0/assert/mod.ts";
 import { v4 } from "https://deno.land/std@0.201.0/uuid/mod.ts";
-import { keywords, projectSchema } from "../SCHEMATA/project_schema.ts";
+import {
+  creditRoles,
+  keywords,
+  projectSchema,
+} from "../SCHEMATA/project_schema.ts";
 
 Deno.test("ensure no duplicate keywords", () => {
   const keywordsSet = new Set(keywords);
@@ -18,6 +22,18 @@ Deno.test("validate project template", () => {
 
   projectSchema.parse(template);
 });
+
+Deno.test("ensure no duplicate CRediT role IDs", () => {
+  const ids = creditRoles.map(([, id]) => id);
+  const idSet = new Set(ids);
+  assertEquals(idSet.size, 14); // There are 14 roles
+});
+
+for (const [_, id] of creditRoles) {
+  Deno.test(`validate CRediT role ID ${id}`, () => {
+    assertEquals(v4.validate(id), true);
+  });
+}
 
 // Get list of project files
 const projectsFile = Deno.readTextFileSync("PROJECTS.json");

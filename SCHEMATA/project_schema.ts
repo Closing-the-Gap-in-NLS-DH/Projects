@@ -15,23 +15,27 @@ export const keywords = Object.values(keywordsObj).flat();
 // Make keywords list into Zod enum
 const keywordsEnum: [string, ...string[]] = [keywords[0], ...keywords.slice(1)];
 
-// List of valid roles in the CRediT taxonomy
-const creditRoles: [string, ...string[]] = [
-  "conceptualization",
-  "data curation",
-  "formal analysis",
-  "funding acquisition",
-  "investigation",
-  "methodology",
-  "project administration",
-  "resources",
-  "software",
-  "supervision",
-  "validation",
-  "visualization",
-  "writing – original draft",
-  "writing – review & editing",
+// List of valid roles (name, id) in the CRediT taxonomy
+export const creditRoles: [string, string][] = [
+  ["conceptualization", "8b73531f-db56-4914-9502-4cc4d4d8ed73"],
+  ["data curation", "f93e0f44-f2a4-4ea1-824a-4e0853b05c9d"],
+  ["formal analysis", "95394cbd-4dc8-4735-b589-7e5f9e622b3f"],
+  ["funding acquisition", "34ff6d68-132f-4438-a1f4-fba61ccf364a"],
+  ["investigation", "2451924d-425e-4778-9f4c-36c848ca70c2"],
+  ["methodology", "f21e2be9-4e38-4ab7-8691-d6f72d5d5843"],
+  ["project administration", "a693fe76-ea33-49ad-9dcc-5e4f3ac5f938"],
+  ["resources", "ebd781f0-bf79-492c-ac21-b31b9c3c990c"],
+  ["software", "f89c5233-01b0-4778-93e9-cc7d107aa2c8"],
+  ["supervision", "0c8ca7d4-06ad-4527-9cea-a8801fcb8746"],
+  ["validation", "4b1bf348-faf2-4fc4-bd66-4cd3a84b9d44"],
+  ["visualization", "76b9d56a-e430-4e0a-84c9-59c11be343ae"],
+  ["writing – original draft", "43ebbd94-98b4-42f1-866b-c930cef228ca"],
+  ["writing – review & editing", "d3aead86-f2a2-47f7-bb99-79de6421164d"],
 ];
+
+// Make roles list into Zod enum of role names
+const roleNames = creditRoles.map((x) => x[0]);
+const rolesEnum: [string, ...string[]] = [roleNames[0], ...roleNames.slice(1)];
 
 //
 // SCHEMA
@@ -176,7 +180,7 @@ export const projectSchema = z
                   })
                   .strict(),
                 roles: z
-                  .array(z.enum(creditRoles))
+                  .array(z.enum(rolesEnum))
                   .describe(
                     "Roles held by the contact (following the CRediT taxonomy)",
                   ),
