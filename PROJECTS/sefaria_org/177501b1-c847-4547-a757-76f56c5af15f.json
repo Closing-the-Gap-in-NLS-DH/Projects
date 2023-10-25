@@ -10,20 +10,26 @@
     "title": "Sefaria",
     "abbr": "",
     "type": "organization",
-    "ref": ["https://www.wikidata.org/wiki/Q33424604"],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q33424604"
+    ],
     "date": [
       {
         "from": "2011",
         "to": ""
       }
     ],
-    "websites": ["https://www.sefaria.org/texts"],
+    "websites": [
+      "https://www.sefaria.org/texts"
+    ],
     "project_desc": "Sefaria in a non-profit organization which assembles a free-living library of Jewish texts and their interconnections, in Hebrew and in translation. The texts are available in a digital form with interactive interfaces allowing more people to engage with textual treasures and tradition.",
     "places": [
       {
         "place_name": {
           "text": "New York",
-          "ref": ["https://www.geonames.org/5128638/new-york.html"]
+          "ref": [
+            "https://www.geonames.org/5128638/new-york.html"
+          ]
         },
         "coordinates": {
           "lat": "43.00035",
@@ -31,7 +37,10 @@
         }
       }
     ],
-    "lang": ["eng", "heb"],
+    "lang": [
+      "eng",
+      "heb"
+    ],
     "related_institutions": [],
     "related_entities": [],
     "contacts": [
@@ -40,16 +49,22 @@
           "text": "Septimus, Daniel",
           "ref": []
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": []
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -57,11 +72,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

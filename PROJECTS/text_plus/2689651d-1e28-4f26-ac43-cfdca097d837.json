@@ -17,13 +17,17 @@
         "to": "2026"
       }
     ],
-    "websites": ["https://www.text-plus.org/"],
+    "websites": [
+      "https://www.text-plus.org/"
+    ],
     "project_desc": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
     "places": [
       {
         "place_name": {
           "text": "Mannheim",
-          "ref": ["https://www.geonames.org/2873891/mannheim.html"]
+          "ref": [
+            "https://www.geonames.org/2873891/mannheim.html"
+          ]
         },
         "coordinates": {
           "lat": "49.4891",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -43,7 +49,9 @@
       {
         "place_name": {
           "text": "Frankfurt am Main",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
         "coordinates": {
           "lat": "50.11552",
@@ -53,7 +61,9 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -63,7 +73,9 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -73,7 +85,9 @@
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": ["https://www.wikidata.org/wiki/Q320642"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q320642"
+          ]
         },
         "coordinates": {
           "lat": "36.61393",
@@ -81,7 +95,10 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -92,7 +109,9 @@
             "https://ror.org/05qj6w324"
           ]
         },
-        "websites": ["https://www.nfdi.de/verein/"]
+        "websites": [
+          "https://www.nfdi.de/verein/"
+        ]
       },
       {
         "relation_type": "host",
@@ -103,7 +122,9 @@
             "https://ror.org/00hvwkt50"
           ]
         },
-        "websites": ["https://www.ids-mannheim.de/"]
+        "websites": [
+          "https://www.ids-mannheim.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -114,7 +135,9 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"]
+        "websites": [
+          "https://www.bbaw.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -125,23 +148,33 @@
             "https://ror.org/01n7gem85"
           ]
         },
-        "websites": ["https://www.dnb.de/DE/Home/home_node.html"]
+        "websites": [
+          "https://www.dnb.de/DE/Home/home_node.html"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
-          "ref": ["https://www.wikidata.org/wiki/Q564783"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q564783"
+          ]
         },
-        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"]
+        "websites": [
+          "https://www.sub.uni-goettingen.de/sub-aktuell/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Nordrhein-Westfälische Akademie der Wissenschaften und der Künste",
-          "ref": ["https://www.wikidata.org/wiki/Q320642"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q320642"
+          ]
         },
-        "websites": ["https://www.awk.nrw/"]
+        "websites": [
+          "https://www.awk.nrw/"
+        ]
       }
     ],
     "related_entities": [],
@@ -149,9 +182,13 @@
       {
         "pers_name": {
           "text": "Klemm, Verena",
-          "ref": ["https://d-nb.info/gnd/172189101"]
+          "ref": [
+            "https://d-nb.info/gnd/172189101"
+          ]
         },
-        "roles": ["investigation"],
+        "roles": [
+          "investigation"
+        ],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
@@ -162,7 +199,9 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -170,11 +209,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
@@ -182,7 +234,10 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "comment": ""
   }
 }

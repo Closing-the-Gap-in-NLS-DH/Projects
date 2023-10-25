@@ -17,13 +17,17 @@
         "to": ""
       }
     ],
-    "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
+    "websites": [
+      "https://averroes.uni-koeln.de/edition/current-editions/"
+    ],
     "project_desc": "Ibn Bāǧǧa’s commentaries provide an exposition of the content of Aristotle’s “Physics,” which is partly incomplete. They also had a decisive impact on Averroes’s commentaries on the same work. The project’s objective is a critical edition of Ibn Bāǧǧa’s commentaries, the study of their genesis and structure as well as their first ever presentation in form of a complete and reliable text.",
     "places": [
       {
         "place_name": {
           "text": "Köln",
-          "ref": ["https://www.geonames.org/2886242/koeln.html"]
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -31,7 +35,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -59,18 +65,28 @@
       {
         "pers_name": {
           "text": "Cherif Zahar, Farah",
-          "ref": ["https://viaf.org/viaf/209127583"]
+          "ref": [
+            "https://viaf.org/viaf/209127583"
+          ]
         },
-        "roles": ["investigation"],
-        "websites": ["https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"]
+        "roles": [
+          "investigation"
+        ],
+        "websites": [
+          "https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -78,11 +94,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {

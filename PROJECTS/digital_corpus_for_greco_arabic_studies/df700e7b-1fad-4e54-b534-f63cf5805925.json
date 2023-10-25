@@ -17,13 +17,17 @@
         "to": "2013"
       }
     ],
-    "websites": ["https://www.graeco-arabic-studies.org/home.html"],
+    "websites": [
+      "https://www.graeco-arabic-studies.org/home.html"
+    ],
     "project_desc": "The Digital Corpus for Graeco-Arabic Studies was created in the course of a collaborative project at Harvard and Tufts University and contains ca. 230 texts, three fifths of which are Greek originals and the rest are Arabic translations. In addition, the platform offers a list of authors and works included in the corpus that can be filtered by language, subject and text type and a search interface to search for Arabic or Greek words and phrases.",
     "places": [
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
         },
         "coordinates": {
           "lat": "42.3751",
@@ -33,7 +37,9 @@
       {
         "place_name": {
           "text": "Medford",
-          "ref": ["https://www.geonames.org/4943629/medford.html"]
+          "ref": [
+            "https://www.geonames.org/4943629/medford.html"
+          ]
         },
         "coordinates": {
           "lat": "42.41843",
@@ -41,7 +47,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,7 +60,9 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["https://www.harvard.edu/"]
+        "websites": [
+          "https://www.harvard.edu/"
+        ]
       },
       {
         "relation_type": "host",
@@ -63,7 +73,9 @@
             "https://ror.org/05wvpxv85"
           ]
         },
-        "websites": ["https://www.tufts.edu/"]
+        "websites": [
+          "https://www.tufts.edu/"
+        ]
       }
     ],
     "related_entities": [],
@@ -71,18 +83,29 @@
       {
         "pers_name": {
           "text": "Schiefsky, Mark",
-          "ref": ["https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
+          "ref": [
+            "https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://scholar.harvard.edu/schiefsky/home"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://scholar.harvard.edu/schiefsky/home"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "grc"],
+      "lang": [
+        "ara",
+        "grc"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -90,11 +113,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
