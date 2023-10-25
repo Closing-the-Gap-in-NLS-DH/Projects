@@ -99,7 +99,13 @@
         "ref": []
       }
     ],
-    "keywords": ["audio", "language_documentation", "linguistics", "video"],
+    "keywords": [
+      "audio",
+      "language_documentation",
+      "linguistics",
+      "video",
+      "vre"
+    ],
     "comment": ""
   }
 }

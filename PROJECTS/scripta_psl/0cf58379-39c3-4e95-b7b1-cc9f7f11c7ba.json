@@ -107,7 +107,8 @@
       "corpus_resource",
       "htr",
       "machine_learning",
-      "ocr"
+      "ocr",
+      "vre"
     ],
     "comment": ""
   }

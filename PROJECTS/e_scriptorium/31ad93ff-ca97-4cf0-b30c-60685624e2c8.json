@@ -131,7 +131,8 @@
       "machine_learning",
       "nlp",
       "ocr",
-      "translation"
+      "translation",
+      "vre"
     ],
     "comment": ""
   }
