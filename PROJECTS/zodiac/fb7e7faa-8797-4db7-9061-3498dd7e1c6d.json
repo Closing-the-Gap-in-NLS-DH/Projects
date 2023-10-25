@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,10 +34,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +45,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [],
@@ -60,28 +53,16 @@
       {
         "pers_name": {
           "text": "Ossendrijver, Mathieu A.J.H.",
-          "ref": [
-            "https://d-nb.info/gnd/1051590221"
-          ]
+          "ref": ["https://d-nb.info/gnd/1051590221"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/zodiac/team/ossendrijver/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "akk",
-        "arc",
-        "egy",
-        "grc",
-        "heb",
-        "lat",
-        "san"
-      ],
+      "lang": ["akk", "arc", "egy", "grc", "heb", "lat", "san"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
