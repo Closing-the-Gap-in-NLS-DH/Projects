@@ -1,0 +1,149 @@
+{
+  "schema_version": "0.2.1",
+  "record_metadata": {
+    "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1",
+    "record_created_on": "2023-10-26",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Audition Certificates Platform",
+    "abbr": "ACP",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2023"
+      }
+    ],
+    "websites": [
+      "https://www.audition-certificates-platform.org/",
+      "https://www.fdr.uni-hamburg.de/record/13525"
+    ],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ara"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
+        },
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
+        "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51"
+      },
+      {
+        "relation_type": "parent",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Hirschler, Konrad",
+          "ref": [
+            "https://d-nb.info/gnd/103830816X"
+          ]
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/hirschler.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotaiton",
+      "corpus_output",
+      "digital_preservation",
+      "geodata",
+      "manuscript"
+    ],
+    "comment": ""
+  }
+}
