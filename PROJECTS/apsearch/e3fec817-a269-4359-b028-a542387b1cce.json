@@ -1,0 +1,123 @@
+{
+  "schema_version": "0.2.1",
+  "record_metadata": {
+    "uuid": "e3fec817-a269-4359-b028-a542387b1cce",
+    "record_created_on": "2023-10-30",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "APSearch",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": ""
+      }
+    ],
+    "websites": ["https://apsearch.org/?size=n_20_n"],
+    "project_desc": "",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": ["ara", "eng", "deu", "fra", "heb", "spa"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://ror.org/05jgq9443",
+            "https://www.wikidata.org/wiki/Q219989"
+          ]
+        },
+        "websites": ["https://www.bbaw.de/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "The Arab-German Young Academy of Sciences and Humanities",
+          "ref": ["https://www.wikidata.org/wiki/Q61876973"]
+        },
+        "websites": ["https://agya.info/"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Pasdzierny, Matthias",
+          "ref": ["https://d-nb.info/gnd/1023725061"]
+        },
+        "roles": ["supervision"],
+        "websites": []
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "islamic_studies",
+      "music_studies"
+    ],
+    "comment": ""
+  }
+}
