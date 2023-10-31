@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": [
-            "https://www.geonames.org/6551220/halle-saale.html"
-          ]
+          "ref": ["https://www.geonames.org/6551220/halle-saale.html"]
         },
         "coordinates": {
           "lat": "51.48298",
@@ -37,10 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q32120"
           ]
         },
-        "websites": [
-          "https://www.uni-halle.de/"
-        ]
+        "websites": ["https://www.uni-halle.de/"]
       }
     ],
     "related_entities": [],
@@ -61,24 +54,14 @@
       {
         "pers_name": {
           "text": "Pietruschka, Ute ",
-          "ref": [
-            "https://d-nb.info/gnd/111231965"
-          ]
+          "ref": ["https://d-nb.info/gnd/111231965"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-goettingen.de/de/654951.html"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/de/654951.html"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "grc",
-        "syr"
-      ],
+      "lang": ["ara", "grc", "syr"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
@@ -105,10 +88,7 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml"
-      ],
+      "database": ["sql", "xml"],
       "backend": [],
       "frontend": [],
       "tools": [
