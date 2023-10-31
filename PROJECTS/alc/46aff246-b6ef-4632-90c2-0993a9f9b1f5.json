@@ -1,26 +1,26 @@
 {
   "schema_version": "0.2.1",
   "record_metadata": {
-    "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9",
-    "record_created_on": "2021-11-08",
+    "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5",
+    "record_created_on": "2023-10-23",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-02-18"
+    "last_edited_on": ""
   },
   "project": {
-    "title": "Kalila and Dimna – AnonymClassic",
-    "abbr": "",
+    "title": "Arabic Literature Cosmopolitan",
+    "abbr": "ALC",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2018-01-01",
-        "to": "2022-12-31"
+        "from": "2020",
+        "to": "2027"
       }
     ],
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html"
     ],
-    "project_desc": "AnonymClassic is the first ever comprehensive study of Kalila and Dimna, one of the most important text of premodern world literature which passed from Hinduism and Buddhism via Islam to Christianity. Its Arabic versions constitute a source of all further translations into European languages and are also the main focus of the project, which analyzes the transmission processes of the work from India to Europe with Arabic as cultural bridge.",
+    "project_desc": "Arabic Literature Cosmopolitan and AnonymClassic jointly are the first ever comprehensive study of Kalila and Dimna, one of the most important text of premodern world literature which passed from Hinduism and Buddhism via Islam to Christianity. Its Arabic versions constitute a source of all further translations into European languages and are also the main focus of the project, which analyzes the transmission processes of the work from India to Europe with Arabic as cultural bridge.",
     "places": [
       {
         "place_name": {
@@ -72,8 +72,8 @@
       },
       {
         "relation_type": "sibling",
-        "title": "Arabic Literature Cosmopolitan",
-        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
       }
     ],
     "contacts": [
