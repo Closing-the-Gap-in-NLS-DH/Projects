@@ -23,9 +23,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -33,10 +31,7 @@
         }
       }
     ],
-    "lang": [
-      "ara",
-      "eng"
-    ],
+    "lang": ["ara", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -47,9 +42,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [
@@ -83,22 +76,16 @@
       {
         "pers_name": {
           "text": "Gruendler, Beatrice",
-          "ref": [
-            "https://d-nb.info/gnd/111749344X"
-          ]
+          "ref": ["https://d-nb.info/gnd/111749344X"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
