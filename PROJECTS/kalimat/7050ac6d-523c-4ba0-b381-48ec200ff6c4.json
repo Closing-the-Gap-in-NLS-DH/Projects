@@ -18,12 +18,14 @@
       }
     ],
     "websites": [],
-    "project_desc": "KALiMaT is the first bilingual, open-access Arabic-English online living handbook of short articles on historical terms from the pre-modern and early modern literary tradition. Each article addresses a lemma, providing analysis and contextualization that makes the historical term accessible. With its nuanced approach focused on the analysis of concepts from the Arabic tradition and the critical examination of Western and modern literary categories, as well as with its bilingual publication strategy in both English and Arabic, KALiMaT contributes to the decolonization of knowledge. The project will be hosted on the OES infrastructure offered by Freie Universität Berlin.",
+    "project_desc": "KALiMaT is the first bilingual, open-access Arabic-English online living handbook of short articles on historical terms from the pre-modern and early modern literary tradition. Each article addresses a lemma, providing analysis and contextualization that makes the historical term accessible. With its nuanced approach focused on the analysis of concepts from the Arabic tradition and the critical examination of Western and modern literary categories, as well as with its bilingual publication strategy in both English and Arabic, KALiMaT contributes to the decolonization of knowledge. The project will be hosted on the Open Encyclopedia System infrastructure offered by Freie Universität Berlin.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -31,7 +33,10 @@
         }
       }
     ],
-    "lang": ["ara", "deu", "eng"],
+    "lang": [
+      "ara",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +47,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -60,22 +67,38 @@
         "relation_type": "sibling",
         "title": "Kalila and Dimna – AnonymClassic",
         "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Open Encyclopedia System",
+        "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Arabic Literature Cosmopolitan",
+        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
       }
     ],
     "contacts": [
       {
         "pers_name": {
           "text": "Gruendler, Beatrice",
-          "ref": ["https://d-nb.info/gnd/111749344X"]
+          "ref": [
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

@@ -15,6 +15,10 @@
     "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
     "path": "/PROJECTS/afrikanische_stimmen_in_islamischen_manuskripten/"
   },
+  "46aff246-b6ef-4632-90c2-0993a9f9b1f5": {
+    "title": "Arabic Literature Cosmopolitan",
+    "path": "/PROJECTS/alc/"
+  },
   "5416d598-83e8-4b34-b4d8-6beea3faf6f2": {
     "title": "Atlas of the Languages of Iran",
     "path": "/PROJECTS/ali/"
@@ -126,6 +130,10 @@
   "4c68f56a-2c44-41c0-acb9-ece91afaf70c": {
     "title": "Corpus Avesticum Berolinense",
     "path": "/PROJECTS/cab/"
+  },
+  "5d194da4-2d99-4793-9757-59a197059b9b": {
+    "title": "Corpus der arabischen und syrischen Gnomologien",
+    "path": "/PROJECTS/casg/"
   },
   "b8097890-6eeb-43ba-890d-28e1490fde08": {
     "title": "Cuneiform Digital Library Initiative",
@@ -354,6 +362,10 @@
   "892b783d-1788-451f-9efd-1c58bfb4b064": {
     "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
     "path": "/PROJECTS/methoden_der_manuskriptanalyse_zur_wiedergewinnung_verlorener_schrift/"
+  },
+  "d5dd164d-1887-473f-8282-584b8d09474d": {
+    "title": "Moving frontiers",
+    "path": "/PROJECTS/moving_frontiers/"
   },
   "47a62965-3241-4531-b01a-a25e25dac602": {
     "title": "Machine Translation and Automated Analysis of Cuneiform Language",
