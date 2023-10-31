@@ -72,6 +72,11 @@
         "relation_type": "sibling",
         "title": "Open Encyclopedia System",
         "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Arabic Literature Cosmopolitan",
+        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
       }
     ],
     "contacts": [
