@@ -78,7 +78,33 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+        "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Arabic Literature Cosmopolitan",
+        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
+        "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
