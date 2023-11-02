@@ -1,0 +1,154 @@
+{
+  "schema_version": "0.2.1",
+  "record_metadata": {
+    "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
+    "record_created_on": "2023-11-02",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Memory Spaces: Mapping Oral History in Mosul",
+    "abbr": "MESMOM",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2023-08-01",
+        "to": "2024-02-29"
+      }
+    ],
+    "websites": [
+      "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide."
+    ],
+    "project_desc": "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Amsterdam",
+          "ref": [
+            "https://www.geonames.org/2759794/amsterdam.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.37403",
+          "lng": "4.88969"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Amsterdam",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q214341",
+            "https://ror.org/04dkp9463"
+          ]
+        },
+        "websites": [
+          "https://www.uva.nl/en"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Toral, Isabel",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/toral/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "cultural_studies",
+      "digital_preservation",
+      "image",
+      "video"
+    ],
+    "comment": ""
+  }
+}
