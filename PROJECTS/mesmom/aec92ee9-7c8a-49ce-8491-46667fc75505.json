@@ -17,10 +17,9 @@
         "to": "2024-02-29"
       }
     ],
-    "websites": [
-      "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide."
-    ],
-    "project_desc": "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html",
+    "websites": ["https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html"
+      ],
+    "project_desc": "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide.",
     "places": [
       {
         "place_name": {
