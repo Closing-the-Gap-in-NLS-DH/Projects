@@ -67,6 +67,11 @@
         "relation_type": "cooperation",
         "title": "Arabic Literature Cosmopolitan",
         "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Memory Spaces: Mapping Oral History in Mosul",
+        "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505"
       }
     ],
     "contacts": [

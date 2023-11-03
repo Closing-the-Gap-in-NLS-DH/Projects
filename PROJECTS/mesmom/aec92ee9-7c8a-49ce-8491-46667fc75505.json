@@ -1,24 +1,26 @@
 {
   "schema_version": "0.2.1",
   "record_metadata": {
-    "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4",
-    "record_created_on": "2021-10-30",
+    "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
+    "record_created_on": "2023-11-02",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
-    "abbr": "KALiMaT",
+    "title": "Memory Spaces: Mapping Oral History in Mosul",
+    "abbr": "MESMOM",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2024",
-        "to": "2027"
+        "from": "2023-08-01",
+        "to": "2024-02-29"
       }
     ],
-    "websites": [],
-    "project_desc": "KALiMaT is the first bilingual, open-access Arabic-English online living handbook of short articles on historical terms from the pre-modern and early modern literary tradition. Each article addresses a lemma, providing analysis and contextualization that makes the historical term accessible. With its nuanced approach focused on the analysis of concepts from the Arabic tradition and the critical examination of Western and modern literary categories, as well as with its bilingual publication strategy in both English and Arabic, KALiMaT contributes to the decolonization of knowledge. The project will be hosted on the Open Encyclopedia System infrastructure offered by Freie Universität Berlin.",
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html"
+    ],
+    "project_desc": "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide.",
     "places": [
       {
         "place_name": {
@@ -29,9 +31,19 @@
           "lat": "52.52437",
           "lng": "13.41053"
         }
+      },
+      {
+        "place_name": {
+          "text": "Amsterdam",
+          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
+        },
+        "coordinates": {
+          "lat": "52.37403",
+          "lng": "4.88969"
+        }
       }
     ],
-    "lang": ["ara", "eng"],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,13 +55,24 @@
           ]
         },
         "websites": ["https://www.fu-berlin.de/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Amsterdam",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q214341",
+            "https://ror.org/04dkp9463"
+          ]
+        },
+        "websites": ["https://www.uva.nl/en"]
       }
     ],
     "related_entities": [
       {
         "relation_type": "sibling",
-        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
-        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
       },
       {
         "relation_type": "sibling",
@@ -58,13 +81,8 @@
       },
       {
         "relation_type": "sibling",
-        "title": "Kalila and Dimna – AnonymClassic",
-        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
-      },
-      {
-        "relation_type": "cooperation",
-        "title": "Open Encyclopedia System",
-        "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52"
+        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
       },
       {
         "relation_type": "sibling",
@@ -73,19 +91,19 @@
       },
       {
         "relation_type": "sibling",
-        "title": "Memory Spaces: Mapping Oral History in Mosul",
-        "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505"
+        "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
+        "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Gruendler, Beatrice",
-          "ref": ["https://d-nb.info/gnd/111749344X"]
+          "text": "Toral, Isabel",
+          "ref": []
         },
         "roles": ["supervision"],
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/toral/index.html"
         ]
       }
     ],
@@ -138,9 +156,10 @@
     ],
     "keywords": [
       "arabic_studies",
-      "digital_publishing",
-      "encyclopedia",
-      "literary_studies"
+      "cultural_studies",
+      "digital_preservation",
+      "image",
+      "video"
     ],
     "comment": ""
   }
