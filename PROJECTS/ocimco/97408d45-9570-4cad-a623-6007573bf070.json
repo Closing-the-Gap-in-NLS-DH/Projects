@@ -78,7 +78,13 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "Union Catalogue of Manuscripts from the Islamicate World",
+        "uuid": "9734b5c3-fa35-4e45-878e-1deb62db97d5"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

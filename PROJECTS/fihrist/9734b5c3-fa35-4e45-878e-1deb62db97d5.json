@@ -191,7 +191,13 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Oxford Cambridge Islamic Manuscript Catalogue Online",
+        "uuid": "97408d45-9570-4cad-a623-6007573bf070"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
