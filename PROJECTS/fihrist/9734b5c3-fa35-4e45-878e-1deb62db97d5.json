@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.2.1",
+  "record_metadata": {
+    "uuid": "9734b5c3-fa35-4e45-878e-1deb62db97d5",
+    "record_created_on": "2023-11-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Union Catalogue of Manuscripts from the Islamicate World",
+    "abbr": "FIHRIST",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2011",
+        "to": ""
+      }
+    ],
+    "websites": [
+      "https://www.fihrist.org.uk/",
+      "https://github.com/fihristorg/fihrist-mss"
+    ],
+    "project_desc": "FIHRIST is an online catalog featuring diverse manuscripts from the Islamicate world held by UK libraries. It offers detailed descriptions of manuscripts spanning from the 7th to the 19th century CE, providing valuable resources for scholars and enthusiasts while also facilitating contributions from institutions and private collectors to enrich its content.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": ["https://www.geonames.org/2653941/cambridge.html"]
+        },
+        "coordinates": {
+          "lat": "52.2",
+          "lng": "0.11667"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Manchester",
+          "ref": ["https://www.geonames.org/2643123/manchester.html"]
+        },
+        "coordinates": {
+          "lat": "53.48095",
+          "lng": "-2.23743"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Birmingham",
+          "ref": ["https://www.geonames.org/2655603/birmingham.html"]
+        },
+        "coordinates": {
+          "lat": "52.48142",
+          "lng": "-1.89983"
+        }
+      },
+      {
+        "place_name": {
+          "text": "London",
+          "ref": ["https://www.geonames.org/2643743/london.html"]
+        },
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Cambridge",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q35794",
+            "https://ror.org/013meh722"
+          ]
+        },
+        "websites": ["https://www.cam.ac.uk/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q34433",
+            "https://ror.org/052gg0110"
+          ]
+        },
+        "websites": ["https://www.ox.ac.uk/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "University of Manchester",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q230899",
+            "https://ror.org/027m9bs27"
+          ]
+        },
+        "websites": ["https://www.manchester.ac.uk/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "University of Birmingham",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q223429",
+            "https://ror.org/03angcq70"
+          ]
+        },
+        "websites": ["https://www.birmingham.ac.uk/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "School of Oriental and African Studies, University of London",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q220144",
+            "https://ror.org/04vrxay34"
+          ]
+        },
+        "websites": ["https://www.soas.ac.uk/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "British Library",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q23308",
+            "https://ror.org/05dhe8b71"
+          ]
+        },
+        "websites": ["https://www.bl.uk/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Royal Asiatic Society",
+          "ref": ["https://www.wikidata.org/wiki/Q1417172"]
+        },
+        "websites": ["https://royalasiaticsociety.org/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Wellcome Library",
+          "ref": ["https://www.wikidata.org/wiki/Q7981192"]
+        },
+        "websites": ["https://wellcomelibrary.org/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Oxford Cambridge Islamic Manuscript Catalogue Online",
+        "uuid": "97408d45-9570-4cad-a623-6007573bf070"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Faghihi, Yasmin",
+          "ref": []
+        },
+        "roles": ["writing – review & editing"],
+        "websites": ["https://www.cdh.cam.ac.uk/about/people/yasmin-faghihi/"]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "amh",
+        "ara",
+        "ave",
+        "ben",
+        "bod",
+        "chg",
+        "cop",
+        "dan",
+        "deu",
+        "eng",
+        "fas",
+        "fra",
+        "guj",
+        "hau",
+        "heb",
+        "hin",
+        "hye",
+        "ita",
+        "jav",
+        "jpr",
+        "jrb",
+        "kan",
+        "kas",
+        "kur",
+        "lat",
+        "mal",
+        "mar",
+        "mon",
+        "pal",
+        "por",
+        "san",
+        "snd",
+        "spa",
+        "syr",
+        "tam",
+        "tel",
+        "tur",
+        "und",
+        "urd",
+        "zho"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "african_studies",
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "iranian_studies",
+      "islamic_studies",
+      "jewish_studies",
+      "manuscript",
+      "semitic_studies",
+      "turkology",
+      "tei"
+    ],
+    "comment": ""
+  }
+}

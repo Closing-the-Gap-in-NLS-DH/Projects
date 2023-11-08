@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.2.1",
+  "record_metadata": {
+    "uuid": "97408d45-9570-4cad-a623-6007573bf070",
+    "record_created_on": "2023-11-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Oxford Cambridge Islamic Manuscript Catalogue Online",
+    "abbr": "OCIMCO",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2009",
+        "to": "2011"
+      }
+    ],
+    "websites": ["https://www.fihrist.org.uk/"],
+    "project_desc": "This project aims to improve electronic access to the UK's significant Islamic manuscript collections at Oxford and Cambridge universities. It plans to create 10,000 summary records using a TEI P5 schema for future detailed descriptions, making these resources accessible through Oxford University Library Services and potentially contributing to the European Manuscriptorum. Collaboration with the Islamic Manuscript Association and other initiatives is a key focus.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": ["https://www.geonames.org/2653941/cambridge.html"]
+        },
+        "coordinates": {
+          "lat": "52.2",
+          "lng": "0.11667"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Cambridge",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q35794",
+            "https://ror.org/013meh722"
+          ]
+        },
+        "websites": ["https://www.cam.ac.uk/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q34433",
+            "https://ror.org/052gg0110"
+          ]
+        },
+        "websites": ["https://www.ox.ac.uk/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "Union Catalogue of Manuscripts from the Islamicate World",
+        "uuid": "9734b5c3-fa35-4e45-878e-1deb62db97d5"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Evison, Gillian",
+          "ref": []
+        },
+        "roles": ["supervision"],
+        "websites": []
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "amh",
+        "ara",
+        "ave",
+        "ben",
+        "bod",
+        "chg",
+        "cop",
+        "dan",
+        "deu",
+        "eng",
+        "fas",
+        "fra",
+        "guj",
+        "hau",
+        "heb",
+        "hin",
+        "hye",
+        "ita",
+        "jav",
+        "jpr",
+        "jrb",
+        "kan",
+        "kas",
+        "kur",
+        "lat",
+        "mal",
+        "mar",
+        "mon",
+        "pal",
+        "por",
+        "san",
+        "snd",
+        "spa",
+        "syr",
+        "tam",
+        "tel",
+        "tur",
+        "und",
+        "urd",
+        "zho"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "african_studies",
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "iranian_studies",
+      "islamic_studies",
+      "jewish_studies",
+      "manuscript",
+      "semitic_studies",
+      "turkology",
+      "tei"
+    ],
+    "comment": ""
+  }
+}
