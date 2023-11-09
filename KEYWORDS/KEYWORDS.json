@@ -67,6 +67,7 @@
     "nlp",
     "network_analysis",
     "machine_learning",
+    "stylometry",
     "tei"
   ]
 }

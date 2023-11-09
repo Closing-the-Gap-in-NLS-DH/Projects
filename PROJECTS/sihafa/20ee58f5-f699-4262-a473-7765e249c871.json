@@ -1,28 +1,27 @@
 {
   "schema_version": "0.2.1",
   "record_metadata": {
-    "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310",
-    "record_created_on": "2022-02-28",
+    "uuid": "20ee58f5-f699-4262-a473-7765e249c871",
+    "record_created_on": "2023-11-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-28"
+    "last_edited_on": ""
   },
   "project": {
-    "title": "Datenrepositorium Manuskriptkulturen",
-    "abbr": "",
+    "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
+    "abbr": "SIHAFA",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2015",
-        "to": "2019"
+        "from": "2023-09-01",
+        "to": "2025-08-31"
       }
     ],
     "websites": [
-      "https://gepris.dfg.de/gepris/projekt/203077103",
-      "https://www.manuscript-cultures.uni-hamburg.de/Poster/INF_A4_P2.pdf",
-      "https://www.manuscript-cultures.uni-hamburg.de/Projekte_p2.html"
+      "https://cordis.europa.eu/project/id/101061500",
+      "https://explore.openaire.eu/search/project?projectId=corda_____he::96549b48568ab3ca3ca1311397eed157"
     ],
-    "project_desc": "This project was dedicated to the systematic securing and long-term use of all research data relevant for SFB (Sonderforschungsbereich for Manuscript Cultures in Asia, Africa and Europe). As result a centralized data repository was created for all the sub-projects of SBF synchronizing them with the administration and freeing them of the tasks of securing data and of developing specific tools. Next to the collection of all the data of SFB the created infrastructure helps to optimize manuscript research by making all manuscripts available in one place, offering the possibility to annotate documents, to write glossaries and to make results available to the public as well as by supporting the graduate college on using e-learning.",
+    "project_desc": "SIHAFA explores the late Ottoman Arabic ideosphere of, employing a systematic and computational approach to study the periodical press as a discursive field. The project's methodology involves analyzing a digital corpus of seven Arabic journals through stylometric authorship attribution, social network analysis, and close reading. The aim is to fill a research gap, challenge established narratives of the Arabic Renaissance, and contribute to Arab Periodical Studies, emphasizing FAIR data principles and open access. Project outputs will include groundbreaking research published in English and Arabic, improved digital scholarly editions, authority files, an OCR model for Arabic periodicals, and a plain text corpus of authorship candidates.",
     "places": [
       {
         "place_name": {
@@ -35,7 +34,7 @@
         }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,16 +51,6 @@
     "related_entities": [
       {
         "relation_type": "sibling",
-        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
-        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
-        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
-      },
-      {
-        "relation_type": "sibling",
         "title": "Audition Certificates Platform",
         "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
       },
@@ -74,6 +63,16 @@
         "relation_type": "sibling",
         "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
         "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Datenrepositorium Manuskriptkulturen",
+        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
       },
       {
         "relation_type": "sibling",
@@ -102,13 +101,13 @@
       },
       {
         "relation_type": "sibling",
-        "title": "SfarData",
-        "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
+        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
       },
       {
         "relation_type": "sibling",
-        "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
-        "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
+        "title": "SfarData",
+        "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
       },
       {
         "relation_type": "sibling",
@@ -119,33 +118,53 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Friedrich, Michael",
-          "ref": ["https://d-nb.info/gnd/1106567749"]
+          "text": "Grallert, Till",
+          "ref": []
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://www.aai.uni-hamburg.de/china/personen/friedrich.html"
-        ]
+        "websites": ["https://openarabicpe.github.io/"]
       }
     ],
     "research_data": {
-      "lang": ["deu", "eng"],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": []
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
-      "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
     },
     "policies": [
       {
@@ -153,7 +172,15 @@
         "ref": []
       }
     ],
-    "keywords": ["research_data_management", "research_infrastructure"],
-    "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
+    "keywords": [
+      "arabic_studies",
+      "computational_text_analysis",
+      "corpus_resource",
+      "history_studies",
+      "network_analysis",
+      "ocr",
+      "stylometry"
+    ],
+    "comment": ""
   }
 }

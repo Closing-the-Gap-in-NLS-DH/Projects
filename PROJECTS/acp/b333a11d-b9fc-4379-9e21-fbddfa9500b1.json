@@ -63,6 +63,66 @@
         "relation_type": "parent",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
+        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Datenrepositorium Manuskriptkulturen",
+        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Documentation of Gorani, an endangered language of West Iran",
+        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
+        "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
+        "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Islamic Painted Page",
+        "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "SfarData",
+        "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
+        "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
       }
     ],
     "contacts": [

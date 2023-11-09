@@ -96,6 +96,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - [nlp](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept48)
    - network_analysis
    - machine_learning
+   - stylometry
    - [tei](https://vocabs.dariah.eu/dha_taxonomy/en/page/Concept2.02)
 
 6. **Languages**: [ISO 639-3 codes](https://iso639-3.sil.org/code_tables/639/data)
