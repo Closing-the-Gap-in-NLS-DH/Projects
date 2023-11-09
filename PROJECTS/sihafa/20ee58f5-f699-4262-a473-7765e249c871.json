@@ -21,7 +21,7 @@
       "https://cordis.europa.eu/project/id/101061500",
       "https://explore.openaire.eu/search/project?projectId=corda_____he::96549b48568ab3ca3ca1311397eed157"
     ],
-    "project_desc": "SIHAFA explores the late Ottoman (1890s–1918) Arabic ideosphere of the Eastern Mediterranean, employing a systematic and computational approach to study the periodical press as a discursive field. The project's methodology involves analyzing a digital corpus of seven Arabic journals through stylometric authorship attribution, social network analysis, and close reading. The aim is to fill a research gap, challenge established narratives of the Arabic Renaissance, and contribute to Arab Periodical Studies, emphasizing FAIR data principles and open access. Project outputs will include groundbreaking research published in English and Arabic, improved digital scholarly editions, authority files, an OCR model for Arabic periodicals, and a plain text corpus of authorship candidates.",
+    "project_desc": "SIHAFA explores the late Ottoman Arabic ideosphere of, employing a systematic and computational approach to study the periodical press as a discursive field. The project's methodology involves analyzing a digital corpus of seven Arabic journals through stylometric authorship attribution, social network analysis, and close reading. The aim is to fill a research gap, challenge established narratives of the Arabic Renaissance, and contribute to Arab Periodical Studies, emphasizing FAIR data principles and open access. Project outputs will include groundbreaking research published in English and Arabic, improved digital scholarly editions, authority files, an OCR model for Arabic periodicals, and a plain text corpus of authorship candidates.",
     "places": [
       {
         "place_name": {
@@ -175,7 +175,7 @@
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",
-      "corpus_as_resource",
+      "corpus_resource",
       "history_studies",
       "network_analysis",
       "ocr",
