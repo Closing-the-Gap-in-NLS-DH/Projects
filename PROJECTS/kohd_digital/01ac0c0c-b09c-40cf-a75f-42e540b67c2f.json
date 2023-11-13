@@ -32,7 +32,19 @@
       }
     ],
     "lang": ["deu", "eng"],
-    "related_institutions": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Akademie der Wissenschaften zu Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q414188",
+            "https://ror.org/04hsa7a08"
+          ]
+        },
+        "websites": ["https://adw-goe.de"]
+      }
+    ],
     "related_entities": [],
     "contacts": [
       {
