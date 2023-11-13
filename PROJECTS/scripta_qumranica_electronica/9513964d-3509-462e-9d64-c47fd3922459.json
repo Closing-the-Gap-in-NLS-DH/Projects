@@ -106,6 +106,21 @@
         "relation_type": "sibling",
         "title": "Qumran Digital: Text und Lexikon",
         "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Coptica",
+        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Digital",
+        "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
       }
     ],
     "contacts": [
