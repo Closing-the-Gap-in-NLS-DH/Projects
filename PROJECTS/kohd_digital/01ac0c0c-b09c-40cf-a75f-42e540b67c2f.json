@@ -17,7 +17,7 @@
         "to": "2022"
       }
     ],
-    "websites": ["https://orient-mss.kohd.adw-goe.de/content/index.xml"],
+    "websites": ["https://orient-kohd.dl.uni-leipzig.de/content/index.xml"],
     "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
     "places": [
       {
@@ -32,8 +32,41 @@
       }
     ],
     "lang": ["deu", "eng"],
-    "related_institutions": [],
-    "related_entities": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Akademie der Wissenschaften zu Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q414188",
+            "https://ror.org/04hsa7a08"
+          ]
+        },
+        "websites": ["https://adw-goe.de"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Coptica",
+        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Qumran Digital: Text und Lexikon",
+        "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
+        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
@@ -45,7 +78,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "bod", "cop", "fas", "khm", "san", "tam", "tur"],
+      "lang": ["ara", "bod", "fas", "khm", "san", "tam", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
@@ -69,7 +102,14 @@
         "ref": []
       }
     ],
-    "keywords": [],
+    "keywords": [
+      "arabic_studies",
+      "iranian_studies",
+      "turkology",
+      "digital_preservation",
+      "catalog",
+      "manuscript"
+    ],
     "comment": ""
   }
 }

@@ -1,27 +1,26 @@
 {
   "schema_version": "0.2.1",
   "record_metadata": {
-    "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1",
-    "record_created_on": "2023-10-26",
-    "record_created_by": "Kudela, Xenia Monika",
+    "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04",
+    "record_created_on": "2023-11-13",
+    "record_created_by": "Kudela, Xeina Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "Audition Certificates Platform",
-    "abbr": "ACP",
+    "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+    "abbr": "Ethio-SPaRe",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2019",
-        "to": "2023"
+        "from": "2009",
+        "to": "2015"
       }
     ],
     "websites": [
-      "https://www.audition-certificates-platform.org/",
-      "https://www.fdr.uni-hamburg.de/record/13525"
+      "https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare.html"
     ],
-    "project_desc": "",
+    "project_desc": "The Ethio-SPaRe project focused on preserving and analyzing manuscripts in Ethiopian churches and monasteries, particularly in the Tigray region. With a mission to safeguard Ethiopia's rich Christian heritage, the project aimed to identify, protect, digitize, and catalog manuscripts, creating searchable databases and virtual libraries while conducting extensive research into Ethiopian literature and oral traditions. The urgency stemmed from the imminent extinction of a substantial part of this unique cultural heritage.",
     "places": [
       {
         "place_name": {
@@ -34,7 +33,7 @@
         }
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,18 +50,8 @@
     "related_entities": [
       {
         "relation_type": "sibling",
-        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
-        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
-        "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51"
-      },
-      {
-        "relation_type": "parent",
-        "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+        "title": "Audition Certificates Platform",
+        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
       },
       {
         "relation_type": "sibling",
@@ -126,24 +115,24 @@
       },
       {
         "relation_type": "sibling",
-        "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
-        "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
       }
     ],
     "contacts": [
       {
         "pers_name": {
-          "text": "Hirschler, Konrad",
-          "ref": ["https://d-nb.info/gnd/103830816X"]
+          "text": "Nosnitsin, Denis",
+          "ref": ["https://d-nb.info/gnd/104770255X"]
         },
         "roles": ["supervision"],
         "websites": [
-          "https://www.aai.uni-hamburg.de/voror/personen/hirschler.html"
+          "https://www.aai.uni-hamburg.de/afrika/personen/nosnitsin.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": ["gez"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
@@ -190,12 +179,9 @@
       }
     ],
     "keywords": [
-      "annotation",
+      "african_studies",
       "corpus_output",
       "digital_preservation",
-      "geodata",
-      "history_studies",
-      "islamic_studies",
       "manuscript"
     ],
     "comment": ""

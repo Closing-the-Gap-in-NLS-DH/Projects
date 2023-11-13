@@ -247,6 +247,10 @@
     "title": "European Lexicographic Infrastructure",
     "path": "/PROJECTS/elexis/"
   },
+  "fbf007e0-7eee-4bb1-801d-568785d43d04": {
+    "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+    "path": "/PROJECTS/ethio_spare/"
+  },
   "659c0aba-3bdd-43eb-937d-dad4ad63e3fc": {
     "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
     "path": "/PROJECTS/evolution_of_islamic_societies/"
@@ -338,6 +342,10 @@
   "d4d49850-4711-4d43-97e9-c3563626d8df": {
     "title": "Knowledge, Information Technology, and the Arabic Book",
     "path": "/PROJECTS/kitab/"
+  },
+  "f67c8fcd-d190-4419-a85a-e6998da4f0ba": {
+    "title": "KOHD Coptica",
+    "path": "/PROJECTS/kohd_coptica/"
   },
   "01ac0c0c-b09c-40cf-a75f-42e540b67c2f": {
     "title": "KOHD Digital",

@@ -53,6 +53,26 @@
         "relation_type": "sibling",
         "title": "Scripta Qumranica Electronica",
         "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Coptica",
+        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Digital",
+        "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
+        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
       }
     ],
     "contacts": [
