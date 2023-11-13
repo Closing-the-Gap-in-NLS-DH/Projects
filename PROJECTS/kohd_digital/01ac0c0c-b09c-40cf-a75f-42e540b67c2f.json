@@ -57,7 +57,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "bod", "cop", "fas", "khm", "san", "tam", "tur"],
+      "lang": ["ara", "bod", "fas", "khm", "san", "tam", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
