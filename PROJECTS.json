@@ -159,6 +159,10 @@
     "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
     "path": "/PROJECTS/cls_infra/"
   },
+  "c4f41a6d-9fb9-4c31-85f0-b66acfe41289": {
+    "title": "Corpus dei Manoscritti Copti Letterari",
+    "path": "/PROJECTS/cmcl/"
+  },
   "95a2024b-9fea-4ced-8136-1130b0fb8f51": {
     "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
     "path": "/PROJECTS/colophons_in_sumerian_and_akkadian/"
@@ -586,6 +590,10 @@
   "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b": {
     "title": "Topoi. The Formation and Transformation of Space and Knowledge in Ancient Civilizations",
     "path": "/PROJECTS/topoi/"
+  },
+  "77ae1011-1b54-46b5-b676-02895e3300fc": {
+    "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
+    "path": "/PROJECTS/traces/"
   },
   "79462111-75a7-4fa0-8e11-9d424293a074": {
     "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",

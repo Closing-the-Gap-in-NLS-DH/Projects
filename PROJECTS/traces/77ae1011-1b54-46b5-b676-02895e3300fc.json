@@ -1,27 +1,24 @@
 {
   "schema_version": "0.2.1",
   "record_metadata": {
-    "uuid": "20ee58f5-f699-4262-a473-7765e249c871",
-    "record_created_on": "2023-11-09",
-    "record_created_by": "Kudela, Xenia Monika",
+    "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc",
+    "record_created_on": "2023-11-14",
+    "record_created_by": "Kudela,  Xenia Monika",
     "last_edited_on": ""
   },
   "project": {
-    "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
-    "abbr": "SIHAFA",
+    "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
+    "abbr": "TraCES",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2023-09-01",
-        "to": "2025-08-31"
+        "from": "2014",
+        "to": "2019"
       }
     ],
-    "websites": [
-      "https://cordis.europa.eu/project/id/101061500",
-      "https://explore.openaire.eu/search/project?projectId=corda_____he::96549b48568ab3ca3ca1311397eed157"
-    ],
-    "project_desc": "SIHAFA explores the late Ottoman Arabic ideosphere of, employing a systematic and computational approach to study the periodical press as a discursive field. The project's methodology involves analyzing a digital corpus of seven Arabic journals through stylometric authorship attribution, social network analysis, and close reading. The aim is to fill a research gap, challenge established narratives of the Arabic Renaissance, and contribute to Arab Periodical Studies, emphasizing FAIR data principles and open access. Project outputs will include groundbreaking research published in English and Arabic, improved digital scholarly editions, authority files, an OCR model for Arabic periodicals, and a plain text corpus of authorship candidates.",
+    "websites": ["https://www.traces.uni-hamburg.de/"],
+    "project_desc": "The TraCes meticulously analyzed lexical, morphological, and stylistic features in Ethiopic texts, creating a groundbreaking digital corpus. The project's highlight is a comprehensive digital lexicon of the Gəʿəz language, departing from traditional dictionaries, providing complete lemmas, full translations, and contextual insights, resulting in the first-ever thesaurus for Gəʿəz.",
     "places": [
       {
         "place_name": {
@@ -86,6 +83,11 @@
       },
       {
         "relation_type": "sibling",
+        "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+        "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
+      },
+      {
+        "relation_type": "sibling",
         "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
         "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
       },
@@ -111,18 +113,13 @@
       },
       {
         "relation_type": "sibling",
+        "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
+        "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
+      },
+      {
+        "relation_type": "sibling",
         "title": "Understanding Written Artefacts",
         "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
-        "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
-        "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
       },
       {
         "relation_type": "sibling",
@@ -133,15 +130,17 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Grallert, Till",
-          "ref": []
+          "text": "Bausi, Alessandro",
+          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
         },
         "roles": ["supervision"],
-        "websites": ["https://openarabicpe.github.io/"]
+        "websites": [
+          "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": ["ara", "gez"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
@@ -188,14 +187,15 @@
       }
     ],
     "keywords": [
-      "arabic_studies",
-      "computational_text_analysis",
-      "corpus_resource",
-      "history_studies",
-      "media_studies",
-      "network_analysis",
-      "ocr",
-      "stylometry"
+      "african_studies",
+      "annotation",
+      "corpus_output",
+      "digital_preservation",
+      "lexicography",
+      "lexicon",
+      "linguistics",
+      "tei",
+      "vre"
     ],
     "comment": ""
   }
