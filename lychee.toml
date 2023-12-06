@@ -1,5 +1,11 @@
 # Exclude URLs and mail addresses from checking (supports regex)
-exclude = ["blogs.bl.uk", "gepris.dfg.de", '\.git$', "researchgate.net/profile"]
+exclude = [
+    "blogs.bl.uk",
+    "gepris.dfg.de",
+    '\.git$',
+    "nli.org.il",
+    "researchgate.net/profile",
+]
 
 # Exclude these filesystem paths from getting checked
 exclude_path = ["node_modules", "package-lock.json"]
