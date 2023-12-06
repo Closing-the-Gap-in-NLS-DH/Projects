@@ -7,6 +7,7 @@
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jonas Müller-Laackman
 
 Topics discussed
+
 - Recent events (BUA colloquium, Open Science Dashboards workshop)
 - Number of projects was added recently (Xenia)
 - February workshop
@@ -18,11 +19,11 @@ Topics discussed
     - Presentation 2 - Xenia or Theo
     - Last hour less structured
   - Possible titles of the event
- 	  - Closing the Gap in Non-Latin-Script Data:
-  	Challenges of Data Loss in the Non-Latin-Script Digital Humanities
-  	- Data Survival
-  	Challenges of Infrastructural Monolingualism and Data Survival
-  	- How to Preserve Diverse Data in a Monolingual Environment
+    - Closing the Gap in Non-Latin-Script Data:
+      Challenges of Data Loss in the Non-Latin-Script Digital Humanities
+    - Data Survival
+      Challenges of Infrastructural Monolingualism and Data Survival
+    - How to Preserve Diverse Data in a Monolingual Environment
   - Remarks
     - Leave time for people to chat, ask questions, have coffee and pretzels
     - Open event, open to the public
@@ -36,19 +37,17 @@ Topics discussed
     - Roll-up poster for CtG made before the event
 - Possible Collaborations: Ada Lovelace Center, Quest institute and others
 - DHd paper
-	- Submission of camera-ready version of "paper" (i.e., abstract) by Dec. 4
-	- Registration phase opens on Dec. 4
-	- Passau, Last week of Feb
+  - Submission of camera-ready version of "paper" (i.e., abstract) by Dec. 4
+  - Registration phase opens on Dec. 4
+  - Passau, Last week of Feb
 - CtG intern
- 	- Test run for explaining our workflow (AO. the focus on Germany - Difficult enough to build networks inGermany)
-	- Idea for follow-up, expanding project
-	- IDHN, OpenITI and Hist-ME are doing similar things 
+  - Test run for explaining our workflow (AO. the focus on Germany - Difficult enough to build networks inGermany)
+  - Idea for follow-up, expanding project
+  - IDHN, OpenITI and Hist-ME are doing similar things
 - To-Dos:
-	- Update on survey (schedule first meeting, second meeting Anonym Classic) (Xenia)
-	- Website updates (need new visualizations) (Xenia)
+  - Update on survey (schedule first meeting, second meeting Anonym Classic) (Xenia)
+  - Website updates (need new visualizations) (Xenia)
 - Next meeting Dec 8
-
-
 
 ## 2023-09-29
 
