@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.201.0/assert/mod.ts";
-import { v4 } from "https://deno.land/std@0.201.0/uuid/mod.ts";
+import { assertEquals } from "https://deno.land/std@0.208.0/assert/mod.ts";
+import { v4 } from "https://deno.land/std@0.208.0/uuid/mod.ts";
 import {
   creditRoles,
   keywords,
