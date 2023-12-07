@@ -6,8 +6,10 @@
 		path: string;
 	}
 
-	const urlPrefix =
-		'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
+	const useArchive = false; // Set true to make site almost completely static
+	const urlPrefix = useArchive
+		? '/Closing-The-Gap-In-Non-Latin-Script-Data/archive'
+		: 'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	export type JsonStuff = Record<string, any>;
@@ -17,10 +19,7 @@
 	): Promise<Record<string, string[]>> {
 		const usedKeys = Object.keys(keywordsMap);
 
-		const res = await fetch(
-			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/KEYWORDS/KEYWORDS.json'
-		);
-
+		const res = await fetch(`${urlPrefix}/KEYWORDS/KEYWORDS.json`);
 		const categorizedKeys: Record<string, string[]> = await res.json();
 
 		for (const [category, keywords] of Object.entries(categorizedKeys)) {
@@ -39,6 +38,12 @@
 	export async function fetchEntries(
 		listData: Record<string, Listing>
 	): Promise<[string, JsonStuff][]> {
+		if (useArchive) {
+			const entriesRes = await fetch(`${urlPrefix}/ENTRIES.json`);
+			const entries: [string, JsonStuff][] = await entriesRes.json();
+			return entries;
+		}
+
 		const listEntries: [string, Listing][] = Object.entries(listData);
 
 		const urls: string[] = [];
