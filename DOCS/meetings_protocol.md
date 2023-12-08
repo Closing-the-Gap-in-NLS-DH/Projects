@@ -1,5 +1,47 @@
 ﻿# Protocol of CtG Team Meetings
 
+# 2023-12-08
+
+**Time**: 10:00--11:30 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+
+Topics discussed
+
+-	DHd abstract  was successfully submitted. 
+-	Theo will present CtG in a research colloquium for Arabic DH next Thursday (14.12). 
+- Workshop
+  -	Done: flyer and catering.
+  -	Still to do: 
+    - Finalization of the text.
+    - Advertisement: invitation email, post blog and social media .
+    - Roll-up:  should follow the pattern of other posters form Arabistik and be done by CeDiS. Xenia will contact them.
+    -	A reminder should be sent to all invited people once we have the workshop materials done.
+- Interviews
+  -	Two projects have been contacted, we are waiting for the answers. We might have to sent reminders.
+  -	We should talk to librarians about the issues of long term data preservation.
+- Database
+  -	Projects added recently were mostly from 2022 or older.
+  -	New projects launched in 23/24 need to be yet researched.
+  -	The amount of research languages almost doubled (not all languages have an ISO code, what could be addressed at the DHd conference).
+  -	Arguments for our language focus: our outreach is mainly the SWANA region, but in case we are asked to add projects working with other languages we are open to do so-
+  -	Idea: adding a Japanese or Chinese project to check if the encoding will work.
+- SHK - we should start a process of hiring a SHK to help out with adding new projects. 
+- Website
+  -	 We should create a static version:
+    - Conflict file, environment variable. 
+    - Wayback Machine Internet Archive: We could save our project once a month.  Additionally, we could save all the links we have in the database alongside with our project and offer it as a service.  We still have to make sure that such practice is legal and find an API for automatic archiving since we have over 1200 links. 
+  -	Timeline should be recreated. 
+- Idea for experts’ database:  list with names that can be filtered by language and project - legal questions. 
+- Visualizations - first to be implemented will be a Vega Edge Bundling Chart containing project relations, other possible charts: Alluvial, Bubble, Sunburst.
+- Schema
+  -	We should start adding ORCHID pages of contact people. 
+  -	Schema update: a Boolean value “maintained” should be added to address the difference between the founding time and the general existence span of a project.     
+- Blog – the topics of upcoming posts will be: link-checking workflow (Theo), Taxonomy (Xenia), Use of AI in the field of multilingual DH (Xenia).
+- Data in RDF and CSV formats - scheduled for a later date (XML Notation for RDF).
+- Next meeting: 22.12.2023, 10 AM. 
+
+
 ## 2023-11-17
 
 **Time**: 10:00--11:30 (Berlin)
