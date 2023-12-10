@@ -1,5 +1,63 @@
 ﻿# Protocol of CtG Team Meetings
 
+## 2023-12-08
+
+**Time**: 10:00–11:30 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+
+- Edited DHd abstract was successfully submitted
+
+- Theo will present CtG in a research colloquium for Arabic DH next Thursday (14 Dec.)
+
+- Workshop
+
+  - Catering has been arranged
+  - Xenia prepared multiple draft flyers, and the team chose one option
+  - Promotional text needs to be finalized
+  - Advertising: invitation email, blog post, and social media
+  - Roll-up poster: should follow the pattern of other posters from Arabistik and be produced by CeDiS. Xenia will contact them.
+  - Reminder should be sent to all workshop invitees once materials are ready
+
+- Interviews
+
+  - Two projects have been contacted; we are waiting for the answers. We may need to send reminders.
+  - Should also speak with librarians about issues of long-term data preservation
+
+- Database
+
+  - Projects added recently were mostly from 2022 or older
+  - New projects launched in 23–24 need to be investigated
+  - The number of research languages covered almost doubled (and not all languages have ISO codes; this could be discussed at the DHd conference)
+  - Arguments for our focus on certain languages: our outreach is mainly in the SWANA region, but in case we are asked to add projects working with other languages we are open to do so
+  - Idea: adding a Japanese or Chinese project to check if the encoding will work
+
+- SHK: we should start the process of hiring a SHK to help with adding new projects
+
+- Website
+
+  - Working on creating a fully static version
+  - Static mode could be set via config file or environment variable
+  - Wayback Machine (Internet Archive): we should snapshot our own project site periodically. Additionally, we could save all the links we have in the database, to preserve a better record of those projects. We need to make sure that such a practice would be legal, and to find an API for automatic archiving, since we have over 1,200 links.
+  - Timeline should be reimplemented
+
+- Idea for experts' database: list with names that can be filtered by language and project (again, legal questions)
+
+- Visualizations: next to be implemented will be a Vega edge bundling chart containing project relations. Other possible charts: alluvial, bubble, sunburst.
+
+- Schema
+
+  - Should start adding ORCID pages of contact people
+  - To add to schema: a boolean value, `maintained`, should be added to address the difference between the funding time and the general time of activity of a project
+
+- Blog: topics of upcoming posts will be our link-checking workflow (Theo), keyword taxonomy (Xenia), and use of AI in the field of multilingual DH (Xenia).
+
+- Data in RDF and CSV formats: scheduled for later follow-up
+
+  - We should probably use the XML-based syntax option for RDF, rather than Turtle
+
+- Next meeting: 22 Dec., 10:00
+
 ## 2023-11-17
 
 **Time**: 10:00–11:30 (Berlin)
