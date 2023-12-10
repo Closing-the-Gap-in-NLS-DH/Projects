@@ -2,52 +2,66 @@
 
 ## 2023-11-17
 
-**Time**: 10:00--11:30 (Berlin)
+**Time**: 10:00–11:30 (Berlin)
 
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jonas Müller-Laackman
 
-Topics discussed
+- Discussion of recent events (BUA colloquium, Open Science Dashboards workshop)
 
-- Recent events (BUA colloquium, Open Science Dashboards workshop)
-- Number of projects was added recently (Xenia)
+- A number of projects have been added recently (Xenia)
+
 - February workshop
+
   - Structure
+
     - Short talks in the beginning (PIs, SUB people)
     - General introduction to the project (Jonas)
-    - Presentation 1 - Xenia or Theo
+    - Presentation 1: Xenia or Theo
     - Break
-    - Presentation 2 - Xenia or Theo
-    - Last hour less structured
-  - Possible titles of the event
-    - Closing the Gap in Non-Latin-Script Data:
-      Challenges of Data Loss in the Non-Latin-Script Digital Humanities
-    - Data Survival
-      Challenges of Infrastructural Monolingualism and Data Survival
+    - Presentation 2: Xenia or Theo
+    - Final hour less structured
+
+  - Possible titles for the event
+
+    - Closing the Gap in Non-Latin-Script Data: Challenges of Data Loss in the Multilingual Digital Humanities
+    - Data Survival: Challenges of Infrastructural Monolingualism
     - How to Preserve Diverse Data in a Monolingual Environment
+
   - Remarks
+
     - Leave time for people to chat, ask questions, have coffee and pretzels
     - Open event, open to the public
-    - Hybrid setup possible, and desirable
+    - Hybrid setup possible (and desirable?)
     - English title, bilingual blurb
+
   - To-dos
+
     - Schedule for February workshop should be published ASAP
-    - Brief text for blog post
-    - Flyers to advertise for the event (Xenia)
-    - Email Jonas' department to register for event in advance
-    - Roll-up poster for CtG made before the event
-- Possible Collaborations: Ada Lovelace Center, Quest institute and others
+    - Brief text needed for blog post
+    - Flyers to advertise the event (Xenia)
+    - Participants should email Jonas' department to register in advance
+    - Roll-up poster for CtG should be made before the event
+
+- Possible collaborations: Ada Lovelace Center, QUEST Center and others
+
 - DHd paper
+
   - Submission of camera-ready version of "paper" (i.e., abstract) by Dec. 4
-  - Registration phase opens on Dec. 4
-  - Passau, Last week of Feb
-- CtG intern
-  - Test run for explaining our workflow (AO. the focus on Germany - Difficult enough to build networks inGermany)
-  - Idea for follow-up, expanding project
+  - Registration phase also opens on Dec. 4
+  - Conference will take place in Passau in the last week of Feb.
+
+- CtG internal matters
+
+  - Test run for explaining our workflow (e.g., the focus on Germany; difficult enough to build networks in Germany)
+  - Ideas for follow-up, expanding project
   - IDHN, OpenITI and Hist-ME are doing similar things
-- To-Dos:
-  - Update on survey (schedule first meeting, second meeting Anonym Classic) (Xenia)
-  - Website updates (need new visualizations) (Xenia)
-- Next meeting Dec 8
+
+- General to-dos:
+
+  - Update on survey (schedule first meeting, then second meeting with AnonymClassic) (Xenia)
+  - Website updates (new visualizations needed) (Xenia)
+
+- Next meeting Dec. 8
 
 ## 2023-09-29
 
