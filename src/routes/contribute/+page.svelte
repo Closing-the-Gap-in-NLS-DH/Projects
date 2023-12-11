@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { v4 as uuidv4 } from 'uuid';
+	import { fetchTemplate } from '$lib/utils.svelte';
 
 	// Form state
 	let entityType: 'project' | 'organization' = 'project';
@@ -153,10 +154,7 @@
 	}
 
 	onMount(async () => {
-		const res = await fetch(
-			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/TEMPLATES/project.json'
-		);
-		template = await res.json();
+		template = await fetchTemplate();
 	});
 </script>
 

@@ -1,25 +1,33 @@
 //
-// Utilities (ideally to be defined elsewhere)
+// Project title sort function (copied from utils.svelte)
 //
 
-interface Listing {
-	title: string;
-	path: string;
-}
+function sortTitles(a: Record<string, unknown>, b: Record<string, unknown>): 1 | -1 | 0 {
+	const aProj = a.project as Record<string, unknown>;
+	const bProj = b.project as Record<string, unknown>;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type JsonStuff = Record<string, any>;
+	const aTitle = aProj.title as string;
+	const bTitle = bProj.title as string;
 
-function sortTitles(a: JsonStuff, b: JsonStuff): 1 | -1 | 0 {
-	const aTitle = a.project.title.toLowerCase();
-	const bTitle = b.project.title.toLowerCase();
+	const aLower = aTitle.toLowerCase();
+	const bLower = bTitle.toLowerCase();
 
-	if (aTitle > bTitle) {
+	if (aLower > bLower) {
 		return 1;
-	} else if (aTitle < bTitle) {
+	} else if (aLower < bLower) {
 		return -1;
 	} else return 0;
 }
+
+//
+// Fetch template
+//
+
+const templateRes = await fetch(
+	'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/TEMPLATES/project.json'
+);
+const template = await templateRes.json();
+await Deno.writeTextFile('./static/archive/TEMPLATES/project.json', JSON.stringify(template));
 
 //
 // Fetch and save keywords
@@ -38,14 +46,14 @@ await Deno.writeTextFile('./static/archive/KEYWORDS/KEYWORDS.json', JSON.stringi
 const projectsRes = await fetch(
 	'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json'
 );
-const projects: Record<string, Listing> = await projectsRes.json();
+const projects: Record<string, Record<string, string>> = await projectsRes.json();
 await Deno.writeTextFile('./static/archive/PROJECTS.json', JSON.stringify(projects));
 
 //
 // Fetch project entries and build collection
 //
 
-const projectEntries: [string, Listing][] = Object.entries(projects);
+const projectEntries: [string, Record<string, string>][] = Object.entries(projects);
 
 const urls: string[] = [];
 for (const [id, details] of projectEntries) {
@@ -54,7 +62,7 @@ for (const [id, details] of projectEntries) {
 	);
 }
 
-let entries: [string, JsonStuff][] = await Promise.all(
+let entries: [string, Record<string, unknown>][] = await Promise.all(
 	urls.map(async (url) => {
 		const response = await fetch(url);
 		const data = await response.json();

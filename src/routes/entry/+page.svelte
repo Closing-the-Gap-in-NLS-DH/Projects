@@ -2,6 +2,13 @@
 	import { onMount } from 'svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 	import type { PlaceData, DateRange, Institution, RelatedEntity, Contact } from './types.svelte';
+	import { fetchEntries, fetchList } from '$lib/utils.svelte';
+	import { entries } from '$lib/stores.svelte';
+
+	let entriesValue: [string, JsonStuff][];
+	entries.subscribe((value) => {
+		entriesValue = value;
+	});
 
 	let title = '';
 	let places: PlaceData[] = [];
@@ -23,22 +30,31 @@
 	let loading = true;
 
 	onMount(async () => {
+		// Do we even have a hash? If not, redirect upward
 		const hash = window.location.hash;
 		if (!hash || hash.length < 2) window.location.href = '..';
 
-		const projectsRes = await fetch(
-			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json'
-		);
-		const projects: Record<string, Record<string, string>> = await projectsRes.json();
+		// Ensure we have list of projects
+		const [count, listData] = await fetchList();
 
+		// Ensure hash points to an actual project ID; else redirect upward
 		const id = hash.slice(1);
-		const selectedProj = projects[id];
+		const selectedProj = listData[id];
 		if (!selectedProj) window.location.href = '..';
 
-		const selectedProjRes = await fetch(
-			`https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master${selectedProj.path}${id}.json`
-		);
-		const selectedProjData: JsonStuff = await selectedProjRes.json();
+		// Assuming all is ok, we will need the project entries themselves
+		if (entriesValue.length !== count) {
+			const freshEntries = await fetchEntries(listData);
+			entries.set(freshEntries);
+		}
+
+		// Find the relevant project data
+		const selectedEntry = entriesValue.find(
+			([url]) =>
+				url ===
+				`https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master${selectedProj.path}${id}.json`
+		)!;
+		const selectedProjData: JsonStuff = selectedEntry[1];
 
 		jsonLink = `https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/tree/master${selectedProj.path}${id}.json`;
 		title = selectedProjData.project.title;

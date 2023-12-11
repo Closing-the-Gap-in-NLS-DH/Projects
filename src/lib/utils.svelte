@@ -75,6 +75,12 @@
 		return [count, listData];
 	}
 
+	export async function fetchTemplate(): Promise<Record<string, unknown>> {
+		const res = await fetch(`${urlPrefix}/TEMPLATES/project.json`);
+		const template: Record<string, unknown> = await res.json();
+		return template;
+	}
+
 	export function filterPlaces(places: JsonStuff[]): JsonStuff[] {
 		return places.filter((place) => place.place_name.text);
 	}
