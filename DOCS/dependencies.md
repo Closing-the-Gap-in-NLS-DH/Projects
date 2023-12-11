@@ -81,7 +81,7 @@ _To be continued…_
 
 ## How to Install Dependencies
 
-1. **Frontend**: The current front end code is in the `gui-redux` branch. And it is ultimately a Node/npm project—so it should be sufficient to run `npm install` (or similar) after checking out that branch. If you do not have Node/npm installed, you can download it and find instructions on [their website](https://nodejs.org/).
+1. **Frontend**: The current front end code is in the `frontend` branch. And it is ultimately a Node/npm project—so it should be sufficient to run `npm install` (or similar) after checking out that branch. If you do not have Node/npm installed, you can download it and find instructions on [their website](https://nodejs.org/).
 
 2. **Backend**: The back end code is in the `master` branch. There is also a Node/npm setup here, which is used for only one dependency, Prettier. Two important scripts are defined in `package.json`: `format`, which runs most files in the repository through Prettier; and `test`, which uses Deno to run tests found in the `TESTS` directory. There are a couple of dependencies to be installed separately:
 

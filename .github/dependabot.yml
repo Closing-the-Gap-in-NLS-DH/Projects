@@ -3,6 +3,6 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/" # Location of package manifest
-    target-branch: "gui-redux"
+    target-branch: "frontend"
     schedule:
       interval: "monthly"
