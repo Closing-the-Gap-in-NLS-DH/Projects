@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": "2013"
-      }
-    ],
+    "date": [{ "from": "2010", "to": "2013" }],
+    "maintained": null,
     "websites": ["https://www.graeco-arabic-studies.org/home.html"],
     "project_desc": "The Digital Corpus for Graeco-Arabic Studies was created in the course of a collaborative project at Harvard and Tufts University and contains ca. 230 texts, three fifths of which are Greek originals and the rest are Arabic translations. In addition, the platform offers a list of authors and works included in the corpus that can be filtered by language, subject and text type and a search interface to search for Arabic or Greek words and phrases.",
     "places": [
@@ -25,20 +21,14 @@
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/4931972/cambridge.html"]
         },
-        "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
-        }
+        "coordinates": { "lat": "42.3751", "lng": "-71.10561" }
       },
       {
         "place_name": {
           "text": "Medford",
           "ref": ["https://www.geonames.org/4943629/medford.html"]
         },
-        "coordinates": {
-          "lat": "42.41843",
-          "lng": "-71.10616"
-        }
+        "coordinates": { "lat": "42.41843", "lng": "-71.10616" }
       }
     ],
     "lang": ["eng"],
@@ -80,14 +70,8 @@
     "research_data": {
       "lang": ["ara", "grc"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -96,12 +80,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",

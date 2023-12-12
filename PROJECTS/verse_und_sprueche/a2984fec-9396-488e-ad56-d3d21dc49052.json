@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2024"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2024" }],
+    "maintained": null,
     "websites": [
       "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
     ],
@@ -27,10 +23,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -94,14 +87,8 @@
     "research_data": {
       "lang": ["ara", "grc", "syr"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -110,12 +97,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["arabic_studies", "corpus_output", "digital_preservation"],
     "comment": ""
   }

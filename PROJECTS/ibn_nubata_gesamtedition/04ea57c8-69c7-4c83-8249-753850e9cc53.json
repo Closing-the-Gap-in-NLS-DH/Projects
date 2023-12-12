@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2019", "to": "" }],
+    "maintained": null,
     "websites": [
       "https://www.uni-muenster.de/ALEA/",
       "https://scdh.zivgitlabpages.uni-muenster.de/hees-alea/alea-hugo-website/",
@@ -29,10 +25,7 @@
           "text": "Münster",
           "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
-        "coordinates": {
-          "lat": "51.95973",
-          "lng": "7.63137"
-        }
+        "coordinates": { "lat": "51.95973", "lng": "7.63137" }
       }
     ],
     "lang": ["deu"],
@@ -65,14 +58,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -81,12 +68,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

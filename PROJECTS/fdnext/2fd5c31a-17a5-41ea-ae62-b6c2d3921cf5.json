@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2023"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2023" }],
+    "maintained": null,
     "websites": ["https://www.forschungsdaten.org/index.php/FDNext"],
     "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
     "places": [
@@ -25,40 +21,28 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Potsdam",
           "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
-        "coordinates": {
-          "lat": "52.39886",
-          "lng": "13.06566"
-        }
+        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
       },
       {
         "place_name": {
           "text": "Frankfurt (Oder)",
           "ref": ["https://www.geonames.org/2925535/frankfurt-oder.html"]
         },
-        "coordinates": {
-          "lat": "52.34714",
-          "lng": "14.55062"
-        }
+        "coordinates": { "lat": "52.34714", "lng": "14.55062" }
       },
       {
         "place_name": {
           "text": "Cottbus",
           "ref": ["https://www.geonames.org/2939811/cottbus.html"]
         },
-        "coordinates": {
-          "lat": "51.75769",
-          "lng": "14.32888"
-        }
+        "coordinates": { "lat": "51.75769", "lng": "14.32888" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -144,14 +128,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -160,12 +138,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management"],
     "comment": ""
   }

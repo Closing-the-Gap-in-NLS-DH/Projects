@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2000",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2000", "to": "" }],
+    "maintained": null,
     "websites": ["https://cdli.ucla.edu/projects/seals/seals.html"],
     "project_desc": "This sub-project of the Cuneiform Digital Library Initiative (CDLI) focuses explicitly on inscriptions on the Mesopotamian stamp and cylinder seals for which, despite their substantial role in the development of writing, the online resources are still difficult to be found. This project is offered to bring attention to the admittedly limited text annotation files of the CDLI as one of several avenues of research available in this field.",
     "places": [
@@ -25,30 +21,21 @@
           "text": "Los Angeles",
           "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
-        "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
+        "coordinates": { "lat": "34.05223", "lng": "-118.24368" }
       },
       {
         "place_name": {
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
+        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -88,14 +75,8 @@
     "research_data": {
       "lang": ["akk", "sux"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -104,12 +85,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

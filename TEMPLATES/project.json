@@ -11,44 +11,28 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "", "to": "" }],
+    "maintained": true,
     "websites": [],
     "project_desc": "",
     "places": [
       {
-        "place_name": {
-          "text": "",
-          "ref": []
-        },
-        "coordinates": {
-          "lat": "0",
-          "lng": "0"
-        }
+        "place_name": { "text": "", "ref": [] },
+        "coordinates": { "lat": "0", "lng": "0" }
       }
     ],
     "lang": [],
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
+        "org_name": { "text": "", "ref": [] },
         "websites": []
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
+        "pers_name": { "text": "", "ref": [] },
         "roles": ["supervision"],
         "websites": []
       }
@@ -56,18 +40,10 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -85,21 +61,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [],
     "comment": ""
   }

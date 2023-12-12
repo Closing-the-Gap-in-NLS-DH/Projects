@@ -89,6 +89,10 @@ export const projectSchema = z
               .strict(),
           )
           .describe("List of active periods (YYYY-MM-DD)"),
+        maintained: z
+          .boolean()
+          .nullable() // Temporary, until we can update all the records
+          .describe("Is the project active (as best we can determine)?"),
         websites: z
           .array(z.string().url())
           .describe("List of project website URLs"),

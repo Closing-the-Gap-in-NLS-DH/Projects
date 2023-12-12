@@ -11,12 +11,8 @@
     "abbr": "DARIAH-DE",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q55520740"],
-    "date": [
-      {
-        "from": "2011",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2011", "to": "" }],
+    "maintained": null,
     "websites": ["https://www.wikidata.org/wiki/Q55520740"],
     "project_desc": "DARIAH-DE is a member of the pan-European research infrastructure for the arts and humanities. It supports research in the humanities and cultural studies that work with digital methods and procedures with a research infrastructure consisting of four pillars: teaching, research, research data and technical components.",
     "places": [
@@ -25,10 +21,7 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -60,14 +53,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -76,12 +63,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }

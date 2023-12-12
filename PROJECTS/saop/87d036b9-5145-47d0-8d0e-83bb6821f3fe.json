@@ -12,15 +12,10 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2014",
-        "to": "2017"
-      },
-      {
-        "from": "2017",
-        "to": "2020"
-      }
+      { "from": "2014", "to": "2017" },
+      { "from": "2017", "to": "2020" }
     ],
+    "maintained": null,
     "websites": [
       "http://www.surayt.com/",
       "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/saop/index.html",
@@ -33,50 +28,35 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Stockholm",
           "ref": ["https://www.geonames.org/2673730/stockholm.html"]
         },
-        "coordinates": {
-          "lat": "59.32938",
-          "lng": "18.06871"
-        }
+        "coordinates": { "lat": "59.32938", "lng": "18.06871" }
       },
       {
         "place_name": {
           "text": "Glane",
           "ref": ["https://www.geonames.org/2755497/glane.html"]
         },
-        "coordinates": {
-          "lat": "52.2325",
-          "lng": "7.00278"
-        }
+        "coordinates": { "lat": "52.2325", "lng": "7.00278" }
       },
       {
         "place_name": {
           "text": "Piscataway",
           "ref": ["https://www.geonames.org/5102713/piscataway.html"]
         },
-        "coordinates": {
-          "lat": "40.49927",
-          "lng": "-74.39904"
-        }
+        "coordinates": { "lat": "40.49927", "lng": "-74.39904" }
       },
       {
         "place_name": {
           "text": "Gölcük",
           "ref": ["https://www.geonames.org/746666/geulzuk.html"]
         },
-        "coordinates": {
-          "lat": "40.71501",
-          "lng": "29.81824"
-        }
+        "coordinates": { "lat": "40.71501", "lng": "29.81824" }
       }
     ],
     "lang": ["ara", "deu", "eng", "fra", "nld", "swe", "tur"],
@@ -124,10 +104,7 @@
       },
       {
         "relation_type": "host",
-        "org_name": {
-          "text": "Midyat Süryani Kültür Dernegi",
-          "ref": []
-        },
+        "org_name": { "text": "Midyat Süryani Kültür Dernegi", "ref": [] },
         "websites": [
           "https://web.archive.org/http://midyatsuryanikulturdernegi.com/"
         ]
@@ -149,14 +126,8 @@
     "research_data": {
       "lang": ["arc", "tru"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -165,12 +136,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["corpus_resource", "e_learning", "semitic_studies", "tei"],
     "comment": ""
   }

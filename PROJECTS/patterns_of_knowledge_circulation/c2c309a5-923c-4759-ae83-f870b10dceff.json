@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-01-04",
-        "to": "2024-03-31"
-      }
-    ],
+    "date": [{ "from": "2019-01-04", "to": "2024-03-31" }],
+    "maintained": null,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/knowledge_patterns/index.html",
       "https://gepris.dfg.de/gepris/projekt/401023278"
@@ -28,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -70,14 +63,8 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -86,12 +73,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python", "jewish_studies"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

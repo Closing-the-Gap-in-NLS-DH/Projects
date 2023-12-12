@@ -11,12 +11,8 @@
     "abbr": "OES",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2020"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2020" }],
+    "maintained": null,
     "websites": [
       "https://www.open-encyclopedia-system.org",
       "https://www.cedis.fu-berlin.de/services/projektentwicklung/abgeschlossen/oes/index.html"
@@ -28,20 +24,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Munich",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -78,10 +68,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Geukes, Albert",
-          "ref": []
-        },
+        "pers_name": { "text": "Geukes, Albert", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
@@ -91,14 +78,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -107,12 +88,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["digital_publishing", "research_infrastructure"],
     "comment": ""
   }
