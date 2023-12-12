@@ -11,12 +11,8 @@
     "abbr": "OA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1966-08",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1966-08", "to": "" }],
+    "maintained": null,
     "websites": ["https://onomasticon.irht.cnrs.fr"],
     "project_desc": "Onomasticon Arabicum (OA) is an Arabic biographical database created in the course of a long-living project reaching back to the 1960s. It contains more than 27000 entries about scholars and celebrities from the first Muslim millenary. Its searching tools are designed to allow the user separate interrogation on any of the different elements of the Arabo-Muslim names, dates and places, reconstructing the identity of a person, trace ways of knowledge transmission and frame historical contexts.",
     "places": [
@@ -25,10 +21,7 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
+        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
       }
     ],
     "lang": ["ara", "eng"],
@@ -48,10 +41,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Müller, Christian",
-          "ref": []
-        },
+        "pers_name": { "text": "Müller, Christian", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.irht.cnrs.fr/fr/annuaire/muller-christian",
@@ -70,14 +60,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -86,12 +70,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "biographical_data",

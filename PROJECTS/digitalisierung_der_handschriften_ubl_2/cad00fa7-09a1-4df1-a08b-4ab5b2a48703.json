@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2012-10",
-        "to": "2015-01"
-      }
-    ],
+    "date": [{ "from": "2012-10", "to": "2015-01" }],
+    "maintained": null,
     "websites": [
       "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
     ],
@@ -27,10 +23,7 @@
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       }
     ],
     "lang": ["ara", "deu", "eng"],
@@ -79,14 +72,8 @@
     "research_data": {
       "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -95,12 +82,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

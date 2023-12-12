@@ -12,15 +12,10 @@
     "type": "organization",
     "ref": [],
     "date": [
-      {
-        "from": "2014",
-        "to": "2017"
-      },
-      {
-        "from": "2017",
-        "to": "2019"
-      }
+      { "from": "2014", "to": "2017" },
+      { "from": "2017", "to": "2019" }
     ],
+    "maintained": null,
     "websites": ["https://www.kallimachos.de/"],
     "project_desc": "Kallimachos is a Digital Humanities center at the University of Würzburg. It was developed via a project by the same name funded between 2014 and 2019. The center supports humanities scholars in applying digital methods in their research by providing technical and social infrastructure, software, and prototypical workflows. The center also establishes an integral structure for research data management.",
     "places": [
@@ -29,10 +24,7 @@
           "text": "Würzburg",
           "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
         },
-        "coordinates": {
-          "lat": "49.79391",
-          "lng": "9.95121"
-        }
+        "coordinates": { "lat": "49.79391", "lng": "9.95121" }
       }
     ],
     "lang": ["deu"],
@@ -52,10 +44,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Hasse, Dag Nikolaus",
-          "ref": []
-        },
+        "pers_name": { "text": "Hasse, Dag Nikolaus", "ref": [] },
         "roles": ["investigation"],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
@@ -65,14 +54,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -81,12 +64,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "collaboration_platform",
       "research_data_management",

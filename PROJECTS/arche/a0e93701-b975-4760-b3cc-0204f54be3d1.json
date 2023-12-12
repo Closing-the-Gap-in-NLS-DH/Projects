@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "organization",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2017", "to": "" }],
+    "maintained": null,
     "websites": ["https://arche.acdh.oeaw.ac.at/browser/"],
     "project_desc": "ARCHE is a digital archive designed specifically to preserve digital research data from the humanities created in or related to Austria. It also promotes the use of open access and open data policies.",
     "places": [
@@ -25,10 +21,7 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": [],
@@ -61,14 +54,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -77,12 +64,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }

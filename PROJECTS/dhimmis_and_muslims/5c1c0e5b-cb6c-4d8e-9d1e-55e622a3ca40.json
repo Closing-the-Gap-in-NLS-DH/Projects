@@ -11,12 +11,8 @@
     "abbr": "DAMAST",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2021" }],
+    "maintained": null,
     "websites": [
       "https://damast.geschichte.hu-berlin.de/",
       "https://www.geschichte.uni-frankfurt.de/87681539/Dhimmis_and_Muslims",
@@ -31,30 +27,21 @@
           "text": "Frankfurt",
           "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
-        "coordinates": {
-          "lat": "50.11552",
-          "lng": "8.68417"
-        }
+        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
       },
       {
         "place_name": {
           "text": "Stuttgart",
           "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
         },
-        "coordinates": {
-          "lat": "48.78232",
-          "lng": "9.17702"
-        }
+        "coordinates": { "lat": "48.78232", "lng": "9.17702" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -119,14 +106,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -135,12 +116,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "geodata",
       "history_studies",

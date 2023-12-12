@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2020"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2020" }],
+    "maintained": null,
     "websites": [
       "https://www.bbaw.de/forschung/irankoran",
       "https://corpuscoranicum.de/de/about"
@@ -28,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -57,10 +50,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Aghaei, Ali",
-          "ref": []
-        },
+        "pers_name": { "text": "Aghaei, Ali", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://www.uni-paderborn.de/person/87590"]
       }
@@ -68,14 +58,8 @@
     "research_data": {
       "lang": ["ara", "fas"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -84,12 +68,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

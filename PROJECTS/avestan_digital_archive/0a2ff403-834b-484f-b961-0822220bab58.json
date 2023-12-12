@@ -11,12 +11,8 @@
     "abbr": "ADA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2006",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2006", "to": "" }],
+    "maintained": null,
     "websites": [
       "https://ada.geschkult.fu-berlin.de/",
       "https://www.geschkult.fu-berlin.de/e/iranistik/news/ada-umsetzung.html"
@@ -28,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -75,14 +68,8 @@
     "research_data": {
       "lang": ["ave"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -91,12 +78,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

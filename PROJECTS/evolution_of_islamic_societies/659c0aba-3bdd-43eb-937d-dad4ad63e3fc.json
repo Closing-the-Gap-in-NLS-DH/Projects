@@ -11,12 +11,8 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2027"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2027" }],
+    "maintained": null,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html",
       "https://eis1600.github.io/"
@@ -28,10 +24,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -132,10 +125,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
-        },
+        "pers_name": { "text": "Romanov, Maxim", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
@@ -145,14 +135,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -161,12 +145,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "computational_text_analysis",
