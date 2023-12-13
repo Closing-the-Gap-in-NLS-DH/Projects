@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": [],
     "date": [{ "from": "2017", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://arche.acdh.oeaw.ac.at/browser/"],
     "project_desc": "ARCHE is a digital archive designed specifically to preserve digital research data from the humanities created in or related to Austria. It also promotes the use of open access and open data policies.",
     "places": [

@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q100320015"],
     "date": [{ "from": "1972", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.mela.us/"],
     "project_desc": "MELA is an association of Middle East library specialists. Its mission is to facilitate communication and encourage cooperation among its members and Middle East libraries. It aims at improving area librarianship through the development of standards for the profession and education of Middle East librarians. It also compiles and disseminates information concerning Middle East libraries through various meeting and publications.",
     "places": [

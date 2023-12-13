@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2013-05-23", "to": "2028" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://dohadictionary.org/"],
     "project_desc": "This project aims to create a historical dictionary of Arabic language. The entries will follow changes in usage and meaning of each word from its first documented record until approximately 200 years AH / 820 AD (first phase of the project).",
     "places": [

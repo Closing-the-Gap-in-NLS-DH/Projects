@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021-01-01", "to": "2023-06-30" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://openiti.org/projects/ACDC.html"],
     "project_desc": "This project aims to significantly improve the accuracy of handwritten text recognition (HTR) for Arabic-script manuscripts. It will develop a collation tool to automatically create large amounts of training data from existing digital texts and manuscript images without time-consuming human annotation of individual manuscripts.",
     "places": [

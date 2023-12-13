@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021", "to": "2033" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.qumran-digital.org/",
       "https://gepris.dfg.de/gepris/projekt/465277421"

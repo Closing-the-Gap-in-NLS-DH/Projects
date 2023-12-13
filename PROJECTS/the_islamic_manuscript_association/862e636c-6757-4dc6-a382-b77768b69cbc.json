@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": ["https://d-nb.info/gnd/10368977-1"],
     "date": [{ "from": "2008", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.islamicmanuscript.org/home.aspx"],
     "project_desc": "The Islamic Manuscript Association is an international non-profit organization dedicated to protecting Islamic manuscript collections and supporting those who work with them. Its main goal is to enhance the preservation and accessibility of many Islamic manuscript collections around the world. To this end, it articulates standards and guidelines for best practice in cataloguing, conservation, digitization, offers courses for professionals and awards grants to advance scholarship on Islamic manuscripts.",
     "places": [

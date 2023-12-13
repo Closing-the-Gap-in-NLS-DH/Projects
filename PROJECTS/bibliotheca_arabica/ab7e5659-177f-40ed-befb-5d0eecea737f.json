@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2018", "to": "2035" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/bibliotheca-arabica",
       "https://khizana.bibliotheca-arabica.de/"

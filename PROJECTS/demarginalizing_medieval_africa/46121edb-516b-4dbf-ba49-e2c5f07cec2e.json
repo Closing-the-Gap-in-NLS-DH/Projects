@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021", "to": "2024" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
     ],

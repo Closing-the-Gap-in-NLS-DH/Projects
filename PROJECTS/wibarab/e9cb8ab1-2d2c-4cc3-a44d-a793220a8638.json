@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021-10-01", "to": "2026-09-30" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://wibarab.acdh.oeaw.ac.at/",
       "https://www.oeaw.ac.at/acdh/projects/wibarab-what-is-bedouin-type-arabic"

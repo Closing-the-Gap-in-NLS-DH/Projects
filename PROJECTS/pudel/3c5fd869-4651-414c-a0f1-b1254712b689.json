@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2022-01-01", "to": "2023-03-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
     ],

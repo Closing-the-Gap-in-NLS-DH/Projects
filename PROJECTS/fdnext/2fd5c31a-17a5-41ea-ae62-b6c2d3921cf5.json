@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2023" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.forschungsdaten.org/index.php/FDNext"],
     "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
     "places": [

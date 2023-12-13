@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021", "to": "2026" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/e/zodiac/index.html",
       "https://zodiac.fly.dev/"

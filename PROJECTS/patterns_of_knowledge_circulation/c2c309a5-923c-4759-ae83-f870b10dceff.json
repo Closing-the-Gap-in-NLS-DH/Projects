@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2019-01-04", "to": "2024-03-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/knowledge_patterns/index.html",
       "https://gepris.dfg.de/gepris/projekt/401023278"

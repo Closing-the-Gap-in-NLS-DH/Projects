@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021", "to": "2027" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html",
       "https://eis1600.github.io/"

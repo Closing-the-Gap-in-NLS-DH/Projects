@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2024", "to": "2027" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [],
     "project_desc": "KALiMaT is the first bilingual, open-access Arabic-English online living handbook of short articles on historical terms from the pre-modern and early modern literary tradition. Each article addresses a lemma, providing analysis and contextualization that makes the historical term accessible. With its nuanced approach focused on the analysis of concepts from the Arabic tradition and the critical examination of Western and modern literary categories, as well as with its bilingual publication strategy in both English and Arabic, KALiMaT contributes to the decolonization of knowledge. The project will be hosted on the Open Encyclopedia System infrastructure offered by Freie Universität Berlin.",
     "places": [

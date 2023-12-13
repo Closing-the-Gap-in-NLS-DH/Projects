@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2013", "to": "2037" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://ptolemaeus.badw.de/start",
       "https://badw.de/forschungseinrichtung/forschungsvorhaben.html?tx_badwdb_projects%5Baction%5D=show&tx_badwdb_projects%5Bcontroller%5D=Projects&tx_badwdb_projects%5Bproject_id%5D=100&cHash=ffb2790d003b9abde6b3b1c6da4a55b3"

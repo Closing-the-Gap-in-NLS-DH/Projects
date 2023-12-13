@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": ["https://d-nb.info/gnd/124425259X"],
     "date": [{ "from": "2018-02-01", "to": "2022-07-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://elex.is/"],
     "project_desc": "ELEXIS is a cooperation project carried out by 17 European partner institutions that aims to develop an infrastructure which will foster cooperation and knowledge exchange between different research communities in lexicography in order to bridge the gap between lesser-resourced languages and those for which advanced experience in e-lexicography exists. ELEXIS will introduce common standards of data management for lexicographic resources and dictionary databases and develop tools and infrastructure which will enhance and harmonize cooperation between European institutions, publishers, universities and communities have been developing dictionaries and/or dictionary data.",
     "places": [

@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2013-01-01", "to": "2028-12-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]",
       "https://www.oeaw.ac.at/acdh/projects/vicav"

@@ -15,7 +15,7 @@
       { "from": "2018", "to": "2021" },
       { "from": "2018", "to": "2030" }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://digi.ub.uni-heidelberg.de/de/corpusmasoreticum/index.html"
     ],
