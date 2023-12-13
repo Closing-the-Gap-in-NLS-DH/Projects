@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2025" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://github.com/dhakarat"],
     "project_desc": "The aim of this project is to achieve a broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning models, we will map the use, reuse, and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature.",
     "places": [

@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2021-03-01", "to": "2025-02-28" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://clsinfra.io/"],
     "project_desc": "This project is a partnership of various European research institutions to build a shared resource of high-quality data, tools and knowledge to aid new approaches to studying literature in the digital age. It aims to create an infrastructure which will align the diverse resources of Europe’s multilingual and interconnected literary heritage with each other, with the tools needed to interrogate them, and with a widened base of users.",
     "places": [

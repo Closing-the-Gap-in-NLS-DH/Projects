@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2023" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-/-profil/projekte/dfg-projekt-orient-digital",
       "https://www.qalamos.net/"

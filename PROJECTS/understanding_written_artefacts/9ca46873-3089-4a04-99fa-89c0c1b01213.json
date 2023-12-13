@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2019", "to": "2025" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.csmc.uni-hamburg.de/written-artefacts/"],
     "project_desc": "Understanding Written Artefacts is a Cluster of Excellence comprising over 50 research projects from 40 academic disciplines with an overall aim to develop a global framework for the study of all written artefacts from the beginning of writing to the present day and from all regions that have produced such artefacts. It combines approaches from the humanities and the natural sciences and its research focuses on different dimensions of written artefacts, such as their materiality, spatiality, content, and format.",
     "places": [

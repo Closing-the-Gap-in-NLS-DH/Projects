@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2015", "to": "2027" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.uni-muenster.de/CMO-Edition/cmo/cmo.html",
       "https://corpus-musicae-ottomanicae.de/content/edition/browse.xml",

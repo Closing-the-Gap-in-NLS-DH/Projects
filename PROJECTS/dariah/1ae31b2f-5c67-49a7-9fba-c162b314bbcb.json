@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q49103279"],
     "date": [{ "from": "2006", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.dariah.eu/"],
     "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries. It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyze and interpret digital resources.",
     "places": [

@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2013", "to": "2035" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://aaew.bbaw.de/de",
       "https://www.bbaw.de/forschung/wortschatz-der-aegyptischen-sprache",

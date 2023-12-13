@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2024" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
     ],

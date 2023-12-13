@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2023-09-01", "to": "2025-08-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://cordis.europa.eu/project/id/101061500",
       "https://explore.openaire.eu/search/project?projectId=corda_____he::96549b48568ab3ca3ca1311397eed157"

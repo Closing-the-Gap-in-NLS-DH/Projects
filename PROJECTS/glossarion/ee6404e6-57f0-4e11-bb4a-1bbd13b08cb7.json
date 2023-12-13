@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2024" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [],
     "project_desc": "This project’s objective is to develop an integrative database for the results of the research project “Verses and Sayings” (Verse und Sprüche).",
     "places": [

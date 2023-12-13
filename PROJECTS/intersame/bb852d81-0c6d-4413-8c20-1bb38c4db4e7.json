@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2020", "to": "2023" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/intersame.html",
       "https://www.intersame.uni-hamburg.de/"

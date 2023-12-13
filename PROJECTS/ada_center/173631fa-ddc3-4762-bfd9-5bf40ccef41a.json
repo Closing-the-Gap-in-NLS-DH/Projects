@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": [],
     "date": [{ "from": "2021", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.ada.fu-berlin.de/"],
     "project_desc": "The main objective of Ada Lovelace Center for Digital Humanities is to connect and promote all activities in the Digital Humanities taking place not only at the FU but also at the national and international level. By providing a social and communicative infrastructure for collaboration (co-working hours), developing interdisciplinary lab culture within the humanities (ADA.Labs) and bringing together all projects, teaching and training programs in the Digital Humanities at the FU it enhances and coordinates the transfer of project-based, personal expertise into a sustainable, interdisciplinary knowledge management.",
     "places": [

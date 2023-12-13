@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2018", "to": "2030" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://cab.geschkult.fu-berlin.de/",
       "https://www.geschkult.fu-berlin.de/en/e/iranistik/forschung/CAB/index.html"

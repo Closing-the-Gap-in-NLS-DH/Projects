@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2017", "to": "2029" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/344888349",
       "https://www.gw.uni-hamburg.de/forschung/forschungsschwerpunkte/manuscript-cultures.html",

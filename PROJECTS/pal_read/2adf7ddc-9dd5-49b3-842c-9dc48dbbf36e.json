@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2018-04-01", "to": "2023-03-31" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.geschkult.fu-berlin.de/en/e/palread/index.html"],
     "project_desc": "PalREAD is a project dedicated to Palestinian literature from 1948 to the present which aims to find new ways to account for the literary production of a displaced population. It elaborates a new methodology of literary analysis that challenges and lies outside conventional conceptions of the nation-state and adopts an interdisciplinary and transmedial approach that embeds literary production in a wider cultural web of intersecting media and genres. The output of the project will be made accessible in the form of an online platform.",
     "places": [

@@ -12,7 +12,7 @@
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q2986825"],
     "date": [{ "from": "2012", "to": "" }],
-    "maintained": null,
+    "maintained": true,
     "websites": ["https://www.clarin.eu/"],
     "project_desc": "CLARIN (Common Language Resources and Technology Infrastructure) is a pan-European infrastructure which provides access to digital language data and advanced tools to discover, annotate, analyze or combine this data via a network of European repositories. The infrastructure mainly serves for purposes of social sciences and humanities.",
     "places": [

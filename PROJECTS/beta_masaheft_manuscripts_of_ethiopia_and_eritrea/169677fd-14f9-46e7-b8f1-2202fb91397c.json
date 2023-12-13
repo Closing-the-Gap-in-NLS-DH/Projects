@@ -12,7 +12,7 @@
     "type": "project",
     "ref": [],
     "date": [{ "from": "2016", "to": "2040" }],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.betamasaheft.uni-hamburg.de/",
       "https://betamasaheft.eu/",
