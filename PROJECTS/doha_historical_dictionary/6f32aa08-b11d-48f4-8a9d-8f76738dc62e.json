@@ -18,17 +18,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://dohadictionary.org/"
-    ],
+    "websites": ["https://dohadictionary.org/"],
     "project_desc": "This project aims to create a historical dictionary of Arabic language. The entries will follow changes in usage and meaning of each word from its first documented record until approximately 200 years AH / 820 AD (first phase of the project).",
     "places": [
       {
         "place_name": {
           "text": "Doha",
-          "ref": [
-            "https://www.geonames.org/290030/doha.html"
-          ]
+          "ref": ["https://www.geonames.org/290030/doha.html"]
         },
         "coordinates": {
           "lat": "25.28545",
@@ -36,21 +32,15 @@
         }
       }
     ],
-    "lang": [
-      "ara"
-    ],
+    "lang": ["ara"],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Arab Center for Research and Policy Studies",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q12192828"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q12192828"]
         },
-        "websites": [
-          "https://www.dohainstitute.edu.qa/en/pages/default.aspx"
-        ]
+        "websites": ["https://www.dohainstitute.edu.qa/en/pages/default.aspx"]
       },
       {
         "relation_type": "host",
@@ -61,9 +51,7 @@
             "https://www.wikidata.org/wiki/Q23418976"
           ]
         },
-        "websites": [
-          "https://www.dohainstitute.org/en/Pages/index.aspx"
-        ]
+        "websites": ["https://www.dohainstitute.org/en/Pages/index.aspx"]
       }
     ],
     "related_entities": [],
@@ -71,28 +59,20 @@
       {
         "pers_name": {
           "text": "Baalbaki, Ramzi",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q19664932"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q19664932"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.aub.edu.lb/fas/arabic/Pages/Ramzi-Baalbaki-par.aspx"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -100,24 +80,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -125,11 +92,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "arabic_studies",
-      "lexicography",
-      "lexicon"
-    ],
+    "keywords": ["arabic_studies", "lexicography", "lexicon"],
     "comment": ""
   }
 }

@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Tel Aviv",
-          "ref": [
-            "https://www.geonames.org/293397/tel-aviv.html"
-          ]
+          "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
         },
         "coordinates": {
           "lat": "32.08088",
@@ -52,9 +48,7 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/281184/jerusalem.html"
-          ]
+          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -64,9 +58,7 @@
       {
         "place_name": {
           "text": "Haifa",
-          "ref": [
-            "https://www.geonames.org/294801/haifa.html"
-          ]
+          "ref": ["https://www.geonames.org/294801/haifa.html"]
         },
         "coordinates": {
           "lat": "32.81841",
@@ -74,9 +66,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -87,9 +77,7 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": [
-          "https://adw-goe.de"
-        ]
+        "websites": ["https://adw-goe.de"]
       },
       {
         "relation_type": "host",
@@ -100,9 +88,7 @@
             "https://ror.org/04mhzgx49"
           ]
         },
-        "websites": [
-          "https://english.tau.ac.il/"
-        ]
+        "websites": ["https://english.tau.ac.il/"]
       },
       {
         "relation_type": "host",
@@ -113,9 +99,7 @@
             "https://www.wikidata.org/wiki/Q2744135"
           ]
         },
-        "websites": [
-          "https://www.antiquities.org.il/about_en"
-        ]
+        "websites": ["https://www.antiquities.org.il/about_en"]
       }
     ],
     "related_entities": [
@@ -144,43 +128,26 @@
       {
         "pers_name": {
           "text": "Kratz, Reinhard G.",
-          "ref": [
-            "https://d-nb.info/gnd/115412700"
-          ]
+          "ref": ["https://d-nb.info/gnd/115412700"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-goettingen.de/de/56085.html"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/de/56085.html"]
       },
       {
         "pers_name": {
           "text": "Ben-Dov, Jonathan",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q66087728"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q66087728"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://english.tau.ac.il/profile/028799815"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://english.tau.ac.il/profile/028799815"]
       }
     ],
     "research_data": {
-      "lang": [
-        "arc",
-        "heb"
-      ],
+      "lang": ["arc", "heb"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -188,24 +155,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {

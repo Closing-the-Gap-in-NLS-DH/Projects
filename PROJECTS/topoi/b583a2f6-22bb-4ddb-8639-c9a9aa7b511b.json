@@ -22,17 +22,13 @@
       }
     ],
     "maintained": null,
-    "websites": [
-      "https://web.archive.org/http://topoi.org/"
-    ],
+    "websites": ["https://web.archive.org/http://topoi.org/"],
     "project_desc": "The excellence cluster TOPOI is a research network with a focus on study of the ancient world. It enhances the interdisciplinary cooperation not only in different fields of humanities, but also between humanities and natural sciences. Its various research projects cover a wide range of topics, periods and cultures from Central and Eastern Europe to the Mediterranean and the Middle East.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -51,9 +47,7 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": [
-          "https://www.hu-berlin.de"
-        ]
+        "websites": ["https://www.hu-berlin.de"]
       },
       {
         "relation_type": "host",
@@ -64,9 +58,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [],
@@ -74,13 +66,9 @@
       {
         "pers_name": {
           "text": "Meyer, Michael",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1928613"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1928613"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/praehist/institut/Mitarbeiterinnen-und-Mitarbeiter/Professoren/Meyer.html"
         ]
@@ -91,9 +79,7 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -101,24 +87,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -126,10 +99,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "cultural_studies",
-      "history_studies"
-    ],
+    "keywords": ["cultural_studies", "history_studies"],
     "comment": ""
   }
 }

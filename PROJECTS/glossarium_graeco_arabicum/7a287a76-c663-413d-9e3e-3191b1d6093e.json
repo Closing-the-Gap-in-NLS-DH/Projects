@@ -31,9 +31,7 @@
       {
         "place_name": {
           "text": "Bochum",
-          "ref": [
-            "https://www.geonames.org/2947416/bochum.html"
-          ]
+          "ref": ["https://www.geonames.org/2947416/bochum.html"]
         },
         "coordinates": {
           "lat": "51.48165",
@@ -43,9 +41,7 @@
       {
         "place_name": {
           "text": "Pisa",
-          "ref": [
-            "https://www.geonames.org/3170647/pisa.html"
-          ]
+          "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
         "coordinates": {
           "lat": "43.70853",
@@ -53,9 +49,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -66,9 +60,7 @@
             "https://www.wikidata.org/wiki/Q309948"
           ]
         },
-        "websites": [
-          "https://www.ruhr-uni-bochum.de/de"
-        ]
+        "websites": ["https://www.ruhr-uni-bochum.de/de"]
       },
       {
         "relation_type": "host",
@@ -79,9 +71,7 @@
             "https://www.wikidata.org/wiki/Q645663"
           ]
         },
-        "websites": [
-          "https://www.unipi.it/"
-        ]
+        "websites": ["https://www.unipi.it/"]
       }
     ],
     "related_entities": [],
@@ -89,29 +79,20 @@
       {
         "pers_name": {
           "text": "Endreß, Gerhard",
-          "ref": [
-            "https://d-nb.info/gnd/115696954"
-          ]
+          "ref": ["https://d-nb.info/gnd/115696954"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.ruhr-uni-bochum.de/islamwiss/personen/endress.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "grc"
-      ],
+      "lang": ["ara", "grc"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -119,24 +100,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
