@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e",
     "record_created_on": "2021-11-12",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2022" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2022"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/completed-projects/rfi02.html"
@@ -21,12 +26,19 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -59,28 +71,63 @@
       {
         "pers_name": {
           "text": "Danilenko, Nadja",
-          "ref": ["https://d-nb.info/gnd/1195099657"]
+          "ref": [
+            "https://d-nb.info/gnd/1195099657"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "lat", "tur"],
+      "lang": [
+        "ara",
+        "fas",
+        "lat",
+        "tur"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

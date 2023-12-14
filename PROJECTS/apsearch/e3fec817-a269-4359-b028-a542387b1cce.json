@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "e3fec817-a269-4359-b028-a542387b1cce",
     "record_created_on": "2023-10-30",
@@ -11,20 +11,39 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": ""
+      }
+    ],
     "maintained": null,
-    "websites": ["https://apsearch.org/?size=n_20_n"],
+    "websites": [
+      "https://apsearch.org/?size=n_20_n"
+    ],
     "project_desc": "APSearch is a cataloge of musical recordings from the MENA region dating from the beginning of the 20th century until present. It provides a sophisticated search engine which enables to filter the recordings by  a variety of categories.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["ara", "eng", "deu", "fra", "heb", "spa"],
+    "lang": [
+      "ara",
+      "eng",
+      "deu",
+      "fra",
+      "heb",
+      "spa"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -35,15 +54,21 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"]
+        "websites": [
+          "https://www.bbaw.de/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "The Arab-German Young Academy of Sciences and Humanities",
-          "ref": ["https://www.wikidata.org/wiki/Q61876973"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q61876973"
+          ]
         },
-        "websites": ["https://agya.info/"]
+        "websites": [
+          "https://agya.info/"
+        ]
       }
     ],
     "related_entities": [],
@@ -51,19 +76,35 @@
       {
         "pers_name": {
           "text": "Pasdzierny, Matthias",
-          "ref": ["https://d-nb.info/gnd/1023725061"]
+          "ref": [
+            "https://d-nb.info/gnd/1023725061"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.udk-berlin.de/person/matthias-pasdzierny/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.udk-berlin.de/person/matthias-pasdzierny/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -81,11 +122,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

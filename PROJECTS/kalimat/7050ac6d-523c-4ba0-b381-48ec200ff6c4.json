@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4",
     "record_created_on": "2021-10-30",
@@ -11,7 +11,12 @@
     "abbr": "KALiMaT",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2024", "to": "2027" }],
+    "date": [
+      {
+        "from": "2024",
+        "to": "2027"
+      }
+    ],
     "maintained": true,
     "websites": [],
     "project_desc": "KALiMaT is the first bilingual, open-access Arabic-English online living handbook of short articles on historical terms from the pre-modern and early modern literary tradition. Each article addresses a lemma, providing analysis and contextualization that makes the historical term accessible. With its nuanced approach focused on the analysis of concepts from the Arabic tradition and the critical examination of Western and modern literary categories, as well as with its bilingual publication strategy in both English and Arabic, KALiMaT contributes to the decolonization of knowledge. The project will be hosted on the Open Encyclopedia System infrastructure offered by Freie Universität Berlin.",
@@ -19,12 +24,20 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["ara", "eng"],
+    "lang": [
+      "ara",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -35,7 +48,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -74,21 +89,35 @@
       {
         "pers_name": {
           "text": "Gruendler, Beatrice",
-          "ref": ["https://d-nb.info/gnd/111749344X"]
+          "ref": [
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/Gruendler/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -106,11 +135,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "digital_publishing",

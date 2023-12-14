@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
     "record_created_on": "2021-11-01",
@@ -11,27 +11,46 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2025" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2025"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.csmc.uni-hamburg.de/written-artefacts/"],
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/written-artefacts/"
+    ],
     "project_desc": "Understanding Written Artefacts is a Cluster of Excellence comprising over 50 research projects from 40 academic disciplines with an overall aim to develop a global framework for the study of all written artefacts from the beginning of writing to the present day and from all regions that have produced such artefacts. It combines approaches from the humanities and the natural sciences and its research focuses on different dimensions of written artefacts, such as their materiality, spatiality, content, and format.",
     "places": [
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       },
       {
         "place_name": {
           "text": "Lübeck",
-          "ref": ["https://www.geonames.org/2875601/luebeck.html"]
+          "ref": [
+            "https://www.geonames.org/2875601/luebeck.html"
+          ]
         },
-        "coordinates": { "lat": "53.86893", "lng": "10.68729" }
+        "coordinates": {
+          "lat": "53.86893",
+          "lng": "10.68729"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +61,9 @@
             "https://ror.org/04e8jbs38"
           ]
         },
-        "websites": ["https://www.hsu-hh.de/"]
+        "websites": [
+          "https://www.hsu-hh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -53,7 +74,9 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["https://www.tuhh.de/"]
+        "websites": [
+          "https://www.tuhh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -64,7 +87,9 @@
             "https://ror.org/00t3r8h32"
           ]
         },
-        "websites": ["https://www.uni-luebeck.de"]
+        "websites": [
+          "https://www.uni-luebeck.de"
+        ]
       },
       {
         "relation_type": "host",
@@ -75,7 +100,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -174,29 +201,65 @@
       {
         "pers_name": {
           "text": "Bausi, Alessandro",
-          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "san"],
+      "lang": [
+        "ara",
+        "fas",
+        "san"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["history_studies"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "history_studies"
+    ],
     "comment": ""
   }
 }

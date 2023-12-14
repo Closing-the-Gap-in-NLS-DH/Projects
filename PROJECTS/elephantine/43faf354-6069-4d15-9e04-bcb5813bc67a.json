@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "43faf354-6069-4d15-9e04-bcb5813bc67a",
     "record_created_on": "2023-12-04",
@@ -11,20 +11,34 @@
     "abbr": "ELEPHANTINE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "2022" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2022"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://elephantine.smb.museum/"],
+    "websites": [
+      "https://elephantine.smb.museum/"
+    ],
     "project_desc": "The Elephantine Manuscripts Project employs cutting-edge digital methodologies, integrating disciplines like digital humanities, physics, and mathematics. A central element is the development of an open-access online research database, housing 80% previously unpublished manuscripts in ten different languages and scripts. The database provides unprecedented insights into the medical, religious, legal, administrative, and literary aspects of Elephantine's history spanning 4000 years.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -35,7 +49,9 @@
             "https://ror.org/02k3b8775"
           ]
         },
-        "websites": ["https://www.smb.museum/home/"]
+        "websites": [
+          "https://www.smb.museum/home/"
+        ]
       }
     ],
     "related_entities": [],
@@ -43,9 +59,13 @@
       {
         "pers_name": {
           "text": "Lepper, Verena",
-          "ref": ["https://d-nb.info/gnd/1027812333"]
+          "ref": [
+            "https://d-nb.info/gnd/1027812333"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/weitere/Lepper/index.html",
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/lepper-verena"
@@ -53,12 +73,26 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "arc", "cop", "egy", "grc"],
+      "lang": [
+        "ara",
+        "arc",
+        "cop",
+        "egy",
+        "grc"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -76,11 +110,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",

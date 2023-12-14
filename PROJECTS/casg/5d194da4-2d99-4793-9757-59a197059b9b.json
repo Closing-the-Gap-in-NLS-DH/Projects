@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "5d194da4-2d99-4793-9757-59a197059b9b",
     "record_created_on": "2023-10-31",
@@ -12,8 +12,14 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2009", "to": "2011" },
-      { "from": "2023", "to": "" }
+      {
+        "from": "2009",
+        "to": "2011"
+      },
+      {
+        "from": "2023",
+        "to": ""
+      }
     ],
     "maintained": null,
     "websites": [],
@@ -22,12 +28,20 @@
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": ["https://www.geonames.org/6551220/halle-saale.html"]
+          "ref": [
+            "https://www.geonames.org/6551220/halle-saale.html"
+          ]
         },
-        "coordinates": { "lat": "51.48298", "lng": "11.97202" }
+        "coordinates": {
+          "lat": "51.48298",
+          "lng": "11.97202"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +52,9 @@
             "https://www.wikidata.org/wiki/Q32120"
           ]
         },
-        "websites": ["https://www.uni-halle.de/"]
+        "websites": [
+          "https://www.uni-halle.de/"
+        ]
       }
     ],
     "related_entities": [],
@@ -46,19 +62,37 @@
       {
         "pers_name": {
           "text": "Pietruschka, Ute ",
-          "ref": ["https://d-nb.info/gnd/111231965"]
+          "ref": [
+            "https://d-nb.info/gnd/111231965"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.uni-goettingen.de/de/654951.html"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.uni-goettingen.de/de/654951.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "grc", "syr"],
+      "lang": [
+        "ara",
+        "grc",
+        "syr"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -72,15 +106,28 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml"],
+      "database": [
+        "sql",
+        "xml"
+      ],
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

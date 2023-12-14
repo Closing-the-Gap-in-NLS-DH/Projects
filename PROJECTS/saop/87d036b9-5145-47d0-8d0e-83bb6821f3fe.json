@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "87d036b9-5145-47d0-8d0e-83bb6821f3fe",
     "record_created_on": "2022-09-30",
@@ -12,8 +12,14 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2014", "to": "2017" },
-      { "from": "2017", "to": "2020" }
+      {
+        "from": "2014",
+        "to": "2017"
+      },
+      {
+        "from": "2017",
+        "to": "2020"
+      }
     ],
     "maintained": null,
     "websites": [
@@ -26,40 +32,73 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Stockholm",
-          "ref": ["https://www.geonames.org/2673730/stockholm.html"]
+          "ref": [
+            "https://www.geonames.org/2673730/stockholm.html"
+          ]
         },
-        "coordinates": { "lat": "59.32938", "lng": "18.06871" }
+        "coordinates": {
+          "lat": "59.32938",
+          "lng": "18.06871"
+        }
       },
       {
         "place_name": {
           "text": "Glane",
-          "ref": ["https://www.geonames.org/2755497/glane.html"]
+          "ref": [
+            "https://www.geonames.org/2755497/glane.html"
+          ]
         },
-        "coordinates": { "lat": "52.2325", "lng": "7.00278" }
+        "coordinates": {
+          "lat": "52.2325",
+          "lng": "7.00278"
+        }
       },
       {
         "place_name": {
           "text": "Piscataway",
-          "ref": ["https://www.geonames.org/5102713/piscataway.html"]
+          "ref": [
+            "https://www.geonames.org/5102713/piscataway.html"
+          ]
         },
-        "coordinates": { "lat": "40.49927", "lng": "-74.39904" }
+        "coordinates": {
+          "lat": "40.49927",
+          "lng": "-74.39904"
+        }
       },
       {
         "place_name": {
           "text": "Gölcük",
-          "ref": ["https://www.geonames.org/746666/geulzuk.html"]
+          "ref": [
+            "https://www.geonames.org/746666/geulzuk.html"
+          ]
         },
-        "coordinates": { "lat": "40.71501", "lng": "29.81824" }
+        "coordinates": {
+          "lat": "40.71501",
+          "lng": "29.81824"
+        }
       }
     ],
-    "lang": ["ara", "deu", "eng", "fra", "nld", "swe", "tur"],
+    "lang": [
+      "ara",
+      "deu",
+      "eng",
+      "fra",
+      "nld",
+      "swe",
+      "tur"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -70,7 +109,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -81,7 +122,9 @@
             "https://www.wikidata.org/wiki/Q221645"
           ]
         },
-        "websites": ["https://www.su.se/cmlink/stockholm-university"]
+        "websites": [
+          "https://www.su.se/cmlink/stockholm-university"
+        ]
       },
       {
         "relation_type": "host",
@@ -89,7 +132,9 @@
           "text": "St Ephrem Syriac Orthodox Monastery",
           "ref": []
         },
-        "websites": ["https://morephrem.com/klooster/"]
+        "websites": [
+          "https://morephrem.com/klooster/"
+        ]
       },
       {
         "relation_type": "host",
@@ -100,11 +145,16 @@
             "https://ror.org/01agawy76"
           ]
         },
-        "websites": ["https://bethmardutho.org/surayt/"]
+        "websites": [
+          "https://bethmardutho.org/surayt/"
+        ]
       },
       {
         "relation_type": "host",
-        "org_name": { "text": "Midyat Süryani Kültür Dernegi", "ref": [] },
+        "org_name": {
+          "text": "Midyat Süryani Kültür Dernegi",
+          "ref": []
+        },
         "websites": [
           "https://web.archive.org/http://midyatsuryanikulturdernegi.com/"
         ]
@@ -115,29 +165,67 @@
       {
         "pers_name": {
           "text": "Talay; Shabo",
-          "ref": ["https://d-nb.info/gnd/120744414"]
+          "ref": [
+            "https://d-nb.info/gnd/120744414"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/Seminar/mitarbeiterInnen/Professor_innen/talay/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "tru"],
+      "lang": [
+        "arc",
+        "tru"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["corpus_resource", "e_learning", "semitic_studies", "tei"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_resource",
+      "e_learning",
+      "semitic_studies",
+      "tei"
+    ],
     "comment": ""
   }
 }

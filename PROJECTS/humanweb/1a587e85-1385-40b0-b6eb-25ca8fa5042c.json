@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c",
     "record_created_on": "2022-07-21",
@@ -11,20 +11,34 @@
     "abbr": "HumanWeb",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2014" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2014"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://cordis.europa.eu/project/id/324591"],
+    "websites": [
+      "https://cordis.europa.eu/project/id/324591"
+    ],
     "project_desc": "This POC project will demonstrate that humanistic sciences can be productively coupled with sound business strategies to advance societal benefits and cultural sustainability. The grant will be used to get into contact and contract with potential joint venture partners for a cooperation which will result in a ground-braking universal online digital library for Yemeni manuscripts.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -35,7 +49,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -49,27 +65,65 @@
       {
         "pers_name": {
           "text": "Schmidtke, Sabine",
-          "ref": ["https://d-nb.info/gnd/143773771"]
+          "ref": [
+            "https://d-nb.info/gnd/143773771"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.ias.edu/scholars/schmidtke"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.ias.edu/scholars/schmidtke"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["arabic_studies", "digital_preservation", "manuscript"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "digital_preservation",
+      "manuscript"
+    ],
     "comment": ""
   }
 }
