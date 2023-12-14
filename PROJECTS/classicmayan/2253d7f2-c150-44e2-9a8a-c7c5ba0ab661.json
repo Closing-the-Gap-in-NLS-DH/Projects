@@ -1,0 +1,163 @@
+{
+  "schema_version": "0.2.2",
+  "record_metadata": {
+    "uuid": "2253d7f2-c150-44e2-9a8a-c7c5ba0ab661",
+    "record_created_on": "2023-12-14",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Textdatenbank und Wörterbuch des Klassischen Maya",
+    "abbr": "Classicmayan",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2014",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://classicmayan.org/portal/",
+      "https://digitale-sammlungen.ulb.uni-bonn.de/maya"
+    ],
+    "project_desc": "This project is centered on the analysis of all known hieroglyphic Mayan texts which will serve as the basis for the compilation and editing of a Classic Mayan language dictionary. It will employ machine-readable versions of the source materials in order to integrate all occurrences of the Maya hieroglyphs into a corpus-based database, together with information concerning the original hieroglyphic spelling, transcription, and translation, as well as supplementary information. It thus lays the foundation for a systematic understanding of the structure of the writing system and of Classic Maya, the standard language underlying the hieroglyphic script.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bonn",
+          "ref": ["https://www.geonames.org/2946447/bonn.html"]
+        },
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Düsseldorf",
+          "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+        },
+        "coordinates": {
+          "lat": "51.22172",
+          "lng": "6.77616"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": ["eng", "deu", "spa"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Bonn",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152171",
+            "https://ror.org/041nas322"
+          ]
+        },
+        "websites": ["https://www.uni-bonn.de/de"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Nordrhein-Westfälische Akademie der Wissenschaften und Künste",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q320642",
+            "https://ror.org/03aym6q96"
+          ]
+        },
+        "websites": ["https://www.awk.nrw/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Union der deutschen Akademien der Wissenschaften",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1662834",
+            "https://ror.org/04bvdz568"
+          ]
+        },
+        "websites": ["https://www.akademienunion.de/"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Grube, Nikolai",
+          "ref": ["https://d-nb.info/gnd/110726553"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.uni-bonn.de/de/forschung-lehre/forschungsprofil/transdisziplinaere-forschungsbereiche/tra5/mitgliederverzeichnis/nikolai-grube"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["emy"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "archaeology",
+      "digital_preservation",
+      "inscription",
+      "lexicon",
+      "translation"
+    ],
+    "comment": ""
+  }
+}
