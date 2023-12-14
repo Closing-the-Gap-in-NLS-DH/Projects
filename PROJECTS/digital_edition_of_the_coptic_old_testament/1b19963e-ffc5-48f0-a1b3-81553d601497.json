@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497",
     "record_created_on": "2022-04-05",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://coptot.manuscriptroom.com/",
@@ -24,7 +29,10 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -78,8 +86,14 @@
     "research_data": {
       "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -88,7 +102,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_edition",
       "digital_preservation",

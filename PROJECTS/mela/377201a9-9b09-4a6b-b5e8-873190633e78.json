@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "377201a9-9b09-4a6b-b5e8-873190633e78",
     "record_created_on": "2021-11-01",
@@ -11,7 +11,12 @@
     "abbr": "MELA",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q100320015"],
-    "date": [{ "from": "1972", "to": "" }],
+    "date": [
+      {
+        "from": "1972",
+        "to": ""
+      }
+    ],
     "maintained": true,
     "websites": ["https://www.mela.us/"],
     "project_desc": "MELA is an association of Middle East library specialists. Its mission is to facilitate communication and encourage cooperation among its members and Middle East libraries. It aims at improving area librarianship through the development of standards for the profession and education of Middle East librarians. It also compiles and disseminates information concerning Middle East libraries through various meeting and publications.",
@@ -21,7 +26,10 @@
           "text": "US",
           "ref": ["https://www.geonames.org/6252001/united-states.html"]
         },
-        "coordinates": { "lat": "39.76", "lng": "-98.5" }
+        "coordinates": {
+          "lat": "39.76",
+          "lng": "-98.5"
+        }
       }
     ],
     "lang": ["eng"],
@@ -29,7 +37,10 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Salamon, Anaïs", "ref": [] },
+        "pers_name": {
+          "text": "Salamon, Anaïs",
+          "ref": []
+        },
         "roles": ["supervision"],
         "websites": ["https://www.mcgill.ca/library/librarians/anais-salamon"]
       }
@@ -37,8 +48,14 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -47,7 +64,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["collaboration_platform", "research_infrastructure"],
     "comment": ""
   }

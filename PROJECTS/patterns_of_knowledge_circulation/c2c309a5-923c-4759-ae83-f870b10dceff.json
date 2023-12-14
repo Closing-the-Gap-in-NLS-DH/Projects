@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff",
     "record_created_on": "2022-07-27",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019-01-04", "to": "2024-03-31" }],
+    "date": [
+      {
+        "from": "2019-01-04",
+        "to": "2024-03-31"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/knowledge_patterns/index.html",
@@ -24,7 +29,10 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -63,8 +71,14 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -73,7 +87,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python", "jewish_studies"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalog",
       "digital_preservation",

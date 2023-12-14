@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186",
     "record_created_on": "2022-06-16",
@@ -11,7 +11,12 @@
     "abbr": "Multi-CAST",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2000", "to": "2021" }],
+    "date": [
+      {
+        "from": "2000",
+        "to": "2021"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://multicast.aspra.uni-bamberg.de/#references",
@@ -24,7 +29,10 @@
           "text": "Bamberg",
           "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -94,8 +102,14 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -104,7 +118,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "audio",
       "corpus_resource",

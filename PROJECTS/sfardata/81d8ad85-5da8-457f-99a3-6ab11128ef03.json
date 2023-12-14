@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03",
     "record_created_on": "2022-08-12",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "1965", "to": "" }],
+    "date": [
+      {
+        "from": "1965",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://sfardata.nli.org.il/#/startSearch_En",
@@ -24,14 +29,20 @@
           "text": "Jerusalem",
           "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
       },
       {
         "place_name": {
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
     "lang": ["eng", "heb"],
@@ -167,8 +178,14 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -177,7 +194,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalog",
       "digital_preservation",

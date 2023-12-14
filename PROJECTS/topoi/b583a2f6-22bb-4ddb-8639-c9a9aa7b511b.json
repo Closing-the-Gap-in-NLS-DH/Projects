@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "b583a2f6-22bb-4ddb-8639-c9a9aa7b511b",
     "record_created_on": "2021-11-01",
@@ -12,8 +12,14 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2007", "to": "2012" },
-      { "from": "2012", "to": "2019" }
+      {
+        "from": "2007",
+        "to": "2012"
+      },
+      {
+        "from": "2012",
+        "to": "2019"
+      }
     ],
     "maintained": null,
     "websites": ["https://web.archive.org/http://topoi.org/"],
@@ -24,7 +30,10 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": [],
@@ -68,8 +77,14 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -78,7 +93,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["cultural_studies", "history_studies"],
     "comment": ""
   }

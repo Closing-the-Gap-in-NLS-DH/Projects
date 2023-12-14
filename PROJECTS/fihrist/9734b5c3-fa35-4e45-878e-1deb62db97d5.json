@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "9734b5c3-fa35-4e45-878e-1deb62db97d5",
     "record_created_on": "2023-11-07",
@@ -11,7 +11,12 @@
     "abbr": "FIHRIST",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2011", "to": "" }],
+    "date": [
+      {
+        "from": "2011",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.fihrist.org.uk/",
@@ -24,35 +29,50 @@
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
       },
       {
         "place_name": {
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
-        "coordinates": { "lat": "52.2", "lng": "0.11667" }
+        "coordinates": {
+          "lat": "52.2",
+          "lng": "0.11667"
+        }
       },
       {
         "place_name": {
           "text": "Manchester",
           "ref": ["https://www.geonames.org/2643123/manchester.html"]
         },
-        "coordinates": { "lat": "53.48095", "lng": "-2.23743" }
+        "coordinates": {
+          "lat": "53.48095",
+          "lng": "-2.23743"
+        }
       },
       {
         "place_name": {
           "text": "Birmingham",
           "ref": ["https://www.geonames.org/2655603/birmingham.html"]
         },
-        "coordinates": { "lat": "52.48142", "lng": "-1.89983" }
+        "coordinates": {
+          "lat": "52.48142",
+          "lng": "-1.89983"
+        }
       },
       {
         "place_name": {
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       }
     ],
     "lang": ["eng"],
@@ -149,7 +169,10 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Faghihi, Yasmin", "ref": [] },
+        "pers_name": {
+          "text": "Faghihi, Yasmin",
+          "ref": []
+        },
         "roles": ["writing – review & editing"],
         "websites": ["https://www.cdh.cam.ac.uk/about/people/yasmin-faghihi/"]
       }
@@ -198,10 +221,18 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -219,11 +250,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "arabic_studies",

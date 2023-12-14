@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "5838a872-ff79-4e68-afff-edd784b0952e",
     "record_created_on": "2022-06-14",
@@ -11,7 +11,12 @@
     "abbr": "CMO",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "2027" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2027"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.uni-muenster.de/CMO-Edition/cmo/cmo.html",
@@ -25,21 +30,30 @@
           "text": "Münster",
           "ref": ["https://www.geonames.org/2867543/muenster.html"]
         },
-        "coordinates": { "lat": "51.96236", "lng": "7.62571" }
+        "coordinates": {
+          "lat": "51.96236",
+          "lng": "7.62571"
+        }
       },
       {
         "place_name": {
           "text": "Bonn",
           "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
-        "coordinates": { "lat": "50.73438", "lng": "7.09549" }
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
       },
       {
         "place_name": {
           "text": "Istanbul",
           "ref": ["https://www.geonames.org/745044/istanbul.html"]
         },
-        "coordinates": { "lat": "41.01384", "lng": "28.94966" }
+        "coordinates": {
+          "lat": "41.01384",
+          "lng": "28.94966"
+        }
       }
     ],
     "lang": ["deu", "eng", "tur"],
@@ -91,8 +105,14 @@
     "research_data": {
       "lang": ["ara", "tur"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -101,7 +121,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

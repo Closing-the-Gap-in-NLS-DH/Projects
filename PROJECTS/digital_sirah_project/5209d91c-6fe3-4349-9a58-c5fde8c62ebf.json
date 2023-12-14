@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "5209d91c-6fe3-4349-9a58-c5fde8c62ebf",
     "record_created_on": "2022-10-24",
@@ -11,7 +11,12 @@
     "abbr": "DSP",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2021" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2021"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://kitab-project.org/about/funders#qatar-national-library-digital-sirah-project"
@@ -23,14 +28,20 @@
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       },
       {
         "place_name": {
           "text": "Doha",
           "ref": ["https://www.geonames.org/290030/doha.html"]
         },
-        "coordinates": { "lat": "25.28545", "lng": "51.53096" }
+        "coordinates": {
+          "lat": "25.28545",
+          "lng": "51.53096"
+        }
       }
     ],
     "lang": ["eng"],
@@ -69,8 +80,14 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -79,7 +96,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "classical_text",
       "computational_text_analysis",

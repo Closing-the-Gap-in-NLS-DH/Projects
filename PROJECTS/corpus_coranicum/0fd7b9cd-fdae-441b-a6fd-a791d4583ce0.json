@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
     "record_created_on": "2021-11-12",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2007", "to": "" }],
+    "date": [
+      {
+        "from": "2007",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": ["https://corpuscoranicum.de/en"],
     "project_desc": "Corpus Coranicum develops a catalogue of early Qur’anic manuscripts and texts of the Islamic scholarly tradition, which are all published online (open access) by using TEI standards. It offers not only transcriptions of the manuscripts in original languages and their German translations, but also images of originals, variant readings and commentaries explaining their literary, cultural and historical context. The project focuses on the systematic documentation of sources related to the Qur’an with the objective to reconstruct the development of the first Muslim community as the interaction between the Prophet and the first addressees in Mecca and Medina.",
@@ -21,7 +26,10 @@
           "text": "Potsdam",
           "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
-        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
+        }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -85,7 +93,10 @@
         ]
       },
       {
-        "pers_name": { "text": "Marx, Michael", "ref": [] },
+        "pers_name": {
+          "text": "Marx, Michael",
+          "ref": []
+        },
         "roles": ["supervision"],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
@@ -95,8 +106,14 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -105,7 +122,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_edition",
       "digital_preservation",

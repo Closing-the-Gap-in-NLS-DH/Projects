@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c",
     "record_created_on": "2022-07-21",
@@ -11,8 +11,13 @@
     "abbr": "HumanWeb",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2014" }],
-    "maintained": null,
+    "date": [
+      {
+        "from": "2013",
+        "to": "2014"
+      }
+    ],
+    "maintained": false,
     "websites": ["https://cordis.europa.eu/project/id/324591"],
     "project_desc": "This POC project will demonstrate that humanistic sciences can be productively coupled with sound business strategies to advance societal benefits and cultural sustainability. The grant will be used to get into contact and contract with potential joint venture partners for a cooperation which will result in a ground-braking universal online digital library for Yemeni manuscripts.",
     "places": [
@@ -21,7 +26,10 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": ["eng"],
@@ -58,8 +66,14 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -68,7 +82,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["arabic_studies", "digital_preservation", "manuscript"],
     "comment": ""
   }

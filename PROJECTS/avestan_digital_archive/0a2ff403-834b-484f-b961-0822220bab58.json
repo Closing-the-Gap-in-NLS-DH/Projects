@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "0a2ff403-834b-484f-b961-0822220bab58",
     "record_created_on": "2023-02-03",
@@ -11,7 +11,12 @@
     "abbr": "ADA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2006", "to": "" }],
+    "date": [
+      {
+        "from": "2006",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://ada.geschkult.fu-berlin.de/",
@@ -24,7 +29,10 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": ["eng"],
@@ -68,8 +76,14 @@
     "research_data": {
       "lang": ["ave"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -78,7 +92,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

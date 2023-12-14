@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "1c38b421-95a2-4b2b-becf-119f36721a07",
     "record_created_on": "2021-11-12",
@@ -12,8 +12,14 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2018", "to": "2021" },
-      { "from": "2018", "to": "2030" }
+      {
+        "from": "2018",
+        "to": "2021"
+      },
+      {
+        "from": "2018",
+        "to": "2030"
+      }
     ],
     "maintained": true,
     "websites": [
@@ -26,7 +32,10 @@
           "text": "Heidelberg",
           "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
         },
-        "coordinates": { "lat": "49.40768", "lng": "8.69079" }
+        "coordinates": {
+          "lat": "49.40768",
+          "lng": "8.69079"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -56,8 +65,14 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -66,7 +81,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",

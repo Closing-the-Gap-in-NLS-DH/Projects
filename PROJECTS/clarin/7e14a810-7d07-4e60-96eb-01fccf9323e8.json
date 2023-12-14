@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8",
     "record_created_on": "2022-05-09",
@@ -11,7 +11,12 @@
     "abbr": "CLARIN",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q2986825"],
-    "date": [{ "from": "2012", "to": "" }],
+    "date": [
+      {
+        "from": "2012",
+        "to": ""
+      }
+    ],
     "maintained": true,
     "websites": ["https://www.clarin.eu/"],
     "project_desc": "CLARIN (Common Language Resources and Technology Infrastructure) is a pan-European infrastructure which provides access to digital language data and advanced tools to discover, annotate, analyze or combine this data via a network of European repositories. The infrastructure mainly serves for purposes of social sciences and humanities.",
@@ -21,154 +26,220 @@
           "text": "Utrecht",
           "ref": ["https://www.geonames.org/2745912/utrecht.html"]
         },
-        "coordinates": { "lat": "52.09083", "lng": "5.12222" }
+        "coordinates": {
+          "lat": "52.09083",
+          "lng": "5.12222"
+        }
       },
       {
         "place_name": {
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       },
       {
         "place_name": {
           "text": "Leiden",
           "ref": ["https://www.geonames.org/2751773/leiden.html"]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       },
       {
         "place_name": {
           "text": "Sofia",
           "ref": ["https://www.geonames.org/727011/sofia.html"]
         },
-        "coordinates": { "lat": "42.69751", "lng": "23.32415" }
+        "coordinates": {
+          "lat": "42.69751",
+          "lng": "23.32415"
+        }
       },
       {
         "place_name": {
           "text": "Zagreb",
           "ref": ["https://www.geonames.org/3186886/zagreb.html"]
         },
-        "coordinates": { "lat": "45.81444", "lng": "15.97798" }
+        "coordinates": {
+          "lat": "45.81444",
+          "lng": "15.97798"
+        }
       },
       {
         "place_name": {
           "text": "Limassol",
           "ref": ["https://www.geonames.org/146384/limassol.html"]
         },
-        "coordinates": { "lat": "34.68406", "lng": "33.03794" }
+        "coordinates": {
+          "lat": "34.68406",
+          "lng": "33.03794"
+        }
       },
       {
         "place_name": {
           "text": "Prague",
           "ref": ["https://www.geonames.org/3067696/prague.html"]
         },
-        "coordinates": { "lat": "50.08804", "lng": "14.42076" }
+        "coordinates": {
+          "lat": "50.08804",
+          "lng": "14.42076"
+        }
       },
       {
         "place_name": {
           "text": "Copenhagen",
           "ref": ["https://www.geonames.org/2618424/kobenhavn.html"]
         },
-        "coordinates": { "lat": "55.6711", "lng": "12.56529" }
+        "coordinates": {
+          "lat": "55.6711",
+          "lng": "12.56529"
+        }
       },
       {
         "place_name": {
           "text": "Tartu",
           "ref": ["https://www.geonames.org/588335/tartu.html"]
         },
-        "coordinates": { "lat": "58.38062", "lng": "26.72509" }
+        "coordinates": {
+          "lat": "58.38062",
+          "lng": "26.72509"
+        }
       },
       {
         "place_name": {
           "text": "Helsinki",
           "ref": ["https://www.geonames.org/658225/helsinki.html"]
         },
-        "coordinates": { "lat": "60.16952", "lng": "24.93545" }
+        "coordinates": {
+          "lat": "60.16952",
+          "lng": "24.93545"
+        }
       },
       {
         "place_name": {
           "text": "Mannheim",
           "ref": ["https://www.geonames.org/2873891/mannheim.html"]
         },
-        "coordinates": { "lat": "49.4891", "lng": "8.46694" }
+        "coordinates": {
+          "lat": "49.4891",
+          "lng": "8.46694"
+        }
       },
       {
         "place_name": {
           "text": "Maroúsi",
           "ref": ["https://www.geonames.org/265243/marousi.html"]
         },
-        "coordinates": { "lat": "38.05", "lng": "23.8" }
+        "coordinates": {
+          "lat": "38.05",
+          "lng": "23.8"
+        }
       },
       {
         "place_name": {
           "text": "Budapest",
           "ref": ["https://www.geonames.org/3054643/budapest.html"]
         },
-        "coordinates": { "lat": "47.49835", "lng": "19.04045" }
+        "coordinates": {
+          "lat": "47.49835",
+          "lng": "19.04045"
+        }
       },
       {
         "place_name": {
           "text": "Reykjavík",
           "ref": ["https://www.geonames.org/3413829/reykjavik.html"]
         },
-        "coordinates": { "lat": "64.13548", "lng": "-21.89541" }
+        "coordinates": {
+          "lat": "64.13548",
+          "lng": "-21.89541"
+        }
       },
       {
         "place_name": {
           "text": "Pisa",
           "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
-        "coordinates": { "lat": "43.70853", "lng": "10.4036" }
+        "coordinates": {
+          "lat": "43.70853",
+          "lng": "10.4036"
+        }
       },
       {
         "place_name": {
           "text": "Riga",
           "ref": ["https://www.geonames.org/456172/riga.html"]
         },
-        "coordinates": { "lat": "56.946", "lng": "24.10589" }
+        "coordinates": {
+          "lat": "56.946",
+          "lng": "24.10589"
+        }
       },
       {
         "place_name": {
           "text": "Kaunas",
           "ref": ["https://www.geonames.org/598316/kaunas.html"]
         },
-        "coordinates": { "lat": "54.90272", "lng": "23.90961" }
+        "coordinates": {
+          "lat": "54.90272",
+          "lng": "23.90961"
+        }
       },
       {
         "place_name": {
           "text": "Bergen",
           "ref": ["https://www.geonames.org/3161732/bergen.html"]
         },
-        "coordinates": { "lat": "60.39299", "lng": "5.32415" }
+        "coordinates": {
+          "lat": "60.39299",
+          "lng": "5.32415"
+        }
       },
       {
         "place_name": {
           "text": "Wrocław",
           "ref": ["https://www.geonames.org/3081368/wroclaw.html"]
         },
-        "coordinates": { "lat": "51.1", "lng": "17.03333" }
+        "coordinates": {
+          "lat": "51.1",
+          "lng": "17.03333"
+        }
       },
       {
         "place_name": {
           "text": "Lisbon",
           "ref": ["https://www.geonames.org/2267057/lisbon.html"]
         },
-        "coordinates": { "lat": "38.71667", "lng": "-9.13333" }
+        "coordinates": {
+          "lat": "38.71667",
+          "lng": "-9.13333"
+        }
       },
       {
         "place_name": {
           "text": "Ljubljana",
           "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
         },
-        "coordinates": { "lat": "46.05108", "lng": "14.50513" }
+        "coordinates": {
+          "lat": "46.05108",
+          "lng": "14.50513"
+        }
       },
       {
         "place_name": {
           "text": "Gothenburg",
           "ref": ["https://www.geonames.org/2711537/goeteborg.html"]
         },
-        "coordinates": { "lat": "57.70716", "lng": "11.96679" }
+        "coordinates": {
+          "lat": "57.70716",
+          "lng": "11.96679"
+        }
       }
     ],
     "lang": ["eng"],
@@ -431,8 +502,14 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -441,7 +518,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }

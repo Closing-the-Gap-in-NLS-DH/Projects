@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2",
     "record_created_on": "2022-02-21",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
     "project_desc": "This project is a preparation for the critical edition of Hebrew and Latin translations of Averroes’s Long Commentary on Aristotle’s Physics. While the Arabic original is lost, the aim of collation of its extant Latin and Hebrew translations is to reconstruct it.",
@@ -21,7 +26,10 @@
           "text": "Köln",
           "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
-        "coordinates": { "lat": "50.93333", "lng": "6.95" }
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
+        }
       }
     ],
     "lang": ["eng"],
@@ -50,7 +58,10 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Horezky, Oded", "ref": [] },
+        "pers_name": {
+          "text": "Horezky, Oded",
+          "ref": []
+        },
         "roles": ["investigation"],
         "websites": ["https://uni-koeln.academia.edu/OdedHorezky"]
       },
@@ -68,8 +79,14 @@
     "research_data": {
       "lang": ["ara", "heb", "lat"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -78,7 +95,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "digital_edition",

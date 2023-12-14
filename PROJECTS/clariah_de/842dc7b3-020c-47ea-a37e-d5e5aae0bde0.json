@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0",
     "record_created_on": "2022-05-24",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "organization",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2021" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2021"
+      }
+    ],
     "maintained": true,
     "websites": ["https://www.clariah.de/"],
     "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
@@ -21,14 +26,20 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
       },
       {
         "place_name": {
           "text": "Tübingen",
           "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
-        "coordinates": { "lat": "48.52266", "lng": "9.05222" }
+        "coordinates": {
+          "lat": "48.52266",
+          "lng": "9.05222"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -61,8 +72,14 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -71,7 +88,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }
