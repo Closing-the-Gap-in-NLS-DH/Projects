@@ -14,7 +14,7 @@
     "date": [{ "from": "2018", "to": "2023" }],
     "maintained": true,
     "websites": ["https://kitab-project.org/"],
-    "project_desc": "KITAB is a platform which enables exploration of Arabic texts in digital form. It also provides a digital toolbox and a forum for discussions about Arabic literature. The main research focus of the project lies on the question of how authors copied from previous works. The research is conduced on the corpus of texts created for the needs of the project and powered by technologies at the cutting edge of computer science. All documentation is openly accessible on GitHub.",
+    "project_desc": "KITAB is a platform which enables exploration of Arabic texts in digital form. It also provides a digital toolbox and a forum for discussions about Arabic literature. The main research focus of the project lies in the question of how authors copied from previous works. The research is conducted on a corpus of texts created for the needs of the project and powered by technologies at the cutting edge of computer science. All documentation is openly accessible on GitHub.",
     "places": [
       {
         "place_name": {
