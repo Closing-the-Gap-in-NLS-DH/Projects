@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "5d194da4-2d99-4793-9757-59a197059b9b",
     "record_created_on": "2023-10-31",
@@ -12,10 +12,16 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2009", "to": "2011" },
-      { "from": "2023", "to": "" }
+      {
+        "from": "2009",
+        "to": "2011"
+      },
+      {
+        "from": "2023",
+        "to": ""
+      }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [],
     "project_desc": "The corpus represents an assemblage of proverbs, aphorisms, and sagacious declarations sourced from the literary traditions of Arabic and Syriac. Additionally, it encompasses Greek texts, facilitating the examination of knowledge transmission across these three distinct cultural spheres.",
     "places": [
@@ -24,7 +30,10 @@
           "text": "Halle (Saale)",
           "ref": ["https://www.geonames.org/6551220/halle-saale.html"]
         },
-        "coordinates": { "lat": "51.48298", "lng": "11.97202" }
+        "coordinates": {
+          "lat": "51.48298",
+          "lng": "11.97202"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -55,10 +64,18 @@
     "research_data": {
       "lang": ["ara", "grc", "syr"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -76,11 +93,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba",
     "record_created_on": "2022-09-08",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2019" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2019"
+      }
+    ],
     "maintained": null,
     "websites": ["https://scripta.psl.eu/", "https://escripta.hypotheses.org/"],
     "project_desc": "Scripta-PSL aims to integrate the fundamental sciences of the written word (paleography, codicology, epigraphy, history of the book, etc.) and other social and human sciences (linguistics, history, anthropology, etc.) into the digital and computational humanities. It will develop machine vision tools (for handwriting recognition and document analysis, for example) and tools for (semi)-automatic classification of symbols and texts, with a focus on pre-typographical and/or non-alphabetic cultures. It will also provide additional inquiry into written traditions of rare languages and writings, which are currently underrepresented at the University.",
@@ -21,7 +26,10 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
       }
     ],
     "lang": [],
@@ -72,8 +80,14 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -82,7 +96,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "computational_text_analysis",

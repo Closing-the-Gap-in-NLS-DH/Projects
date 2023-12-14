@@ -1,7 +1,7 @@
 import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.1";
+const schemaVersion = "0.2.2";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
@@ -86,7 +86,7 @@ export const projectSchema = z
                   z.literal(""),
                 ]),
               })
-              .strict(),
+              .strict()
           )
           .describe("List of active periods (YYYY-MM-DD)"),
         maintained: z
@@ -125,13 +125,13 @@ export const projectSchema = z
                   })
                   .strict(),
               })
-              .strict(),
+              .strict()
           )
           .describe("Location(s) of the project"),
         lang: z
           .array(z.string().regex(isoCode))
           .describe(
-            "List of languages used in the project's output (ISO-639-3 codes)",
+            "List of languages used in the project's output (ISO-639-3 codes)"
           ),
         related_institutions: z
           .array(
@@ -150,10 +150,10 @@ export const projectSchema = z
                   .array(z.string().url())
                   .describe("List of institutional website URLs"),
               })
-              .strict(),
+              .strict()
           )
           .describe(
-            "Universities or research organizations which host the project",
+            "Universities or research organizations which host the project"
           ),
         related_entities: z
           .array(
@@ -168,7 +168,7 @@ export const projectSchema = z
                 title: z.string(),
                 uuid: z.string().uuid(),
               })
-              .strict(),
+              .strict()
           )
           .describe("Entities that are related to the project"),
         contacts: z
@@ -186,15 +186,15 @@ export const projectSchema = z
                 roles: z
                   .array(z.enum(rolesEnum))
                   .describe(
-                    "Roles held by the contact (following the CRediT taxonomy)",
+                    "Roles held by the contact (following the CRediT taxonomy)"
                   ),
                 websites: z
                   .array(z.string().url())
                   .describe(
-                    "List of institutional and/or personal website URLs",
+                    "List of institutional and/or personal website URLs"
                   ),
               })
-              .strict(),
+              .strict()
           )
           .describe("Main contact(s) of the project"),
         research_data: z
@@ -202,13 +202,13 @@ export const projectSchema = z
             lang: z
               .array(z.string().regex(isoCode))
               .describe(
-                "List of languages of the project's research data (ISO-639-3 codes)",
+                "List of languages of the project's research data (ISO-639-3 codes)"
               ),
             sustainability_plan: z
               .boolean()
               .nullable()
               .describe(
-                "Is there a plan to ensure the sustainability and reusability of the project's research data and output?",
+                "Is there a plan to ensure the sustainability and reusability of the project's research data and output?"
               ),
             publications: z
               .object({
@@ -218,7 +218,7 @@ export const projectSchema = z
                   .min(0)
                   .max(100)
                   .describe(
-                    "Approximate percentage of publications that are available open-access",
+                    "Approximate percentage of publications that are available open-access"
                   ),
                 licensing: z
                   .array(z.string())
@@ -226,7 +226,7 @@ export const projectSchema = z
               })
               .strict()
               .describe(
-                "Information about publication accessibility and licensing",
+                "Information about publication accessibility and licensing"
               ),
             data: z
               .object({
@@ -239,7 +239,7 @@ export const projectSchema = z
                         licensing: z
                           .array(z.string())
                           .describe(
-                            "List of licenses that apply to the datatype",
+                            "List of licenses that apply to the datatype"
                           ),
                         open_access: z
                           .number()
@@ -247,13 +247,13 @@ export const projectSchema = z
                           .min(0)
                           .max(100)
                           .describe(
-                            "Approximate percentage of this datatype available open-access",
+                            "Approximate percentage of this datatype available open-access"
                           ),
                       })
-                      .strict(),
+                      .strict()
                   )
                   .describe(
-                    "List of datatypes contained in the project's research data",
+                    "List of datatypes contained in the project's research data"
                   ),
                 repositories: z
                   .array(
@@ -265,7 +265,7 @@ export const projectSchema = z
                         accessibility: z
                           .enum(["private", "public"])
                           .describe(
-                            "Repository accessibility (private | public)",
+                            "Repository accessibility (private | public)"
                           ),
                         ref: z
                           .array(z.string().url())
@@ -273,13 +273,13 @@ export const projectSchema = z
                         licensing: z
                           .array(z.string())
                           .describe(
-                            "List of licenses that apply to the repository",
+                            "List of licenses that apply to the repository"
                           ),
                         description: z
                           .string()
                           .describe("Description of repository contents"),
                       })
-                      .strict(),
+                      .strict()
                   )
                   .describe("Information about local or remote repositories"),
               })
@@ -295,16 +295,16 @@ export const projectSchema = z
                 description: z
                   .string()
                   .describe(
-                    "Description of the policy, e.g. 'Research Data Policy'",
+                    "Description of the policy, e.g. 'Research Data Policy'"
                   ),
                 ref: z
                   .array(z.string().url())
                   .describe("List of URLs relevant to the policy"),
               })
-              .strict(),
+              .strict()
           )
           .describe(
-            "Information about policies (e.g. RDP, RDM, OA) applicable to the project and its publications and data",
+            "Information about policies (e.g. RDP, RDM, OA) applicable to the project and its publications and data"
           ),
         stack: z
           .object({
@@ -320,7 +320,7 @@ export const projectSchema = z
             languages: z
               .array(z.string())
               .describe(
-                "List of programming languages (defined broadly) in use",
+                "List of programming languages (defined broadly) in use"
               ),
             tools: z
               .array(
@@ -336,10 +336,10 @@ export const projectSchema = z
                     description: z
                       .string()
                       .describe(
-                        "Description of the tool's purpose in the context of the project",
+                        "Description of the tool's purpose in the context of the project"
                       ),
                   })
-                  .strict(),
+                  .strict()
               )
               .describe("List of tools that are used in the project"),
           })
@@ -350,8 +350,8 @@ export const projectSchema = z
             z
               .enum(keywordsEnum)
               .describe(
-                "Use lowercase letters, with underscore as a separator where needed",
-              ),
+                "Use lowercase letters, with underscore as a separator where needed"
+              )
           )
           .describe("List of keywords to describe the project"),
         comment: z
@@ -363,5 +363,5 @@ export const projectSchema = z
   })
   .strict()
   .describe(
-    "Project that deals in some way with the digital humanities, research data management, non-Latin scripts, or infrastructure",
+    "Project that deals in some way with the digital humanities, research data management, non-Latin scripts, or infrastructure"
   );

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
     "record_created_on": "2022-07-26",
@@ -11,7 +11,12 @@
     "abbr": "YMDI",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2013" }],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2013"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://ymdi.uoregon.edu/projects/",
@@ -25,21 +30,30 @@
           "text": "Princeton",
           "ref": ["https://www.geonames.org/5102922/princeton.html"]
         },
-        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
+        "coordinates": {
+          "lat": "40.34872",
+          "lng": "-74.65905"
+        }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Sanaa",
           "ref": ["https://www.geonames.org/71137/sanaa.html"]
         },
-        "coordinates": { "lat": "15.35472", "lng": "44.20667" }
+        "coordinates": {
+          "lat": "15.35472",
+          "lng": "44.20667"
+        }
       }
     ],
     "lang": ["eng"],
@@ -95,8 +109,14 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -105,7 +125,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

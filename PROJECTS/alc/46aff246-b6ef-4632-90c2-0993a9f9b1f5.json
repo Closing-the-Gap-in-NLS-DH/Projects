@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5",
     "record_created_on": "2023-10-23",
@@ -11,7 +11,12 @@
     "abbr": "ALC",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "2027" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2027"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html"
@@ -23,7 +28,10 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -82,8 +90,14 @@
     "research_data": {
       "lang": ["ara", "fas"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -92,7 +106,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "classical_text",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
     "record_created_on": "2022-02-14",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2022" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2022"
+      }
+    ],
     "maintained": null,
     "websites": ["https://orient-kohd.dl.uni-leipzig.de/content/index.xml"],
     "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
@@ -21,7 +26,10 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -73,8 +81,14 @@
     "research_data": {
       "lang": ["ara", "bod", "fas", "khm", "san", "tam", "tur"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -83,7 +97,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "iranian_studies",

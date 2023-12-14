@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c",
     "record_created_on": "2021-11-11",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2040" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2040"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.betamasaheft.uni-hamburg.de/",
@@ -26,7 +31,10 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -172,8 +180,14 @@
     "research_data": {
       "lang": ["gez"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -182,7 +196,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "corpus_output",

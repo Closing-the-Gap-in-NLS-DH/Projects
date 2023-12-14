@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213",
     "record_created_on": "2021-11-01",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2025" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2025"
+      }
+    ],
     "maintained": true,
     "websites": ["https://www.csmc.uni-hamburg.de/written-artefacts/"],
     "project_desc": "Understanding Written Artefacts is a Cluster of Excellence comprising over 50 research projects from 40 academic disciplines with an overall aim to develop a global framework for the study of all written artefacts from the beginning of writing to the present day and from all regions that have produced such artefacts. It combines approaches from the humanities and the natural sciences and its research focuses on different dimensions of written artefacts, such as their materiality, spatiality, content, and format.",
@@ -21,14 +26,20 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       },
       {
         "place_name": {
           "text": "Lübeck",
           "ref": ["https://www.geonames.org/2875601/luebeck.html"]
         },
-        "coordinates": { "lat": "53.86893", "lng": "10.68729" }
+        "coordinates": {
+          "lat": "53.86893",
+          "lng": "10.68729"
+        }
       }
     ],
     "lang": ["eng"],
@@ -185,8 +196,14 @@
     "research_data": {
       "lang": ["ara", "fas", "san"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -195,7 +212,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["history_studies"],
     "comment": ""
   }

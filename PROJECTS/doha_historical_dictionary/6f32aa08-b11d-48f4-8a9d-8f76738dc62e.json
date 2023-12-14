@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "6f32aa08-b11d-48f4-8a9d-8f76738dc62e",
     "record_created_on": "2021-11-12",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013-05-23", "to": "2028" }],
+    "date": [
+      {
+        "from": "2013-05-23",
+        "to": "2028"
+      }
+    ],
     "maintained": true,
     "websites": ["https://dohadictionary.org/"],
     "project_desc": "This project aims to create a historical dictionary of Arabic language. The entries will follow changes in usage and meaning of each word from its first documented record until approximately 200 years AH / 820 AD (first phase of the project).",
@@ -21,7 +26,10 @@
           "text": "Doha",
           "ref": ["https://www.geonames.org/290030/doha.html"]
         },
-        "coordinates": { "lat": "25.28545", "lng": "51.53096" }
+        "coordinates": {
+          "lat": "25.28545",
+          "lng": "51.53096"
+        }
       }
     ],
     "lang": ["ara"],
@@ -62,8 +70,14 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -72,7 +86,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": ["arabic_studies", "lexicography", "lexicon"],
     "comment": ""
   }

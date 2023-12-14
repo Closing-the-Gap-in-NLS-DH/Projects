@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "d5dd164d-1887-473f-8282-584b8d09474d",
     "record_created_on": "2023-10-31",
@@ -11,8 +11,13 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2010" }],
-    "maintained": null,
+    "date": [
+      {
+        "from": "2010",
+        "to": "2010"
+      }
+    ],
+    "maintained": false,
     "websites": [
       "https://www.universiteitleiden.nl/en/research/research-projects/humanities/moving-frontiers"
     ],
@@ -23,7 +28,10 @@
           "text": "Leiden",
           "ref": ["https://www.geonames.org/2751773/leiden.html"]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       }
     ],
     "lang": ["eng"],
@@ -62,10 +70,18 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -83,11 +99,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "geodata",
       "history_studies",

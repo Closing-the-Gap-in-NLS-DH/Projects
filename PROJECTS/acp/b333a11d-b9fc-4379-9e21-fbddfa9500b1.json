@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1",
     "record_created_on": "2023-10-26",
@@ -11,7 +11,12 @@
     "abbr": "ACP",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2023" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2023"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.audition-certificates-platform.org/",
@@ -24,7 +29,10 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
     "lang": ["eng", "ara"],
@@ -148,10 +156,18 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -169,11 +185,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773",
     "record_created_on": "2022-09-01",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml"
@@ -23,7 +28,10 @@
           "text": "Würzburg",
           "ref": ["https://www.geonames.org/2805615"]
         },
-        "coordinates": { "lat": "49.79391", "lng": "9.95121" }
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
+        }
       }
     ],
     "related_institutions": [
@@ -62,8 +70,14 @@
     "research_data": {
       "lang": ["ara", "lat"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -72,7 +86,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

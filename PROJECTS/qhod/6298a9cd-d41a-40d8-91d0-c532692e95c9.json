@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "6298a9cd-d41a-40d8-91d0-c532692e95c9",
     "record_created_on": "2022-09-26",
@@ -11,7 +11,12 @@
     "abbr": "QhoD",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://qhod.net/",
@@ -25,21 +30,30 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       },
       {
         "place_name": {
           "text": "Salzburg",
           "ref": ["https://www.geonames.org/2766823/salzburg.html"]
         },
-        "coordinates": { "lat": "47.41667", "lng": "13.25" }
+        "coordinates": {
+          "lat": "47.41667",
+          "lng": "13.25"
+        }
       },
       {
         "place_name": {
           "text": "Graz",
           "ref": ["https://www.geonames.org/2778067/graz.html"]
         },
-        "coordinates": { "lat": "47.06667", "lng": "15.45" }
+        "coordinates": {
+          "lat": "47.06667",
+          "lng": "15.45"
+        }
       }
     ],
     "lang": ["deu", "eng"],
@@ -105,8 +119,14 @@
     "research_data": {
       "lang": ["deu", "tur"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -115,7 +135,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "digital_edition",

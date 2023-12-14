@@ -1,5 +1,9 @@
 # Changelog - Schema
 
+- From version 0.2.1 to 0.2.2 (2023-12-14):
+
+  - The Boolean value `maintained` has been added to the `project` section with the goal to differentiate between the founding periods and the actual lifespan of the projects.
+
 - From version 0.2.0 to 0.2.1 (2023-09-30):
 
   - `contact.role` changed to an array of strings `contact.roles`. The new roles are aligned with the [CRediT](https://credit.niso.org/) taxonomy.

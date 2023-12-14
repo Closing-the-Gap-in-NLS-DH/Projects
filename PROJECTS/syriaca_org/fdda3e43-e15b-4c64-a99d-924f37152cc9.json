@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.1",
+  "schema_version": "0.2.2",
   "record_metadata": {
     "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
     "record_created_on": "2021-11-01",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2012", "to": "" }],
+    "date": [
+      {
+        "from": "2012",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": ["https://syriaca.org/index.html"],
     "project_desc": "Syriaca.org is a portal intended to document and preserve Syriac cultural heritage. It serves as an online hub (cyber-infrastructure) to assist research in the field of Syriac studies and to compile and organize core data related to the study of Syriac sources. The publications of Syriaca.org combine emerging methods of the Digital Humanities with traditional scholarship in history and philology, new digital tools are created for widely disseminating this data and facilitating further research.",
@@ -21,7 +26,10 @@
           "text": "Nashville",
           "ref": ["https://www.geonames.org/4644585/nashville.html"]
         },
-        "coordinates": { "lat": "36.16589", "lng": "-86.78444" }
+        "coordinates": {
+          "lat": "36.16589",
+          "lng": "-86.78444"
+        }
       }
     ],
     "lang": [],
@@ -93,7 +101,10 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Gibson, Nathan", "ref": [] },
+        "pers_name": {
+          "text": "Gibson, Nathan",
+          "ref": []
+        },
         "roles": ["investigation"],
         "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       }
@@ -101,8 +112,14 @@
     "research_data": {
       "lang": ["syr"],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -111,7 +128,12 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "biographical_data",
       "corpus_resource",
