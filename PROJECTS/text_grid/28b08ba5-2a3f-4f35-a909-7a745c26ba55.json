@@ -251,7 +251,13 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Textdatenbank und Wörterbuch des Klassischen Maya",
+        "uuid": "2253d7f2-c150-44e2-9a8a-c7c5ba0ab661"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
