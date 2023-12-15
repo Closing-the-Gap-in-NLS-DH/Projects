@@ -395,6 +395,10 @@
     "title": "Moving frontiers",
     "path": "/PROJECTS/moving_frontiers/"
   },
+  "7d8eb5d0-6284-4939-a48b-7ff7a2407989": {
+    "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+    "path": "/PROJECTS/mpcd/"
+  },
   "47a62965-3241-4531-b01a-a25e25dac602": {
     "title": "Machine Translation and Automated Analysis of Cuneiform Language",
     "path": "/PROJECTS/mtaac/"
@@ -410,10 +414,6 @@
   "9a4a2962-fbf2-4a52-a1ea-53af8e3d0842": {
     "title": "New Languages for NLP",
     "path": "/PROJECTS/newnlp/"
-  },
-  "7d8eb5d0-6284-4939-a48b-7ff7a2407989": {
-    "title": "Zoroastrian Middle Persian Corpus and Dictionary",
-    "path": "/PROJECTS/new_projects/"
   },
   "bef67936-aeda-45ea-86fa-d06d79620459": {
     "title": "Nimrud NW Palace",
