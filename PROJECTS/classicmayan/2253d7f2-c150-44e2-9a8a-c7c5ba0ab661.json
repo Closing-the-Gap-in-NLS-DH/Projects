@@ -91,7 +91,13 @@
         "websites": ["https://www.akademienunion.de/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "TextGrid",
+        "uuid": "28b08ba5-2a3f-4f35-a909-7a745c26ba55"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {

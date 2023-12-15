@@ -59,6 +59,21 @@
         "relation_type": "cooperation",
         "title": "Avestan Digital Archive",
         "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Avestan Digital Archive",
+        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+        "uuid": "7d8eb5d0-6284-4939-a48b-7ff7a2407989"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Corpus Avesticum Berolinense",
+        "uuid": "4c68f56a-2c44-41c0-acb9-ece91afaf70c"
       }
     ],
     "contacts": [

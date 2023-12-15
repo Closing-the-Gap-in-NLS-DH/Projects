@@ -395,6 +395,10 @@
     "title": "Moving frontiers",
     "path": "/PROJECTS/moving_frontiers/"
   },
+  "7d8eb5d0-6284-4939-a48b-7ff7a2407989": {
+    "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+    "path": "/PROJECTS/mpcd/"
+  },
   "47a62965-3241-4531-b01a-a25e25dac602": {
     "title": "Machine Translation and Automated Analysis of Cuneiform Language",
     "path": "/PROJECTS/mtaac/"
@@ -562,6 +566,10 @@
   "fdda3e43-e15b-4c64-a99d-924f37152cc9": {
     "title": "Syriaca.org: The Syriac Reference Portal",
     "path": "/PROJECTS/syriaca_org/"
+  },
+  "28b08ba5-2a3f-4f35-a909-7a745c26ba55": {
+    "title": "TextGrid",
+    "path": "/PROJECTS/text_grid/"
   },
   "2689651d-1e28-4f26-ac43-cfdca097d837": {
     "title": "Text+",
