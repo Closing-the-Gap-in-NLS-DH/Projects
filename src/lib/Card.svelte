@@ -90,7 +90,7 @@
 						href={link}
 						target="_blank"
 						rel="noreferrer"
-						title="Link to website (there may be multiple)"
+						title="Link to website (may be multiple)"
 						class="hover:text-amber-200"><Link /></a
 					>
 				</div>
