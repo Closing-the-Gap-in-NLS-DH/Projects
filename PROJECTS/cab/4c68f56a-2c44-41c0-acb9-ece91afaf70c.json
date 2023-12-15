@@ -27,7 +27,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -35,7 +37,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -46,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -59,26 +65,54 @@
         "relation_type": "cooperation",
         "title": "Tierrecht und Strafen im 'Gesetz zur Abwehr der Dämonen' (Vidçvdâd, Kapitel 13–15)",
         "uuid": "57622367-8250-4932-ab3e-0356615d578a"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Tierrecht und Strafen im 'Gesetz zur Abwehr der Dämonen' (Vidçvdâd, Kapitel 13–15)",
+        "uuid": "57622367-8250-4932-ab3e-0356615d578a"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+        "uuid": "7d8eb5d0-6284-4939-a48b-7ff7a2407989"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Avestan Digital Archive",
+        "uuid": "0a2ff403-834b-484f-b961-0822220bab58"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+        "uuid": "7d8eb5d0-6284-4939-a48b-7ff7a2407989"
       }
     ],
     "contacts": [
       {
         "pers_name": {
           "text": "Cantera Glera, Alberto",
-          "ref": ["https://d-nb.info/gnd/1198415282"]
+          "ref": [
+            "https://d-nb.info/gnd/1198415282"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ave"],
+      "lang": [
+        "ave"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
         "datatypes": [],
@@ -86,11 +120,24 @@
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
     "policies": [
       {
