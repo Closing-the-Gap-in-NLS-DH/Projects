@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8367363.svg)](https://doi.org/10.5281/zenodo.8367363)
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#json-schema-for-project-index--uuid-dictionary-v011)
-[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.2.0-blue.svg)](#zod-schema-for-projects-v020)
+[![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.2.2-blue.svg)](#zod-schema-for-projects-v022)
 
 # Closing the Gap in Non-Latin-Script Data
 
@@ -34,7 +34,7 @@ Feel free to discuss possible improvements to the schema via GitHub issues.
 
 We will add a history of all upcoming schema versions beginning with `v0.1.6`.
 
-### Zod Schema for Projects (`v0.2.0`)
+### Zod Schema for Projects (`v0.2.2`)
 
 See `TEMPLATES/project.json` for a template and `SCHEMATA/project_schema.ts` for the latest version of our schema.
 

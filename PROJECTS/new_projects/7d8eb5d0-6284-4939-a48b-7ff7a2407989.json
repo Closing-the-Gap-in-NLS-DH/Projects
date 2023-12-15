@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.2.2",
+  "record_metadata": {
+    "uuid": "7d8eb5d0-6284-4939-a48b-7ff7a2407989",
+    "record_created_on": "2023-12-15",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": ""
+  },
+  "project": {
+    "title": "Zoroastrian Middle Persian Corpus and Dictionary",
+    "abbr": "MPCD",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2030"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.mpcorpus.org/about"
+    ],
+    "project_desc": "This project aims at the creation of a digital corpus of Zoroastrian Middle Persian texts in Pahlavi script as well as at the development of a comprehensive dictionary covering that corpus. The corpus consists of roughly 50 texts which will be supplied with several layers of orthographical, grammatical, semantic and intertextual annotation.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Bochum",
+          "ref": [
+            "https://www.geonames.org/2947416/bochum.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.48165",
+          "lng": "7.21648"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Köln",
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "deu"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Ruhr-Universität Bochum",
+          "ref": [
+            "https://ror.org/04tsk2644",
+            "https://www.wikidata.org/wiki/Q309948"
+          ]
+        },
+        "websites": [
+          "https://www.ruhr-uni-bochum.de/de"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität zu Köln",
+          "ref": [
+            "https://ror.org/00rcxh774",
+            "https://www.wikidata.org/wiki/Q54096"
+          ]
+        },
+        "websites": [
+          "https://www.uni-koeln.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Cantera Glera, Alberto",
+          "ref": [
+            "https://d-nb.info/gnd/1198415282"
+          ]
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/professoren/cantera/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "pal",
+        "xmn"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "corpus_output",
+      "digital_preservation",
+      "iranian_studies",
+      "lexicography",
+      "lexicon",
+      "linguistics",
+      "manuscript",
+      "vre"
+    ],
+    "comment": ""
+  }
+}
