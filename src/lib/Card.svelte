@@ -2,8 +2,8 @@
 	import type { JsonStuff } from '$lib/utils.svelte';
 
 	import Arrow from '$lib/svg/Arrow.svelte';
+	import Brackets from '$lib/svg/Brackets.svelte';
 	import Calendar from '$lib/svg/Calendar.svelte';
-	import CodeLink from '$lib/svg/CodeLink.svelte';
 	import Lang from '$lib/svg/Lang.svelte';
 	import Link from '$lib/svg/Link.svelte';
 	import Pin from '$lib/svg/Pin.svelte';
@@ -86,13 +86,23 @@
 		<div class="flex gap-x-2">
 			{#each websiteLinks as link}
 				<div class="w-8 rounded-full border border-slate-800 bg-ctgorange p-1">
-					<a href={link} target="_blank" rel="noreferrer" class="hover:text-amber-200"><Link /></a>
+					<a
+						href={link}
+						target="_blank"
+						rel="noreferrer"
+						title="Link to website (there may be multiple)"
+						class="hover:text-amber-200"><Link /></a
+					>
 				</div>
 			{/each}
 
 			<div class="w-8 rounded-full border border-slate-800 bg-ctgorange p-1">
-				<a href={jsonLink} target="_blank" rel="noreferrer" class="hover:text-amber-200"
-					><CodeLink /></a
+				<a
+					href={jsonLink}
+					target="_blank"
+					rel="noreferrer"
+					title="Link to JSON record"
+					class="hover:text-amber-200"><Brackets /></a
 				>
 			</div>
 		</div>
