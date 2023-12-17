@@ -1,9 +1,13 @@
+name: Archive GitHub Pages
+
 on:
+  schedule:
+    - cron: "20 4 1 * *"
   workflow_dispatch:
 
 jobs:
   archive:
-    name: Submit website URL to the Internet Archive
+    name: Submit URL to Internet Archive
 
     runs-on: ubuntu-latest
 
@@ -11,5 +15,4 @@ jobs:
       - uses: caltechlibrary/waystation@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          dry_run: true
           debug: true
