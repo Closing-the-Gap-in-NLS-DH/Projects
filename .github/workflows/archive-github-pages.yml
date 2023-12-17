@@ -16,3 +16,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           debug: true
+          dry_run: false
