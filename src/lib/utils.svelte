@@ -1,13 +1,13 @@
 <script lang="ts" context="module">
 	import { searchTerm, selectedTab, selectedTerms } from '$lib/stores.svelte';
-	import { env } from '$env/dynamic/public';
+	import { PUBLIC_CTG_ARCHIVE } from '$env/static/public';
 
 	interface Listing {
 		title: string;
 		path: string;
 	}
 
-	const useArchive = env.PUBLIC_CTG_ARCHIVE && env.PUBLIC_CTG_ARCHIVE.toLowerCase() === 'true';
+	const useArchive = PUBLIC_CTG_ARCHIVE.toLowerCase() === 'true';
 	const urlPrefix = useArchive
 		? '/Closing-The-Gap-In-Non-Latin-Script-Data/archive'
 		: 'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';

@@ -1,10 +1,14 @@
 <script lang="ts">
+	// Svelte
 	import { onMount, onDestroy } from 'svelte';
-	import type { Map } from 'leaflet';
 
+	// Leaflet
+	import type { Map } from 'leaflet';
+	import 'leaflet/dist/leaflet.css';
+
+	// First-party
 	import { entries } from '$lib/stores.svelte';
 	import { fetchList, filterPlaces, fetchEntries } from '$lib/utils.svelte';
-
 	import type { JsonStuff } from '$lib/utils.svelte';
 
 	interface ProjectLink {
@@ -150,7 +154,3 @@
 <div class="mx-auto max-w-6xl px-4">
 	<div bind:this={mapElement} class="h-[34rem] rounded-md font-normal" />
 </div>
-
-<style>
-	@import 'leaflet/dist/leaflet.css';
-</style>
