@@ -6,25 +6,25 @@
 
 **Participants** (alphabetical): Theodore Beers, Xenia Kudela, Jonas Müller-Laackman
 
-- Feedback on the colloquium for Arabic DH on Thursday the 14th.
+- Feedback on the colloquium for Arabic DH that took place on Thursday, 2023-12-14.
 
-- Interviews: we will send reminders to the invited people in the beginning of January.
+- Interviews: we will send reminders to the invited people in early January.
 
-- Roll-up: CeDis agreed to design our roll-up. We will email them to request an example image file for content preparation.
+- Roll-up poster: CeDis agreed to design our roll-up. We will email them to request an example image file for content preparation.
 
-- Email database: we will set up an email database of all contacts in our project and use it to automatically send emails with a request to control the correctness of the entries. We will contact all the existing projects. Additionally, we will automate the process for each new entry. For privacy reasons, the database will not be published.
+- Email database: we will set up a database of email addresses for all project contact people, and use it to automatically send emails with a request to check the correctness of the entries. We will try to get in touch with all currently recorded projects in this way. Additionally, we will automate the process for each new entry. For privacy reasons, the database will not be public.
 
-- Vega visualizations: we have started to work on the first [chart](https://vega.github.io/vega/examples/edge-bundling/), it will be used to represent the relations between the entries of our database.
+- Vega visualizations: we have started to work on the first [chart](https://vega.github.io/vega/examples/edge-bundling/), which will be used to represent the relations between the entries of our database.
 
 - Workshop:
 
   - The event was advertised in a print flyer of the SUB.
-  - Our intern flyer is also ready and Theo will post it on Social Media.
-  - Theo and Jonas will finalize the blurb in the first week of January so that we can post the blog post immediately after the Christmas break.
+  - Our own flyer is also ready, and Theo will post it on social media.
+  - Theo and Jonas will finalize the blurb in the first week of January so that we can publish a blog post immediately after the Christmas break.
   - Jonas will add the workshop to the SUB event calendar.
-  - Except of the poster, all promotional materials should be bilingual (German and English)
+  - Except the poster, all promotional materials should be bilingual (German and English).
 
-- Taxonomy: the issue of the difference between digital editions and corpora should be discussed more in depth in our next meeting in January. For now, we discussed briefly the idea of tagging the projects according to their own definitions, but this approach could lead to inconsistencies which could distort the analysis and visualizations of the data. We also talked about bringing up this topic in the DHd conference.
+- Keyword taxonomy: the issue of the difference between digital editions and corpora should be discussed in greater depth at our next meeting in January. For now, we discussed briefly the idea of tagging projects according to their own definitions; but this approach could lead to inconsistencies that would distort the analysis and visualizations of our data. We also talked about raising this topic at the DHd conference.
 
 - Next meeting: January (exact date to be determined).
 
