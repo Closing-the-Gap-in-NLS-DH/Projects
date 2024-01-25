@@ -1,5 +1,34 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2023-01-19
+
+**Time**: 14:15-15:45 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Xenia Kudela, Jonas Müller-Laackman
+
+- DHd: Our presentation will take place on Wednesday in the time slot between 2:00 and 3:30 PM.
+
+- Hamburg Workshop: Jonas has already ordered catering and taken care of the advertising in Hamburg. All blog posts have been published. The registration procedure was changed so that we know how many people will come. Hotel suggestion: Hotel Wagner next to the SUB. We should be on-site at 8:30 AM.
+
+- Documents for BUA: BUA has requested two documents from us:
+  - The final report for the first phase of the project, which is due three months after the conclusion of the project (on the 14th of February).
+  - A short project description (Steckbrief), also due on the 14th of February.Theo will revise it by the 2nd of February and send it to the rest of the team for further review.
+
+- BUA Event: BUA is organizing a networking event for Objective 3 on the 2nd of February (12:00-4:00 PM). Our team will join and deliver a brief project pitch (max 5 min). The general goal will also be to discuss possible objectives for BUA II.
+
+- Corpus and Digital Edition: The team discussed the difference between corpora and digital editions and agreed that corpora consist of plain text with no changes or corrections, whereas digital editions process the texts, adding scholarly corrections or commentaries. Moreover, using the term 'edition' gives value to the scholarly and editorial work that has been done. Considering this and also the fact that a clear distinction is not always possible, we have decided to mainly consider the self-description of the project. 
+
+- Questionnaire: We have scheduled a meeting with the first interviewee next Friday at 10:15 AM. Xenia will meet with Theo to plan the interview.
+
+- Archiving our website – GND has a long-term website archiving project, so we could alternatively use it for this purpose. Regarding the Wayback Machine API, Theo has already set it up with a GitHub action that sends our website to the archive once a month. However, the problem to solve now is how to create a static version for the archive while simultaneously offering the dynamic one for the user. One solution could be to set different URLs. We should also create a new data point in the schema informing whether the website is indexed by the Wayback Machine.
+
+- Conf. on Open Research by SC 3: we are considering the participation. 
+
+- Roll-up: since we don’t have a logo, we can use a picture instead. An idea could be to use an image of a cooper engraving, since they look good also with a poor resolution. Some good examples can be found in the [Graphikportal]( https://www.graphikportal.org/) or the in the collection of digitalized imaged of the [SUB Hamburg]( https://digitalisate.sub.uni-hamburg.de/).
+
+- Next meeting: Friday, 26.01 at 10:15#.
+
+
 ## 2023-12-22
 
 **Time**: 10:30–11:30 (Berlin)
