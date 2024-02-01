@@ -157,44 +157,36 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          "HTML",
-          "Markdown"
+          { "label": "HTML", "stage": "refined", "licensing": [], "open_access": 0 },
+          { "label": "Markdown", "stage": "refined", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
-          "GitHub"
+          {
+            "label": "GitHub",
+            "accessibility": "private",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
         ]
       }
     },
     "stack": {
       "database": [],
-      "backend": [],
+      "backend": ["Python"],
       "frontend": [],
       "tools": [
-        "AraBERT",
-        "CAMeL"
+        { "label": "AraBERT", "self_developed": false, "ref": ["https://github.com/CAMeL-Lab/camel_tools"], "description": "" },
+        { "label": "CAMeL Tools", "self_developed": false, "ref": ["https://github.com/CAMeL-Lab/camel_tools"], "description": "" }
       ],
-      "languages": [
-        "Python"
-      ]
+      "languages": ["Python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "computational_text_analysis",
