@@ -75,29 +75,34 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
+      "publications": { "open_access": 100, "licensing": [] },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          { "label": "JSON", "stage": "final", "licensing": [], "open_access": 100 },
+          { "label": "geoJSON", "stage": "final", "licensing": [], "open_access": 100 }
+        ],
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": ["https://github.com/althurayya"],
+            "licensing": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
-      "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "database": ["JSON"],
+      "backend": ["Python"],
+      "frontend": ["D3", "Leaflet"],
+      "tools": [
+        { "label": "QGIS", "self_developed": false, "ref": ["https://www.qgis.org/de/site/"], "description": "" }
+      ],
+      "languages":["JS", "Python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["geodata", "geography", "islamic_studies", "visualization"],
     "comment": ""
   }
-}
+} 

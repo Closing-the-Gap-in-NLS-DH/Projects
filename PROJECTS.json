@@ -447,6 +447,10 @@
     "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
     "path": "/PROJECTS/open_iti_aocp/"
   },
+  "d1d73911-81dc-4a65-bf1b-162f7fb2e84e": {
+    "title": "OpenITI_NgramReader",
+    "path": "/PROJECTS/open_iti_ngram_reader/"
+  },
   "3e56a148-845f-4a39-a7d4-c05c75cabd31": {
     "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
     "path": "/PROJECTS/oracc/"
