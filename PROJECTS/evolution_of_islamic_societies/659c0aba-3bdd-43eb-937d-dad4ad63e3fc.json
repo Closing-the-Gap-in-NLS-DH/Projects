@@ -140,6 +140,11 @@
         "relation_type": "cooperation",
         "title": "Open Islamicate Texts Initiative",
         "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "OpenITI_NgramReader",
+        "uuid": "d1d73911-81dc-4a65-bf1b-162f7fb2e84e"
       }
     ],
     "contacts": [
@@ -157,13 +162,28 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "HTML", "stage": "refined", "licensing": [], "open_access": 0 },
-          { "label": "Markdown", "stage": "refined", "licensing": [], "open_access": 0 }
+          {
+            "label": "HTML",
+            "stage": "refined",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "Markdown",
+            "stage": "refined",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -178,15 +198,38 @@
     },
     "stack": {
       "database": [],
-      "backend": ["Python"],
+      "backend": [
+        "Python"
+      ],
       "frontend": [],
       "tools": [
-        { "label": "AraBERT", "self_developed": false, "ref": ["https://github.com/CAMeL-Lab/camel_tools"], "description": "" },
-        { "label": "CAMeL Tools", "self_developed": false, "ref": ["https://github.com/CAMeL-Lab/camel_tools"], "description": "" }
+        {
+          "label": "AraBERT",
+          "self_developed": false,
+          "ref": [
+            "https://github.com/CAMeL-Lab/camel_tools"
+          ],
+          "description": ""
+        },
+        {
+          "label": "CAMeL Tools",
+          "self_developed": false,
+          "ref": [
+            "https://github.com/CAMeL-Lab/camel_tools"
+          ],
+          "description": ""
+        }
       ],
-      "languages": ["Python"]
+      "languages": [
+        "Python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "computational_text_analysis",

@@ -161,6 +161,11 @@
         "relation_type": "cooperation",
         "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
         "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "OpenITI_NgramReader",
+        "uuid": "d1d73911-81dc-4a65-bf1b-162f7fb2e84e"
       }
     ],
     "contacts": [
