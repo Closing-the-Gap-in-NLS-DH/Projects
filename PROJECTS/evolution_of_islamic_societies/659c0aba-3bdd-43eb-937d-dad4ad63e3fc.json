@@ -27,7 +27,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -35,7 +37,9 @@
         }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -46,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -129,6 +135,11 @@
         "relation_type": "sibling",
         "title": "Corpus dei Manoscritti Copti Letterari",
         "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Open Islamicate Texts Initiative",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
       }
     ],
     "contacts": [
@@ -137,30 +148,46 @@
           "text": "Romanov, Maxim",
           "ref": []
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [""]
+        "licensing": [
+          ""
+        ]
       },
       "data": {
-        "datatypes": ["HTML", "Markdown"],
-        "repositories": ["GitHub"]
+        "datatypes": [
+          "HTML",
+          "Markdown"
+        ],
+        "repositories": [
+          "GitHub"
+        ]
       }
     },
     "stack": {
       "database": [],
       "backend": [],
       "frontend": [],
-      "tools": ["AraBERT", "CAMeL"],
-      "languages": ["Python"]
+      "tools": [
+        "AraBERT",
+        "CAMeL"
+      ],
+      "languages": [
+        "Python"
+      ]
     },
     "policies": [
       {
