@@ -78,8 +78,18 @@
       "publications": { "open_access": 100, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "JSON", "stage": "final", "licensing": [], "open_access": 100 },
-          { "label": "geoJSON", "stage": "final", "licensing": [], "open_access": 100 }
+          {
+            "label": "JSON",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          },
+          {
+            "label": "geoJSON",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          }
         ],
         "repositories": [
           {
@@ -97,12 +107,17 @@
       "backend": ["Python"],
       "frontend": ["D3", "Leaflet"],
       "tools": [
-        { "label": "QGIS", "self_developed": false, "ref": ["https://www.qgis.org/de/site/"], "description": "" }
+        {
+          "label": "QGIS",
+          "self_developed": false,
+          "ref": ["https://www.qgis.org/de/site/"],
+          "description": ""
+        }
       ],
-      "languages":["JS", "Python"]
+      "languages": ["JS", "Python"]
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": ["geodata", "geography", "islamic_studies", "visualization"],
     "comment": ""
   }
-} 
+}
