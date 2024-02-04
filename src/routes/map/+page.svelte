@@ -7,8 +7,8 @@
 	import 'leaflet/dist/leaflet.css';
 
 	// First-party
-	import { entries } from '$lib/stores.svelte';
-	import { fetchList, filterPlaces, fetchEntries } from '$lib/utils.svelte';
+	import { filterPlaces } from '$lib/utils.svelte';
+	import entriesRaw from '../../data/ENTRIES.json';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
 	interface ProjectLink {
@@ -24,11 +24,6 @@
 
 	let mapElement: HTMLElement;
 	let map: Map;
-
-	let entriesValue: [string, JsonStuff][];
-	entries.subscribe((value) => {
-		entriesValue = value;
-	});
 
 	const jsonUrlPrefix =
 		'https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/blob/master/PROJECTS/';
@@ -51,21 +46,12 @@
 		}).addTo(map);
 
 		//
-		// Fetch project data if necessary
-		//
-
-		const [count, listData] = await fetchList();
-
-		if (entriesValue.length !== count) {
-			const freshEntries = await fetchEntries(listData);
-			entries.set(freshEntries);
-		}
-
-		//
 		// Generate map of places to projects
 		//
 
-		for (const [url, data] of entriesValue) {
+		const entries = entriesRaw as [string, JsonStuff][];
+
+		for (const [url, data] of entries) {
 			const places = filterPlaces(data.project.places);
 			const jsonUrl = `${jsonUrlPrefix}${url.split('/PROJECTS/')[1]}`;
 
@@ -140,7 +126,7 @@
 		}
 	});
 
-	onDestroy(async () => {
+	onDestroy(() => {
 		if (map) {
 			map.remove();
 		}

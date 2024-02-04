@@ -3,11 +3,6 @@
 	import type { Writable } from 'svelte/store';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
-	export const entries: Writable<[string, JsonStuff][]> = writable([]);
-	export const keywordsCats: Writable<Record<string, string[]>> = writable({});
-	export const keywordsMap: Writable<Record<string, string[]>> = writable({});
-	export const languagesMap: Writable<Record<string, string[]>> = writable({});
-
 	export const searchTerm: Writable<string> = writable('');
 	export const selectedTab: Writable<string> = writable('search');
 	export const selectedTerms: Writable<Set<string>> = writable(new Set());

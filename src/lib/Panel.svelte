@@ -1,13 +1,7 @@
 <script lang="ts">
-	import {
-		entries,
-		searchTerm,
-		selectedEntries,
-		selectedTab,
-		selectedTerms
-	} from '$lib/stores.svelte';
-
+	import { searchTerm, selectedEntries, selectedTab, selectedTerms } from '$lib/stores.svelte';
 	import { langNames } from '$lib/lang-names.svelte';
+	import entriesRaw from '../data/ENTRIES.json';
 
 	import { searchEntries, resetHash, updateHash } from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
@@ -15,15 +9,11 @@
 	export let keywordsCategorized: Record<string, string[]>;
 	export let languages: string[];
 
-	let entriesValue: [string, JsonStuff][] = [];
+	const entries = entriesRaw as [string, JsonStuff][];
 	let searchTermValue: string;
 
 	let selectedTabValue: string;
 	let selectedTermsValue: Set<string>;
-
-	entries.subscribe((value) => {
-		entriesValue = value;
-	});
 
 	searchTerm.subscribe((value) => {
 		searchTermValue = value;
@@ -44,7 +34,7 @@
 
 		debounce = setTimeout(() => {
 			searchTerm.set(searchTermValue);
-			const matchingEntries = searchEntries(entriesValue, searchTermValue);
+			const matchingEntries = searchEntries(entries, searchTermValue);
 			selectedEntries.set(matchingEntries);
 		}, 500);
 	}

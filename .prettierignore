@@ -1,6 +1,6 @@
 /.svelte-kit/
 /build/
-/static/archive/
+/src/data/
 node_modules/
 .DS_Store
 pnpm-lock.yaml

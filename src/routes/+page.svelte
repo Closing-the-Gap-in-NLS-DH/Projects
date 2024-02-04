@@ -1,22 +1,11 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { afterNavigate } from '$app/navigation';
 
-	import {
-		entries,
-		keywordsCats,
-		keywordsMap,
-		languagesMap,
-		searchTerm,
-		selectedEntries,
-		selectedTab,
-		selectedTerms
-	} from '$lib/stores.svelte';
+	import { searchTerm, selectedEntries, selectedTab, selectedTerms } from '$lib/stores.svelte';
+	import entriesRaw from '../data/ENTRIES.json';
 
 	import {
 		fetchCategories,
-		fetchEntries,
-		fetchList,
 		filterPlaces,
 		getKeywords,
 		getLanguages,
@@ -29,32 +18,18 @@
 	import Card from '$lib/Card.svelte';
 	import Panel from '$lib/Panel.svelte';
 
-	let entriesValue: [string, JsonStuff][];
-	let keywordsCatsValue: Record<string, string[]>;
-	let keywordsMapValue: Record<string, string[]>;
-	let languagesMapValue: Record<string, string[]>;
+	const entries = entriesRaw as [string, JsonStuff][];
+	const keywordsMap = getKeywords(entriesRaw as [string, JsonStuff][]);
+	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
+	const languagesMapValue: Record<string, string[]> = getLanguages(
+		entriesRaw as [string, JsonStuff][]
+	);
 
 	let searchTermValue: string;
 	let selectedEntriesValue: [string, JsonStuff][];
 
 	let selectedTabValue: string;
 	let selectedTermsValue: Set<string>;
-
-	entries.subscribe((value) => {
-		entriesValue = value;
-	});
-
-	keywordsCats.subscribe((value) => {
-		keywordsCatsValue = value;
-	});
-
-	keywordsMap.subscribe((value) => {
-		keywordsMapValue = value;
-	});
-
-	languagesMap.subscribe((value) => {
-		languagesMapValue = value;
-	});
 
 	searchTerm.subscribe((value) => {
 		searchTermValue = value;
@@ -92,7 +67,7 @@
 			return entries;
 		}
 
-		const map = selectedTab === 'keywords' ? keywordsMapValue : languagesMapValue;
+		const map = selectedTab === 'keywords' ? keywordsMap : languagesMapValue;
 
 		// Race condition: map might not be populated yet
 		// Function will run again
@@ -123,25 +98,9 @@
 		return entries.filter(([url]) => matches.includes(url));
 	}
 
-	$: filtered = filterEntries(entriesValue, searchTermValue, selectedTabValue, selectedTermsValue);
+	$: filtered = filterEntries(entries, searchTermValue, selectedTabValue, selectedTermsValue);
 
 	afterNavigate(handleHash);
-
-	onMount(async () => {
-		const [count, listData] = await fetchList();
-
-		if (entriesValue.length !== count) {
-			const freshEntries = await fetchEntries(listData);
-			const freshKeywords = getKeywords(freshEntries);
-			const freshKeywordCats = await fetchCategories(freshKeywords);
-			const freshLanguages = getLanguages(freshEntries);
-
-			entries.set(freshEntries);
-			keywordsMap.set(freshKeywords);
-			keywordsCats.set(freshKeywordCats);
-			languagesMap.set(freshLanguages);
-		}
-	});
 </script>
 
 <svelte:window on:hashchange={handleHash} />
@@ -152,10 +111,10 @@
 </svelte:head>
 
 <div class="mx-auto max-w-[76rem] px-4">
-	<Panel keywordsCategorized={keywordsCatsValue} {languages} />
+	<Panel keywordsCategorized={keywordCats} {languages} />
 
 	<p class="mb-3.5 text-center text-lg font-normal text-gray-50">
-		{#if entriesValue.length === 0}
+		{#if entries.length === 0}
 			Loading…
 		{:else}
 			<code>{filtered.length}</code>

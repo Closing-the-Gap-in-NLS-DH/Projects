@@ -2,13 +2,9 @@
 	import { onMount } from 'svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 	import type { PlaceData, DateRange, Institution, RelatedEntity, Contact } from './types.svelte';
-	import { fetchEntries, fetchList } from '$lib/utils.svelte';
-	import { entries } from '$lib/stores.svelte';
 
-	let entriesValue: [string, JsonStuff][];
-	entries.subscribe((value) => {
-		entriesValue = value;
-	});
+	import projectsRaw from '../../data/PROJECTS.json';
+	import entriesRaw from '../../data/ENTRIES.json';
 
 	let title = '';
 	let places: PlaceData[] = [];
@@ -29,27 +25,23 @@
 
 	let loading = true;
 
-	onMount(async () => {
+	onMount(() => {
 		// Do we even have a hash? If not, redirect upward
 		const hash = window.location.hash;
 		if (!hash || hash.length < 2) window.location.href = '..';
 
 		// Ensure we have list of projects
-		const [count, listData] = await fetchList();
+		const listData = projectsRaw as Record<string, Record<string, string>>;
 
 		// Ensure hash points to an actual project ID; else redirect upward
 		const id = hash.slice(1);
 		const selectedProj = listData[id];
 		if (!selectedProj) window.location.href = '..';
 
-		// Assuming all is ok, we will need the project entries themselves
-		if (entriesValue.length !== count) {
-			const freshEntries = await fetchEntries(listData);
-			entries.set(freshEntries);
-		}
+		const entries = entriesRaw as [string, JsonStuff][];
 
 		// Find the relevant project data
-		const selectedEntry = entriesValue.find(
+		const selectedEntry = entries.find(
 			([url]) =>
 				url ===
 				`https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master${selectedProj.path}${id}.json`

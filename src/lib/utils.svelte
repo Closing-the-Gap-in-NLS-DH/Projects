@@ -1,84 +1,26 @@
 <script lang="ts" context="module">
 	import { searchTerm, selectedTab, selectedTerms } from '$lib/stores.svelte';
-	import { PUBLIC_CTG_ARCHIVE } from '$env/static/public';
-
-	interface Listing {
-		title: string;
-		path: string;
-	}
-
-	const useArchive = PUBLIC_CTG_ARCHIVE.toLowerCase() === 'true';
-	const urlPrefix = useArchive
-		? '/Closing-The-Gap-In-Non-Latin-Script-Data/archive'
-		: 'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
+	import keywordsRaw from '../data/KEYWORDS.json';
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	export type JsonStuff = Record<string, any>;
 
-	export async function fetchCategories(
-		keywordsMap: Record<string, string[]>
-	): Promise<Record<string, string[]>> {
+	export function fetchCategories(keywordsMap: Record<string, string[]>): Record<string, string[]> {
 		const usedKeys = Object.keys(keywordsMap);
 
-		const res = await fetch(`${urlPrefix}/KEYWORDS/KEYWORDS.json`);
-		const categorizedKeys: Record<string, string[]> = await res.json();
+		const allKeys = keywordsRaw as Record<string, string[]>;
 
-		for (const [category, keywords] of Object.entries(categorizedKeys)) {
-			categorizedKeys[category] = keywords.sort();
+		for (const [category, keywords] of Object.entries(allKeys)) {
+			allKeys[category] = keywords.sort();
 
 			for (const keyword of keywords) {
 				if (!usedKeys.includes(keyword)) {
-					categorizedKeys[category] = categorizedKeys[category].filter((i) => i !== keyword);
+					allKeys[category] = allKeys[category].filter((i) => i !== keyword);
 				}
 			}
 		}
 
-		return categorizedKeys;
-	}
-
-	export async function fetchEntries(
-		listData: Record<string, Listing>
-	): Promise<[string, JsonStuff][]> {
-		if (useArchive) {
-			const entriesRes = await fetch(`${urlPrefix}/ENTRIES.json`);
-			const entries: [string, JsonStuff][] = await entriesRes.json();
-			return entries;
-		}
-
-		const listEntries: [string, Listing][] = Object.entries(listData);
-
-		const urls: string[] = [];
-
-		for (const [id, details] of listEntries) {
-			urls.push(`${urlPrefix}${details.path}${id}.json`);
-		}
-
-		let entries: [string, JsonStuff][] = await Promise.all(
-			urls.map(async (url) => {
-				const response = await fetch(url);
-				const data = await response.json();
-				return [url, data];
-			})
-		);
-
-		entries = entries.sort((a, b) => sortTitles(a[1], b[1]));
-
-		return entries;
-	}
-
-	export async function fetchList(): Promise<[number, Record<string, Listing>]> {
-		const listResponse = await fetch(`${urlPrefix}/PROJECTS.json`);
-
-		const listData: Record<string, Listing> = await listResponse.json();
-		const count = Object.keys(listData).length;
-
-		return [count, listData];
-	}
-
-	export async function fetchTemplate(): Promise<Record<string, unknown>> {
-		const res = await fetch(`${urlPrefix}/TEMPLATES/project.json`);
-		const template: Record<string, unknown> = await res.json();
-		return template;
+		return allKeys;
 	}
 
 	export function filterPlaces(places: JsonStuff[]): JsonStuff[] {
@@ -208,17 +150,6 @@
 		}
 
 		return matches;
-	}
-
-	function sortTitles(a: JsonStuff, b: JsonStuff): 1 | -1 | 0 {
-		const aTitle = a.project.title.toLowerCase();
-		const bTitle = b.project.title.toLowerCase();
-
-		if (aTitle > bTitle) {
-			return 1;
-		} else if (aTitle < bTitle) {
-			return -1;
-		} else return 0;
 	}
 
 	export function updateHash(type: string, term: string) {

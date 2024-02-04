@@ -1,5 +1,5 @@
 //
-// Project title sort function (copied from utils.svelte)
+// Project title sort function
 //
 
 function sortTitles(a: Record<string, unknown>, b: Record<string, unknown>): 1 | -1 | 0 {
@@ -27,7 +27,7 @@ const templateRes = await fetch(
 	'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/TEMPLATES/project.json'
 );
 const template = await templateRes.json();
-await Deno.writeTextFile('./static/archive/TEMPLATES/project.json', JSON.stringify(template));
+await Deno.writeTextFile('./src/data/TEMPLATES/project.json', JSON.stringify(template));
 
 //
 // Fetch and save keywords
@@ -37,7 +37,7 @@ const keywordsRes = await fetch(
 	'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/KEYWORDS/KEYWORDS.json'
 );
 const keywords: Record<string, string[]> = await keywordsRes.json();
-await Deno.writeTextFile('./static/archive/KEYWORDS/KEYWORDS.json', JSON.stringify(keywords));
+await Deno.writeTextFile('./src/data/KEYWORDS.json', JSON.stringify(keywords));
 
 //
 // Fetch and save list of projects
@@ -47,7 +47,7 @@ const projectsRes = await fetch(
 	'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json'
 );
 const projects: Record<string, Record<string, string>> = await projectsRes.json();
-await Deno.writeTextFile('./static/archive/PROJECTS.json', JSON.stringify(projects));
+await Deno.writeTextFile('./src/data/PROJECTS.json', JSON.stringify(projects));
 
 //
 // Fetch project entries and build collection
@@ -72,10 +72,10 @@ let entries: [string, Record<string, unknown>][] = await Promise.all(
 
 entries = entries.sort((a, b) => sortTitles(a[1], b[1]));
 
-await Deno.writeTextFile('./static/archive/ENTRIES.json', JSON.stringify(entries));
+await Deno.writeTextFile('./src/data/ENTRIES.json', JSON.stringify(entries));
 
 //
 // Record time of last archive
 //
 
-await Deno.writeTextFile('./static/archive/generated.txt', new Date().toUTCString());
+await Deno.writeTextFile('./src/data/generated.txt', new Date().toUTCString());

@@ -1,17 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	import { entries } from '$lib/stores.svelte';
-	import { fetchList, fetchEntries } from '$lib/utils.svelte';
-
 	import type { JsonStuff } from '$lib/utils.svelte';
+	import entriesRaw from '../../data/ENTRIES.json';
 
-	let entriesValue: [string, JsonStuff][];
-	entries.subscribe((value) => {
-		entriesValue = value;
-	});
+	const entries = entriesRaw as [string, JsonStuff][];
 
-	$: entriesFiltered = entriesValue.filter(
+	$: entriesFiltered = entries.filter(
 		([, entry]) => entry.project.date[0].from && entry.project.date[0].to
 	);
 
@@ -57,19 +50,6 @@
 		const suffix = url.split('/PROJECTS/')[1];
 		return prefix + suffix;
 	}
-
-	onMount(async () => {
-		//
-		// Fetch project data if necessary
-		//
-
-		const [count, listData] = await fetchList();
-
-		if (entriesValue.length !== count) {
-			const freshEntries = await fetchEntries(listData);
-			entries.set(freshEntries);
-		}
-	});
 </script>
 
 <svelte:head>

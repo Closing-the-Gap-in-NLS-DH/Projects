@@ -11,6 +11,9 @@ const config = {
 		adapter: staticAdapter(),
 		paths: {
 			base: '/Closing-The-Gap-In-Non-Latin-Script-Data'
+		},
+		prerender: {
+			handleMissingId: 'ignore'
 		}
 	}
 };

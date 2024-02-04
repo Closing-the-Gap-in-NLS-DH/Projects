@@ -1,7 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { v4 as uuidv4 } from 'uuid';
-	import { fetchTemplate } from '$lib/utils.svelte';
+	import template from '../../data/TEMPLATES/project.json';
 
 	// Form state
 	let entityType: 'project' | 'organization' = 'project';
@@ -20,9 +19,6 @@
 	let contactWebsite = '';
 	let sourceLangs = '';
 	let keywords = '';
-
-	// JSON template (defined below in onMount)
-	let template: Record<string, unknown>;
 
 	$: validInput = !!(
 		creator &&
@@ -152,10 +148,6 @@
 
 		return [uuid, generated];
 	}
-
-	onMount(async () => {
-		template = await fetchTemplate();
-	});
 </script>
 
 <svelte:head>
