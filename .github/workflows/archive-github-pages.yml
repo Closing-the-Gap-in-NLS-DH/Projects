@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "20 4 1 * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Run without actually submitting URL
+        type: boolean
 
 jobs:
   archive:
@@ -12,8 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: caltechlibrary/waystation@main
+      - uses: caltechlibrary/waystation@v1.8
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           debug: true
-          dry_run: false
+          dry_run: ${{github.event.inputs.dry_run || false}}
