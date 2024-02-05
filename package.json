@@ -4,7 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"archive": "deno run --allow-net --allow-write archive-data.ts",
+		"archive": "deno run --allow-net --allow-write deno/archive_data.ts",
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -12,7 +12,8 @@
 		"dev": "vite dev",
 		"format": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --write .",
 		"lint": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --check . && eslint .",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"test": "deno test --allow-read deno/date_test.ts"
 	},
 	"dependencies": {
 		"leaflet": "^1.9.4",
