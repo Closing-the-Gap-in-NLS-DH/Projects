@@ -1,0 +1,29 @@
+name: Ensure website is up to date
+
+on:
+  push:
+    branches:
+      - frontend
+  schedule:
+    - cron: "9 6 * * 3"
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Verify data freshness
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: frontend
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Run test
+        run: deno test --allow-read deno/date_test.ts
