@@ -21,9 +21,7 @@
 	const entries = entriesRaw as [string, JsonStuff][];
 	const keywordsMap = getKeywords(entriesRaw as [string, JsonStuff][]);
 	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
-	const languagesMapValue: Record<string, string[]> = getLanguages(
-		entriesRaw as [string, JsonStuff][]
-	);
+	const languagesMap: Record<string, string[]> = getLanguages(entriesRaw as [string, JsonStuff][]);
 
 	let searchTermValue: string;
 	let selectedEntriesValue: [string, JsonStuff][];
@@ -47,7 +45,7 @@
 		selectedTermsValue = value;
 	});
 
-	$: languages = Object.keys(languagesMapValue).sort();
+	$: languages = Object.keys(languagesMap).sort();
 
 	function filterEntries(
 		entries: [string, JsonStuff][],
@@ -67,7 +65,7 @@
 			return entries;
 		}
 
-		const map = selectedTab === 'keywords' ? keywordsMap : languagesMapValue;
+		const map = selectedTab === 'keywords' ? keywordsMap : languagesMap;
 
 		// Race condition: map might not be populated yet
 		// Function will run again
@@ -114,12 +112,8 @@
 	<Panel keywordsCategorized={keywordCats} {languages} />
 
 	<p class="mb-3.5 text-center text-lg font-normal text-gray-50">
-		{#if entries.length === 0}
-			Loading…
-		{:else}
-			<code>{filtered.length}</code>
-			{filtered.length === 1 ? 'item' : 'items'}
-		{/if}
+		<code>{filtered.length}</code>
+		{filtered.length === 1 ? 'item' : 'items'}
 	</p>
 
 	<div class="flex flex-wrap justify-center gap-4 lg:justify-start">

@@ -57,62 +57,57 @@
 </svelte:head>
 
 <div class="mx-auto max-w-[76rem] px-4">
-	{#if entriesFiltered.length === 0}
-		<p class="text-center text-lg font-normal text-gray-50">Loading…</p>
-	{:else}
-		<table class="mx-auto w-full table-auto border-separate border-spacing-0 bg-ctgtan">
-			<thead class="sticky top-0">
-				<tr class="border-b border-slate-800">
-					<th class="border-b border-r border-slate-800">Project title</th>
-					{#each years as year, i}
-						{#if i === years.length - 1}
-							<th class="border-b border-slate-800 px-1 py-1.5 text-sm">’{year.slice(-2)}</th>
-						{:else}
-							<th class="border-b border-r border-slate-800 px-1 py-1.5 text-sm"
-								>’{year.slice(-2)}</th
-							>
-						{/if}
-					{/each}
-				</tr>
-			</thead>
-
-			<tbody>
-				{#each entriesFiltered as [url, entry], i}
-					<tr>
-						{#if i === entriesFiltered.length - 1}
-							<td class="border-r border-slate-800 px-2 py-0.5"
-								>{truncateTitle(entry.project.title)}</td
-							>
-
-							{#each years as year, j}
-								{#if fundedYear(Number(year), entry)}
-									<td class="bg-slate-800" />
-								{:else if j === years.length - 1}
-									<td />
-								{:else}
-									<td class="border-r border-slate-800/25" />
-								{/if}
-							{/each}
-						{:else}
-							<td class="border-b border-r border-slate-800 px-2 py-0.5"
-								><a href={fixUrl(url)} target="_blank" rel="noreferrer"
-									>{truncateTitle(entry.project.title)}</a
-								></td
-							>
-
-							{#each years as year, j}
-								{#if fundedYear(Number(year), entry)}
-									<td class="bg-slate-800" />
-								{:else if j === years.length - 1}
-									<td class="border-b border-slate-800/25" />
-								{:else}
-									<td class="border-b border-r border-slate-800/25" />
-								{/if}
-							{/each}
-						{/if}
-					</tr>
+	<table class="mx-auto w-full table-auto border-separate border-spacing-0 bg-ctgtan">
+		<thead class="sticky top-0">
+			<tr class="border-b border-slate-800">
+				<th class="border-b border-r border-slate-800">Project title</th>
+				{#each years as year, i}
+					{#if i === years.length - 1}
+						<th class="border-b border-slate-800 px-1 py-1.5 text-sm">’{year.slice(-2)}</th>
+					{:else}
+						<th class="border-b border-r border-slate-800 px-1 py-1.5 text-sm">’{year.slice(-2)}</th
+						>
+					{/if}
 				{/each}
-			</tbody>
-		</table>
-	{/if}
+			</tr>
+		</thead>
+
+		<tbody>
+			{#each entriesFiltered as [url, entry], i}
+				<tr>
+					{#if i === entriesFiltered.length - 1}
+						<td class="border-r border-slate-800 px-2 py-0.5"
+							>{truncateTitle(entry.project.title)}</td
+						>
+
+						{#each years as year, j}
+							{#if fundedYear(Number(year), entry)}
+								<td class="bg-slate-800" />
+							{:else if j === years.length - 1}
+								<td />
+							{:else}
+								<td class="border-r border-slate-800/25" />
+							{/if}
+						{/each}
+					{:else}
+						<td class="border-b border-r border-slate-800 px-2 py-0.5"
+							><a href={fixUrl(url)} target="_blank" rel="noreferrer"
+								>{truncateTitle(entry.project.title)}</a
+							></td
+						>
+
+						{#each years as year, j}
+							{#if fundedYear(Number(year), entry)}
+								<td class="bg-slate-800" />
+							{:else if j === years.length - 1}
+								<td class="border-b border-slate-800/25" />
+							{:else}
+								<td class="border-b border-r border-slate-800/25" />
+							{/if}
+						{/each}
+					{/if}
+				</tr>
+			{/each}
+		</tbody>
+	</table>
 </div>
