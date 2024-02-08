@@ -90,7 +90,7 @@
 			<ul class="mb-3 ml-4 list-disc">
 				{#each periods as period}
 					<li>
-						{period.from.slice(0, 4)} – {period.to.slice(0, 4)}
+						{period.from.slice(0, 4)}&thinsp;–&thinsp;{period.to.slice(0, 4)}
 					</li>
 				{/each}
 			</ul>
@@ -109,6 +109,7 @@
 					</li>
 				{/each}
 			</ul>
+			<hr class="mb-3 border-ctgblue" />
 			<p class="mb-1 font-normal">{entityCap} working languages:</p>
 			<ul class="mb-3 ml-4 list-disc">
 				{#each langs as lang}
@@ -127,18 +128,24 @@
 					<li>{keyword}</li>
 				{/each}
 			</ul>
+			<hr class="mb-3 border-ctgblue" />
 			<p class="mb-3">
 				<span class="font-normal">Link to JSON record:</span>
-				<a href={jsonLink} target="_blank" rel="noreferrer" class="hover:underline">{jsonLink}</a>
+				<a href={jsonLink} target="_blank" rel="noreferrer" class="break-words hover:underline"
+					>{jsonLink}</a
+				>
 			</p>
 			<p class="mb-1 font-normal">Links to {entityType} websites:</p>
 			<ul class="mb-3 ml-4 list-disc">
 				{#each websites as website}
 					<li>
-						<a href={website} target="_blank" rel="noreferrer" class="hover:underline">{website}</a>
+						<a href={website} target="_blank" rel="noreferrer" class="break-words hover:underline"
+							>{website}</a
+						>
 					</li>
 				{/each}
 			</ul>
+			<hr class="mb-3 border-ctgblue" />
 			<p class="mb-1 font-normal">Related institutions:</p>
 			<ul class="mb-3 ml-4 list-disc">
 				{#each relatedInsts as inst}
@@ -164,6 +171,7 @@
 					{/each}
 				{/if}
 			</ul>
+			<hr class="mb-3 border-ctgblue" />
 			<p class="mb-1 font-normal">{entityCap} contacts:</p>
 			<ul class="ml-4 list-disc">
 				{#each contacts as contact}
