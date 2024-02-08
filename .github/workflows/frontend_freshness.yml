@@ -5,7 +5,7 @@ on:
     branches:
       - frontend
   schedule:
-    - cron: "9 6 * * 3"
+    - cron: "9 6 * * 1,4"
   workflow_dispatch:
 
 jobs:
