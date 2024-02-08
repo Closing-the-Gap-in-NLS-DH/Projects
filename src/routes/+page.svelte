@@ -19,28 +19,26 @@
 	import Panel from '$lib/Panel.svelte';
 
 	const entries = entriesRaw as [string, JsonStuff][];
-	const keywordsMap = getKeywords(entriesRaw as [string, JsonStuff][]);
+	const keywordsMap = getKeywords(entries);
 	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
-	const languagesMap: Record<string, string[]> = getLanguages(entriesRaw as [string, JsonStuff][]);
+	const languagesMap: Record<string, string[]> = getLanguages(entries);
 
 	let searchTermValue: string;
-	let selectedEntriesValue: [string, JsonStuff][];
-
-	let selectedTabValue: string;
-	let selectedTermsValue: Set<string>;
-
 	searchTerm.subscribe((value) => {
 		searchTermValue = value;
 	});
 
+	let selectedEntriesValue: [string, JsonStuff][];
 	selectedEntries.subscribe((value) => {
 		selectedEntriesValue = value;
 	});
 
+	let selectedTabValue: string;
 	selectedTab.subscribe((value) => {
 		selectedTabValue = value;
 	});
 
+	let selectedTermsValue: Set<string>;
 	selectedTerms.subscribe((value) => {
 		selectedTermsValue = value;
 	});
@@ -56,9 +54,9 @@
 		if (selectedTab === 'search') {
 			if (searchTerm) {
 				return selectedEntriesValue;
-			} else {
-				return entries;
 			}
+
+			return entries;
 		}
 
 		if (selectedTerms.size === 0) {
@@ -66,12 +64,6 @@
 		}
 
 		const map = selectedTab === 'keywords' ? keywordsMap : languagesMap;
-
-		// Race condition: map might not be populated yet
-		// Function will run again
-		if (Object.keys(map).length === 0) {
-			return entries;
-		}
 
 		let matches: string[] = [];
 		let firstIteration = true;

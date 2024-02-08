@@ -30,7 +30,6 @@
 		const hash = window.location.hash;
 		if (!hash || hash.length < 2) window.location.href = '..';
 
-		// Ensure we have list of projects
 		const listData = projectsRaw as Record<string, Record<string, string>>;
 
 		// Ensure hash points to an actual project ID; else redirect upward
