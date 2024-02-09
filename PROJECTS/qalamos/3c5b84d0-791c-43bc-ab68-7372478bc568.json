@@ -13,8 +13,8 @@
     "ref": [],
     "date": [
       {
-        "from": "2020",
-        "to": "2023"
+        "from": "2023",
+        "to": "2026"
       }
     ],
     "maintained": true,
@@ -42,6 +42,16 @@
         "coordinates": {
           "lat": "52.52437",
           "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "München",
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
         }
       }
     ],
@@ -102,19 +112,17 @@
     ],
     "research_data": {
       "lang": ["ara", "fas", "tur"],
-      "sustainability_plan": null,
+      "sustainability_plan": true,
       "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 },
-          { "label": "", "stage": "refined", "licensing": [], "open_access": 0 },
-          { "label": "", "stage": "final", "licensing": [], "open_access": 0 }
+          { "label": "XML", "stage": "final", "licensing": ["CC0"], "open_access": 100 }        
         ],
         "repositories": [
           {
-            "label": "",
+            "label": "GitHub",
             "accessibility": "public",
-            "ref": [],
+            "ref": ["https://git.sc.uni-leipzig.de/mycore_applications"],
             "licensing": [],
             "description": ""
           }
@@ -122,16 +130,18 @@
       }
     },
     "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
+      "database": ["XML"],
+      "backend": ["Solr", "MyCoRe", "Neo4J"],
+      "frontend": ["MyCoRe, HTML", "JS"],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        { "label": "MyCoRe", "self_developed": false, "ref": ["https://www.mycore.de/"], "description": "Used as a repository framework" },
+        { "label": "Solr", "self_developed": false, "ref": ["https://solr.apache.org/"], "description": "Used for indexation and data querying" },
+        { "label": "Transliteration tool", "self_developed": true, "ref": [], "description": "Automatic transliteration of Arabic script"}
       ],
-      "languages": []
+      "languages": ["JS", "Java"]
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": ["catalog", "digital_preservation", "manuscript"],
-    "comment": ""
+    "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
   }
 }
