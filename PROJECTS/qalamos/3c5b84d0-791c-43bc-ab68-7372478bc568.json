@@ -58,20 +58,35 @@
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": { "text": "Staatsbibliothek zu Berlin", "ref": ["https://ror.org/02ysgg478",
-        "https://www.wikidata.org/wiki/Q170109"] },
+        "org_name": {
+          "text": "Staatsbibliothek zu Berlin",
+          "ref": [
+            "https://ror.org/02ysgg478",
+            "https://www.wikidata.org/wiki/Q170109"
+          ]
+        },
         "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Universität Leipzig", "ref": ["https://ror.org/03s7gtk40",
-        "https://www.wikidata.org/wiki/Q154804"] },
+        "org_name": {
+          "text": "Universität Leipzig",
+          "ref": [
+            "https://ror.org/03s7gtk40",
+            "https://www.wikidata.org/wiki/Q154804"
+          ]
+        },
         "websites": ["https://www.uni-leipzig.de/"]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Bayerische Staatsbibliothek", "ref": ["https://ror.org/031h71w90",
-        "https://www.wikidata.org/wiki/Q256507"] },
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek",
+          "ref": [
+            "https://ror.org/031h71w90",
+            "https://www.wikidata.org/wiki/Q256507"
+          ]
+        },
         "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
@@ -116,7 +131,12 @@
       "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "XML", "stage": "final", "licensing": ["CC0"], "open_access": 100 }        
+          {
+            "label": "XML",
+            "stage": "final",
+            "licensing": ["CC0"],
+            "open_access": 100
+          }
         ],
         "repositories": [
           {
@@ -134,9 +154,24 @@
       "backend": ["Solr", "MyCoRe", "Neo4J"],
       "frontend": ["MyCoRe, HTML", "JS"],
       "tools": [
-        { "label": "MyCoRe", "self_developed": false, "ref": ["https://www.mycore.de/"], "description": "Used as a repository framework" },
-        { "label": "Solr", "self_developed": false, "ref": ["https://solr.apache.org/"], "description": "Used for indexation and data querying" },
-        { "label": "Transliteration tool", "self_developed": true, "ref": [], "description": "Automatic transliteration of Arabic script"}
+        {
+          "label": "MyCoRe",
+          "self_developed": false,
+          "ref": ["https://www.mycore.de/"],
+          "description": "Used as a repository framework"
+        },
+        {
+          "label": "Solr",
+          "self_developed": false,
+          "ref": ["https://solr.apache.org/"],
+          "description": "Used for indexation and data querying"
+        },
+        {
+          "label": "Transliteration tool",
+          "self_developed": true,
+          "ref": [],
+          "description": "Automatic transliteration of Arabic script"
+        }
       ],
       "languages": ["JS", "Java"]
     },
