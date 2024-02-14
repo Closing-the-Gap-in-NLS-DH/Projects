@@ -4,26 +4,22 @@
 
 **Time**: 11:00-12:15 (Berlin)
 
-**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jarod, Xenia Kudela, Jonas Müller-Laackman, 
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jarod, Xenia Kudela, Jonas Müller-Laackman,
 
-- Main topic: Workshop preparation 
--	Structure:
-    -	Prof. Gründler: General introduction form a PI perspective. 
-    - Jonas: General introduction form an infrastructure perspective. 
-    - Theo: Presentation of the project´s infrastructure, technical side, FAIR data, etc. 
-    -	Break
-    -	Xenia: Presentation of the data corpus and possible use cases 
-    -	Last our: unstructured – open discussion 
+- Main topic: Workshop preparation
+- Structure:
+  - Prof. Gründler: General introduction form a PI perspective.
+  - Jonas: General introduction form an infrastructure perspective.
+  - Theo: Presentation of the project´s infrastructure, technical side, FAIR data, etc.
+  - Break
+  - Xenia: Presentation of the data corpus and possible use cases
+  - Last our: unstructured – open discussion
 - Questions: We should prepare a list of questions for the discussion. Possible questions could pertain to the software (e.g., what software was used, was it self-developed, can it be reused by other projects?) or research data management (e.g., where should the data be stored long-term, what are the systemic capabilities of the hosting institution? Could external archives/repositories be utilized, and if so, which ones?).
 - Poster: Since the designer didn't respond, we will bring a poster from the Arabistik department (Theo). However, we should prepare a logo for future workshops.
 - Dinner: Prof. Gründler will take care of the dinner arrangements. We should also invite some of the workshop participants.
 - Streaming: The event could be streamed. If the technology works properly (Jonas), we will send an invitation email to people who could be interested (Xenia).
 - Manuscript viewing: After the workshop, the team will have the opportunity to view some of the manuscripts from the SUB collection. Jonas will contact the person in charge
 - Meeting time: 9 AM at the main door of the SUB
-
-
-
-
 
 ##2024-01-19
 
