@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2018", "to": "" }],
     "maintained": null,
     "websites": [
       "https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
@@ -29,10 +24,7 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
     "lang": ["eng"],
@@ -65,10 +57,7 @@
     "research_data": {
       "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
+      "publications": { "open_access": 0, "licensing": [""] },
       "data": {
         "datatypes": [],
         "repositories": [

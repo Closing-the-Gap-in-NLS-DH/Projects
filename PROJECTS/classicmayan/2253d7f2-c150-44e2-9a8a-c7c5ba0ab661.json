@@ -11,12 +11,7 @@
     "abbr": "Classicmayan",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2014", "to": "" }],
     "maintained": true,
     "websites": [
       "https://classicmayan.org/portal/",
@@ -29,30 +24,21 @@
           "text": "Bonn",
           "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
-        "coordinates": {
-          "lat": "50.73438",
-          "lng": "7.09549"
-        }
+        "coordinates": { "lat": "50.73438", "lng": "7.09549" }
       },
       {
         "place_name": {
           "text": "Düsseldorf",
           "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
         },
-        "coordinates": {
-          "lat": "51.22172",
-          "lng": "6.77616"
-        }
+        "coordinates": { "lat": "51.22172", "lng": "6.77616" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng", "deu", "spa"],
@@ -113,18 +99,10 @@
     "research_data": {
       "lang": ["emy"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -142,21 +120,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "digital_preservation",

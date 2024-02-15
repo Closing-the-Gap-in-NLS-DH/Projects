@@ -11,12 +11,7 @@
     "abbr": "CAB",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": "2030"
-      }
-    ],
+    "date": [{ "from": "2018", "to": "2030" }],
     "maintained": true,
     "websites": [
       "https://cab.geschkult.fu-berlin.de/",
@@ -29,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -96,14 +88,8 @@
     "research_data": {
       "lang": ["ave"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -112,12 +98,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

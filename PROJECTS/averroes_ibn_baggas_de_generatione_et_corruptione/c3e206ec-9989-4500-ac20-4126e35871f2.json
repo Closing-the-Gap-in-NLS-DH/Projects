@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2021" }],
     "maintained": null,
     "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
     "project_desc": "This project focuses on Ibn Bāğğa’s Commentary on Aristotle’s “De generatione et corruption” which, eclipsed by the subsequent commentaries of Averroes, received scant attention, even though the importance of Ibn Bāğğa’s influence on the thought of the latter is undeniable. The objective of the project is a critical edition of Ibn Bāğğa’s commentaries, who not only follows Aristotle but also presents different examples and develops ideas of his own.",
@@ -26,10 +21,7 @@
           "text": "Köln",
           "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
-        "coordinates": {
-          "lat": "50.93333",
-          "lng": "6.95"
-        }
+        "coordinates": { "lat": "50.93333", "lng": "6.95" }
       }
     ],
     "lang": ["eng"],
@@ -71,14 +63,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -87,12 +73,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2013", "to": "" }],
     "maintained": null,
     "websites": [
       "http://ipp.manuscript-cultures.uni-hamburg.de/",
@@ -29,10 +24,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -133,10 +125,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Serpell, Stephen",
-          "ref": []
-        },
+        "pers_name": { "text": "Serpell, Stephen", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/serpell.html"
@@ -146,14 +135,8 @@
     "research_data": {
       "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -162,12 +145,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "art_studies",
       "catalog",
