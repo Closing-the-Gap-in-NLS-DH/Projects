@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023",
-        "to": "2026"
-      }
-    ],
+    "date": [{ "from": "2023", "to": "2026" }],
     "maintained": true,
     "websites": [
       "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-/-profil/projekte/dfg-projekt-orient-digital",
@@ -29,30 +24,21 @@
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "München",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "related_institutions": [

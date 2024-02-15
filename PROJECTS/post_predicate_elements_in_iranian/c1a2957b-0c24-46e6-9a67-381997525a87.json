@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-07-01",
-        "to": "2022-06-30"
-      }
-    ],
+    "date": [{ "from": "2019-07-01", "to": "2022-06-30" }],
     "maintained": null,
     "websites": [
       "https://www.uni-bamberg.de/aspra/forschung/projekte/post-predicate-elements-in-iranian/",
@@ -30,20 +25,14 @@
           "text": "Bamberg",
           "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
+        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
       },
       {
         "place_name": {
           "text": "Hamadan",
           "ref": ["https://www.geonames.org/132144/hamadan.html"]
         },
-        "coordinates": {
-          "lat": "34.79922",
-          "lng": "48.51456"
-        }
+        "coordinates": { "lat": "34.79922", "lng": "48.51456" }
       }
     ],
     "lang": ["eng"],
@@ -116,14 +105,8 @@
     "research_data": {
       "lang": ["fas"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -132,12 +115,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_resource",

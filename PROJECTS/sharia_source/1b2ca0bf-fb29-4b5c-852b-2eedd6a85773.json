@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2015", "to": "" }],
     "maintained": null,
     "websites": [
       "https://pil.law.harvard.edu/shariasource-portal/",
@@ -29,10 +24,7 @@
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/4931972/cambridge.html"]
         },
-        "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
-        }
+        "coordinates": { "lat": "42.3751", "lng": "-71.10561" }
       }
     ],
     "lang": ["eng"],
@@ -63,10 +55,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Celik, Yusuf",
-          "ref": []
-        },
+        "pers_name": { "text": "Celik, Yusuf", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://pil.law.harvard.edu/fellow/yusuf-celik/"]
       }
@@ -74,14 +63,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -90,12 +73,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

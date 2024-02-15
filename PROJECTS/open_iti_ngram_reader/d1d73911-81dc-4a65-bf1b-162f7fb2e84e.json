@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2023", "to": "" }],
     "maintained": true,
     "websites": [
       "https://eis1600.aai.uni-hamburg.de/shiny/OpenITI_NgramReader/"
@@ -28,10 +23,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -62,10 +54,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
-        },
+        "pers_name": { "text": "Romanov, Maxim", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
@@ -75,18 +64,10 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -104,21 +85,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

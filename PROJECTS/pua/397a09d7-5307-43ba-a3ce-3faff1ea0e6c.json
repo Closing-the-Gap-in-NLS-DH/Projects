@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.2.2",
+  "record_metadata": {
+    "uuid": "397a09d7-5307-43ba-a3ce-3faff1ea0e6c",
+    "record_created_on": "2024-02-14",
+    "record_created_by": "María Luisa Ávila",
+    "last_edited_on": "2024-02-14"
+  },
+  "project": {
+    "title": "Prosopografía de los ulemas de al-Andalus",
+    "abbr": "PUA",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2010", "to": "2014" }],
+    "maintained": true,
+    "websites": ["https://www.eea.csic.es/pua/"],
+    "project_desc": "The aim of Prosopography is the historical study of a group of people through an analysis of their biographical data. In our case, that group is the ʿulamāʾ (scholars) who lived in al-Andalus during the 2nd–9th centuries AH / 8th–14th centuries CE. We define ʿulamāʾ as specialists in Islamic religious knowledge, whose biographies can be found in biographical dictionaries, a characteristic genre of Arabic literature that underwent substantial development during the Middle Ages in al-Andalus. It should be highlighted that in this case we have included all those persons with their own entry in the biographical dictionaries, although they cannot be truly be labelled as ʿulamāʾ, since, e.g., poets and men of letters are also included.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Granada, Spain",
+          "ref": ["https://www.geonames.org/6357709/granada.html"]
+        },
+        "coordinates": { "lat": "37.18863", "lng": "-3.59078" }
+      }
+    ],
+    "lang": ["eng", "spa", "ara"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": { "text": "", "ref": [] },
+        "websites": []
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Penelas, Mayte",
+          "ref": ["https://d-nb.info/gnd/1067890963"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.eea.csic.es/personal-de-la-eea/penelas-melendez-ma-teresa/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["eng", "spa", "ara"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
+      ],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["arabic_studies"],
+    "comment": ""
+  }
+}

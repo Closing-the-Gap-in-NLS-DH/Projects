@@ -11,12 +11,7 @@
     "abbr": "TraCES",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2014", "to": "2019" }],
     "maintained": null,
     "websites": ["https://www.traces.uni-hamburg.de/"],
     "project_desc": "The TraCes meticulously analyzed lexical, morphological, and stylistic features in Ethiopic texts, creating a groundbreaking digital corpus. The project's highlight is a comprehensive digital lexicon of the Gəʿəz language, departing from traditional dictionaries, providing complete lemmas, full translations, and contextual insights, resulting in the first-ever thesaurus for Gəʿəz.",
@@ -26,10 +21,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -143,18 +135,10 @@
     "research_data": {
       "lang": ["ara", "gez"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -172,21 +156,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "annotation",

@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017-05",
-        "to": "2020-01"
-      }
-    ],
+    "date": [{ "from": "2017-05", "to": "2020-01" }],
     "maintained": null,
     "websites": ["https://www.saw-leipzig.de/de/projekte/virtuelle-archive"],
     "project_desc": "In this project is a cooperation of seven research institutions in Saxony (see project’s website) coordinated by Sächsische Akademie der Wisschenschaften (SAW). The institutions will exchange their expertise in the Digital Humanities in order to optimize research data management in human sciences. The focus of this projects lies on technical, legal and formal standardization of research data, long term archiving and accessibility.",
@@ -26,10 +21,7 @@
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       }
     ],
     "lang": ["deu"],
@@ -60,14 +52,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -76,12 +62,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "comment": ""
   }

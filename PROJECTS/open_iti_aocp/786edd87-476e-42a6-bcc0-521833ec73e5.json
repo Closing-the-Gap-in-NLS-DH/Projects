@@ -11,12 +11,7 @@
     "abbr": "OpenITI AOCP",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-09",
-        "to": "2021-12"
-      }
-    ],
+    "date": [{ "from": "2019-09", "to": "2021-12" }],
     "maintained": null,
     "websites": [
       "https://openiti.org/projects/OpenITI%20AOCP%20Phase%20One.html",
@@ -29,40 +24,28 @@
           "text": "College Park",
           "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       },
       {
         "place_name": {
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       },
       {
         "place_name": {
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       },
       {
         "place_name": {
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": ["eng"],
@@ -91,10 +74,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Allen, Jonathan",
-          "ref": []
-        },
+        "pers_name": { "text": "Allen, Jonathan", "ref": [] },
         "roles": ["investigation"],
         "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
       }
@@ -102,14 +82,8 @@
     "research_data": {
       "lang": ["ara", "fas", "tur", "urd"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -118,12 +92,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_resource",
       "islamic_studies",
