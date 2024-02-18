@@ -3,7 +3,7 @@
   "record_metadata": {
     "uuid": "397a09d7-5307-43ba-a3ce-3faff1ea0e6c",
     "record_created_on": "2024-02-14",
-    "record_created_by": "María Luisa Ávila",
+    "record_created_by": "Ávila, María Luisa",
     "last_edited_on": "2024-02-14"
   },
   "project": {
@@ -11,20 +11,23 @@
     "abbr": "PUA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2014" }],
-    "maintained": true,
+    "date": [
+      { "from": "2006", "to": "2008" },
+      { "from": "2010", "to": "2014" }
+    ],
+    "maintained": false,
     "websites": ["https://www.eea.csic.es/pua/"],
     "project_desc": "The aim of Prosopography is the historical study of a group of people through an analysis of their biographical data. In our case, that group is the ʿulamāʾ (scholars) who lived in al-Andalus during the 2nd–9th centuries AH / 8th–14th centuries CE. We define ʿulamāʾ as specialists in Islamic religious knowledge, whose biographies can be found in biographical dictionaries, a characteristic genre of Arabic literature that underwent substantial development during the Middle Ages in al-Andalus. It should be highlighted that in this case we have included all those persons with their own entry in the biographical dictionaries, although they cannot be truly be labelled as ʿulamāʾ, since, e.g., poets and men of letters are also included.",
     "places": [
       {
         "place_name": {
-          "text": "Granada, Spain",
-          "ref": ["https://www.geonames.org/6357709/granada.html"]
+          "text": "Granada",
+          "ref": ["https://www.geonames.org/2517117/granada.html"]
         },
-        "coordinates": { "lat": "37.18863", "lng": "-3.59078" }
+        "coordinates": { "lat": "37.18817", "lng": "-3.60667" }
       }
     ],
-    "lang": ["eng", "spa", "ara"],
+    "lang": ["eng", "spa"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -46,7 +49,7 @@
       }
     ],
     "research_data": {
-      "lang": ["eng", "spa", "ara"],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": { "open_access": 0, "licensing": [] },
       "data": {
