@@ -28,6 +28,11 @@
 			class:underline={$page.route.id === '/timeline'}>Timeline</a
 		>
 		<a
+			href="{base}/vis/"
+			class="underline-offset-2 hover:underline"
+			class:underline={$page.route.id === '/vis'}>Relations</a
+		>
+		<a
 			href="{base}/contribute/"
 			class="underline-offset-2 hover:underline"
 			class:underline={$page.route.id === '/contribute'}>Contribute</a
