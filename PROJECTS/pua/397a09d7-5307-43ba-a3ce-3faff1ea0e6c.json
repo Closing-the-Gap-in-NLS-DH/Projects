@@ -3,8 +3,8 @@
   "record_metadata": {
     "uuid": "397a09d7-5307-43ba-a3ce-3faff1ea0e6c",
     "record_created_on": "2024-02-14",
-    "record_created_by": "Ávila, María Luisa",
-    "last_edited_on": "2024-02-14"
+    "record_created_by": "Romanov, Maxim",
+    "last_edited_on": "2024-03-11"
   },
   "project": {
     "title": "Prosopografía de los ulemas de al-Andalus",
@@ -15,9 +15,9 @@
       { "from": "2006", "to": "2008" },
       { "from": "2010", "to": "2014" }
     ],
-    "maintained": false,
+    "maintained": true,
     "websites": ["https://www.eea.csic.es/pua/"],
-    "project_desc": "The aim of Prosopography is the historical study of a group of people through an analysis of their biographical data. In our case, that group is the ʿulamāʾ (scholars) who lived in al-Andalus during the 2nd–9th centuries AH / 8th–14th centuries CE. We define ʿulamāʾ as specialists in Islamic religious knowledge, whose biographies can be found in biographical dictionaries, a characteristic genre of Arabic literature that underwent substantial development during the Middle Ages in al-Andalus. It should be highlighted that in this case we have included all those persons with their own entry in the biographical dictionaries, although they cannot be truly be labelled as ʿulamāʾ, since, e.g., poets and men of letters are also included.",
+    "project_desc": "This project is dedicated to the prosopography and biography of Andalusi scholars. It sourced information about approximately 11,600 scholars from Arabic biographical dictionaries and organized into a database, in a way that enables taking advantage of possibilities offered by electronic data processing. It also offers a setup of the necessary tools to organize and filter information, handle the data with quantitative criteria and present the results of the analysis with a variety of visualizations.",
     "places": [
       {
         "place_name": {
@@ -31,8 +31,8 @@
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": { "text": "", "ref": [] },
-        "websites": []
+        "org_name": { "text": "Escuela de Estudios Árabes", "ref": ["https://www.wikidata.org/wiki/Q7432381", "https://ror.org/0370sk906"] },
+        "websites": ["https://www.eea.csic.es/"]
       }
     ],
     "related_entities": [],
@@ -45,6 +45,16 @@
         "roles": ["supervision"],
         "websites": [
           "https://www.eea.csic.es/personal-de-la-eea/penelas-melendez-ma-teresa/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "María Luisa Ávila",
+          "ref": ["https://d-nb.info/gnd/1057141895"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.eea.csic.es/personal-de-la-eea/avila-navarro-ma-luisa/"
         ]
       }
     ],
@@ -77,7 +87,7 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["arabic_studies"],
+    "keywords": ["arabic_studies", "islamic_studies", "geodata", "biographical_data", "visualization"],
     "comment": ""
   }
 }
