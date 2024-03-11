@@ -31,7 +31,13 @@
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": { "text": "Escuela de Estudios Árabes", "ref": ["https://www.wikidata.org/wiki/Q7432381", "https://ror.org/0370sk906"] },
+        "org_name": {
+          "text": "Escuela de Estudios Árabes",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q7432381",
+            "https://ror.org/0370sk906"
+          ]
+        },
         "websites": ["https://www.eea.csic.es/"]
       }
     ],
@@ -87,7 +93,13 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["arabic_studies", "islamic_studies", "geodata", "biographical_data", "visualization"],
+    "keywords": [
+      "arabic_studies",
+      "islamic_studies",
+      "geodata",
+      "biographical_data",
+      "visualization"
+    ],
     "comment": ""
   }
 }
