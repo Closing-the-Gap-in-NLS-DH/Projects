@@ -488,7 +488,7 @@
       "research_data_management",
       "research_infrastructure"
     ],
-    "category": "",
+    "category": "infrastructure",
     "comment": "Some of the partner institutions are private companies which were not included in the list, as the projects focuses only on research institutions"
   }
 }
