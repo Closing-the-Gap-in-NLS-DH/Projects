@@ -354,6 +354,9 @@ export const projectSchema = z
               ),
           )
           .describe("List of keywords to describe the project"),
+        category: z
+          .enum(["digital_preservation", "tools_and_analysis", "infrastructure", "other"])
+          .describe("Research focus ( digital_preservation | tools_and_analysis | infrastructure | other)"),
         comment: z
           .string()
           .describe("Any commentary that doesn't fit elsewhere in the schema"),
