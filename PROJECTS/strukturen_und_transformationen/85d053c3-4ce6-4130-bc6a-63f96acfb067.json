@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.2",
+  "schema_version": "0.2.3",
   "record_metadata": {
     "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
     "record_created_on": "2022-02-09",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2035" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2035"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://aaew.bbaw.de/de",
@@ -23,19 +28,31 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       }
     ],
-    "lang": ["deu"],
+    "lang": [
+      "deu"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,7 +60,9 @@
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
-        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
+        "websites": [
+          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
+        ]
       },
       {
         "relation_type": "host",
@@ -54,7 +73,9 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/"]
+        "websites": [
+          "https://www.saw-leipzig.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -73,9 +94,13 @@
       {
         "pers_name": {
           "text": "Richter, Tonio Sebastian",
-          "ref": ["https://d-nb.info/gnd/142266140"]
+          "ref": [
+            "https://d-nb.info/gnd/142266140"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
           "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"
@@ -83,19 +108,47 @@
       }
     ],
     "research_data": {
-      "lang": ["cop"],
+      "lang": [
+        "cop"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_resource",
@@ -105,6 +158,7 @@
       "translation",
       "vre"
     ],
+    "category": "tools_and_analysis",
     "comment": ""
   }
 }

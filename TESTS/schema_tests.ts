@@ -1,5 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.216.0/assert/mod.ts";
 import { v4 } from "https://deno.land/std@0.216.0/uuid/mod.ts";
+import { crypto } from "https://deno.land/std@0.216.0/crypto/mod.ts";
 import {
   creditRoles,
   keywords,

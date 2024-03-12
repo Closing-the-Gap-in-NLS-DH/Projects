@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.2",
+  "schema_version": "0.2.3",
   "record_metadata": {
     "uuid": "33a6a747-4180-4e28-a99c-2bf6dcf53200",
     "record_created_on": "2021-11-01",
@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2009", "to": "2015" }],
+    "date": [
+      {
+        "from": "2009",
+        "to": "2015"
+      }
+    ],
     "maintained": false,
     "websites": [
       "https://www.universiteitleiden.nl/en/research/research-projects/humanities/the-formation-of-islam-the-view-from-below#tab-1"
@@ -21,12 +26,19 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/leiden.html"]
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -37,7 +49,9 @@
             "https://ror.org/027bh9e22"
           ]
         },
-        "websites": ["https://www.universiteitleiden.nl/en"]
+        "websites": [
+          "https://www.universiteitleiden.nl/en"
+        ]
       }
     ],
     "related_entities": [
@@ -51,28 +65,60 @@
       {
         "pers_name": {
           "text": "Sijpesteijn, Petra",
-          "ref": ["https://www.wikidata.org/wiki/Q14084136"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q14084136"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.universiteitleiden.nl/en/staffmembers/petra-sijpesteijn#tab-1"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",
@@ -81,6 +127,7 @@
       "manuscript",
       "religion_studies"
     ],
+    "category": "digital_preservation",
     "comment": ""
   }
 }

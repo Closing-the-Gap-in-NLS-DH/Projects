@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.2",
+  "schema_version": "0.2.3",
   "record_metadata": {
     "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc",
     "record_created_on": "2022-09-07",
@@ -11,41 +11,70 @@
     "abbr": "ACDC",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021-01-01", "to": "2023-06-30" }],
+    "date": [
+      {
+        "from": "2021-01-01",
+        "to": "2023-06-30"
+      }
+    ],
     "maintained": false,
-    "websites": ["https://openiti.org/projects/ACDC.html"],
+    "websites": [
+      "https://openiti.org/projects/ACDC.html"
+    ],
     "project_desc": "This project aims to significantly improve the accuracy of handwritten text recognition (HTR) for Arabic-script manuscripts. It will develop a collation tool to automatically create large amounts of training data from existing digital texts and manuscript images without time-consuming human annotation of individual manuscripts.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
-        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
       },
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       },
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       },
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -66,26 +95,69 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Allen, Jonathan", "ref": [] },
-        "roles": ["investigation"],
-        "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
+        "pers_name": {
+          "text": "Allen, Jonathan",
+          "ref": []
+        },
+        "roles": [
+          "investigation"
+        ],
+        "websites": [
+          "https://sllc.umd.edu/directory/jonathan-allen"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["htr", "islamic_studies", "machine_learning", "ocr", "vre"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "htr",
+      "islamic_studies",
+      "machine_learning",
+      "ocr",
+      "vre"
+    ],
+    "category": "tools_and_analysis",
     "comment": ""
   }
 }
