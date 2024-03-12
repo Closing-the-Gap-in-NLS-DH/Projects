@@ -132,7 +132,7 @@
       "machine_learning",
       "nlp"
     ],
-    "category": "",
+    "category": "tools_and_analysis",
     "comment": "The research data include projects in Dostoevsky's Russian, Old Chinese, and Kanbun, for which there are no ISO-639-2 language codes. The Arabic language data is also in Classical Arabic, for which there is no separate ISO-639-2 code."
   }
 }
