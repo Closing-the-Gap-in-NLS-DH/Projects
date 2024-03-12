@@ -67,6 +67,7 @@
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [],
+    "category" : "other",
     "comment": ""
   }
 }
