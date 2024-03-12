@@ -232,7 +232,7 @@
       "digital_preservation",
       "manuscript"
     ],
-    "category": "",
+    "category": "digital_preservation",
     "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
   }
 }
