@@ -11,7 +11,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2027" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2027"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/evolution-of-islamic-societies.html",
@@ -22,12 +27,19 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -135,17 +149,27 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Romanov, Maxim", "ref": [] },
-        "roles": ["supervision"],
+        "pers_name": {
+          "text": "Romanov, Maxim",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
@@ -174,25 +198,38 @@
     },
     "stack": {
       "database": [],
-      "backend": ["Python"],
+      "backend": [
+        "Python"
+      ],
       "frontend": [],
       "tools": [
         {
           "label": "AraBERT",
           "self_developed": false,
-          "ref": ["https://github.com/CAMeL-Lab/camel_tools"],
+          "ref": [
+            "https://github.com/CAMeL-Lab/camel_tools"
+          ],
           "description": ""
         },
         {
           "label": "CAMeL Tools",
           "self_developed": false,
-          "ref": ["https://github.com/CAMeL-Lab/camel_tools"],
+          "ref": [
+            "https://github.com/CAMeL-Lab/camel_tools"
+          ],
           "description": ""
         }
       ],
-      "languages": ["Python"]
+      "languages": [
+        "Python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "computational_text_analysis",
@@ -203,6 +240,7 @@
       "visualization",
       "vre"
     ],
+    "category": "",
     "comment": ""
   }
 }

@@ -11,7 +11,12 @@
     "abbr": "ACP",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2023" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2023"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.audition-certificates-platform.org/",
@@ -22,12 +27,20 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": [
+      "eng",
+      "ara"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -137,21 +152,35 @@
       {
         "pers_name": {
           "text": "Hirschler, Konrad",
-          "ref": ["https://d-nb.info/gnd/103830816X"]
+          "ref": [
+            "https://d-nb.info/gnd/103830816X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/hirschler.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -169,11 +198,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",
@@ -183,6 +222,7 @@
       "islamic_studies",
       "manuscript"
     ],
+    "category": "",
     "comment": ""
   }
 }
