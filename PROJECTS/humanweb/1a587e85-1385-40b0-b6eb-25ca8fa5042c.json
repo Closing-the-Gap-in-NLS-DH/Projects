@@ -18,17 +18,13 @@
       }
     ],
     "maintained": false,
-    "websites": [
-      "https://cordis.europa.eu/project/id/324591"
-    ],
+    "websites": ["https://cordis.europa.eu/project/id/324591"],
     "project_desc": "This POC project will demonstrate that humanistic sciences can be productively coupled with sound business strategies to advance societal benefits and cultural sustainability. The grant will be used to get into contact and contract with potential joint venture partners for a cooperation which will result in a ground-braking universal online digital library for Yemeni manuscripts.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -36,9 +32,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -49,9 +43,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [
@@ -65,28 +57,18 @@
       {
         "pers_name": {
           "text": "Schmidtke, Sabine",
-          "ref": [
-            "https://d-nb.info/gnd/143773771"
-          ]
+          "ref": ["https://d-nb.info/gnd/143773771"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ias.edu/scholars/schmidtke"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.ias.edu/scholars/schmidtke"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -94,24 +76,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -119,11 +88,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "arabic_studies",
-      "digital_preservation",
-      "manuscript"
-    ],
+    "keywords": ["arabic_studies", "digital_preservation", "manuscript"],
     "category": "digital_preservation",
     "comment": ""
   }

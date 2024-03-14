@@ -2,7 +2,7 @@
 
 - From version 0.2.2 to 0.2.3 (2024-03-12):
 
- - A new data entry `category` added as a string with following possible values: `digital_preservation`, `tools_and_analysis`,  `infrastructure`, `other`
+- A new data entry `category` added as a string with following possible values: `digital_preservation`, `tools_and_analysis`, `infrastructure`, `other`
 
 - From version 0.2.1 to 0.2.2 (2023-12-14):
 

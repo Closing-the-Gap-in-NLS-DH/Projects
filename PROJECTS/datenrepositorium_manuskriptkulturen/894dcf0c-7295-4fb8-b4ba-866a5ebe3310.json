@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -38,10 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -143,29 +136,20 @@
       {
         "pers_name": {
           "text": "Friedrich, Michael",
-          "ref": [
-            "https://d-nb.info/gnd/1106567749"
-          ]
+          "ref": ["https://d-nb.info/gnd/1106567749"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/china/personen/friedrich.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu",
-        "eng"
-      ],
+      "lang": ["deu", "eng"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -173,24 +157,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -198,10 +169,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }

@@ -26,17 +26,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.textgrid.de/web/guest/projekt"
-    ],
+    "websites": ["https://www.textgrid.de/web/guest/projekt"],
     "project_desc": "Answering an increasing demand for digital and collective research features in the humanities, TextGrid has established the infrastructure for a respective virtual research environment. In continuous exchange with the scientific community, TextGrid has developed a variety of tools and services available for free download in a stable version. Together with the TextGrid Repository, the virtual research environment TextGrid offers scholars in the humanities sustainable editing, storing and publishing of their data in a thoroughly tested and safe environment.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -46,9 +42,7 @@
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -58,9 +52,7 @@
       {
         "place_name": {
           "text": "Worms",
-          "ref": [
-            "https://www.geonames.org/2806142/worms.html"
-          ]
+          "ref": ["https://www.geonames.org/2806142/worms.html"]
         },
         "coordinates": {
           "lat": "49.63278",
@@ -70,9 +62,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -82,9 +72,7 @@
       {
         "place_name": {
           "text": "Mannheim",
-          "ref": [
-            "https://www.geonames.org/2873891/mannheim.html"
-          ]
+          "ref": ["https://www.geonames.org/2873891/mannheim.html"]
         },
         "coordinates": {
           "lat": "49.4891",
@@ -94,9 +82,7 @@
       {
         "place_name": {
           "text": "Darmstadt",
-          "ref": [
-            "https://www.geonames.org/2938913/darmstadt.html"
-          ]
+          "ref": ["https://www.geonames.org/2938913/darmstadt.html"]
         },
         "coordinates": {
           "lat": "49.87167",
@@ -106,9 +92,7 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/2805615/wuerzburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
         },
         "coordinates": {
           "lat": "49.79391",
@@ -116,10 +100,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "deu"
-    ],
+    "lang": ["eng", "deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -130,9 +111,7 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       },
       {
         "relation_type": "host",
@@ -143,9 +122,7 @@
             "https://ror.org/048yzb176"
           ]
         },
-        "websites": [
-          "https://daasi.de/de/"
-        ]
+        "websites": ["https://daasi.de/de/"]
       },
       {
         "relation_type": "host",
@@ -156,9 +133,7 @@
             "https://ror.org/031ph8d53"
           ]
         },
-        "websites": [
-          "https://www.hs-worms.de/"
-        ]
+        "websites": ["https://www.hs-worms.de/"]
       },
       {
         "relation_type": "host",
@@ -169,9 +144,7 @@
             "https://ror.org/00cd95c65"
           ]
         },
-        "websites": [
-          "https://gwdg.de/"
-        ]
+        "websites": ["https://gwdg.de/"]
       },
       {
         "relation_type": "host",
@@ -182,9 +155,7 @@
             "https://ror.org/00hvwkt50"
           ]
         },
-        "websites": [
-          "https://www.ids-mannheim.de/"
-        ]
+        "websites": ["https://www.ids-mannheim.de/"]
       },
       {
         "relation_type": "host",
@@ -195,21 +166,15 @@
             "https://www.wikidata.org/wiki/Q318118"
           ]
         },
-        "websites": [
-          "https://www.mpiwg-berlin.mpg.de/"
-        ]
+        "websites": ["https://www.mpiwg-berlin.mpg.de/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q564783"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q564783"]
         },
-        "websites": [
-          "https://www.sub.uni-goettingen.de/sub-aktuell/"
-        ]
+        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"]
       },
       {
         "relation_type": "host",
@@ -220,9 +185,7 @@
             "https://ror.org/03v4gjf40"
           ]
         },
-        "websites": [
-          "https://www.tu.berlin/"
-        ]
+        "websites": ["https://www.tu.berlin/"]
       },
       {
         "relation_type": "host",
@@ -233,9 +196,7 @@
             "https://ror.org/05n911h24"
           ]
         },
-        "websites": [
-          "https://www.tu-darmstadt.de/"
-        ]
+        "websites": ["https://www.tu-darmstadt.de/"]
       },
       {
         "relation_type": "host",
@@ -246,9 +207,7 @@
             "https://ror.org/00fbnyb24"
           ]
         },
-        "websites": [
-          "https://www.uni-wuerzburg.de/"
-        ]
+        "websites": ["https://www.uni-wuerzburg.de/"]
       }
     ],
     "related_entities": [
@@ -262,13 +221,9 @@
       {
         "pers_name": {
           "text": "Horstmann, Wolfram",
-          "ref": [
-            "https://d-nb.info/gnd/129236187"
-          ]
+          "ref": ["https://d-nb.info/gnd/129236187"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.fiz-karlsruhe.de/de/ueber-uns/curriculum-vitae-prof-dr-wolfram-horstmann"
         ]
@@ -321,10 +276,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }
