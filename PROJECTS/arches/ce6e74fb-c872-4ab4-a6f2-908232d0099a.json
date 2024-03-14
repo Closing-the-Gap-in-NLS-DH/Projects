@@ -26,9 +26,7 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -38,9 +36,7 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/281184/jerusalem.html"
-          ]
+          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -48,9 +44,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -61,9 +55,7 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
+        "websites": ["https://www.lmu.de/de/index.html"]
       },
       {
         "relation_type": "host",
@@ -74,9 +66,7 @@
             "https://www.wikidata.org/wiki/Q174158"
           ]
         },
-        "websites": [
-          "https://en.huji.ac.il/en"
-        ]
+        "websites": ["https://en.huji.ac.il/en"]
       }
     ],
     "related_entities": [],
@@ -84,13 +74,9 @@
       {
         "pers_name": {
           "text": "Vollandt, Ronny",
-          "ref": [
-            "https://d-nb.info/gnd/1173742050"
-          ]
+          "ref": ["https://d-nb.info/gnd/1173742050"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
@@ -98,13 +84,9 @@
       {
         "pers_name": {
           "text": "Goldstein, Miriam",
-          "ref": [
-            "https://d-nb.info/gnd/1019351853"
-          ]
+          "ref": ["https://d-nb.info/gnd/1019351853"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
         ]
@@ -112,29 +94,18 @@
       {
         "pers_name": {
           "text": "Sklare, David",
-          "ref": [
-            "https://d-nb.info/gnd/1158385684"
-          ]
+          "ref": ["https://d-nb.info/gnd/1158385684"]
         },
-        "roles": [
-          "investigation"
-        ],
-        "websites": [
-          "https://biblia-arabica.com/team/david-sklare/"
-        ]
+        "roles": ["investigation"],
+        "websites": ["https://biblia-arabica.com/team/david-sklare/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "heb"
-      ],
+      "lang": ["ara", "heb"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -142,24 +113,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
