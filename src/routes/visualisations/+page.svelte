@@ -6,11 +6,7 @@
 
 	import { createData } from './datamanagement';
 
-	const {projects, siblingDependencies, parentChildDependencies, cooperationDependencies} = createData()
-	//import projects from './projects.json';
-	//import parent_child_dependencies from './parent_child_dependencies.json';
-	//import sibling_dependencies from './sibling_dependencies.json';
-	//import cooperation_dependencies from './cooperation_dependencies.json';
+	const {projects, siblingDependencies, parentChildDependencies, cooperationDependencies} = createData()	
 
 	const spec: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
