@@ -4,10 +4,13 @@
 	import { default as vegaEmbed } from 'vega-embed';
 	import type { VisualizationSpec } from 'vega-embed';
 
-	import projects from './projects.json';
-	import parent_child_dependencies from './parent_child_dependencies.json';
-	import sibling_dependencies from './sibling_dependencies.json';
-	import cooperation_dependencies from './cooperation_dependencies.json';
+	import { createData } from './datamanagement';
+
+	const {projects, siblingDependencies, parentChildDependencies, cooperationDependencies} = createData()
+	//import projects from './projects.json';
+	//import parent_child_dependencies from './parent_child_dependencies.json';
+	//import sibling_dependencies from './sibling_dependencies.json';
+	//import cooperation_dependencies from './cooperation_dependencies.json';
 
 	const spec: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
@@ -98,7 +101,7 @@
 			},
 			{
 				name: 'sib_dependencies',
-				values: sibling_dependencies,
+				values: siblingDependencies,
 				transform: [
 					{
 						type: 'formula',
@@ -120,7 +123,7 @@
 			},
 			{
 				name: 'par_dependencies',
-				values: parent_child_dependencies,
+				values: parentChildDependencies,
 				transform: [
 					{
 						type: 'formula',
@@ -142,7 +145,7 @@
 			},
 			{
 				name: 'coop_dependencies',
-				values: cooperation_dependencies,
+				values: cooperationDependencies,
 				transform: [
 					{
 						type: 'formula',
@@ -194,7 +197,8 @@
 				encode: {
 					enter: {
 						text: { field: 'name' },
-						baseline: { value: 'middle' }
+						baseline: { value: 'middle' },
+						href:{ field: 'url' }
 					},
 					update: {
 						x: { field: 'x' },
