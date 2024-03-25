@@ -2,9 +2,6 @@
 	import { searchTerm, selectedTab, selectedTerms } from '$lib/stores.svelte';
 	import keywordsRaw from '../data/KEYWORDS.json';
 
-	
-	
-
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	export type JsonStuff = Record<string, any>;
 
@@ -44,20 +41,20 @@
 				}
 			}
 		}
-		
+
 		return keywordsMap;
 	}
 
-	export function disableKeywords(keywordsMap:Record<string, string[]>, term:string){	
-		const iterableEntries = Object.entries(keywordsMap);	
-		const compareList1: string[][] =[];
-		const selectedTermsList: string[] =[];
-		let keywordsToDisable: string[] =[];
-		
-		selectedTermsList.push(term)		
-		
+	export function disableKeywords(keywordsMap: Record<string, string[]>, term: string) {
+		const iterableEntries = Object.entries(keywordsMap);
+		const compareList1: string[][] = [];
+		const selectedTermsList: string[] = [];
+		const keywordsToDisable: string[] = [];
+
+		selectedTermsList.push(term);
+
 		function findEqualUrls(urlLists: string[][]): string[] {
-			const equalUrls: string[] = [];			
+			const equalUrls: string[] = [];
 			for (const element of urlLists[0]) {
 				// Check if the element exists in all other lists
 				let existsInAllLists = true;
@@ -66,40 +63,36 @@
 						existsInAllLists = false;
 						break;
 					}
-				}			
+				}
 				if (existsInAllLists) {
 					equalUrls.push(element);
-				}				
-			}
-			return equalUrls;			
-		};
-		
-		//first loop to get equal urls
-		for (const [keyword, urls] of iterableEntries){
-			if (selectedTermsList.includes(keyword)){
-					compareList1.push(urls)
-					//console.log(urls)
 				}
-		} 
-		const equalUrls= findEqualUrls(compareList1);
-		
+			}
+			return equalUrls;
+		}
 
-		//second loop to get shared keywords
-		for (const [keyword, urls] of iterableEntries){	
-			const compareList2: string[][] =[];				
-			compareList2.push(equalUrls)			
-			compareList2.push(urls)		
-			const commonUrls = findEqualUrls(compareList2)
-			if (commonUrls.length == 0){
-				keywordsToDisable.push(keyword)
+		//first loop to get equal urls
+		for (const [keyword, urls] of iterableEntries) {
+			if (selectedTermsList.includes(keyword)) {
+				compareList1.push(urls);
+				//console.log(urls)
 			}
 		}
-		
-		return keywordsToDisable
+		const equalUrls = findEqualUrls(compareList1);
 
+		//second loop to get shared keywords
+		for (const [keyword, urls] of iterableEntries) {
+			const compareList2: string[][] = [];
+			compareList2.push(equalUrls);
+			compareList2.push(urls);
+			const commonUrls = findEqualUrls(compareList2);
+			if (commonUrls.length == 0) {
+				keywordsToDisable.push(keyword);
+			}
+		}
+
+		return keywordsToDisable;
 	}
-	
-	
 
 	export function getLanguages(entries: [string, JsonStuff][]): Record<string, string[]> {
 		const languagesMap: Record<string, string[]> = {};
@@ -231,6 +224,4 @@
 		const termsString = termsArray.join(',');
 		window.location.hash = `#${type}=${termsString}`;
 	}
-	
-	
 </script>

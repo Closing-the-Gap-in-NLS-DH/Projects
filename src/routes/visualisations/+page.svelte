@@ -6,7 +6,8 @@
 
 	import { createData } from './datamanagement';
 
-	const {projects, siblingDependencies, parentChildDependencies, cooperationDependencies} = createData()	
+	const { projects, siblingDependencies, parentChildDependencies, cooperationDependencies } =
+		createData();
 
 	const spec: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
@@ -194,7 +195,7 @@
 					enter: {
 						text: { field: 'name' },
 						baseline: { value: 'middle' },
-						href:{ field: 'url' }
+						href: { field: 'url' }
 					},
 					update: {
 						x: { field: 'x' },

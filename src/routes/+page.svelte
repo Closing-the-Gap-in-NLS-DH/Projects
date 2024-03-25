@@ -22,7 +22,7 @@
 	const keywordsMap = getKeywords(entries);
 	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
 	const languagesMap: Record<string, string[]> = getLanguages(entries);
-	
+
 	let searchTermValue: string;
 	searchTerm.subscribe((value) => {
 		searchTermValue = value;
@@ -67,7 +67,7 @@
 
 		let matches: string[] = [];
 		let firstIteration = true;
-		
+
 		for (const term of selectedTerms) {
 			if (!map[term]) {
 				updateHash(selectedTab, term);
@@ -91,9 +91,6 @@
 	$: filtered = filterEntries(entries, searchTermValue, selectedTabValue, selectedTermsValue);
 
 	afterNavigate(handleHash);
-
-	
-	
 </script>
 
 <svelte:window on:hashchange={handleHash} />
