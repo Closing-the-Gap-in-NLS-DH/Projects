@@ -7,7 +7,6 @@
 	import { createData } from './datamanagement';
 
 	const {projects, siblingDependencies, parentChildDependencies, cooperationDependencies} = createData()	
-
 	const spec: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
 		description:
@@ -354,7 +353,7 @@
 			{
 				name: 'cat_color',
 				type: 'ordinal',
-				domain: { data: 'leaves', field: 'parentname' },
+				domain: { data: 'leaves', field: 'parentname'},
 				range: { scheme: 'set1' }
 			},
 			{
@@ -386,10 +385,13 @@
 			}
 		]
 	};
-
+	
 	onMount(() => {
 		vegaEmbed('#vega', spec, {});
+		
+
 	});
+	
 </script>
 
 <div class="flex justify-center px-4">

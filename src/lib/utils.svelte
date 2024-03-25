@@ -48,13 +48,14 @@
 		return keywordsMap;
 	}
 
-	export function disableKeywords(keywordsMap:Record<string, string[]>, term:string){	
+	export function getKeywordsToDisable(keywordsMap:Record<string, string[]>, term:string, keywordsToDisable:string[]){	
 		const iterableEntries = Object.entries(keywordsMap);	
 		const compareList1: string[][] =[];
 		const selectedTermsList: string[] =[];
-		let keywordsToDisable: string[] =[];
+	
 		
-		selectedTermsList.push(term)		
+		selectedTermsList.push(term)	
+		console.log("selected Terms", selectedTermsList)	
 		
 		function findEqualUrls(urlLists: string[][]): string[] {
 			const equalUrls: string[] = [];			
@@ -82,22 +83,24 @@
 				}
 		} 
 		const equalUrls= findEqualUrls(compareList1);
-		
+		//console.log("compareList1", compareList1)
 
 		//second loop to get shared keywords
 		for (const [keyword, urls] of iterableEntries){	
 			const compareList2: string[][] =[];				
 			compareList2.push(equalUrls)			
-			compareList2.push(urls)		
+			compareList2.push(urls)	
+			//console.log("compareList2",compareList2)	
 			const commonUrls = findEqualUrls(compareList2)
 			if (commonUrls.length == 0){
 				keywordsToDisable.push(keyword)
 			}
 		}
-		
+		//console.log(keywordsToDisable)
 		return keywordsToDisable
 
 	}
+	
 	
 	
 

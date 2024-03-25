@@ -3,18 +3,23 @@
 	import { langNames } from '$lib/lang-names.svelte';
 	import entriesRaw from '../data/ENTRIES.json';
 
-	import { searchEntries, resetHash, updateHash } from '$lib/utils.svelte';
+	import { searchEntries, resetHash, updateHash, getKeywords, getKeywordsToDisable } from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
 	export let keywordsCategorized: Record<string, string[]>;
 	export let languages: string[];
 
 	const entries = entriesRaw as [string, JsonStuff][];
+	const keywordsMap = getKeywords(entries)
+	let keywordsToDisable: string[]=[];
+	
 	let searchTermValue: string;
 
 	let selectedTabValue: string;
 	let selectedTermsValue: Set<string>;
 
+	
+	
 	searchTerm.subscribe((value) => {
 		searchTermValue = value;
 	});
@@ -24,9 +29,10 @@
 	});
 
 	selectedTerms.subscribe((value) => {
-		selectedTermsValue = value;
+		selectedTermsValue = value;		
 	});
 
+	
 	let debounce: number;
 
 	function handleSearch() {
@@ -66,7 +72,7 @@
 				});
 			}
 		}
-
+		
 		if (selections.size === 0) {
 			return false;
 		} else {
@@ -74,12 +80,23 @@
 		}
 	}
 
+	function disableKeywords(
+		//keywords: Record<string, string[]>,		
+		selections: Set<string>,
+		//tab: string){
+		
+	){console.log("values", selectedTermsValue)}	
+
+	
+
 	$: validSelection = validate(
 		keywordsCategorized,
 		languages,
 		selectedTermsValue,
 		selectedTabValue
 	);
+	
+
 </script>
 
 <div class="mb-3.5 rounded-lg bg-ctgtan p-4">
@@ -128,7 +145,10 @@
 
 	{#if selectedTabValue !== 'search' && validSelection}
 		<p class="-mt-1 mb-3.5">
-			<button on:click={resetHash} class="cursor-pointer font-normal text-red-900 underline"
+			<button on:click={()=>{
+				resetHash()
+				keywordsToDisable= []
+				}} class="cursor-pointer font-normal text-red-900 underline"
 				>Clear selection</button
 			>
 		</p>
@@ -166,15 +186,20 @@
 				<div class="flex flex-wrap gap-2.5 text-sm lg:w-4/5 xl:w-5/6">
 					{#each keywordsCategorized[category] as keyword}
 						<button
-							on:click={() => {
+							on:click={() => {								
 								updateHash('keywords', keyword);
+								keywordsToDisable = getKeywordsToDisable(keywordsMap, keyword, keywordsToDisable)
+								console.log(keywordsToDisable)
+								
 							}}
-							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
-							class:bg-ctgblue={selectedTermsValue.has(keyword)}
+							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"					class:bg-ctgblue={selectedTermsValue.has(keyword)}
 							class:border-ctgblue={selectedTermsValue.has(keyword)}
 							class:border-slate-800={!selectedTermsValue.has(keyword)}
 							class:text-gray-50={selectedTermsValue.has(keyword)}
-						>
+							disabled = {!selectedTermsValue.has(keyword) && keywordsToDisable.includes(keyword)}
+							style="{!selectedTermsValue.has(keyword) && keywordsToDisable.includes(keyword) ? 'cursor: not-allowed; opacity: 0.5;' : ''}"
+						
+						>							
 							{#if keyword === 'corpus_output' || keyword === 'corpus_resource'}
 								corpus
 							{:else}

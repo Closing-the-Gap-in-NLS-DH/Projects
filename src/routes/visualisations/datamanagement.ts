@@ -37,7 +37,7 @@ export function createData(){
 			},
 			{
 				id: 'de7d562f-b513-4b00-a64d-78f9c60d77d0',
-				name: 'digital_preservation',
+				name: 'dsigital_preservation',
 				parent: 'f472c52a-6da4-4392-9f8c-464fde1ef0f2'
 			},
 			{
@@ -108,6 +108,7 @@ export function createData(){
 		appendDependencies("cooperation", cooperationDependencies, uuid)
 
 	}
+	
 	return {projects, siblingDependencies, parentChildDependencies, cooperationDependencies}
 	
 }
