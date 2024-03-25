@@ -4,7 +4,7 @@
 
 **Time**: 11:00-12:15 (Berlin)
 
-**Participants** (alphabetical):  Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+**Participants** (alphabetical): Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - DHd report: the presentation was well attended, we got good feedback and contact requests. The important questions were:
   - The use of WikiData as framework, which should be discussed more in detail.
@@ -12,10 +12,12 @@
 - AG MLDH was very active. The Arabic studies are becoming more visible in the DH scene and we should try use this opportunity to involve more people to become active in the community and to attend the conference.
 
 - Data:
+
   - Transliteration should be included in the future.
   - We should also include information about where the source text comes from, whether it was self-transcribed, digitized with an OCR, or taken from another place. This should be one of the questions asked in the interviews.
 
-- New postdoc 
+- New postdoc
+
   - we should start looking for a replacement for Theo. We could eventually split the position in two.
   - The criteria would be:
     - Knowledge in a non-Latin script, doesn´t have to be Arabic, but there should be at least an interest in it. Having someone working with scripts other than Arabic would make our project more inclusive and multilingual-oriented.
@@ -23,9 +25,9 @@
   - The decision about the new postdoc should be made by the entire team.
   - In case we don't find anybody on time Xenia could take over more responsibilities.
 
-- Student assistant: The job advertisement has been published, we are waiting for submissions 
+- Student assistant: The job advertisement has been published, we are waiting for submissions
 
-- DH course: Xenia and Jonas would like to make a DH course for students togethe in one or two semesters 
+- DH course: Xenia and Jonas would like to make a DH course for students togethe in one or two semesters
 
 - Interviews: Since we have already established a connection with CMS Hamburg, we should continue interviewing people from there. Xenia will prepare a list of possible interview partners and send it to the rest of the team.
 
