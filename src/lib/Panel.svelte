@@ -85,7 +85,7 @@
 		selections: Set<string>,
 		//tab: string){
 		
-	){console.log("values", selectedTermsValue)}	
+	){}	
 
 	
 
@@ -188,8 +188,8 @@
 						<button
 							on:click={() => {								
 								updateHash('keywords', keyword);
-								keywordsToDisable = getKeywordsToDisable(keywordsMap, keyword, keywordsToDisable)
-								console.log(keywordsToDisable)
+								keywordsToDisable = getKeywordsToDisable(keywordsMap, selectedTermsValue, keywordsToDisable)
+								//console.log(keywordsToDisable)
 								
 							}}
 							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"					class:bg-ctgblue={selectedTermsValue.has(keyword)}

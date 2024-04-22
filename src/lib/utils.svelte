@@ -48,57 +48,51 @@
 		return keywordsMap;
 	}
 
-	export function getKeywordsToDisable(keywordsMap:Record<string, string[]>, term:string, keywordsToDisable:string[]){	
+	export function getKeywordsToDisable(keywordsMap:Record<string, string[]>, selectedTermsList: Set<string>, keywordsToDisable:string[]){	
 		const iterableEntries = Object.entries(keywordsMap);	
-		const compareList1: string[][] =[];
-		const selectedTermsList: string[] =[];
-	
+		let urlsOfSearchTerm: string[] =[];
 		
-		selectedTermsList.push(term)	
-		console.log("selected Terms", selectedTermsList)	
+		function hasDuplicates(list: any[]): boolean {
+				return list.filter((item, index) => list.indexOf(item) !== index).length > 0;
+			};
 		
-		function findEqualUrls(urlLists: string[][]): string[] {
-			const equalUrls: string[] = [];			
-			for (const element of urlLists[0]) {
-				// Check if the element exists in all other lists
-				let existsInAllLists = true;
-				for (const list in urlLists) {
-					if (!urlLists[list].includes(element)) {
-						existsInAllLists = false;
-						break;
-					}
-				}			
-				if (existsInAllLists) {
-					equalUrls.push(element);
-				}				
-			}
+	 
+		function findEqualUrls(imputList1: string[], imputList2: string[]): Set<string> {
+			let equalUrls:Set<string> = new Set();			
+			for (const element of imputList1) {
+				if (imputList2.includes(element)) {
+						equalUrls.add(element)
+				}		
+			}	
 			return equalUrls;			
 		};
-		
-		//first loop to get equal urls
-		for (const [keyword, urls] of iterableEntries){
-			if (selectedTermsList.includes(keyword)){
-					compareList1.push(urls)
-					//console.log(urls)
-				}
-		} 
-		const equalUrls= findEqualUrls(compareList1);
-		//console.log("compareList1", compareList1)
 
-		//second loop to get shared keywords
-		for (const [keyword, urls] of iterableEntries){	
-			const compareList2: string[][] =[];				
-			compareList2.push(equalUrls)			
-			compareList2.push(urls)	
-			//console.log("compareList2",compareList2)	
-			const commonUrls = findEqualUrls(compareList2)
-			if (commonUrls.length == 0){
+		
+		for (const [keyword, urls] of iterableEntries){			
+			if (selectedTermsList.size==1){				
+				if (selectedTermsList.has(keyword)){				
+						urlsOfSearchTerm.push(...urls)
+					} 	
+				}  else {
+					for (const term of selectedTermsList){
+						if(keyword==term){
+							urlsOfSearchTerm.push(...urls)
+						}
+					}
+					if (hasDuplicates(urlsOfSearchTerm)){
+						urlsOfSearchTerm = urlsOfSearchTerm.filter((item, index) => urlsOfSearchTerm.indexOf(item) !== index);
+					}
+				}
+			}
+		
+
+		for (const [keyword, urls] of iterableEntries){			
+			const commonUrls = findEqualUrls(urlsOfSearchTerm, urls)
+			if (commonUrls.size == 0){
 				keywordsToDisable.push(keyword)
 			}
 		}
-		//console.log(keywordsToDisable)
 		return keywordsToDisable
-
 	}
 	
 	
