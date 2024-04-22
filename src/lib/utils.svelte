@@ -2,9 +2,6 @@
 	import { searchTerm, selectedTab, selectedTerms } from '$lib/stores.svelte';
 	import keywordsRaw from '../data/KEYWORDS.json';
 
-	
-	
-
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	export type JsonStuff = Record<string, any>;
 
@@ -44,7 +41,7 @@
 				}
 			}
 		}
-		
+
 		return keywordsMap;
 	}
 
@@ -228,6 +225,4 @@
 		const termsString = termsArray.join(',');
 		window.location.hash = `#${type}=${termsString}`;
 	}
-	
-	
 </script>
