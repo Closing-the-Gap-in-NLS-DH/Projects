@@ -355,7 +355,7 @@
 			{
 				name: 'cat_color',
 				type: 'ordinal',
-				domain: { data: 'leaves', field: 'parentname'},
+				domain: { data: 'leaves', field: 'parentname' },
 				range: { scheme: 'set1' }
 			},
 			{
@@ -387,13 +387,10 @@
 			}
 		]
 	};
-	
+
 	onMount(() => {
 		vegaEmbed('#vega', spec, {});
-		
-
 	});
-	
 </script>
 
 <div class="flex justify-center px-4">

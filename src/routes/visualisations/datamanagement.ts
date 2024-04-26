@@ -13,7 +13,6 @@ export function createData() {
 	const cooperationDependencies: Dependency[] = [];
 
 	const projects = [
-
 		{
 			id: 'd05b72be-a5aa-40e4-9458-cd39a739ee5a',
 			name: 'projects'
@@ -54,7 +53,6 @@ export function createData() {
 			parent: '125eeb61-6a53-4ece-9a5f-a94c6be92ea9'
 		}
 	];
-
 
 	for (const row of entries) {
 		const uuid = row[1]['record_metadata']['uuid'];
@@ -106,5 +104,3 @@ export function createData() {
 
 	return { projects, siblingDependencies, parentChildDependencies, cooperationDependencies };
 }
-
-
