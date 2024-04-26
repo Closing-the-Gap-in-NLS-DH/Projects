@@ -53,17 +53,20 @@
 		const iterableEntries = Object.entries(keywordsMap);
 		let urlsOfSearchTerm: string[] = [];
 
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		function hasDuplicates(list: any[]): boolean {
 			return list.filter((item, index) => list.indexOf(item) !== index).length > 0;
 		}
 
 		function findEqualUrls(imputList1: string[], imputList2: string[]): Set<string> {
-			let equalUrls: Set<string> = new Set();
+			const equalUrls: Set<string> = new Set();
+
 			for (const element of imputList1) {
 				if (imputList2.includes(element)) {
 					equalUrls.add(element);
 				}
 			}
+
 			return equalUrls;
 		}
 

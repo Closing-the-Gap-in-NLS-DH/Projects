@@ -83,12 +83,6 @@
 		}
 	}
 
-	function disableKeywords(
-		//keywords: Record<string, string[]>,
-		selections: Set<string>
-		//tab: string){
-	) {}
-
 	$: validSelection = validate(
 		keywordsCategorized,
 		languages,
