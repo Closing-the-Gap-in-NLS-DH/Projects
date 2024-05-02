@@ -53,7 +53,7 @@
           "text": "Simha, Vyshantha",
           "ref": []
         },
-        "role": "software",
+        "role": ["software"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
           "https://github.com/Vyshantha/multiscripteditor"
@@ -64,7 +64,7 @@
           "text": "Eide, Øyvind",
           "ref": ["https://d-nb.info/gnd/1084655063"]
         },
-        "role": "supervision",
+        "role": ["supervision"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
         ]
