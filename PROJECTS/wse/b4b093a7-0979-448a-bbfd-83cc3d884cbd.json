@@ -128,7 +128,7 @@
     "keywords": [
       "vre"
     ],
-    "category": "tool_and_analysis",
+    "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
   }
 }
