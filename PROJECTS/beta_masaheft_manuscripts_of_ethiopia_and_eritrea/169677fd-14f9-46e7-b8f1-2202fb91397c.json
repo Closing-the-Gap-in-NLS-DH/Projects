@@ -179,29 +179,67 @@
     ],
     "research_data": {
       "lang": ["gez"],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
+      "sustainability_plan": true,
+      "publications": { "open_access": 100, "licensing": [] },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          {
+            "label": "XML",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          },
+          {
+            "label": "ANNIS",
+            "stage": "refined",
+            "licensing": [],
+            "open_access": 100
+          }
+        ],
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": ["https://github.com/BetaMasaheft"],
+            "licensing": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
-      "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "database": ["XML"],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "Dillmann Lexicon",
+          "self_developed": false,
+          "ref": ["https://github.com/BetaMasaheft/Dillmann"],
+          "description": "The lexicon was developed by the project Traces"
+        },
+        {
+          "label": "Transkribus",
+          "self_developed": false,
+          "ref": ["https://www.transkribus.org/de"],
+          "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%."
+        },
+        {
+          "label": "ABBYY FineReader",
+          "self_developed": false,
+          "ref": ["https://pdf.abbyy.com"],
+          "description": "OCR software"
+        },
+        {
+          "label": "Alpheios",
+          "self_developed": false,
+          "ref": ["https://alpheios.net/"],
+          "description": "Tool providing translation and morphological information of words in classical languages."
+        }
+      ],
+      "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "corpus_output",
@@ -210,6 +248,6 @@
       "vre"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "All the data, code, and publications are available in open access. All details about technological aspects can be found in the monograph Digital Approaches to Ethiopian and Eritrean Studies by Pietro Maria Liuzzo."
   }
 }
