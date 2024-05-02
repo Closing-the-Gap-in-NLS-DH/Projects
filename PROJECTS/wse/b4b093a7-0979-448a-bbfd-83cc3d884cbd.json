@@ -1,0 +1,134 @@
+{
+  "schema_version": "0.2.3",
+  "record_metadata": {
+    "uuid": "b4b093a7-0979-448a-bbfd-83cc3d884cbd",
+    "record_created_on": "2024-04-13",
+    "record_created_by": "Vyshantha Simha",
+    "last_edited_on": "2024-04-13"
+  },
+  "project": {
+    "title": "World Scripts Explorer : one stop to explore, learn and experience any graphical information system",
+    "abbr": "WSE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://worldscriptsexplorer.page"
+    ],
+    "project_desc": "The project enables digital writing in all scripts and graphical information systems, allowing users to explore and create content using standard or custom keyboard layouts. It facilitates learning about scripts, their categorization, and preservation. The modular design of the tool enables seamless integration of new languages or scripts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Köln",
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
+        }
+      }
+    ],
+    "lang": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität zu Köln",
+          "ref": [
+            "https://ror.org/00rcxh774",
+            "https://www.wikidata.org/wiki/Q54096"
+          ]
+        },
+        "websites": [
+          "https://www.uni-koeln.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Simha, Vyshantha",
+          "ref": []
+        },
+        "role": 0,
+        "websites": [
+          "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
+          "https://github.com/Vyshantha/multiscripteditor"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Eide, Øyvind",
+          "ref": [
+            "https://d-nb.info/gnd/1084655063"
+          ]
+        },
+        "role": 0,
+        "websites": [
+          "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "vre"
+    ],
+    "category": "tool_and_analysis",
+    "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
+  }
+}
