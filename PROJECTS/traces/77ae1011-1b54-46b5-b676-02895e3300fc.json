@@ -18,7 +18,10 @@
       }
     ],
     "maintained": null,
-    "websites": ["https://www.traces.uni-hamburg.de/", "https://github.com/TraCES-Lexicon"],
+    "websites": [
+      "https://www.traces.uni-hamburg.de/",
+      "https://github.com/TraCES-Lexicon"
+    ],
     "project_desc": "The TraCes meticulously analyzed lexical, morphological, and stylistic features in Ethiopic texts, creating a groundbreaking digital corpus. The project's highlight is a comprehensive digital lexicon of the Gəʿəz language, departing from traditional dictionaries, providing complete lemmas, full translations, and contextual insights, resulting in the first-ever thesaurus for Gəʿəz.",
     "places": [
       {

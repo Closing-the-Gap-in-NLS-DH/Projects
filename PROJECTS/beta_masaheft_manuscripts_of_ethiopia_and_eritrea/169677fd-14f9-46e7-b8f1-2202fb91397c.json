@@ -180,12 +180,21 @@
     "research_data": {
       "lang": ["gez"],
       "sustainability_plan": true,
-      "publications": { "open_access":100, "licensing": [] },
+      "publications": { "open_access": 100, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "XML", "stage": "final", "licensing": [], "open_access": 100 },
-          { "label": "ANNIS", "stage": "refined", "licensing": [], "open_access": 100 }
-
+          {
+            "label": "XML",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          },
+          {
+            "label": "ANNIS",
+            "stage": "refined",
+            "licensing": [],
+            "open_access": 100
+          }
         ],
         "repositories": [
           {
@@ -203,10 +212,30 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "Dillmann Lexicon", "self_developed": false, "ref": ["https://github.com/BetaMasaheft/Dillmann"], "description": "The lexicon was developed by the project Traces" },
-        { "label": "Transkribus", "self_developed": false, "ref": ["https://www.transkribus.org/de"], "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%." },
-        { "label": "ABBYY FineReader", "self_developed": false, "ref": ["https://pdf.abbyy.com"], "description": "OCR software" },
-        { "label": "Alpheios", "self_developed": false, "ref": ["https://alpheios.net/"], "description": "Tool providing translation and morphological information of words in classical languages." }
+        {
+          "label": "Dillmann Lexicon",
+          "self_developed": false,
+          "ref": ["https://github.com/BetaMasaheft/Dillmann"],
+          "description": "The lexicon was developed by the project Traces"
+        },
+        {
+          "label": "Transkribus",
+          "self_developed": false,
+          "ref": ["https://www.transkribus.org/de"],
+          "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%."
+        },
+        {
+          "label": "ABBYY FineReader",
+          "self_developed": false,
+          "ref": ["https://pdf.abbyy.com"],
+          "description": "OCR software"
+        },
+        {
+          "label": "Alpheios",
+          "self_developed": false,
+          "ref": ["https://alpheios.net/"],
+          "description": "Tool providing translation and morphological information of words in classical languages."
+        }
       ],
       "languages": []
     },

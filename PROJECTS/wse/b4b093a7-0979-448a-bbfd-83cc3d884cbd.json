@@ -7,28 +7,24 @@
     "last_edited_on": "2024-04-13"
   },
   "project": {
-    "title": "World Scripts Explorer : one stop to explore, learn and experience any graphical information system",
+    "title": "World Scripts Explorer: one stop to explore, learn and experience any graphical information system",
     "abbr": "WSE",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "",
+        "from": "2021",
         "to": ""
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://worldscriptsexplorer.page"
-    ],
+    "websites": ["https://worldscriptsexplorer.page"],
     "project_desc": "The project enables digital writing in all scripts and graphical information systems, allowing users to explore and create content using standard or custom keyboard layouts. It facilitates learning about scripts, their categorization, and preservation. The modular design of the tool enables seamless integration of new languages or scripts.",
     "places": [
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -47,9 +43,7 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": [
-          "https://www.uni-koeln.de/"
-        ]
+        "websites": ["https://www.uni-koeln.de/"]
       }
     ],
     "related_entities": [],
@@ -68,9 +62,7 @@
       {
         "pers_name": {
           "text": "Eide, Øyvind",
-          "ref": [
-            "https://d-nb.info/gnd/1084655063"
-          ]
+          "ref": ["https://d-nb.info/gnd/1084655063"]
         },
         "role": 0,
         "websites": [
@@ -125,9 +117,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "vre"
-    ],
+    "keywords": ["vre"],
     "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
   }
