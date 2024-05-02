@@ -45,55 +45,58 @@
 		return keywordsMap;
 	}
 
-	export function getKeywordsToDisable(keywordsMap:Record<string, string[]>, selectedTermsList: Set<string>, keywordsToDisable:string[]){	
-		const iterableEntries = Object.entries(keywordsMap);	
-		let urlsOfSearchTerm: string[] =[];
-		
+	export function getKeywordsToDisable(
+		keywordsMap: Record<string, string[]>,
+		selectedTermsList: Set<string>,
+		keywordsToDisable: string[]
+	) {
+		const iterableEntries = Object.entries(keywordsMap);
+		let urlsOfSearchTerm: string[] = [];
+
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		function hasDuplicates(list: any[]): boolean {
-				return list.filter((item, index) => list.indexOf(item) !== index).length > 0;
-			};
-		
-	 
+			return list.filter((item, index) => list.indexOf(item) !== index).length > 0;
+		}
+
 		function findEqualUrls(imputList1: string[], imputList2: string[]): Set<string> {
-			let equalUrls:Set<string> = new Set();			
+			const equalUrls: Set<string> = new Set();
+
 			for (const element of imputList1) {
 				if (imputList2.includes(element)) {
-						equalUrls.add(element)
-				}		
-			}	
-			return equalUrls;			
-		};
-
-		
-		for (const [keyword, urls] of iterableEntries){			
-			if (selectedTermsList.size==1){				
-				if (selectedTermsList.has(keyword)){				
-						urlsOfSearchTerm.push(...urls)
-					} 	
-				}  else {
-					for (const term of selectedTermsList){
-						if(keyword==term){
-							urlsOfSearchTerm.push(...urls)
-						}
-					}
-					if (hasDuplicates(urlsOfSearchTerm)){
-						urlsOfSearchTerm = urlsOfSearchTerm.filter((item, index) => urlsOfSearchTerm.indexOf(item) !== index);
-					}
+					equalUrls.add(element);
 				}
 			}
-		
 
-		for (const [keyword, urls] of iterableEntries){			
-			const commonUrls = findEqualUrls(urlsOfSearchTerm, urls)
-			if (commonUrls.size == 0){
-				keywordsToDisable.push(keyword)
+			return equalUrls;
+		}
+
+		for (const [keyword, urls] of iterableEntries) {
+			if (selectedTermsList.size == 1) {
+				if (selectedTermsList.has(keyword)) {
+					urlsOfSearchTerm.push(...urls);
+				}
+			} else {
+				for (const term of selectedTermsList) {
+					if (keyword == term) {
+						urlsOfSearchTerm.push(...urls);
+					}
+				}
+				if (hasDuplicates(urlsOfSearchTerm)) {
+					urlsOfSearchTerm = urlsOfSearchTerm.filter(
+						(item, index) => urlsOfSearchTerm.indexOf(item) !== index
+					);
+				}
 			}
 		}
-		return keywordsToDisable
+
+		for (const [keyword, urls] of iterableEntries) {
+			const commonUrls = findEqualUrls(urlsOfSearchTerm, urls);
+			if (commonUrls.size == 0) {
+				keywordsToDisable.push(keyword);
+			}
+		}
+		return keywordsToDisable;
 	}
-	
-	
-	
 
 	export function getLanguages(entries: [string, JsonStuff][]): Record<string, string[]> {
 		const languagesMap: Record<string, string[]> = {};
