@@ -186,19 +186,18 @@
 									selectedTermsValue,
 									keywordsToDisable
 								);
-								//console.log(keywordsToDisable)
 							}}
-							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue"
+							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono"
 							class:bg-ctgblue={selectedTermsValue.has(keyword)}
-							class:hover:bg-ctgblue={!keywordsToDisable.includes(keyword)}
-							class:hover:text-gray-50={!keywordsToDisable.includes(keyword)}
 							class:border-ctgblue={selectedTermsValue.has(keyword)}
 							class:border-slate-800={!selectedTermsValue.has(keyword)}
+							class:cursor-not-allowed={keywordsToDisable.includes(keyword)}
+							class:hover:bg-ctgblue={!keywordsToDisable.includes(keyword)}
+							class:hover:border-ctgblue={!keywordsToDisable.includes(keyword)}
+							class:hover:text-gray-50={!keywordsToDisable.includes(keyword)}
+							class:opacity-50={keywordsToDisable.includes(keyword)}
 							class:text-gray-50={selectedTermsValue.has(keyword)}
 							disabled={!selectedTermsValue.has(keyword) && keywordsToDisable.includes(keyword)}
-							style={!selectedTermsValue.has(keyword) && keywordsToDisable.includes(keyword)
-								? 'cursor: not-allowed; opacity: 0.5; hover:bg-ctgtan;'
-								: ''}
 						>
 							{#if keyword === 'corpus_output' || keyword === 'corpus_resource'}
 								corpus
