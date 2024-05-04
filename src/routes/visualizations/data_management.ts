@@ -104,7 +104,7 @@ function appendProjects(
 			id,
 			name,
 			parent: parentId,
-			parentname: parentName,
+			parentName,
 			url: row[1]['project']['websites'][0]
 		};
 

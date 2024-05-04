@@ -12,7 +12,7 @@
 	const spec: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
 		description:
-			'A network diagram of software dependencies, with edges grouped via hierarchical edge bundling.',
+			'A network diagram of software dependencies, with edges grouped via hierarchical edge bundling',
 		width: 1000,
 		height: 1000,
 		autosize: 'none',
@@ -27,7 +27,7 @@
 			{ name: 'layout', value: 'cluster' },
 			{ name: 'colorSib', value: 'firebrick' },
 			{ name: 'colorPar', value: 'forestgreen' },
-			{ name: 'colorChil', value: 'orange' },
+			{ name: 'colorChild', value: 'orange' },
 			{ name: 'colorCoop', value: 'darkorchid' },
 			{ name: 'originX', update: 'width / 2' },
 			{ name: 'originY', update: 'height / 2' },
@@ -170,7 +170,7 @@
 				from: { data: 'leaves' },
 				encode: {
 					enter: {
-						fill: { scale: 'cat_color', field: 'parentname' },
+						fill: { scale: 'cat_color', field: 'parentName' },
 						fillOpacity: { value: 0.6 },
 						padAngle: { value: 0 },
 						x: { signal: 'originX' },
@@ -183,7 +183,7 @@
 						innerRadius: { signal: 'innerRadius' },
 						outerRadius: { signal: 'outerRadius' },
 						cornerRadius: { value: 0 },
-						tooltip: { field: 'parentname' }
+						tooltip: { field: 'parentName' }
 					},
 					hover: { cursor: { value: 'pointer' } }
 				}
@@ -218,7 +218,7 @@
 							{ test: "indata('sib_selected', 'source', datum.id)", signal: 'colorSib' },
 							{ test: "indata('sib_selected', 'target', datum.id)", signal: 'colorSib' },
 							{ test: "indata('par_selected', 'source', datum.id)", signal: 'colorPar' },
-							{ test: "indata('par_selected', 'target', datum.id)", signal: 'colorChil' },
+							{ test: "indata('par_selected', 'target', datum.id)", signal: 'colorChild' },
 							{ test: "indata('coop_selected', 'source', datum.id)", signal: 'colorCoop' },
 							{ test: "indata('coop_selected', 'target', datum.id)", signal: 'colorCoop' },
 							{ value: 'black' }
@@ -285,7 +285,7 @@
 							},
 							update: {
 								stroke: [
-									{ test: 'parent.source === active', signal: 'colorChil' },
+									{ test: 'parent.source === active', signal: 'colorChild' },
 									{ test: 'parent.target === active', signal: 'colorPar' },
 									{ value: 'steelblue' }
 								],
@@ -348,14 +348,14 @@
 				range: [
 					{ signal: 'colorSib' },
 					{ signal: 'colorPar' },
-					{ signal: 'colorChil' },
+					{ signal: 'colorChild' },
 					{ signal: 'colorCoop' }
 				]
 			},
 			{
 				name: 'cat_color',
 				type: 'ordinal',
-				domain: { data: 'leaves', field: 'parentname' },
+				domain: { data: 'leaves', field: 'parentName' },
 				range: { scheme: 'set1' }
 			},
 			{
