@@ -62,7 +62,7 @@
 
 	function handleForm() {
 		if (!template) {
-			console.log('Error: JSON template not loaded');
+			console.error('JSON template not loaded');
 			return;
 		}
 
