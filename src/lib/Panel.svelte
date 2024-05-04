@@ -16,11 +16,8 @@
 	export let languages: string[];
 
 	const entries = entriesRaw as [string, JsonStuff][];
-	const keywordsMap = getKeywords(entries);
-	let keywordsToDisable: string[] = [];
 
 	let searchTermValue: string;
-
 	let selectedTabValue: string;
 	let selectedTermsValue: Set<string>;
 
@@ -35,6 +32,9 @@
 	selectedTerms.subscribe((value) => {
 		selectedTermsValue = value;
 	});
+
+	const keywordsMap = getKeywords(entries);
+	$: keywordsToDisable = getInvalidKeywords(keywordsMap, selectedTabValue, selectedTermsValue);
 
 	let debounce: number;
 
@@ -99,7 +99,7 @@
 					selectedTab.set('search');
 					resetHash();
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class="rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
 				class:bg-ctgorange={selectedTabValue === 'search'}
 				class:border-slate-800={selectedTabValue === 'search'}
 				class:border-ctgtan={selectedTabValue !== 'search'}
@@ -112,7 +112,7 @@
 					selectedTab.set('keywords');
 					resetHash();
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class="rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
 				class:bg-ctgorange={selectedTabValue === 'keywords'}
 				class:border-slate-800={selectedTabValue === 'keywords'}
 				class:border-ctgtan={selectedTabValue !== 'keywords'}
@@ -125,7 +125,7 @@
 					selectedTab.set('languages');
 					resetHash();
 				}}
-				class="cursor-pointer rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
+				class="rounded-t-md border-x border-t px-2 py-0.5 hover:border-slate-800 hover:bg-ctgorange"
 				class:bg-ctgorange={selectedTabValue === 'languages'}
 				class:border-slate-800={selectedTabValue === 'languages'}
 				class:border-ctgtan={selectedTabValue !== 'languages'}
@@ -137,12 +137,8 @@
 
 	{#if selectedTabValue !== 'search' && validSelection}
 		<p class="-mt-1 mb-3.5">
-			<button
-				on:click={() => {
-					resetHash();
-					keywordsToDisable = [];
-				}}
-				class="cursor-pointer font-normal text-red-900 underline">Clear selection</button
+			<button on:click={resetHash} class="font-normal text-red-900 underline"
+				>Clear selection</button
 			>
 		</p>
 	{/if}
@@ -151,10 +147,8 @@
 		<div class="flex flex-wrap gap-2.5 text-sm">
 			{#each languages as language}
 				<button
-					on:click={() => {
-						updateHash('languages', language);
-					}}
-					class="cursor-pointer rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
+					on:click={() => updateHash('languages', language)}
+					class="rounded-md border px-2 py-0.5 font-mono hover:border-ctgblue hover:bg-ctgblue hover:text-gray-50"
 					class:bg-ctgblue={selectedTermsValue.has(language)}
 					class:border-ctgblue={selectedTermsValue.has(language)}
 					class:border-slate-800={!selectedTermsValue.has(language)}
@@ -179,25 +173,18 @@
 				<div class="flex flex-wrap gap-2.5 text-sm lg:w-4/5 xl:w-5/6">
 					{#each keywordsCategorized[category] as keyword}
 						<button
-							on:click={() => {
-								updateHash('keywords', keyword);
-								keywordsToDisable = getInvalidKeywords(
-									keywordsMap,
-									selectedTermsValue,
-									keywordsToDisable
-								);
-							}}
-							class="cursor-pointer rounded-md border px-2 py-0.5 font-mono"
+							on:click={() => updateHash('keywords', keyword)}
+							class="rounded-md border px-2 py-0.5 font-mono"
 							class:bg-ctgblue={selectedTermsValue.has(keyword)}
 							class:border-ctgblue={selectedTermsValue.has(keyword)}
 							class:border-slate-800={!selectedTermsValue.has(keyword)}
-							class:cursor-not-allowed={keywordsToDisable.includes(keyword)}
-							class:hover:bg-ctgblue={!keywordsToDisable.includes(keyword)}
-							class:hover:border-ctgblue={!keywordsToDisable.includes(keyword)}
-							class:hover:text-gray-50={!keywordsToDisable.includes(keyword)}
-							class:opacity-50={keywordsToDisable.includes(keyword)}
+							class:cursor-not-allowed={keywordsToDisable.has(keyword)}
+							class:hover:bg-ctgblue={!keywordsToDisable.has(keyword)}
+							class:hover:border-ctgblue={!keywordsToDisable.has(keyword)}
+							class:hover:text-gray-50={!keywordsToDisable.has(keyword)}
+							class:opacity-50={keywordsToDisable.has(keyword)}
 							class:text-gray-50={selectedTermsValue.has(keyword)}
-							disabled={!selectedTermsValue.has(keyword) && keywordsToDisable.includes(keyword)}
+							disabled={!selectedTermsValue.has(keyword) && keywordsToDisable.has(keyword)}
 						>
 							{#if keyword === 'corpus_output' || keyword === 'corpus_resource'}
 								corpus
@@ -221,17 +208,12 @@
 				autocapitalize="none"
 				class="w-56 rounded border border-ctgblue bg-gray-100 px-2 py-1"
 				bind:value={searchTermValue}
-				on:keydown={() => {
-					handleSearch();
-				}}
+				on:keydown={handleSearch}
 			/>
 
 			{#if searchTermValue}
-				<button
-					on:click={() => {
-						searchTerm.set('');
-					}}
-					class="rounded bg-red-900 px-2 text-gray-100">Clear</button
+				<button on:click={() => searchTerm.set('')} class="rounded bg-red-900 px-2 text-gray-100"
+					>Clear</button
 				>
 			{/if}
 		</div>

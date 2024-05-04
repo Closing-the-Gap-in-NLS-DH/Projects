@@ -29,54 +29,50 @@
 
 	export function getInvalidKeywords(
 		keywordsMap: Record<string, string[]>,
-		selectedTermsList: Set<string>,
-		keywordsToDisable: string[]
-	) {
-		const iterableEntries = Object.entries(keywordsMap);
-		let urlsOfSearchTerm: string[] = [];
-
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		function hasDuplicates(list: any[]): boolean {
-			return list.filter((item, index) => list.indexOf(item) !== index).length > 0;
+		selectedTab: string,
+		selectedTerms: Set<string>
+	): Set<string> {
+		if (selectedTab !== 'keywords' || selectedTerms.size === 0) {
+			return new Set<string>();
 		}
 
-		function findEqualUrls(imputList1: string[], imputList2: string[]): Set<string> {
-			const equalUrls: Set<string> = new Set();
+		//
+		// First, reconstruct which entries are selected, based on keywords
+		//
 
-			for (const element of imputList1) {
-				if (imputList2.includes(element)) {
-					equalUrls.add(element);
-				}
+		const selectedUrls = new Set<string>();
+		let firstIteration = true;
+
+		for (const keyword of selectedTerms) {
+			const nextUrls = keywordsMap[keyword];
+
+			if (firstIteration) {
+				nextUrls.forEach((url) => selectedUrls.add(url));
+				firstIteration = false;
+				continue;
 			}
 
-			return equalUrls;
-		}
-
-		for (const [keyword, urls] of iterableEntries) {
-			if (selectedTermsList.size === 1) {
-				if (selectedTermsList.has(keyword)) {
-					urlsOfSearchTerm.push(...urls);
-				}
-			} else {
-				for (const term of selectedTermsList) {
-					if (keyword === term) {
-						urlsOfSearchTerm.push(...urls);
-					}
-				}
-				if (hasDuplicates(urlsOfSearchTerm)) {
-					urlsOfSearchTerm = urlsOfSearchTerm.filter(
-						(item, index) => urlsOfSearchTerm.indexOf(item) !== index
-					);
+			for (const url of selectedUrls) {
+				if (!nextUrls.includes(url)) {
+					selectedUrls.delete(url);
 				}
 			}
 		}
 
-		for (const [keyword, urls] of iterableEntries) {
-			const commonUrls = findEqualUrls(urlsOfSearchTerm, urls);
-			if (commonUrls.size === 0) {
-				keywordsToDisable.push(keyword);
+		//
+		// Second, determine which further keywords would yield no entries
+		//
+
+		const keywordsToDisable = new Set<string>();
+
+		outer: for (const [keyword, urls] of Object.entries(keywordsMap)) {
+			for (const url of urls) {
+				if (selectedUrls.has(url)) continue outer;
 			}
+
+			keywordsToDisable.add(keyword);
 		}
+
 		return keywordsToDisable;
 	}
 
