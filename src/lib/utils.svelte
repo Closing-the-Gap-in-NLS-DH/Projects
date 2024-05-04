@@ -71,13 +71,13 @@
 		}
 
 		for (const [keyword, urls] of iterableEntries) {
-			if (selectedTermsList.size == 1) {
+			if (selectedTermsList.size === 1) {
 				if (selectedTermsList.has(keyword)) {
 					urlsOfSearchTerm.push(...urls);
 				}
 			} else {
 				for (const term of selectedTermsList) {
-					if (keyword == term) {
+					if (keyword === term) {
 						urlsOfSearchTerm.push(...urls);
 					}
 				}
@@ -91,7 +91,7 @@
 
 		for (const [keyword, urls] of iterableEntries) {
 			const commonUrls = findEqualUrls(urlsOfSearchTerm, urls);
-			if (commonUrls.size == 0) {
+			if (commonUrls.size === 0) {
 				keywordsToDisable.push(keyword);
 			}
 		}
