@@ -4,7 +4,7 @@
 	import { default as vegaEmbed } from 'vega-embed';
 	import type { VisualizationSpec } from 'vega-embed';
 
-	import { createData } from './datamanagement';
+	import { createData } from './data_management';
 
 	const { projects, siblingDependencies, parentChildDependencies, cooperationDependencies } =
 		createData();
