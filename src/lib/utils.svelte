@@ -27,25 +27,7 @@
 		return places.filter((place) => place.place_name.text);
 	}
 
-	export function getKeywords(entries: [string, JsonStuff][]): Record<string, string[]> {
-		const keywordsMap: Record<string, string[]> = {};
-
-		for (const [url, data] of entries) {
-			const keywords: string[] = data.project.keywords;
-
-			for (const keyword of keywords) {
-				if (keywordsMap[keyword]) {
-					keywordsMap[keyword].push(url);
-				} else {
-					keywordsMap[keyword] = [url];
-				}
-			}
-		}
-
-		return keywordsMap;
-	}
-
-	export function getKeywordsToDisable(
+	export function getInvalidKeywords(
 		keywordsMap: Record<string, string[]>,
 		selectedTermsList: Set<string>,
 		keywordsToDisable: string[]
@@ -96,6 +78,24 @@
 			}
 		}
 		return keywordsToDisable;
+	}
+
+	export function getKeywords(entries: [string, JsonStuff][]): Record<string, string[]> {
+		const keywordsMap: Record<string, string[]> = {};
+
+		for (const [url, data] of entries) {
+			const keywords: string[] = data.project.keywords;
+
+			for (const keyword of keywords) {
+				if (keywordsMap[keyword]) {
+					keywordsMap[keyword].push(url);
+				} else {
+					keywordsMap[keyword] = [url];
+				}
+			}
+		}
+
+		return keywordsMap;
 	}
 
 	export function getLanguages(entries: [string, JsonStuff][]): Record<string, string[]> {

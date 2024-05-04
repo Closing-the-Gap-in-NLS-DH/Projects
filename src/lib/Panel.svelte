@@ -8,7 +8,7 @@
 		resetHash,
 		updateHash,
 		getKeywords,
-		getKeywordsToDisable
+		getInvalidKeywords
 	} from '$lib/utils.svelte';
 	import type { JsonStuff } from '$lib/utils.svelte';
 
@@ -181,7 +181,7 @@
 						<button
 							on:click={() => {
 								updateHash('keywords', keyword);
-								keywordsToDisable = getKeywordsToDisable(
+								keywordsToDisable = getInvalidKeywords(
 									keywordsMap,
 									selectedTermsValue,
 									keywordsToDisable
