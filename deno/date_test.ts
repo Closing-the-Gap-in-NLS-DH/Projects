@@ -1,4 +1,4 @@
-import { assertLess } from 'https://deno.land/std@0.224.0/assert/mod.ts';
+import { assertLess } from 'jsr:@std/assert';
 
 Deno.test('data freshness', async () => {
 	const generated = await Deno.readTextFile('./src/data/generated.txt');
