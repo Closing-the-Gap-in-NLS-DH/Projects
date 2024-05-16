@@ -2,10 +2,15 @@
 exclude = [
     "blogs.bl.uk",
     "gepris.dfg.de",
-    '\.git$',
+    '\.git$',                         # Don't check Git repository links
+    "hcommons.org",                   # Denying requests from curl
+    "ivdnt.org",                      # Mysterious error
+    "multicast.aspra.uni-bamberg.de", # Weird timeouts (but these pages "work")
     "nli.org.il",
+    "qnl.qa",                         # Denying requests from curl
     "researchgate.net/profile",
+    "uni-paderborn.de/person",        # Possibly denying requests from curl
 ]
 
-# Exclude these filesystem paths from getting checked
+# Exclude filesystem paths from checking
 exclude_path = ["node_modules", "package-lock.json"]
