@@ -18,7 +18,9 @@
       }
     ],
     "maintained": true,
-    "websites": ["https://www.clariah.de/"],
+    "websites": [
+      "https://web.archive.org/web/20240103005507/https://www.clariah.de/"
+    ],
     "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
     "places": [
       {
