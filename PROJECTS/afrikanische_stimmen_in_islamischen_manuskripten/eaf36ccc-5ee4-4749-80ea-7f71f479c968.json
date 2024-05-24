@@ -8,7 +8,7 @@
   },
   "project": {
     "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
-    "abbr": "",
+    "abbr": "AJAMI LAB",
     "type": "project",
     "ref": [],
     "date": [
@@ -28,7 +28,9 @@
       {
         "place_name": {
           "text": "Bamako",
-          "ref": ["https://www.geonames.org/2460596/bamako.html"]
+          "ref": [
+            "https://www.geonames.org/2460596/bamako.html"
+          ]
         },
         "coordinates": {
           "lat": "12.65",
@@ -38,7 +40,9 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -46,7 +50,11 @@
         }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -57,7 +65,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -140,38 +150,116 @@
         "relation_type": "sibling",
         "title": "Corpus dei Manoscritti Copti Letterari",
         "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Hill Museum & Manuscript Library",
+        "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
       }
     ],
     "contacts": [
       {
         "pers_name": {
           "text": "Bondarev, Dmitry",
-          "ref": ["https://d-nb.info/gnd/1185835431"]
+          "ref": [
+            "https://d-nb.info/gnd/1185835431"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["mku", "snk"],
-      "sustainability_plan": null,
+      "lang": [
+        "mku",
+        "snk"
+      ],
+      "sustainability_plan": true,
       "publications": {
-        "open_access": 0,
-        "licensing": [""]
+        "open_access": 80,
+        "licensing": []
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          {
+            "label": "mdb",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "xlsx",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "pdf",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          }
+        ],
+        "repositories": [
+          {
+            "label": "ZFDM Repository - Universität Hamburg",
+            "accessibility": "public",
+            "ref": [
+              "https://www.fdr.uni-hamburg.de/"
+            ],
+            "licensing": [],
+            "description": ""
+          },
+          {
+            "label": "Microsoft Access",
+            "accessibility": "private",
+            "ref": [
+              "https://www.microsoft.com/de-de/microsoft-365/access"
+            ],
+            "licensing": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
-      "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "database": [
+        "mdb",
+        "xlsx"
+      ],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "Tropy",
+          "self_developed": false,
+          "ref": [
+            "https://tropy.org/"
+          ],
+          "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
+        },
+        {
+          "label": "Toolbox",
+          "self_developed": false,
+          "ref": [
+            "https://software.sil.org/toolbox/"
+          ],
+          "description": "Free data management and analysis tool for field linguists."
+        },
+        {
+          "label": "FLEx",
+          "self_developed": false,
+          "ref": [
+            "https://software.sil.org/fieldworks/"
+          ],
+          "description": "Free software for language and cultural data, with support for complex scripts."
+        }
+      ],
+      "languages": []
     },
     "policies": [
       {
@@ -183,9 +271,10 @@
       "african_studies",
       "catalog",
       "digital_preservation",
+      "linguistics",
       "manuscript"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "The catalog will be made available in PDF format. The data and expertise acquired during the project will be utilized in partner projects to optimize OCR pipelines and AI models for the identification of Ajami in manuscripts"
   }
 }
