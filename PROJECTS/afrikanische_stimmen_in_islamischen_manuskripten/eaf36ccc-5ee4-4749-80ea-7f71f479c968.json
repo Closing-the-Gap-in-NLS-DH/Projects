@@ -241,10 +241,11 @@
       "african_studies",
       "catalog",
       "digital_preservation",
+      "islamic_studies",
       "linguistics",
       "manuscript"
     ],
     "category": "digital_preservation",
-    "comment": "The catalog will be made available in PDF format. The data and expertise acquired during the project will be utilized in partner projects to optimize OCR pipelines and AI models for the identification of Ajami in manuscripts"
+    "comment": "The catalog will be made available in PDF format. The data and expertise acquired during the project will be utilized in partner projects to optimize OCR pipelines and AI models for the identification of Ajami in manuscripts. The research output of the project relevant to the History of West Africa, Islamic studies, and (socio)linguistics is available through publications of members, associates, and alumni of Ajami lab."
   }
 }
