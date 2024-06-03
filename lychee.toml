@@ -1,15 +1,13 @@
 # Exclude URLs and mail addresses from checking (supports regex)
 exclude = [
-    "blogs.bl.uk",
-    "gepris.dfg.de",
     '\.git$',                         # Don't check Git repository links
+    "bl.uk",                          # Denying requests from curl
+    "gepris.dfg.de",                  # Circular redirects
     "hcommons.org",                   # Denying requests from curl
     "ivdnt.org",                      # Mysterious error
     "multicast.aspra.uni-bamberg.de", # Weird timeouts (but these pages "work")
-    "nli.org.il",
     "qnl.qa",                         # Denying requests from curl
-    "researchgate.net/profile",
-    "uni-paderborn.de/person",        # Possibly denying requests from curl
+    "researchgate.net/profile",       # Denying requests from curl
 ]
 
 # Exclude filesystem paths from checking
