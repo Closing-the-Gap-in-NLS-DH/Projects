@@ -786,7 +786,7 @@
         {
           "type": "framework:web",
           "label": "Angular",
-          "ref": "https://angular.io/",
+          "ref": "https://angular.dev/",
           "collected_by": {
             "name": "Mueller-Laackman, Jonas",
             "ref": "https://orcid.org/0000-0003-2279-6751"
@@ -1705,7 +1705,7 @@
     {
       "type": "other",
       "label": "TRSCR Keyboard for Transcribing Arabic/Persian/Osmanic",
-      "ref": "https://web.archive.org/https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html",
+      "ref": "https://web.archive.org/web/20220816041234/aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html",
       "collected_by": {
         "name": "Mueller-Laackman, Jonas",
         "ref": "https://orcid.org/0000-0003-2279-6751"

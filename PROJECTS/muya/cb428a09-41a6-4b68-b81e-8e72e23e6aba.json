@@ -84,7 +84,7 @@
           "text": "University of Birmingham",
           "ref": ["https://www.wikidata.org/wiki/Q223429"]
         },
-        "websites": ["https://www.birmingham.ac.uk/index.aspx"]
+        "websites": ["https://www.birmingham.ac.uk/"]
       },
       {
         "relation_type": "host",
