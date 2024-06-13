@@ -170,7 +170,7 @@
 				from: { data: 'leaves' },
 				encode: {
 					enter: {
-						fill: { scale: 'cat_color', field: 'parentName' },
+						fill: { scale: 'cat_color', field: 'root' },
 						fillOpacity: { value: 0.6 },
 						padAngle: { value: 0 },
 						x: { signal: 'originX' },
@@ -194,6 +194,7 @@
 				encode: {
 					enter: {
 						text: { field: 'name' },
+						limit: { value: 200 },
 						baseline: { value: 'middle' },
 						href: { field: 'url' }
 					},
@@ -355,7 +356,7 @@
 			{
 				name: 'cat_color',
 				type: 'ordinal',
-				domain: { data: 'leaves', field: 'parentName' },
+				domain: { data: 'leaves', field: 'root' },
 				range: { scheme: 'set1' }
 			},
 			{
