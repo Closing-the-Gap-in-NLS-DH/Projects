@@ -18,7 +18,7 @@
       }
     ],
     "maintained": null,
-    "websites": ["https://scripta.psl.eu/", "https://escripta.hypotheses.org/"],
+    "websites": ["https://psl.eu/en/scripta", "https://escripta.hypotheses.org/"],
     "project_desc": "Scripta-PSL aims to integrate the fundamental sciences of the written word (paleography, codicology, epigraphy, history of the book, etc.) and other social and human sciences (linguistics, history, anthropology, etc.) into the digital and computational humanities. It will develop machine vision tools (for handwriting recognition and document analysis, for example) and tools for (semi)-automatic classification of symbols and texts, with a focus on pre-typographical and/or non-alphabetic cultures. It will also provide additional inquiry into written traditions of rare languages and writings, which are currently underrepresented at the University.",
     "places": [
       {
