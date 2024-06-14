@@ -192,11 +192,7 @@ export function createData() {
 		appendDependencies(relations, 'cooperation', cooperationDependencies, uuid);
 	}
 	
-	for (const row of projects){
-		console.log(row["name"])
-		console.log(row["parentName"])
-	}
-
+	
 	return { projects, siblingDependencies, parentChildDependencies, cooperationDependencies };
 }
 

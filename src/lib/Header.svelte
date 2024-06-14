@@ -30,7 +30,7 @@
 		<a
 			href="{base}/visualizations/"
 			class="underline-offset-2 hover:underline"
-			class:underline={$page.route.id === '/visualizations'}>Relations</a
+			class:underline={$page.route.id === '/visualizations'}>Visualizations</a
 		>
 		<a
 			href="{base}/contribute/"

@@ -9,13 +9,27 @@
 	const { projects, siblingDependencies, parentChildDependencies, cooperationDependencies } =
 		createData();
 
-	const spec: VisualizationSpec = {
+	const spec1: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
 		description:
 			'A network diagram of software dependencies, with edges grouped via hierarchical edge bundling',
 		width: 1000,
 		height: 1000,
-		autosize: 'none',
+		padding:12,
+		autosize: 'pad',
+		title: {
+			text: "Relations",
+			orient: "top",
+			fontSize: 35, 
+			fontWeight: "bold",
+			offset: 35,
+			color: "black",		
+			subtitle:["This chart illustrates institutional and collaborative relationships between projects.'Sibling' denotes projects hosted by the same institution or",
+			"university, 'parent' and 'child' indicate subprojects within a larger project or cluster, and 'cooperation' represents projects engaged in active collaboration."],
+			subtitleFontSize: 17, 
+			subtitleFontWeight: "normal",
+			subtitleColor: "black",
+			subtitlePadding: 30},
 
 		signals: [
 			{ name: 'tension', value: 0.85 },
@@ -389,11 +403,173 @@
 		]
 	};
 
+	const spec2: VisualizationSpec = {
+		$schema: 'https://vega.github.io/schema/vega/v5.json',
+		description: 'An example of a space-fulling radial layout for hierarchical data.',
+		width: 750,
+		height: 750,
+		padding: 44,
+		autosize: 'pad',
+		title: {
+			text: "Categories",
+			orient: "top",
+			fontSize: 35, 
+			fontWeight: "bold",
+			offset: 50,
+			color: "black",		
+			subtitle:["This chart displays categories and subcategories of the projects. In cases of overlap, the most prominent feature of each project was chosen as", "the display category."],
+			subtitleFontSize: 17, 
+			subtitleFontWeight: "normal",
+			subtitleColor: "black",
+			subtitlePadding: 30
+	
+		
+		},
+
+		data: [
+			{
+			name: 'tree',
+			values: projects,
+			transform: [
+				{ type: 'stratify', key: 'id', parentKey: 'parent' },
+				{
+				type: 'partition',
+				sort: { field: 'value' },
+				size: [{ signal: '2 * PI' }, { signal: 'width / 2' }],
+				as: ['a0', 'r0', 'a1', 'r1', 'depth', 'children']
+				},
+				{ type: 'filter', expr: 'datum.id !== "c14c4b13-2d8a-47da-9682-fce6a5131f04"'},
+				{ type: 'filter', expr: 'datum.layer !== 1' },
+				{ type: 'formula', as: 'root_parent', expr: 'datum.root' },
+				{
+				type: 'label',
+				size: { signal: '[width, height]' },
+				anchor: ['top', 'bottom', 'left', 'right']
+				}
+			]
+			}
+		],
+
+		scales: [
+			{
+			name: 'color',
+			type: 'ordinal',
+			domain: { data: 'tree', field: 'root_parent' },
+			range: { scheme: 'category10' }
+			},
+			{
+			name: 'brightness',
+			type: 'linear',
+			domain: { data: 'tree', field: 'depth' },
+			range: [1.5, 0.7]
+			}
+		],
+
+		marks: [
+			{
+			type: 'group',
+			from: {
+				facet: {
+				name: 'layer',
+				data: 'tree',
+				groupby: 'layer'
+				}
+			},
+			marks: [
+				{
+				type: 'arc',
+				from: { data: 'layer' },
+				encode: {
+					enter: {
+					x: { signal: 'width / 2' },
+					y: { signal: 'height / 2' },
+					fill: [{ scale: 'color', field: 'root_parent' }],
+					fillOpacity: { scale: 'brightness', field: 'depth' },
+					href: { field: 'url' },
+					tooltip: {
+						signal: "datum.name"
+					}
+					},
+					update: {
+					startAngle: { field: 'a0' },
+					endAngle: { field: 'a1' },
+					innerRadius: { signal: 'datum.layer === 2 ? 100 : 280' },
+					outerRadius: { field: 'r1' },
+					stroke: { value: 'white' },
+					strokeWidth: { value: 0.5 },
+					zindex: { value: 0 }
+					},
+					hover: {
+					stroke: { value: 'white' },
+					strokeWidth: { value: 2 },
+					zindex: { value: 0 }
+					}
+				}
+				},
+				{
+				type: 'text',
+				from: { data: 'layer' },
+				encode: {
+					enter: {
+					text: { field: 'name' },
+					fill: { value: 'white' },
+					baseline: { value: 'middle' },
+					fontSize: { signal: 'datum.layer === 3 ? 9 : 15' },
+					align: { signal: "datum.layer == 2 && datum.root == 'Digital Preservation' ? 'right' : 'left'" },
+					limit: { signal: 'datum.layer === 3 ? 80 : 110' },
+					href: { field: 'url' },
+					tooltip: {
+						signal: "datum.name"
+					}
+					},
+					update: {
+					x: { signal: 'width / 2' },
+					y: { signal: 'height / 2' },
+					dx: { signal: "datum.layer == 3 ? -37: (datum.layer == 2 && datum.root == 'Digital Preservation' ? 70 : -70)" },
+					radius: { signal: '(datum.r0 == 0 ? 0 : datum.r0 + datum.r1) / 2' },
+					theta: { signal: '(datum.a0 + datum.a1) / 2' },
+					angle: { signal: "datum.r0 == 0 ? 0 : ((datum.a0 + datum.a1) / 2) * 180 / PI + (inrange(((datum.a0 + datum.a1 ) / 2) % (2 * PI), [0, PI]) ? 270 :90)" }
+					}
+				}
+				}
+			]
+			}
+		],
+
+		legends: [
+			{
+			stroke: 'color',
+			fill: 'color',
+			orient: 'none',
+			title: 'Categories',
+			symbolType: 'circle',
+			orient: "bottom-right",
+			titleFontSize: 16,
+			labelFontSize: 14,
+			padding: -30
+		
+			
+			
+			}
+		],
+
+		config: {}
+		};
+
+
 	onMount(() => {
-		vegaEmbed('#vega', spec, {});
+	
+		vegaEmbed('#vis2', spec2, {});
+		vegaEmbed('#vis1', spec1, {});
+		
+		
 	});
 </script>
 
 <div class="flex justify-center px-4">
-	<div id="vega" class="rounded-lg bg-gray-50 p-4"></div>
+	<div id="vis1" class="rounded-lg bg-gray-50 p-4  mb-4"></div>
+</div>
+
+<div class="flex justify-center px-4">
+	<div id="vis2" class="rounded-lg bg-gray-50 p-4"></div>
 </div>
