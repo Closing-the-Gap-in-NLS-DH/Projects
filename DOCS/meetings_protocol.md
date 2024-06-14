@@ -1,5 +1,54 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2024-06-14
+
+**Time**: 10:30 - 12:00 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela
+
+- Administrative updates:
+    - Regular administrative meetings have been held in the last couple of weeks with the goal of enhancing our web presence. We have set up a project website embedded in the university's website with a calendar containing CTG-related events.
+    - The Abschlussbericht has been completed and sent to BUA.
+
+- SHK positions:
+    - Four applicants have been invited for interviews.
+
+- Visualizations:
+    - Xenia has completed the second visualization. It needs to be embedded in the website. Two more visualizations depicting languages and universities will follow ASAP.
+    - Titles, captions, and explanations for all visualizations should also be added.
+    - Languages with multiple scripts need to be addressed.
+
+- Blog:
+    - Theo has added a new project to the blog.
+    - Efforts are ongoing to add new contributors. Oualid has agreed but is currently busy.
+    - The blog should be part of the archiving process and the Bericht for BUA.
+    - For longer, more serious posts, we should consider assigning DOIs or connecting them to Zenodo.
+    - Offering DOIs could facilitate engaging people to contribute to the blog.
+
+- Theo’s position:
+    - Three people were mentioned as possible candidates for Theo’s position. We will discuss with them their interest in joining.
+
+- Workshop collaboration:
+    - There is a possibility of organizing a workshop on relational Database Type DB for early November. We should discuss this with Jonas and then coordinate it with the person interested in conducting the workshop.
+
+
+- Interviews and best practices:
+    - Interviews were conducted with Beta maṣāḥǝft, ACP, and AJAMI Lab.
+    - Next interview partners are Bibliotheca Arabica and Coptic OCR. We have also contacted eScritorium and are waiting for a response.
+    - What is the aim of the interviews? Should we emphasize qualitative insights into project strategies or data collection? Which approach would be more helpful for the development of best practices?
+    - The goal is to interview projects that we already regard as good examples of DH practice. Since we can’t generate an extensive set of data, we should focus on a qualitative approach and use the data to support our claims.
+    - Every interview should be documented. We can also ask for permission to record.
+    - We should discuss this topic again with Jonas.
+
+
+
+
+
+
+
+
+
+
 ##2024-03-15
 
 **Time**: 11:00-12:15 (Berlin)
@@ -18,16 +67,16 @@
 
 - New postdoc
 
-  - we should start looking for a replacement for Theo. We could eventually split the position in two.
+  - We should start looking for a replacement for Theo. We could eventually split the position in two.
   - The criteria would be:
     - Knowledge in a non-Latin script, doesn´t have to be Arabic, but there should be at least an interest in it. Having someone working with scripts other than Arabic would make our project more inclusive and multilingual-oriented.
     - Next to IT skills, the person should be interested in PR-work to ensure the visibility of the project.
   - The decision about the new postdoc should be made by the entire team.
   - In case we don't find anybody on time Xenia could take over more responsibilities.
 
-- Student assistant: The job advertisement has been published, we are waiting for submissions
+- Student assistant: The job advertisement has been published, we are waiting for submissions.
 
-- DH course: Xenia and Jonas would like to make a DH course for students togethe in one or two semesters
+- DH course: Xenia and Jonas would like to make a DH course for students together in one or two semesters.
 
 - Interviews: Since we have already established a connection with CMS Hamburg, we should continue interviewing people from there. Xenia will prepare a list of possible interview partners and send it to the rest of the team.
 
