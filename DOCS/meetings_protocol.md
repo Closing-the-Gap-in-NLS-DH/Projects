@@ -7,47 +7,43 @@
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela
 
 - Administrative updates:
-    - Regular administrative meetings have been held in the last couple of weeks with the goal of enhancing our web presence. We have set up a project website embedded in the university's website with a calendar containing CTG-related events.
-    - The Abschlussbericht has been completed and sent to BUA.
+
+  - Regular administrative meetings have been held in the last couple of weeks with the goal of enhancing our web presence. We have set up a project website embedded in the university's website with a calendar containing CTG-related events.
+  - The Abschlussbericht has been completed and sent to BUA.
 
 - SHK positions:
-    - Four applicants have been invited for interviews.
+
+  - Four applicants have been invited for interviews.
 
 - Visualizations:
-    - Xenia has completed the second visualization. It needs to be embedded in the website. Two more visualizations depicting languages and universities will follow ASAP.
-    - Titles, captions, and explanations for all visualizations should also be added.
-    - Languages with multiple scripts need to be addressed.
+
+  - Xenia has completed the second visualization. It needs to be embedded in the website. Two more visualizations depicting languages and universities will follow ASAP.
+  - Titles, captions, and explanations for all visualizations should also be added.
+  - Languages with multiple scripts need to be addressed.
 
 - Blog:
-    - Theo has added a new project to the blog.
-    - Efforts are ongoing to add new contributors. Oualid has agreed but is currently busy.
-    - The blog should be part of the archiving process and the Bericht for BUA.
-    - For longer, more serious posts, we should consider assigning DOIs or connecting them to Zenodo.
-    - Offering DOIs could facilitate engaging people to contribute to the blog.
+
+  - Theo has added a new project to the blog.
+  - Efforts are ongoing to add new contributors. Oualid has agreed but is currently busy.
+  - The blog should be part of the archiving process and the Bericht for BUA.
+  - For longer, more serious posts, we should consider assigning DOIs or connecting them to Zenodo.
+  - Offering DOIs could facilitate engaging people to contribute to the blog.
 
 - Theo’s position:
-    - Three people were mentioned as possible candidates for Theo’s position. We will discuss with them their interest in joining.
+
+  - Three people were mentioned as possible candidates for Theo’s position. We will discuss with them their interest in joining.
 
 - Workshop collaboration:
-    - There is a possibility of organizing a workshop on relational Database Type DB for early November. We should discuss this with Jonas and then coordinate it with the person interested in conducting the workshop.
 
+  - There is a possibility of organizing a workshop on relational Database Type DB for early November. We should discuss this with Jonas and then coordinate it with the person interested in conducting the workshop.
 
 - Interviews and best practices:
-    - Interviews were conducted with Beta maṣāḥǝft, ACP, and AJAMI Lab.
-    - Next interview partners are Bibliotheca Arabica and Coptic OCR. We have also contacted eScritorium and are waiting for a response.
-    - What is the aim of the interviews? Should we emphasize qualitative insights into project strategies or data collection? Which approach would be more helpful for the development of best practices?
-    - The goal is to interview projects that we already regard as good examples of DH practice. Since we can’t generate an extensive set of data, we should focus on a qualitative approach and use the data to support our claims.
-    - Every interview should be documented. We can also ask for permission to record.
-    - We should discuss this topic again with Jonas.
-
-
-
-
-
-
-
-
-
+  - Interviews were conducted with Beta maṣāḥǝft, ACP, and AJAMI Lab.
+  - Next interview partners are Bibliotheca Arabica and Coptic OCR. We have also contacted eScritorium and are waiting for a response.
+  - What is the aim of the interviews? Should we emphasize qualitative insights into project strategies or data collection? Which approach would be more helpful for the development of best practices?
+  - The goal is to interview projects that we already regard as good examples of DH practice. Since we can’t generate an extensive set of data, we should focus on a qualitative approach and use the data to support our claims.
+  - Every interview should be documented. We can also ask for permission to record.
+  - We should discuss this topic again with Jonas.
 
 ##2024-03-15
 
