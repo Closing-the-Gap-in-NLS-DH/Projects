@@ -7,7 +7,7 @@
     "last_edited_on": ""
   },
   "project": {
-    "title": "Copitc OCR",
+    "title": "Coptic OCR",
     "abbr": "",
     "type": "project",
     "ref": [],
@@ -70,7 +70,10 @@
         "licensing": [""]
       },
       "data": {
-        "datatypes": [],
+        "datatypes": [
+          { "label": "tiff", "stage": "final", "licensing": [], "open_access": 80 },
+          { "label": "txt", "stage": "final", "licensing": [], "open_access": 80 }
+        ],
         "repositories": [
           {
             "label": "GitLab",
@@ -84,10 +87,14 @@
     },
     "stack": {
       "database": [],
-      "backend": [],
+      "backend": ["OCRopus", "Calamari"],
       "frontend": [],
-      "tools": [],
-      "languages": []
+      "tools": [
+        { "label": "OCRopus", "self_developed": false, "ref": ["https://ocropus.github.io/"], "description": "" },
+        { "label": "Calamari", "self_developed": false, "ref": ["https://github.com/Calamari-OCR/calamari"], "description": "" },
+        { "label": "ScanTailor", "self_developed": false, "ref": ["https://scantailor.org/"], "description": "" }
+      ],
+      "languages": ["python"]
     },
     "policies": [],
     "keywords": ["egyptology", "machine_learning", "ocr"],
