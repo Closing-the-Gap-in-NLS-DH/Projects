@@ -71,8 +71,18 @@
       },
       "data": {
         "datatypes": [
-          { "label": "tiff", "stage": "final", "licensing": [], "open_access": 80 },
-          { "label": "txt", "stage": "final", "licensing": [], "open_access": 80 }
+          {
+            "label": "tiff",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 80
+          },
+          {
+            "label": "txt",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 80
+          }
         ],
         "repositories": [
           {
@@ -90,9 +100,24 @@
       "backend": ["OCRopus", "Calamari"],
       "frontend": [],
       "tools": [
-        { "label": "OCRopus", "self_developed": false, "ref": ["https://ocropus.github.io/"], "description": "" },
-        { "label": "Calamari", "self_developed": false, "ref": ["https://github.com/Calamari-OCR/calamari"], "description": "" },
-        { "label": "ScanTailor", "self_developed": false, "ref": ["https://scantailor.org/"], "description": "" }
+        {
+          "label": "OCRopus",
+          "self_developed": false,
+          "ref": ["https://ocropus.github.io/"],
+          "description": ""
+        },
+        {
+          "label": "Calamari",
+          "self_developed": false,
+          "ref": ["https://github.com/Calamari-OCR/calamari"],
+          "description": ""
+        },
+        {
+          "label": "ScanTailor",
+          "self_developed": false,
+          "ref": ["https://scantailor.org/"],
+          "description": ""
+        }
       ],
       "languages": ["python"]
     },
