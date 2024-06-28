@@ -1,5 +1,31 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2024-06-28
+
+**Time**: 10:30 - 12:00 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+- SHK
+
+  - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating 
+  email lists, adding project details, or learning programming).
+
+- Post Doc Position
+
+  - Theo talked to a possible candidate for his position. He brings expertise in Egyptian studies, has a reading understanding of Arabic, and strong IT experience (research software development for other projects). He was also part of an initiative to incorporate several ancient Egyptian scripts into the UTF-8 encoding, which aligns with the focus of our project. It is important to actively look for suitable candidates because even though the position will be posted openly, it does not guarantee that it will reach people with the skills we are looking for.
+
+- RDF
+
+  - We should rethink the most efficient way to offer our data as RDF (what about JSON.LD format?). We could offer it as a separate file in each project folder. The main points of the schema would be enough at the beginning. This would make our data more accessible, easier to communicate with, and searchable by SPARQL queries. This would strengthen our position in terms of Open Access and FAIR principles. Moreover, people should be more eager to share their data with us, knowing that it can be disseminated in a more standardized way.
+
+- Cooperation and Affiliations
+
+  - We have further discussed possible cooperation partners. Xenia talked to one of them who is generally interested in joining our team meetings. We should reach out to people in Berlin, especially those who have expertise we are missing (Hebrew studies, Altorientalistik, etc.) to provide us with more projects from their fields. We should also build up a network of DH people from different Berlin institutions (a list of names was created).
+
+- Workshop
+
+  - Xenia will organize the workshop about the TypeDB database with our partner from CCHS-CSIC in Madrid. We have to take care of the room, catering, and dissemination.
+
 ##2024-06-14
 
 **Time**: 10:30 - 12:00 (Berlin)
