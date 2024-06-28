@@ -1,7 +1,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Closing-the-Gap-in-NLS-DH/Projects/graphs/commit-activity)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8367363.svg)](https://doi.org/10.5281/zenodo.8367363)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8329145.svg)](https://doi.org/10.5281/zenodo.8329145)
 
 [![Generic badge](https://img.shields.io/badge/IndexSchema-v0.1.1-blue.svg)](#json-schema-for-project-index--uuid-dictionary-v011)
 [![Generic badge](https://img.shields.io/badge/ProjectsSchema-v0.2.2-blue.svg)](#zod-schema-for-projects-v022)
