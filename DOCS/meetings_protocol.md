@@ -5,10 +5,11 @@
 **Time**: 10:30 - 12:00 (Berlin)
 
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+
 - SHK
 
-  - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating 
-  email lists, adding project details, or learning programming).
+  - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating
+    email lists, adding project details, or learning programming).
 
 - Post Doc Position
 
