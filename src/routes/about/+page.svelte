@@ -59,13 +59,14 @@
 					href="https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data"
 					target="_blank"
 					rel="noreferrer">GitHub</a
-				> or 
+				>
+				or
 				<a
 					class="font-medium hover:underline"
 					href="mailto:ctg@geschkult.fu-berlin.de"
 					target="_blank"
 					rel="noreferrer">E-Mail</a
-				>			
+				>
 				. For ongoing updates, detailed discussions, and more information about our project, visit our
 				<a
 					class="font-medium hover:underline"
@@ -73,7 +74,7 @@
 					target="_blank"
 					rel="noreferrer">blog</a
 				>.
-			</p>			
+			</p>
 
 			<p>Other initiatives and institutions with which we are involved include:</p>
 
