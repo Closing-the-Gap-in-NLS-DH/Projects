@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { v4 as uuidv4 } from 'uuid';
 	import template from '../../data/TEMPLATES/project.json';
 
 	// Form state
@@ -84,7 +83,7 @@
 		const generated: Record<string, unknown> = JSON.parse(JSON.stringify(template));
 
 		const meta = generated.record_metadata as Record<string, string>;
-		const uuid = uuidv4();
+		const uuid = crypto.randomUUID();
 		meta.uuid = uuid;
 		const today = new Date().toISOString().split('T')[0];
 		meta.record_created_on = today;
