@@ -31,13 +31,8 @@
         "type": "object",
         "required": ["type", "label", "comment", "ref", "tags", "collected_by"],
         "properties": {
-          "type": {
-            "type": "string"
-          },
-          "label": {
-            "description": "Label of the resource",
-            "type": "string"
-          },
+          "type": { "type": "string" },
+          "label": { "description": "Label of the resource", "type": "string" },
           "comment": {
             "description": "Short comment on what the resource does/is about",
             "type": "string"

@@ -11,12 +11,7 @@
     "abbr": "RIA",
     "type": "project",
     "ref": ["https://www.wikidata.org/wiki/Q1246462"],
-    "date": [
-      {
-        "from": "1928",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "1928", "to": "2018" }],
     "maintained": null,
     "websites": [
       "https://rla.badw.de/das-projekt.html",
@@ -29,10 +24,7 @@
           "text": "München",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -71,14 +63,8 @@
     "research_data": {
       "lang": ["akk", "syr"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -87,12 +73,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["encyclopedia", "history_studies", "semitic_studies"],
     "category": "tools_and_analysis",
     "comment": ""

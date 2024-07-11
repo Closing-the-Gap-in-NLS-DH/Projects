@@ -11,12 +11,7 @@
     "abbr": "MPCD",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2030"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2030" }],
     "maintained": true,
     "websites": ["https://www.mpcorpus.org/"],
     "project_desc": "This project aims at the creation of a digital corpus of Zoroastrian Middle Persian texts in Pahlavi script as well as at the development of a comprehensive dictionary covering that corpus. The corpus consists of roughly 50 texts which will be supplied with several layers of orthographical, grammatical, semantic and intertextual annotation.",
@@ -26,30 +21,21 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Bochum",
           "ref": ["https://www.geonames.org/2947416/bochum.html"]
         },
-        "coordinates": {
-          "lat": "51.48165",
-          "lng": "7.21648"
-        }
+        "coordinates": { "lat": "51.48165", "lng": "7.21648" }
       },
       {
         "place_name": {
           "text": "Köln",
           "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
-        "coordinates": {
-          "lat": "50.93333",
-          "lng": "6.95"
-        }
+        "coordinates": { "lat": "50.93333", "lng": "6.95" }
       }
     ],
     "lang": ["eng", "deu"],
@@ -130,18 +116,10 @@
     "research_data": {
       "lang": ["pal", "xmn"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -159,21 +137,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "digital_edition",

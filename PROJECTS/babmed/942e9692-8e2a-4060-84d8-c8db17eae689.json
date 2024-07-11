@@ -11,12 +11,7 @@
     "abbr": "BABMED",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013-07",
-        "to": "2018-06"
-      }
-    ],
+    "date": [{ "from": "2013-07", "to": "2018-06" }],
     "maintained": null,
     "websites": ["https://www.geschkult.fu-berlin.de/e/babmed/index.html"],
     "project_desc": "BabMed represents the first comprehensive study of ancient Babylonian medical science since the decipherment of the cuneiform writing system. It aims to make Babylonian medical texts available not only for the specialist, but for the wider public as well by publishing them in form of thematic online corpora. Its second objective is to study medicine in the Babylonian Talmud, in order to explore comparisons with later medical traditions from the same region in Aramaic, another language of ancient Mesopotamia.",
@@ -26,20 +21,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Ramat Gan",
           "ref": ["https://www.geonames.org/293788/ramat-gan.html"]
         },
-        "coordinates": {
-          "lat": "32.08227",
-          "lng": "34.81065"
-        }
+        "coordinates": { "lat": "32.08227", "lng": "34.81065" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -89,14 +78,8 @@
     "research_data": {
       "lang": ["arc"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -105,12 +88,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

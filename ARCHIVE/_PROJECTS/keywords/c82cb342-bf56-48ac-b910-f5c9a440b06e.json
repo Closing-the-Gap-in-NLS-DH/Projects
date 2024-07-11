@@ -11,50 +11,26 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "", "to": "" }],
     "websites": [],
     "project_desc": "KEYWORDS is a living online encyclopedia (format: “Living Handbook”) that consists of short articles (2–3 pages) by researchers on central terms and themes related to premodern Arabic literary tradition (8th to 18th centuries).",
     "places": [
       {
-        "place_name": {
-          "text": "",
-          "ref": []
-        },
-        "coordinates": {
-          "lat": "49.79391",
-          "lng": "9.95121"
-        }
+        "place_name": { "text": "", "ref": [] },
+        "coordinates": { "lat": "49.79391", "lng": "9.95121" }
       }
     ],
     "lang": [],
     "related_institutions": [],
     "related_entities": [],
     "contacts": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "role": 0,
-        "websites": []
-      }
+      { "pers_name": { "text": "", "ref": [] }, "role": 0, "websites": [] }
     ],
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -63,12 +39,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["arabic_studies"],
     "comment": ""
   }

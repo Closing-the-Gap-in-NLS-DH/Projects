@@ -11,12 +11,7 @@
     "abbr": "MTAAC",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2021" }],
     "maintained": null,
     "websites": [
       "https://cdli-gh.github.io/mtaac/",
@@ -29,30 +24,21 @@
           "text": "Toronto",
           "ref": ["https://www.geonames.org/6167865/toronto.html"]
         },
-        "coordinates": {
-          "lat": "43.70011",
-          "lng": "-79.4163"
-        }
+        "coordinates": { "lat": "43.70011", "lng": "-79.4163" }
       },
       {
         "place_name": {
           "text": "Frankfurt",
           "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
-        "coordinates": {
-          "lat": "50.11552",
-          "lng": "8.68417"
-        }
+        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
       },
       {
         "place_name": {
           "text": "Los Angeles",
           "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
-        "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
+        "coordinates": { "lat": "34.05223", "lng": "-118.24368" }
       }
     ],
     "lang": ["eng"],
@@ -113,14 +99,8 @@
     "research_data": {
       "lang": ["akk", "sux"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -129,12 +109,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "computational_text_analysis",

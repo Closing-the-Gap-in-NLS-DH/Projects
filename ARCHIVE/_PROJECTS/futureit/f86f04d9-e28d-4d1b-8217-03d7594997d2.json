@@ -21,14 +21,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2020-10",
-        "to": "2021-03"
-      },
-      {
-        "from": "2021-04",
-        "to": "2022-09"
-      }
+      { "from": "2020-10", "to": "2021-03" },
+      { "from": "2021-04", "to": "2022-09" }
     ],
     "websites": ["https://www.fu-berlin.de/sites/futureit/index.html"],
     "project_desc": "This project is dedicated to optimization of the existing IT structures at the FU Berlin. The aim is to establish a standardized IT-service that will foster the cooperation between members of IT-stuff at the FU and at the same time enhance individual IT solutions. The project will also ensure flexibility, quality and efficiency of the FU IT Systems in coping with future challenges.",
@@ -38,10 +32,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["ger"],
@@ -77,19 +68,14 @@
     "siblings": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Geukes, Albert",
-          "ref": []
-        },
+        "pers_name": { "text": "Geukes, Albert", "ref": [] },
         "role": 0,
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
         ]
       }
     ],
-    "research_data": {
-      "lang": []
-    },
+    "research_data": { "lang": [] },
     "stack": {},
     "policies": [],
     "keywords": ["infrastructure", "it_services"],

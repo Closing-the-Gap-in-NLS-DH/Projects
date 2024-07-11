@@ -16,12 +16,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2024"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2024" }],
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/persian-documents.html"
     ],
@@ -148,19 +143,14 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Bhalloo, Zahir",
-          "ref": []
-        },
+        "pers_name": { "text": "Bhalloo, Zahir", "ref": [] },
         "role": 0,
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/bhalloo.html"
         ]
       }
     ],
-    "research_data": {
-      "lang": ["per"]
-    },
+    "research_data": { "lang": ["per"] },
     "stack": {},
     "policies": {},
     "keywords": ["manuscripts", "per"],

@@ -12,18 +12,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "1968",
-        "to": "1980"
-      },
-      {
-        "from": "1980",
-        "to": "1990"
-      },
-      {
-        "from": "2011",
-        "to": ""
-      }
+      { "from": "1968", "to": "1980" },
+      { "from": "1980", "to": "1990" },
+      { "from": "2011", "to": "" }
     ],
     "maintained": null,
     "websites": [
@@ -37,20 +28,14 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       },
       {
         "place_name": {
           "text": "Rome",
           "ref": ["https://www.geonames.org/3169070/rome.html"]
         },
-        "coordinates": {
-          "lat": "41.89193",
-          "lng": "12.51133"
-        }
+        "coordinates": { "lat": "41.89193", "lng": "12.51133" }
       }
     ],
     "lang": ["eng"],
@@ -172,18 +157,10 @@
     "research_data": {
       "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -201,21 +178,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_output",
