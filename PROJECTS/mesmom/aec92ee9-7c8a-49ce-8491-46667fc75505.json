@@ -11,12 +11,7 @@
     "abbr": "MESMOM",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023-08-01",
-        "to": "2024-02-29"
-      }
-    ],
+    "date": [{ "from": "2023-08-01", "to": "2024-02-29" }],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html"
@@ -28,20 +23,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Amsterdam",
           "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
         },
-        "coordinates": {
-          "lat": "52.37403",
-          "lng": "4.88969"
-        }
+        "coordinates": { "lat": "52.37403", "lng": "4.88969" }
       }
     ],
     "lang": ["eng"],
@@ -98,10 +87,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Toral, Isabel",
-          "ref": []
-        },
+        "pers_name": { "text": "Toral, Isabel", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/toral/index.html"
@@ -111,18 +97,10 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -140,21 +118,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "cultural_studies",

@@ -4,24 +4,14 @@
     "uuid": "502131b8-2103-465d-b49c-eaa0ca7d976b",
     "record_created": "2022-05-31",
     "record_created_by": "Kudela, Xenia Monika",
-    "record_modified": [
-      {
-        "record_modified_on": "",
-        "record_modified_by": ""
-      }
-    ]
+    "record_modified": [{ "record_modified_on": "", "record_modified_by": "" }]
   },
   "project": {
     "title": "DARIAH Reference Curriculum",
     "abbr": "DariahTeach",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015-01-01",
-        "to": "2017-06-30"
-      }
-    ],
+    "date": [{ "from": "2015-01-01", "to": "2017-06-30" }],
     "websites": ["https://teach-blog.dariah.eu/"],
     "project_desc": "This international project is dedicated to development of open-source, high quality, multilingual teaching materials for the digital arts and humanities. Its second objective is to strengthen alliances and foster innovative teaching and learning practices among members of the ESFRI-roadmap Digital Research Infrastructure for the Arts and Humanities (DARIAH) network",
     "places": [
@@ -30,90 +20,63 @@
           "text": "Maynooth",
           "ref": ["https://www.geonames.org/2962668/maynooth.html"]
         },
-        "coordinates": {
-          "lat": "53.385",
-          "lng": "-6.59361"
-        }
+        "coordinates": { "lat": "53.385", "lng": "-6.59361" }
       },
       {
         "place_name": {
           "text": "Aarhus",
           "ref": ["https://www.geonames.org/2624652/arhus.html"]
         },
-        "coordinates": {
-          "lat": "56.15674",
-          "lng": "10.21076"
-        }
+        "coordinates": { "lat": "56.15674", "lng": "10.21076" }
       },
       {
         "place_name": {
           "text": "Marousi",
           "ref": ["https://www.geonames.org/265243/marousi.html"]
         },
-        "coordinates": {
-          "lat": "38.05",
-          "lng": "23.8"
-        }
+        "coordinates": { "lat": "38.05", "lng": "23.8" }
       },
       {
         "place_name": {
           "text": "Belgrade",
           "ref": ["https://www.geonames.org/792680/belgrade.html"]
         },
-        "coordinates": {
-          "lat": "44.80401",
-          "lng": "20.46513"
-        }
+        "coordinates": { "lat": "44.80401", "lng": "20.46513" }
       },
       {
         "place_name": {
           "text": "Rotterdam",
           "ref": ["https://www.geonames.org/2747891/rotterdam.html"]
         },
-        "coordinates": {
-          "lat": "51.9225",
-          "lng": "4.47917"
-        }
+        "coordinates": { "lat": "51.9225", "lng": "4.47917" }
       },
       {
         "place_name": {
           "text": "Luxembourg",
           "ref": ["https://www.geonames.org/2960316/luxembourg.html"]
         },
-        "coordinates": {
-          "lat": "49.61167",
-          "lng": "6.13"
-        }
+        "coordinates": { "lat": "49.61167", "lng": "6.13" }
       },
       {
         "place_name": {
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       },
       {
         "place_name": {
           "text": "Lausanne",
           "ref": ["https://www.geonames.org/2659994/lausanne.html"]
         },
-        "coordinates": {
-          "lat": "46.516",
-          "lng": "6.63282"
-        }
+        "coordinates": { "lat": "46.516", "lng": "6.63282" }
       },
       {
         "place_name": {
           "text": "Geneva",
           "ref": ["https://www.geonames.org/2660646/geneve.html"]
         },
-        "coordinates": {
-          "lat": "46.20222",
-          "lng": "6.14569"
-        }
+        "coordinates": { "lat": "46.20222", "lng": "6.14569" }
       }
     ],
     "lang": ["eng"],
@@ -156,11 +119,7 @@
     "research_data": {
       "lang": [],
       "publications": {
-        "access": {
-          "open": 0.0,
-          "closed": 100.0,
-          "margin": 0.0
-        },
+        "access": { "open": 0.0, "closed": 100.0, "margin": 0.0 },
         "licensing": [""]
       },
       "data": {
@@ -169,11 +128,7 @@
             {
               "label": "",
               "licensing": [""],
-              "access": {
-                "open": 0.0,
-                "closed": 100.0,
-                "margin": 0.0
-              }
+              "access": { "open": 0.0, "closed": 100.0, "margin": 0.0 }
             }
           ],
           "repositories": [
@@ -208,12 +163,7 @@
       ],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "type": "",
-        "uri": ""
-      }
-    ],
+    "policies": [{ "type": "", "uri": "" }],
     "keywords": [
       "digital_teaching_materials",
       "multilingual_teaching_materials",

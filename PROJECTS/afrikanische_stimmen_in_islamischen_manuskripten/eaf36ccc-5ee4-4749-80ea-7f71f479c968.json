@@ -11,12 +11,7 @@
     "abbr": "AJAMI LAB",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2029"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2029" }],
     "maintained": true,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/344888349",
@@ -30,20 +25,14 @@
           "text": "Bamako",
           "ref": ["https://www.geonames.org/2460596/bamako.html"]
         },
-        "coordinates": {
-          "lat": "12.65",
-          "lng": "-8"
-        }
+        "coordinates": { "lat": "12.65", "lng": "-8" }
       },
       {
         "place_name": {
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -162,18 +151,10 @@
     "research_data": {
       "lang": ["mku", "snk"],
       "sustainability_plan": true,
-      "publications": {
-        "open_access": 80,
-        "licensing": []
-      },
+      "publications": { "open_access": 80, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "mdb",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          },
+          { "label": "mdb", "stage": "raw", "licensing": [], "open_access": 0 },
           {
             "label": "xlsx",
             "stage": "final",
@@ -231,12 +212,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "catalog",

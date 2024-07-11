@@ -12,22 +12,10 @@
     "type": "project",
     "ref": ["https://viaf.org/viaf/146927082/"],
     "date": [
-      {
-        "from": "2000",
-        "to": "2003"
-      },
-      {
-        "from": "2004",
-        "to": "2006"
-      },
-      {
-        "from": "2009",
-        "to": "2011"
-      },
-      {
-        "from": "2011",
-        "to": "2013"
-      }
+      { "from": "2000", "to": "2003" },
+      { "from": "2004", "to": "2006" },
+      { "from": "2009", "to": "2011" },
+      { "from": "2011", "to": "2013" }
     ],
     "maintained": null,
     "websites": ["https://cdli.ucla.edu/"],
@@ -38,30 +26,21 @@
           "text": "Los Angeles",
           "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
-        "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
+        "coordinates": { "lat": "34.05223", "lng": "-118.24368" }
       },
       {
         "place_name": {
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
+        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -155,14 +134,8 @@
     "research_data": {
       "lang": ["akk", "sux"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -171,12 +144,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

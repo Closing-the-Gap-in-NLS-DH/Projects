@@ -11,12 +11,7 @@
     "abbr": "HMML",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Property:P9943"],
-    "date": [
-      {
-        "from": "1965",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1965", "to": "" }],
     "maintained": true,
     "websites": ["https://hmml.org"],
     "project_desc": "HMML is an enterprise of saving and cataloguing manuscripts from all across the globe. It’s history reaches back to the 1960s when first repository of manuscripts’ photographs in form of microfilms was initiated at the Saint John’s University. Nowadays HMML archives approximately 300,000 manuscripts containing more than 70 languages. In 2015 the library launched its online platform of digitalized manuscripts to make them available for public and further research.",
@@ -26,10 +21,7 @@
           "text": "Collegeville",
           "ref": ["https://www.geonames.org/5021784/collegeville.html"]
         },
-        "coordinates": {
-          "lat": "45.59441",
-          "lng": "-94.36305"
-        }
+        "coordinates": { "lat": "45.59441", "lng": "-94.36305" }
       }
     ],
     "lang": ["eng"],
@@ -84,14 +76,8 @@
         "syr"
       ],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -100,12 +86,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["catalog", "digital_preservation", "manuscript"],
     "category": "digital_preservation",
     "comment": "The history of the organization reaches back to 1964. In 2005 it was renamed to its current name, “Hill Museum & Manuscript Library”; see the history of the organization: https://hmml.org/about/history/"

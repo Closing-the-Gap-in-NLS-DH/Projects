@@ -16,12 +16,7 @@
     "abbr": "DigiPal",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": "2014"
-      }
-    ],
+    "date": [{ "from": "2010", "to": "2014" }],
     "websites": ["https://www.digipal.eu/"],
     "project_desc": "The main objective of this project is to create a database and an innovative resource for the study of medieval manuscripts, mostly produced in England in the 11th century. The database is designed to felicitate and optimize the research by implementation of digital technology (digital photographs, characterization of handwriting, annotation, etc.).",
     "places": [
@@ -30,10 +25,7 @@
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       }
     ],
     "lang": ["eng"],
@@ -77,9 +69,7 @@
         "websites": ["http://peterstokes.org/cv/"]
       }
     ],
-    "research_data": {
-      "lang": ["eng"]
-    },
+    "research_data": { "lang": ["eng"] },
     "stack": {},
     "policies": [],
     "keywords": [

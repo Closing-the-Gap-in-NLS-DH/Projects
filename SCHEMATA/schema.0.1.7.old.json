@@ -111,10 +111,7 @@
         "lang": {
           "description": "List of languages used in the project’s presentation (website, flyer, ...) in ISO-639-2",
           "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "^\\w{1,3}$"
-          }
+          "items": { "type": "string", "pattern": "^\\w{1,3}$" }
         },
         "relations": {
           "description": "Entities that are related to the project",
@@ -161,10 +158,7 @@
             "lang": {
               "description": "List of languages of the research data in ISO-639-2",
               "type": "array",
-              "items": {
-                "type": "string",
-                "pattern": "^\\w{1,3}$"
-              }
+              "items": { "type": "string", "pattern": "^\\w{1,3}$" }
             },
             "sustainability_plan": {
               "description": "Is there a plan to ensure the sustainability and reusability of research data and the project's outcome?",
@@ -235,30 +229,22 @@
             "database": {
               "type": "array",
               "description": "List of database systems in use",
-              "items": {
-                "type": "string"
-              }
+              "items": { "type": "string" }
             },
             "backend": {
               "type": "array",
               "description": "List of backend technologies in use",
-              "items": {
-                "type": "string"
-              }
+              "items": { "type": "string" }
             },
             "frontend": {
               "type": "array",
               "description": "List of frontend technologies in use",
-              "items": {
-                "type": "string"
-              }
+              "items": { "type": "string" }
             },
             "languages": {
               "type": "array",
               "description": "List of programming, script and descriptive languages in use",
-              "items": {
-                "type": "string"
-              }
+              "items": { "type": "string" }
             },
             "tools": {
               "type": "array",
@@ -341,10 +327,7 @@
                 "type": "object",
                 "required": ["type", "accessibility", "description"],
                 "properties": {
-                  "type": {
-                    "type": "string",
-                    "const": "local"
-                  },
+                  "type": { "type": "string", "const": "local" },
                   "accessibility": {
                     "type": "string",
                     "description": "Information on the accessibility of the repository. If open and local, please specify under description",
@@ -360,10 +343,7 @@
                 "type": "object",
                 "required": ["type", "accessibility", "description"],
                 "properties": {
-                  "type": {
-                    "type": "string",
-                    "const": "remote"
-                  },
+                  "type": { "type": "string", "const": "remote" },
                   "accessibility": {
                     "type": "string",
                     "description": "Information on the accessibility of the repository. If open and local, please specify under description",
@@ -395,10 +375,7 @@
             "type": "object",
             "required": ["text"],
             "properties": {
-              "text": {
-                "description": "Name of the place",
-                "type": "string"
-              },
+              "text": { "description": "Name of the place", "type": "string" },
               "ref": {
                 "description": "List of Authority file URIs",
                 "$ref": "#/definitions/uri"
@@ -426,26 +403,16 @@
       "type": "object",
       "required": ["text"],
       "properties": {
-        "text": {
-          "type": "string"
-        },
-        "ref": {
-          "$ref": "#/definitions/uri"
-        }
+        "text": { "type": "string" },
+        "ref": { "$ref": "#/definitions/uri" }
       }
     },
     "uri": {
       "type": "array",
       "items": {
         "anyOf": [
-          {
-            "type": "string",
-            "pattern": "http(s?):\\/\\/"
-          },
-          {
-            "type": "string",
-            "maxLength": 0
-          }
+          { "type": "string", "pattern": "http(s?):\\/\\/" },
+          { "type": "string", "maxLength": 0 }
         ]
       }
     },
@@ -453,21 +420,9 @@
       "type": "object",
       "required": ["open", "closed", "margin"],
       "properties": {
-        "open": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "closed": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "margin": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        }
+        "open": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "closed": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "margin": { "type": "integer", "minimum": 0, "maximum": 100 }
       }
     },
     "relatives": {
@@ -483,31 +438,14 @@
                 "type": "string",
                 "enum": ["parent", "sibling", "child", "cooperation"]
               },
-              "type": {
-                "type": "string",
-                "const": "organisation"
-              },
-              "org_name": {
-                "$ref": "#/definitions/org_name"
-              },
-              "websites": {
-                "$ref": "#/definitions/uri"
-              },
-              "places": {
-                "$ref": "#/definitions/places"
-              },
-              "parents": {
-                "$ref": "#/definitions/relatives"
-              },
-              "siblings": {
-                "$ref": "#/definitions/relatives"
-              },
-              "children": {
-                "$ref": "#/definitions/relatives"
-              },
-              "cooperation": {
-                "$ref": "#/definitions/relatives"
-              }
+              "type": { "type": "string", "const": "organisation" },
+              "org_name": { "$ref": "#/definitions/org_name" },
+              "websites": { "$ref": "#/definitions/uri" },
+              "places": { "$ref": "#/definitions/places" },
+              "parents": { "$ref": "#/definitions/relatives" },
+              "siblings": { "$ref": "#/definitions/relatives" },
+              "children": { "$ref": "#/definitions/relatives" },
+              "cooperation": { "$ref": "#/definitions/relatives" }
             }
           },
           {
@@ -519,34 +457,15 @@
                 "type": "string",
                 "enum": ["parent", "sibling", "child", "cooperation"]
               },
-              "type": {
-                "type": "string",
-                "const": "project"
-              },
-              "title": {
-                "type": "string"
-              },
-              "ref": {
-                "$ref": "#/definitions/uri"
-              },
-              "websites": {
-                "$ref": "#/definitions/uri"
-              },
-              "places": {
-                "$ref": "#/definitions/places"
-              },
-              "parents": {
-                "$ref": "#/definitions/relatives"
-              },
-              "siblings": {
-                "$ref": "#/definitions/relatives"
-              },
-              "children": {
-                "$ref": "#/definitions/relatives"
-              },
-              "cooperation": {
-                "$ref": "#/definitions/relatives"
-              }
+              "type": { "type": "string", "const": "project" },
+              "title": { "type": "string" },
+              "ref": { "$ref": "#/definitions/uri" },
+              "websites": { "$ref": "#/definitions/uri" },
+              "places": { "$ref": "#/definitions/places" },
+              "parents": { "$ref": "#/definitions/relatives" },
+              "siblings": { "$ref": "#/definitions/relatives" },
+              "children": { "$ref": "#/definitions/relatives" },
+              "cooperation": { "$ref": "#/definitions/relatives" }
             }
           },
           {
@@ -558,16 +477,9 @@
                 "type": "string",
                 "enum": ["parent", "sibling", "child", "cooperation"]
               },
-              "type": {
-                "type": "string",
-                "const": "project"
-              },
-              "title": {
-                "type": "string"
-              },
-              "uuid": {
-                "type": "string"
-              }
+              "type": { "type": "string", "const": "project" },
+              "title": { "type": "string" },
+              "uuid": { "type": "string" }
             }
           },
           {
@@ -579,16 +491,9 @@
                 "type": "string",
                 "enum": ["parent", "sibling", "child", "cooperation"]
               },
-              "type": {
-                "type": "string",
-                "const": "organisation"
-              },
-              "org_name": {
-                "$ref": "#/definitions/org_name"
-              },
-              "uuid": {
-                "type": "string"
-              }
+              "type": { "type": "string", "const": "organisation" },
+              "org_name": { "$ref": "#/definitions/org_name" },
+              "uuid": { "type": "string" }
             }
           }
         ]

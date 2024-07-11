@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": ["https://www.wikidata.org/wiki/Q15989882"],
-    "date": [
-      {
-        "from": "2010",
-        "to": "2014"
-      }
-    ],
+    "date": [{ "from": "2010", "to": "2014" }],
     "websites": ["https://cudl.lib.cam.ac.uk/"],
     "project_desc": "The Cambridge Digital Library is a project designed to make items form the unique and distinctive collections of Cambridge University Library available online. Many of them contain manuscripts written in non-Latin scripts like Arabic or Hebrew, e.g. Islamic Manuscripts, Mingana-Lewis Palimpsest or Cairo Genizah.",
     "places": [
@@ -25,10 +20,7 @@
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
-        "coordinates": {
-          "lat": "52.2",
-          "lng": "0.11667"
-        }
+        "coordinates": { "lat": "52.2", "lng": "0.11667" }
       }
     ],
     "lang": [],
@@ -48,10 +40,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Jones, Huw",
-          "ref": []
-        },
+        "pers_name": { "text": "Jones, Huw", "ref": [] },
         "role": 0,
         "websites": ["https://www.cdh.cam.ac.uk/about/people/huw-jones/"]
       }
@@ -59,14 +48,8 @@
     "research_data": {
       "lang": ["ara", "heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -75,12 +58,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["glam", "manuscripts", "repository"],
     "comment": ""
   }

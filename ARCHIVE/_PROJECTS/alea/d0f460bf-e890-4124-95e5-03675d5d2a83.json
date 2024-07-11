@@ -16,12 +16,7 @@
     "abbr": "ALEA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "", "to": "" }],
     "websites": ["https://www.uni-muenster.de/ALEA/"],
     "project_desc": "The main focus of ALEA project is the Arabic literature and rhetoric form the time between 11th and 18th century, which until now was regarded as a period of cultural and intellectual stagnation in the Middle East. Against this claim the researchers of ALEA project try to demonstrate that this period has not only produced a huge variety of fascinating texts but also hosted a vibrant literary life. In that they question the established concept of decadence and criticize it as scientifically wrong and moreover, as having impact on Arabic countries until these day.",
     "places": [
@@ -30,10 +25,7 @@
           "text": "Münster",
           "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
-        "coordinates": {
-          "lat": "51.95973",
-          "lng": "7.63137"
-        }
+        "coordinates": { "lat": "51.95973", "lng": "7.63137" }
       }
     ],
     "lang": ["ger"],
@@ -82,9 +74,7 @@
         ]
       }
     ],
-    "research_data": {
-      "lang": ["ara"]
-    },
+    "research_data": { "lang": ["ara"] },
     "stack": {},
     "policies": [],
     "keywords": ["11th_to_18th_century", "ara", "arabic_literature", "edition"],

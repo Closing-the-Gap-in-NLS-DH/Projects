@@ -11,12 +11,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014-10",
-        "to": "2016-06"
-      }
-    ],
+    "date": [{ "from": "2014-10", "to": "2016-06" }],
     "maintained": false,
     "websites": [
       "https://www.uni-bamberg.de/aspra/forschung/projekte/compilation-and-critical-edition-of-pre-19th-century-kurmanji-kurdish/"
@@ -28,10 +23,7 @@
           "text": "Bamberg",
           "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
+        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
       }
     ],
     "lang": ["eng"],
@@ -85,14 +77,8 @@
     "research_data": {
       "lang": ["kur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -101,12 +87,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

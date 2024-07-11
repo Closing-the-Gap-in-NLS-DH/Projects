@@ -11,12 +11,7 @@
     "abbr": "SNAP:DRGN",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014-01-01",
-        "to": "2015-09-30"
-      }
-    ],
+    "date": [{ "from": "2014-01-01", "to": "2015-09-30" }],
     "websites": ["https://snapdrgn.net/"],
     "project_desc": "SNAP:DRGNis aims to address the problem of linking together large collections of datasets containing information about historical persons names and person-like entities. For this reason it builds a virtual authority list for ancient people through Linked Data collection of common information from many collaborating projects.",
     "places": [
@@ -25,10 +20,7 @@
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       }
     ],
     "lang": ["eng"],
@@ -62,14 +54,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -78,12 +64,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["biographical_data", "social_network_analysis", "vre"],
     "comment": ""
   }
