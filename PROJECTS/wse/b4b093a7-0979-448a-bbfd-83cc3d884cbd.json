@@ -11,9 +11,9 @@
     "abbr": "WSE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "" }],
+    "date": [{ "from": "2021", "to": "2022" }],
     "maintained": true,
-    "websites": ["https://worldscriptsexplorer.page"],
+    "websites": ["https://worldscriptsexplorer.page", "https://github.com/Vyshantha/multiscripteditor"],
     "project_desc": "The project enables digital writing in all scripts and graphical information systems, allowing users to explore and create content using standard or custom keyboard layouts. It facilitates learning about scripts, their categorization, and preservation. The modular design of the tool enables seamless integration of new languages or scripts.",
     "places": [
       {
@@ -61,29 +61,30 @@
     ],
     "research_data": {
       "lang": [],
-      "sustainability_plan": null,
+      "sustainability_plan": true,
       "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          { "label": "JSON", "stage": "refined", "licensing": ["CC0-1.0"], "open_access": 100 }
         ],
         "repositories": [
           {
-            "label": "",
+            "label": "GitHub",
             "accessibility": "public",
-            "ref": [],
-            "licensing": [],
+            "ref": ["https://github.com/Vyshantha/multiscripteditor"],
+            "licensing": ["CC0-1.0"],
             "description": ""
           }
         ]
       }
     },
     "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
+      "database": ["JSON"],
+      "backend": ["Python"],
+      "frontend": ["Angular", "TS", "JS"],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        { "label": "FontForge", "self_developed": false, "ref": ["https://fontforge.org/docs/index.html"], "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts." },
+        { "label": "Keyman", "self_developed": false, "ref": ["https://keyman.com/"], "description": "Open-source platform for custom language keyboard layouts on multiple devices." }
       ],
       "languages": []
     },
