@@ -96,9 +96,7 @@
           {
             "label": "JSON",
             "stage": "refined",
-            "licensing": [
-              "CC0-1.0"
-            ],
+            "licensing": ["CC0-1.0"],
             "open_access": 100
           }
         ],
@@ -133,17 +131,13 @@
         {
           "label": "FontForge",
           "self_developed": false,
-          "ref": [
-            "https://fontforge.org/docs/index.html"
-          ],
+          "ref": ["https://fontforge.org/docs/index.html"],
           "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
         },
         {
           "label": "Keyman",
           "self_developed": false,
-          "ref": [
-            "https://keyman.com/"
-          ],
+          "ref": ["https://keyman.com/"],
           "description": "Open-source platform for custom language keyboard layouts on multiple devices."
         }
       ],
