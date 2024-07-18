@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "20ee58f5-f699-4262-a473-7765e249c871",
     "record_created_on": "2023-11-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
     "abbr": "SIHAFA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2023-09-01", "to": "2025-08-31" }],
+    "date": [
+      {
+        "from": "2023-09-01",
+        "to": "2025-08-31"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://cordis.europa.eu/project/id/101061500",
@@ -22,12 +28,19 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -125,18 +140,35 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Grallert, Till", "ref": [] },
-        "roles": ["supervision"],
-        "websites": ["https://openarabicpe.github.io/"]
+        "pers_name": {
+          "text": "Grallert, Till",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://openarabicpe.github.io/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -154,11 +186,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

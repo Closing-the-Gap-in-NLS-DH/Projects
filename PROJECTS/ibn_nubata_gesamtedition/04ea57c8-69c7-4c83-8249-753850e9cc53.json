@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-04-26"
+    "last_edited_on": "2022-04-26",
+    "interviewed": false
   },
   "project": {
     "title": "DFG-Langfristvorhaben Gesamtedition des Werkes von Ibn Nubata Al-Misri",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.uni-muenster.de/ALEA/",
@@ -23,12 +29,19 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": ["https://www.geonames.org/6553087/muenster.html"]
+          "ref": [
+            "https://www.geonames.org/6553087/muenster.html"
+          ]
         },
-        "coordinates": { "lat": "51.95973", "lng": "7.63137" }
+        "coordinates": {
+          "lat": "51.95973",
+          "lng": "7.63137"
+        }
       }
     ],
-    "lang": ["deu"],
+    "lang": [
+      "deu"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,7 +52,9 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": ["https://www.uni-muenster.de/de/"]
+        "websites": [
+          "https://www.uni-muenster.de/de/"
+        ]
       }
     ],
     "related_entities": [],
@@ -47,28 +62,60 @@
       {
         "pers_name": {
           "text": "Bauer, Thomas",
-          "ref": ["https://d-nb.info/gnd/130608467/"]
+          "ref": [
+            "https://d-nb.info/gnd/130608467/"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "digital_edition",

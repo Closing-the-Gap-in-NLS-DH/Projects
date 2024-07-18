@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
     "record_created_on": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-02-21"
+    "last_edited_on": "2022-02-21",
+    "interviewed": false
   },
   "project": {
     "title": "ARCHES",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2024" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2024"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
@@ -21,19 +27,31 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       },
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
-        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -44,7 +62,9 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"]
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ]
       },
       {
         "relation_type": "host",
@@ -55,7 +75,9 @@
             "https://www.wikidata.org/wiki/Q174158"
           ]
         },
-        "websites": ["https://en.huji.ac.il/en"]
+        "websites": [
+          "https://en.huji.ac.il/en"
+        ]
       }
     ],
     "related_entities": [],
@@ -63,9 +85,13 @@
       {
         "pers_name": {
           "text": "Vollandt, Ronny",
-          "ref": ["https://d-nb.info/gnd/1173742050"]
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
@@ -73,9 +99,13 @@
       {
         "pers_name": {
           "text": "Goldstein, Miriam",
-          "ref": ["https://d-nb.info/gnd/1019351853"]
+          "ref": [
+            "https://d-nb.info/gnd/1019351853"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
         ]
@@ -83,26 +113,61 @@
       {
         "pers_name": {
           "text": "Sklare, David",
-          "ref": ["https://d-nb.info/gnd/1158385684"]
+          "ref": [
+            "https://d-nb.info/gnd/1158385684"
+          ]
         },
-        "roles": ["investigation"],
-        "websites": ["https://biblia-arabica.com/team/david-sklare/"]
+        "roles": [
+          "investigation"
+        ],
+        "websites": [
+          "https://biblia-arabica.com/team/david-sklare/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "heb"],
+      "lang": [
+        "ara",
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

@@ -1,30 +1,45 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd",
     "record_created_on": "2022-11-25",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "Isnalyser",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": ""
+      }
+    ],
     "maintained": null,
-    "websites": ["https://github.com/dhakarat/isnalyser"],
+    "websites": [
+      "https://github.com/dhakarat/isnalyser"
+    ],
     "project_desc": "For scholars studying ḥadīth texts, drawing an isnād tree with more than 40 transmitters is a tedious task, and finding the right medium to display it fully can even prove to be impossible. isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats.",
     "places": [
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
+          "ref": [
+            "https://www.geonames.org/2820860/tuebingen.html"
+          ]
         },
-        "coordinates": { "lat": "48.52266", "lng": "9.05222" }
+        "coordinates": {
+          "lat": "48.52266",
+          "lng": "9.05222"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -37,19 +52,33 @@
       {
         "pers_name": {
           "text": "Bednarkiewicz, Maroussia",
-          "ref": ["https://viaf.org/viaf/9154380928130290538/"]
+          "ref": [
+            "https://viaf.org/viaf/9154380928130290538/"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": [],
@@ -59,14 +88,23 @@
         {
           "label": "isnalyser",
           "self_developed": true,
-          "ref": ["https://github.com/dhakarat/isnalyser"],
+          "ref": [
+            "https://github.com/dhakarat/isnalyser"
+          ],
           "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         }
       ],
-      "languages": ["python"]
+      "languages": [
+        "python"
+      ]
     },
     "policies": [],
-    "keywords": ["hadith", "islamic_studies", "isnad", "religion_studies"],
+    "keywords": [
+      "hadith",
+      "islamic_studies",
+      "isnad",
+      "religion_studies"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }

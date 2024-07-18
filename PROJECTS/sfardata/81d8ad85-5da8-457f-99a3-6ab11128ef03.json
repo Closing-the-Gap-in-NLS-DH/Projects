@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03",
     "record_created_on": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "SfarData",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "1965", "to": "" }],
+    "date": [
+      {
+        "from": "1965",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://sfardata.nli.org.il/#/startSearch_En",
@@ -22,19 +28,32 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
-        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
       },
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng", "heb"],
+    "lang": [
+      "eng",
+      "heb"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +64,9 @@
             "https://www.wikidata.org/wiki/Q209184"
           ]
         },
-        "websites": ["https://www.academy.ac.il/english.aspx"]
+        "websites": [
+          "https://www.academy.ac.il/english.aspx"
+        ]
       },
       {
         "relation_type": "host",
@@ -56,7 +77,9 @@
             "https://www.wikidata.org/wiki/Q188915"
           ]
         },
-        "websites": ["https://www.nli.org.il/en"]
+        "websites": [
+          "https://www.nli.org.il/en"
+        ]
       },
       {
         "relation_type": "host",
@@ -67,7 +90,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -156,28 +181,60 @@
       {
         "pers_name": {
           "text": "Bet-Aryeh, Mal’akhi",
-          "ref": ["https://d-nb.info/gnd/104345179"]
+          "ref": [
+            "https://d-nb.info/gnd/104345179"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalog",
       "digital_preservation",

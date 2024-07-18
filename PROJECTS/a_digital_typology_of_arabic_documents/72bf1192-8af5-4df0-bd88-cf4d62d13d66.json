@@ -1,37 +1,57 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-02-14"
+    "last_edited_on": "2022-02-14",
+    "interviewed": false
   },
   "project": {
     "title": "A Digital Typology of Arabic Documents",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2003", "to": "" }],
+    "date": [
+      {
+        "from": "2003",
+        "to": ""
+      }
+    ],
     "maintained": null,
-    "websites": ["https://www.apd.gwi.uni-muenchen.de/apd/project.jsp"],
+    "websites": [
+      "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp"
+    ],
     "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is to create digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
     "places": [
       {
         "place_name": {
           "text": "Basel",
-          "ref": ["https://www.geonames.org/2661604/basel.html"]
+          "ref": [
+            "https://www.geonames.org/2661604/basel.html"
+          ]
         },
-        "coordinates": { "lat": "47.55839", "lng": "7.57327" }
+        "coordinates": {
+          "lat": "47.55839",
+          "lng": "7.57327"
+        }
       },
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q372608"
           ]
         },
-        "websites": ["https://www.unibas.ch/de"]
+        "websites": [
+          "https://www.unibas.ch/de"
+        ]
       }
     ],
     "related_entities": [
@@ -56,9 +78,13 @@
       {
         "pers_name": {
           "text": "Kaplony, Andreas",
-          "ref": ["https://d-nb.info/gnd/115211942"]
+          "ref": [
+            "https://d-nb.info/gnd/115211942"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/",
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
@@ -66,19 +92,47 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

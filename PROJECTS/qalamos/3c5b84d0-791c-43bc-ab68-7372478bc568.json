@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568",
     "record_created_on": "2022-07-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-11-17"
+    "last_edited_on": "2022-11-17",
+    "interviewed": true
   },
   "project": {
     "title": "Qalamos",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2023", "to": "2026" }],
+    "date": [
+      {
+        "from": "2023",
+        "to": "2026"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-profil/projekte/dfg-projekt-orient-digital",
@@ -22,23 +28,38 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       },
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "München",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       }
     ],
     "related_institutions": [
@@ -51,7 +72,9 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": ["https://staatsbibliothek-berlin.de/"]
+        "websites": [
+          "https://staatsbibliothek-berlin.de/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -62,7 +85,9 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/"]
+        "websites": [
+          "https://www.uni-leipzig.de/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -73,10 +98,15 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": ["https://www.bsb-muenchen.de/"]
+        "websites": [
+          "https://www.bsb-muenchen.de/"
+        ]
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_entities": [
       {
         "relation_type": "parent",
@@ -103,24 +133,37 @@
       {
         "pers_name": {
           "text": "Rauch, Christoph",
-          "ref": ["https://d-nb.info/gnd/1102171662"]
+          "ref": [
+            "https://d-nb.info/gnd/1102171662"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "tur"],
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
             "label": "XML",
             "stage": "final",
-            "licensing": ["CC0"],
+            "licensing": [
+              "CC0"
+            ],
             "open_access": 100
           }
         ],
@@ -128,7 +171,9 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": ["https://git.sc.uni-leipzig.de/mycore_applications"],
+            "ref": [
+              "https://git.sc.uni-leipzig.de/mycore_applications"
+            ],
             "licensing": [],
             "description": ""
           }
@@ -136,20 +181,33 @@
       }
     },
     "stack": {
-      "database": ["XML"],
-      "backend": ["Solr", "MyCoRe", "Neo4J"],
-      "frontend": ["MyCoRe, HTML", "JS"],
+      "database": [
+        "XML"
+      ],
+      "backend": [
+        "Solr",
+        "MyCoRe",
+        "Neo4J"
+      ],
+      "frontend": [
+        "MyCoRe, HTML",
+        "JS"
+      ],
       "tools": [
         {
           "label": "MyCoRe",
           "self_developed": false,
-          "ref": ["https://www.mycore.de/"],
+          "ref": [
+            "https://www.mycore.de/"
+          ],
           "description": "Used as a repository framework"
         },
         {
           "label": "Solr",
           "self_developed": false,
-          "ref": ["https://solr.apache.org/"],
+          "ref": [
+            "https://solr.apache.org/"
+          ],
           "description": "Used for indexation and data querying"
         },
         {
@@ -159,10 +217,22 @@
           "description": "Automatic transliteration of Arabic script"
         }
       ],
-      "languages": ["JS", "Java"]
+      "languages": [
+        "JS",
+        "Java"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["catalog", "digital_preservation", "manuscript"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "manuscript"
+    ],
     "category": "digital_preservation",
     "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
   }

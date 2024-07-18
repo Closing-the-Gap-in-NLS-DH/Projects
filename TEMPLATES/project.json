@@ -1,10 +1,11 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "",
     "record_created_on": "",
     "record_created_by": "",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "",

@@ -1,5 +1,10 @@
 # Changelog - Schema
 
+
+- From version 0.2.3 to 0.2.4 (2024-07-18):
+
+- The Boolean value `interviewed` has been added to the `research_data` section to indicate whether the interview regarding the technical details of a project has been conducted.
+
 - From version 0.2.2 to 0.2.3 (2024-03-12):
 
 - A new data entry `category` added as a string with following possible values: `digital_preservation`, `tools_and_analysis`, `infrastructure`, `other`

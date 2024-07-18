@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-05-05"
+    "last_edited_on": "2022-05-05",
+    "interviewed": false
   },
   "project": {
     "title": "Ptolemaeus Arabus et Latinus",
     "abbr": "PAL",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2037" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2037"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://ptolemaeus.badw.de/start",
@@ -22,19 +28,31 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       },
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": ["https://www.geonames.org/6556942/wuerzburg.html"]
+          "ref": [
+            "https://www.geonames.org/6556942/wuerzburg.html"
+          ]
         },
-        "coordinates": { "lat": "49.79708", "lng": "9.93365" }
+        "coordinates": {
+          "lat": "49.79708",
+          "lng": "9.93365"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +63,9 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://badw.de/die-akademie.html"]
+        "websites": [
+          "https://badw.de/die-akademie.html"
+        ]
       },
       {
         "relation_type": "host",
@@ -56,7 +76,9 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite/"
+        ]
       }
     ],
     "related_entities": [],
@@ -64,9 +86,13 @@
       {
         "pers_name": {
           "text": "Hasse, Dag Nikolaus",
-          "ref": ["https://viaf.org/viaf/5717273/"]
+          "ref": [
+            "https://viaf.org/viaf/5717273/"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/",
           "https://ptolemaeus.badw.de/team/3"
@@ -74,19 +100,48 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat"],
+      "lang": [
+        "ara",
+        "lat"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "digital_edition",

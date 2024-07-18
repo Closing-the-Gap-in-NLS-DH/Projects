@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-28"
+    "last_edited_on": "2022-03-28",
+    "interviewed": false
   },
   "project": {
     "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
     "abbr": "ITIESE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2024" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2024"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html"
@@ -21,19 +27,31 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       },
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -44,7 +62,9 @@
             "https://ror.org/04e8jbs38"
           ]
         },
-        "websites": ["https://www.hsu-hh.de/"]
+        "websites": [
+          "https://www.hsu-hh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -55,7 +75,9 @@
             "https://www.wikidata.org/wiki/Q1060"
           ]
         },
-        "websites": ["https://www.tuhh.de/"]
+        "websites": [
+          "https://www.tuhh.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -66,7 +88,9 @@
             "https://ror.org/02jx3x895"
           ]
         },
-        "websites": ["https://www.ucl.ac.uk"]
+        "websites": [
+          "https://www.ucl.ac.uk"
+        ]
       },
       {
         "relation_type": "host",
@@ -77,7 +101,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -171,9 +197,13 @@
       {
         "pers_name": {
           "text": "Bausi, Alessandro",
-          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]
@@ -182,17 +212,43 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "art_studies",

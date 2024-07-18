@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "9a4a2962-fbf2-4a52-a1ea-53af8e3d0842",
     "record_created_on": "2022-11-23",
     "record_created_by": "Bednarkiewicz, Maroussia",
-    "last_edited_on": "2022-11-25"
+    "last_edited_on": "2022-11-25",
+    "interviewed": false
   },
   "project": {
     "title": "New Languages for NLP",
     "abbr": "new nlp",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2022" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2022"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://newnlp.princeton.edu/",
@@ -22,9 +28,14 @@
       {
         "place_name": {
           "text": "Princeton",
-          "ref": ["https://www.geonames.org/5102922/princeton.html"]
+          "ref": [
+            "https://www.geonames.org/5102922/princeton.html"
+          ]
         },
-        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
+        "coordinates": {
+          "lat": "40.34872",
+          "lng": "-74.65905"
+        }
       }
     ],
     "related_institutions": [
@@ -37,31 +48,66 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"]
+        "websites": [
+          "https://www.princeton.edu/"
+        ]
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Ermolaev, Natalia", "ref": [] },
-        "roles": ["supervision"],
-        "websites": ["https://cdh.princeton.edu/people/natasha-ermolaev/"]
+        "pers_name": {
+          "text": "Ermolaev, Natalia",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://cdh.princeton.edu/people/natasha-ermolaev/"
+        ]
       },
       {
         "pers_name": {
           "text": "Janco, Andrew",
-          "ref": ["https://d-nb.info/gnd/1064765017"]
+          "ref": [
+            "https://d-nb.info/gnd/1064765017"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://apjan.co/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://apjan.co/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "efi", "eng", "kan", "que", "tir", "tur", "yid", "yor"],
+      "lang": [
+        "ara",
+        "efi",
+        "eng",
+        "kan",
+        "que",
+        "tir",
+        "tur",
+        "yid",
+        "yor"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 100, "licensing": ["MIT"] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 100,
+        "licensing": [
+          "MIT"
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": [],
@@ -71,14 +117,22 @@
         {
           "label": "cadet",
           "self_developed": true,
-          "ref": ["https://github.com/New-Languages-for-NLP/cadet"],
+          "ref": [
+            "https://github.com/New-Languages-for-NLP/cadet"
+          ],
           "description": "Help add new languages into the spaCy library by generating and combining all the required units for a language entry. The tool also exists in the form of a notebook available on the GitHub page of the project."
         }
       ],
-      "languages": ["python"]
+      "languages": [
+        "python"
+      ]
     },
     "policies": [],
-    "keywords": ["literary_studies", "machine_learning", "nlp"],
+    "keywords": [
+      "literary_studies",
+      "machine_learning",
+      "nlp"
+    ],
     "category": "tools_and_analysis",
     "comment": "The research data include projects in Dostoevsky's Russian, Old Chinese, and Kanbun, for which there are no ISO-639-2 language codes. The Arabic language data is also in Classical Arabic, for which there is no separate ISO-639-2 code."
   }

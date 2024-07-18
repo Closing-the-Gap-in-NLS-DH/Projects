@@ -1,52 +1,87 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "4ed4b218-0a06-4ae1-857a-1d87a9371e08",
     "record_created_on": "2023-07-10",
     "record_created_by": "Till Grallert",
-    "last_edited_on": "2023-07-10"
+    "last_edited_on": "2023-07-10",
+    "interviewed": false
   },
   "project": {
     "title": "Open Arabic Periodical Editions: A framework for bootstrapped digital scholarly editions outside the global north",
     "abbr": "OpenArabicPE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
     "maintained": null,
-    "websites": ["https://openarabicpe.github.io/"],
+    "websites": [
+      "https://openarabicpe.github.io/"
+    ],
     "project_desc": "Corpus of TEI/XML editions of Arabic periodicals, a static webview, and a framework of workflows for digital scholarly editions following the principles of minimal computing to address the affordances of the digital for cultural artefacts from the Global South",
     "places": [
       {
         "place_name": {
           "text": "Beirut",
-          "ref": ["https://www.geonames.org/276781/beirut.html"]
+          "ref": [
+            "https://www.geonames.org/276781/beirut.html"
+          ]
         },
-        "coordinates": { "lat": "33.89332", "lng": "35.50157" }
+        "coordinates": {
+          "lat": "33.89332",
+          "lng": "35.50157"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": { "text": "", "ref": [] },
+        "org_name": {
+          "text": "",
+          "ref": []
+        },
         "websites": []
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Grallert, Till", "ref": [] },
-        "roles": ["supervision"],
-        "websites": ["https://openarabicpe.github.io/"]
+        "pers_name": {
+          "text": "Grallert, Till",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://openarabicpe.github.io/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -64,11 +99,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

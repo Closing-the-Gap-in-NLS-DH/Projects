@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "cb428a09-41a6-4b68-b81e-8e72e23e6aba",
     "record_created_on": "2023-02-13",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "The Multimedia Yasna",
     "abbr": "MUYA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2022" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2022"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://muya.soas.ac.uk/",
@@ -22,33 +28,55 @@
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       },
       {
         "place_name": {
           "text": "Birmingham",
-          "ref": ["https://www.geonames.org/2655603/birmingham.html"]
+          "ref": [
+            "https://www.geonames.org/2655603/birmingham.html"
+          ]
         },
-        "coordinates": { "lat": "52.48142", "lng": "-1.89983" }
+        "coordinates": {
+          "lat": "52.48142",
+          "lng": "-1.89983"
+        }
       },
       {
         "place_name": {
           "text": "Münster",
-          "ref": ["https://www.geonames.org/2867543/muenster.html"]
+          "ref": [
+            "https://www.geonames.org/2867543/muenster.html"
+          ]
         },
-        "coordinates": { "lat": "51.96236", "lng": "7.62571" }
+        "coordinates": {
+          "lat": "51.96236",
+          "lng": "7.62571"
+        }
       },
       {
         "place_name": {
           "text": "Trier",
-          "ref": ["https://www.geonames.org/2821164/trier.html"]
+          "ref": [
+            "https://www.geonames.org/2821164/trier.html"
+          ]
         },
-        "coordinates": { "lat": "49.75565", "lng": "6.63935" }
+        "coordinates": {
+          "lat": "49.75565",
+          "lng": "6.63935"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -59,15 +87,21 @@
             "https://ror.org/04vrxay34"
           ]
         },
-        "websites": ["https://www.soas.ac.uk/"]
+        "websites": [
+          "https://www.soas.ac.uk/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "University of Birmingham",
-          "ref": ["https://www.wikidata.org/wiki/Q223429"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q223429"
+          ]
         },
-        "websites": ["https://www.birmingham.ac.uk/"]
+        "websites": [
+          "https://www.birmingham.ac.uk/"
+        ]
       },
       {
         "relation_type": "host",
@@ -78,7 +112,9 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": ["https://www.uni-muenster.de/de/"]
+        "websites": [
+          "https://www.uni-muenster.de/de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -89,7 +125,9 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"]
+        "websites": [
+          "https://www.uni-trier.de/"
+        ]
       }
     ],
     "related_entities": [],
@@ -97,17 +135,31 @@
       {
         "pers_name": {
           "text": "Hintze, Almut",
-          "ref": ["https://d-nb.info/gnd/1138120693"]
+          "ref": [
+            "https://d-nb.info/gnd/1138120693"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.soas.ac.uk/about/almut-hintze"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.soas.ac.uk/about/almut-hintze"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ave"],
+      "lang": [
+        "ave"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": [],
@@ -116,7 +168,12 @@
       "tools": [],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_edition",
       "digital_preservation",

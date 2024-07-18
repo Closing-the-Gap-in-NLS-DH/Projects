@@ -1,30 +1,48 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa",
     "record_created_on": "2022-05-19",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
     "abbr": "DARIAH-DE",
     "type": "organization",
-    "ref": ["https://www.wikidata.org/wiki/Q55520740"],
-    "date": [{ "from": "2011", "to": "" }],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q55520740"
+    ],
+    "date": [
+      {
+        "from": "2011",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.wikidata.org/wiki/Q55520740"],
+    "websites": [
+      "https://www.wikidata.org/wiki/Q55520740"
+    ],
     "project_desc": "DARIAH-DE is a member of the pan-European research infrastructure for the arts and humanities. It supports research in the humanities and cultural studies that work with digital methods and procedures with a research infrastructure consisting of four pillars: teaching, research, research data and technical components.",
     "places": [
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
         },
-        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [],
     "related_entities": [
       {
@@ -42,9 +60,13 @@
       {
         "pers_name": {
           "text": "Horstmann, Wolfram",
-          "ref": ["https://d-nb.info/gnd/129236187"]
+          "ref": [
+            "https://d-nb.info/gnd/129236187"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.fiz-karlsruhe.de/de/ueber-uns/curriculum-vitae-prof-dr-wolfram-horstmann"
         ]
@@ -53,18 +75,47 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "category": "infrastructure",
     "comment": ""
   }

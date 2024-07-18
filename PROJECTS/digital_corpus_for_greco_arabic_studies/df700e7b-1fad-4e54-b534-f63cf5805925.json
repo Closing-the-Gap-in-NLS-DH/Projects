@@ -1,37 +1,57 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "df700e7b-1fad-4e54-b534-f63cf5805925",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela. Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "Digital Corpus for Greco-Arabic Studies",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2013" }],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2013"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://www.graeco-arabic-studies.org/home.html"],
+    "websites": [
+      "https://www.graeco-arabic-studies.org/home.html"
+    ],
     "project_desc": "The Digital Corpus for Graeco-Arabic Studies was created in the course of a collaborative project at Harvard and Tufts University and contains ca. 230 texts, three fifths of which are Greek originals and the rest are Arabic translations. In addition, the platform offers a list of authors and works included in the corpus that can be filtered by language, subject and text type and a search interface to search for Arabic or Greek words and phrases.",
     "places": [
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
         },
-        "coordinates": { "lat": "42.3751", "lng": "-71.10561" }
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
+        }
       },
       {
         "place_name": {
           "text": "Medford",
-          "ref": ["https://www.geonames.org/4943629/medford.html"]
+          "ref": [
+            "https://www.geonames.org/4943629/medford.html"
+          ]
         },
-        "coordinates": { "lat": "42.41843", "lng": "-71.10616" }
+        "coordinates": {
+          "lat": "42.41843",
+          "lng": "-71.10616"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -42,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": ["https://www.harvard.edu/"]
+        "websites": [
+          "https://www.harvard.edu/"
+        ]
       },
       {
         "relation_type": "host",
@@ -53,7 +75,9 @@
             "https://ror.org/05wvpxv85"
           ]
         },
-        "websites": ["https://www.tufts.edu/"]
+        "websites": [
+          "https://www.tufts.edu/"
+        ]
       }
     ],
     "related_entities": [],
@@ -61,26 +85,61 @@
       {
         "pers_name": {
           "text": "Schiefsky, Mark",
-          "ref": ["https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"]
+          "ref": [
+            "https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://scholar.harvard.edu/schiefsky/home"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://scholar.harvard.edu/schiefsky/home"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "grc"],
+      "lang": [
+        "ara",
+        "grc"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

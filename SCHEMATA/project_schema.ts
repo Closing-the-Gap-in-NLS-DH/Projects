@@ -1,7 +1,7 @@
 import { z } from "https://deno.land/x/zod@v3.23.6/mod.ts";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.3";
+const schemaVersion = "0.2.4";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
@@ -60,6 +60,9 @@ export const projectSchema = z
         last_edited_on: z
           .union([z.coerce.date().min(new Date("2020-01-01")), z.literal("")])
           .describe("Date of last modification of the record (YYYY-MM-DD)"),
+        interviewed: z 
+          .boolean()
+          .describe("Has the interview been conducted?"),
       })
       .strict()
       .describe("Metadata of the record file"),

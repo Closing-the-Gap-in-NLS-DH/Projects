@@ -1,17 +1,23 @@
 {
-  "schema_version": "0.2.3",
+  "schema_version": "0.2.4",
   "record_metadata": {
     "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-02-28"
+    "last_edited_on": "2022-02-28",
+    "interviewed": true
   },
   "project": {
     "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2040" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2040"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.betamasaheft.uni-hamburg.de/",
@@ -24,12 +30,20 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -40,7 +54,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -157,18 +173,27 @@
       {
         "pers_name": {
           "text": "Bausi, Alessandro",
-          "ref": ["https://www.wikidata.org/wiki/Q62559559"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q62559559"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["gez"],
+      "lang": [
+        "gez"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 100, "licensing": [] },
+      "publications": {
+        "open_access": 100,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
@@ -188,7 +213,9 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": ["https://github.com/BetaMasaheft"],
+            "ref": [
+              "https://github.com/BetaMasaheft"
+            ],
             "licensing": [],
             "description": ""
           }
@@ -196,38 +223,60 @@
       }
     },
     "stack": {
-      "database": ["XML"],
-      "backend": ["eXist db"],
+      "database": [
+        "XML"
+      ],
+      "backend": [
+        "eXist db"
+      ],
       "frontend": [],
       "tools": [
         {
           "label": "Dillmann Lexicon",
           "self_developed": false,
-          "ref": ["https://github.com/BetaMasaheft/Dillmann"],
+          "ref": [
+            "https://github.com/BetaMasaheft/Dillmann"
+          ],
           "description": "The lexicon was developed by the project Traces"
         },
         {
           "label": "Transkribus",
           "self_developed": false,
-          "ref": ["https://www.transkribus.org/de"],
+          "ref": [
+            "https://www.transkribus.org/de"
+          ],
           "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%."
         },
         {
           "label": "ABBYY FineReader",
           "self_developed": false,
-          "ref": ["https://pdf.abbyy.com"],
+          "ref": [
+            "https://pdf.abbyy.com"
+          ],
           "description": "OCR software"
         },
         {
           "label": "Alpheios",
           "self_developed": false,
-          "ref": ["https://alpheios.net/"],
+          "ref": [
+            "https://alpheios.net/"
+          ],
           "description": "Tool providing translation and morphological information of words in classical languages."
         }
       ],
-      "languages": ["XQuery", "JS", "Python", "XSLT"]
+      "languages": [
+        "XQuery",
+        "JS",
+        "Python",
+        "XSLT"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "digital_edition",
