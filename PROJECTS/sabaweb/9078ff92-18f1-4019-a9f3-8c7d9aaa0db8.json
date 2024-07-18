@@ -4,27 +4,43 @@
     "uuid": "9078ff92-18f1-4019-a9f3-8c7d9aaa0db8",
     "record_created_on": "2022-06-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "Belegwörterbuch der sabäischen Sprache",
     "abbr": "Sabaweb",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2012", "to": "2024" }],
+    "date": [
+      {
+        "from": "2012",
+        "to": "2024"
+      }
+    ],
     "maintained": true,
-    "websites": ["http://sabaweb.uni-jena.de/Sabaweb"],
+    "websites": [
+      "http://sabaweb.uni-jena.de/Sabaweb"
+    ],
     "project_desc": "This long-term project is dedicated to Sabaic language and aims to create a comprehensive dictionary based on a complete database of all known Sabaic inscriptions covering the period from 14th century BC to 6th century AD. The results of the project are available in an open-access online database which is fully searchable for Sabaic roots, words and forms.",
     "places": [
       {
         "place_name": {
           "text": "Jena",
-          "ref": ["https://www.geonames.org/2895044/jena.html"]
+          "ref": [
+            "https://www.geonames.org/2895044/jena.html"
+          ]
         },
-        "coordinates": { "lat": "50.92878", "lng": "11.5899" }
+        "coordinates": {
+          "lat": "50.92878",
+          "lng": "11.5899"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -35,7 +51,9 @@
             "https://ror.org/00zfe1b87"
           ]
         },
-        "websites": ["https://www.uni-jena.de/en"]
+        "websites": [
+          "https://www.uni-jena.de/en"
+        ]
       }
     ],
     "related_entities": [],
@@ -43,26 +61,60 @@
       {
         "pers_name": {
           "text": "Nebes, Norbert",
-          "ref": ["https://d-nb.info/gnd/1064027237"]
+          "ref": [
+            "https://d-nb.info/gnd/1064027237"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.gw.uni-jena.de/nebes-norbert"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.gw.uni-jena.de/nebes-norbert"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["xsa"],
+      "lang": [
+        "xsa"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_resource",
       "lexicon",

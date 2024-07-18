@@ -4,14 +4,20 @@
     "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "HUNAYNNET",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "2021" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2021"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://hunaynnet.oeaw.ac.at/",
@@ -22,12 +28,20 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +52,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       }
     ],
     "related_entities": [],
@@ -46,9 +62,13 @@
       {
         "pers_name": {
           "text": "Kessel, Grigory",
-          "ref": ["https://d-nb.info/gnd/1069608009"]
+          "ref": [
+            "https://d-nb.info/gnd/1069608009"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.oeaw.ac.at/fileadmin/Institute/imafo/pdf/forschung/byzanzforschung/Staff/CV_GrigoryKessel_de.pdf",
           "https://www.ias.edu/scholars/grigory-kessel"
@@ -56,19 +76,49 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "grc", "syr"],
+      "lang": [
+        "ara",
+        "grc",
+        "syr"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "arabic_studies",

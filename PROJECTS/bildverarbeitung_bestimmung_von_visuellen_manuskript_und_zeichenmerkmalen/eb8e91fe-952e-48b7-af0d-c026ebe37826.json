@@ -4,14 +4,20 @@
     "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826",
     "record_created_on": "2022-02-28",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-29"
+    "last_edited_on": "2022-03-29",
+    "interviewed": false
   },
   "project": {
     "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "2019" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2019"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/203079013",
@@ -24,12 +30,20 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -40,7 +54,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -129,9 +145,13 @@
       {
         "pers_name": {
           "text": "Stiehl, Hans Siegfried",
-          "ref": ["https://www.wikidata.org/wiki/Q102416616"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q102416616"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/stiehl.html",
           "https://www.inf.uni-hamburg.de/en/inst/ab/bv/team/stiehl.html"
@@ -141,18 +161,47 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["image", "research_infrastructure"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "image",
+      "research_infrastructure"
+    ],
     "category": "infrastructure",
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }

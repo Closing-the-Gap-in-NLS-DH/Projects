@@ -4,48 +4,79 @@
     "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-04-05"
+    "last_edited_on": "2022-04-05",
+    "interviewed": false
   },
   "project": {
     "title": "FDNext",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "2023" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.forschungsdaten.org/index.php/FDNext"],
+    "websites": [
+      "https://www.forschungsdaten.org/index.php/FDNext"
+    ],
     "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
+          "ref": [
+            "https://www.geonames.org/2852458/potsdam.html"
+          ]
         },
-        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
+        }
       },
       {
         "place_name": {
           "text": "Frankfurt (Oder)",
-          "ref": ["https://www.geonames.org/2925535/frankfurt-oder.html"]
+          "ref": [
+            "https://www.geonames.org/2925535/frankfurt-oder.html"
+          ]
         },
-        "coordinates": { "lat": "52.34714", "lng": "14.55062" }
+        "coordinates": {
+          "lat": "52.34714",
+          "lng": "14.55062"
+        }
       },
       {
         "place_name": {
           "text": "Cottbus",
-          "ref": ["https://www.geonames.org/2939811/cottbus.html"]
+          "ref": [
+            "https://www.geonames.org/2939811/cottbus.html"
+          ]
         },
-        "coordinates": { "lat": "51.75769", "lng": "14.32888" }
+        "coordinates": {
+          "lat": "51.75769",
+          "lng": "14.32888"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -56,7 +87,9 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/de"]
+        "websites": [
+          "https://www.hu-berlin.de/de"
+        ]
       },
       {
         "relation_type": "host",
@@ -67,7 +100,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -78,7 +113,9 @@
             "https://ror.org/03v4gjf40"
           ]
         },
-        "websites": ["https://www.tu.berlin/"]
+        "websites": [
+          "https://www.tu.berlin/"
+        ]
       },
       {
         "relation_type": "host",
@@ -89,7 +126,9 @@
             "https://ror.org/03bnmw459"
           ]
         },
-        "websites": ["https://www.uni-potsdam.de/en/university-of-potsdam/"]
+        "websites": [
+          "https://www.uni-potsdam.de/en/university-of-potsdam/"
+        ]
       },
       {
         "relation_type": "host",
@@ -100,7 +139,9 @@
             "https://ror.org/02msan859"
           ]
         },
-        "websites": ["https://www.europa-uni.de/en/index.html"]
+        "websites": [
+          "https://www.europa-uni.de/en/index.html"
+        ]
       },
       {
         "relation_type": "host",
@@ -111,7 +152,9 @@
             "https://ror.org/02wxx3e24"
           ]
         },
-        "websites": ["https://www.b-tu.de/"]
+        "websites": [
+          "https://www.b-tu.de/"
+        ]
       }
     ],
     "related_entities": [],
@@ -119,27 +162,62 @@
       {
         "pers_name": {
           "text": "Schmiederer, Simon",
-          "ref": ["https://d-nb.info/gnd/1227354606"]
+          "ref": [
+            "https://d-nb.info/gnd/1227354606"
+          ]
         },
-        "roles": ["investigation"],
-        "websites": ["https://www.researchgate.net/profile/Simon-Schmiederer"]
+        "roles": [
+          "investigation"
+        ],
+        "websites": [
+          "https://www.researchgate.net/profile/Simon-Schmiederer"
+        ]
       }
     ],
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["research_data_management", "research_infrastructure"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
     "category": "infrastructure",
     "comment": ""
   }

@@ -4,27 +4,44 @@
     "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0",
     "record_created_on": "2021-11-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-01"
+    "last_edited_on": "2022-03-01",
+    "interviewed": false
   },
   "project": {
     "title": "Corpus Coranicum",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2007", "to": "2024" }],
+    "date": [
+      {
+        "from": "2007",
+        "to": "2024"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://corpuscoranicum.de/en"],
+    "websites": [
+      "https://corpuscoranicum.de/en"
+    ],
     "project_desc": "Corpus Coranicum develops a catalogue of early Qur’anic manuscripts and texts of the Islamic scholarly tradition, which are all published online (open access) by using TEI standards. It offers not only transcriptions of the manuscripts in original languages and their German translations, but also images of originals, variant readings and commentaries explaining their literary, cultural and historical context. The project focuses on the systematic documentation of sources related to the Qur’an with the objective to reconstruct the development of the first Muslim community as the interaction between the Prophet and the first addressees in Mecca and Medina.",
     "places": [
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
+          "ref": [
+            "https://www.geonames.org/2852458/potsdam.html"
+          ]
         },
-        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
+        }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -32,7 +49,9 @@
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
-        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
+        "websites": [
+          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
+        ]
       },
       {
         "relation_type": "host",
@@ -43,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q1662834"
           ]
         },
-        "websites": ["https://www.akademienunion.de/"]
+        "websites": [
+          "https://www.akademienunion.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -77,35 +98,72 @@
       {
         "pers_name": {
           "text": "Neuwirth, Angelika",
-          "ref": ["https://d-nb.info/gnd/108800083"]
+          "ref": [
+            "https://d-nb.info/gnd/108800083"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://web.archive.org/web/20230127042100/www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/"
         ]
       },
       {
-        "pers_name": { "text": "Marx, Michael", "ref": [] },
-        "roles": ["supervision"],
+        "pers_name": {
+          "text": "Marx, Michael",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_edition",
       "digital_preservation",

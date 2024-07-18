@@ -4,14 +4,20 @@
     "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e",
     "record_created_on": "2022-03-29",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-31"
+    "last_edited_on": "2022-03-31",
+    "interviewed": false
   },
   "project": {
     "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2006-08-01", "to": "2008-01-31" }],
+    "date": [
+      {
+        "from": "2006-08-01",
+        "to": "2008-01-31"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-pilotprojekt/",
@@ -22,12 +28,21 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       }
     ],
-    "lang": ["ara", "deu", "eng"],
+    "lang": [
+      "ara",
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +53,9 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": ["https://www.uni-leipzig.de/en/"]
+        "websites": [
+          "https://www.uni-leipzig.de/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -62,28 +79,62 @@
       {
         "pers_name": {
           "text": "Verena Klemm",
-          "ref": ["https://www.wikidata.org/wiki/Q5675690"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "tur"],
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "catalog",
       "digital_preservation",

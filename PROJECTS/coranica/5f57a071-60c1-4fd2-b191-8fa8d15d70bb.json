@@ -4,14 +4,20 @@
     "uuid": "5f57a071-60c1-4fd2-b191-8fa8d15d70bb",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-03-01"
+    "last_edited_on": "2022-03-01",
+    "interviewed": false
   },
   "project": {
     "title": "Coranica",
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2011", "to": "2014" }],
+    "date": [
+      {
+        "from": "2011",
+        "to": "2014"
+      }
+    ],
     "maintained": false,
     "websites": [
       "https://webarchive.bbaw.de/default/20210819141519/https://www.coranica.de/front-page-en/"
@@ -21,19 +27,33 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["https://www.geonames.org/2988506/paris.html"]
+          "ref": [
+            "https://www.geonames.org/2988506/paris.html"
+          ]
         },
-        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -44,15 +64,21 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": ["https://www.bbaw.de/"]
+        "websites": [
+          "https://www.bbaw.de/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Académie des Inscriptions et Belles-Lettres Paris",
-          "ref": ["https://www.wikidata.org/wiki/Q337526"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q337526"
+          ]
         },
-        "websites": ["https://aibl.fr/"]
+        "websites": [
+          "https://aibl.fr/"
+        ]
       }
     ],
     "related_entities": [
@@ -71,9 +97,13 @@
       {
         "pers_name": {
           "text": "Neuwirth, Angelika",
-          "ref": ["https://d-nb.info/gnd/108800083"]
+          "ref": [
+            "https://d-nb.info/gnd/108800083"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://web.archive.org/web/20230127042100/www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/"
         ]
@@ -81,28 +111,60 @@
       {
         "pers_name": {
           "text": "Robin, Christian Julien",
-          "ref": ["https://www.wikidata.org/wiki/Q27919930"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27919930"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aibl.fr/membres/academiciens-depuis-1663/article/robin-christian-julien"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "collaboration_platform",
       "islamic_studies",

@@ -4,14 +4,20 @@
     "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04",
     "record_created_on": "2023-11-13",
     "record_created_by": "Kudela, Xeina Monika",
-    "last_edited_on": ""
+    "last_edited_on": "",
+    "interviewed": false
   },
   "project": {
     "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
     "abbr": "Ethio-SPaRe",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2009", "to": "2015" }],
+    "date": [
+      {
+        "from": "2009",
+        "to": "2015"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare.html"
@@ -21,12 +27,19 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -37,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -126,21 +141,35 @@
       {
         "pers_name": {
           "text": "Nosnitsin, Denis",
-          "ref": ["https://d-nb.info/gnd/104770255X"]
+          "ref": [
+            "https://d-nb.info/gnd/104770255X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/afrika/personen/nosnitsin.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["gez"],
+      "lang": [
+        "gez"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -158,11 +187,21 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "corpus_output",
