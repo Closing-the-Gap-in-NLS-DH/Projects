@@ -1,5 +1,49 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2024-07-19
+
+**Time**: 10:30 - 12:00 (Berlin)
+
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+
+- BUA
+
+  - The updated budget has been sent to BUA.
+  - Early next week, Theo will update the Steckbrief.
+  - We should update the document with project outputs regularly to ensure we don't miss anything, even though it is not directly required right now. Last time, we might have omitted some of our outputs, so regular updates will ensure that the document is complete when required for the next funding phase. It's also useful for our internal records.
+  
+- Website
+
+  - Our project was evaluated very positively by the Open Methods Colloquium, an internal rating for tools and projects by DARIAH, explicitly mentioning it as an example of good academic practice. We will add this to our website, the Steckbrief, and the output list.
+
+- Events
+
+  - Jonas will present our project in a DARIAH workshop as a corpus of projects dealing with multilingual data. He will reach out to Xenia to discuss the details. It will take place on the 28th or 29th of August. We should also put it on our calendar and the list of outputs.
+
+- Hiring Process
+
+  - The SHKs are waiting for their contracts and will start in August.
+  - As for the PostDoc position, we reviewed the pool of potential candidates, contacted some of them, and will invite them for interviews. We hope to fill the position by November 1st.
+
+- Interviews
+
+  - Since the last meeting, Xenia has interviewed Bibliotheca Arabica and World Scripts Explorer.
+  - The researchers of Bibliotheca Arabica would be interested in a list of tools used by other projects; maybe we should implement such a feature on our website.
+  - A list of the next projects to invite was made based on their relevance and funding period. First invitations were sent to Corpus Coranicum and Averroes Edition.
+
+- Projects
+
+  - Prof. Gründler saw a presentation on the Kitab project during the conference in Venice. They have made their website more user-friendly and implemented a new feature visualizing text reuse among the documents. They also offer to perform a text reuse test on any PDF sent to them by external users and display it on their website since they want to expand their database.
+
+- DH Course
+
+  - Theo's course ended last week. It was well attended, and some students became really motivated to engage more with DH.
+  - In one of the sessions, students were shown eScriptorium and were directly interested in using it in their studies and academic practice. However, attempts to make it work on their machines were unsuccessful, even with the use of Docker. It is very complicated to set it up, even when consulting official documentation.
+  - Possible solutions would be to first ask FUB-IT to create an eScriptorium instance for the FU so that it can be used with students. Secondly, we could ask Hamburg University to share their instance with us, as they have a large community working with eScriptorium. Alternatively, we could seek advice from Uni Mannheim, which is also an important hotspot for engagement with eScriptorium.
+  - Theo's course should be offered again by his successor in the coming semesters. It'd be advisable to have at least one DH course in the Arabistik course catalog. The course could be open to other seminars to increase the number of participants.
+
+- Next meeting: 05.08. at 11:30
+
 ##2024-06-28
 
 **Time**: 10:30 - 12:00 (Berlin)
@@ -9,7 +53,7 @@
 - SHK
 
   - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating
-    email lists, adding project details, or learning programming).
+  email lists, adding project details, or learning programming).
 
 - Post Doc Position
 
