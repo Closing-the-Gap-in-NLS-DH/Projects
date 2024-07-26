@@ -110,6 +110,11 @@
         "relation_type": "cooperation",
         "title": "Bibliotheca Arabica",
         "uuid": "ab7e5659-177f-40ed-befb-5d0eecea737f"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
+        "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605"
       }
     ],
     "contacts": [
