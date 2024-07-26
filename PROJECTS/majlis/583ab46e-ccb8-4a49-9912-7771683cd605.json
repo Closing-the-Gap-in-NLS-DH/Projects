@@ -5,7 +5,7 @@
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": "2021-05-05",
-    "interviewed": false
+    "interviewed": true
   },
   "project": {
     "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
@@ -57,7 +57,23 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Union Catalogue of Manuscripts from the Islamicate World",
+        "uuid": "9734b5c3-fa35-4e45-878e-1deb62db97d5"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
@@ -78,36 +94,91 @@
       "lang": [
         "ara"
       ],
-      "sustainability_plan": null,
+      "sustainability_plan": true,
       "publications": {
-        "open_access": 0,
+        "open_access": 100,
         "licensing": [
-          ""
+          "CC BY-NC 4.0"
         ]
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          {
+            "label": "XML",
+            "stage": "final",
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
+            "open_access": 100
+          }
+        ],
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": [
+              "https://github.com/majlis-erc"
+            ],
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
+            "description": ""
+          },
+          {
+            "label": "Open Data LMU",
+            "accessibility": "public",
+            "ref": [
+              "https://data.ub.uni-muenchen.de/"
+            ],
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
+            "description": "There is no instance yet; the project will be migrated in the future"
+          }
+        ]
       }
     },
     "stack": {
       "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
+        "XML"
       ],
       "backend": [
-        "laravel"
+        "manuForma",
+        "XSLT",
+        "XForm",
+        "XQuery",
+        "eXist-db"
       ],
       "frontend": [
-        "vue"
+        "Srophe",
+        "JS",
+        "XSLT",
+        "XHTML"
       ],
-      "tools": [],
+      "tools": [
+        {
+          "label": "manuForma",
+          "self_developed": true,
+          "ref": [
+            "https://github.com/majlis-erc/manuForma"
+          ],
+          "description": "TEI-XML File Generator"
+        },
+        {
+          "label": "Srophe",
+          "self_developed": false,
+          "ref": [
+            "https://srophe.app/"
+          ],
+          "description": "Frontend framework for projects working with TEI-XML"
+        }
+      ],
       "languages": [
-        "php",
-        "javascript",
-        "python"
+        "XQuery",
+        "XSLT",
+        "JS",
+        "XHTML",
+        "CSS"
       ]
     },
     "policies": [
@@ -118,9 +189,12 @@
     ],
     "keywords": [
       "arabic_studies",
-      "literary_studies"
+      "literary_studies",
+      "digital_preservation",
+      "jewish_studies",
+      "catalog"
     ],
-    "category": "tools_and_analysis",
-    "comment": ""
+    "category": "digital_preservation",
+    "comment": "All publications, data, and code created during the course of the project are available in open access,"
   }
 }
