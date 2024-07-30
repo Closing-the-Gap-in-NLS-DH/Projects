@@ -1,1 +1,6 @@
-{ "default": true, "line-length": false, "no-emphasis-as-heading": false }
+{
+  "default": true,
+  "first-line-heading": false,
+  "line-length": false,
+  "no-emphasis-as-heading": false
+}
