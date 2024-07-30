@@ -1,6 +1,5 @@
 # Changelog - Schema
 
-
 - From version 0.2.3 to 0.2.4 (2024-07-18):
 
 - The Boolean value `interviewed` has been added to the `research_data` section to indicate whether the interview regarding the technical details of a project has been conducted.

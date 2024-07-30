@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -49,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": [
-          "https://www.uni-koeln.de/"
-        ]
+        "websites": ["https://www.uni-koeln.de/"]
       }
     ],
     "related_entities": [],
@@ -61,9 +57,7 @@
           "text": "Simha, Vyshantha",
           "ref": []
         },
-        "roles": [
-          "software"
-        ],
+        "roles": ["software"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
           "https://github.com/Vyshantha/multiscripteditor"
@@ -72,13 +66,9 @@
       {
         "pers_name": {
           "text": "Eide, Øyvind",
-          "ref": [
-            "https://d-nb.info/gnd/1084655063"
-          ]
+          "ref": ["https://d-nb.info/gnd/1084655063"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
         ]
@@ -104,29 +94,17 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": [
-              "https://github.com/Vyshantha/multiscripteditor"
-            ],
-            "licensing": [
-              "CC0-1.0"
-            ],
+            "ref": ["https://github.com/Vyshantha/multiscripteditor"],
+            "licensing": ["CC0-1.0"],
             "description": ""
           }
         ]
       }
     },
     "stack": {
-      "database": [
-        "JSON"
-      ],
-      "backend": [
-        "Python"
-      ],
-      "frontend": [
-        "Angular",
-        "TS",
-        "JS"
-      ],
+      "database": ["JSON"],
+      "backend": ["Python"],
+      "frontend": ["Angular", "TS", "JS"],
       "tools": [
         {
           "label": "FontForge",
@@ -149,9 +127,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "vre"
-    ],
+    "keywords": ["vre"],
     "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
   }

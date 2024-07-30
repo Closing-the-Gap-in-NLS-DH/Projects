@@ -23,17 +23,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.eea.csic.es/pua/"
-    ],
+    "websites": ["https://www.eea.csic.es/pua/"],
     "project_desc": "This project is dedicated to the prosopography and biography of Andalusi scholars. It sourced information about approximately 11,600 scholars from Arabic biographical dictionaries and organized into a database, in a way that enables taking advantage of possibilities offered by electronic data processing. It also offers a setup of the necessary tools to organize and filter information, handle the data with quantitative criteria and present the results of the analysis with a variety of visualizations.",
     "places": [
       {
         "place_name": {
           "text": "Granada",
-          "ref": [
-            "https://www.geonames.org/2517117/granada.html"
-          ]
+          "ref": ["https://www.geonames.org/2517117/granada.html"]
         },
         "coordinates": {
           "lat": "37.18817",
@@ -41,10 +37,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "spa"
-    ],
+    "lang": ["eng", "spa"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -55,9 +48,7 @@
             "https://ror.org/0370sk906"
           ]
         },
-        "websites": [
-          "https://www.eea.csic.es/"
-        ]
+        "websites": ["https://www.eea.csic.es/"]
       }
     ],
     "related_entities": [],
@@ -65,13 +56,9 @@
       {
         "pers_name": {
           "text": "Penelas, Mayte",
-          "ref": [
-            "https://d-nb.info/gnd/1067890963"
-          ]
+          "ref": ["https://d-nb.info/gnd/1067890963"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.eea.csic.es/personal-de-la-eea/penelas-melendez-ma-teresa/"
         ]
@@ -79,22 +66,16 @@
       {
         "pers_name": {
           "text": "María Luisa Ávila",
-          "ref": [
-            "https://d-nb.info/gnd/1057141895"
-          ]
+          "ref": ["https://d-nb.info/gnd/1057141895"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.eea.csic.es/personal-de-la-eea/avila-navarro-ma-luisa/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

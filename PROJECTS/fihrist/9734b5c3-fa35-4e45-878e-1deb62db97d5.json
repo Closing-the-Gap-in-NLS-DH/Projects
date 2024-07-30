@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": [
-            "https://www.geonames.org/2653941/cambridge.html"
-          ]
+          "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
         "coordinates": {
           "lat": "52.2",
@@ -52,9 +48,7 @@
       {
         "place_name": {
           "text": "Manchester",
-          "ref": [
-            "https://www.geonames.org/2643123/manchester.html"
-          ]
+          "ref": ["https://www.geonames.org/2643123/manchester.html"]
         },
         "coordinates": {
           "lat": "53.48095",
@@ -64,9 +58,7 @@
       {
         "place_name": {
           "text": "Birmingham",
-          "ref": [
-            "https://www.geonames.org/2655603/birmingham.html"
-          ]
+          "ref": ["https://www.geonames.org/2655603/birmingham.html"]
         },
         "coordinates": {
           "lat": "52.48142",
@@ -76,9 +68,7 @@
       {
         "place_name": {
           "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/london.html"
-          ]
+          "ref": ["https://www.geonames.org/2643743/london.html"]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -86,9 +76,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -99,9 +87,7 @@
             "https://ror.org/013meh722"
           ]
         },
-        "websites": [
-          "https://www.cam.ac.uk/"
-        ]
+        "websites": ["https://www.cam.ac.uk/"]
       },
       {
         "relation_type": "host",
@@ -112,9 +98,7 @@
             "https://ror.org/052gg0110"
           ]
         },
-        "websites": [
-          "https://www.ox.ac.uk/"
-        ]
+        "websites": ["https://www.ox.ac.uk/"]
       },
       {
         "relation_type": "cooperation",
@@ -125,9 +109,7 @@
             "https://ror.org/027m9bs27"
           ]
         },
-        "websites": [
-          "https://www.manchester.ac.uk/"
-        ]
+        "websites": ["https://www.manchester.ac.uk/"]
       },
       {
         "relation_type": "cooperation",
@@ -138,9 +120,7 @@
             "https://ror.org/03angcq70"
           ]
         },
-        "websites": [
-          "https://www.birmingham.ac.uk/"
-        ]
+        "websites": ["https://www.birmingham.ac.uk/"]
       },
       {
         "relation_type": "cooperation",
@@ -151,9 +131,7 @@
             "https://ror.org/04vrxay34"
           ]
         },
-        "websites": [
-          "https://www.soas.ac.uk/"
-        ]
+        "websites": ["https://www.soas.ac.uk/"]
       },
       {
         "relation_type": "cooperation",
@@ -164,33 +142,23 @@
             "https://ror.org/05dhe8b71"
           ]
         },
-        "websites": [
-          "https://www.bl.uk/"
-        ]
+        "websites": ["https://www.bl.uk/"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Royal Asiatic Society",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1417172"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1417172"]
         },
-        "websites": [
-          "https://royalasiaticsociety.org/"
-        ]
+        "websites": ["https://royalasiaticsociety.org/"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Wellcome Library",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q7981192"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q7981192"]
         },
-        "websites": [
-          "https://wellcomelibrary.org/"
-        ]
+        "websites": ["https://wellcomelibrary.org/"]
       }
     ],
     "related_entities": [
@@ -211,12 +179,8 @@
           "text": "Faghihi, Yasmin",
           "ref": []
         },
-        "roles": [
-          "writing – review & editing"
-        ],
-        "websites": [
-          "https://www.cdh.cam.ac.uk/about/people/yasmin-faghihi/"
-        ]
+        "roles": ["writing – review & editing"],
+        "websites": ["https://www.cdh.cam.ac.uk/about/people/yasmin-faghihi/"]
       }
     ],
     "research_data": {

@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -39,9 +37,7 @@
       {
         "place_name": {
           "text": "Amsterdam",
-          "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
-          ]
+          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
         },
         "coordinates": {
           "lat": "52.37403",
@@ -49,9 +45,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -62,9 +56,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
         "relation_type": "host",
@@ -75,9 +67,7 @@
             "https://ror.org/04dkp9463"
           ]
         },
-        "websites": [
-          "https://www.uva.nl/en"
-        ]
+        "websites": ["https://www.uva.nl/en"]
       }
     ],
     "related_entities": [
@@ -113,18 +103,14 @@
           "text": "Toral, Isabel",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/toral/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

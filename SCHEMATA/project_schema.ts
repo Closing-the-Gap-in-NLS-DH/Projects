@@ -60,9 +60,7 @@ export const projectSchema = z
         last_edited_on: z
           .union([z.coerce.date().min(new Date("2020-01-01")), z.literal("")])
           .describe("Date of last modification of the record (YYYY-MM-DD)"),
-        interviewed: z 
-          .boolean()
-          .describe("Has the interview been conducted?"),
+        interviewed: z.boolean().describe("Has the interview been conducted?"),
       })
       .strict()
       .describe("Metadata of the record file"),

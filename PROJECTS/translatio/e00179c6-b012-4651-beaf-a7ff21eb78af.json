@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Bonn",
-          "ref": [
-            "https://www.geonames.org/2946447/bonn.html"
-          ]
+          "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
         "coordinates": {
           "lat": "50.73438",
@@ -38,11 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "deu",
-      "fra"
-    ],
+    "lang": ["eng", "deu", "fra"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,21 +47,15 @@
             "https://ror.org/041nas322"
           ]
         },
-        "websites": [
-          "https://www.ulb.uni-bonn.de/de"
-        ]
+        "websites": ["https://www.ulb.uni-bonn.de/de"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Universitätsbibliothek Bamberg",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q23786596"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q23786596"]
         },
-        "websites": [
-          "http://www.uni-bamberg.de/ub/"
-        ]
+        "websites": ["http://www.uni-bamberg.de/ub/"]
       },
       {
         "relation_type": "cooperation",
@@ -78,21 +66,15 @@
             "https://ror.org/022fs9h90"
           ]
         },
-        "websites": [
-          "https://www.unifr.ch/home/de/"
-        ]
+        "websites": ["https://www.unifr.ch/home/de/"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Universitätsbibliothek Mainz",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q2496319"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q2496319"]
         },
-        "websites": [
-          "https://www.ub.uni-mainz.de/"
-        ]
+        "websites": ["https://www.ub.uni-mainz.de/"]
       },
       {
         "relation_type": "cooperation",
@@ -103,21 +85,15 @@
             "https://ror.org/031h71w90"
           ]
         },
-        "websites": [
-          "https://www.bsb-muenchen.de"
-        ]
+        "websites": ["https://www.bsb-muenchen.de"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Universitätsbibliothek Tübingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q2496347"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q2496347"]
         },
-        "websites": [
-          "http://www.ub.uni-tuebingen.de"
-        ]
+        "websites": ["http://www.ub.uni-tuebingen.de"]
       }
     ],
     "related_entities": [],
@@ -127,20 +103,14 @@
           "text": "El-Menshawy, Yasmin",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "tur"
-      ],
+      "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,

@@ -19,17 +19,13 @@
       }
     ],
     "maintained": null,
-    "websites": [
-      "https://titus.uni-frankfurt.de/indexd.htm"
-    ],
+    "websites": ["https://titus.uni-frankfurt.de/indexd.htm"],
     "project_desc": "The project seeks to organize the collaboration of numerous scholars in developing an electronic text collection. This collection will serve as a foundation for computer-aided investigations into diverse Indo-European languages. Additionally, the project aims to expand the initiative by generating a growing repository of files containing supplementary materials, including dictionaries, word lists, linguistic analysis tools, and similar resources.",
     "places": [
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": [
-            "https://www.geonames.org/2925533/frankfurt-am-main.html"
-          ]
+          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
         "coordinates": {
           "lat": "50.11552",
@@ -48,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": [
-          "https://www.uni-frankfurt.de/de"
-        ]
+        "websites": ["https://www.uni-frankfurt.de/de"]
       }
     ],
     "related_entities": [],
@@ -60,12 +54,8 @@
           "text": "Gippert, Jost",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://d-nb.info/gnd/109337409"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://d-nb.info/gnd/109337409"]
       }
     ],
     "research_data": {
