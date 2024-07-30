@@ -12,12 +12,7 @@
     "abbr": "OCIMCO",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2009",
-        "to": "2011"
-      }
-    ],
+    "date": [{ "from": "2009", "to": "2011" }],
     "maintained": null,
     "websites": ["https://www.fihrist.org.uk/"],
     "project_desc": "This project aims to improve electronic access to the UK's significant Islamic manuscript collections at Oxford and Cambridge universities. It plans to create 10,000 summary records using a TEI P5 schema for future detailed descriptions, making these resources accessible through Oxford University Library Services and potentially contributing to the European Manuscriptorum. Collaboration with the Islamic Manuscript Association and other initiatives is a key focus.",
@@ -27,20 +22,14 @@
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
+        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
       },
       {
         "place_name": {
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
-        "coordinates": {
-          "lat": "52.2",
-          "lng": "0.11667"
-        }
+        "coordinates": { "lat": "52.2", "lng": "0.11667" }
       }
     ],
     "lang": ["eng"],
@@ -77,10 +66,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Evison, Gillian",
-          "ref": []
-        },
+        "pers_name": { "text": "Evison, Gillian", "ref": [] },
         "roles": ["supervision"],
         "websites": []
       }
@@ -129,18 +115,10 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -158,21 +136,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "arabic_studies",

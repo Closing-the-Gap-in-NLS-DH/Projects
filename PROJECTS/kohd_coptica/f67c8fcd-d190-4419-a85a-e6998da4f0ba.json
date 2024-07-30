@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2022" }],
     "maintained": null,
     "websites": ["https://coptica-kohd.dl.uni-leipzig.de/content/start.xml"],
     "project_desc": "The KOHD Coptica project, part of the Cataloging of Oriental Manuscripts in Germany initiative, catalogs and digitizes Coptic manuscripts in the Berlin Papyrus Collection. The ongoing database development facilitates efficient searches and standardized presentations of metadata, with records gradually released as cataloging and digitization progress.",
@@ -27,10 +22,7 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
     "lang": ["eng", "deu"],
@@ -93,18 +85,10 @@
     "research_data": {
       "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -122,21 +106,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["catalog", "digital_preservation", "egyptology", "manuscript"],
     "category": "digital_preservation",
     "comment": ""

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "organization",
     "ref": ["https://d-nb.info/gnd/10368977-1"],
-    "date": [
-      {
-        "from": "2008",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2008", "to": "" }],
     "maintained": true,
     "websites": ["https://www.islamicmanuscript.org/home.aspx"],
     "project_desc": "The Islamic Manuscript Association is an international non-profit organization dedicated to protecting Islamic manuscript collections and supporting those who work with them. Its main goal is to enhance the preservation and accessibility of many Islamic manuscript collections around the world. To this end, it articulates standards and guidelines for best practice in cataloguing, conservation, digitization, offers courses for professionals and awards grants to advance scholarship on Islamic manuscripts.",
@@ -27,10 +22,7 @@
           "text": "Cambridge",
           "ref": ["https://www.geonames.org/2653941/cambridge.html"]
         },
-        "coordinates": {
-          "lat": "52.2",
-          "lng": "0.11667"
-        }
+        "coordinates": { "lat": "52.2", "lng": "0.11667" }
       }
     ],
     "lang": ["eng"],
@@ -50,10 +42,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Al-Nashar, Dalia",
-          "ref": []
-        },
+        "pers_name": { "text": "Al-Nashar, Dalia", "ref": [] },
         "roles": ["investigation"],
         "websites": [
           "https://www.islamicmanuscript.org/DirectoryOfMembers/Person.aspx?mid=706"
@@ -63,14 +52,8 @@
     "research_data": {
       "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -79,12 +62,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["collaboration_platform", "islamic_studies"],
     "category": "other",
     "comment": ""

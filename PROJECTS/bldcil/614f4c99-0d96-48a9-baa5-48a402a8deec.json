@@ -12,12 +12,7 @@
     "abbr": "BLDCIL",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": null,
     "websites": [
       "https://www.uni-bamberg.de/aspra/forschung/projekte/bamberg-lexical-database-for-contemporary-iranian-languages-bldcil/"
@@ -29,10 +24,7 @@
           "text": "Bamberg",
           "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
+        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
       }
     ],
     "lang": ["eng"],
@@ -86,14 +78,8 @@
     "research_data": {
       "lang": ["bqi", "fas", "kur", "mzn", "tks", "zum"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -102,12 +88,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "audio",
       "corpus_resource",

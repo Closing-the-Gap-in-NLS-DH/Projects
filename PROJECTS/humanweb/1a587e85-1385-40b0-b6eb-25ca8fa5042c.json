@@ -12,12 +12,7 @@
     "abbr": "HumanWeb",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2014"
-      }
-    ],
+    "date": [{ "from": "2013", "to": "2014" }],
     "maintained": false,
     "websites": ["https://cordis.europa.eu/project/id/324591"],
     "project_desc": "This POC project will demonstrate that humanistic sciences can be productively coupled with sound business strategies to advance societal benefits and cultural sustainability. The grant will be used to get into contact and contract with potential joint venture partners for a cooperation which will result in a ground-braking universal online digital library for Yemeni manuscripts.",
@@ -27,10 +22,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -67,14 +59,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -83,12 +69,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["arabic_studies", "digital_preservation", "manuscript"],
     "category": "digital_preservation",
     "comment": ""

@@ -12,12 +12,7 @@
     "abbr": "PUDEL",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2022-01-01",
-        "to": "2023-03-31"
-      }
-    ],
+    "date": [{ "from": "2022-01-01", "to": "2023-03-31" }],
     "maintained": true,
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
@@ -29,10 +24,7 @@
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       }
     ],
     "lang": ["deu"],
@@ -63,14 +55,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -79,12 +65,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "The project is still ongoing (as of 05.04.2022)"

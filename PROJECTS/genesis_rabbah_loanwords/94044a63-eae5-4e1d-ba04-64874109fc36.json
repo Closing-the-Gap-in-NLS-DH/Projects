@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018-04-04",
-        "to": "2022-09-30"
-      }
-    ],
+    "date": [{ "from": "2018-04-04", "to": "2022-09-30" }],
     "maintained": null,
     "websites": [
       "https://www.oeaw.ac.at/acdh/projects/completed-projects/genr-loanwords",
@@ -30,20 +25,14 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       },
       {
         "place_name": {
           "text": "Salzburg",
           "ref": ["https://www.geonames.org/2766824/salzburg.html"]
         },
-        "coordinates": {
-          "lat": "47.79941",
-          "lng": "13.04399"
-        }
+        "coordinates": { "lat": "47.79941", "lng": "13.04399" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -118,14 +107,8 @@
     "research_data": {
       "lang": ["arc", "grc", "heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -134,12 +117,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_resource",

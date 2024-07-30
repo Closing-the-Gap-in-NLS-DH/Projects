@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2019" }],
     "maintained": null,
     "websites": [
       "https://psl.eu/en/scripta",
@@ -30,10 +25,7 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
+        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
       }
     ],
     "lang": [],
@@ -84,14 +76,8 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -100,12 +86,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "computational_text_analysis",

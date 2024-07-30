@@ -13,18 +13,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2006",
-        "to": "2009"
-      },
-      {
-        "from": "2009",
-        "to": "2012"
-      },
-      {
-        "from": "2012",
-        "to": "2015"
-      }
+      { "from": "2006", "to": "2009" },
+      { "from": "2009", "to": "2012" },
+      { "from": "2012", "to": "2015" }
     ],
     "maintained": true,
     "websites": ["https://www.textgrid.de/web/guest/projekt"],
@@ -35,70 +26,49 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Tübingen",
           "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
-        "coordinates": {
-          "lat": "48.52266",
-          "lng": "9.05222"
-        }
+        "coordinates": { "lat": "48.52266", "lng": "9.05222" }
       },
       {
         "place_name": {
           "text": "Worms",
           "ref": ["https://www.geonames.org/2806142/worms.html"]
         },
-        "coordinates": {
-          "lat": "49.63278",
-          "lng": "8.35916"
-        }
+        "coordinates": { "lat": "49.63278", "lng": "8.35916" }
       },
       {
         "place_name": {
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       },
       {
         "place_name": {
           "text": "Mannheim",
           "ref": ["https://www.geonames.org/2873891/mannheim.html"]
         },
-        "coordinates": {
-          "lat": "49.4891",
-          "lng": "8.46694"
-        }
+        "coordinates": { "lat": "49.4891", "lng": "8.46694" }
       },
       {
         "place_name": {
           "text": "Darmstadt",
           "ref": ["https://www.geonames.org/2938913/darmstadt.html"]
         },
-        "coordinates": {
-          "lat": "49.87167",
-          "lng": "8.65027"
-        }
+        "coordinates": { "lat": "49.87167", "lng": "8.65027" }
       },
       {
         "place_name": {
           "text": "Würzburg",
           "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
         },
-        "coordinates": {
-          "lat": "49.79391",
-          "lng": "9.95121"
-        }
+        "coordinates": { "lat": "49.79391", "lng": "9.95121" }
       }
     ],
     "lang": ["eng", "deu"],
@@ -233,18 +203,10 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -262,21 +224,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""

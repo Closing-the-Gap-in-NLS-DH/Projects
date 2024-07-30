@@ -12,12 +12,7 @@
     "abbr": "WSE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2022" }],
     "maintained": true,
     "websites": [
       "https://worldscriptsexplorer.page",
@@ -30,10 +25,7 @@
           "text": "Köln",
           "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
-        "coordinates": {
-          "lat": "50.93333",
-          "lng": "6.95"
-        }
+        "coordinates": { "lat": "50.93333", "lng": "6.95" }
       }
     ],
     "lang": [],
@@ -53,10 +45,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Simha, Vyshantha",
-          "ref": []
-        },
+        "pers_name": { "text": "Simha, Vyshantha", "ref": [] },
         "roles": ["software"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
@@ -77,10 +66,7 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": true,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
           {
@@ -121,12 +107,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["vre"],
     "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."

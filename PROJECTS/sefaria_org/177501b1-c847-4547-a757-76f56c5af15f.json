@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q33424604"],
-    "date": [
-      {
-        "from": "2011",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2011", "to": "" }],
     "maintained": true,
     "websites": ["https://www.sefaria.org/texts"],
     "project_desc": "Sefaria in a non-profit organization which assembles a free-living library of Jewish texts and their interconnections, in Hebrew and in translation. The texts are available in a digital form with interactive interfaces allowing more people to engage with textual treasures and tradition.",
@@ -27,10 +22,7 @@
           "text": "New York",
           "ref": ["https://www.geonames.org/5128638/new-york.html"]
         },
-        "coordinates": {
-          "lat": "43.00035",
-          "lng": "-75.4999"
-        }
+        "coordinates": { "lat": "43.00035", "lng": "-75.4999" }
       }
     ],
     "lang": ["eng", "heb"],
@@ -38,10 +30,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Septimus, Daniel",
-          "ref": []
-        },
+        "pers_name": { "text": "Septimus, Daniel", "ref": [] },
         "roles": ["supervision"],
         "websites": []
       }
@@ -49,14 +38,8 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -65,12 +48,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

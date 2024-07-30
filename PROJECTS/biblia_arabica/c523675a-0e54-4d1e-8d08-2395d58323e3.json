@@ -12,12 +12,7 @@
     "abbr": "Biblia Arabica",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2012",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2012", "to": "2018" }],
     "maintained": null,
     "websites": ["https://biblia-arabica.com/"],
     "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyzes different method of translation form the various source languages.",
@@ -27,30 +22,21 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Tel Aviv",
           "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
         },
-        "coordinates": {
-          "lat": "32.08088",
-          "lng": "34.78057"
-        }
+        "coordinates": { "lat": "32.08088", "lng": "34.78057" }
       },
       {
         "place_name": {
           "text": "Munich",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "lang": ["eng"],
@@ -111,14 +97,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -127,12 +107,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "religion_studies",

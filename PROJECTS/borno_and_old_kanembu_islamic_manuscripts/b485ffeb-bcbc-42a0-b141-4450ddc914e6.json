@@ -13,18 +13,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2005",
-        "to": "2007"
-      },
-      {
-        "from": "2009",
-        "to": "2011"
-      },
-      {
-        "from": "2012",
-        "to": "2015"
-      }
+      { "from": "2005", "to": "2007" },
+      { "from": "2009", "to": "2011" },
+      { "from": "2012", "to": "2015" }
     ],
     "maintained": false,
     "websites": ["https://digital.soas.ac.uk/okim/about/"],
@@ -35,20 +26,14 @@
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       },
       {
         "place_name": {
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -69,14 +54,8 @@
     "research_data": {
       "lang": ["kbl"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -85,12 +64,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "corpus_output",

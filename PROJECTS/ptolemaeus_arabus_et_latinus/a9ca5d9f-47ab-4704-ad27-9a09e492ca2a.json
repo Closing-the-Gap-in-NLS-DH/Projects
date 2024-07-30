@@ -12,12 +12,7 @@
     "abbr": "PAL",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2037"
-      }
-    ],
+    "date": [{ "from": "2013", "to": "2037" }],
     "maintained": true,
     "websites": [
       "https://ptolemaeus.badw.de/start",
@@ -30,20 +25,14 @@
           "text": "Munich",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       },
       {
         "place_name": {
           "text": "Würzburg",
           "ref": ["https://www.geonames.org/6556942/wuerzburg.html"]
         },
-        "coordinates": {
-          "lat": "49.79708",
-          "lng": "9.93365"
-        }
+        "coordinates": { "lat": "49.79708", "lng": "9.93365" }
       }
     ],
     "lang": ["eng"],
@@ -88,14 +77,8 @@
     "research_data": {
       "lang": ["ara", "lat"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -104,12 +87,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

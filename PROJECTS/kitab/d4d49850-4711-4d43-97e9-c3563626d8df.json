@@ -12,12 +12,7 @@
     "abbr": "KITAB",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": "2023"
-      }
-    ],
+    "date": [{ "from": "2018", "to": "2023" }],
     "maintained": true,
     "websites": ["https://kitab-project.org/"],
     "project_desc": "KITAB is a platform which enables exploration of Arabic texts in digital form. It also provides a digital toolbox and a forum for discussions about Arabic literature. The main research focus of the project lies in the question of how authors copied from previous works. The research is conducted on a corpus of texts created for the needs of the project and powered by technologies at the cutting edge of computer science. All documentation is openly accessible on GitHub.",
@@ -27,10 +22,7 @@
           "text": "London",
           "ref": ["https://www.geonames.org/2643743/london.html"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       }
     ],
     "lang": ["eng"],
@@ -71,10 +63,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
-        },
+        "pers_name": { "text": "Romanov, Maxim", "ref": [] },
         "roles": ["investigation"],
         "websites": [
           "https://www.aai.uni-hamburg.de/en/voror/personen/romanov.html"
@@ -84,14 +73,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -100,12 +83,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "arabic_studies",

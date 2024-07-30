@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [""],
-    "date": [
-      {
-        "from": "2018",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2018", "to": "" }],
     "maintained": null,
     "websites": [
       "https://tikkoun-sofrim.firebaseapp.com/en",
@@ -31,30 +26,21 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
+        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
       },
       {
         "place_name": {
           "text": "Haifa",
           "ref": ["https://www.geonames.org/294801/haifa.html"]
         },
-        "coordinates": {
-          "lat": "32.81841",
-          "lng": "34.9885"
-        }
+        "coordinates": { "lat": "32.81841", "lng": "34.9885" }
       },
       {
         "place_name": {
           "text": "Jerusalem",
           "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": {
-          "lat": "31.76904",
-          "lng": "35.21633"
-        }
+        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
       }
     ],
     "related_institutions": [
@@ -106,14 +92,8 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
