@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2019", "to": "2021" }],
     "maintained": null,
     "websites": [
       "https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
@@ -29,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu"],
@@ -62,10 +54,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "Lee, Martin",
-          "ref": []
-        },
+        "pers_name": { "text": "Lee, Martin", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.ub.hu-berlin.de/de/ueber-uns/kontakt/ansprechpartner/ansprechpartner-leitende-mitarbeiterinnen-und-mitarbeiter/"
@@ -75,14 +64,8 @@
     "research_data": {
       "lang": ["deu"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -91,12 +74,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": ""

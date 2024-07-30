@@ -12,12 +12,7 @@
     "abbr": "new nlp",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2022" }],
     "maintained": null,
     "websites": [
       "https://newnlp.princeton.edu/",
@@ -30,10 +25,7 @@
           "text": "Princeton",
           "ref": ["https://www.geonames.org/5102922/princeton.html"]
         },
-        "coordinates": {
-          "lat": "40.34872",
-          "lng": "-74.65905"
-        }
+        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
       }
     ],
     "related_institutions": [
@@ -53,10 +45,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Ermolaev, Natalia",
-          "ref": []
-        },
+        "pers_name": { "text": "Ermolaev, Natalia", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://cdh.princeton.edu/people/natasha-ermolaev/"]
       },
@@ -72,14 +61,8 @@
     "research_data": {
       "lang": ["ara", "efi", "eng", "kan", "que", "tir", "tur", "yid", "yor"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 100,
-        "licensing": ["MIT"]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 100, "licensing": ["MIT"] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],

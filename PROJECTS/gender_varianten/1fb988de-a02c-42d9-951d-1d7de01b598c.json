@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023",
-        "to": "2026"
-      }
-    ],
+    "date": [{ "from": "2023", "to": "2026" }],
     "maintained": true,
     "websites": [],
     "project_desc": "The project combines New Testament textual criticism, analyses of the reception of gender constructions, information science research, and systematic-ethical investigations. The central aim of the project is to analyze how digitally supported research can provide interdisciplinary gender studies with new opportunities for analyzing the transmission of texts and uncovering associated understandings of gender.",
@@ -27,30 +22,21 @@
           "text": "Wismar",
           "ref": ["https://www.geonames.org/2807465/wismar.html"]
         },
-        "coordinates": {
-          "lat": "53.89314",
-          "lng": "11.45286"
-        }
+        "coordinates": { "lat": "53.89314", "lng": "11.45286" }
       },
       {
         "place_name": {
           "text": "Rostock",
           "ref": ["https://www.geonames.org/2844588/rostock.html"]
         },
-        "coordinates": {
-          "lat": "54.0887",
-          "lng": "12.14049"
-        }
+        "coordinates": { "lat": "54.0887", "lng": "12.14049" }
       },
       {
         "place_name": {
           "text": "Darmstadt",
           "ref": ["https://www.geonames.org/2938913/darmstadt.html"]
         },
-        "coordinates": {
-          "lat": "49.87167",
-          "lng": "8.65027"
-        }
+        "coordinates": { "lat": "49.87167", "lng": "8.65027" }
       }
     ],
     "lang": ["deu", "grc", "eng"],
@@ -200,10 +186,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "Mense, Sebastian",
-          "ref": []
-        },
+        "pers_name": { "text": "Mense, Sebastian", "ref": [] },
         "roles": ["formal analysis", "investigation"],
         "websites": [
           "https://www.eh-darmstadt.de/hochschule/personenverzeichnis/mense/"
@@ -213,18 +196,10 @@
     "research_data": {
       "lang": ["deu", "eng", "grc"],
       "sustainability_plan": true,
-      "publications": {
-        "open_access": 100,
-        "licensing": ["CC BY 4.0"]
-      },
+      "publications": { "open_access": 100, "licensing": ["CC BY 4.0"] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "final",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "final", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -253,12 +228,7 @@
       "tools": [],
       "languages": ["python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "computational_text_analysis",
       "corpus_output",

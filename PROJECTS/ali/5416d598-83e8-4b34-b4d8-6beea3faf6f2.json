@@ -12,12 +12,7 @@
     "abbr": "ALI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": "2023"
-      }
-    ],
+    "date": [{ "from": "2015", "to": "2023" }],
     "maintained": true,
     "websites": ["http://iranatlas.net/index.html"],
     "project_desc": "The overall goal of the ALI research programme is to enable work toward a systematic understanding of the language situation in Iran. This initiative is guided by a set of interrelated themes which are: language distribution, linguistic and areal typology, language classification and language documentation. The output of the project can be found online in form of interactive maps and visualizations.",
@@ -27,40 +22,28 @@
           "text": "Ottawa",
           "ref": ["https://www.geonames.org/6094817/ottawa.html"]
         },
-        "coordinates": {
-          "lat": "45.41117",
-          "lng": "-75.69812"
-        }
+        "coordinates": { "lat": "45.41117", "lng": "-75.69812" }
       },
       {
         "place_name": {
           "text": "Shahr-e Kord",
           "ref": ["https://www.geonames.org/115770/shahr-e-kord.html"]
         },
-        "coordinates": {
-          "lat": "32.32612",
-          "lng": "50.8572"
-        }
+        "coordinates": { "lat": "32.32612", "lng": "50.8572" }
       },
       {
         "place_name": {
           "text": "Babmerg",
           "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
+        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
       },
       {
         "place_name": {
           "text": "Bonn",
           "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
-        "coordinates": {
-          "lat": "50.73438",
-          "lng": "7.09549"
-        }
+        "coordinates": { "lat": "50.73438", "lng": "7.09549" }
       }
     ],
     "lang": ["eng", "fas"],
@@ -127,18 +110,10 @@
     "research_data": {
       "lang": ["fas", "hac", "kur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -156,21 +131,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "geodata",
       "iranian_studies",

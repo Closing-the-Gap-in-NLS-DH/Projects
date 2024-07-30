@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013-01-11",
-        "to": "2014-10-31"
-      }
-    ],
+    "date": [{ "from": "2013-01-11", "to": "2014-10-31" }],
     "maintained": true,
     "websites": [
       "https://digitale-sammlungen.ulb.uni-bonn.de/topic/view/3085779",
@@ -30,10 +25,7 @@
           "text": "Bonn",
           "ref": ["https://www.geonames.org/2946447/bonn.html"]
         },
-        "coordinates": {
-          "lat": "50.73438",
-          "lng": "7.09549"
-        }
+        "coordinates": { "lat": "50.73438", "lng": "7.09549" }
       }
     ],
     "lang": ["eng", "deu", "fra"],
@@ -99,10 +91,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "El-Menshawy, Yasmin",
-          "ref": []
-        },
+        "pers_name": { "text": "El-Menshawy, Yasmin", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
@@ -112,18 +101,10 @@
     "research_data": {
       "lang": ["ara", "fas", "tur"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -141,21 +122,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "catalog",

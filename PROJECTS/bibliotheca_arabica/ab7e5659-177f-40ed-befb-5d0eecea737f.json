@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": "2035"
-      }
-    ],
+    "date": [{ "from": "2018", "to": "2035" }],
     "maintained": true,
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/bibliotheca-arabica",
@@ -30,10 +25,7 @@
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -80,10 +72,7 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": true,
-      "publications": {
-        "open_access": 100,
-        "licensing": []
-      },
+      "publications": { "open_access": 100, "licensing": [] },
       "data": {
         "datatypes": [
           {
@@ -98,12 +87,7 @@
             "licensing": [],
             "open_access": 50
           },
-          {
-            "label": "CSV",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 50
-          }
+          { "label": "CSV", "stage": "raw", "licensing": [], "open_access": 50 }
         ],
         "repositories": [
           {
@@ -136,12 +120,7 @@
       ],
       "languages": ["JRuby", "Python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "catalog",

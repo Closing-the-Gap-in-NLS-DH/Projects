@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2015", "to": "2018" }],
     "maintained": null,
     "websites": [
       "https://paleocoran.de/index",
@@ -30,20 +25,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
+        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -85,10 +74,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Marx, Michael",
-          "ref": []
-        },
+        "pers_name": { "text": "Marx, Michael", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
@@ -98,14 +84,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -114,12 +94,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

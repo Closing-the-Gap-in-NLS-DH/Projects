@@ -12,12 +12,7 @@
     "abbr": "TUNICO",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013-08-01",
-        "to": "2016-12-31"
-      }
-    ],
+    "date": [{ "from": "2013-08-01", "to": "2016-12-31" }],
     "maintained": null,
     "websites": [
       "https://tunico.acdh.oeaw.ac.at/project.html",
@@ -30,10 +25,7 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": ["eng"],
@@ -97,14 +89,8 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -113,12 +99,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "arabic_studies",

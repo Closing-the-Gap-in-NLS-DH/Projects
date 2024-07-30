@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020-2",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020-2", "to": "" }],
     "maintained": null,
     "websites": [
       "https://hannah-arendt-edition.net/home",
@@ -30,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -63,10 +55,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "Grote, Brigitte",
-          "ref": []
-        },
+        "pers_name": { "text": "Grote, Brigitte", "ref": [] },
         "roles": ["investigation"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
@@ -76,14 +65,8 @@
     "research_data": {
       "lang": ["deu", "eng", "fra", "yid"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -92,12 +75,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

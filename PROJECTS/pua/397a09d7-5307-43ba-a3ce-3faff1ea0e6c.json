@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2006",
-        "to": "2008"
-      },
-      {
-        "from": "2010",
-        "to": "2014"
-      }
+      { "from": "2006", "to": "2008" },
+      { "from": "2010", "to": "2014" }
     ],
     "maintained": true,
     "websites": ["https://www.eea.csic.es/pua/"],
@@ -31,10 +25,7 @@
           "text": "Granada",
           "ref": ["https://www.geonames.org/2517117/granada.html"]
         },
-        "coordinates": {
-          "lat": "37.18817",
-          "lng": "-3.60667"
-        }
+        "coordinates": { "lat": "37.18817", "lng": "-3.60667" }
       }
     ],
     "lang": ["eng", "spa"],
@@ -77,18 +68,10 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -106,21 +89,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "islamic_studies",

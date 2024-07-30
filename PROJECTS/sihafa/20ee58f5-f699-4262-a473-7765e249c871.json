@@ -12,12 +12,7 @@
     "abbr": "SIHAFA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023-09-01",
-        "to": "2025-08-31"
-      }
-    ],
+    "date": [{ "from": "2023-09-01", "to": "2025-08-31" }],
     "maintained": true,
     "websites": [
       "https://cordis.europa.eu/project/id/101061500",
@@ -30,10 +25,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -134,10 +126,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Grallert, Till",
-          "ref": []
-        },
+        "pers_name": { "text": "Grallert, Till", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://openarabicpe.github.io/"]
       }
@@ -145,18 +134,10 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -174,21 +155,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

@@ -12,12 +12,7 @@
     "abbr": "RPPA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2025"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2025" }],
     "maintained": true,
     "websites": ["https://www.romanticperiodpoetry.org/"],
     "project_desc": "The Romantic Period Poetry Archive, or RPPA for short, is an open access digital platform of global Romantic-period poetry. It comprises a full-text poetry database and an open scholarship platform. Over 600 poets from 70 countries will be included in the database by the end of the alpha phase of the project (2020-2025).",
@@ -27,10 +22,7 @@
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
+        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
       }
     ],
     "related_institutions": [],
@@ -38,10 +30,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Huber, Alexander",
-          "ref": []
-        },
+        "pers_name": { "text": "Huber, Alexander", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://c18ah.hcommons.org/"]
       }
@@ -49,14 +38,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -65,12 +48,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

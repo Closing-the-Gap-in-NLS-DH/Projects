@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2005",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2005", "to": "" }],
     "maintained": null,
     "websites": [
       "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher"
@@ -29,10 +24,7 @@
           "text": "Mainz",
           "ref": ["https://www.geonames.org/2874224/mainz.html"]
         },
-        "coordinates": {
-          "lat": "50.00133",
-          "lng": "8.25865"
-        }
+        "coordinates": { "lat": "50.00133", "lng": "8.25865" }
       }
     ],
     "lang": ["deu"],
@@ -52,10 +44,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Schmidt, Uwe",
-          "ref": []
-        },
+        "pers_name": { "text": "Schmidt, Uwe", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
@@ -73,14 +62,8 @@
     "research_data": {
       "lang": ["deu"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -89,12 +72,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": ""

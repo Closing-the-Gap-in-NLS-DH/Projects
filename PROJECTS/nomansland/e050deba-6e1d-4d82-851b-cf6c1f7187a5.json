@@ -12,12 +12,7 @@
     "abbr": "NoMansLand",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020-01-01",
-        "to": "2022-12-31"
-      }
-    ],
+    "date": [{ "from": "2020-01-01", "to": "2022-12-31" }],
     "maintained": null,
     "websites": [
       "https://www.oeaw.ac.at/iran/nomansland/",
@@ -31,10 +26,7 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -98,14 +90,8 @@
     "research_data": {
       "lang": ["ara", "fas"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -114,12 +100,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

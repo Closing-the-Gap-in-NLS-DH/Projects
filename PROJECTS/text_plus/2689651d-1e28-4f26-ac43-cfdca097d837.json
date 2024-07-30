@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "organization",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2026"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2026" }],
     "maintained": true,
     "websites": ["https://www.text-plus.org/"],
     "project_desc": "Text+ is a consortium with the objective to establish a national research data infrastructure. It will preserve text- and language-based research data in the long term and enable their broad use in science.",
@@ -27,60 +22,42 @@
           "text": "Mannheim",
           "ref": ["https://www.geonames.org/2873891/mannheim.html"]
         },
-        "coordinates": {
-          "lat": "49.4891",
-          "lng": "8.46694"
-        }
+        "coordinates": { "lat": "49.4891", "lng": "8.46694" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Frankfurt am Main",
           "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
-        "coordinates": {
-          "lat": "50.11552",
-          "lng": "8.68417"
-        }
+        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
       },
       {
         "place_name": {
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       },
       {
         "place_name": {
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       },
       {
         "place_name": {
           "text": "Düsseldorf",
           "ref": ["https://www.wikidata.org/wiki/Q320642"]
         },
-        "coordinates": {
-          "lat": "36.61393",
-          "lng": "29.23698"
-        }
+        "coordinates": { "lat": "36.61393", "lng": "29.23698" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -162,14 +139,8 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": ["sql", "xml", "json", "nosql"],
@@ -178,12 +149,7 @@
       "tools": [],
       "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
