@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://clsinfra.io/"
-    ],
+    "websites": ["https://clsinfra.io/"],
     "project_desc": "This project is a partnership of various European research institutions to build a shared resource of high-quality data, tools and knowledge to aid new approaches to studying literature in the digital age. It aims to create an infrastructure which will align the diverse resources of Europe’s multilingual and interconnected literary heritage with each other, with the tools needed to interrogate them, and with a widened base of users.",
     "places": [
       {
         "place_name": {
           "text": "Krakow",
-          "ref": [
-            "https://www.geonames.org/3094802/krakow.html"
-          ]
+          "ref": ["https://www.geonames.org/3094802/krakow.html"]
         },
         "coordinates": {
           "lat": "50.06143",
@@ -39,9 +35,7 @@
       {
         "place_name": {
           "text": "Potsdam",
-          "ref": [
-            "https://www.geonames.org/2852458/potsdam.html"
-          ]
+          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
         "coordinates": {
           "lat": "52.39886",
@@ -51,9 +45,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -63,9 +55,7 @@
       {
         "place_name": {
           "text": "Madrid",
-          "ref": [
-            "https://www.geonames.org/3117735/madrid.html"
-          ]
+          "ref": ["https://www.geonames.org/3117735/madrid.html"]
         },
         "coordinates": {
           "lat": "40.4165",
@@ -75,9 +65,7 @@
       {
         "place_name": {
           "text": "Lyon",
-          "ref": [
-            "https://www.geonames.org/2996944/lyon.html"
-          ]
+          "ref": ["https://www.geonames.org/2996944/lyon.html"]
         },
         "coordinates": {
           "lat": "45.74846",
@@ -87,9 +75,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -99,9 +85,7 @@
       {
         "place_name": {
           "text": "Prague",
-          "ref": [
-            "https://www.geonames.org/3067696/prague.html"
-          ]
+          "ref": ["https://www.geonames.org/3067696/prague.html"]
         },
         "coordinates": {
           "lat": "50.08804",
@@ -111,9 +95,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -123,9 +105,7 @@
       {
         "place_name": {
           "text": "Gent",
-          "ref": [
-            "https://www.geonames.org/2797656/gent.html"
-          ]
+          "ref": ["https://www.geonames.org/2797656/gent.html"]
         },
         "coordinates": {
           "lat": "51.05",
@@ -135,9 +115,7 @@
       {
         "place_name": {
           "text": "Belgrade",
-          "ref": [
-            "https://www.geonames.org/792680/belgrade.html"
-          ]
+          "ref": ["https://www.geonames.org/792680/belgrade.html"]
         },
         "coordinates": {
           "lat": "44.80401",
@@ -147,9 +125,7 @@
       {
         "place_name": {
           "text": "Amsterdam",
-          "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
-          ]
+          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
         },
         "coordinates": {
           "lat": "52.37403",
@@ -159,9 +135,7 @@
       {
         "place_name": {
           "text": "Trier",
-          "ref": [
-            "https://www.geonames.org/2821164/trier.html"
-          ]
+          "ref": ["https://www.geonames.org/2821164/trier.html"]
         },
         "coordinates": {
           "lat": "49.75565",
@@ -171,9 +145,7 @@
       {
         "place_name": {
           "text": "Gaillimh",
-          "ref": [
-            "https://www.geonames.org/2964180/gaillimh.html"
-          ]
+          "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
         },
         "coordinates": {
           "lat": "53.27245",
@@ -181,9 +153,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -194,9 +164,7 @@
             "https://www.wikidata.org/wiki/Q941016"
           ]
         },
-        "websites": [
-          "https://ijp.pan.pl/"
-        ]
+        "websites": ["https://ijp.pan.pl/"]
       },
       {
         "relation_type": "host",
@@ -207,9 +175,7 @@
             "https://ror.org/03bnmw459"
           ]
         },
-        "websites": [
-          "https://www.uni-potsdam.de/en/university-of-potsdam/"
-        ]
+        "websites": ["https://www.uni-potsdam.de/en/university-of-potsdam/"]
       },
       {
         "relation_type": "host",
@@ -220,9 +186,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "host",
@@ -233,9 +197,7 @@
             "https://ror.org/02msb5n36"
           ]
         },
-        "websites": [
-          "https://www.uned.es/universidad/inicio.html"
-        ]
+        "websites": ["https://www.uned.es/universidad/inicio.html"]
       },
       {
         "relation_type": "host",
@@ -246,9 +208,7 @@
             "https://www.wikidata.org/wiki/Q10159"
           ]
         },
-        "websites": [
-          "https://www.ens-lyon.fr/"
-        ]
+        "websites": ["https://www.ens-lyon.fr/"]
       },
       {
         "relation_type": "host",
@@ -259,9 +219,7 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": [
-          "https://www.hu-berlin.de/en"
-        ]
+        "websites": ["https://www.hu-berlin.de/en"]
       },
       {
         "relation_type": "host",
@@ -272,9 +230,7 @@
             "https://ror.org/024d6js02"
           ]
         },
-        "websites": [
-          "https://cuni.cz/UKEN-1.html"
-        ]
+        "websites": ["https://cuni.cz/UKEN-1.html"]
       },
       {
         "relation_type": "host",
@@ -285,9 +241,7 @@
             "https://ror.org/00cv9y106"
           ]
         },
-        "websites": [
-          "https://www.ugent.be/en"
-        ]
+        "websites": ["https://www.ugent.be/en"]
       },
       {
         "relation_type": "host",
@@ -310,9 +264,7 @@
             "https://www.wikidata.org/wiki/Q253439"
           ]
         },
-        "websites": [
-          "https://www.knaw.nl/nl"
-        ]
+        "websites": ["https://www.knaw.nl/nl"]
       },
       {
         "relation_type": "host",
@@ -323,9 +275,7 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": [
-          "https://www.uni-trier.de/"
-        ]
+        "websites": ["https://www.uni-trier.de/"]
       },
       {
         "relation_type": "host",
@@ -336,9 +286,7 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": [
-          "https://www.nuigalway.ie/"
-        ]
+        "websites": ["https://www.nuigalway.ie/"]
       }
     ],
     "related_entities": [
@@ -352,13 +300,9 @@
       {
         "pers_name": {
           "text": "Eder, Maciej",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://maciejeder.org/",
           "https://ijp.pan.pl/en/pracownicy/maciej-eder/"
@@ -370,9 +314,7 @@
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -380,24 +322,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {
@@ -405,10 +334,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

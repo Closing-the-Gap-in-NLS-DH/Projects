@@ -11,7 +11,7 @@
   - The updated budget has been sent to BUA.
   - Early next week, Theo will update the Steckbrief.
   - We should update the document with project outputs regularly to ensure we don't miss anything, even though it is not directly required right now. Last time, we might have omitted some of our outputs, so regular updates will ensure that the document is complete when required for the next funding phase. It's also useful for our internal records.
-  
+
 - Website
 
   - Our project was evaluated very positively by the Open Methods Colloquium, an internal rating for tools and projects by DARIAH, explicitly mentioning it as an example of good academic practice. We will add this to our website, the Steckbrief, and the output list.
@@ -53,7 +53,7 @@
 - SHK
 
   - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating
-  email lists, adding project details, or learning programming).
+    email lists, adding project details, or learning programming).
 
 - Post Doc Position
 

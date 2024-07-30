@@ -11,9 +11,7 @@
     "title": "Cuneiform Digital Library Initiative",
     "abbr": "CDLI",
     "type": "project",
-    "ref": [
-      "https://viaf.org/viaf/146927082/"
-    ],
+    "ref": ["https://viaf.org/viaf/146927082/"],
     "date": [
       {
         "from": "2000",
@@ -33,17 +31,13 @@
       }
     ],
     "maintained": null,
-    "websites": [
-      "https://cdli.ucla.edu/"
-    ],
+    "websites": ["https://cdli.ucla.edu/"],
     "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
     "places": [
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
-          ]
+          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -53,9 +47,7 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -65,9 +57,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -75,9 +65,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -88,9 +76,7 @@
             "https://www.wikidata.org/wiki/Q174710"
           ]
         },
-        "websites": [
-          "https://www.ucla.edu/"
-        ]
+        "websites": ["https://www.ucla.edu/"]
       },
       {
         "relation_type": "host",
@@ -101,9 +87,7 @@
             "https://ror.org/052gg0110"
           ]
         },
-        "websites": [
-          "https://www.ox.ac.uk/"
-        ]
+        "websites": ["https://www.ox.ac.uk/"]
       },
       {
         "relation_type": "host",
@@ -114,9 +98,7 @@
             "https://www.wikidata.org/wiki/Q318118"
           ]
         },
-        "websites": [
-          "https://www.mpiwg-berlin.mpg.de/de"
-        ]
+        "websites": ["https://www.mpiwg-berlin.mpg.de/de"]
       }
     ],
     "related_entities": [
@@ -165,29 +147,18 @@
       {
         "pers_name": {
           "text": "Renn, Jürgen",
-          "ref": [
-            "https://d-nb.info/gnd/121180719"
-          ]
+          "ref": ["https://d-nb.info/gnd/121180719"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.mpiwg-berlin.mpg.de/users/renn"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.mpiwg-berlin.mpg.de/users/renn"]
       }
     ],
     "research_data": {
-      "lang": [
-        "akk",
-        "sux"
-      ],
+      "lang": ["akk", "sux"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -195,24 +166,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {

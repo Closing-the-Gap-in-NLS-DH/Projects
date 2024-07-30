@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -41,9 +39,7 @@
       {
         "place_name": {
           "text": "Salzburg",
-          "ref": [
-            "https://www.geonames.org/2766823/salzburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2766823/salzburg.html"]
         },
         "coordinates": {
           "lat": "47.41667",
@@ -53,9 +49,7 @@
       {
         "place_name": {
           "text": "Graz",
-          "ref": [
-            "https://www.geonames.org/2778067/graz.html"
-          ]
+          "ref": ["https://www.geonames.org/2778067/graz.html"]
         },
         "coordinates": {
           "lat": "47.06667",
@@ -63,10 +57,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -90,9 +81,7 @@
             "https://ror.org/02n0bts35"
           ]
         },
-        "websites": [
-          "https://www.uni-graz.at/de/"
-        ]
+        "websites": ["https://www.uni-graz.at/de/"]
       },
       {
         "relation_type": "host",
@@ -103,9 +92,7 @@
             "https://www.wikidata.org/wiki/Q27265"
           ]
         },
-        "websites": [
-          "https://www.plus.ac.at/"
-        ]
+        "websites": ["https://www.plus.ac.at/"]
       }
     ],
     "related_entities": [
@@ -124,29 +111,18 @@
       {
         "pers_name": {
           "text": "Strohmeyer, Arno",
-          "ref": [
-            "https://d-nb.info/gnd/115840060"
-          ]
+          "ref": ["https://d-nb.info/gnd/115840060"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.oeaw.ac.at/ihb/personen/strohmeyer-arno"]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu",
-        "tur"
-      ],
+      "lang": ["deu", "tur"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -154,24 +130,11 @@
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
     "policies": [
       {

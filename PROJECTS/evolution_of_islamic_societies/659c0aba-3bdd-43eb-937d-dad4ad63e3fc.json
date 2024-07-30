@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -38,9 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -154,18 +148,14 @@
           "text": "Romanov, Maxim",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
@@ -199,31 +189,23 @@
     },
     "stack": {
       "database": [],
-      "backend": [
-        "Python"
-      ],
+      "backend": ["Python"],
       "frontend": [],
       "tools": [
         {
           "label": "AraBERT",
           "self_developed": false,
-          "ref": [
-            "https://github.com/CAMeL-Lab/camel_tools"
-          ],
+          "ref": ["https://github.com/CAMeL-Lab/camel_tools"],
           "description": ""
         },
         {
           "label": "CAMeL Tools",
           "self_developed": false,
-          "ref": [
-            "https://github.com/CAMeL-Lab/camel_tools"
-          ],
+          "ref": ["https://github.com/CAMeL-Lab/camel_tools"],
           "description": ""
         }
       ],
-      "languages": [
-        "Python"
-      ]
+      "languages": ["Python"]
     },
     "policies": [
       {

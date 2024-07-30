@@ -19,17 +19,13 @@
       }
     ],
     "maintained": null,
-    "websites": [
-      "https://openarabicpe.github.io/"
-    ],
+    "websites": ["https://openarabicpe.github.io/"],
     "project_desc": "Corpus of TEI/XML editions of Arabic periodicals, a static webview, and a framework of workflows for digital scholarly editions following the principles of minimal computing to address the affordances of the digital for cultural artefacts from the Global South",
     "places": [
       {
         "place_name": {
           "text": "Beirut",
-          "ref": [
-            "https://www.geonames.org/276781/beirut.html"
-          ]
+          "ref": ["https://www.geonames.org/276781/beirut.html"]
         },
         "coordinates": {
           "lat": "33.89332",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -57,18 +51,12 @@
           "text": "Grallert, Till",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://openarabicpe.github.io/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://openarabicpe.github.io/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
       "publications": {
         "open_access": 0,
