@@ -35,13 +35,13 @@
 
 - Blog
 
-  - We will have three blog posts by December: two from external contributors who have committed to contributing, and one from Xenia.
+  - We will have three blog posts by December: two from external contributors, and one from Xenia.
 
 - Tools
 
   - How can we visualize the results of the interviews? We already have a list of 20 tools used by the interviewed projects. Some interviewees have expressed interest in seeing an overview of technologies used by others.
   - Idea 1: We could create a sub-database just for the tools and present it in a new tab on our website.
-  - Idea 2: A separate database is not a good idea; it is very difficult to maintain since tools are constantly being replaced or becoming outdated (Quinn Dombrowski wrote an article about this issue). We need to think of a model that will be sustainable even after the project is completed. There are already plenty of tool directories available (example here).
+  - Idea 2: A separate database is not a good idea; it is very difficult to maintain since tools are constantly being replaced or becoming outdated ([Quinn Dombrowski wrote an article about this issue](https://quinndombrowski.com/projects/bamboo-dirt/)). We need to think of a model that will be sustainable even after the project is completed. There are already plenty of tool directories available ([example here](https://www.vezveze-kandu.de/)).
   - Idea 3: Since we already have information about the tools in our schema, we could easily create a separate view to display them without creating a sub-database. We should also clearly state that we are just displaying tools used by the projects, without the intention of creating and maintaining a directory.
   - Idea 4: If we decide to create a directory, we should initiate cooperation with the HU initiative that archives tools in WikiData to cross-reference our findings.
 
