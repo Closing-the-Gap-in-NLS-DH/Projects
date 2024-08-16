@@ -1,5 +1,62 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2024-08-05
+
+**Time**: 11:30 - 12:30 (Berlin)
+
+**Participants** (alphabetical): Alieva, Aibaniz, Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+
+- SHK
+
+  - Our first student assistant, Aibaniz, has joined the team.
+  - The main tasks of the student assistants will be to work on the backlog of projects and to extend our database.
+
+- PostDoc
+
+  - The position for Theo’s replacement is ready. Once it is approved by the responsible units, it will be published immediately.
+
+- Xenia’s Workshop
+
+  - The DH workshop for students should take place in late November or early December. To enable other interested team members to participate, it should be scheduled either before or after the following events:
+    - 02-04.12: Anthologies across Literary Cultures
+    - 05-06.12: Temporal Communities International Conference: Visualising Universalisms
+
+- Interviews
+
+  - We should send a reminder to all the projects that haven’t responded, or write directly to the PIs. This will also help convey the seriousness of our research.
+
+- BUA Reporting
+
+  - We have completed all our reporting documents and received very positive feedback from BUA for our precise and detailed work.
+
+- Website
+
+  - The website is fully set up, and the events calendar has been updated.
+
+- Blog
+
+  - We will have three blog posts by December: two from external contributors, and one from Xenia.
+
+- Tools
+
+  - How can we visualize the results of the interviews? We already have a list of 20 tools used by the interviewed projects. Some interviewees have expressed interest in seeing an overview of technologies used by others.
+  - Idea 1: We could create a sub-database just for the tools and present it in a new tab on our website.
+  - Idea 2: A separate database is not a good idea; it is very difficult to maintain since tools are constantly being replaced or becoming outdated ([Quinn Dombrowski wrote an article about this issue](https://quinndombrowski.com/projects/bamboo-dirt/)). We need to think of a model that will be sustainable even after the project is completed. There are already plenty of tool directories available ([example here](https://www.vezveze-kandu.de/)).
+  - Idea 3: Since we already have information about the tools in our schema, we could easily create a separate view to display them without creating a sub-database. We should also clearly state that we are just displaying tools used by the projects, without the intention of creating and maintaining a directory.
+  - Idea 4: If we decide to create a directory, we should initiate cooperation with the HU initiative that archives tools in WikiData to cross-reference our findings.
+
+- Cooperation Initiatives
+
+  - We will invite two external parties to our team meeting to  initiate cooperation:
+    - The management of the HU Library
+    - Fachinformationsdienst Nahost
+
+- Next meeting: 23.08 at 10:30 
+
+
+
+
+
 ##2024-07-19
 
 **Time**: 10:30 - 12:00 (Berlin)
