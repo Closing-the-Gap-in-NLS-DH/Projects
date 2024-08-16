@@ -47,15 +47,11 @@
 
 - Cooperation Initiatives
 
-  - We will invite two external parties to our team meeting to  initiate cooperation:
+  - We will invite two external parties to our team meeting to initiate cooperation:
     - The management of the HU Library
     - Fachinformationsdienst Nahost
 
-- Next meeting: 23.08 at 10:30 
-
-
-
-
+- Next meeting: 23.08 at 10:30
 
 ##2024-07-19
 
