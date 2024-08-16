@@ -451,9 +451,9 @@
 						anchor: ['top', 'bottom', 'left', 'right']
 					},
 					{
-						type: "formula",
-						expr: "((datum.a0 + datum.a1) / 2) > PI",
-						as: "leftside"
+						type: 'formula',
+						expr: '((datum.a0 + datum.a1) / 2) > PI',
+						as: 'leftside'
 					}
 				]
 			}
@@ -523,7 +523,7 @@
 								text: { field: 'name' },
 								fill: { value: 'white' },
 								baseline: { value: 'middle' },
-								fontSize: { signal: 'datum.layer === 3 ? 9 : 15' },								
+								fontSize: { signal: 'datum.layer === 3 ? 9 : 15' },
 								limit: { signal: 'datum.layer === 3 ? 80 : 110' },
 								href: { field: 'url' },
 								tooltip: {
@@ -533,7 +533,7 @@
 							update: {
 								x: { signal: 'width / 2' },
 								y: { signal: 'height / 2' },
-								dx: { signal: "datum.layer == 3 ? -37: (datum.leftside ? 80 : -80 )" },
+								dx: { signal: 'datum.layer == 3 ? -37: (datum.leftside ? 80 : -80 )' },
 								align: { signal: "datum.layer == 2 && datum.leftside ? 'right' : 'left'" },
 								radius: { signal: '(datum.r0 == 0 ? 0 : datum.r0 + datum.r1) / 2' },
 								theta: { signal: '(datum.a0 + datum.a1) / 2' },
