@@ -299,6 +299,10 @@
     "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
     "path": "/PROJECTS/grasping_the_world_in_ottoman_istanbul/"
   },
+  "74b74185-081c-40f7-86da-52bdf9f53105": {
+    "title": "Gumar Corpus",
+    "path": "/PROJECTS/gumar/"
+  },
   "d0a1971a-e11b-442f-ab1a-6d8d421422c5": {
     "title": "Handschriftenportal",
     "path": "/PROJECTS/handschriftenportal/"
@@ -407,6 +411,10 @@
     "title": "Machine Translation and Automated Analysis of Cuneiform Language",
     "path": "/PROJECTS/mtaac/"
   },
+  "693b7383-6f97-46a6-9023-6aae878c25e7": {
+  "title": "Multi-Arabic Dialect Applications and Resources",
+  "path": "/PROJECTS/madar/"
+},
   "b37c6bd1-90d3-4718-ab58-fb1d60873186": {
     "title": "Multilingual Corpus of Annotated Spoken Texts",
     "path": "/PROJECTS/multi_cast/"
@@ -562,6 +570,10 @@
   "20ee58f5-f699-4262-a473-7765e249c871": {
     "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
     "path": "/PROJECTS/sihafa/"
+  },
+  "dfb3ca8b-20cb-484a-bd3c-d84821ca97af": {
+    "title": "Simplification of Arabic Masterpieces for Extensive Reading",
+    "path": "/PROJECTS/samer/"
   },
   "880f1d65-b815-4474-9fb4-b17f13bd3765": {
     "title": "Streamlining Galen",
