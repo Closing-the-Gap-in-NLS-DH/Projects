@@ -12,7 +12,7 @@
     "abbr": "",
     "type": "project", 
     "ref": [],
-    "date": [{ "from": "2018" }],
+    "date": [{ "from": "2018", "to": "" }],
     "maintained": true,
     "websites": ["https://camel.abudhabi.nyu.edu/gumar/"],
     "project_desc": "The aim of the GUMAR project is to automatically annotate a 100M-word Gulf Arabic corpus and develop gold standard data annotations for 200,000 words from eight novels, improving tools for Gulf Arabic automatic analysis.",

@@ -23,10 +23,7 @@
             "https://sites.google.com/nyu.edu/madar/"
         ],
         "project_desc": [
-            "The project aimed at improving dialectal Arabic processing by:",
-            "  - Developing resources for Arabic Dialect modeling, including the creation of a 25-city multi-dialect lexicon and a 25-city multi-dialect parallel corpus;",
-            "  - Developing machine translation systems among dialects, dialects and English, dialects and Standard Arabic;",
-            "  - Developing dialect identification systems that can work on a variety of granularity levels."
+            "The project aimed at improving dialectal Arabic processing by developing resources for Arabic dialect modeling, including a 25-city multi-dialect lexicon and parallel corpus, as well as creating machine translation systems between dialects, English, and Standard Arabic, and advancing dialect identification systems capable of operating at different levels of granularity."
         ],
         "places": [
             {
@@ -37,8 +34,8 @@
                     ]
                 },
                 "coordinates": {
-                    "lat": "24.736770149999998",
-                    "lng": "81.44660220014936"
+                    "lat": "24.73677",
+                    "lng": "81.44660"
                 }
             },
             {
@@ -110,7 +107,7 @@
                 ]
             },
             {
-                "relation_type": "collaboration",
+                "relation_type": "coopearation",
                 "org_name": {
                     "text": "University of Bahrain",
                     "ref": [
