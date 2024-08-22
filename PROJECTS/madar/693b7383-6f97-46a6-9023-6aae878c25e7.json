@@ -1,0 +1,214 @@
+{
+    "schema_version": "0.2.4",
+    "record_metadata": {
+        "uuid": "693b7383-6f97-46a6-9023-6aae878c25e7",
+        "record_created_on": "2024-08-20",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Multi-Arabic Dialect Applications and Resources",
+        "abbr": "MADAR",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2016-02",
+                "to": "2019-01"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://sites.google.com/nyu.edu/madar/"
+        ],
+        "project_desc": 
+            "The project aimed at improving dialectal Arabic processing by developing resources for Arabic dialect modeling, including a 25-city multi-dialect lexicon and parallel corpus, as well as creating machine translation systems between dialects, English, and Standard Arabic, and advancing dialect identification systems capable of operating at different levels of granularity.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Doha",
+                    "ref": [
+                        "https://www.geonames.org/290030/doha.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "24.73677",
+                    "lng": "81.44660"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Abu Dabi",
+                    "ref": [
+                        "https://www.geonames.org/292968/abu-dhabi.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "0",
+                    "lng": "0"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "New York",
+                    "ref": [
+                        "https://www.geonames.org/5128581/new-york-city.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "0",
+                    "lng": "0"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Carnegie Mellon University Qatar",
+                    "ref": [
+                        "https://ror.org/00az5dt38",
+                        "https://www.wikidata.org/wiki/Q890704"
+                    ]
+                },
+                "websites": [
+                    "https://www.qatar.cmu.edu"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "New York University Abu Dhabi",
+                    "ref": [
+                        "https://ror.org/00e5k0821",
+                        "https://www.wikidata.org/wiki/Q566189"
+                    ]
+                },
+                "websites": [
+                    "https://nyuad.nyu.edu/en/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Columbia University",
+                    "ref": [
+                        "https://ror.org/00hj8s172",
+                        "https://www.wikidata.org/wiki/Q49088"
+                    ]
+                },
+                "websites": [
+                    "https://www.columbia.edu"
+                ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "University of Bahrain",
+                    "ref": [
+                        "https://ror.org/0317ekv86",
+                        "https://www.wikidata.org/wiki/Q1707779"
+                    ]
+                },
+                "websites": [
+                    "https://www.uob.edu.bh"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "contacts": [
+            {
+                "pers_name": {
+                    "text": "Habash, Nizar",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q93953901"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.nizarhabash.com"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "Oflazer, Kemal",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q102215353"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://sites.google.com/andrew.cmu.edu/kemal-oflazer/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "corpus_output",
+            "dialectology",
+            "lexicon",
+            "nlp",
+            "translation",
+            "translation_studies"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
+}
