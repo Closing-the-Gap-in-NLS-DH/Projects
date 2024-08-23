@@ -1,5 +1,33 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2024-08-23
+
+**Time**: 10:30 - 12:00 (Berlin)
+
+**Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy 
+
+- Team
+
+  - Joudy has joined the project.
+  - We are still waiting for the new Postdoc. The position description is still in the approval process and will be published soon.
+
+- Tool´s list
+
+  -  We will start a collaboration with the Scholarly Makerspace at the HU. They have a sustainable WikiData toolbox that could be linked to our list of tools. There are three cooperation scenarios:
+      -  We both use the same tool and display a combination of our data and theirs.
+      - We enrich their toolbox with our tools and receive an authority file in return.
+      - We enrich our list with relevant tools from their database (to be discussed; the first two solutions are priorities).
+
+  Data exchange should be done with SPARQL, which would be a good programming exercise for the SHKs. Next steps: contact the Scholarly Makerspace via email and visit their workshop.
+
+- Emails
+  - The emails to the contacts of the projects existing in our database need to be gathered manually. The process of sending them automatically can be done with Python.
+
+- Blog
+  -  We have three upcoming posts for August/September (external contributor), October (Xenia), and December (external contributor). 
+  - Xenia, Joudy, and Aibaniz will also co-author a post about the upcoming Dariah workshop.
+  
+
 ##2024-08-05
 
 **Time**: 11:30 - 12:30 (Berlin)
