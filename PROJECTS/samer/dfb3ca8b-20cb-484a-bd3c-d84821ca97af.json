@@ -12,12 +12,7 @@
     "abbr": "SAMER",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2018" }],
     "maintained": true,
     "websites": ["http://samer.camel-lab.com/"],
     "project_desc": "The aim of the SAMER project is to create standards and tools for simplifying modern Arabic fiction for school-age learners, including a readability scale, a curated readability list, a 36k-word thesaurus, and a simplification platform for Google Docs.",
@@ -27,10 +22,7 @@
           "text": "Abu Dabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": {
-          "lat": "0",
-          "lng": "0"
-        }
+        "coordinates": { "lat": "0", "lng": "0" }
       }
     ],
     "lang": [],
@@ -50,10 +42,7 @@
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Muhamed Al Khalil",
-          "ref": []
-        },
+        "pers_name": { "text": "Muhamed Al Khalil", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/muhamed-osman-al-khalil.html"
@@ -71,18 +60,10 @@
     "research_data": {
       "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -100,21 +81,11 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "description": ""
-        }
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",
