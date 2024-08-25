@@ -10,7 +10,7 @@
   "project": {
     "title": "Gumar Corpus",
     "abbr": "",
-    "type": "project", 
+    "type": "project",
     "ref": [],
     "date": [{ "from": "2018", "to": "" }],
     "maintained": true,
@@ -18,8 +18,10 @@
     "project_desc": "The aim of the GUMAR project is to automatically annotate a 100M-word Gulf Arabic corpus and develop gold standard data annotations for 200,000 words from eight novels, improving tools for Gulf Arabic automatic analysis.",
     "places": [
       {
-        "place_name": { "text": "Abu Dabi", 
-        "ref": ["https://www.geonames.org/292968/abu-dhabi.html"] },
+        "place_name": {
+          "text": "Abu Dabi",
+          "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
+        },
         "coordinates": { "lat": "0", "lng": "0" }
       }
     ],
@@ -27,21 +29,23 @@
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": { 
-          "text": "New York University Abu Dhabi", 
+        "org_name": {
+          "text": "New York University Abu Dhabi",
           "ref": [
             "https://ror.org/00e5k0821",
             "https://www.wikidata.org/wiki/Q566189"
-          ] },
+          ]
+        },
         "websites": ["https://nyuad.nyu.edu/en/"]
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { 
-         "text": "Habash, Nizar", 
-          "ref": ["https://www.wikidata.org/wiki/Q93953901"] },
+        "pers_name": {
+          "text": "Habash, Nizar",
+          "ref": ["https://www.wikidata.org/wiki/Q93953901"]
+        },
         "roles": ["supervision"],
         "websites": ["https://www.nizarhabash.com"]
       }
@@ -81,7 +85,7 @@
       "corpus_output",
       "dialectology",
       "nlp"
-   ],
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }
