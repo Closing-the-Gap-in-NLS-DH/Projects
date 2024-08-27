@@ -108,7 +108,6 @@
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
-      "computational_text_analysis",
       "htr",
       "islamic_studies",
       "machine_learning",
