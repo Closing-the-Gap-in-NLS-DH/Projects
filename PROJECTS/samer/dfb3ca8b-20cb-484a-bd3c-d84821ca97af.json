@@ -22,7 +22,9 @@
           "text": "Abu Dabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": { "lat": "0", "lng": "0" }
+        "coordinates": { 
+          "lat": "24.45384",
+          "lng": "54.37740" }
       }
     ],
     "lang": [],
@@ -39,7 +41,18 @@
         "websites": ["https://nyuad.nyu.edu/en/"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Gumar Corpus",
+        "uuid": "74b74185-081c-40f7-86da-52bdf9f53105"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Multi-Arabic Dialect Applications and Resources",
+        "uuid": "693b7383-6f97-46a6-9023-6aae878c25e7"
+      }
+    ],
     "contacts": [
       {
         "pers_name": { "text": "Muhamed Al Khalil", "ref": [] },
@@ -91,6 +104,7 @@
       "corpus_output",
       "e_learning",
       "lexicon",
+      "machine_learning",
       "nlp"
     ],
     "category": "tools_and_analysis",
