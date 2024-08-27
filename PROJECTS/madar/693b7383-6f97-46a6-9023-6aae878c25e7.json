@@ -22,21 +22,27 @@
           "text": "Doha",
           "ref": ["https://www.geonames.org/290030/doha.html"]
         },
-        "coordinates": { "lat": "24.73677", "lng": "81.44660" }
+        "coordinates": { 
+          "lat": "24.73677", 
+          "lng": "81.44660" }
       },
       {
         "place_name": {
           "text": "Abu Dabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": { "lat": "0", "lng": "0" }
+        "coordinates": { 
+          "lat": "24.45384", 
+          "lng": "54.37740" }
       },
       {
         "place_name": {
           "text": "New York",
           "ref": ["https://www.geonames.org/5128581/new-york-city.html"]
         },
-        "coordinates": { "lat": "0", "lng": "0" }
+        "coordinates": { 
+          "lat": "40.71273", 
+          "lng": "-74.00602" }
       }
     ],
     "lang": ["eng"],
@@ -86,7 +92,18 @@
         "websites": ["https://www.uob.edu.bh"]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Gumar Corpus",
+        "uuid": "74b74185-081c-40f7-86da-52bdf9f53105"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Simplification of Arabic Masterpieces for Extensive Reading",
+        "uuid": "dfb3ca8b-20cb-484a-bd3c-d84821ca97af"
+      }
+    ],
     "contacts": [
       {
         "pers_name": {
@@ -139,6 +156,7 @@
       "corpus_output",
       "dialectology",
       "lexicon",
+      "machine_learning",
       "nlp",
       "translation",
       "translation_studies"
