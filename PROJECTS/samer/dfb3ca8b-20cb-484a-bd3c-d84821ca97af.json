@@ -22,9 +22,7 @@
           "text": "Abu Dabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": { 
-          "lat": "24.45384",
-          "lng": "54.37740" }
+        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
       }
     ],
     "lang": [],
