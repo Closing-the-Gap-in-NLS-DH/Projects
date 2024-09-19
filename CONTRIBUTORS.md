@@ -19,3 +19,5 @@ Please note that this document encompasses individuals who have worked on "Closi
 | [Visualization](https://credit.niso.org/contributor-roles/visualization/)                   | Theodore S. Beers (2022 – present), Jonas Müller-Laackman (2021–22)        |
 | [Data Curation](https://credit.niso.org/contributor-roles/data-curation/)                   | Aibaniz Alieva (2024 – present)                                            |
 | [Investigation](https://credit.niso.org/contributor-roles/data-curation/)                   | Aibaniz Alieva (2024 – present)                                            |
+| [Data Curation](https://credit.niso.org/contributor-roles/data-curation/)                   | Joudy Sido Bozan (2024 – present)                                            |
+| [Investigation](https://credit.niso.org/contributor-roles/data-curation/)                   | Joudy Sido Bozan (2024 – present)    
