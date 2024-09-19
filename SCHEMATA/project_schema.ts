@@ -1,4 +1,4 @@
-import { z } from "https://deno.land/x/zod@v3.23.6/mod.ts";
+import { z } from "https://deno.land/x/zod@v3.23.8/mod.ts";
 
 // Set version here, validate everywhere else!
 const schemaVersion = "0.2.4";
