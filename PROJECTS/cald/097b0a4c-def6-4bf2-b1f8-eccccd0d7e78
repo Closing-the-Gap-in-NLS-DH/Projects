@@ -1,0 +1,133 @@
+{
+    "schema_version": "0.2.4",
+    "record_metadata": {
+        "uuid": "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78",
+        "record_created_on": "2024-09-30",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2024-10-05",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Corpus of Arabic Legal Documents",
+        "abbr": "CALD",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2022",
+                "to": "2024"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://cald.irht.cnrs.fr/"
+        ],
+        "project_desc": "CALD is a research tool developed for the study of Arabic legal documents from the 7th to 16th centuries C.E. It provides access to over 3,000 historical documents, facilitating the study of Islamic law. The platform offers a sample of these documents along with analytical tools, and users can create accounts to access images and resources.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Paris",
+                    "ref": [
+                        "https://www.geonames.org/2988507/paris.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.8535",
+                    "lng": "2.34839"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Institut de recherche et d'histoire des textes",
+                    "ref": [
+                        "https://ror.org/05evznf71",
+                        "https://www.wikidata.org/wiki/Q1664768"
+                    ]
+                },
+                "websites": [
+                    "https://www.irht.cnrs.fr"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "contacts": [
+            {
+                "pers_name": {
+                    "text": "Christian Müller",
+                    "ref": []
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.irht.cnrs.fr/fr/annuaire/muller-christian"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "corpus_output",
+            "digital_preservation",
+            "history_studies",
+            "islamic_studies",
+            "manuscript"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
