@@ -131,13 +131,13 @@
     "title": "Corpus Avesticum Berolinense",
     "path": "/PROJECTS/cab/"
   },
+  "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78": {
+    "title": "Corpus of Arabic Legal Documents",
+    "path": "/PROJECTS/cald/"  
+  },
   "5d194da4-2d99-4793-9757-59a197059b9b": {
     "title": "Corpus der arabischen und syrischen Gnomologien",
     "path": "/PROJECTS/casg/"
-  },
-  "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78": {
-    "title": "Corpus of Arabic Legal Documents",
-    "path": "/PROJECTS/cald/"
   },
   "b8097890-6eeb-43ba-890d-28e1490fde08": {
     "title": "Cuneiform Digital Library Initiative",
@@ -354,6 +354,10 @@
   "da852d13-2483-443b-a2f3-77c0d19d08bd": {
     "title": "Isnalyser",
     "path": "/PROJECTS/isnalyser/"
+  },
+  "d17ea973-8be6-4d5c-81e2-75c69e8e4e37": {
+    "title": "Jewish Book Culture in the Islamicate World",
+    "path": "/PROJECTS/jewish_book_culture_in_the_islamicate_world/"
   },
   "7050ac6d-523c-4ba0-b381-48ec200ff6c4": {
     "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
