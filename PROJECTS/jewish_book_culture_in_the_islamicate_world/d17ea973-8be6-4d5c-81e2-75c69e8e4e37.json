@@ -1,146 +1,103 @@
 {
-    "schema_version": "0.2.4",
-    "record_metadata": {
-        "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37",
-        "record_created_on": "2024-10-06",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-10-06",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Jewish Book Culture in the Islamicate World",
-        "abbr": "JBC",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020",
-                "to": "2023"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.4",
+  "record_metadata": {
+    "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37",
+    "record_created_on": "2024-10-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-10-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Jewish Book Culture in the Islamicate World",
+    "abbr": "JBC",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2020", "to": "2023" }],
+    "maintained": true,
+    "websites": ["https://www.jewishbookculture.com"],
+    "project_desc": "The aim of the project is to study Jewish books, their makers and their readers in the medieval eastern Mediterranean. JBC draws on a large corpus of manuscripts produced in Egypt and the Near East in the ninth to thirteenth centuries and enrols multidisciplinary methods of codicology, palaeography and general book history to study books as objects and as essential actors in the transmission of texts, practices and ideas.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
+        },
+        "coordinates": { "lat": "48.13711", "lng": "11.57538" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+          "ref": [
+            "https://ror.org/05591te55",
+            "https://www.wikidata.org/wiki/Q55044"
+          ]
+        },
+        "websites": ["https://www.lmu.de"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Olszowy-Schlanger, Judith",
+          "ref": ["https://www.wikidata.org/wiki/Q50228236#sitelinks-wikipedia"]
+        },
+        "roles": ["supervision"],
         "websites": [
-            "https://www.jewishbookculture.com"
+          "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
+        ]
+      },
+      {
+        "pers_name": { "text": "Vollandt, Ronny", "ref": [] },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.jewisharabiccultures.fak12.uni-muenchen.de/team/ronny-vollandt/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["heb"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
-        "project_desc": "The aim of the project is to study Jewish books, their makers and their readers in the medieval eastern Mediterranean. JBC draws on a large corpus of manuscripts produced in Egypt and the Near East in the ninth to thirteenth centuries and enrols multidisciplinary methods of codicology, palaeography and general book history to study books as objects and as essential actors in the transmission of texts, practices and ideas.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Munich",
-                    "ref": [
-                        "https://www.geonames.org/2867714/munich.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.13711",
-                    "lng": "11.57538"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
-                    "ref": [
-                        "https://ror.org/05591te55",
-                        "https://www.wikidata.org/wiki/Q55044"
-                    ]
-                },
-                "websites": [
-                    "https://www.lmu.de"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Olszowy-Schlanger, Judith",
-                    "ref": ["https://www.wikidata.org/wiki/Q50228236#sitelinks-wikipedia"]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "Vollandt, Ronny",
-                    "ref": []
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.jewisharabiccultures.fak12.uni-muenchen.de/team/ronny-vollandt/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "heb"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "history_studies",
-            "jewish_studies",
-            "manuscript",
-            "religious_text",
-            "translation"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        { "label": "", "self_developed": false, "ref": [], "description": "" }
+      ],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "history_studies",
+      "jewish_studies",
+      "manuscript",
+      "religious_text",
+      "translation"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

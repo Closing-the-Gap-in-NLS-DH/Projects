@@ -19,6 +19,7 @@
     "test": "deno test --allow-read TESTS/schema_tests.ts"
   },
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "zod": "^3.23.8"
   }
 }
