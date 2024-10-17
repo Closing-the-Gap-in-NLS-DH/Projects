@@ -1,0 +1,129 @@
+{
+    "schema_version": "0.2.4",
+    "record_metadata": {
+      "uuid": "63f0bf9c-f8e4-4ce0-beff-fc8de68d05f2",
+      "record_created_on": "2024-09-25",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Safeguarding the Manuscripts of Timbuktu",
+      "abbr": "SMT",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2013", "to": "2021" }],
+      "maintained": false,
+      "websites": [
+        "https://www.csmc.uni-hamburg.de/timbuktu.html"
+
+      ],
+      "project_desc": "The project aims to save the Timbuktu manuscripts by perserving, restoring, and researching the manuscripts. The manuscripts are considered to be the most important collections of the written heritage of the West African literary tradition.",
+      "places": [
+        {
+          "place_name": { "Hamburg": "", "ref": ["https://www.geonames.org/2911298/hamburg.html"] },
+          "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        },
+        {
+          "place_name": { "Timbuktu": "", "ref": ["https://www.geonames.org/2449067/timbuktu.html"] },
+          "coordinates": { "lat": "16.77348", "lng": "-3.00742" }
+        }
+      ],
+      "lang": ["deu", "eng", "fra"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": { 
+            "text": "Universität Hamburg",
+            "ref": [
+            "https://ror.org/00g30e956",
+            "http://www.wikidata.org/entity/Q156725"
+          ] 
+          },
+            "websites": ["https://www.uni-hamburg.de"]
+        }, 
+        {
+          "relation_type": "cooperation",
+          "org_name": { 
+            "text": "AJAMI LAB",
+            "ref": [""] 
+          },
+            "websites": ["https://www.csmc.uni-hamburg.de/ajami-lab.html"]
+        }
+      ],
+      "related_entities": [
+        {
+          "relation_type": "sibling",
+          "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+          "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+        }, 
+        {
+          "relation_type": "sibling",
+          "title": "The Evolution of Islamic Societies (c. 600-1600 CE): Algorithmic Analysis into Social History",
+          "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+        },
+        {   
+          "relation_type": "sibling",
+          "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+          "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+        },
+        {
+          "relation_type": "sibling",
+          "title": "The Intertwined World of the Oral and Written Transmission of Sacred Traditions in the Middle East",
+          "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
+        },
+        {
+          "relation_type": "sibling",
+          "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
+          "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
+        }
+      ],
+      "contacts": [
+        {
+          "pers_name": { "Bondarev, Dmitry": "", "ref": ["https://d-nb.info/gnd/1185835431"] },
+          "roles": ["supervision"],
+          "websites": ["https://www.csmc.uni-hamburg.de/about/people/bondarev.html"]
+        }
+      ],
+      "research_data": {
+        "lang": ["snk", "emk"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [] },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          { "label": "", "self_developed": false, "ref": [], "description": "" }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "african_studies",
+        "catalog",
+        "digital_preservation",
+        "islamic_studies",
+        "linguistics",
+        "manuscript"
+      ],
+      "category": "digital_preservation",
+      "comment": "End date of the research project is not defined, there is no wikidata entry. This project has developed into a Training Project titled: 'The Timbuktu Manuscript Training Project'. Cooperation with AJAMI LAB (no wikidata or ROR links found"
+    }
+  }
+  
