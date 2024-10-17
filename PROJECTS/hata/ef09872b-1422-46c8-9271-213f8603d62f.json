@@ -92,13 +92,14 @@
       "policies": [{ "description": "", "ref": [] }],
       "keywords": [
         "arabic_studies",
+        "biographical_data",
+        "catalog",
         "cultural_studies",
         "digital_preservation",
         "islamic_studies",
-        "biographical_data",
         "manuscript"
       ],
-      "category": "biographical_data",
+      "category": "digital_preservation",
       "comment": "End date of the research project is not defined, there is no wikidata entry of the project. The website was last updated on 09.02.2021, last funding found for the year 2020"
     }
 }
