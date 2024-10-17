@@ -99,11 +99,31 @@
       "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          { "label": "JPX", "stage": "final", "licensing": [], "open_access": 0 },
-          { "label": "TIFFS", "stage": "final", "licensing": [], "open_access": 0 },
-          { "label": "JSON", "stage": "raw", "licensing": [], "open_access": 0 },
+          {
+            "label": "JPX",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "TIFFS",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "JSON",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          },
           { "label": "XML", "stage": "raw", "licensing": [], "open_access": 0 },
-          { "label": "TEI-XML", "stage": "final", "licensing": ["CC by"], "open_access": 100 }
+          {
+            "label": "TEI-XML",
+            "stage": "final",
+            "licensing": ["CC by"],
+            "open_access": 100
+          }
         ],
         "repositories": [
           {
@@ -128,8 +148,18 @@
       "backend": ["PHP Laravel"],
       "frontend": ["Vue", "Docker"],
       "tools": [
-        { "label": "Coranica Font", "self_developed": true, "ref": ["https://corpuscoranicum.de/de/about/tools"], "description": "Unicode font" },
-        { "label": "Editionstool", "self_developed": true, "ref": [], "description": "An internal content management system (CMS) developed with Laravel" }
+        {
+          "label": "Coranica Font",
+          "self_developed": true,
+          "ref": ["https://corpuscoranicum.de/de/about/tools"],
+          "description": "Unicode font"
+        },
+        {
+          "label": "Editionstool",
+          "self_developed": true,
+          "ref": [],
+          "description": "An internal content management system (CMS) developed with Laravel"
+        }
       ],
       "languages": ["PHP", "JS", "TS"]
     },
