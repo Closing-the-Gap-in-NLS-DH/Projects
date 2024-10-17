@@ -1,0 +1,94 @@
+{
+    "schema_version": "0.2.4",
+    "record_metadata": {
+      "uuid": "1c4b1b26-457e-488c-83e0-ef745b3f732c",
+      "record_created_on": "2024-10-01",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Mouse & Manuscript",
+      "abbr": "MoMa",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2020", "to": "" }],
+      "maintained": true,
+      "websites": [
+        "https://mouse.digitalscholarship.nl"
+
+      ],
+      "project_desc": "The aim of the 'Mouse & Manuscript' project is to enhance teaching on codicology and Oriental manuscripts by utilizing digital tools to make Leiden University's manuscript collections more accessible. The project provides interactive lessons, leveraging digital humanities technology, such as an IIIF viewer, to offer detailed, zoomable access to manuscripts, while integrating questions and assignments to engage students and support further scholarly research.",
+      "places": [
+        {
+          "place_name": { "text": "Leiden", "ref": ["https://www.geonames.org/2751773/"] },
+          "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        }
+      ],
+      "lang": ["eng", "ara"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": { 
+            "text": "Leiden University",
+            "ref": [
+            "https://ror.org/027bh9e22",
+            "http://www.wikidata.org/entity/Q156598"
+          ] 
+          },
+            "websites": ["https://www.universiteitleiden.nl/en"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": { "text": "van Dalen, Dorrit", "ref": ["https://d-nb.info/gnd/1117243222"] },
+          "roles": ["supervision"],
+          "websites": ["https://www.ascleiden.nl/content/ASC-community/members/dorrit-van-dalen"]
+        }, 
+        {
+            "pers_name": { "text": "Webb, Peter", "ref": ["https://d-nb.info/gnd/1131110315"] },
+            "roles": ["supervision"],
+            "websites": ["https://www.universiteitleiden.nl/en/staffmembers/peter-webb#tab-1"]
+        } 
+      ],
+      "research_data": {
+        "lang": ["ara", "cop", "fas", "acw"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [] },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          { "label": "", "self_developed": false, "ref": [], "description": "" }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "arabic_studies",
+        "e_learning",
+        "islamic_studies",
+        "manuscript"
+      ],
+      "category": "tools_and_analysis",
+      "comment": "Research programme is ongoing without an End date. There is no wikidata entry of the project. Prof. Dorrit van Dalen layed out the first edition, yet Peter Webb took over after 2021"
+    }
+}
+  
