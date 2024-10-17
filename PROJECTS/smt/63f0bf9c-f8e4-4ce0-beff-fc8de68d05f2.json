@@ -47,10 +47,7 @@
       },
       {
         "relation_type": "cooperation",
-        "org_name": {
-          "text": "AJAMI LAB",
-          "ref": []
-        },
+        "org_name": { "text": "AJAMI LAB", "ref": [] },
         "websites": ["https://www.csmc.uni-hamburg.de/ajami-lab.html"]
       }
     ],
