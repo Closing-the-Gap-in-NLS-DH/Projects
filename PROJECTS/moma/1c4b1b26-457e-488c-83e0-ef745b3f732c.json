@@ -39,13 +39,7 @@
             "websites": ["https://www.universiteitleiden.nl/en"]
         }
       ],
-      "related_entities": [
-        {
-          "relation_type": "sibling",
-          "title": "",
-          "uuid": ""
-        }
-      ],
+      "related_entities": [],
       "contacts": [
         {
           "pers_name": { "text": "van Dalen, Dorrit", "ref": ["https://d-nb.info/gnd/1117243222"] },
