@@ -283,6 +283,10 @@
     "title": "Union Catalogue of Manuscripts from the Islamicate World",
     "path": "/PROJECTS/fihrist/"
   },
+  "29603647-10fb-4843-aaab-b9a621c72275": {
+   "title": "Al-Furqan E-Database", 
+   "path": "/PROJECTS/furqan/"
+  },
   "1fb988de-a02c-42d9-951d-1d7de01b598c": {
     "title": "GenderVarianten — Revisionen von Genderkonstruktionen in Textüberlieferungen",
     "path": "/PROJECTS/gender_varianten/"
@@ -354,6 +358,10 @@
   "31534c48-6b74-4cc5-8aff-ea8dbc60c445": {
     "title": "Islamic Painted Page",
     "path": "/PROJECTS/islamic_painted_page/"
+  },
+  "725a2604-9720-4dad-b82e-a0f2e98f707f": {
+    "title": "Islamic Scientific Manuscripts Initiative (ISMI)",
+    "path": "/PROJECTS/ismi/"
   },
   "da852d13-2483-443b-a2f3-77c0d19d08bd": {
     "title": "Isnalyser",

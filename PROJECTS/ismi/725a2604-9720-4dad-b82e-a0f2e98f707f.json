@@ -1,0 +1,105 @@
+{
+    "schema_version": "0.2.4",
+    "record_metadata": {
+      "uuid": "725a2604-9720-4dad-b82e-a0f2e98f707f",
+      "record_created_on": "2024-10-18",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Islamic Scientific Manuscripts Initiative",
+      "abbr": "ISMI",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2006", "to": "2019" }],
+      "maintained": false,
+      "websites": [
+        "https://ismi.mpiwg-berlin.mpg.de/"
+
+      ],
+      "project_desc": "ISMI is a catalogue that includes an object-relational database storing information on the rational scienes of scientific, philosophical and theological traditions of Islam before 1900 CE. The database aims to provide access to Islamicate authors, their works, and extant manuscript witnesses of mathematical sciences",
+      "places": [
+        {
+          "place_name": { "text": "Istanbul", "ref": ["https://www.geonames.org/745044/"] },
+          "coordinates": { "lat": "41.01384", "lng": "28.94966" }
+        }
+      ],
+      "lang": ["eng", "ara"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": { 
+            "text": "Max Planck Institute for the History of Science",
+            "ref": [
+            "https://ror.org/0492sjc74",
+            "https://www.wikidata.org/wiki/Q318118"
+          ] 
+          },
+            "websites": ["https://www.mpiwg-berlin.mpg.de/"]
+        },
+        {
+          "relation_type": "host",
+          "org_name": { 
+            "text": "Medeniyet University Istanbul",
+            "ref": [
+            "https://www.wikidata.org/wiki/Q11158752",
+            "https://ror.org/05j1qpr59"
+          ] 
+          },
+            "websites": ["https://medeniyet.edu.tr/tr"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": { "text": "Daston, Lorraine", "ref": ["https://d-nb.info/gnd/121180646"] },
+          "roles": ["supervision"],
+          "websites": ["https://www.mpiwg-berlin.mpg.de/people/ldaston"]
+        }
+      ],
+      "research_data": {
+        "lang": ["ara", "tur", "fas"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [] },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          { "label": "", "self_developed": false, "ref": [], "description": "" }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "arabic_studies",
+        "biographical_data",
+        "catalog",
+        "digital_preservation",
+        "history_studies",
+        "islamic_studies",
+        "manuscript",
+        "science_history",
+        "visualization"
+      ],
+      "category": "digital_preservation",
+      "comment": "Project is still hosted by the MPIWG, yet operated lastly from Medeniyet University Istanbul"
+    }
+}
+  
