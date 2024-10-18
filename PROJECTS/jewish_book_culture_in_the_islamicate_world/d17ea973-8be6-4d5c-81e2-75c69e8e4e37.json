@@ -4,7 +4,7 @@
     "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37",
     "record_created_on": "2024-10-06",
     "record_created_by": "Alieva, Aibaniz",
-    "last_edited_on": "2024-10-06",
+    "last_edited_on": "2024-10-18",
     "interviewed": false
   },
   "project": {
@@ -23,7 +23,19 @@
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": { "lat": "48.13711", "lng": "11.57538" }
-      }
+      },
+      {
+        "place_name": {
+            "text": "Oxford",
+            "ref": [
+                "https://www.geonames.org/2640729/oxford.html"
+            ]
+        },
+        "coordinates": {
+            "lat": "51.75201",
+            "lng": "-1.25785"
+        }
+    }
     ],
     "lang": ["eng"],
     "related_institutions": [
@@ -37,14 +49,32 @@
           ]
         },
         "websites": ["https://www.lmu.de"]
-      }
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+            "text": "University of Oxford",
+            "ref": [
+                "https://ror.org/052gg0110",
+                "https://www.wikidata.org/wiki/Q34433"
+            ]
+        },
+        "websites": [
+            "http://www.ox.ac.uk"
+        ]
+    }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "The Hebrew Palaeography Album",
+        "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11"
+    }],
     "contacts": [
       {
         "pers_name": {
           "text": "Olszowy-Schlanger, Judith",
-          "ref": ["https://www.wikidata.org/wiki/Q50228236#sitelinks-wikipedia"]
+          "ref": ["https://d-nb.info/gnd/1046170465"]
         },
         "roles": ["supervision"],
         "websites": [
@@ -52,7 +82,10 @@
         ]
       },
       {
-        "pers_name": { "text": "Vollandt, Ronny", "ref": [] },
+        "pers_name": { "text": "Vollandt, Ronny", 
+        "ref": ["https://d-nb.info/gnd/1173742050"
+
+        ] },
         "roles": ["supervision"],
         "websites": [
           "https://www.jewisharabiccultures.fak12.uni-muenchen.de/team/ronny-vollandt/"

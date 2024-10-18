@@ -4,7 +4,7 @@
     "uuid": "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78",
     "record_created_on": "2024-09-30",
     "record_created_by": "Alieva, Aibaniz",
-    "last_edited_on": "2024-10-05",
+    "last_edited_on": "2024-10-18",
     "interviewed": false
   },
   "project": {
@@ -30,19 +30,20 @@
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Institut de recherche et d'histoire des textes",
+          "text": "Centre national de la recherche scientifique",
           "ref": [
-            "https://ror.org/05evznf71",
-            "https://www.wikidata.org/wiki/Q1664768"
+            "https://ror.org/02feahw73",
+            "https://www.wikidata.org/wiki/Q280413"
           ]
         },
-        "websites": ["https://www.irht.cnrs.fr"]
+        "websites": ["https://www.cnrs.fr"]
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Müller, Christian", "ref": [] },
+        "pers_name": { "text": "Müller, Christian", 
+        "ref": ["http://viaf.org/viaf/113526270"] },
         "roles": ["supervision"],
         "websites": ["https://www.irht.cnrs.fr/fr/annuaire/muller-christian"]
       }
@@ -79,10 +80,12 @@
     "keywords": [
       "arabic_studies",
       "corpus_output",
+      "digital_edition",
       "digital_preservation",
       "history_studies",
       "islamic_studies",
-      "manuscript"
+      "manuscript",
+      "vre"
     ],
     "category": "digital_preservation",
     "comment": ""
