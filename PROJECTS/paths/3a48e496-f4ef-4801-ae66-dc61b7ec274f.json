@@ -32,7 +32,7 @@
           "org_name": { 
             "text": "Sapienza University of Rome",
             "ref": [
-            " https://ror.org/02be6w209",
+            "https://ror.org/02be6w209",
             "https://www.wikidata.org/wiki/Q209344"
           ] 
           },
@@ -42,7 +42,7 @@
           "relation_type": "cooperation",
           "org_name": { 
             "text": "Corpus dei Manoscritti Copti Letterari",
-            "ref": [""] 
+            "ref": [] 
           },
             "websites": ["http://www.cmcl.it"]
         },
@@ -50,7 +50,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "Center of the Study of Manuscript Cultures",
-              "ref": [""] 
+              "ref": [] 
             },
               "websites": ["https://www.csmc.uni-hamburg.de"]
         },
@@ -58,7 +58,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "Digital Edition and Translation of the Coptic-Sahidic Old Testament",
-              "ref": [""] 
+              "ref": [] 
             },
               "websites": ["http://coptot.manuscriptroom.com/"]
         },
@@ -66,7 +66,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "Coptic Scriptorium ",
-              "ref": [""] 
+              "ref": []
             },
               "websites": ["http://copticscriptorium.org/"]
         },
@@ -82,7 +82,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "Beta maṣāḥǝft",
-              "ref": [""] 
+              "ref": [] 
             },
               "websites": ["https://www.betamasaheft.uni-hamburg.de/"]
         },
@@ -90,7 +90,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "TraCES",
-              "ref": [""] 
+              "ref": [] 
             },
               "websites": ["https://www.traces.uni-hamburg.de"]
         },
@@ -98,7 +98,7 @@
             "relation_type": "cooperation",
             "org_name": { 
               "text": "Trismegistos",
-              "ref": [""] 
+              "ref": [] 
             },
               "websites": ["https://www.trismegistos.org"]
         },
