@@ -76,6 +76,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - encyclopedia
    - htr
    - lexicon
+   - [map](https://vocabs.acdh.oeaw.ac.at/dha_taxonomy/en/page/Concept37)
    - [ocr](https://vocabs.dariah.eu/dha_taxonomy/en/page/Concept41)
    - translation
    - video
