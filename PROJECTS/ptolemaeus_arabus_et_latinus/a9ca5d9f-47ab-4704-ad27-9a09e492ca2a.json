@@ -4,8 +4,8 @@
     "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2022-05-05",
-    "interviewed": false
+    "last_edited_on": "2024-10-21",
+    "interviewed": true
   },
   "project": {
     "title": "Ptolemaeus Arabus et Latinus",
@@ -76,16 +76,40 @@
     ],
     "research_data": {
       "lang": ["ara", "lat"],
-      "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "sustainability_plan": true,
+      "publications": { "open_access": 100, "licensing": ["CC BY-NC-ND 4.0"] },
+      "data": {
+        "datatypes": [
+          { "label": ".docx", "stage": "raw", "licensing": [], "open_access": 0 },
+          { "label": "xml", "stage": "final", "licensing": [], "open_access": 0 },
+          { "label": "json", "stage": "final", "licensing": [], "open_access": 100 }
+        ],
+        "repositories": [
+          {
+            "label": "LRZ",
+            "accessibility": "private",
+            "ref": ["https://www.wikidata.org/wiki/Q872555"],
+            "licensing": [],
+            "description": "Das zentrale Rechenzentrum der Münchner Universitäten, institutionell Teil der BADW"
+          }
+        ]
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
-      "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "database": ["MariaDB"],
+      "backend": ["Nginx", "Python"],
+      "frontend": ["CSS", "JS", "Bottle.py", "HTML"],
+      "tools": [
+        { "label": "Calamari", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q124348079"], "description": "Line based ATR/ OCR Engine based on OCRopy" },
+        { "label": "Nashi", "self_developed": false, "ref": [], "description": "Tool for the OCR-Aided Transcription of ted Text" },
+        { "label": "Classical Text Editor", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q116949834"], "description": "Software for editing printable scholarly editions of classical texts" },
+        { "label": "Oxygen", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q7115951"], "description": "Multi-platform XML editor, XSLT/XQuery debugger and profiler" },
+        { "label": "TinyMCE", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q572792"], "description": "Customizable WYSIWYG rich text editor" },
+        { "label": "JabRef ", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q1676802"], "description": "Reference management software" },
+        { "label": "LAREX", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q124348103"], "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books." },
+        { "label": "FontForge", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q687332"], "description": "Free font editor" }
+      ],
+      "languages": ["Python", "JS"]
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [
