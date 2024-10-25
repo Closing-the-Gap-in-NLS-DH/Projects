@@ -92,11 +92,10 @@
         "biographical_data",
         "catalog",
         "digital_preservation",
-        "history_studies",
+        "image",
         "islamic_studies",
         "manuscript",
-        "science_history",
-        "visualization"
+        "science_history"
       ],
       "category": "digital_preservation",
       "comment": "Project is still hosted by the MPIWG, yet operated lastly from Medeniyet University Istanbul"
