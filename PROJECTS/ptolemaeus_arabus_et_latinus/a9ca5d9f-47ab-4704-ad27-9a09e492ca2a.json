@@ -18,7 +18,7 @@
       "https://ptolemaeus.badw.de/start",
       "https://badw.de/forschungseinrichtung/forschungsvorhaben.html?tx_badwdb_projects%5Baction%5D=show&tx_badwdb_projects%5Bcontroller%5D=Projects&tx_badwdb_projects%5Bproject_id%5D=100&cHash=ffb2790d003b9abde6b3b1c6da4a55b3"
     ],
-    "project_desc": "Ptolemaeus Arabus et Latinus (PAL) is a long-term project dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. The manuscripts are being made available in an online database containing catalogues of Arabic and Latin works, their images, searchable transcriptions and a Greek-Arabic-Latin-English glossary of astronomical and astrological terms.",
+    "project_desc": "Ptolemaeus Arabus et Latinus (PAL) is a long-term project dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. The texts are made available in an online database containing catalogues of Arabic and Latin works, images of manuscripts, searchable transcriptions, critically edited texts and a Greek-Arabic-Latin-English glossary of astronomical and astrological terms.",
     "places": [
       {
         "place_name": {
@@ -75,7 +75,7 @@
       }
     ],
     "research_data": {
-      "lang": ["ara", "lat"],
+      "lang": ["ara", "grc", "lat"],
       "sustainability_plan": true,
       "publications": { "open_access": 100, "licensing": ["CC BY-NC-ND 4.0"] },
       "data": {
@@ -102,8 +102,7 @@
       "tools": [
         { "label": "Calamari", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q124348079"], "description": "Line based ATR/ OCR Engine based on OCRopy" },
         { "label": "Nashi", "self_developed": false, "ref": [], "description": "Tool for the OCR-Aided Transcription of ted Text" },
-        { "label": "Classical Text Editor", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q116949834"], "description": "Software for editing printable scholarly editions of classical texts" },
-        { "label": "Oxygen", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q7115951"], "description": "Multi-platform XML editor, XSLT/XQuery debugger and profiler" },
+        { "label": "Classical Text Editor", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q116949834"], "description": "Software for editing printable scholarly editions of classical texts" },        
         { "label": "TinyMCE", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q572792"], "description": "Customizable WYSIWYG rich text editor" },
         { "label": "JabRef ", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q1676802"], "description": "Reference management software" },
         { "label": "LAREX", "self_developed": false, "ref": ["https://www.wikidata.org/wiki/Q124348103"], "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books." },
