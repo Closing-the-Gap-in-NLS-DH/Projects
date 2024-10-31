@@ -1,12 +1,16 @@
 # Changelog - Schema
 
+- From version 0.2.4 to 0.2.5 (2024-10-31):
+
+  - Apply the differentiation between `ref` and `website` to the `research_data` and `stack` elements for consistency. 
+
 - From version 0.2.3 to 0.2.4 (2024-07-18):
 
-- The Boolean value `interviewed` has been added to the `research_data` section to indicate whether the interview regarding the technical details of a project has been conducted.
+  - The Boolean value `interviewed` has been added to the `research_data` section to indicate whether the interview regarding the technical details of a project has been conducted.
 
 - From version 0.2.2 to 0.2.3 (2024-03-12):
 
-- A new data entry `category` added as a string with following possible values: `digital_preservation`, `tools_and_analysis`, `infrastructure`, `other`
+  - A new data entry `category` added as a string with following possible values: `digital_preservation`, `tools_and_analysis`, `infrastructure`, `other`
 
 - From version 0.2.1 to 0.2.2 (2023-12-14):
 
