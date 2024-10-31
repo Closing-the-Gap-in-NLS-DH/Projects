@@ -113,23 +113,17 @@
         ]
       },
       "data": {
-        "datatypes": [
-          {
-            "label": ".docx",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          },
+        "datatypes": [          
           {
             "label": "xml",
             "stage": "final",
-            "licensing": [],
-            "open_access": 0
+            "licensing": ["CC BY", "Reserved"],
+            "open_access": 100
           },
           {
             "label": "json",
             "stage": "final",
-            "licensing": [],
+            "licensing": ["CC BY"],
             "open_access": 100
           }
         ],
@@ -140,7 +134,7 @@
             "ref": [
               "https://www.wikidata.org/wiki/Q872555"
             ],
-            "websites": [],
+            "websites": ["https://daten.badw.de/pal-texts"],
             "licensing": [],
             "description": "Das zentrale Rechenzentrum der Münchner Universitäten, institutionell Teil der BADW"
           }
@@ -168,14 +162,14 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q124348079"
           ],
-          "websites": [],
+          "websites": ["https://github.com/Calamari-OCR/calamari"],
           "description": "Line based ATR/ OCR Engine based on OCRopy"
         },
         {
           "label": "Nashi",
           "self_developed": false,
           "ref": [],
-          "websites": [],
+          "websites": ["https://github.com/andbue/nashi/tree/master"],
           "description": "Tool for the OCR-Aided Transcription of ted Text"
         },
         {
@@ -184,7 +178,7 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q116949834"
           ],
-          "websites": [],
+          "websites": ["https://cte.oeaw.ac.at/"],
           "description": "Software for editing printable scholarly editions of classical texts"
         },
         {
@@ -193,7 +187,7 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q572792"
           ],
-          "websites": [],
+          "websites": ["https://www.tiny.cloud/"],
           "description": "Customizable WYSIWYG rich text editor"
         },
         {
@@ -202,7 +196,7 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q1676802"
           ],
-          "websites": [],
+          "websites": ["https://www.jabref.org/"],
           "description": "Reference management software"
         },
         {
@@ -211,7 +205,7 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q124348103"
           ],
-          "websites": [],
+          "websites": ["https://github.com/OCR4all/LAREX"],
           "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books."
         },
         {
@@ -220,7 +214,7 @@
           "ref": [
             "https://www.wikidata.org/wiki/Q687332"
           ],
-          "websites": [],
+          "websites": ["https://fontforge.org/en-US/"],
           "description": "Free font editor"
         }
       ],
