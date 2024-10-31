@@ -161,19 +161,19 @@
         {
           "label": "manuForma",
           "self_developed": true,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/majlis-erc/manuForma"
           ],
-          "websites": [],
           "description": "TEI-XML File Generator"
         },
         {
           "label": "Srophe",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://srophe.app/"
           ],
-          "websites": [],
           "description": "Frontend framework for projects working with TEI-XML"
         }
       ],

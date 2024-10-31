@@ -134,19 +134,19 @@
         {
           "label": "FontForge",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://fontforge.org/docs/index.html"
           ],
-          "websites": [],
           "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
         },
         {
           "label": "Keyman",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://keyman.com/"
           ],
-          "websites": [],
           "description": "Open-source platform for custom language keyboard layouts on multiple devices."
         }
       ],

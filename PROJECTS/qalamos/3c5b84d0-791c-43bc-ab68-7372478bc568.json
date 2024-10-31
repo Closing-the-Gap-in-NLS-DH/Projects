@@ -198,19 +198,19 @@
         {
           "label": "MyCoRe",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://www.mycore.de/"
           ],
-          "websites": [],
           "description": "Used as a repository framework"
         },
         {
           "label": "Solr",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://solr.apache.org/"
           ],
-          "websites": [],
           "description": "Used for indexation and data querying"
         },
         {

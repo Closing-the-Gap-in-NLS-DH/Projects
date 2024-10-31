@@ -151,10 +151,10 @@
         {
           "label": "Kraken",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://kraken.re/main/index.html"
           ],
-          "websites": [],
           "description": "OCR engine unsed by eScriptorium"
         },
         {

@@ -240,37 +240,37 @@
         {
           "label": "Dillmann Lexicon",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/BetaMasaheft/Dillmann"
           ],
-          "websites": [],
           "description": "The lexicon was developed by the project Traces"
         },
         {
           "label": "Transkribus",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://www.transkribus.org/de"
           ],
-          "websites": [],
           "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%."
         },
         {
           "label": "ABBYY FineReader",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://pdf.abbyy.com"
           ],
-          "websites": [],
           "description": "OCR software"
         },
         {
           "label": "Alpheios",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://alpheios.net/"
           ],
-          "websites": [],
           "description": "Tool providing translation and morphological information of words in classical languages."
         }
       ],

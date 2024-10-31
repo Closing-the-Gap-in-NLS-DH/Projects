@@ -240,28 +240,28 @@
         {
           "label": "Tropy",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://tropy.org/"
           ],
-          "websites": [],
           "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
         },
         {
           "label": "Toolbox",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://software.sil.org/toolbox/"
           ],
-          "websites": [],
           "description": "Free data management and analysis tool for field linguists."
         },
         {
           "label": "FLEx",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://software.sil.org/fieldworks/"
           ],
-          "websites": [],
           "description": "Free software for language and cultural data, with support for complex scripts."
         }
       ],

@@ -136,10 +136,10 @@
         {
           "label": "QGIS",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://www.qgis.org/de/site/"
           ],
-          "websites": [],
           "description": ""
         }
       ],

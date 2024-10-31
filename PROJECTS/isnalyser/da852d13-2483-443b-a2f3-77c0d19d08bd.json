@@ -88,10 +88,10 @@
         {
           "label": "isnalyser",
           "self_developed": true,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/dhakarat/isnalyser"
           ],
-          "websites": [],
           "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
         }
       ],

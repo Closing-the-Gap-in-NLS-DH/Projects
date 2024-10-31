@@ -210,10 +210,10 @@
         {
           "label": "Coranica Font",
           "self_developed": true,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://corpuscoranicum.de/de/about/tools"
           ],
-          "websites": [],
           "description": "Unicode font"
         },
         {

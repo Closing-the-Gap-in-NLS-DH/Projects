@@ -124,28 +124,28 @@
         {
           "label": "OCRopus",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://ocropus.github.io/"
           ],
-          "websites": [],
           "description": ""
         },
         {
           "label": "Calamari",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/Calamari-OCR/calamari"
           ],
-          "websites": [],
           "description": ""
         },
         {
           "label": "ScanTailor",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://scantailor.org/"
           ],
-          "websites": [],
           "description": ""
         }
       ],

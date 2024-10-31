@@ -208,19 +208,19 @@
         {
           "label": "AraBERT",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/CAMeL-Lab/camel_tools"
           ],
-          "websites": [],
           "description": ""
         },
         {
           "label": "CAMeL Tools",
           "self_developed": false,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/CAMeL-Lab/camel_tools"
           ],
-          "websites": [],
           "description": ""
         }
       ],

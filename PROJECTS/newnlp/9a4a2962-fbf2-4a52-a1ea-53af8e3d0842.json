@@ -117,10 +117,10 @@
         {
           "label": "cadet",
           "self_developed": true,
-          "ref": [
+          "ref": [],
+          "websites": [
             "https://github.com/New-Languages-for-NLP/cadet"
           ],
-          "websites": [],
           "description": "Help add new languages into the spaCy library by generating and combining all the required units for a language entry. The tool also exists in the form of a notebook available on the GitHub page of the project."
         }
       ],
