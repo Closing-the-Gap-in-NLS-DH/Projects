@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1",
     "record_created_on": "2023-10-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": true
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "ACP",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2019", "to": "2023" }],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2023"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.audition-certificates-platform.org/",
@@ -23,12 +28,20 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": [
+      "eng",
+      "ara"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,7 +52,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -143,18 +158,27 @@
       {
         "pers_name": {
           "text": "Hirschler, Konrad",
-          "ref": ["https://d-nb.info/gnd/103830816X"]
+          "ref": [
+            "https://d-nb.info/gnd/103830816X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.aai.uni-hamburg.de/voror/personen/hirschler.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 80, "licensing": [] },
+      "publications": {
+        "open_access": 80,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
@@ -170,7 +194,10 @@
           {
             "label": "ZFDM Repository - Universität Hamburg",
             "accessibility": "public",
-            "ref": ["https://www.fdr.uni-hamburg.de/"],
+            "ref": [],
+            "websites": [
+              "https://www.fdr.uni-hamburg.de/"
+            ],
             "licensing": [
               "https://creativecommons.org/licenses/by/4.0/legalcode"
             ],
@@ -180,20 +207,32 @@
       }
     },
     "stack": {
-      "database": ["JSON"],
+      "database": [
+        "JSON"
+      ],
       "backend": [],
-      "frontend": ["JS"],
+      "frontend": [
+        "JS"
+      ],
       "tools": [
         {
           "label": "Leaflet",
           "self_developed": false,
-          "ref": ["https://leafletjs.com/"],
+          "ref": [],
+          "websites": [
+            "https://leafletjs.com/"
+          ],
           "description": ""
         }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",

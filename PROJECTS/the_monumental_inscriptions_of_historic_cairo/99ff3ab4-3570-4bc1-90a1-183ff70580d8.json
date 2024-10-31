@@ -1,39 +1,51 @@
 {
   "schema_version": "0.2.5",
   "record_metadata": {
-    "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11",
-    "record_created_on": "2024-10-18",
+    "uuid": "99ff3ab4-3570-4bc1-90a1-183ff70580d8",
+    "record_created_on": "2024-10-25",
     "record_created_by": "Alieva, Aibaniz",
     "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
-    "title": "The Hebrew Palaeography Album",
-    "abbr": "HebrewPal",
+    "title": "The Monumental Inscriptions of Historic Cairo",
+    "abbr": "",
     "type": "project",
     "ref": [],
     "date": [
       {
-        "from": "2022",
+        "from": "2010",
         "to": ""
       }
     ],
     "maintained": true,
     "websites": [
-      "https://www.hebrewpalaeography.com/"
+      "https://islamicinscriptions.cultnat.org/"
     ],
-    "project_desc": "The aim of this resource is to offer historians, textual scholars, manuscript students, and the general learned public accessible tools for the study of Hebrew scripts and handwritings from the Middle Ages and Early Modern period. It analyses and makes freely available samples of manuscripts, both books and documents, as well as epigraphic inscriptions in Hebrew and Judeo-languages from across Jewish communities.",
+    "project_desc": "The Project covers Islamic inscriptions that are found in a range of the most important pre-1800 historical monuments in Cairo. The project database includes 3300 inscriptions related to 509 monuments, written on different materials such as stone, plaster, wood, and metal, and in many types of script including Kufic, Thuluth, and Naskh.",
     "places": [
       {
         "place_name": {
-          "text": "Oxford",
+          "text": "Cairo",
           "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
+            "https://www.geonames.org/360630/cairo.html"
           ]
         },
         "coordinates": {
-          "lat": "51.75201",
-          "lng": "-1.25785"
+          "lat": "30.04439",
+          "lng": "31.23573"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Giza",
+          "ref": [
+            "https://www.geonames.org/360995/giza.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "29.98708",
+          "lng": "31.21181"
         }
       }
     ],
@@ -44,69 +56,64 @@
       {
         "relation_type": "host",
         "org_name": {
-          "text": "University of Oxford",
+          "text": "American Research Center in Egypt",
           "ref": [
-            "https://ror.org/052gg0110",
-            "https://www.wikidata.org/wiki/Q34433"
+            "https://ror.org/020r34245",
+            "https://www.wikidata.org/wiki/Q2945405"
           ]
         },
         "websites": [
-          "http://www.ox.ac.uk"
+          "https://arce.org/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Center for Documentation of Cultural and Natural Heritage",
+          "ref": [
+            "https://ror.org/051a9ap09",
+            "https://www.wikidata.org/wiki/Q5059593"
+          ]
+        },
+        "websites": [
+          "https://www.cultnat.org/"
         ]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
-          "text": "Ludwig-Maximilians-Universität München",
+          "text": "American University in Cairo",
           "ref": [
-            "https://ror.org/05591te55",
-            "https://www.wikidata.org/wiki/Q55044"
+            "https://ror.org/0176yqn58",
+            "https://www.wikidata.org/wiki/Q469476"
           ]
         },
         "websites": [
-          "https://www.lmu.de"
-        ]
-      },
-      {
-        "relation_type": "cooperation",
-        "org_name": {
-          "text": "Université Paris Sciences et Lettres",
-          "ref": [
-            "https://ror.org/013cjyk83",
-            "https://www.wikidata.org/wiki/Q1163431"
-          ]
-        },
-        "websites": [
-          "https://psl.eu"
+          "https://www.aucegypt.edu/"
         ]
       }
     ],
-    "related_entities": [
-      {
-        "relation_type": "cooperation",
-        "title": "Jewish Book Culture in the Islamicate World",
-        "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37"
-      }
-    ],
+    "related_entities": [],
     "contacts": [
       {
         "pers_name": {
-          "text": "Olszowy-Schlanger, Judith",
+          "text": "O'Kane, Bernard",
           "ref": [
-            "https://d-nb.info/gnd/1046170465"
+            "https://d-nb.info/gnd/132144093",
+            "https://www.wikidata.org/wiki/Q105018054"
           ]
         },
         "roles": [
           "supervision"
         ],
         "websites": [
-          "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
+          "https://www.aucegypt.edu/fac/bernard-okane"
         ]
       }
     ],
     "research_data": {
       "lang": [
-        "heb"
+        "ara"
       ],
       "sustainability_plan": null,
       "publications": {
@@ -156,14 +163,13 @@
       }
     ],
     "keywords": [
+      "arabic_studies",
       "corpus_output",
       "digital_preservation",
+      "epigraphy",
       "history_studies",
       "inscription",
-      "jewish_studies",
-      "manuscript",
-      "religious_text",
-      "translation"
+      "islamic_studies"
     ],
     "category": "digital_preservation",
     "comment": ""

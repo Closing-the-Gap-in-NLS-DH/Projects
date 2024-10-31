@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "32bc596c-eafd-4bd2-8df3-f1ab5cff4ad6",
     "record_created_on": "2022-07-19",
     "record_created_by": "Huber, Alexander",
-    "last_edited_on": "2022-07-21",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,43 +12,90 @@
     "abbr": "RPPA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "2025" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2025"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.romanticperiodpoetry.org/"],
+    "websites": [
+      "https://www.romanticperiodpoetry.org/"
+    ],
     "project_desc": "The Romantic Period Poetry Archive, or RPPA for short, is an open access digital platform of global Romantic-period poetry. It comprises a full-text poetry database and an open scholarship platform. Over 600 poets from 70 countries will be included in the database by the end of the alpha phase of the project (2020-2025).",
     "places": [
       {
         "place_name": {
           "text": "Oxford",
-          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
         },
-        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
       }
     ],
     "related_institutions": [],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Huber, Alexander", "ref": [] },
-        "roles": ["supervision"],
-        "websites": ["https://c18ah.hcommons.org/"]
+        "pers_name": {
+          "text": "Huber, Alexander",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://c18ah.hcommons.org/"
+        ]
       }
     ],
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

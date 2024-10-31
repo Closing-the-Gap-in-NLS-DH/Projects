@@ -1,96 +1,162 @@
 {
-    "schema_version": "0.2.4",
-    "record_metadata": {
-      "uuid": "29603647-10fb-4843-aaab-b9a621c72275",
-      "record_created_on": "2024-10-18",
-      "record_created_by": "Sido Bozan, Joudy",
-      "last_edited_on": "",
-      "interviewed": false
-    },
-    "project": {
-      "title": "Al-Furqan E-Database",
-      "abbr": "",
-      "type": "project",
-      "ref": [],
-      "date": [{ "from": "2013", "to": "" }],
-      "maintained": true,
-      "websites": ["https://digitallibrary.al-furqan.com/world_library"],
-      "project_desc": "The Al-Furqan Digital Library offers extensive access to a rich collection of Islamic manuscripts and scholarly works. It serves as a vital resource for researchers in the field of digital humanities by providing online access to rare texts, fostering the preservation of cultural heritage, and supporting academic study through searchable digital content.",
-      "places": [
-        {
-          "place_name": {
-            "text": "London",
-            "ref": ["https://www.geonames.org/2643743/"]
-          },
-          "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "29603647-10fb-4843-aaab-b9a621c72275",
+    "record_created_on": "2024-10-18",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2024-10-31",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Al-Furqan E-Database",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://digitallibrary.al-furqan.com/world_library"
+    ],
+    "project_desc": "The Al-Furqan Digital Library offers extensive access to a rich collection of Islamic manuscripts and scholarly works. It serves as a vital resource for researchers in the field of digital humanities by providing online access to rare texts, fostering the preservation of cultural heritage, and supporting academic study through searchable digital content.",
+    "places": [
+      {
+        "place_name": {
+          "text": "London",
+          "ref": [
+            "https://www.geonames.org/2643743/"
+          ]
         },
-        {
-          "place_name": {
-            "text": "Jeddah",
-            "ref": ["https://www.geonames.org/105343/"]
-          },
-          "coordinates": { "lat": "21.49012", "lng": "-39.18624" }
-        },
-        {
-          "place_name": {
-            "text": "Cairo",
-            "ref": ["https://www.geonames.org/360630/"]
-          },
-          "coordinates": { "lat": "30.06263", "lng": "31.24967" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
         }
-      ],
-      "lang": ["eng", "ara"],
-      "related_institutions": [
-        {
-          "relation_type": "host",
-          "org_name": {
-            "text": "Al-Furqan - Islamic Heritage Foundation",
-            "ref": [
-              "https://www.wikidata.org/wiki/Q15781976",
-              "https://ror.org/00a18kc17"
-            ]
-          },
-          "websites": ["https://al-furqan.com/"]
-        }
-      ],
-      "related_entities": [],
-      "contacts": [
-        {
-          "pers_name": {
-            "text": "Benaicha, Karima",
-            "ref": []
-          },
-          "roles": ["supervision"],
-          "websites": ["https://al-furqan.com/our-executive-structure/"]
-        }
-      ],
-      "research_data": {
-        "lang": ["sqi", "amh", "ara", "chg", "cop", "tur", "eng", "fra", "hau", "heb", "ita", "jav", "kas", "kur", "fas", "snd", "urd"],
-        "sustainability_plan": null,
-        "publications": { "open_access": 0, "licensing": [""] },
-        "data": { "datatypes": [], "repositories": [] }
       },
-      "stack": {
-        "database": [],
-        "backend": [],
-        "frontend": [],
-        "tools": [
-          { "label": "", "self_developed": false, "ref": [], "description": "" }
+      {
+        "place_name": {
+          "text": "Jeddah",
+          "ref": [
+            "https://www.geonames.org/105343/"
+          ]
+        },
+        "coordinates": {
+          "lat": "21.49012",
+          "lng": "-39.18624"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cairo",
+          "ref": [
+            "https://www.geonames.org/360630/"
+          ]
+        },
+        "coordinates": {
+          "lat": "30.06263",
+          "lng": "31.24967"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "ara"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Al-Furqan - Islamic Heritage Foundation",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q15781976",
+            "https://ror.org/00a18kc17"
+          ]
+        },
+        "websites": [
+          "https://al-furqan.com/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Benaicha, Karima",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
         ],
-        "languages": []
-      },
-      "policies": [{ "description": "", "ref": [] }],
-      "keywords": [
-        "catalog",
-        "digital_preservation",
-        "geography",
-        "islamic_studies",
-        "language_documentation",
-        "manuscript"
+        "websites": [
+          "https://al-furqan.com/our-executive-structure/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "sqi",
+        "amh",
+        "ara",
+        "chg",
+        "cop",
+        "tur",
+        "eng",
+        "fra",
+        "hau",
+        "heb",
+        "ita",
+        "jav",
+        "kas",
+        "kur",
+        "fas",
+        "snd",
+        "urd"
       ],
-      "category": "digital_preservation",
-      "comment": "project has no affiliation with a university, manuscripts are based on a survey conducted in the 1990s by the foundation."
-    }
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "geography",
+      "islamic_studies",
+      "language_documentation",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": "project has no affiliation with a university, manuscripts are based on a survey conducted in the 1990s by the foundation."
   }
-  
-  
+}

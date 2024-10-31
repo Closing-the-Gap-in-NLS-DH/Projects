@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "2253d7f2-c150-44e2-9a8a-c7c5ba0ab661",
     "record_created_on": "2023-12-14",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "Classicmayan",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2014", "to": "" }],
+    "date": [
+      {
+        "from": "2014",
+        "to": ""
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://classicmayan.org/portal/",
@@ -23,26 +28,45 @@
       {
         "place_name": {
           "text": "Bonn",
-          "ref": ["https://www.geonames.org/2946447/bonn.html"]
+          "ref": [
+            "https://www.geonames.org/2946447/bonn.html"
+          ]
         },
-        "coordinates": { "lat": "50.73438", "lng": "7.09549" }
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
       },
       {
         "place_name": {
           "text": "Düsseldorf",
-          "ref": ["https://www.geonames.org/2934246/duesseldorf.html"]
+          "ref": [
+            "https://www.geonames.org/2934246/duesseldorf.html"
+          ]
         },
-        "coordinates": { "lat": "51.22172", "lng": "6.77616" }
+        "coordinates": {
+          "lat": "51.22172",
+          "lng": "6.77616"
+        }
       },
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["eng", "deu", "spa"],
+    "lang": [
+      "eng",
+      "deu",
+      "spa"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,7 +77,9 @@
             "https://ror.org/041nas322"
           ]
         },
-        "websites": ["https://www.uni-bonn.de/de"]
+        "websites": [
+          "https://www.uni-bonn.de/de"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -64,7 +90,9 @@
             "https://ror.org/03aym6q96"
           ]
         },
-        "websites": ["https://www.awk.nrw/"]
+        "websites": [
+          "https://www.awk.nrw/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -75,7 +103,9 @@
             "https://ror.org/04bvdz568"
           ]
         },
-        "websites": ["https://www.akademienunion.de/"]
+        "websites": [
+          "https://www.akademienunion.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -89,27 +119,42 @@
       {
         "pers_name": {
           "text": "Grube, Nikolai",
-          "ref": ["https://d-nb.info/gnd/110726553"]
+          "ref": [
+            "https://d-nb.info/gnd/110726553"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.uni-bonn.de/de/forschung-lehre/forschungsprofil/transdisziplinaere-forschungsbereiche/tra5/mitgliederverzeichnis/nikolai-grube"
         ]
       }
     ],
     "research_data": {
-      "lang": ["emy"],
+      "lang": [
+        "emy"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
             "label": "",
             "accessibility": "public",
             "ref": [],
+            "websites": [],
             "licensing": [],
             "description": ""
           }
@@ -121,11 +166,22 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_preservation",
       "inscription",

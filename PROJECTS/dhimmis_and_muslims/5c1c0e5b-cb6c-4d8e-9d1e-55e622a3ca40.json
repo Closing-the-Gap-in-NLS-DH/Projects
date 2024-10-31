@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "5c1c0e5b-cb6c-4d8e-9d1e-55e622a3ca40",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "DAMAST",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2017", "to": "2021" }],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2021"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://damast.geschichte.hu-berlin.de/",
@@ -26,26 +31,44 @@
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
-        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
+        "coordinates": {
+          "lat": "50.11552",
+          "lng": "8.68417"
+        }
       },
       {
         "place_name": {
           "text": "Stuttgart",
-          "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
+          "ref": [
+            "https://www.geonames.org/2825297/stuttgart.html"
+          ]
         },
-        "coordinates": { "lat": "48.78232", "lng": "9.17702" }
+        "coordinates": {
+          "lat": "48.78232",
+          "lng": "9.17702"
+        }
       },
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -56,7 +79,9 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["https://www.goethe-university-frankfurt.de/en?"]
+        "websites": [
+          "https://www.goethe-university-frankfurt.de/en?"
+        ]
       },
       {
         "relation_type": "host",
@@ -67,7 +92,9 @@
             "https://www.wikidata.org/wiki/Q122453"
           ]
         },
-        "websites": ["https://www.uni-stuttgart.de/home/index.en.html"]
+        "websites": [
+          "https://www.uni-stuttgart.de/home/index.en.html"
+        ]
       },
       {
         "relation_type": "host",
@@ -78,7 +105,9 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": ["https://www.hu-berlin.de/de"]
+        "websites": [
+          "https://www.hu-berlin.de/de"
+        ]
       }
     ],
     "related_entities": [],
@@ -86,9 +115,13 @@
       {
         "pers_name": {
           "text": "Koch, Steffen",
-          "ref": ["https://d-nb.info/gnd/1041280173"]
+          "ref": [
+            "https://d-nb.info/gnd/1041280173"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.vis.uni-stuttgart.de/en/institute/team/Koch-00006/"
         ]
@@ -96,28 +129,60 @@
       {
         "pers_name": {
           "text": "Weltecke, Dorothea",
-          "ref": ["https://d-nb.info/gnd/124993095"]
+          "ref": [
+            "https://d-nb.info/gnd/124993095"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschichte.uni-frankfurt.de/66156354/Dorothea_Weltecke"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "geodata",
       "history_studies",

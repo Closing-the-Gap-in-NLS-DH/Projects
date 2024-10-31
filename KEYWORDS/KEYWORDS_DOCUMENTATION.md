@@ -31,6 +31,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - [art_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept20)
    - [cultural_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept30)
    - dialectology
+   - epigraphy
    - egyptology
    - [geography](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept25)
    - [history_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept32)

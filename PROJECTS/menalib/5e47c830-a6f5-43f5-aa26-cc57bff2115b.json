@@ -1,109 +1,152 @@
 {
-    "schema_version": "0.2.4",
-    "record_metadata": {
-      "uuid": "5e47c830-a6f5-43f5-aa26-cc57bff2115b",
-      "record_created_on": "2024-10-24",
-      "record_created_by": "Sido Bozan, Joudy",
-      "last_edited_on": "",
-      "interviewed": false
-    },
-    "project": {
-      "title": "The Middle East Virtual Library",
-      "abbr": "MENALIB",
-      "type": "project",
-      "ref": [],
-      "date": [{ "from": "2016", "to": "" }],
-      "maintained": true,
-      "websites": [
-        "https://www.menalib.de/en/"
-      ],
-      "project_desc": "The project acquires difficult to access literature from countries of the MENA region in their original languages, allowing them to be permanently available. The subjects of literature are numerous, access to the materials is either traditional interlibrary loan or through digitized materials with Open Access.",
-      "places": [
-        {
-          "place_name": {
-            "text": "Halle (Saale)",
-            "ref": ["https://www.geonames.org/2911522/"]
-          },
-          "coordinates": { "lat": "51.48158", "lng": "11.97947" }
-        }
-      ],
-      "lang": ["eng", "deu"],
-      "related_institutions": [
-        {
-          "relation_type": "host",
-          "org_name": {
-            "text": "Universitäts- und Landesbibliothek Sachsen-Anhalt",
-            "ref": [
-              "https://www.wikidata.org/wiki/Q1600777",
-              "https://ror.org/03c241w53"
-            ]
-          },
-          "websites": ["https://bibliothek.uni-halle.de/"]
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "5e47c830-a6f5-43f5-aa26-cc57bff2115b",
+    "record_created_on": "2024-10-24",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2024-10-31",
+    "interviewed": false
+  },
+  "project": {
+    "title": "The Middle East Virtual Library",
+    "abbr": "MENALIB",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.menalib.de/en/"
+    ],
+    "project_desc": "The project acquires difficult to access literature from countries of the MENA region in their original languages, allowing them to be permanently available. The subjects of literature are numerous, access to the materials is either traditional interlibrary loan or through digitized materials with Open Access.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Halle (Saale)",
+          "ref": [
+            "https://www.geonames.org/2911522/"
+          ]
         },
-        {
-          "relation_type": "cooperation",
-          "org_name": {
-            "text": "Webis",
-            "ref": []
-          },
-          "websites": ["https://wikis.sub.uni-hamburg.de/webis/index.php/Webis_-_Sammelschwerpunkte_an_deutschen_Bibliotheken"]
+        "coordinates": {
+          "lat": "51.48158",
+          "lng": "11.97947"
         }
-      ],
-      "related_entities": [],
-      "contacts": [
-        {
-          "pers_name": { "text": "Adam, Volker", "ref": [
+      }
+    ],
+    "lang": [
+      "eng",
+      "deu"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universitäts- und Landesbibliothek Sachsen-Anhalt",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1600777",
+            "https://ror.org/03c241w53"
+          ]
+        },
+        "websites": [
+          "https://bibliothek.uni-halle.de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Webis",
+          "ref": []
+        },
+        "websites": [
+          "https://wikis.sub.uni-hamburg.de/webis/index.php/Webis_-_Sammelschwerpunkte_an_deutschen_Bibliotheken"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Adam, Volker",
+          "ref": [
             "https://www.wikidata.org/wiki/Q122190054",
-              "https://d-nb.info/gnd/123956951"
-            ] 
-          },
-          "roles": ["supervision"],
-          "websites": [
-            "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
+            "https://d-nb.info/gnd/123956951"
           ]
-        }
-      ],
-      "research_data": {
-        "lang": ["ara", "tur", "fas"],
-        "sustainability_plan": null,
-        "publications": { "open_access": 0, "licensing": [] },
-        "data": {
-          "datatypes": [
-            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
-          ],
-          "repositories": [
-            {
-              "label": "",
-              "accessibility": "public",
-              "ref": [],
-              "licensing": [],
-              "description": ""
-            }
-          ]
-        }
-      },
-      "stack": {
-        "database": [],
-        "backend": [],
-        "frontend": [],
-        "tools": [
-          { "label": "", "self_developed": false, "ref": [], "description": "" }
+        },
+        "roles": [
+          "supervision"
         ],
-        "languages": []
-      },
-      "policies": [{ "description": "", "ref": [] }],
-      "keywords": [
-        "arabic_studies",
-        "catalog",
-        "digital_preservation",
-        "iranian_studies",
-        "islamic_studies",
-        "semitic_studies",
-        "turkology"
-        
+        "websites": [
+          "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "tur",
+        "fas"
       ],
-      "category": "digital_preservation",
-      "comment": ""
-    }
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "iranian_studies",
+      "islamic_studies",
+      "semitic_studies",
+      "turkology"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
   }
-  
+}
