@@ -57,7 +57,6 @@
 
 			for (const place of places) {
 				const key =
-					place.place_name.text +
 					place.coordinates.lat.split('.')[0] +
 					place.coordinates.lng.split('.')[0];
 
