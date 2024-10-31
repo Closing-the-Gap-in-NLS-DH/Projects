@@ -240,7 +240,8 @@
       "geodata",
       "history_studies",
       "islamic_studies",
-      "manuscript"
+      "manuscript",
+      "map"
     ],
     "category": "digital_preservation",
     "comment": "The sustainability of the data is ensured in two ways: first, through the ZFDM Repository at Universität Hamburg, and second, by its integration into the Bibliotheca Arabica database. This research data will be utilized to train machine learning models for the automatic recognition of audition certificates in Arabic manuscripts and their specific components."

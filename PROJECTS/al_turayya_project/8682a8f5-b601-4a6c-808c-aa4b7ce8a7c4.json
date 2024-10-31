@@ -148,6 +148,9 @@
         "Python"
       ]
     },
+
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["geodata", "geography", "islamic_studies", "map", "visualization"],
     "policies": [
       {
         "description": "",
@@ -160,6 +163,7 @@
       "islamic_studies",
       "visualization"
     ],
+
     "category": "tools_and_analysis",
     "comment": ""
   }
