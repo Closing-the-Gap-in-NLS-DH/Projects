@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
     "record_created_on": "2022-07-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015-01-12", "to": "2018-01-12" }],
+    "date": [
+      {
+        "from": "2015-01-12",
+        "to": "2018-01-12"
+      }
+    ],
     "maintained": false,
     "websites": [
       "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
@@ -23,19 +28,31 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
-        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -46,7 +63,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -57,7 +76,9 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": ["https://www.umd.edu/"]
+        "websites": [
+          "https://www.umd.edu/"
+        ]
       }
     ],
     "related_entities": [
@@ -71,9 +92,13 @@
       {
         "pers_name": {
           "text": "Ilan, Tal",
-          "ref": ["https://d-nb.info/gnd/121164306"]
+          "ref": [
+            "https://d-nb.info/gnd/121164306"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/talmudbavli/contacts/contacts_tal/"
         ]
@@ -81,26 +106,60 @@
       {
         "pers_name": {
           "text": "Lapin, Hayim",
-          "ref": ["https://d-nb.info/gnd/1026148820"]
+          "ref": [
+            "https://d-nb.info/gnd/1026148820"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://history.umd.edu/directory/hayim-lapin"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://history.umd.edu/directory/hayim-lapin"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "computational_text_analysis",
       "jewish_studies",

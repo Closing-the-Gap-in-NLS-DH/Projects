@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.4";
+const schemaVersion = "0.2.5";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
@@ -270,6 +270,9 @@ export const projectSchema = z
                           ),
                         ref: z
                           .array(z.string().url())
+                          .describe("List of authority file URIs"),
+                        websites: z
+                          .array(z.string().url())
                           .describe("List of repository URLs (if applicable)"),
                         licensing: z
                           .array(z.string())
@@ -333,7 +336,10 @@ export const projectSchema = z
                       .describe("Is the tool developed within the project?"),
                     ref: z
                       .array(z.string().url())
-                      .describe("List of URLs for the tool and/or codebase"),
+                      .describe("List of authority file URIs"),
+                    websites: z
+                      .array(z.string().url())
+                      .describe("List of repository URLs (if applicable)"),
                     description: z
                       .string()
                       .describe(

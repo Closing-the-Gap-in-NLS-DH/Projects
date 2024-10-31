@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "ef09872b-1422-46c8-9271-213f8603d62f",
     "record_created_on": "2024-10-01",
     "record_created_by": "Sido Bozan, Joudy",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,27 +12,47 @@
     "abbr": "HATA",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "1988", "to": "" }],
+    "date": [
+      {
+        "from": "1988",
+        "to": ""
+      }
+    ],
     "maintained": false,
-    "websites": ["https://www.eea.csic.es/red/hata/index.html"],
+    "websites": [
+      "https://www.eea.csic.es/red/hata/index.html"
+    ],
     "project_desc": "The project focus lies in the intellectual production of al-Andalus. It aims to compile a bio-bibliographical database of over 5,000 Andalusian scholars, detailing their works and contributions in chronological order.",
     "places": [
       {
         "place_name": {
           "text": "Madrid",
-          "ref": ["https://www.geonames.org/3117735/"]
+          "ref": [
+            "https://www.geonames.org/3117735/"
+          ]
         },
-        "coordinates": { "lat": "40.4165", "lng": "-3.70256" }
+        "coordinates": {
+          "lat": "40.4165",
+          "lng": "-3.70256"
+        }
       },
       {
         "place_name": {
           "text": "Granada",
-          "ref": ["https://www.geonames.org/3580239/"]
+          "ref": [
+            "https://www.geonames.org/3580239/"
+          ]
         },
-        "coordinates": { "lat": "12.11667", "lng": "-61.66667" }
+        "coordinates": {
+          "lat": "12.11667",
+          "lng": "-61.66667"
+        }
       }
     ],
-    "lang": ["eng", "spa"],
+    "lang": [
+      "eng",
+      "spa"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,7 +63,9 @@
             "https://www.wikidata.org/wiki/Q1024362"
           ]
         },
-        "websites": ["https://www.csic.es"]
+        "websites": [
+          "https://www.csic.es"
+        ]
       },
       {
         "relation_type": "host",
@@ -54,7 +76,9 @@
             "https://www.wikidata.org/wiki/Q7432381"
           ]
         },
-        "websites": ["https://www.eea.csic.es"]
+        "websites": [
+          "https://www.eea.csic.es"
+        ]
       }
     ],
     "related_entities": [],
@@ -62,27 +86,43 @@
       {
         "pers_name": {
           "text": "Fierro, Maribel",
-          "ref": ["https://d-nb.info/gnd/1054572747"]
+          "ref": [
+            "https://d-nb.info/gnd/1054572747"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://cchs.csic.es/en/personal/maria-isabel-fierro-bello"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "spa"],
+      "lang": [
+        "ara",
+        "spa"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
             "label": "",
             "accessibility": "public",
             "ref": [],
+            "websites": [],
             "licensing": [],
             "description": ""
           }
@@ -94,11 +134,22 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "biographical_data",

@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2021-05-05",
+    "last_edited_on": "2024-10-31",
     "interviewed": true
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "MAJLIS",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2026" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2026"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/majlis/index.html",
@@ -24,12 +29,19 @@
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -40,7 +52,9 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"]
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ]
       }
     ],
     "related_entities": [
@@ -64,24 +78,37 @@
       {
         "pers_name": {
           "text": "Vollandt, Ronny",
-          "ref": ["https://d-nb.info/gnd/1173742050"]
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 100, "licensing": ["CC BY-NC 4.0"] },
+      "publications": {
+        "open_access": 100,
+        "licensing": [
+          "CC BY-NC 4.0"
+        ]
+      },
       "data": {
         "datatypes": [
           {
             "label": "XML",
             "stage": "final",
-            "licensing": ["CC BY-NC 4.0"],
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
             "open_access": 100
           }
         ],
@@ -89,41 +116,81 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": ["https://github.com/majlis-erc"],
-            "licensing": ["CC BY-NC 4.0"],
+            "ref": [],
+            "websites": [
+              "https://github.com/majlis-erc"
+            ],
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
             "description": ""
           },
           {
             "label": "Open Data LMU",
             "accessibility": "public",
-            "ref": ["https://data.ub.uni-muenchen.de/"],
-            "licensing": ["CC BY-NC 4.0"],
+            "ref": [],
+            "websites": [
+              "https://data.ub.uni-muenchen.de/"
+            ],
+            "licensing": [
+              "CC BY-NC 4.0"
+            ],
             "description": "There is no instance yet; the project will be migrated in the future"
           }
         ]
       }
     },
     "stack": {
-      "database": ["XML"],
-      "backend": ["manuForma", "XSLT", "XForm", "XQuery", "eXist-db"],
-      "frontend": ["Srophe", "JS", "XSLT", "XHTML"],
+      "database": [
+        "XML"
+      ],
+      "backend": [
+        "manuForma",
+        "XSLT",
+        "XForm",
+        "XQuery",
+        "eXist-db"
+      ],
+      "frontend": [
+        "Srophe",
+        "JS",
+        "XSLT",
+        "XHTML"
+      ],
       "tools": [
         {
           "label": "manuForma",
           "self_developed": true,
-          "ref": ["https://github.com/majlis-erc/manuForma"],
+          "ref": [],
+          "websites": [
+            "https://github.com/majlis-erc/manuForma"
+          ],
           "description": "TEI-XML File Generator"
         },
         {
           "label": "Srophe",
           "self_developed": false,
-          "ref": ["https://srophe.app/"],
+          "ref": [],
+          "websites": [
+            "https://srophe.app/"
+          ],
           "description": "Frontend framework for projects working with TEI-XML"
         }
       ],
-      "languages": ["XQuery", "XSLT", "JS", "XHTML", "CSS"]
+      "languages": [
+        "XQuery",
+        "XSLT",
+        "JS",
+        "XHTML",
+        "CSS"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "literary_studies",

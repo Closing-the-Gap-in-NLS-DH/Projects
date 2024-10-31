@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
     "record_created_on": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,45 +12,77 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2017", "to": "2020" }],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2020"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://openiti.org/projects/CorpusBuilder.html"],
+    "websites": [
+      "https://openiti.org/projects/CorpusBuilder.html"
+    ],
     "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
-        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
       },
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       },
       {
         "place_name": {
           "text": "London",
-          "ref": ["https://www.geonames.org/2643743/london.html"]
+          "ref": [
+            "https://www.geonames.org/2643743/london.html"
+          ]
         },
-        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
+        "coordinates": {
+          "lat": "51.50853",
+          "lng": "-0.12574"
+        }
       },
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       },
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
         },
-        "coordinates": { "lat": "42.3751", "lng": "-71.10561" }
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
+        }
       }
     ],
     "lang": [],
@@ -79,26 +111,65 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Allen, Jonathan", "ref": [] },
-        "roles": ["investigation"],
-        "websites": ["https://sllc.umd.edu/directory/jonathan-allen"]
+        "pers_name": {
+          "text": "Allen, Jonathan",
+          "ref": []
+        },
+        "roles": [
+          "investigation"
+        ],
+        "websites": [
+          "https://sllc.umd.edu/directory/jonathan-allen"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["islamic_studies", "machine_learning", "ocr"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "islamic_studies",
+      "machine_learning",
+      "ocr"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }

@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.4",
+  "schema_version": "0.2.5",
   "record_metadata": {
     "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445",
     "record_created_on": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "",
+    "last_edited_on": "2024-10-31",
     "interviewed": false
   },
   "project": {
@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "http://ipp.manuscript-cultures.uni-hamburg.de/",
@@ -23,12 +28,19 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -126,27 +140,62 @@
     ],
     "contacts": [
       {
-        "pers_name": { "text": "Serpell, Stephen", "ref": [] },
-        "roles": ["supervision"],
+        "pers_name": {
+          "text": "Serpell, Stephen",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/serpell.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas", "tur"],
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "art_studies",
       "catalog",
