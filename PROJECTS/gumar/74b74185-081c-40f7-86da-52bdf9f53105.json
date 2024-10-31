@@ -12,20 +12,34 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2018", "to": "" }],
+    "date": [
+      {
+        "from": "2018",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://camel.abudhabi.nyu.edu/gumar/"],
+    "websites": [
+      "https://camel.abudhabi.nyu.edu/gumar/"
+    ],
     "project_desc": "The aim of the GUMAR project is to automatically annotate a 100M-word Gulf Arabic corpus and develop gold standard data annotations for 200,000 words from eight novels, improving tools for Gulf Arabic automatic analysis.",
     "places": [
       {
         "place_name": {
           "text": "Abu Dabi",
-          "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
+          "ref": [
+            "https://www.geonames.org/292968/abu-dhabi.html"
+          ]
         },
-        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
+        "coordinates": {
+          "lat": "24.45384",
+          "lng": "54.37740"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q566189"
           ]
         },
-        "websites": ["https://nyuad.nyu.edu/en/"]
+        "websites": [
+          "https://nyuad.nyu.edu/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -55,25 +71,42 @@
       {
         "pers_name": {
           "text": "Habash, Nizar",
-          "ref": ["https://www.wikidata.org/wiki/Q93953901"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q93953901"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.nizarhabash.com"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.nizarhabash.com"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
             "label": "",
             "accessibility": "public",
             "ref": [],
+            "websites": [],
             "licensing": [],
             "description": ""
           }
@@ -85,11 +118,22 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "arabic_studies",

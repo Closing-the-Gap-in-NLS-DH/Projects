@@ -12,7 +12,12 @@
     "abbr": "WSE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2022" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2022"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://worldscriptsexplorer.page",
@@ -23,9 +28,14 @@
       {
         "place_name": {
           "text": "Köln",
-          "ref": ["https://www.geonames.org/2886242/koeln.html"]
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
         },
-        "coordinates": { "lat": "50.93333", "lng": "6.95" }
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
+        }
       }
     ],
     "lang": [],
@@ -39,14 +49,21 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": ["https://www.uni-koeln.de/"]
+        "websites": [
+          "https://www.uni-koeln.de/"
+        ]
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": { "text": "Simha, Vyshantha", "ref": [] },
-        "roles": ["software"],
+        "pers_name": {
+          "text": "Simha, Vyshantha",
+          "ref": []
+        },
+        "roles": [
+          "software"
+        ],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
           "https://github.com/Vyshantha/multiscripteditor"
@@ -55,9 +72,13 @@
       {
         "pers_name": {
           "text": "Eide, Øyvind",
-          "ref": ["https://d-nb.info/gnd/1084655063"]
+          "ref": [
+            "https://d-nb.info/gnd/1084655063"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
         ]
@@ -66,13 +87,18 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": true,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
             "label": "JSON",
             "stage": "refined",
-            "licensing": ["CC0-1.0"],
+            "licensing": [
+              "CC0-1.0"
+            ],
             "open_access": 100
           }
         ],
@@ -80,35 +106,61 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": ["https://github.com/Vyshantha/multiscripteditor"],
-            "licensing": ["CC0-1.0"],
+            "ref": [
+              "https://github.com/Vyshantha/multiscripteditor"
+            ],
+            "websites": [],
+            "licensing": [
+              "CC0-1.0"
+            ],
             "description": ""
           }
         ]
       }
     },
     "stack": {
-      "database": ["JSON"],
-      "backend": ["Python"],
-      "frontend": ["Angular", "TS", "JS"],
+      "database": [
+        "JSON"
+      ],
+      "backend": [
+        "Python"
+      ],
+      "frontend": [
+        "Angular",
+        "TS",
+        "JS"
+      ],
       "tools": [
         {
           "label": "FontForge",
           "self_developed": false,
-          "ref": ["https://fontforge.org/docs/index.html"],
+          "ref": [
+            "https://fontforge.org/docs/index.html"
+          ],
+          "websites": [],
           "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
         },
         {
           "label": "Keyman",
           "self_developed": false,
-          "ref": ["https://keyman.com/"],
+          "ref": [
+            "https://keyman.com/"
+          ],
+          "websites": [],
           "description": "Open-source platform for custom language keyboard layouts on multiple devices."
         }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["vre"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "vre"
+    ],
     "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
   }

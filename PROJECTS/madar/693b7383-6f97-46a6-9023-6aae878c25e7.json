@@ -12,34 +12,58 @@
     "abbr": "MADAR",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016-02", "to": "2019-01" }],
+    "date": [
+      {
+        "from": "2016-02",
+        "to": "2019-01"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://sites.google.com/nyu.edu/madar/"],
+    "websites": [
+      "https://sites.google.com/nyu.edu/madar/"
+    ],
     "project_desc": "The project aimed at improving dialectal Arabic processing by developing resources for Arabic dialect modeling, including a 25-city multi-dialect lexicon and parallel corpus, as well as creating machine translation systems between dialects, English, and Standard Arabic, and advancing dialect identification systems capable of operating at different levels of granularity.",
     "places": [
       {
         "place_name": {
           "text": "Doha",
-          "ref": ["https://www.geonames.org/290030/doha.html"]
+          "ref": [
+            "https://www.geonames.org/290030/doha.html"
+          ]
         },
-        "coordinates": { "lat": "24.73677", "lng": "81.44660" }
+        "coordinates": {
+          "lat": "24.73677",
+          "lng": "81.44660"
+        }
       },
       {
         "place_name": {
           "text": "Abu Dabi",
-          "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
+          "ref": [
+            "https://www.geonames.org/292968/abu-dhabi.html"
+          ]
         },
-        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
+        "coordinates": {
+          "lat": "24.45384",
+          "lng": "54.37740"
+        }
       },
       {
         "place_name": {
           "text": "New York",
-          "ref": ["https://www.geonames.org/5128581/new-york-city.html"]
+          "ref": [
+            "https://www.geonames.org/5128581/new-york-city.html"
+          ]
         },
-        "coordinates": { "lat": "40.71273", "lng": "-74.00602" }
+        "coordinates": {
+          "lat": "40.71273",
+          "lng": "-74.00602"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,7 +74,9 @@
             "https://www.wikidata.org/wiki/Q890704"
           ]
         },
-        "websites": ["https://www.qatar.cmu.edu"]
+        "websites": [
+          "https://www.qatar.cmu.edu"
+        ]
       },
       {
         "relation_type": "host",
@@ -61,7 +87,9 @@
             "https://www.wikidata.org/wiki/Q566189"
           ]
         },
-        "websites": ["https://nyuad.nyu.edu/en/"]
+        "websites": [
+          "https://nyuad.nyu.edu/en/"
+        ]
       },
       {
         "relation_type": "host",
@@ -72,7 +100,9 @@
             "https://www.wikidata.org/wiki/Q49088"
           ]
         },
-        "websites": ["https://www.columbia.edu"]
+        "websites": [
+          "https://www.columbia.edu"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -83,7 +113,9 @@
             "https://www.wikidata.org/wiki/Q1707779"
           ]
         },
-        "websites": ["https://www.uob.edu.bh"]
+        "websites": [
+          "https://www.uob.edu.bh"
+        ]
       }
     ],
     "related_entities": [
@@ -102,33 +134,56 @@
       {
         "pers_name": {
           "text": "Habash, Nizar",
-          "ref": ["https://www.wikidata.org/wiki/Q93953901"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q93953901"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.nizarhabash.com"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.nizarhabash.com"
+        ]
       },
       {
         "pers_name": {
           "text": "Oflazer, Kemal",
-          "ref": ["https://www.wikidata.org/wiki/Q102215353"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q102215353"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://sites.google.com/andrew.cmu.edu/kemal-oflazer/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://sites.google.com/andrew.cmu.edu/kemal-oflazer/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
             "label": "",
             "accessibility": "public",
             "ref": [],
+            "websites": [],
             "licensing": [],
             "description": ""
           }
@@ -140,11 +195,22 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "corpus_output",

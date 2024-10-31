@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2018-04-04", "to": "2022-09-30" }],
+    "date": [
+      {
+        "from": "2018-04-04",
+        "to": "2022-09-30"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://www.oeaw.ac.at/acdh/projects/completed-projects/genr-loanwords",
@@ -23,19 +28,32 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       },
       {
         "place_name": {
           "text": "Salzburg",
-          "ref": ["https://www.geonames.org/2766824/salzburg.html"]
+          "ref": [
+            "https://www.geonames.org/2766824/salzburg.html"
+          ]
         },
-        "coordinates": { "lat": "47.79941", "lng": "13.04399" }
+        "coordinates": {
+          "lat": "47.79941",
+          "lng": "13.04399"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -46,7 +64,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       },
       {
         "relation_type": "host",
@@ -57,7 +77,9 @@
             "https://www.wikidata.org/wiki/Q27265"
           ]
         },
-        "websites": ["https://www.plus.ac.at/"]
+        "websites": [
+          "https://www.plus.ac.at/"
+        ]
       }
     ],
     "related_entities": [
@@ -96,28 +118,62 @@
       {
         "pers_name": {
           "text": "Plietzsch, Susanne",
-          "ref": ["https://d-nb.info/gnd/121776832"]
+          "ref": [
+            "https://d-nb.info/gnd/121776832"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://uni-salzburg.elsevierpure.com/de/persons/susanne-plietzsch-4"
         ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "grc", "heb"],
+      "lang": [
+        "arc",
+        "grc",
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_resource",

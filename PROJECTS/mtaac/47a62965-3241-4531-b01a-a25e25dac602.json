@@ -12,7 +12,12 @@
     "abbr": "MTAAC",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2017", "to": "2021" }],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2021"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://cdli-gh.github.io/mtaac/",
@@ -23,26 +28,43 @@
       {
         "place_name": {
           "text": "Toronto",
-          "ref": ["https://www.geonames.org/6167865/toronto.html"]
+          "ref": [
+            "https://www.geonames.org/6167865/toronto.html"
+          ]
         },
-        "coordinates": { "lat": "43.70011", "lng": "-79.4163" }
+        "coordinates": {
+          "lat": "43.70011",
+          "lng": "-79.4163"
+        }
       },
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
-        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
+        "coordinates": {
+          "lat": "50.11552",
+          "lng": "8.68417"
+        }
       },
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
         },
-        "coordinates": { "lat": "34.05223", "lng": "-118.24368" }
+        "coordinates": {
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,7 +75,9 @@
             "https://ror.org/03dbr7087"
           ]
         },
-        "websites": ["https://www.utoronto.ca/"]
+        "websites": [
+          "https://www.utoronto.ca/"
+        ]
       },
       {
         "relation_type": "host",
@@ -64,7 +88,9 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["https://www.uni-frankfurt.de/de"]
+        "websites": [
+          "https://www.uni-frankfurt.de/de"
+        ]
       },
       {
         "relation_type": "host",
@@ -75,7 +101,9 @@
             "https://www.wikidata.org/wiki/Q174710"
           ]
         },
-        "websites": ["https://www.ucla.edu/"]
+        "websites": [
+          "https://www.ucla.edu/"
+        ]
       }
     ],
     "related_entities": [
@@ -89,28 +117,61 @@
       {
         "pers_name": {
           "text": "Baker, Heather D.",
-          "ref": ["https://d-nb.info/gnd/1042917019"]
+          "ref": [
+            "https://d-nb.info/gnd/1042917019"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.nmc.utoronto.ca/people/directories/all-faculty/heather-d-baker"
         ]
       }
     ],
     "research_data": {
-      "lang": ["akk", "sux"],
+      "lang": [
+        "akk",
+        "sux"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "computational_text_analysis",

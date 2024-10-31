@@ -1,169 +1,171 @@
 {
-    "schema_version": "0.2.4",
-    "record_metadata": {
-        "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11",
-        "record_created_on": "2024-10-18",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-10-18",
-        "interviewed": false
-    },
-    "project": {
-        "title": "The Hebrew Palaeography Album",
-        "abbr": "HebrewPal",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2022",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.4",
+  "record_metadata": {
+    "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11",
+    "record_created_on": "2024-10-18",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-10-18",
+    "interviewed": false
+  },
+  "project": {
+    "title": "The Hebrew Palaeography Album",
+    "abbr": "HebrewPal",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2022",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.hebrewpalaeography.com/"
+    ],
+    "project_desc": "The aim of this resource is to offer historians, textual scholars, manuscript students, and the general learned public accessible tools for the study of Hebrew scripts and handwritings from the Middle Ages and Early Modern period. It analyses and makes freely available samples of manuscripts, both books and documents, as well as epigraphic inscriptions in Hebrew and Judeo-languages from across Jewish communities.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75201",
+          "lng": "-1.25785"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://ror.org/052gg0110",
+            "https://www.wikidata.org/wiki/Q34433"
+          ]
+        },
         "websites": [
-            "https://www.hebrewpalaeography.com/"
-        ],
-        "project_desc": "The aim of this resource is to offer historians, textual scholars, manuscript students, and the general learned public accessible tools for the study of Hebrew scripts and handwritings from the Middle Ages and Early Modern period. It analyses and makes freely available samples of manuscripts, both books and documents, as well as epigraphic inscriptions in Hebrew and Judeo-languages from across Jewish communities.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Oxford",
-                    "ref": [
-                        "https://www.geonames.org/2640729/oxford.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.75201",
-                    "lng": "-1.25785"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Oxford",
-                    "ref": [
-                        "https://ror.org/052gg0110",
-                        "https://www.wikidata.org/wiki/Q34433"
-                    ]
-                },
-                "websites": [
-                    "http://www.ox.ac.uk"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
-                    "ref": [
-                        "https://ror.org/05591te55",
-                        "https://www.wikidata.org/wiki/Q55044"
-                    ]
-                },
-                "websites": [
-                    "https://www.lmu.de"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universit\u00e9 Paris Sciences et Lettres",
-                    "ref": [
-                        "https://ror.org/013cjyk83",
-                        "https://www.wikidata.org/wiki/Q1163431"
-                    ]
-                },
-                "websites": [
-                    "https://psl.eu"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "Jewish Book Culture in the Islamicate World",
-                "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Olszowy-Schlanger, Judith",
-                    "ref": [
-                        "https://d-nb.info/gnd/1046170465"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "heb"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "http://www.ox.ac.uk"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität München",
+          "ref": [
+            "https://ror.org/05591te55",
+            "https://www.wikidata.org/wiki/Q55044"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
+        "websites": [
+          "https://www.lmu.de"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Université Paris Sciences et Lettres",
+          "ref": [
+            "https://ror.org/013cjyk83",
+            "https://www.wikidata.org/wiki/Q1163431"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://psl.eu"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Jewish Book Culture in the Islamicate World",
+        "uuid": "d17ea973-8be6-4d5c-81e2-75c69e8e4e37"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Olszowy-Schlanger, Judith",
+          "ref": [
+            "https://d-nb.info/gnd/1046170465"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "history_studies",
-            "inscription",
-            "jewish_studies",
-            "manuscript",
-            "religious_text",
-            "translation"
+        "websites": [
+          "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "history_studies",
+      "inscription",
+      "jewish_studies",
+      "manuscript",
+      "religious_text",
+      "translation"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

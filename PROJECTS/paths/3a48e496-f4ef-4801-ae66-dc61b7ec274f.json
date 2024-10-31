@@ -1,163 +1,232 @@
 {
-    "schema_version": "0.2.4",
-    "record_metadata": {
-      "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f",
-      "record_created_on": "2024-10-09",
-      "record_created_by": "Sido Bozan, Joudy",
-      "last_edited_on": "",
-      "interviewed": false
-    },
-    "project": {
-      "title": "Archaeological Atlas of Coptic Literature by PATHs",
-      "abbr": "PATHs",
-      "type": "project",
-      "ref": [],
-      "date": [{ "from": "2015", "to": "" }],
-      "maintained": true,
-      "websites": [
-        "https://atlas.paths-erc.eu", 
-        "http://paths.uniroma1.it"
-      ],
-      "project_desc": "The project aims  to map and contextualize the distribution of Coptic literary texts across Egypt, focusing on their archaeological and manuscript traditions.",
-      "places": [
-        {
-          "place_name": { "text": "Roma", "ref": ["https://www.geonames.org/3169070/"] },
-          "coordinates": { "lat": "41.89193", "lng": "12.51133" }
+  "schema_version": "0.2.4",
+  "record_metadata": {
+    "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f",
+    "record_created_on": "2024-10-09",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Archaeological Atlas of Coptic Literature by PATHs",
+    "abbr": "PATHs",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://atlas.paths-erc.eu",
+      "http://paths.uniroma1.it"
+    ],
+    "project_desc": "The project aims  to map and contextualize the distribution of Coptic literary texts across Egypt, focusing on their archaeological and manuscript traditions.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Roma",
+          "ref": [
+            "https://www.geonames.org/3169070/"
+          ]
+        },
+        "coordinates": {
+          "lat": "41.89193",
+          "lng": "12.51133"
         }
-      ],
-      "lang": ["eng"],
-      "related_institutions": [
-        {
-          "relation_type": "host",
-          "org_name": { 
-            "text": "Sapienza University of Rome",
-            "ref": [
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Sapienza University of Rome",
+          "ref": [
             "https://ror.org/02be6w209",
             "https://www.wikidata.org/wiki/Q209344"
-          ] 
-          },
-            "websites": ["http://www.uniroma1.it/"]
-        }, 
-        {
-          "relation_type": "cooperation",
-          "org_name": { 
-            "text": "Corpus dei Manoscritti Copti Letterari",
-            "ref": [] 
-          },
-            "websites": ["http://www.cmcl.it"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Center of the Study of Manuscript Cultures",
-              "ref": [] 
-            },
-              "websites": ["https://www.csmc.uni-hamburg.de"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Digital Edition and Translation of the Coptic-Sahidic Old Testament",
-              "ref": [] 
-            },
-              "websites": ["http://coptot.manuscriptroom.com/"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Coptic Scriptorium ",
-              "ref": []
-            },
-              "websites": ["http://copticscriptorium.org/"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
-              "ref": ["https://www.wikidata.org/wiki/Q2945981"] 
-            },
-              "websites": ["https://pcma.uw.edu.pl/en/"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Beta maṣāḥǝft",
-              "ref": [] 
-            },
-              "websites": ["https://www.betamasaheft.uni-hamburg.de/"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "TraCES",
-              "ref": [] 
-            },
-              "websites": ["https://www.traces.uni-hamburg.de"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Trismegistos",
-              "ref": [] 
-            },
-              "websites": ["https://www.trismegistos.org"]
-        },
-        {
-            "relation_type": "cooperation",
-            "org_name": { 
-              "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
-              "ref": ["https://www.wikidata.org/wiki/Q2945981"] 
-            },
-              "websites": ["https://pcma.uw.edu.pl/en/"]
-        }
-      ],
-      "related_entities": [],
-      "contacts": [
-        {
-          "pers_name": { "text": "Buzi, Paola", "ref": ["https://d-nb.info/gnd/1044013826"] },
-          "roles": ["supervision"],
-          "websites": ["https://corsidilaurea.uniroma1.it/en/users/paolabuziuniroma1it"]
-        }
-      ],
-      "research_data": {
-        "lang": ["cop"],
-        "sustainability_plan": null,
-        "publications": { "open_access": 0, "licensing": [] },
-        "data": {
-          "datatypes": [
-            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
-          ],
-          "repositories": [
-            {
-              "label": "",
-              "accessibility": "public",
-              "ref": [],
-              "licensing": [],
-              "description": ""
-            }
           ]
-        }
+        },
+        "websites": [
+          "http://www.uniroma1.it/"
+        ]
       },
-      "stack": {
-        "database": [],
-        "backend": [],
-        "frontend": [],
-        "tools": [
-          { "label": "", "self_developed": false, "ref": [], "description": "" }
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Corpus dei Manoscritti Copti Letterari",
+          "ref": []
+        },
+        "websites": [
+          "http://www.cmcl.it"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Center of the Study of Manuscript Cultures",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Digital Edition and Translation of the Coptic-Sahidic Old Testament",
+          "ref": []
+        },
+        "websites": [
+          "http://coptot.manuscriptroom.com/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Coptic Scriptorium ",
+          "ref": []
+        },
+        "websites": [
+          "http://copticscriptorium.org/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2945981"
+          ]
+        },
+        "websites": [
+          "https://pcma.uw.edu.pl/en/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Beta maṣāḥǝft",
+          "ref": []
+        },
+        "websites": [
+          "https://www.betamasaheft.uni-hamburg.de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "TraCES",
+          "ref": []
+        },
+        "websites": [
+          "https://www.traces.uni-hamburg.de"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Trismegistos",
+          "ref": []
+        },
+        "websites": [
+          "https://www.trismegistos.org"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2945981"
+          ]
+        },
+        "websites": [
+          "https://pcma.uw.edu.pl/en/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Buzi, Paola",
+          "ref": [
+            "https://d-nb.info/gnd/1044013826"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "languages": []
-      },
-      "policies": [{ "description": "", "ref": [] }],
-      "keywords": [
-        "digital_preservation",
-        "visualization", 
-        "geodata", 
-        "geography", 
-        "catalog", 
-        "manuscript"
+        "websites": [
+          "https://corsidilaurea.uniroma1.it/en/users/paolabuziuniroma1it"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "cop"
       ],
-      "category": "digital_preservation",
-      "comment": "End date of the research project is not defined, there is no wikidata entry. This project has developed into a Training Project titled: 'The Timbuktu Manuscript Training Project'. Cooperation with AJAMI LAB (no wikidata or ROR links found"
-    }
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "digital_preservation",
+      "visualization",
+      "geodata",
+      "geography",
+      "catalog",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": "End date of the research project is not defined, there is no wikidata entry. This project has developed into a Training Project titled: 'The Timbuktu Manuscript Training Project'. Cooperation with AJAMI LAB (no wikidata or ROR links found"
   }
-  
+}

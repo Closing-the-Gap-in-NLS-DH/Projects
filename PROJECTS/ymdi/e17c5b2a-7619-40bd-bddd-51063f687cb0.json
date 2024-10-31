@@ -12,7 +12,12 @@
     "abbr": "YMDI",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2013" }],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2013"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://ymdi.uoregon.edu/projects/",
@@ -24,26 +29,43 @@
       {
         "place_name": {
           "text": "Princeton",
-          "ref": ["https://www.geonames.org/5102922/princeton.html"]
+          "ref": [
+            "https://www.geonames.org/5102922/princeton.html"
+          ]
         },
-        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
+        "coordinates": {
+          "lat": "40.34872",
+          "lng": "-74.65905"
+        }
       },
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Sanaa",
-          "ref": ["https://www.geonames.org/71137/sanaa.html"]
+          "ref": [
+            "https://www.geonames.org/71137/sanaa.html"
+          ]
         },
-        "coordinates": { "lat": "15.35472", "lng": "44.20667" }
+        "coordinates": {
+          "lat": "15.35472",
+          "lng": "44.20667"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -54,7 +76,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -65,7 +89,9 @@
             "https://www.wikidata.org/wiki/Q21578"
           ]
         },
-        "websites": ["https://www.princeton.edu/"]
+        "websites": [
+          "https://www.princeton.edu/"
+        ]
       }
     ],
     "related_entities": [
@@ -79,34 +105,74 @@
       {
         "pers_name": {
           "text": "Schmidtke, Sabine",
-          "ref": ["https://d-nb.info/gnd/143773771"]
+          "ref": [
+            "https://d-nb.info/gnd/143773771"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.ias.edu/scholars/schmidtke"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.ias.edu/scholars/schmidtke"
+        ]
       },
       {
         "pers_name": {
           "text": "Magier, David",
-          "ref": ["https://d-nb.info/gnd/1050435206"]
+          "ref": [
+            "https://d-nb.info/gnd/1050435206"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://library.princeton.edu/staff/dmagier"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://library.princeton.edu/staff/dmagier"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

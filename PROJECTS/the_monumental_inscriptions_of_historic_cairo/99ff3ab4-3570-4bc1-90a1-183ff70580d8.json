@@ -1,175 +1,177 @@
 {
   "schema_version": "0.2.4",
   "record_metadata": {
-      "uuid": "99ff3ab4-3570-4bc1-90a1-183ff70580d8",
-      "record_created_on": "2024-10-25",
-      "record_created_by": "Alieva, Aibaniz",
-      "last_edited_on": "2024-10-29",
-      "interviewed": false
+    "uuid": "99ff3ab4-3570-4bc1-90a1-183ff70580d8",
+    "record_created_on": "2024-10-25",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-10-29",
+    "interviewed": false
   },
   "project": {
-      "title": "The Monumental Inscriptions of Historic Cairo",
-      "abbr": "",
-      "type": "project",
-      "ref": [],
-      "date": [
-          {
-              "from": "2010",
-              "to": ""
-          }
-      ],
-      "maintained": true,
-      "websites": [
-          "https://islamicinscriptions.cultnat.org/"
-      ],
-      "project_desc": "The Project covers Islamic inscriptions that are found in a range of the most important pre-1800 historical monuments in Cairo. The project database includes 3300 inscriptions related to 509 monuments, written on different materials such as stone, plaster, wood, and metal, and in many types of script including Kufic, Thuluth, and Naskh.",
-      "places": [
-          {
-              "place_name": {
-                  "text": "Cairo",
-                  "ref": [
-                      "https://www.geonames.org/360630/cairo.html"
-                  ]
-              },
-              "coordinates": {
-                  "lat": "30.04439",
-                  "lng": "31.23573"
-              }
-          },
-          {
-              "place_name": {
-                  "text": "Giza",
-                  "ref": [
-                      "https://www.geonames.org/360995/giza.html"
-                  ]
-              },
-              "coordinates": {
-                  "lat": "29.98708",
-                  "lng": "31.21181"
-              }
-          }
-      ],
+    "title": "The Monumental Inscriptions of Historic Cairo",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2010",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://islamicinscriptions.cultnat.org/"
+    ],
+    "project_desc": "The Project covers Islamic inscriptions that are found in a range of the most important pre-1800 historical monuments in Cairo. The project database includes 3300 inscriptions related to 509 monuments, written on different materials such as stone, plaster, wood, and metal, and in many types of script including Kufic, Thuluth, and Naskh.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Cairo",
+          "ref": [
+            "https://www.geonames.org/360630/cairo.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "30.04439",
+          "lng": "31.23573"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Giza",
+          "ref": [
+            "https://www.geonames.org/360995/giza.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "29.98708",
+          "lng": "31.21181"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "American Research Center in Egypt",
+          "ref": [
+            "https://ror.org/020r34245",
+            "https://www.wikidata.org/wiki/Q2945405"
+          ]
+        },
+        "websites": [
+          "https://arce.org/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Center for Documentation of Cultural and Natural Heritage",
+          "ref": [
+            "https://ror.org/051a9ap09",
+            "https://www.wikidata.org/wiki/Q5059593"
+          ]
+        },
+        "websites": [
+          "https://www.cultnat.org/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "American University in Cairo",
+          "ref": [
+            "https://ror.org/0176yqn58",
+            "https://www.wikidata.org/wiki/Q469476"
+          ]
+        },
+        "websites": [
+          "https://www.aucegypt.edu/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "O'Kane, Bernard",
+          "ref": [
+            "https://d-nb.info/gnd/132144093",
+            "https://www.wikidata.org/wiki/Q105018054"
+          ]
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.aucegypt.edu/fac/bernard-okane"
+        ]
+      }
+    ],
+    "research_data": {
       "lang": [
-          "eng"
+        "ara"
       ],
-      "related_institutions": [
-          {
-              "relation_type": "host",
-              "org_name": {
-                  "text": "American Research Center in Egypt",
-                  "ref": [
-                      "https://ror.org/020r34245",
-                      "https://www.wikidata.org/wiki/Q2945405"
-                  ]
-              },
-              "websites": [
-                  "https://arce.org/"
-              ]
-          },
-          {
-              "relation_type": "host",
-              "org_name": {
-                  "text": "Center for Documentation of Cultural and Natural Heritage",
-                  "ref": [
-                      "https://ror.org/051a9ap09",
-                      "https://www.wikidata.org/wiki/Q5059593"
-                  ]
-              },
-              "websites": [
-                  "https://www.cultnat.org/"
-              ]
-          },
-          {
-              "relation_type": "cooperation",
-              "org_name": {
-                  "text": "American University in Cairo",
-                  "ref": [
-                      "https://ror.org/0176yqn58",
-                      "https://www.wikidata.org/wiki/Q469476"
-                  ]
-              },
-              "websites": [
-                  "https://www.aucegypt.edu/"
-              ]
-          }
-      ],
-      "related_entities": [],
-      "contacts": [
-          {
-              "pers_name": {
-                  "text": "O'Kane, Bernard",
-                  "ref": [
-                      "https://d-nb.info/gnd/132144093",
-                      "https://www.wikidata.org/wiki/Q105018054"
-                  ]
-              },
-              "roles": [
-                  "supervision"
-              ],
-              "websites": [
-                  "https://www.aucegypt.edu/fac/bernard-okane"
-              ]
-          }
-      ],
-      "research_data": {
-          "lang": [
-              "ara"
-          ],
-          "sustainability_plan": null,
-          "publications": {
-              "open_access": 0,
-              "licensing": []
-          },
-          "data": {
-              "datatypes": [
-                  {
-                      "label": "",
-                      "stage": "raw",
-                      "licensing": [],
-                      "open_access": 0
-                  }
-              ],
-              "repositories": [
-                  {
-                      "label": "",
-                      "accessibility": "public",
-                      "ref": [],
-                      "licensing": [],
-                      "description": ""
-                  }
-              ]
-          }
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
       },
-      "stack": {
-          "database": [],
-          "backend": [],
-          "frontend": [],
-          "tools": [
-              {
-                  "label": "",
-                  "self_developed": false,
-                  "ref": [],
-                  "description": ""
-              }
-          ],
-          "languages": []
-      },
-      "policies": [
+      "data": {
+        "datatypes": [
           {
-              "description": "",
-              "ref": []
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
           }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
-      "keywords": [
-          "arabic_studies",
-          "corpus_output",
-          "digital_preservation",
-          "epigraphy",
-          "history_studies",
-          "inscription",
-          "islamic_studies"
-      ],
-      "category": "digital_preservation",
-      "comment": ""
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "history_studies",
+      "inscription",
+      "islamic_studies"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
   }
 }

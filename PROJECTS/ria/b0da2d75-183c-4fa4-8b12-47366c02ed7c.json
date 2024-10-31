@@ -11,8 +11,15 @@
     "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
     "abbr": "RIA",
     "type": "project",
-    "ref": ["https://www.wikidata.org/wiki/Q1246462"],
-    "date": [{ "from": "1928", "to": "2018" }],
+    "ref": [
+      "https://www.wikidata.org/wiki/Q1246462"
+    ],
+    "date": [
+      {
+        "from": "1928",
+        "to": "2018"
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://rla.badw.de/das-projekt.html",
@@ -23,12 +30,21 @@
       {
         "place_name": {
           "text": "München",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,7 +55,9 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": ["https://badw.de/en/the-academy.html"]
+        "websites": [
+          "https://badw.de/en/the-academy.html"
+        ]
       }
     ],
     "related_entities": [
@@ -53,29 +71,66 @@
       {
         "pers_name": {
           "text": "Streck, Michael P.",
-          "ref": ["https://d-nb.info/gnd/130425893"]
+          "ref": [
+            "https://d-nb.info/gnd/130425893"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
         ]
       }
     ],
     "research_data": {
-      "lang": ["akk", "syr"],
+      "lang": [
+        "akk",
+        "syr"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["encyclopedia", "history_studies", "semitic_studies"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "encyclopedia",
+      "history_studies",
+      "semitic_studies"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }
