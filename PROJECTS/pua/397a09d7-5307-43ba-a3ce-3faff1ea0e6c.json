@@ -96,9 +96,10 @@
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
+      "biographical_data",
       "islamic_studies",
       "geodata",
-      "biographical_data",
+      "map",
       "visualization"
     ],
     "category": "tools_and_analysis",

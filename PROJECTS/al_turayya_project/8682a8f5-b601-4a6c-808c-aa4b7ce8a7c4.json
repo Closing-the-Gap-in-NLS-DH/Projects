@@ -104,7 +104,7 @@
       "languages": ["JS", "Python"]
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["geodata", "geography", "islamic_studies", "visualization"],
+    "keywords": ["geodata", "geography", "islamic_studies", "map", "visualization"],
     "category": "tools_and_analysis",
     "comment": ""
   }
