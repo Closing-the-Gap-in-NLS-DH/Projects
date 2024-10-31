@@ -275,10 +275,10 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://github.com/chr-werner/SemDH2024-GreekNewTestamentNames"
             ],
-            "websites": [],
             "licensing": [
               "CC BY 4.0"
             ],
@@ -287,10 +287,10 @@
           {
             "label": "Zenodo",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://doi.org/10.5281/zenodo.12723324"
             ],
-            "websites": [],
             "licensing": [
               "CC BY 4.0"
             ],

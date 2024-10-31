@@ -111,10 +111,10 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://github.com/althurayya"
             ],
-            "websites": [],
             "licensing": [],
             "description": ""
           }

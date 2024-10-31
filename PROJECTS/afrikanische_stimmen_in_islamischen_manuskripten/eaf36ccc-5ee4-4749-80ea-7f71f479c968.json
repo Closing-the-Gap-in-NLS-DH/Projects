@@ -209,20 +209,20 @@
           {
             "label": "ZFDM Repository - Universität Hamburg",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://www.fdr.uni-hamburg.de/"
             ],
-            "websites": [],
             "licensing": [],
             "description": ""
           },
           {
             "label": "Microsoft Access",
             "accessibility": "private",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://www.microsoft.com/de-de/microsoft-365/access"
             ],
-            "websites": [],
             "licensing": [],
             "description": ""
           }

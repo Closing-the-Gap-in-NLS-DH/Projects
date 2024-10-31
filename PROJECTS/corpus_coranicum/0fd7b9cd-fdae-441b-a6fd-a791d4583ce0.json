@@ -174,20 +174,20 @@
           {
             "label": "GitLab",
             "accessibility": "private",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://about.gitlab.com/"
             ],
-            "websites": [],
             "licensing": [],
             "description": "Internal GitLab instance of the BBAW"
           },
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://about.gitlab.com/"
             ],
-            "websites": [],
             "licensing": [],
             "description": "Internal GitLab instance of the BBAW"
           }

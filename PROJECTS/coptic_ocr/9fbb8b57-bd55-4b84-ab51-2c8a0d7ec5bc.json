@@ -103,10 +103,10 @@
           {
             "label": "GitLab",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://vcs.etrap.eu/Coptic-OCR/datasets"
             ],
-            "websites": [],
             "licensing": [],
             "description": "A collection of training and test data, OCR models, and documentation"
           }

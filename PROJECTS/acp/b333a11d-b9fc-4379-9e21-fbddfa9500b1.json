@@ -194,10 +194,10 @@
           {
             "label": "ZFDM Repository - Universität Hamburg",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://www.fdr.uni-hamburg.de/"
             ],
-            "websites": [],
             "licensing": [
               "https://creativecommons.org/licenses/by/4.0/legalcode"
             ],

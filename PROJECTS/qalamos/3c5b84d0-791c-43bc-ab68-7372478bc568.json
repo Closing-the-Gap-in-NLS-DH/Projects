@@ -171,10 +171,10 @@
           {
             "label": "GitHub",
             "accessibility": "public",
-            "ref": [
+            "ref": [],
+            "websites": [
               "https://git.sc.uni-leipzig.de/mycore_applications"
             ],
-            "websites": [],
             "licensing": [],
             "description": ""
           }
