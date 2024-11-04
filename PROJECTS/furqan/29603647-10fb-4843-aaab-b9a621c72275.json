@@ -12,59 +12,34 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2013", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://digitallibrary.al-furqan.com/world_library"
-    ],
+    "websites": ["https://digitallibrary.al-furqan.com/world_library"],
     "project_desc": "The Al-Furqan Digital Library offers extensive access to a rich collection of Islamic manuscripts and scholarly works. It serves as a vital resource for researchers in the field of digital humanities by providing online access to rare texts, fostering the preservation of cultural heritage, and supporting academic study through searchable digital content.",
     "places": [
       {
         "place_name": {
           "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/"
-          ]
+          "ref": ["https://www.geonames.org/2643743/"]
         },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
+        "coordinates": { "lat": "51.50853", "lng": "-0.12574" }
       },
       {
         "place_name": {
           "text": "Jeddah",
-          "ref": [
-            "https://www.geonames.org/105343/"
-          ]
+          "ref": ["https://www.geonames.org/105343/"]
         },
-        "coordinates": {
-          "lat": "21.49012",
-          "lng": "-39.18624"
-        }
+        "coordinates": { "lat": "21.49012", "lng": "-39.18624" }
       },
       {
         "place_name": {
           "text": "Cairo",
-          "ref": [
-            "https://www.geonames.org/360630/"
-          ]
+          "ref": ["https://www.geonames.org/360630/"]
         },
-        "coordinates": {
-          "lat": "30.06263",
-          "lng": "31.24967"
-        }
+        "coordinates": { "lat": "30.06263", "lng": "31.24967" }
       }
     ],
-    "lang": [
-      "eng",
-      "ara"
-    ],
+    "lang": ["eng", "ara"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -75,24 +50,15 @@
             "https://ror.org/00a18kc17"
           ]
         },
-        "websites": [
-          "https://al-furqan.com/"
-        ]
+        "websites": ["https://al-furqan.com/"]
       }
     ],
     "related_entities": [],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Benaicha, Karima",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://al-furqan.com/our-executive-structure/"
-        ]
+        "pers_name": { "text": "Benaicha, Karima", "ref": [] },
+        "roles": ["supervision"],
+        "websites": ["https://al-furqan.com/our-executive-structure/"]
       }
     ],
     "research_data": {
@@ -116,16 +82,8 @@
         "urd"
       ],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -142,12 +100,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

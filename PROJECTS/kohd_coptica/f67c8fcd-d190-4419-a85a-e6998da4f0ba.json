@@ -12,35 +12,20 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2022" }],
     "maintained": null,
-    "websites": [
-      "https://coptica-kohd.dl.uni-leipzig.de/content/start.xml"
-    ],
+    "websites": ["https://coptica-kohd.dl.uni-leipzig.de/content/start.xml"],
     "project_desc": "The KOHD Coptica project, part of the Cataloging of Oriental Manuscripts in Germany initiative, catalogs and digitizes Coptic manuscripts in the Berlin Papyrus Collection. The ongoing database development facilitates efficient searches and standardized presentations of metadata, with records gradually released as cataloging and digitization progress.",
     "places": [
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
-    "lang": [
-      "eng",
-      "deu"
-    ],
+    "lang": ["eng", "deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +36,7 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": [
-          "https://adw-goe.de"
-        ]
+        "websites": ["https://adw-goe.de"]
       },
       {
         "relation_type": "cooperation",
@@ -64,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": [
-          "https://www.uni-leipzig.de/"
-        ]
+        "websites": ["https://www.uni-leipzig.de/"]
       }
     ],
     "related_entities": [
@@ -95,35 +76,19 @@
       {
         "pers_name": {
           "text": "Behlmer, Heike",
-          "ref": [
-            "https://d-nb.info/gnd/1075292484"
-          ]
+          "ref": ["https://d-nb.info/gnd/1075292484"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-goettingen.de/de/472658.html"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/de/472658.html"]
       }
     ],
     "research_data": {
-      "lang": [
-        "cop"
-      ],
+      "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -152,18 +117,8 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "catalog",
-      "digital_preservation",
-      "egyptology",
-      "manuscript"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["catalog", "digital_preservation", "egyptology", "manuscript"],
     "category": "digital_preservation",
     "comment": ""
   }

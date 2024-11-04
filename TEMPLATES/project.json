@@ -51,7 +51,7 @@
             "label": "",
             "accessibility": "public",
             "ref": [],
-            "websites":[],
+            "websites": [],
             "licensing": [],
             "description": ""
           }
@@ -63,7 +63,13 @@
       "backend": [],
       "frontend": [],
       "tools": [
-        { "label": "", "self_developed": false, "ref": [], "websites":[], "description": "" }
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
       "languages": []
     },

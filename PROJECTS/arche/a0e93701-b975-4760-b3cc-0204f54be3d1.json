@@ -12,29 +12,17 @@
     "abbr": "",
     "type": "organization",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2017", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://arche.acdh.oeaw.ac.at/browser/"
-    ],
+    "websites": ["https://arche.acdh.oeaw.ac.at/browser/"],
     "project_desc": "ARCHE is a digital archive designed specifically to preserve digital research data from the humanities created in or related to Austria. It also promotes the use of open access and open data policies.",
     "places": [
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": [],
@@ -48,9 +36,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       }
     ],
     "related_entities": [],
@@ -58,13 +44,9 @@
       {
         "pers_name": {
           "text": "Trognitz, Martina",
-          "ref": [
-            "https://d-nb.info/gnd/116996270X"
-          ]
+          "ref": ["https://d-nb.info/gnd/116996270X"]
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://www.oeaw.ac.at/de/acdh/team/current-team/martina-trognitz/"
         ]
@@ -73,47 +55,18 @@
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

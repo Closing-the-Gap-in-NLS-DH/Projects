@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2015", "to": "2019" }],
     "maintained": null,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/203077103",
@@ -29,20 +24,12 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,9 +40,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -144,65 +129,29 @@
       {
         "pers_name": {
           "text": "Friedrich, Michael",
-          "ref": [
-            "https://d-nb.info/gnd/1106567749"
-          ]
+          "ref": ["https://d-nb.info/gnd/1106567749"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.aai.uni-hamburg.de/china/personen/friedrich.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu",
-        "eng"
-      ],
+      "lang": ["deu", "eng"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }

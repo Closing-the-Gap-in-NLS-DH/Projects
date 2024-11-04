@@ -11,19 +11,10 @@
     "title": "Documentation of Endangered Languages / Dokumentation Bedrohter Sprachen",
     "abbr": "DoBeS",
     "type": "project",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q28134351"
-    ],
-    "date": [
-      {
-        "from": "2000",
-        "to": "2011"
-      }
-    ],
+    "ref": ["https://www.wikidata.org/wiki/Q28134351"],
+    "date": [{ "from": "2000", "to": "2011" }],
     "maintained": null,
-    "websites": [
-      "https://dobes.mpi.nl/"
-    ],
+    "websites": ["https://dobes.mpi.nl/"],
     "project_desc": "The DoBeS program was initiated in 2000 by the Volkswagen Foundation in order to document languages that are potentially in danger of becoming extinct within a few years' time. It consisted of one archiving team and several documentation teams recording language data through fieldwork. The teams carried out 67 documentation projects collecting audio and video data in a close cooperation with the speech communities. The data are described with a set of standardized metadata categories and digitally archived according to open standards and made accessible. In addition, the archive ensures the long-term persistency of the digital material.",
     "places": [
       {
@@ -33,40 +24,23 @@
             "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
           ]
         },
-        "coordinates": {
-          "lat": "52.37362",
-          "lng": "9.73711"
-        }
+        "coordinates": { "lat": "52.37362", "lng": "9.73711" }
       },
       {
         "place_name": {
           "text": "Nijmegen",
-          "ref": [
-            "https://www.geonames.org/2750053/nijmegen.html"
-          ]
+          "ref": ["https://www.geonames.org/2750053/nijmegen.html"]
         },
-        "coordinates": {
-          "lat": "51.8425",
-          "lng": "5.85278"
-        }
+        "coordinates": { "lat": "51.8425", "lng": "5.85278" }
       }
     ],
-    "lang": [
-      "eng",
-      "fra",
-      "ind",
-      "por",
-      "rus",
-      "spa"
-    ],
+    "lang": ["eng", "fra", "ind", "por", "rus", "spa"],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Volkswagen Stiftung",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1766743"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1766743"]
         },
         "websites": [
           "https://www.volkswagenstiftung.de/",
@@ -85,58 +59,26 @@
       {
         "pers_name": {
           "text": "Austin, Peter",
-          "ref": [
-            "https://d-nb.info/gnd/133996271"
-          ]
+          "ref": ["https://d-nb.info/gnd/133996271"]
         },
-        "roles": [
-          "investigation"
-        ],
-        "websites": [
-          "https://www.soas.ac.uk/staff/staff30592.php"
-        ]
+        "roles": ["investigation"],
+        "websites": ["https://www.soas.ac.uk/staff/staff30592.php"]
       }
     ],
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "audio",
       "language_documentation",

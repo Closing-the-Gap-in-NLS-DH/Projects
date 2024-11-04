@@ -2,7 +2,7 @@
 
 - From version 0.2.4 to 0.2.5 (2024-10-31):
 
-  - Apply the differentiation between `ref` and `website` to the `research_data` and `stack` elements for consistency. 
+  - Apply the differentiation between `ref` and `website` to the `research_data` and `stack` elements for consistency.
 
 - From version 0.2.3 to 0.2.4 (2024-07-18):
 
