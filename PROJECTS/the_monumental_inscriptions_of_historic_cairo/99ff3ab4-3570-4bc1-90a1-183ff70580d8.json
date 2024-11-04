@@ -12,46 +12,27 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2010", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://islamicinscriptions.cultnat.org/"
-    ],
+    "websites": ["https://islamicinscriptions.cultnat.org/"],
     "project_desc": "The Project covers Islamic inscriptions that are found in a range of the most important pre-1800 historical monuments in Cairo. The project database includes 3300 inscriptions related to 509 monuments, written on different materials such as stone, plaster, wood, and metal, and in many types of script including Kufic, Thuluth, and Naskh.",
     "places": [
       {
         "place_name": {
           "text": "Cairo",
-          "ref": [
-            "https://www.geonames.org/360630/cairo.html"
-          ]
+          "ref": ["https://www.geonames.org/360630/cairo.html"]
         },
-        "coordinates": {
-          "lat": "30.04439",
-          "lng": "31.23573"
-        }
+        "coordinates": { "lat": "30.04439", "lng": "31.23573" }
       },
       {
         "place_name": {
           "text": "Giza",
-          "ref": [
-            "https://www.geonames.org/360995/giza.html"
-          ]
+          "ref": ["https://www.geonames.org/360995/giza.html"]
         },
-        "coordinates": {
-          "lat": "29.98708",
-          "lng": "31.21181"
-        }
+        "coordinates": { "lat": "29.98708", "lng": "31.21181" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -62,9 +43,7 @@
             "https://www.wikidata.org/wiki/Q2945405"
           ]
         },
-        "websites": [
-          "https://arce.org/"
-        ]
+        "websites": ["https://arce.org/"]
       },
       {
         "relation_type": "host",
@@ -75,9 +54,7 @@
             "https://www.wikidata.org/wiki/Q5059593"
           ]
         },
-        "websites": [
-          "https://www.cultnat.org/"
-        ]
+        "websites": ["https://www.cultnat.org/"]
       },
       {
         "relation_type": "cooperation",
@@ -88,9 +65,7 @@
             "https://www.wikidata.org/wiki/Q469476"
           ]
         },
-        "websites": [
-          "https://www.aucegypt.edu/"
-        ]
+        "websites": ["https://www.aucegypt.edu/"]
       }
     ],
     "related_entities": [],
@@ -103,31 +78,17 @@
             "https://www.wikidata.org/wiki/Q105018054"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.aucegypt.edu/fac/bernard-okane"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.aucegypt.edu/fac/bernard-okane"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -156,12 +117,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",

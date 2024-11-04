@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2018", "to": "" }],
     "maintained": null,
     "websites": [
       "https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
@@ -28,19 +23,12 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +39,7 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": [
-          "https://www.uni-goettingen.de/"
-        ]
+        "websites": ["https://www.uni-goettingen.de/"]
       }
     ],
     "related_entities": [],
@@ -61,29 +47,18 @@
       {
         "pers_name": {
           "text": "Lincke, Eliese-Sophia",
-          "ref": [
-            "https://d-nb.info/gnd/1011716763"
-          ]
+          "ref": ["https://d-nb.info/gnd/1011716763"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Lincke"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "cop"
-      ],
+      "lang": ["cop"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
+      "publications": { "open_access": 0, "licensing": [""] },
       "data": {
         "datatypes": [
           {
@@ -104,9 +79,7 @@
             "label": "GitLab",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://vcs.etrap.eu/Coptic-OCR/datasets"
-            ],
+            "websites": ["https://vcs.etrap.eu/Coptic-OCR/datasets"],
             "licensing": [],
             "description": "A collection of training and test data, OCR models, and documentation"
           }
@@ -115,50 +88,35 @@
     },
     "stack": {
       "database": [],
-      "backend": [
-        "OCRopus",
-        "Calamari"
-      ],
+      "backend": ["OCRopus", "Calamari"],
       "frontend": [],
       "tools": [
         {
           "label": "OCRopus",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://ocropus.github.io/"
-          ],
+          "websites": ["https://ocropus.github.io/"],
           "description": ""
         },
         {
           "label": "Calamari",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://github.com/Calamari-OCR/calamari"
-          ],
+          "websites": ["https://github.com/Calamari-OCR/calamari"],
           "description": ""
         },
         {
           "label": "ScanTailor",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://scantailor.org/"
-          ],
+          "websites": ["https://scantailor.org/"],
           "description": ""
         }
       ],
-      "languages": [
-        "python"
-      ]
+      "languages": ["python"]
     },
     "policies": [],
-    "keywords": [
-      "egyptology",
-      "machine_learning",
-      "ocr"
-    ],
+    "keywords": ["egyptology", "machine_learning", "ocr"],
     "category": "tools_and_analysis",
     "comment": ""
   }

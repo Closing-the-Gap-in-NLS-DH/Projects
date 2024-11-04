@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": "2020"
-      }
-    ],
+    "date": [{ "from": "2015", "to": "2020" }],
     "maintained": false,
     "websites": [
       "https://www.hfjs.eu//abc/projekte.babylonisch-jemenitische-bibeltext-Tradition.html"
@@ -27,32 +22,20 @@
       {
         "place_name": {
           "text": "Heidelberg",
-          "ref": [
-            "https://www.geonames.org/2907911/heidelberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
         },
-        "coordinates": {
-          "lat": "49.40768",
-          "lng": "8.69079"
-        }
+        "coordinates": { "lat": "49.40768", "lng": "8.69079" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1622186"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1622186"]
         },
-        "websites": [
-          "https://www.hfjs.eu"
-        ]
+        "websites": ["https://www.hfjs.eu"]
       }
     ],
     "related_entities": [],
@@ -60,60 +43,28 @@
       {
         "pers_name": {
           "text": "Liss, Hanna",
-          "ref": [
-            "https://d-nb.info/gnd/115755853"
-          ]
+          "ref": ["https://d-nb.info/gnd/115755853"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.hfjs.eu/hochschule/dozenten/professoren/hliss.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["php", "javascript", "python"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_preservation",
       "jewish_studies",

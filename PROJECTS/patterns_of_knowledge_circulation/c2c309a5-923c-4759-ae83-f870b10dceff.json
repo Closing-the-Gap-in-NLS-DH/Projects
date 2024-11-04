@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-01-04",
-        "to": "2024-03-31"
-      }
-    ],
+    "date": [{ "from": "2019-01-04", "to": "2024-03-31" }],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/knowledge_patterns/index.html",
@@ -28,20 +23,12 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +39,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [
@@ -68,61 +53,28 @@
       {
         "pers_name": {
           "text": "Paluch, Agata",
-          "ref": [
-            "https://d-nb.info/gnd/1140855255"
-          ]
+          "ref": ["https://d-nb.info/gnd/1140855255"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/judaistik/mitarbeiter/002Mitarbeiter_innen/paluch.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
+      "database": ["sql", "xml", "json", "nosql"],
+      "backend": ["laravel"],
+      "frontend": ["vue"],
       "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python",
-        "jewish_studies"
-      ]
+      "languages": ["php", "javascript", "python", "jewish_studies"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",
