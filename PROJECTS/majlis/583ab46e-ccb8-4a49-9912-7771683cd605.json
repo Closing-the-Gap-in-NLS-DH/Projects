@@ -4,7 +4,7 @@
     "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605",
     "record_created_on": "2021-11-01",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": true
   },
   "project": {
@@ -44,6 +44,16 @@
       }
     ],
     "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "The Hebrew Palaeography Album",
+        "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
+        "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605"
+      },
       {
         "relation_type": "cooperation",
         "title": "eScriptorium",
