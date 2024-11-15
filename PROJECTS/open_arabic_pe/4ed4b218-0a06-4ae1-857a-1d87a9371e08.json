@@ -4,7 +4,7 @@
     "uuid": "4ed4b218-0a06-4ae1-857a-1d87a9371e08",
     "record_created_on": "2023-07-10",
     "record_created_by": "Till Grallert",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -81,9 +81,8 @@
       "arabic_studies",
       "corpus_output",
       "digital_preservation",
-      "islamic_studies",
-      "media_studies"
-    ],
+      "islamic_studies"
+      ],
     "category": "digital_preservation",
     "comment": ""
   }
