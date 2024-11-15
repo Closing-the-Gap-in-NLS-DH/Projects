@@ -41,7 +41,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
    - [lexicography](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept27)
    - [linguistics](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept28)
    - [literary_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept31)
-   - [media_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept23)
    - medicine
    - [methods_and_statistics](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept21)
    - [morphology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept28.02)

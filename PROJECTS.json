@@ -199,6 +199,10 @@
     "title": "Corpus Musicae Ottomanicae",
     "path": "/PROJECTS/corpus_musicae_ottomanicae/"
   },
+  "df954624-a860-4919-b233-cf91a0bf2024": {
+    "title": "Corpus of South Arabian Inscriptions",
+    "path": "/PROJECTS/csai/"
+  },
   "1ae31b2f-5c67-49a7-9fba-c162b314bbcb": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
     "path": "/PROJECTS/dariah/"
@@ -206,6 +210,10 @@
   "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
     "path": "/PROJECTS/dariah_de/"
+  },
+  "5343b628-db87-4519-93bf-76e130e6c61c": {
+    "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
+    "path": "/PROJECTS/dasi/"
   },
   "894dcf0c-7295-4fb8-b4ba-866a5ebe3310": {
     "title": "Datenrepositorium Manuskriptkulturen",
@@ -222,6 +230,10 @@
   "5c1c0e5b-cb6c-4d8e-9d1e-55e622a3ca40": {
     "title": "Dhimmis and Muslims - Analysing Multi-Religious Spaces in the Medieval Muslim World",
     "path": "/PROJECTS/dhimmis_and_muslims/"
+  },
+  "5cd4d4cc-b652-40d4-b110-b902dbae31da": {
+    "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
+    "path": "/PROJECTS/diconab/"
   },
   "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e": {
     "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
@@ -470,6 +482,10 @@
   "e050deba-6e1d-4d82-851b-cf6c1f7187a5": {
     "title": "NoMansLand: Nomads’ Manuscripts Landscape",
     "path": "/PROJECTS/nomansland/"
+  },
+  "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6": {
+    "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
+    "path": "/PROJECTS/ociana/"
   },
   "97408d45-9570-4cad-a623-6007573bf070": {
     "title": "Oxford Cambridge Islamic Manuscript Catalogue Online",
