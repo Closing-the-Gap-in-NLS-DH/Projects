@@ -4,7 +4,7 @@
     "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5",
     "record_created_on": "2022-05-10",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,9 +15,7 @@
     "date": [{ "from": "2020", "to": "2026" }],
     "maintained": null,
     "websites": [
-      "https://www.oeaw.ac.at/iran/nomansland/",
-      "https://www.oeaw.ac.at/acdh/projects/nomansland-nomads-manuscripts-landscape",
-      "https://www.oeaw.ac.at/en/iran/research/manuscript-cultures/nomads-manuscripts-landscape/"
+      "https://www.oeaw.ac.at/iran/nomansland/"
     ],
     "project_desc": "The focus of this projects lies on Iranian and Central Asian societies in the period between the 13th and 15th century which witnessed nomadic conquest after the rise of Chinggis Khan. The process of transculturation and interaction between the sedentary Muslim conquered and nomadic conqueror is documented in largely unstudied manuscripts from that period, which will be explored and analyzed in the course of this project. The technical side of the project will be responsible for developing and implementing of an independent Analytical Database of Islamic Manuscripts which will serve both as a digital repository of manuscripts and an analytical tool that will allow users to do wider research on Islamic and Eurasian studies.",
     "places": [

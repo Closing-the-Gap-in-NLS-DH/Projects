@@ -4,7 +4,7 @@
     "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,9 +15,9 @@
     "date": [{ "from": "2019-07-01", "to": "2022-06-30" }],
     "maintained": null,
     "websites": [
-      "https://www.uni-bamberg.de/aspra/forschung/projekte/post-predicate-elements-in-iranian/",
       "https://multicast.aspra.uni-bamberg.de/resources/hambam/",
-      "https://multicast.aspra.uni-bamberg.de/resources/wowa/"
+      "https://multicast.aspra.uni-bamberg.de/resources/wowa/",
+      "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/"
     ],
     "project_desc": "This project is dedicated to the study of the syntax of Iranian languages. It will investigate selected Middle Iranian corpora, and unrelated contact languages, in order to reconstruct the genesis and historical development of Iranian syntax with focus on largely ignored OVX (object-verb-oblique) word order type. The project’s results will be made available on two platforms: The Word Order in Western Asia Corpus and The HamBam Corpus (see project websites).",
     "places": [

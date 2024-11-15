@@ -4,7 +4,7 @@
     "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,7 +15,7 @@
     "date": [{ "from": "2016", "to": "" }],
     "maintained": null,
     "websites": [
-      "https://www.uni-bamberg.de/aspra/forschung/projekte/bamberg-lexical-database-for-contemporary-iranian-languages-bldcil/"
+      "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/"
     ],
     "project_desc": "The aim of this project is the sub-classification of Iranian languages which has proven to be a particularly recalcitrant problem in historical linguistics. BLDCIL will complement and extend existing scholarship by applying a novel phylogenetic methodology to this old problem. The research will be based on a compilation of standardized lexical data sets, together with sound files, from a representative set of Iranian languages, focusing initially on the West Iranian languages.",
     "places": [

@@ -4,7 +4,7 @@
     "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36",
     "record_created_on": "2022-05-17",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,7 +15,7 @@
     "date": [{ "from": "2018-04-04", "to": "2022-09-30" }],
     "maintained": null,
     "websites": [
-      "https://www.oeaw.ac.at/acdh/projects/completed-projects/genr-loanwords",
+      "https://www.oeaw.ac.at/acdh/research/linguistics/research/lexicography/genr-loanwords",
       "https://uni-salzburg.elsevierpure.com/de/projects/w%C3%B6rterbuch-der-lehnw%C3%B6rter-im-midrasch-genesis-rabba"
     ],
     "project_desc": "This project investigates the predominantly Greek borrowed vocabulary in the Midrash Genesis Rabbah, the earliest rabbinic commentary on the Book of Genesis written in Rabbinic Hebrew and Aramaic. It aims to compile a dictionary in TEI format and the annotation of the loanwords in the corpus for the investigation of issues pertaining to sociolinguistics as well as corpus linguistics.",

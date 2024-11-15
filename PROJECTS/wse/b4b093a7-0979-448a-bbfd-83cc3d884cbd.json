@@ -4,7 +4,7 @@
     "uuid": "b4b093a7-0979-448a-bbfd-83cc3d884cbd",
     "record_created_on": "2024-04-13",
     "record_created_by": "Vyshantha Simha",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": true
   },
   "project": {
@@ -48,7 +48,7 @@
         "pers_name": { "text": "Simha, Vyshantha", "ref": [] },
         "roles": ["software"],
         "websites": [
-          "https://dh.phil-fak.uni-koeln.de/en/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/vyshantha-simha-msc",
+          "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen#",
           "https://github.com/Vyshantha/multiscripteditor"
         ]
       },

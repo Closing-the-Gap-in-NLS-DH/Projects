@@ -4,7 +4,7 @@
     "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
     "record_created_on": "2023-11-02",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,7 +15,7 @@
     "date": [{ "from": "2023-08-01", "to": "2024-02-29" }],
     "maintained": true,
     "websites": [
-      "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/Forschung/MEMORY-SPACES/index.html"
+      "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/forschung/MEMORY-SPACES/index.html"
     ],
     "project_desc": "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide.",
     "places": [
@@ -34,7 +34,7 @@
         "coordinates": { "lat": "52.37403", "lng": "4.88969" }
       }
     ],
-    "lang": ["eng"],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -91,7 +91,7 @@
         "pers_name": { "text": "Toral, Isabel", "ref": [] },
         "roles": ["supervision"],
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Mitarbeiterinnen-und-Mitarbeiter/Professuren/toral/index.html"
+          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/toral/index.html"
         ]
       }
     ],
