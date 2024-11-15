@@ -15,7 +15,7 @@
     "date": [{ "from": "2014-10", "to": "2016-06" }],
     "maintained": false,
     "websites": [
-      "https://www.uni-bamberg.de/aspra/forschung/projekte/compilation-and-critical-edition-of-pre-19th-century-kurmanji-kurdish/"
+      "https://www.uni-bamberg.de/orientalistik/allgemeine-sprachwissenschaft/forschung/projekte/"
     ],
     "project_desc": "The main purpose of this project is to lay a foundation for serious academic research on the history of Kurdish, which until now is severely hampered due to the lack of written attestation prior to the 15th century. The project will thus compile a selection of 10 Kurdish texts from prior to 1800, transliterated in a standardized format and supplied with English translations and an authoritative critical apparatus. The texts will also be made fully accessible as a digital corpus, accompanied by a concordance, and the resulting two volumes will be published on the open-access portal of the University of Bamberg.",
     "places": [
@@ -98,6 +98,6 @@
       "translation"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "The project website does not exist anymore"
   }
 }

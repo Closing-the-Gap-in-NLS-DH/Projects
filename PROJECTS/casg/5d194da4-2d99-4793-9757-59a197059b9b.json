@@ -17,7 +17,7 @@
       { "from": "2023", "to": "" }
     ],
     "maintained": false,
-    "websites": [],
+    "websites": ["https://biblindex.hypotheses.org/files/2014/04/CASG_Lyon_02_06_2014.pdf"],
     "project_desc": "The corpus represents an assemblage of proverbs, aphorisms, and sagacious declarations sourced from the literary traditions of Arabic and Syriac. Additionally, it encompasses Greek texts, facilitating the examination of knowledge transmission across these three distinct cultural spheres.",
     "places": [
       {
@@ -97,6 +97,6 @@
       "tei"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "No website for the project, only a presentation of findings."
   }
 }

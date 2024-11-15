@@ -25,7 +25,8 @@
     "maintained": true,
     "websites": [
       "https://digi.ub.uni-heidelberg.de/de/corpusmasoreticum/index.html",
-      "https://corpusmasoreticum.de/"
+      "https://corpusmasoreticum.de/",
+      "http://bima2.corpusmasoreticum.de/manuscripts"
     ],
     "project_desc": "The long-term project Corups Masoreticum is dedicated to the Masorah of the Hebrew Bible – a corpus of annotations regarding rules of orthography, syntax, vocalization, cantillation etc. of the Biblical Text. This project is the first ever scientific engagement with the Western European (Ashkenazic) Masorah tradition between the 11th and 13th centuries. The philological work is integrated into a digital work environment BIMA, which was develop for the need of the project, and will result in an openly accessible digital edition of Ashkenazic Masorah.",
     "places": [

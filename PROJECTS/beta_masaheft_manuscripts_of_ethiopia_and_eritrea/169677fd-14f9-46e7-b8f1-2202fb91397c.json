@@ -55,7 +55,69 @@
         "websites": [
           "https://www.akademienunion.de/akademienunion/mitgliedsakademie/adwhh"
         ]
+      }, 
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Syriaca.org",
+          "ref": [""]
+        },
+        "websites": [
+          "https://www.syriaca.org/index.html"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "The Princeton Ethiopian, Eritrean, and Egyptian Miracles of Mary (PEMM) project",
+          "ref": [""]
+        },
+        "websites": [
+          "https://pemm.princeton.edu/en-us"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Text Encoding Initiative",
+          "ref": [""]
+        },
+        "websites": [
+          "https://tei-c.org"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Tracking Papyrus and Parchment Paths",
+          "ref": [""]
+        },
+        "websites": [
+          "http://paths.uniroma1.it"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Islam in the Harn of Africa",
+          "ref": [""]
+        },
+        "websites": [
+          "http://www.islhornafr.eu"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+          "ref": [""]
+        },
+        "websites": [
+          "https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare/"
+        ]
       }
+      
+
     ],
     "related_entities": [
       {
