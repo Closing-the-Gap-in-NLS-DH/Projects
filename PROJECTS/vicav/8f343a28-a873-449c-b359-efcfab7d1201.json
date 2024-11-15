@@ -4,7 +4,7 @@
     "uuid": "8f343a28-a873-449c-b359-efcfab7d1201",
     "record_created_on": "2022-05-12",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,8 +15,7 @@
     "date": [{ "from": "2013-01-01", "to": "2028-12-31" }],
     "maintained": true,
     "websites": [
-      "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]",
-      "https://www.oeaw.ac.at/acdh/projects/vicav"
+      "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]"
     ],
     "project_desc": "This project has two main purposes: firstly, it serves as a virtual research platform for Arabic dialectology, secondly, as a test bed for newly developed text technological methodologies and tools. In doing so, it gathers varying digital language resources for a number of different localities and offers information on the research history, available literature, salient grammatical features etc. of the particular variety. VICAV also makes accessible bibliographies, dictionaries, glossaries, and different types of transcribed texts. The project aims at providing a platform of exchange for a scientific community which is increasingly producing digital data but still lacks the infrastructure to make it widely available.",
     "places": [

@@ -4,7 +4,7 @@
     "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -15,8 +15,7 @@
     "date": [{ "from": "2000", "to": "2021" }],
     "maintained": null,
     "websites": [
-      "https://multicast.aspra.uni-bamberg.de/",
-      "https://www.uni-bamberg.de/aspra/forschung/projekte/multi-cast-multilingual-corpus-of-annotated-spoken-texts/"
+      "https://multicast.aspra.uni-bamberg.de/" 
     ],
     "project_desc": "Multi-CAST is a collection of annotated texts from a typologically diverse selection of 15 languages including endangered ones. The corpus is freely accessible via an online platform which provides multiple levels of parallel annotations, time-aligned with audio recordings, chiefly monologic, natural narrative texts from 15 languages, encompassing roughly 25,000 clause units available in multiple file formats, including as EAF files for the linguistic annotation software ELAN, as XML and TSV files, and via the multicastR package for R.",
     "places": [
@@ -72,7 +71,7 @@
         },
         "roles": ["supervision"],
         "websites": [
-          "https://www.uni-bamberg.de/aspra/team/aktuelles-team/prof-dr-geoffrey-haig/"
+          "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/staff/prof-dr-geoffrey-haig/"
         ]
       }
     ],

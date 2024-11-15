@@ -4,7 +4,7 @@
     "uuid": "9513964d-3509-462e-9d64-c47fd3922459",
     "record_created_on": "2022-03-28",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2024-11-15",
     "interviewed": false
   },
   "project": {
@@ -16,7 +16,6 @@
     "maintained": null,
     "websites": [
       "https://sqe.deadseascrolls.org.il/",
-      "https://www.qumranica.org/blog/",
       "https://gepris.dfg.de/gepris/projekt/282601852"
     ],
     "project_desc": "This project is dedicated to enhancing and standardizing the research on the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and non-biblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD. Next to the preparation of the pioneer Digital Scholarly Edition of Qumran Texts the main focus of the project lies on the creation of a standardized environment for collaborative production of Scrolls editions, advanced research tools and a robust dynamic interlinked database of texts, images and annotations.",
