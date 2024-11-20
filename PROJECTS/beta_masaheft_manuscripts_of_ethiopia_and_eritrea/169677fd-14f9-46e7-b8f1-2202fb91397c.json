@@ -134,29 +134,34 @@
         "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
         "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
         "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
       },
       {
-        "relation_type": "sibling",
+        "relation_type": "cooperation",
         "title": "Corpus dei Manoscritti Copti Letterari",
         "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
       },
       {
         "relation_type": "cooperation",
-        "title": "eScriptorium",
-        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
+        "title": "Syriaca.org: The Syriac Reference Portal",
+        "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9"
       },
       {
         "relation_type": "cooperation",
-        "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
-        "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605"
+        "title": "Archaeological Atlas of Coptic Literature by PATHs",
+        "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Corpus dei Manoscritti Copti Letterari",
+        "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
       }
     ],
     "contacts": [
