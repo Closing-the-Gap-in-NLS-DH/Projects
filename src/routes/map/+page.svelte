@@ -56,9 +56,7 @@
 			const jsonUrl = `${jsonUrlPrefix}${url.split('/PROJECTS/')[1]}`;
 
 			for (const place of places) {
-				const key =
-					place.coordinates.lat.split('.')[0] +
-					place.coordinates.lng.split('.')[0];
+				const key = place.coordinates.lat.split('.')[0] + place.coordinates.lng.split('.')[0];
 
 				if (placesMap[key]) {
 					placesMap[key].projects.push({
