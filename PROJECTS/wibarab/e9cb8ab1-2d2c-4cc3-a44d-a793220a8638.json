@@ -14,9 +14,7 @@
     "ref": [],
     "date": [{ "from": "2021-10-01", "to": "2026-09-30" }],
     "maintained": true,
-    "websites": [
-      "https://wibarab.acdh.oeaw.ac.at/"
-    ],
+    "websites": ["https://wibarab.acdh.oeaw.ac.at/"],
     "project_desc": "This project is dedicated to the study of Bedouin- Arabic dialects from cross the whole Arabic-speaking region. The project will collect new data through fieldwork in Saudi Arabia, Jordan, Sudan and Morocco, among other countries and publish the outputs in a database that will allow for efficient cross-dialectal comparisons, particularly with regard to phonological, morphological, syntactical, phraseological and lexical features.",
     "places": [
       {

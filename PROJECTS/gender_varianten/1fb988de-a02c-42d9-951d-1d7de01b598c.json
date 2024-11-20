@@ -14,7 +14,9 @@
     "ref": [],
     "date": [{ "from": "2023", "to": "2026" }],
     "maintained": true,
-    "websites": ["https://www.eh-darmstadt.de/forschung/forschungsprojekte/gendervarianten-revisionen-von-genderkonstruktionen-in-textueberlieferungen/"],
+    "websites": [
+      "https://www.eh-darmstadt.de/forschung/forschungsprojekte/gendervarianten-revisionen-von-genderkonstruktionen-in-textueberlieferungen/"
+    ],
     "project_desc": "The project combines New Testament textual criticism, analyses of the reception of gender constructions, information science research, and systematic-ethical investigations. The central aim of the project is to analyze how digitally supported research can provide interdisciplinary gender studies with new opportunities for analyzing the transmission of texts and uncovering associated understandings of gender.",
     "places": [
       {

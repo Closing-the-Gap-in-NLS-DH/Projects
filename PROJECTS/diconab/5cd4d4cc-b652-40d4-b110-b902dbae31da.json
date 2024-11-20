@@ -1,172 +1,133 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "5cd4d4cc-b652-40d4-b110-b902dbae31da",
-        "record_created_on": "2024-11-11",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-11-15",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "5cd4d4cc-b652-40d4-b110-b902dbae31da",
+    "record_created_on": "2024-11-11",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-11-15",
+    "interviewed": false
+  },
+  "project": {
+    "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
+    "abbr": "DiCoNab",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2022", "to": "" }],
+    "maintained": true,
+    "websites": ["https://diconab.huma-num.fr/"],
+    "project_desc": "DiCoNab aims at recording in a database easily accessible online the Nabataean and Developing Arabic inscriptions from the various countries and regions where they have been discovered since the mid-nineteenth century, primarily Syria, Jordan, Saudi Arabia, Yemen, and Egypt.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": ["https://www.geonames.org/2988507/paris.html"]
+        },
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Orient & M\u00e9diterran\u00e9e",
+          "ref": [
+            "https://ror.org/051gvfp41",
+            "https://www.wikidata.org/wiki/Q30262398"
+          ]
+        },
+        "websites": ["https://www.orient-mediterranee.com/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Acad\u00e9mie des Inscriptions et Belles-Lettres",
+          "ref": ["https://www.wikidata.org/wiki/Q337526"]
+        },
+        "websites": ["https://aibl.fr/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Corpus of South Arabian Inscriptions",
+        "uuid": "df954624-a860-4919-b233-cf91a0bf2024"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
+        "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
+        "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Maparabia",
+        "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Nehm\u00e9, La\u00efla",
+          "ref": [
+            "https://d-nb.info/gnd/113752877X",
+            "https://www.wikidata.org/wiki/Q3220115"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.orient-mediterranee.com/member/nehme-laila/"]
+      }
+    ],
+    "research_data": {
+      "lang": ["arc"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
-        "abbr": "DiCoNab",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2022",
-                "to": ""
-            }
-        ],
-        "maintained": true,
-        "websites": [
-            "https://diconab.huma-num.fr/"
-        ],
-        "project_desc": "DiCoNab aims at recording in a database easily accessible online the Nabataean and Developing Arabic inscriptions from the various countries and regions where they have been discovered since the mid-nineteenth century, primarily Syria, Jordan, Saudi Arabia, Yemen, and Egypt.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Paris",
-                    "ref": [
-                        "https://www.geonames.org/2988507/paris.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.8535",
-                    "lng": "2.34839"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Orient & M\u00e9diterran\u00e9e",
-                    "ref": [
-                        "https://ror.org/051gvfp41",
-                        "https://www.wikidata.org/wiki/Q30262398"
-                    ]
-                },
-                "websites": [
-                    "https://www.orient-mediterranee.com/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Acad\u00e9mie des Inscriptions et Belles-Lettres",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q337526"
-                    ]
-                },
-                "websites": [
-                    "https://aibl.fr/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "Corpus of South Arabian Inscriptions",
-                "uuid": "df954624-a860-4919-b233-cf91a0bf2024"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
-                "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
-                "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Maparabia",
-                "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Nehm\u00e9, La\u00efla",
-                    "ref": [
-                        "https://d-nb.info/gnd/113752877X",
-                        "https://www.wikidata.org/wiki/Q3220115"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.orient-mediterranee.com/member/nehme-laila/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "arc"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "archaeology",
-            "corpus_output",
-            "digital_preservation",
-            "epigraphy",
-            "history_studies",
-            "inscription",
-            "pre_islamic_arabia"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "archaeology",
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "history_studies",
+      "inscription",
+      "pre_islamic_arabia"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

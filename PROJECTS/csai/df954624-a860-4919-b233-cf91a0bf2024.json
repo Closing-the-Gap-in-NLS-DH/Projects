@@ -1,176 +1,141 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "df954624-a860-4919-b233-cf91a0bf2024",
-        "record_created_on": "2024-11-11",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-11-15",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Corpus of South Arabian Inscriptions",
-        "abbr": "CSAI",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2011",
-                "to": "2016"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "df954624-a860-4919-b233-cf91a0bf2024",
+    "record_created_on": "2024-11-11",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-11-15",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Corpus of South Arabian Inscriptions",
+    "abbr": "CSAI",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2011", "to": "2016" }],
+    "maintained": true,
+    "websites": [
+      "https://dasi.cnr.it/index.php?id=42&prjId=1&corId=0&colId=0&navId=0&rl=yes"
+    ],
+    "project_desc": "The CSAI (Corpus of South Arabian Inscriptions) is a significant collection of over 15,000 epigraphic inscriptions documenting South Arabian culture from the late 2nd millennium BC to the 6th century AD.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Pisa",
+          "ref": ["https://www.geonames.org/3170647/pisa.html"]
+        },
+        "coordinates": { "lat": "43.47147", "lng": "10.67979" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Pisa",
+          "ref": [
+            "https://ror.org/03ad39j10",
+            "https://www.wikidata.org/wiki/Q645663"
+          ]
+        },
+        "websites": ["https://www.unipi.it"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Scuola Normale Superiore",
+          "ref": [
+            "https://ror.org/03aydme10",
+            "https://www.wikidata.org/wiki/Q672416"
+          ]
+        },
+        "websites": ["https://www.sns.it"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
+        "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
+        "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
+        "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Maparabia",
+        "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Avanzini, Alessandra",
+          "ref": [
+            "https://d-nb.info/gnd/1014242916",
+            "https://www.wikidata.org/wiki/Q21252818"
+          ]
+        },
+        "roles": ["supervision"],
         "websites": [
-            "https://dasi.cnr.it/index.php?id=42&prjId=1&corId=0&colId=0&navId=0&rl=yes"
+          "https://www.unipi.it/index.php/ricerca/itemlist/category/1198-alessandra-avanzini"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["inm", "xqt", "xsa"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
-        "project_desc": "The CSAI (Corpus of South Arabian Inscriptions) is a significant collection of over 15,000 epigraphic inscriptions documenting South Arabian culture from the late 2nd millennium BC to the 6th century AD.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Pisa",
-                    "ref": [
-                        "https://www.geonames.org/3170647/pisa.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "43.47147",
-                    "lng": "10.67979"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Pisa",
-                    "ref": [
-                        "https://ror.org/03ad39j10",
-                        "https://www.wikidata.org/wiki/Q645663"
-                    ]
-                },
-                "websites": [
-                    "https://www.unipi.it"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Scuola Normale Superiore",
-                    "ref": [
-                        "https://ror.org/03aydme10",
-                        "https://www.wikidata.org/wiki/Q672416"
-                    ]
-                },
-                "websites": [
-                    "https://www.sns.it"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
-                "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
-                "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
-                "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Maparabia",
-                "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Avanzini, Alessandra",
-                    "ref": [
-                        "https://d-nb.info/gnd/1014242916",
-                        "https://www.wikidata.org/wiki/Q21252818"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.unipi.it/index.php/ricerca/itemlist/category/1198-alessandra-avanzini"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "inm",
-                "xqt",
-                "xsa"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "archaeology",
-            "corpus_output",
-            "digital_preservation",
-            "epigraphy",
-            "geodata",
-            "inscription",
-            "map",
-            "pre_islamic_arabia"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "archaeology",
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "geodata",
+      "inscription",
+      "map",
+      "pre_islamic_arabia"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
