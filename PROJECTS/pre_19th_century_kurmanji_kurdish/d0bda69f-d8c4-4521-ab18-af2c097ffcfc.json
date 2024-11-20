@@ -70,9 +70,7 @@
           "ref": ["https://d-nb.info/gnd/1121608140"]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"
-        ]
+        "websites": ["https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"]
       }
     ],
     "research_data": {

@@ -53,9 +53,7 @@
           "ref": ["https://www.wikidata.org/wiki/Q5149540"]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://hmml.org/about/staff/stewart/"
-        ]
+        "websites": ["https://hmml.org/about/staff/stewart/"]
       }
     ],
     "research_data": {

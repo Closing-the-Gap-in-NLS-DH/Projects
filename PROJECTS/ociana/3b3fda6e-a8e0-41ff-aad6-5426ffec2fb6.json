@@ -1,205 +1,183 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6",
-        "record_created_on": "2024-11-11",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-11-15",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6",
+    "record_created_on": "2024-11-11",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-11-15",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
+    "abbr": "OCIANA",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2017"
+      },
+      {
+        "from": "2024",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://dasi.cnr.it/index.php?id=42&prjId=4&corId=0&colId=0&navId=0",
+      "http://krc.orient.ox.ac.uk/ociana/",
+      "https://ociana.osu.edu/"
+    ],
+    "project_desc": "The Online Corpus of the Inscriptions of Ancient North Arabia aims to help transform our knowledge of the history, languages and cultures of ancient Arabia by creating a digital corpus of all known Ancient North Arabian inscriptions in North and Central Arabia, and elsewhere.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
+        },
+        "coordinates": {
+          "lat": "51.75201",
+          "lng": "-1.25785"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Columbus",
+          "ref": ["https://www.geonames.org/4509177/columbus.html"]
+        },
+        "coordinates": {
+          "lat": "39.96226",
+          "lng": "-83.00071"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://ror.org/052gg0110",
+            "https://www.wikidata.org/wiki/Q34433"
+          ]
+        },
+        "websites": ["http://www.ox.ac.uk"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "The Ohio State University",
+          "ref": [
+            "https://ror.org/00rs6vg23",
+            "https://www.wikidata.org/wiki/Q309331"
+          ]
+        },
+        "websites": ["https://www.osu.edu/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
+        "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Corpus of South Arabian Inscriptions",
+        "uuid": "df954624-a860-4919-b233-cf91a0bf2024"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
+        "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Maparabia",
+        "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Macdonald, Michael C.A.",
+          "ref": ["https://d-nb.info/gnd/1051915554"]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.ames.ox.ac.uk/people/michael-c-macdonald"]
+      },
+      {
+        "pers_name": {
+          "text": "Al-Jallad, Ahmad",
+          "ref": [
+            "https://d-nb.info/gnd/1135793336",
+            "https://www.wikidata.org/wiki/Q125510466"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://nesa.osu.edu/people/al-jallad.1"]
+      }
+    ],
+    "research_data": {
+      "lang": ["xna"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "Online Corpus of the Inscriptions of Ancient North Arabia",
-        "abbr": "OCIANA",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": "2017"
-            },
-            {
-                "from": "2024",
-                "to": ""
-            }
-        ],
-        "maintained": true,
-        "websites": [
-            "https://dasi.cnr.it/index.php?id=42&prjId=4&corId=0&colId=0&navId=0",
-            "http://krc.orient.ox.ac.uk/ociana/",
-            "https://ociana.osu.edu/"
-        ],
-        "project_desc": "The Online Corpus of the Inscriptions of Ancient North Arabia aims to help transform our knowledge of the history, languages and cultures of ancient Arabia by creating a digital corpus of all known Ancient North Arabian inscriptions in North and Central Arabia, and elsewhere.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Oxford",
-                    "ref": [
-                        "https://www.geonames.org/2640729/oxford.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.75201",
-                    "lng": "-1.25785"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Columbus",
-                    "ref": [
-                        "https://www.geonames.org/4509177/columbus.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "39.96226",
-                    "lng": "-83.00071"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Oxford",
-                    "ref": [
-                        "https://ror.org/052gg0110",
-                        "https://www.wikidata.org/wiki/Q34433"
-                    ]
-                },
-                "websites": [
-                    "http://www.ox.ac.uk"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "The Ohio State University",
-                    "ref": [
-                        "https://ror.org/00rs6vg23",
-                        "https://www.wikidata.org/wiki/Q309331"
-                    ]
-                },
-                "websites": [
-                    "https://www.osu.edu/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Digital Archive for the Study of pre-Islamic Arabian Inscriptions",
-                "uuid": "5343b628-db87-4519-93bf-76e130e6c61c"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Corpus of South Arabian Inscriptions",
-                "uuid": "df954624-a860-4919-b233-cf91a0bf2024"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "The Digital Corpus of the Nabataean and Developing Arabic Inscriptions",
-                "uuid": "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Maparabia",
-                "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Macdonald, Michael C.A.",
-                    "ref": [
-                        "https://d-nb.info/gnd/1051915554"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ames.ox.ac.uk/people/michael-c-macdonald"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "Al-Jallad, Ahmad",
-                    "ref": [
-                        "https://d-nb.info/gnd/1135793336",
-                        "https://www.wikidata.org/wiki/Q125510466"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://nesa.osu.edu/people/al-jallad.1"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "xna"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "epigraphy",
-            "geodata",
-            "inscription",
-            "map",
-            "pre_islamic_arabia"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "geodata",
+      "inscription",
+      "map",
+      "pre_islamic_arabia"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

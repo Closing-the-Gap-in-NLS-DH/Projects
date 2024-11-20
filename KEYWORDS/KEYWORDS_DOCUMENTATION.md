@@ -60,7 +60,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - [e_learning](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept58)
    - hadith
    - isnad
-   - language_documentation   
+   - language_documentation
    - nahda
    - pre_islamic_arabia
    - religious_text

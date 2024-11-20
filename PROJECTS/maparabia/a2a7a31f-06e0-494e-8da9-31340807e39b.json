@@ -1,99 +1,98 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-      "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b",
-      "record_created_on": "2024-11-01",
-      "record_created_by": "Alieva, Aibaniz",
-      "last_edited_on": "2024-11-05",
-      "interviewed": false
-    },
-    "project": {
-      "title": "Maparabia",
-      "abbr": "",
-      "type": "project",
-      "ref": [],
-      "date": [{ "from": "2018", "to": "2023" }],
-      "maintained": true,
-      "websites": [
-        "https://ancientarabia.huma-num.fr/"
-        ],
-      "project_desc": "The objective of the project is to produce a set of tools with a common aim: to model territorial and cultural dynamics by cross-referencing the various available sources. These analyses yield an updated regional history from the beginning of the 1st millennium BCE to the 7th cent. CE.",
-      "places": [
-        {
-          "place_name": {
-            "text": "Paris",
-            "ref": ["https://www.geonames.org/2988507/paris.html"]
-          },
-          "coordinates": { "lat": "48.8535", "lng": "2.34839" }
-        }
-      ],
-      "lang": ["eng"],
-      "related_institutions": [
-        {
-          "relation_type": "host",
-          "org_name": {
-            "text": "Orient & M\u00e9diterran\u00e9e",
-            "ref": [
-              "https://ror.org/051gvfp41",
-              "https://www.wikidata.org/wiki/Q30262398"
-            ]
-          },
-          "websites": ["https://www.orient-mediterranee.com/"]
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b",
+    "record_created_on": "2024-11-01",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-11-05",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Maparabia",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2018", "to": "2023" }],
+    "maintained": true,
+    "websites": ["https://ancientarabia.huma-num.fr/"],
+    "project_desc": "The objective of the project is to produce a set of tools with a common aim: to model territorial and cultural dynamics by cross-referencing the various available sources. These analyses yield an updated regional history from the beginning of the 1st millennium BCE to the 7th cent. CE.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
-        {
-            "relation_type": "cooperation",
-            "org_name": {
-              "text": "Consiglio Nazionale delle Ricerche",
-              "ref": [
-                "https://ror.org/04zaypm56",
-                "https://www.wikidata.org/wiki/Q902464"
-              ]
-            },
-            "websites": ["https://www.cnr.it/"]
-          },
-          {
-            "relation_type": "cooperation",
-            "org_name": {
-              "text": "University of Pisa",
-              "ref": [
-                "https://ror.org/03ad39j10",
-                "https://www.wikidata.org/wiki/Q645663"
-              ]
-            },
-            "websites": ["https://www.unipi.it/"]
-          },
-          {
-            "relation_type": "cooperation",
-            "org_name": {
-              "text": "Maison de l'Orient et de la M\u00e9diterran\u00e9e Jean Pouilloux",
-              "ref": [
-                "https://ror.org/05de6h762",
-                        "https://www.wikidata.org/wiki/Q3279648"
-                ]
-            },
-            "websites": ["https://www.mom.fr/"]
-          }
-      ],
-      "related_entities": [],
-      "contacts": [
-        {
-          "pers_name": {
-            "text": "Schiettecatte, J\u00e9r\u00e9mie",
-            "ref": ["https://d-nb.info/gnd/139334254",
-                    "https://www.wikidata.org/wiki/Q124135278"
-                ]
-          },
-          "roles": ["supervision"],
-          "websites": [
-            "https://www.orient-mediterranee.com/member/schiettecatte-jeremie/"
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Orient & M\u00e9diterran\u00e9e",
+          "ref": [
+            "https://ror.org/051gvfp41",
+            "https://www.wikidata.org/wiki/Q30262398"
           ]
-        }
-      ],
-      "research_data": {
-        "lang": ["ara"],
-        "sustainability_plan": null,
-        "publications": { "open_access": 0, "licensing": [] },
-        "data": {
+        },
+        "websites": ["https://www.orient-mediterranee.com/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Consiglio Nazionale delle Ricerche",
+          "ref": [
+            "https://ror.org/04zaypm56",
+            "https://www.wikidata.org/wiki/Q902464"
+          ]
+        },
+        "websites": ["https://www.cnr.it/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "University of Pisa",
+          "ref": [
+            "https://ror.org/03ad39j10",
+            "https://www.wikidata.org/wiki/Q645663"
+          ]
+        },
+        "websites": ["https://www.unipi.it/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Maison de l'Orient et de la M\u00e9diterran\u00e9e Jean Pouilloux",
+          "ref": [
+            "https://ror.org/05de6h762",
+            "https://www.wikidata.org/wiki/Q3279648"
+          ]
+        },
+        "websites": ["https://www.mom.fr/"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Schiettecatte, J\u00e9r\u00e9mie",
+          "ref": [
+            "https://d-nb.info/gnd/139334254",
+            "https://www.wikidata.org/wiki/Q124135278"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.orient-mediterranee.com/member/schiettecatte-jeremie/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
         "datatypes": [
           { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
@@ -126,12 +125,12 @@
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [
-            "arabic_studies",
-            "archaeology",
-            "epigraphy",
-            "geodata",
-            "geography",
-            "inscription"
+      "arabic_studies",
+      "archaeology",
+      "epigraphy",
+      "geodata",
+      "geography",
+      "inscription"
     ],
     "category": "tools_and_analysis",
     "comment": ""
