@@ -12,12 +12,7 @@
     "abbr": "DASI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2011",
-        "to": "2016"
-      }
-    ],
+    "date": [{ "from": "2011", "to": "2016" }],
     "maintained": true,
     "websites": ["https://dasi.cnr.it/"],
     "project_desc": "DASI seeks to gather all known pre-Islamic Arabian epigraphic material into a comprehensive online database, with the aim to make available to specialists and to the broader public a wide array of documents often underestimated because of their difficulty of access.",
@@ -27,10 +22,7 @@
           "text": "Pisa",
           "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
-        "coordinates": {
-          "lat": "43.47147",
-          "lng": "10.67979"
-        }
+        "coordinates": { "lat": "43.47147", "lng": "10.67979" }
       }
     ],
     "lang": ["eng"],
@@ -120,18 +112,10 @@
     "research_data": {
       "lang": ["arc", "inm", "xqt", "xsa"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -160,12 +144,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "corpus_output",

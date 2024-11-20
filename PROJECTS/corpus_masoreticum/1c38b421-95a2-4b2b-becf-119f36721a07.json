@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2018",
-        "to": "2021"
-      },
-      {
-        "from": "2018",
-        "to": "2030"
-      }
+      { "from": "2018", "to": "2021" },
+      { "from": "2018", "to": "2030" }
     ],
     "maintained": true,
     "websites": [
@@ -35,10 +29,7 @@
           "text": "Heidelberg",
           "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
         },
-        "coordinates": {
-          "lat": "49.40768",
-          "lng": "8.69079"
-        }
+        "coordinates": { "lat": "49.40768", "lng": "8.69079" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -74,10 +65,7 @@
     "research_data": {
       "lang": ["heb"],
       "sustainability_plan": true,
-      "publications": {
-        "open_access": 100,
-        "licensing": ["CC BY-SA 4.0"]
-      },
+      "publications": { "open_access": 100, "licensing": ["CC BY-SA 4.0"] },
       "data": {
         "datatypes": [
           {
@@ -128,12 +116,7 @@
       ],
       "languages": ["PHP", "JS", "Cypher"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "digital_edition",

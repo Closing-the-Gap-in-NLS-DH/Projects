@@ -12,12 +12,7 @@
     "abbr": "DiCoNab",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2022",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2022", "to": "" }],
     "maintained": true,
     "websites": ["https://diconab.huma-num.fr/"],
     "project_desc": "DiCoNab aims at recording in a database easily accessible online the Nabataean and Developing Arabic inscriptions from the various countries and regions where they have been discovered since the mid-nineteenth century, primarily Syria, Jordan, Saudi Arabia, Yemen, and Egypt.",
@@ -27,10 +22,7 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.8535",
-          "lng": "2.34839"
-        }
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
       }
     ],
     "lang": ["eng"],
@@ -93,18 +85,10 @@
     "research_data": {
       "lang": ["arc"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -133,12 +117,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "corpus_output",
