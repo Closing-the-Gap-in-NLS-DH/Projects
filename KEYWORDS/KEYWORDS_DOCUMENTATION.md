@@ -77,6 +77,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - digital_edition (a critical representation of historical documents of mostly one author or one work, virtual research environment with sophisticated search and/or editing options)
    - encyclopedia
    - htr
+   - [image](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept38)
    - lexicon
    - [map](https://vocabs.acdh.oeaw.ac.at/dha_taxonomy/en/page/Concept37)
    - [ocr](https://vocabs.dariah.eu/dha_taxonomy/en/page/Concept41)
@@ -89,7 +90,6 @@ In order to help us maintain consistency, please refrain from including keywords
 
    - corpus_resource (large and structured set of texts of multiple authors electronically stored and processed)
    - [geodata](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept36)
-   - [image](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept38)
    - inscription
    - manuscript
    - other
