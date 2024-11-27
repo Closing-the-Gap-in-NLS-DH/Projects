@@ -73,7 +73,7 @@
     },
     "policies": [{ "description": "", "ref": [] }],
     "keywords": [
-      "corpus_output",
+      "catalog",
       "digital_preservation",
       "epigraphy",
       "inscription",
