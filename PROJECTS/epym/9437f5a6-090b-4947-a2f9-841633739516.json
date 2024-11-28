@@ -46,12 +46,11 @@
         {
           "pers_name": {
             "text": "Thiele, Jan",
-            "ref": [""]
+            "ref": ["https://orcid.org/0000-0002-8865-5997"]
           },
           "roles": ["supervision"],
           "websites": [
             "https://cchs.csic.es/en/personal/jan-thiele",
-            "https://orcid.org/0000-0002-8865-5997",
             "https://www.csic.es/es/investigación/investigadoresjan-thiele"
           ]
         }

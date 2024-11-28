@@ -51,12 +51,11 @@
         {
           "pers_name": {
             "text": "Gori, Alessandro",
-            "ref": [""]
+            "ref": ["https://d-nb.info/gnd/132297582"]
           },
           "roles": ["supervision"],
           "websites": [
-            "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder",
-            "https://d-nb.info/gnd/132297582"
+            "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"
           ]
         }
       ],
