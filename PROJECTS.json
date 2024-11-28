@@ -275,6 +275,10 @@
     "title": "European Lexicographic Infrastructure",
     "path": "/PROJECTS/elexis/"
   },
+  "9437f5a6-090b-4947-a2f9-841633739516": {
+    "title": "Early Prints of Yemeni Works",
+    "path": "/PROJECTS/epym/"
+  },
   "fbf007e0-7eee-4bb1-801d-568785d43d04": {
     "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
     "path": "/PROJECTS/ethio_spare/"
@@ -378,6 +382,10 @@
   "31534c48-6b74-4cc5-8aff-ea8dbc60c445": {
     "title": "Islamic Painted Page",
     "path": "/PROJECTS/islamic_painted_page/"
+  },
+  "4c23561d-aba3-426c-a9ae-4763ccff615a": {
+    "title": "Islam in the Horn of Africa: A comparative Literary Approach",
+    "path": "/PROJECTS/isl_horn_afr/"
   },
   "725a2604-9720-4dad-b82e-a0f2e98f707f": {
     "title": "Islamic Scientific Manuscripts Initiative",
