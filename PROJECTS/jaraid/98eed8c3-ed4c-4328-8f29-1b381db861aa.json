@@ -1,0 +1,102 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+      "uuid": "98eed8c3-ed4c-4328-8f29-1b381db861aa",
+      "record_created_on": "2024-10-09",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "2024-11-14",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Jara'id: A Chronology of Arabic Periodicals (1800-1929)",
+      "abbr": "Jara'id",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2009", "to": "2020" }],
+      "maintained": false,
+      "websites": ["https://projectjaraid.github.io/index.html", "https://archiv.zmo.de/jaraid/index.html"],
+      "project_desc": "The “Jara’id” project seeks to establish a comprehensive digital research tool for identifying and cataloging 19th-century Arabic periodicals, facilitating access to crucial historical publications. By indexing key details such as publication dates, locations, languages, and contributors, it provides scholars with a centralized resource for exploring Arabic intellectual and cultural history.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Berlin",
+            "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          },
+          "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        }
+      ],
+      "lang": ["eng"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "Leibniz-Zentrum Moderner Orient",
+            "ref": [
+              "https://ror.org/03ty9wj75",
+              "https://www.wikidata.org/wiki/Q5062518"
+            ]
+          },
+          "websites": ["https://www.zmo.de/"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "Mestyan, Adam",
+            "ref": ["https://d-nb.info/gnd/1137238615"]
+          },
+          "roles": ["supervision"],
+          "websites": [
+            "https://adammestyan.com/"
+          ]
+        }
+      ],
+      "research_data": {
+        "lang": ["ara", "eng"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [] },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "arabic_studies",
+        "catalog",
+        "corpus_resource",
+        "digital_preservation",
+        "visualization"
+      ],
+      "category": "digital_preservation",
+      "comment": ""
+    }
+  }
+  

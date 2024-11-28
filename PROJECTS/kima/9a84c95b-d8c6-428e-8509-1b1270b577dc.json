@@ -1,0 +1,78 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+      "uuid": "9a84c95b-d8c6-428e-8509-1b1270b577dc",
+      "record_created_on": "2024-11-14",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "2024-11-14",
+      "interviewed": false
+    },
+    "project": {
+      "title": "KIMA",
+      "abbr": "",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2016", "to": "" }],
+      "maintained": true,
+      "websites": [
+        "https://data.geo-kima.org/"
+      ],
+      "project_desc": "The project aims to develop an open-access digital gazetteer for place names in Hebrew script, creating a comprehensive and interoperable database of historical toponyms. By providing a stable digital reference accessible via its website and API, Kima facilitates scholarly research and integration with tools like the Pelagios annotation and mapping environment Recogito.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Haifa",
+            "ref": ["https://www.geonames.org/294801/"]
+          },
+          "coordinates": { "lat": "32.81841", "lng": "34.9885" }}
+      ],
+      "lang": ["eng"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "Digital Humanities Development",
+            "ref": []
+          },
+          "websites": ["https://www.dh-dev.com/"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "Rusinek, Sinai",
+            "ref": ["ttp://viaf.org/viaf/241276199"]
+          },
+          "roles": ["supervision"],
+          "websites": ["https://hcges.haifa.ac.il/2024/10/02/sinai-rusinek-dh-expert/"]
+        }
+      ],
+      "research_data": {
+        "lang": ["heb", "eng"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [""] },
+        "data": { "datatypes": [], "repositories": [] }
+      },
+      "stack": {
+        "database": ["sql", "xml", "json", "nosql"],
+        "backend": ["laravel"],
+        "frontend": ["vue"],
+        "tools": [],
+        "languages": ["php", "javascript", "python"]
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "catalog",
+        "digital_preservation",
+        "geodata",
+        "jewish_studies",
+        "manuscript",
+        "map", 
+        "visualization"
+      ],
+      "category": "digital_preservation",
+      "comment": "No place name for host found. Beginning of research project is unclear, the year mentioned is the year where the funding started."
+    }
+  }
+  
