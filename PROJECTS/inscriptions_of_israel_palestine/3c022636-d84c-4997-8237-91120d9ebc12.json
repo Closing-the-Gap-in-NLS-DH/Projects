@@ -13,18 +13,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "1996",
-        "to": "1999"
-      },
-      {
-        "from": "1999",
-        "to": "2002"
-      },
-      {
-        "from": "2002",
-        "to": ""
-      }
+      { "from": "1996", "to": "1999" },
+      { "from": "1999", "to": "2002" },
+      { "from": "2002", "to": "" }
     ],
     "maintained": true,
     "websites": ["https://www.inscriptionsisraelpalestine.org/"],
@@ -35,30 +26,21 @@
           "text": "Charlottesville",
           "ref": ["https://www.geonames.org/4752031/charlottesville.html/"]
         },
-        "coordinates": {
-          "lat": "38.02931",
-          "lng": "-78.47668"
-        }
+        "coordinates": { "lat": "38.02931", "lng": "-78.47668" }
       },
       {
         "place_name": {
           "text": "Bloomington",
           "ref": ["https://www.geonames.org/4254679/bloomington.html/"]
         },
-        "coordinates": {
-          "lat": "39.16704",
-          "lng": "-86.53429"
-        }
+        "coordinates": { "lat": "39.16704", "lng": "-86.53429" }
       },
       {
         "place_name": {
           "text": "Providence",
           "ref": ["https://www.geonames.org/5224151/providence.html"]
         },
-        "coordinates": {
-          "lat": "41.82399",
-          "lng": "-71.41283"
-        }
+        "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
       }
     ],
     "lang": ["eng"],
@@ -114,18 +96,10 @@
     "research_data": {
       "lang": ["arc", "grc", "heb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -154,12 +128,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "corpus_output",

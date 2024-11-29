@@ -32,10 +32,7 @@
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": {
-          "text": "Digital Humanities Development",
-          "ref": []
-        },
+        "org_name": { "text": "Digital Humanities Development", "ref": [] },
         "websites": ["https://www.dh-dev.com/"]
       }
     ],

@@ -12,12 +12,7 @@
     "abbr": "RPI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": true,
     "websites": ["https://islamperspectives.org/rpi/"],
     "project_desc": "Russian Perspectives on Islam documents the encounter and evolving relationship between the Orthodox/secular state and the Islamic regions, groups, individuals, and ideologies on the territory of the former Soviet Union and neighboring countries. The digital archive is designed to disseminate these documents to the widest possible scholarly community and general readership.",
@@ -27,10 +22,7 @@
           "text": "Fairfax",
           "ref": ["https://www.geonames.org/4758023/fairfax.html/"]
         },
-        "coordinates": {
-          "lat": "38.84622",
-          "lng": "-77.30637"
-        }
+        "coordinates": { "lat": "38.84622", "lng": "-77.30637" }
       }
     ],
     "lang": ["eng"],
@@ -61,18 +53,10 @@
     "research_data": {
       "lang": ["ara", "aze", "hye", "kat", "rus", "tat", "tgk", "tuk", "uzb"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -101,12 +85,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "cultural_studies",
