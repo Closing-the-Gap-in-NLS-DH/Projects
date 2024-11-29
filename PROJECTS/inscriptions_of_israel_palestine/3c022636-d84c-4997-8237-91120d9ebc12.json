@@ -1,203 +1,179 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "3c022636-d84c-4997-8237-91120d9ebc12",
-        "record_created_on": "2024-11-27",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-11-28",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "3c022636-d84c-4997-8237-91120d9ebc12",
+    "record_created_on": "2024-11-27",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-11-28",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Inscriptions of Israel/Palestine",
+    "abbr": "IIP",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "1996",
+        "to": "1999"
+      },
+      {
+        "from": "1999",
+        "to": "2002"
+      },
+      {
+        "from": "2002",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": ["https://www.inscriptionsisraelpalestine.org/"],
+    "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE \u2013 640 CE).",
+    "places": [
+      {
+        "place_name": {
+          "text": "Charlottesville",
+          "ref": ["https://www.geonames.org/4752031/charlottesville.html/"]
+        },
+        "coordinates": {
+          "lat": "38.02931",
+          "lng": "-78.47668"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Bloomington",
+          "ref": ["https://www.geonames.org/4254679/bloomington.html/"]
+        },
+        "coordinates": {
+          "lat": "39.16704",
+          "lng": "-86.53429"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Providence",
+          "ref": ["https://www.geonames.org/5224151/providence.html"]
+        },
+        "coordinates": {
+          "lat": "41.82399",
+          "lng": "-71.41283"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Virginia",
+          "ref": [
+            "https://ror.org/0153tk833",
+            "https://www.wikidata.org/wiki/Q213439"
+          ]
+        },
+        "websites": ["https://www.virginia.edu/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Indiana University",
+          "ref": [
+            "https://ror.org/01kg8sb98",
+            "https://www.wikidata.org/wiki/Q6608367"
+          ]
+        },
+        "websites": ["https://www.iu.edu/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Brown University",
+          "ref": [
+            "https://ror.org/05gq02987",
+            "https://www.wikidata.org/wiki/Q49114"
+          ]
+        },
+        "websites": ["https://www.brown.edu/"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Satlow, Michael",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q93237684",
+            "https://d-nb.info/gnd/1053196598"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://vivo.brown.edu/display/msatlow"]
+      }
+    ],
+    "research_data": {
+      "lang": ["arc", "grc", "heb"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "Inscriptions of Israel/Palestine",
-        "abbr": "IIP",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "1996",
-                "to": "1999"
-            },
-            {
-                "from": "1999",
-                "to": "2002"
-            },
-            {
-                "from": "2002",
-                "to": ""
-            }
-        ],
-        "maintained": true,
-        "websites": [
-            "https://www.inscriptionsisraelpalestine.org/"
-        ],
-        "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE \u2013 640 CE).",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Charlottesville",
-                    "ref": [
-                        "https://www.geonames.org/4752031/charlottesville.html/"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "38.02931",
-                    "lng": "-78.47668"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Bloomington",
-                    "ref": [
-                        "https://www.geonames.org/4254679/bloomington.html/"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "39.16704",
-                    "lng": "-86.53429"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Providence",
-                    "ref": [
-                        "https://www.geonames.org/5224151/providence.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "41.82399",
-                    "lng": "-71.41283"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Virginia",
-                    "ref": [
-                        "https://ror.org/0153tk833",
-                        "https://www.wikidata.org/wiki/Q213439"
-                    ]
-                },
-                "websites": [
-                    "https://www.virginia.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Indiana University",
-                    "ref": [
-                        "https://ror.org/01kg8sb98",
-                        "https://www.wikidata.org/wiki/Q6608367"
-                    ]
-                },
-                "websites": [
-                    "https://www.iu.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Brown University",
-                    "ref": [
-                        "https://ror.org/05gq02987",
-                        "https://www.wikidata.org/wiki/Q49114"
-                    ]
-                },
-                "websites": [
-                    "https://www.brown.edu/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Satlow, Michael",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q93237684",
-                        "https://d-nb.info/gnd/1053196598"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://vivo.brown.edu/display/msatlow"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "arc",
-                "grc",
-                "heb"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "archaeology",
-            "corpus_output",
-            "digital_preservation",
-            "epigraphy",
-            "geodata",
-            "image",
-            "inscription",
-            "jewish_studies",
-            "map",
-            "semitic_studies",
-            "translation"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "archaeology",
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "geodata",
+      "image",
+      "inscription",
+      "jewish_studies",
+      "map",
+      "semitic_studies",
+      "translation"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
