@@ -29,7 +29,21 @@
         }
       ],
       "lang": ["eng"],
-      "related_institutions": [],
+      "related_institutions": [
+            {
+              "relation_type": "host",
+              "org_name": {
+                "text": "University Chicago Library",
+                "ref": [
+                  "http://www.wikidata.org/entity/Q7895259",
+                  "https://www.wikidata.org/wiki/Q55044"
+                ]
+              },
+              "websites": ["https://www.lib.uchicago.edu"]
+            }
+      ],
+      "related_entities": [
+      ],
       "contacts": [
         {
           "pers_name": {
