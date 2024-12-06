@@ -28,9 +28,9 @@
     "lang": ["eng"],
     "related_institutions": [
       {
-        "relation_type": "host",
+        "relation_type": "cooperation",
         "org_name": {
-          "text": "collaboration",
+          "text": "Princeton University",
           "ref": [
             "https://ror.org/00hx57361",
             "http://www.wikidata.org/entity/Q21578"
