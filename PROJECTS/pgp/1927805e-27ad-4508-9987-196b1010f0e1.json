@@ -39,7 +39,7 @@
           "websites": ["https://www.princeton.edu/"]
         },
         {
-            "relation_type": "collaboration",
+            "relation_type": "cooperation",
             "org_name": {
               "text": "The center for Digital Humanities at Princeton",
               "ref": [
@@ -118,7 +118,7 @@
         "digital_edition",
         "digital_preservation",
         "catalog",
-        "corpus",
+        "corpus_output",
         "geodata",
         "image",
         "manuscript",

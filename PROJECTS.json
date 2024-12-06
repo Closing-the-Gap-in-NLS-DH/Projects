@@ -574,6 +574,8 @@
   "1927805e-27ad-4508-9987-196b1010f0e1": {
     "title": "Princeton Genzia Project",
     "path": "/PROJECTS/pgp/"
+<<<<<<< HEAD
+=======
   },
   "ba1523cc-df9a-4665-8f44-c13ea3542492": {
     "title": "Roshan Initiative in Persian Digital Humanities",
@@ -586,6 +588,7 @@
   "7dbf301a-6216-4eb7-8645-dbe94e108fe6": {
     "title": "Persian Manuscript Initiative",
     "path": "/PROJECTS/persian_manuscript_initiative/"
+>>>>>>> origin
   },
   "c1a2957b-0c24-46e6-9a67-381997525a87": {
     "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
