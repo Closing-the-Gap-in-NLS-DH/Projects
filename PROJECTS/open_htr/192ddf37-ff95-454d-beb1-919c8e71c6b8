@@ -28,7 +28,7 @@
     "lang": ["eng"],
     "related_institutions": [
       {
-        "relation_type": "cooperation",
+        "relation_type": "host",
         "org_name": {
           "text": "Princeton University",
           "ref": [
