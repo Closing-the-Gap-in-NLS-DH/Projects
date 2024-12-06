@@ -1,0 +1,141 @@
+{
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "192ddf37-ff95-454d-beb1-919c8e71c6b8",
+    "record_created_on": "2024-12-06",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2024-12-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Princeton Open HTR Initiative: Creating Infrastructure for Modeling Historical Texts",
+    "abbr": "htr2hpc",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2024", "to": "2025" }],
+    "maintained": true,
+    "websites": ["https://github.com/Princeton-CDH/htr2hpc"],
+    "project_desc": "The project aims to advance digital humanities research by integrating eScriptorium handwritten text recognition (HTR) software into Princeton's research infrastructure. By making historical texts machine-readable, it enables text search and computational analysis at scale, lowering barriers of technical expertise and cost for humanities scholars. This pilot project explores creating a centralized resource for HTR to support diverse research workflows in the digital humanities.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Princeton",
+          "ref": ["https://www.geonames.org/5102922/"]
+        },
+        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "collaboration",
+          "ref": [
+            "https://ror.org/00hx57361",
+            "http://www.wikidata.org/entity/Q21578"
+          ]
+        },
+        "websites": ["https://www.princeton.edu/"]
+      },
+      {
+          "relation_type": "host",
+          "org_name": {
+            "text": "The center for Digital Humanities at Princeton",
+            "ref": [
+              "https://www.wikidata.org/wiki/Q58312170"
+            ]
+          },
+          "websites": ["https://cdh.princeton.edu/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Princeton Genzia Project",
+        "uuid": "1927805e-27ad-4508-9987-196b1010f0e1"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Rustow, Marina",
+          "ref": ["https://d-nb.info/gnd/1203909276"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://history.princeton.edu/people/marina-rustow",
+          "https://princeton.academia.edu/MarinaRustow/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Roughan, Christina",
+          "ref": [""]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://cdh.princeton.edu/people/christine-roughan/",
+          "https://cmroughan.github.io/",
+          "https://github.com/cmroughan",
+          "https://orcid.org/0009-0004-5999-8749"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Reimitz, Helmut",
+          "ref": ["https://d-nb.info/gnd/109492802X"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://history.princeton.edu/people/helmut-reimitz",
+          "https://de.wikipedia.org/wiki/Helmut_Reimitz"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara", "eng"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "arabic_studies",
+      "htr",
+      "manuscript",
+      "machine_learning"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
+}
