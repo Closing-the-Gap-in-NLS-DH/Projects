@@ -1,153 +1,136 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "f5b21ba0-3772-42a3-b492-5a155b62a6b3",
-        "record_created_on": "2024-12-06",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-12-06",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "f5b21ba0-3772-42a3-b492-5a155b62a6b3",
+    "record_created_on": "2024-12-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-12-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Digital Guide to Theatre of the Middle East",
+    "abbr": "DGTOME",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": ["https://dgtome.com/"],
+    "project_desc": "The project provides essential information on the most significant plays/performances written and performed in the Middle East and North Africa (MENA) and among their diasporas since 2000. The goal is to recognize and display the breadth and diversity of theatrical visions, creations, and collaborations of MENA theatre artists in an accessible and sustained manner to academics and theater practitioners and producers.",
+    "places": [
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Maryland",
+          "ref": [
+            "https://ror.org/047s2c258",
+            "https://www.wikidata.org/wiki/Q503415"
+          ]
+        },
+        "websites": ["https://umd.edu"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Roshan Initiative in Persian Digital Humanities",
+        "uuid": "ba1523cc-df9a-4665-8f44-c13ea3542492"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Persian Digital Library",
+        "uuid": "2f06d431-8293-494b-988a-2ff92bfb9c3a"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Persian Manuscript Initiative",
+        "uuid": "7dbf301a-6216-4eb7-8645-dbe94e108fe6"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Moosavi, Marjan",
+          "ref": ["https://d-nb.info/gnd/1097764982"]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/marjan-moosavi"]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara", "fas"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "Digital Guide to Theatre of the Middle East",
-        "abbr": "DGTOME",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020",
-                "to": ""
-            }
-        ],
-        "maintained": true,
-        "websites": [
-            "https://dgtome.com/"
-        ],
-        "project_desc": "The project provides essential information on the most significant plays/performances written and performed in the Middle East and North Africa (MENA) and among their diasporas since 2000. The goal is to recognize and display the breadth and diversity of theatrical visions, creations, and collaborations of MENA theatre artists in an accessible and sustained manner to academics and theater practitioners and producers.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "College Park",
-                    "ref": [
-                        "https://www.geonames.org/4351977/college-park.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "38.98067",
-                    "lng": "-76.93692"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Maryland",
-                    "ref": [
-                        "https://ror.org/047s2c258",
-                        "https://www.wikidata.org/wiki/Q503415"
-                    ]
-                },
-                "websites": [
-                    "https://umd.edu"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Roshan Initiative in Persian Digital Humanities",
-                "uuid": "ba1523cc-df9a-4665-8f44-c13ea3542492"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Persian Digital Library",
-                "uuid": "2f06d431-8293-494b-988a-2ff92bfb9c3a"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Persian Manuscript Initiative",
-                "uuid": "7dbf301a-6216-4eb7-8645-dbe94e108fe6"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Moosavi, Marjan",
-                    "ref": [
-                        "https://d-nb.info/gnd/1097764982"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://sllc.umd.edu/directory/marjan-moosavi"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "art_studies",
-            "catalog",
-            "cultural_studies",
-            "digital_preservation",
-            "other"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "art_studies",
+      "catalog",
+      "cultural_studies",
+      "digital_preservation",
+      "other"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

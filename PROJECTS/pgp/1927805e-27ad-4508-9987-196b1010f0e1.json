@@ -1,132 +1,129 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-      "uuid": "1927805e-27ad-4508-9987-196b1010f0e1",
-      "record_created_on": "2024-12-06",
-      "record_created_by": "Sido Bozan, Joudy",
-      "last_edited_on": "2024-12-06",
-      "interviewed": false
-    },
-    "project": {
-      "title": "Princton Genzia project",
-      "abbr": "PGP",
-      "type": "project",
-      "ref": [],
-      "date": [{ "from": "1986", "to": "" }],
-      "maintained": true,
-      "websites": ["https://geniza.princeton.edu/en/documents/"],
-      "project_desc": "The Princeton Geniza Project (PGP) aims to digitize and make accessible the texts of the Cairo Geniza, integrating images, transcriptions, and metadata to support research on medieval Mediterranean life. From a digital humanities perspective, it demonstrates how computational tools and digital platforms can preserve, analyze, and democratize access to historical manuscripts.",
-      "places": [
-        {
-          "place_name": {
-            "text": "Princeton",
-            "ref": ["https://www.geonames.org/5102922/"]
-          },
-          "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
-        }
-      ],
-      "lang": ["eng"],
-      "related_institutions": [
-        {
-          "relation_type": "host",
-          "org_name": {
-            "text": "Princeton University",
-            "ref": [
-              "https://ror.org/00hx57361",
-              "http://www.wikidata.org/entity/Q21578"
-            ]
-          },
-          "websites": ["https://www.princeton.edu/"]
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "1927805e-27ad-4508-9987-196b1010f0e1",
+    "record_created_on": "2024-12-06",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2024-12-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Princton Genzia project",
+    "abbr": "PGP",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "1986", "to": "" }],
+    "maintained": true,
+    "websites": ["https://geniza.princeton.edu/en/documents/"],
+    "project_desc": "The Princeton Geniza Project (PGP) aims to digitize and make accessible the texts of the Cairo Geniza, integrating images, transcriptions, and metadata to support research on medieval Mediterranean life. From a digital humanities perspective, it demonstrates how computational tools and digital platforms can preserve, analyze, and democratize access to historical manuscripts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Princeton",
+          "ref": ["https://www.geonames.org/5102922/"]
         },
-        {
-            "relation_type": "cooperation",
-            "org_name": {
-              "text": "The center for Digital Humanities at Princeton",
-              "ref": [
-                "https://www.wikidata.org/wiki/Q58312170"
-              ]
-            },
-            "websites": ["https://cdh.princeton.edu/"]
-        }
-      ],
-      "related_entities": [],
-      "contacts": [
-        {
-          "pers_name": {
-            "text": "Rustow, Marina",
-            "ref": ["https://d-nb.info/gnd/1203909276"]
-          },
-          "roles": ["supervision"],
-          "websites": [
-            "https://history.princeton.edu/people/marina-rustow",
-            "https://princeton.academia.edu/MarinaRustow/"
+        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Princeton University",
+          "ref": [
+            "https://ror.org/00hx57361",
+            "http://www.wikidata.org/entity/Q21578"
           ]
         },
-        {
-          "pers_name": {
-            "text": "Sutton Koeser, Rebecca",
-            "ref": ["http://viaf.org/viaf/12155409620808740789"]
-          },
-          "roles": ["supervision"],
-          "websites": [
-            "https://cdh.princeton.edu/people/rebecca-sutton-koeser/",
-            "https://rlskoeser.github.io/",
-            "https://github.com/rlskoeser"
-          ]
-        }
-      ],
-      "research_data": {
-        "lang": ["ara", "eng", "heb"],
-        "sustainability_plan": null,
-        "publications": { "open_access": 0, "licensing": [] },
-        "data": {
-          "datatypes": [
-            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
-          ],
-          "repositories": [
-            {
-              "label": "",
-              "accessibility": "public",
-              "ref": [],
-              "websites": [],
-              "licensing": [],
-              "description": ""
-            }
-          ]
-        }
+        "websites": ["https://www.princeton.edu/"]
       },
-      "stack": {
-        "database": [],
-        "backend": [],
-        "frontend": [],
-        "tools": [
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "The center for Digital Humanities at Princeton",
+          "ref": ["https://www.wikidata.org/wiki/Q58312170"]
+        },
+        "websites": ["https://cdh.princeton.edu/"]
+      }
+    ],
+    "related_entities": [],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Rustow, Marina",
+          "ref": ["https://d-nb.info/gnd/1203909276"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://history.princeton.edu/people/marina-rustow",
+          "https://princeton.academia.edu/MarinaRustow/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Sutton Koeser, Rebecca",
+          "ref": ["http://viaf.org/viaf/12155409620808740789"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://cdh.princeton.edu/people/rebecca-sutton-koeser/",
+          "https://rlskoeser.github.io/",
+          "https://github.com/rlskoeser"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara", "eng", "heb"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
           {
             "label": "",
-            "self_developed": false,
+            "accessibility": "public",
             "ref": [],
             "websites": [],
+            "licensing": [],
             "description": ""
           }
-        ],
-        "languages": []
-      },
-      "policies": [{ "description": "", "ref": [] }],
-      "keywords": [
-        "arabic_studies",
-        "jewish_studies",
-        "biographical_data",
-        "digital_edition",
-        "digital_preservation",
-        "catalog",
-        "corpus_output",
-        "geodata",
-        "image",
-        "manuscript",
-        "map",
-        "visualization"
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
       ],
-      "category": "digital_preservation",
-      "comment": ""
-    }
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "arabic_studies",
+      "jewish_studies",
+      "biographical_data",
+      "digital_edition",
+      "digital_preservation",
+      "catalog",
+      "corpus_output",
+      "geodata",
+      "image",
+      "manuscript",
+      "map",
+      "visualization"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
   }
-  
+}

@@ -1,155 +1,141 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "2f06d431-8293-494b-988a-2ff92bfb9c3a",
-        "record_created_on": "2024-12-06",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-12-06",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "2f06d431-8293-494b-988a-2ff92bfb9c3a",
+    "record_created_on": "2024-12-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-12-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Persian Digital Library",
+    "abbr": "PDL",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": ["https://persdigumd.github.io/PDL/"],
+    "project_desc": "Main goal of the project was to create the first machine-actionable premodern Persian corpus. Currently the project is focused on two inter-linked projects: (1) the construction of a scholarly-verified and machine actionable corpus, and (2) the development of optical character recognition (OCR)/handwritten text recognition (HTR) tools for Persian (and other Arabic-script languages).",
+    "places": [
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Maryland",
+          "ref": [
+            "https://ror.org/047s2c258",
+            "https://www.wikidata.org/wiki/Q503415"
+          ]
+        },
+        "websites": ["https://umd.edu"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "OpenITI",
+        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
+      },
+      {
+        "relation_type": "parent",
+        "title": "Roshan Initiative in Persian Digital Humanities",
+        "uuid": "ba1523cc-df9a-4665-8f44-c13ea3542492"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Persian Manuscript Initiative",
+        "uuid": "7dbf301a-6216-4eb7-8645-dbe94e108fe6"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Digital Guide to Theatre of the Middle East",
+        "uuid": "f5b21ba0-3772-42a3-b492-5a155b62a6b3"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Miller, Matthew",
+          "ref": []
+        },
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
+      }
+    ],
+    "research_data": {
+      "lang": ["fas"],
+      "sustainability_plan": null,
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "Persian Digital Library",
-        "abbr": "PDL",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2016",
-                "to": ""
-            }
-        ],
-        "maintained": true,
-        "websites": [
-            "https://persdigumd.github.io/PDL/"
-        ],
-        "project_desc": "Main goal of the project was to create the first machine-actionable premodern Persian corpus. Currently the project is focused on two inter-linked projects: (1) the construction of a scholarly-verified and machine actionable corpus, and (2) the development of optical character recognition (OCR)/handwritten text recognition (HTR) tools for Persian (and other Arabic-script languages).",
-        "places": [
-            {
-                "place_name": {
-                    "text": "College Park",
-                    "ref": [
-                        "https://www.geonames.org/4351977/college-park.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "38.98067",
-                    "lng": "-76.93692"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Maryland",
-                    "ref": [
-                        "https://ror.org/047s2c258",
-                        "https://www.wikidata.org/wiki/Q503415"
-                    ]
-                },
-                "websites": [
-                    "https://umd.edu"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "OpenITI",
-                "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
-            },
-            {
-                "relation_type": "parent",
-                "title": "Roshan Initiative in Persian Digital Humanities",
-                "uuid": "ba1523cc-df9a-4665-8f44-c13ea3542492"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Persian Manuscript Initiative",
-                "uuid": "7dbf301a-6216-4eb7-8645-dbe94e108fe6"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Digital Guide to Theatre of the Middle East",
-                "uuid": "f5b21ba0-3772-42a3-b492-5a155b62a6b3"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Miller, Matthew",
-                    "ref": []
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://sllc.umd.edu/directory/matthew-miller"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "fas"
-            ],
-            "sustainability_plan": null,
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "iranian_studies",
-            "manuscript",
-            "tei"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "iranian_studies",
+      "manuscript",
+      "tei"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
