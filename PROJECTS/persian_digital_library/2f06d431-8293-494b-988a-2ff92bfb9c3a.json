@@ -12,12 +12,7 @@
     "abbr": "PDL",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": true,
     "websites": ["https://persdigumd.github.io/PDL/"],
     "project_desc": "Main goal of the project was to create the first machine-actionable premodern Persian corpus. Currently the project is focused on two inter-linked projects: (1) the construction of a scholarly-verified and machine actionable corpus, and (2) the development of optical character recognition (OCR)/handwritten text recognition (HTR) tools for Persian (and other Arabic-script languages).",
@@ -27,10 +22,7 @@
           "text": "College Park",
           "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       }
     ],
     "lang": ["eng"],
@@ -71,10 +63,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Miller, Matthew",
-          "ref": []
-        },
+        "pers_name": { "text": "Miller, Matthew", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
@@ -82,18 +71,10 @@
     "research_data": {
       "lang": ["fas"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -122,12 +103,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

@@ -12,12 +12,7 @@
     "abbr": "PMI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": true,
     "websites": ["https://persianmanuscriptinitiative.github.io/"],
     "project_desc": "The Persian Manuscript Initiative partners with leading libraries and archives around the world to digitally preserve Persian manuscripts and improve the quality of metadata we have for them. The project is focused especially on preserving Persian manuscripts that may be at a risk of loss.",
@@ -27,10 +22,7 @@
           "text": "College Park",
           "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       }
     ],
     "lang": ["eng"],
@@ -61,10 +53,7 @@
     ],
     "contacts": [
       {
-        "pers_name": {
-          "text": "Miller, Matthew",
-          "ref": []
-        },
+        "pers_name": { "text": "Miller, Matthew", "ref": [] },
         "roles": ["supervision"],
         "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
@@ -72,18 +61,10 @@
     "research_data": {
       "lang": ["fas"],
       "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -112,12 +93,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",
