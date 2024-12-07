@@ -39,14 +39,12 @@
         "websites": ["https://www.princeton.edu/"]
       },
       {
-          "relation_type": "host",
-          "org_name": {
-            "text": "The center for Digital Humanities at Princeton",
-            "ref": [
-              "https://www.wikidata.org/wiki/Q58312170"
-            ]
-          },
-          "websites": ["https://cdh.princeton.edu/"]
+        "relation_type": "host",
+        "org_name": {
+          "text": "The center for Digital Humanities at Princeton",
+          "ref": ["https://www.wikidata.org/wiki/Q58312170"]
+        },
+        "websites": ["https://cdh.princeton.edu/"]
       }
     ],
     "related_entities": [
@@ -69,10 +67,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "Roughan, Christina",
-          "ref": [""]
-        },
+        "pers_name": { "text": "Roughan, Christina", "ref": [] },
         "roles": ["supervision"],
         "websites": [
           "https://cdh.princeton.edu/people/christine-roughan/",
@@ -129,12 +124,7 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": [
-      "arabic_studies",
-      "htr",
-      "manuscript",
-      "machine_learning"
-    ],
+    "keywords": ["arabic_studies", "htr", "manuscript", "machine_learning"],
     "category": "digital_preservation",
     "comment": ""
   }
