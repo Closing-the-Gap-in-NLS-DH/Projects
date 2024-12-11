@@ -1,0 +1,128 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+        "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c",
+        "record_created_on": "2024-12-11",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2024-12-11",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+        "abbr": "Epidat",
+        "type": "project",
+        "ref": [],
+        "date": [{ "from": "2002", "to": "" }],
+        "maintained": true,
+        "websites": ["http://www.steinheim-institut.de/cgi-bin/epidat"
+        ],
+        "project_desc": "Epidat is a database of 50,900 Jewish funerary inscriptions in Europe, mostly Germany, with German translations and metadata.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Essen",
+                    "ref": [ "https://www.geonames.org/2928810/essen.html" ]
+                },
+                "coordinates": { "lat": "51.45822", "lng": "7.01582" }
+            },
+            {
+                "place_name": {
+                    "text": "Mainz",
+                    "ref": [ "https://www.geonames.org/2874225/mainz.html" ]
+                },
+                "coordinates": { "lat": "49.99952", "lng": "8.27363" }
+            }
+        ],
+        "lang": [ "deu" ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Salomon Ludwig Steinheim-Institut",
+                    "ref": [
+                        "https://ror.org/01btqj997",
+                        "https://www.wikidata.org/wiki/Q974628"
+                    ]
+                },
+                "websites": [ "http://www.steinheim-institut.de" ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Akademie der Wissenschaften und der Literatur Mainz",
+                    "ref": [
+                        "https://ror.org/01kdxra28",
+                        "https://www.wikidata.org/wiki/Q414163"
+                    ]
+                },
+                "websites": [ "https://www.adwmainz.de/" ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Portal of Epigraphy, Archaeology, Conservation and Education on Jewish Funerary Culture",
+                "uuid": "d0e2d5c0-c027-401e-9bae-9d44d61278c6"
+            }
+        ],
+        "contacts": [
+            {
+                "pers_name": {
+                    "text": "Kollatz, Thomas",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q89661184",
+                        "https://d-nb.info/gnd/1063010942"
+                    ]
+                },
+                "roles": [ "supervision" ],
+                "websites": [ "https://www.adwmainz.de/mitarbeiterinnen/profil/drs-thomas-kollatz.html" ]
+            }
+        ],
+        "research_data": {
+            "lang": [ "heb" ],
+            "sustainability_plan": null,
+            "publications": { "open_access": 0, "licensing": []},
+            "data": {
+                "datatypes": [{ "label": "", "stage": "raw", "licensing": [], "open_access": 0 }],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "websites": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "websites": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [{ "description": "", "ref": []}],
+        "keywords": [
+            "archaeology",
+            "catalog",
+            "cultural_studies",
+            "epigraphy",
+            "image",
+            "inscription",
+            "jewish_studies",
+            "translation"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
