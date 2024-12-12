@@ -1,154 +1,156 @@
 {
-    "schema_version": "0.2.5",
-    "record_metadata": {
-        "uuid": "d0e2d5c0-c027-401e-9bae-9d44d61278c6",
-        "record_created_on": "2024-12-05",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-12-11",
-        "interviewed": false
+  "schema_version": "0.2.5",
+  "record_metadata": {
+    "uuid": "d0e2d5c0-c027-401e-9bae-9d44d61278c6",
+    "record_created_on": "2024-12-05",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2024-12-11",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Portal of Epigraphy, Archaeology, Conservation and Education on Jewish Funerary Culture",
+    "abbr": "PEACE",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2020", "to": "" }],
+    "maintained": true,
+    "websites": ["https://peace.sites.uu.nl/"],
+    "project_desc": "The PEACE portal explores Jewish funerary culture through the ages. In this initial phase, it focuses on epigraphical aspects: the inscriptions recorded on stone, plaster, or gold-glass. The other aspects, namely archaeology, conservation, and education, will be added to the portal in the coming years.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Utrecht",
+          "ref": ["https://www.geonames.org/2745912/utrecht.html"]
+        },
+        "coordinates": { "lat": "52.0907", "lng": "5.12156" }
+      },
+      {
+        "place_name": {
+          "text": "Essen",
+          "ref": ["https://www.geonames.org/2928810/essen.html"]
+        },
+        "coordinates": { "lat": "51.45822", "lng": "7.01582" }
+      },
+      {
+        "place_name": {
+          "text": "Providence",
+          "ref": ["https://www.geonames.org/5224151/providence.html"]
+        },
+        "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Utrecht University",
+          "ref": [
+            "https://ror.org/04pp8hn57",
+            "https://www.wikidata.org/wiki/Q221653"
+          ]
+        },
+        "websites": ["https://www.uu.nl"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Brown University",
+          "ref": [
+            "https://ror.org/05gq02987",
+            "https://www.wikidata.org/wiki/Q49114"
+          ]
+        },
+        "websites": ["https://www.brown.edu/"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Salomon Ludwig Steinheim-Institut",
+          "ref": [
+            "https://ror.org/01btqj997",
+            "https://www.wikidata.org/wiki/Q974628"
+          ]
+        },
+        "websites": ["http://www.steinheim-institut.de"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Inscriptions of Israel/Palestine",
+        "uuid": "3c022636-d84c-4997-8237-91120d9ebc12"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+        "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c"
+      }
+    ],
+    "contacts": [
+      {
+        "pers_name": {
+          "text": "Rutgers, Leonard V.",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q93238785",
+            "https://d-nb.info/gnd/143353578"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.uu.nl/staff/LVRutgers"]
+      }
+    ],
+    "research_data": {
+      "lang": ["arc", "grc", "heb"],
+      "sustainability_plan": null,
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
     },
-    "project": {
-        "title": "Portal of Epigraphy, Archaeology, Conservation and Education on Jewish Funerary Culture",
-        "abbr": "PEACE",
-        "type": "project",
-        "ref": [],
-        "date": [{ "from": "2020", "to": "" }],
-        "maintained": true,
-        "websites": [ "https://peace.sites.uu.nl/" ],
-        "project_desc": "The PEACE portal explores Jewish funerary culture through the ages. In this initial phase, it focuses on epigraphical aspects: the inscriptions recorded on stone, plaster, or gold-glass. The other aspects, namely archaeology, conservation, and education, will be added to the portal in the coming years.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Utrecht",
-                    "ref": [ "https://www.geonames.org/2745912/utrecht.html" ]
-                },
-                "coordinates": { "lat": "52.0907", "lng": "5.12156" }
-            },
-            {
-                "place_name": {
-                    "text": "Essen",
-                    "ref": [ "https://www.geonames.org/2928810/essen.html"]
-                },
-                "coordinates": { "lat": "51.45822", "lng": "7.01582" }
-            },
-            {
-                "place_name": {
-                    "text": "Providence",
-                    "ref": [ "https://www.geonames.org/5224151/providence.html" ]
-                },
-                "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
-            }
-        ],
-        "lang": [ "eng" ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Utrecht University",
-                    "ref": [
-                        "https://ror.org/04pp8hn57",
-                        "https://www.wikidata.org/wiki/Q221653"
-                    ]
-                },
-                "websites": [ "https://www.uu.nl"]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Brown University",
-                    "ref": [
-                        "https://ror.org/05gq02987",
-                        "https://www.wikidata.org/wiki/Q49114"
-                    ]
-                },
-                "websites": [ "https://www.brown.edu/" ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Salomon Ludwig Steinheim-Institut",
-                    "ref": [
-                        "https://ror.org/01btqj997",
-                        "https://www.wikidata.org/wiki/Q974628"
-                    ]
-                },
-                "websites": [ "http://www.steinheim-institut.de" ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "Inscriptions of Israel/Palestine",
-                "uuid": "3c022636-d84c-4997-8237-91120d9ebc12"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
-                "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c"
-            }
-        ],
-        "contacts": [
-            {
-                "pers_name": {
-                    "text": "Rutgers, Leonard V.",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q93238785",
-                        "https://d-nb.info/gnd/143353578"
-                    ]
-                },
-                "roles": [ "supervision" ],
-                "websites": [ "https://www.uu.nl/staff/LVRutgers" ]
-            }
-        ],
-        "research_data": {
-            "lang": [ "arc", "grc", "heb" ],
-            "sustainability_plan": null,
-            "publications": { "open_access": 0, "licensing": []},
-            "data": {
-                "datatypes": [{ "label": "", "stage": "raw", "licensing": [], "open_access": 0 }],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "archaeology",
-            "catalog",
-            "cultural_studies",
-            "epigraphy",
-            "image",
-            "inscription",
-            "jewish_studies"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "",
+          "self_developed": false,
+          "ref": [],
+          "websites": [],
+          "description": ""
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "archaeology",
+      "catalog",
+      "cultural_studies",
+      "epigraphy",
+      "image",
+      "inscription",
+      "jewish_studies"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
