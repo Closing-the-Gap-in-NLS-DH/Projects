@@ -1,62 +1,52 @@
 ﻿# Protocol of CtG Team Meetings
 
-##2004-11-22
+## 2024-11-22
 
 **Time**: 12:00 - 13:30 (Berlin)
-**Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
-
+**Participants** (alphabetical): Alieva, Aibaniz; Gründler, Beatrice; Kudela, Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
 
 - Names of Places in the Dataset
-  - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.  
 
+  - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.
 
+- Personal Data
 
-- Personal Data 
-  - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.  
-  - We should rename the "people" object as "contacts" and modify it according to the above-mentioned guidelines.  
-  - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting. 
+  - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.
+  - We should rename the "people" object as "contacts" and modify it according to the above-mentioned guidelines.
+  - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting.
 
+- Publications.
 
-
-- Publications. 
-  - We have written a new blog post and a paper for the *Transformation* journal. The paper is currently under review. *Transformation* requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.  
-  - Planned entries for the blog post:  
-    - Christian: one for when he joined the team.  
-    - Joudy and Aybaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.  
-
-
+  - We have written a new blog post and a paper for the _Transformation_ journal. The paper is currently under review. _Transformation_ requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.
+  - Planned entries for the blog post:
+    - Christian: one for when he joined the team.
+    - Joudy and Aibaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.
 
 - Networking
-  - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.  
 
+  - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.
 
+- Conferences
 
-- Conferences  
-  - What should we do for the DHD and DOT conferences?  
-  - For DOT: We should focus on raising awareness about digital workflows and open science.  
-
-
+  - What should we do for the DHD and DOT conferences?
+  - For DOT: We should focus on raising awareness about digital workflows and open science.
 
 - BUA
-  - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.  
 
+  - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.
 
+- DH Workshop
 
-- DH Workshop   
-  - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.  
-
-
+  - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.
 
 - Idea for a new paper
-  - A review of hosting strategies in German research institutions or a closer, more detailed look at specific universities. It would be good to address the main challenges.  
+  - A review of hosting strategies in German research institutions or a closer, more detailed look at specific universities. It would be good to address the main challenges.
 
-
-
-##2024-08-23
+## 2024-08-23
 
 **Time**: 10:30 - 12:00 (Berlin)
 
-**Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
+**Participants** (alphabetical): Alieva, Aibaniz; Gründler, Beatrice; Kudela, Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
 
 - Team
 
@@ -80,11 +70,11 @@
   - We have three upcoming posts for August/September (external contributor), October (Xenia), and December (external contributor).
   - Xenia, Joudy, and Aibaniz will also co-author a post about the upcoming Dariah workshop.
 
-##2024-08-05
+## 2024-08-05
 
 **Time**: 11:30 - 12:30 (Berlin)
 
-**Participants** (alphabetical): Alieva, Aibaniz, Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
+**Participants** (alphabetical): Aibaniz Alieva, Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - SHK
 
@@ -133,7 +123,7 @@
 
 - Next meeting: 23.08 at 10:30
 
-##2024-07-19
+## 2024-07-19
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -177,7 +167,7 @@
 
 - Next meeting: 05.08. at 11:30
 
-##2024-06-28
+## 2024-06-28
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -204,7 +194,7 @@
 
   - Xenia will organize the workshop about the TypeDB database with our partner from CCHS-CSIC in Madrid. We have to take care of the room, catering, and dissemination.
 
-##2024-06-14
+## 2024-06-14
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -243,13 +233,13 @@
 
 - Interviews and best practices:
   - Interviews were conducted with Beta maṣāḥǝft, ACP, and AJAMI Lab.
-  - Next interview partners are Bibliotheca Arabica and Coptic OCR. We have also contacted eScritorium and are waiting for a response.
+  - Next interview partners are Bibliotheca Arabica and Coptic OCR. We have also contacted eScriptorium and are waiting for a response.
   - What is the aim of the interviews? Should we emphasize qualitative insights into project strategies or data collection? Which approach would be more helpful for the development of best practices?
   - The goal is to interview projects that we already regard as good examples of DH practice. Since we can’t generate an extensive set of data, we should focus on a qualitative approach and use the data to support our claims.
   - Every interview should be documented. We can also ask for permission to record.
   - We should discuss this topic again with Jonas.
 
-##2024-03-15
+## 2024-03-15
 
 **Time**: 11:00-12:15 (Berlin)
 
@@ -269,7 +259,7 @@
 
   - We should start looking for a replacement for Theo. We could eventually split the position in two.
   - The criteria would be:
-    - Knowledge in a non-Latin script, doesn´t have to be Arabic, but there should be at least an interest in it. Having someone working with scripts other than Arabic would make our project more inclusive and multilingual-oriented.
+    - Knowledge in a non-Latin script, doesn't have to be Arabic, but there should be at least an interest in it. Having someone working with scripts other than Arabic would make our project more inclusive and multilingual-oriented.
     - Next to IT skills, the person should be interested in PR-work to ensure the visibility of the project.
   - The decision about the new postdoc should be made by the entire team.
   - In case we don't find anybody on time Xenia could take over more responsibilities.
@@ -282,11 +272,11 @@
 
 - BUA report: the KPIs are yet to be completed.
 
-##2024-02-09
+## 2024-02-09
 
 **Time**: 11:00-12:15 (Berlin)
 
-**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Jarod, Xenia Kudela, Jonas Müller-Laackman
+**Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - Main topic: Workshop preparation
 - Structure:
@@ -303,7 +293,7 @@
 - Manuscript viewing: After the workshop, the team will have the opportunity to view some of the manuscripts from the SUB collection. Jonas will contact the person in charge
 - Meeting time: 9 AM at the main door of the SUB
 
-##2024-01-19
+## 2024-01-19
 
 **Time**: 14:15-15:45 (Berlin)
 
