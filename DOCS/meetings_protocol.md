@@ -1,5 +1,57 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2004-11-22
+
+**Time**: 12:00 - 13:30 (Berlin)
+**Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
+
+
+- Names of Places in the Dataset
+  - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.  
+
+
+
+- Personal Data 
+  - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.  
+  - We should rename the "people" object as "contacts" and modify it according to the above-mentioned guidelines.  
+  - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting. 
+
+
+
+- Publications. 
+  - We have written a new blog post and a paper for the *Transformation* journal. The paper is currently under review. *Transformation* requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.  
+  - Planned entries for the blog post:  
+    - Christian: one for when he joined the team.  
+    - Joudy and Aybaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.  
+
+
+
+- Networking
+  - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.  
+
+
+
+- Conferences  
+  - What should we do for the DHD and DOT conferences?  
+  - For DOT: We should focus on raising awareness about digital workflows and open science.  
+
+
+
+- BUA
+  - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.  
+
+
+
+- DH Workshop   
+  - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.  
+
+
+
+- Idea for a new paper
+  - A review of hosting strategies in German research institutions or a closer, more detailed look at specific universities. It would be good to address the main challenges.  
+
+
+
 ##2024-08-23
 
 **Time**: 10:30 - 12:00 (Berlin)
