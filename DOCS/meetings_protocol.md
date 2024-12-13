@@ -1,6 +1,6 @@
 ﻿# Protocol of CtG Team Meetings
 
-## 2004-11-22
+## 2024-11-22
 
 **Time**: 12:00 - 13:30 (Berlin)
 **Participants** (alphabetical): Alieva, Aibaniz; Gründler, Beatrice; Kudela, Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
