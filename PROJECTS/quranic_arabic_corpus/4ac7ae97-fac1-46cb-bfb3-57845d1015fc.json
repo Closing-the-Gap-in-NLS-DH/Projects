@@ -1,0 +1,117 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+      "uuid": "4ac7ae97-fac1-46cb-bfb3-57845d1015fc",
+      "record_created_on": "2024-12-15",
+      "record_created_by": "Alieva, Aibaniz",
+      "last_edited_on": "2024-12-15",
+      "interviewed": false
+    },
+    "project": {
+      "title": "The Quranic Arabic Corpus",
+      "abbr": "",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2009", "to": "" }],
+      "maintained": true,
+      "websites": ["https://corpus.quran.com/"],
+      "project_desc": "The Quranic Arabic Corpus, an annotated linguistic resource which shows the Arabic grammar, syntax and morphology for each word in the Holy Quran. The corpus provides three levels of analysis: morphological annotation, a syntactic treebank and a semantic ontology.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Leeds",
+            "ref": ["https://www.geonames.org/2644688/leeds.htmll"]
+          },
+          "coordinates": { "lat": "53.79742", "lng": "-1.54379" }
+        }
+      ],
+      "lang": ["eng"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "University of Leeds",
+            "ref": [
+              "https://ror.org/024mrxd33",
+              "https://www.wikidata.org/wiki/Q503424"
+            ]
+          },
+          "websites": ["https://www.leeds.ac.uk/"]
+        }
+      ],
+      "related_entities": [
+        {
+          "relation_type": "cooperation",
+          "title": "Tanzil",
+          "uuid": "d9e6ebb0-65f6-4b28-86b2-3617a5b99f13"
+        }
+      ],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "Kais, Dukes",
+            "ref": ["https://www.wikidata.org/wiki/Q15994551"]
+          },
+          "roles": ["supervision"],
+          "websites": []
+        },
+        {
+          "pers_name": {
+            "text": "Atwell, Eric",
+            "ref": ["http://viaf.org/viaf/34339580"]
+          },
+          "roles": ["supervision"],
+          "websites": ["https://eps.leeds.ac.uk/computing-applied-computing/staff/33/professor-eric-atwell"]
+        }
+      ],
+      "research_data": {
+        "lang": ["ara"],
+        "sustainability_plan": null,
+        "publications": {
+          "open_access": 0,
+          "licensing": []
+        },
+        "data": {
+          "datatypes": [{ "label": "", "stage": "raw", "licensing": [], "open_access": 0 }],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "arabic_studies",
+        "computational_text_analysis",
+        "corpus_output",
+        "islamic_studies",
+        "linguistics",
+        "religious_text",
+        "translation"
+      ],
+      "category": "tools_and_analysis",
+      "comment": ""
+    }
+  }
+  
