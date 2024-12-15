@@ -1,0 +1,132 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+      "uuid": "c84f26c3-727d-4eaa-844d-067734800ac8",
+      "record_created_on": "2024-12-15",
+      "record_created_by": "Alieva, Aibaniz",
+      "last_edited_on": "2024-12-15",
+      "interviewed": false
+    },
+    "project": {
+      "title": "The Database of Ottoman Inscriptions",
+      "abbr": "DOI",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2009", "to": "" }],
+      "maintained": true,
+      "websites": ["http://info.ottomaninscriptions.com/"],
+      "project_desc": "The DOI project aims to develop a searchable digital database comprising information about, as well as transliterations and pictures of, all the Turkish, Arabic and Persian architectural inscriptions created in the Ottoman lands during Ottoman times.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Istanbul",
+            "ref": ["https://www.geonames.org/745044/istanbul.html"]
+          },
+          "coordinates": { "lat": "41.0766", "lng": "29.0525" }
+        }
+      ],
+      "lang": ["eng", "tur"],
+      "related_institutions": [
+        {
+          "relation_type": "cooperation",
+          "org_name": {
+            "text": "Turkish Historical Society",
+            "ref": [
+              "https://ror.org/02vsmry93",
+              "https://www.wikidata.org/wiki/Q374071"
+            ]
+          },
+          "websites": ["https://www.ttk.gov.tr"]
+        },
+        {
+          "relation_type": "cooperation",
+          "org_name": {
+            "text": "Tokyo University of Foreign Studies",
+            "ref": [
+              "https://ror.org/027tyzk91",
+              "https://www.wikidata.org/wiki/Q1328372"
+            ]
+          },
+          "websites": ["https://www.tufs.ac.jp/english"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "Aynur, Hatice",
+            "ref": [
+              "http://viaf.org/viaf/29691483",
+              "https://d-nb.info/gnd/1310800928"
+            ]
+          },
+          "roles": ["supervision"],
+          "websites": []
+        },
+        {
+          "pers_name": {
+            "text": "Hayashi, Kayoko",
+            "ref": [
+              "https://www.wikidata.org/wiki/Q11532825",
+              "https://d-nb.info/gnd/1305849124"
+            ]
+          },
+          "roles": ["supervision"],
+          "websites": [
+            "https://www.tufs.ac.jp/english/abouttufs/president/profile.html"
+          ]
+        }
+      ],
+      "research_data": {
+        "lang": ["ota"],
+        "sustainability_plan": null,
+        "publications": {
+          "open_access": 0,
+          "licensing": []
+        },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "catalog",
+        "epigraphy",
+        "geodata",
+        "image",
+        "inscription",
+        "map",
+        "turkology"
+      ],
+      "category": "digital_preservation",
+      "comment": ""
+    }
+  }
+  
