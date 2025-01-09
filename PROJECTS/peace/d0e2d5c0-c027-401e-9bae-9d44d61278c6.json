@@ -120,8 +120,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Rutgers, Leonard V.",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-0865-2180",
             "https://www.wikidata.org/wiki/Q93238785",
             "https://d-nb.info/gnd/143353578"
           ]
