@@ -60,9 +60,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Gibson, Nathan",
+          "text": "",
           "ref": [
-            "https://id.loc.gov/authorities/names/no2016135689.html"
+            "https://orcid.org/0000-0003-0786-8075",
+            "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
           ]
         },
         "roles": [
