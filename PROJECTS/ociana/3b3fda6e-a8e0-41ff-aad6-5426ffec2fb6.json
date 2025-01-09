@@ -111,7 +111,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Macdonald, Michael C.A.",
+          "text": "",
           "ref": [
             "https://d-nb.info/gnd/1051915554"
           ]
@@ -125,8 +125,9 @@
       },
       {
         "pers_name": {
-          "text": "Al-Jallad, Ahmad",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0001-5694-2898",
             "https://d-nb.info/gnd/1135793336",
             "https://www.wikidata.org/wiki/Q125510466"
           ]

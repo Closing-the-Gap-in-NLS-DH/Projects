@@ -71,8 +71,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Rustow, Marina",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0003-4510-2388",
             "https://d-nb.info/gnd/1203909276"
           ]
         },
@@ -86,8 +87,9 @@
       },
       {
         "pers_name": {
-          "text": "Sutton Koeser, Rebecca",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-8762-8057",
             "http://viaf.org/viaf/12155409620808740789"
           ]
         },

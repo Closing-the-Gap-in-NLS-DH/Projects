@@ -104,8 +104,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Schmidtke, Sabine",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-6181-5065",
             "https://d-nb.info/gnd/143773771"
           ]
         },
@@ -118,8 +119,9 @@
       },
       {
         "pers_name": {
-          "text": "Magier, David",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-4095-914X",
             "https://d-nb.info/gnd/1050435206"
           ]
         },

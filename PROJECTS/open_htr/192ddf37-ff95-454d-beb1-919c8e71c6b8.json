@@ -77,8 +77,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Rustow, Marina",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0003-4510-2388",
             "https://d-nb.info/gnd/1203909276"
           ]
         },
@@ -92,8 +93,8 @@
       },
       {
         "pers_name": {
-          "text": "Roughan, Christine",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0009-0004-5999-8749"]
         },
         "roles": [
           "supervision"
@@ -107,8 +108,9 @@
       },
       {
         "pers_name": {
-          "text": "Reimitz, Helmut",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0001-7842-5445",
             "https://d-nb.info/gnd/109492802X"
           ]
         },
