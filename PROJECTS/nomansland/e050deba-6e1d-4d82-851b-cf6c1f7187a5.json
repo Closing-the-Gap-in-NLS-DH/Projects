@@ -4,8 +4,8 @@
     "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5",
     "record_created_on": "2022-05-10",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-11-15",
-    "interviewed": false
+    "last_edited_on": "2025-01-09",
+    "interviewed": true
   },
   "project": {
     "title": "NoMansLand: Nomads’ Manuscripts Landscape",
@@ -18,7 +18,7 @@
         "to": "2026"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.oeaw.ac.at/iran/nomansland/"
     ],
@@ -109,7 +109,7 @@
         "ara",
         "fas"
       ],
-      "sustainability_plan": null,
+      "sustainability_plan": true,
       "publications": {
         "open_access": 0,
         "licensing": [
@@ -117,29 +117,44 @@
         ]
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          { "label": "JSON", "stage": "final", "licensing": [], "open_access": 100 },
+          { "label": "RDF", "stage": "final", "licensing": [], "open_access": 100 }
+        ],
+        "repositories": [
+          {
+            "label": "Das Forschungsdatenrepositorium der ÖAW",
+            "accessibility": "private",
+            "ref": [],
+            "websites": ["https://datathek.oeaw.ac.at/startseite/d-1"],
+            "licensing": [],
+            "description": "Interdisciplinary repository of the ÖAW"
+          },
+          {
+            "label": "ARCHE",
+            "accessibility": "public",
+            "ref": ["https://www.wikidata.org/wiki/Q126588727"],
+            "websites": ["https://arche.acdh.oeaw.ac.at/browser/"],
+            "licensing": [],
+            "description": "Repository designed to preserve and provide access to research data."
+          }
+        ]
       }
     },
     "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
+      "database": ["PostgreSQL"],
+      "backend": ["APIS", "Django"],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "APIS",
+          "self_developed": true,
+          "ref": [],
+          "websites": ["https://www.oeaw.ac.at/acdh/research/dh-research-infrastructure/resources/software-services/apis", "https://acdh-oeaw.github.io/apis-core-rdf/", "https://github.com/acdh-oeaw/apis-core-rdf"],
+          "description": "APIS is a modular framework for authoring, management, analysis, and publication of biographical and prosopographical data."
+        }
       ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
+      "languages": ["Python", "JavaScript", "HTML"]
     },
     "policies": [
       {
@@ -151,7 +166,8 @@
       "corpus_output",
       "digital_preservation",
       "islamic_studies",
-      "manuscript"
+      "manuscript",
+      "network_analysis"
     ],
     "category": "digital_preservation",
     "comment": ""
