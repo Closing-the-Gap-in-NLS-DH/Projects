@@ -12,7 +12,12 @@
     "abbr": "Zodiac",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2021", "to": "2026" }],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2026"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/e/zodiac/index.html",
@@ -23,12 +28,20 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,29 +52,51 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Ossendrijver, Mathieu A.J.H.",
-          "ref": ["https://d-nb.info/gnd/1051590221"]
+          "ref": [
+            "https://d-nb.info/gnd/1051590221"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/zodiac/team/ossendrijver/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["akk", "arc", "egy", "grc", "heb", "lat", "san"],
+      "lang": [
+        "akk",
+        "arc",
+        "egy",
+        "grc",
+        "heb",
+        "lat",
+        "san"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -90,7 +125,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "egyptology",
       "history_studies",

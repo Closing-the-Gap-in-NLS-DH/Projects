@@ -12,31 +12,47 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2018", "to": "2023" }],
+    "date": [
+      {
+        "from": "2018",
+        "to": "2023"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://ancientarabia.huma-num.fr/"],
+    "websites": [
+      "https://ancientarabia.huma-num.fr/"
+    ],
     "project_desc": "The objective of the project is to produce a set of tools with a common aim: to model territorial and cultural dynamics by cross-referencing the various available sources. These analyses yield an updated regional history from the beginning of the 1st millennium BCE to the 7th cent. CE.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["https://www.geonames.org/2988507/paris.html"]
+          "ref": [
+            "https://www.geonames.org/2988507/paris.html"
+          ]
         },
-        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
+        "coordinates": {
+          "lat": "48.8535",
+          "lng": "2.34839"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Orient & M\u00e9diterran\u00e9e",
+          "text": "Orient & Méditerranée",
           "ref": [
             "https://ror.org/051gvfp41",
             "https://www.wikidata.org/wiki/Q30262398"
           ]
         },
-        "websites": ["https://www.orient-mediterranee.com/"]
+        "websites": [
+          "https://www.orient-mediterranee.com/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -47,7 +63,9 @@
             "https://www.wikidata.org/wiki/Q902464"
           ]
         },
-        "websites": ["https://www.cnr.it/"]
+        "websites": [
+          "https://www.cnr.it/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -58,43 +76,59 @@
             "https://www.wikidata.org/wiki/Q645663"
           ]
         },
-        "websites": ["https://www.unipi.it/"]
+        "websites": [
+          "https://www.unipi.it/"
+        ]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
-          "text": "Maison de l'Orient et de la M\u00e9diterran\u00e9e Jean Pouilloux",
+          "text": "Maison de l'Orient et de la Méditerranée Jean Pouilloux",
           "ref": [
             "https://ror.org/05de6h762",
             "https://www.wikidata.org/wiki/Q3279648"
           ]
         },
-        "websites": ["https://www.mom.fr/"]
+        "websites": [
+          "https://www.mom.fr/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
-          "text": "Schiettecatte, J\u00e9r\u00e9mie",
+          "text": "Schiettecatte, Jérémie",
           "ref": [
             "https://d-nb.info/gnd/139334254",
             "https://www.wikidata.org/wiki/Q124135278"
           ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.orient-mediterranee.com/member/schiettecatte-jeremie/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -123,7 +157,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "archaeology",

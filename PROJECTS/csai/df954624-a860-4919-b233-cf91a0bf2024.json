@@ -12,7 +12,12 @@
     "abbr": "CSAI",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2011", "to": "2016" }],
+    "date": [
+      {
+        "from": "2011",
+        "to": "2016"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://dasi.cnr.it/index.php?id=42&prjId=1&corId=0&colId=0&navId=0&rl=yes"
@@ -22,12 +27,19 @@
       {
         "place_name": {
           "text": "Pisa",
-          "ref": ["https://www.geonames.org/3170647/pisa.html"]
+          "ref": [
+            "https://www.geonames.org/3170647/pisa.html"
+          ]
         },
-        "coordinates": { "lat": "43.47147", "lng": "10.67979" }
+        "coordinates": {
+          "lat": "43.47147",
+          "lng": "10.67979"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q645663"
           ]
         },
-        "websites": ["https://www.unipi.it"]
+        "websites": [
+          "https://www.unipi.it"
+        ]
       },
       {
         "relation_type": "host",
@@ -49,7 +63,9 @@
             "https://www.wikidata.org/wiki/Q672416"
           ]
         },
-        "websites": ["https://www.sns.it"]
+        "websites": [
+          "https://www.sns.it"
+        ]
       }
     ],
     "related_entities": [
@@ -74,7 +90,7 @@
         "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Avanzini, Alessandra",
@@ -83,19 +99,33 @@
             "https://www.wikidata.org/wiki/Q21252818"
           ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.unipi.it/index.php/ricerca/itemlist/category/1198-alessandra-avanzini"
         ]
       }
     ],
     "research_data": {
-      "lang": ["inm", "xqt", "xsa"],
+      "lang": [
+        "inm",
+        "xqt",
+        "xsa"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -124,7 +154,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "archaeology",
       "corpus_output",

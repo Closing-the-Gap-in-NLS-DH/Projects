@@ -8,31 +8,50 @@
     "interviewed": false
   },
   "project": {
-    "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+    "title": "Forschungsplattform für jüdische Grabsteinepigraphik",
     "abbr": "Epidat",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2002", "to": "" }],
+    "date": [
+      {
+        "from": "2002",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["http://www.steinheim-institut.de/cgi-bin/epidat"],
+    "websites": [
+      "http://www.steinheim-institut.de/cgi-bin/epidat"
+    ],
     "project_desc": "Epidat is a database of 50,900 Jewish funerary inscriptions in Europe, mostly Germany, with German translations and metadata.",
     "places": [
       {
         "place_name": {
           "text": "Essen",
-          "ref": ["https://www.geonames.org/2928810/essen.html"]
+          "ref": [
+            "https://www.geonames.org/2928810/essen.html"
+          ]
         },
-        "coordinates": { "lat": "51.45822", "lng": "7.01582" }
+        "coordinates": {
+          "lat": "51.45822",
+          "lng": "7.01582"
+        }
       },
       {
         "place_name": {
           "text": "Mainz",
-          "ref": ["https://www.geonames.org/2874225/mainz.html"]
+          "ref": [
+            "https://www.geonames.org/2874225/mainz.html"
+          ]
         },
-        "coordinates": { "lat": "49.99952", "lng": "8.27363" }
+        "coordinates": {
+          "lat": "49.99952",
+          "lng": "8.27363"
+        }
       }
     ],
-    "lang": ["deu"],
+    "lang": [
+      "deu"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q974628"
           ]
         },
-        "websites": ["http://www.steinheim-institut.de"]
+        "websites": [
+          "http://www.steinheim-institut.de"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -54,7 +75,9 @@
             "https://www.wikidata.org/wiki/Q414163"
           ]
         },
-        "websites": ["https://www.adwmainz.de/"]
+        "websites": [
+          "https://www.adwmainz.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -64,7 +87,7 @@
         "uuid": "d0e2d5c0-c027-401e-9bae-9d44d61278c6"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Kollatz, Thomas",
@@ -73,19 +96,31 @@
             "https://d-nb.info/gnd/1063010942"
           ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.adwmainz.de/mitarbeiterinnen/profil/drs-thomas-kollatz.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -114,7 +149,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "archaeology",
       "catalog",

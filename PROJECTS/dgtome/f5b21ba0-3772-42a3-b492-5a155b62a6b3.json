@@ -12,20 +12,34 @@
     "abbr": "DGTOME",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://dgtome.com/"],
+    "websites": [
+      "https://dgtome.com/"
+    ],
     "project_desc": "The project provides essential information on the most significant plays/performances written and performed in the Middle East and North Africa (MENA) and among their diasporas since 2000. The goal is to recognize and display the breadth and diversity of theatrical visions, creations, and collaborations of MENA theatre artists in an accessible and sustained manner to academics and theater practitioners and producers.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": ["https://www.geonames.org/4351977/college-park.html"]
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
         },
-        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +50,9 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": ["https://umd.edu"]
+        "websites": [
+          "https://umd.edu"
+        ]
       }
     ],
     "related_entities": [
@@ -56,23 +72,40 @@
         "uuid": "7dbf301a-6216-4eb7-8645-dbe94e108fe6"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Moosavi, Marjan",
-          "ref": ["https://d-nb.info/gnd/1097764982"]
+          "ref": [
+            "https://d-nb.info/gnd/1097764982"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://sllc.umd.edu/directory/marjan-moosavi"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://sllc.umd.edu/directory/marjan-moosavi"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -101,7 +134,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "art_studies",
       "catalog",

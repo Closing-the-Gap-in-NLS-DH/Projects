@@ -12,27 +12,47 @@
     "abbr": "HPM",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2001", "to": "2007" }],
+    "date": [
+      {
+        "from": "2001",
+        "to": "2007"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://www.hethport.uni-wuerzburg.de/HPM/"],
+    "websites": [
+      "https://www.hethport.uni-wuerzburg.de/HPM/"
+    ],
     "project_desc": "This concluded project is an infrastructure for digital publication of cuneiform documents. Its aim is to modernize and foster the development of hittitological research by building an openly accessible database for its founding and elaborating new standardized way of their documentation. Currently the HPM infrastructure hosts data of many external researchers and projects form the field of Hittitology.",
     "places": [
       {
         "place_name": {
           "text": "Mainz",
-          "ref": ["https://www.geonames.org/2874225/mainz.html"]
+          "ref": [
+            "https://www.geonames.org/2874225/mainz.html"
+          ]
         },
-        "coordinates": { "lat": "49.98419", "lng": "8.2791" }
+        "coordinates": {
+          "lat": "49.98419",
+          "lng": "8.2791"
+        }
       },
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": ["https://www.geonames.org/2805615/wuerzburg.html"]
+          "ref": [
+            "https://www.geonames.org/2805615/wuerzburg.html"
+          ]
         },
-        "coordinates": { "lat": "49.79391", "lng": "9.95121" }
+        "coordinates": {
+          "lat": "49.79391",
+          "lng": "9.95121"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,7 +63,9 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite/"
+        ]
       },
       {
         "relation_type": "host",
@@ -54,7 +76,9 @@
             "https://ror.org/01kdxra28"
           ]
         },
-        "websites": ["https://www.adwmainz.de/startseite.html"]
+        "websites": [
+          "https://www.adwmainz.de/startseite.html"
+        ]
       }
     ],
     "related_entities": [
@@ -64,32 +88,64 @@
         "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Schwemer, Daniel",
-          "ref": ["https://d-nb.info/gnd/120374277"]
+          "ref": [
+            "https://d-nb.info/gnd/120374277"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.phil.uni-wuerzburg.de/altorientalistik/team/schwemer/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["hit"],
+      "lang": [
+        "hit"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_edition",
       "digital_preservation",

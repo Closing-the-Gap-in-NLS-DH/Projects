@@ -12,20 +12,35 @@
     "abbr": "MENALIB",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.menalib.de/en/"],
+    "websites": [
+      "https://www.menalib.de/en/"
+    ],
     "project_desc": "The project acquires difficult to access literature from countries of the MENA region in their original languages, allowing them to be permanently available. The subjects of literature are numerous, access to the materials is either traditional interlibrary loan or through digitized materials with Open Access.",
     "places": [
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": ["https://www.geonames.org/2911522/"]
+          "ref": [
+            "https://www.geonames.org/2911522/"
+          ]
         },
-        "coordinates": { "lat": "51.48158", "lng": "11.97947" }
+        "coordinates": {
+          "lat": "51.48158",
+          "lng": "11.97947"
+        }
       }
     ],
-    "lang": ["eng", "deu"],
+    "lang": [
+      "eng",
+      "deu"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,18 +51,23 @@
             "https://ror.org/03c241w53"
           ]
         },
-        "websites": ["https://bibliothek.uni-halle.de/"]
+        "websites": [
+          "https://bibliothek.uni-halle.de/"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Webis", "ref": [] },
+        "org_name": {
+          "text": "Webis",
+          "ref": []
+        },
         "websites": [
           "https://wikis.sub.uni-hamburg.de/webis/index.php/Webis_-_Sammelschwerpunkte_an_deutschen_Bibliotheken"
         ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Adam, Volker",
@@ -56,19 +76,33 @@
             "https://d-nb.info/gnd/123956951"
           ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://bibliothek.uni-halle.de/mitarbeiter-in/dr-volker-adam/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "tur", "fas"],
+      "lang": [
+        "ara",
+        "tur",
+        "fas"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -97,7 +131,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

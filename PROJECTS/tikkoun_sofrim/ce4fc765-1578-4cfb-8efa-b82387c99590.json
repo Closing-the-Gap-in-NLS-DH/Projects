@@ -11,8 +11,15 @@
     "title": "Tikkoun Sofrim",
     "abbr": "",
     "type": "project",
-    "ref": [""],
-    "date": [{ "from": "2018", "to": "" }],
+    "ref": [
+      ""
+    ],
+    "date": [
+      {
+        "from": "2018",
+        "to": ""
+      }
+    ],
     "maintained": null,
     "websites": [
       "https://tikkoun-sofrim.firebaseapp.com/en",
@@ -24,23 +31,38 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["https://www.geonames.org/2988506/paris.html"]
+          "ref": [
+            "https://www.geonames.org/2988506/paris.html"
+          ]
         },
-        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
       },
       {
         "place_name": {
           "text": "Haifa",
-          "ref": ["https://www.geonames.org/294801/haifa.html"]
+          "ref": [
+            "https://www.geonames.org/294801/haifa.html"
+          ]
         },
-        "coordinates": { "lat": "32.81841", "lng": "34.9885" }
+        "coordinates": {
+          "lat": "32.81841",
+          "lng": "34.9885"
+        }
       },
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
         },
-        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
       }
     ],
     "related_institutions": [
@@ -48,28 +70,44 @@
         "relation_type": "host",
         "org_name": {
           "text": "PSL Research University Paris",
-          "ref": ["https://ror.org/03k9z2963"]
+          "ref": [
+            "https://ror.org/03k9z2963"
+          ]
         },
-        "websites": ["https://psl.eu/en"]
+        "websites": [
+          "https://psl.eu/en"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "University of Haifa",
-          "ref": ["https://ror.org/02f009v59"]
+          "ref": [
+            "https://ror.org/02f009v59"
+          ]
         },
-        "websites": ["https://www.haifa.ac.il/"]
+        "websites": [
+          "https://www.haifa.ac.il/"
+        ]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "National Library of Israel",
-          "ref": ["https://ror.org/03be63z97"]
+          "ref": [
+            "https://ror.org/03be63z97"
+          ]
         },
-        "websites": ["https://www.nli.org.il/en"]
+        "websites": [
+          "https://www.nli.org.il/en"
+        ]
       }
     ],
-    "lang": ["eng", "fra", "heb"],
+    "lang": [
+      "eng",
+      "fra",
+      "heb"
+    ],
     "related_entities": [
       {
         "relation_type": "sibling",
@@ -77,7 +115,7 @@
         "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Wecker, Alan J.",
@@ -85,15 +123,29 @@
             "https://viaf.org/viaf/19154921221763590939/#%D7%95%D7%95%D7%A7%D7%A8,_%D7%90%D7%94%D7%A8%D7%95%D7%9F"
           ]
         },
-        "roles": ["supervision"],
-        "websites": ["http://haifahci.net/people/alan-wecker/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "http://haifahci.net/people/alan-wecker/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
       "database": [],
@@ -103,7 +155,13 @@
       "languages": []
     },
     "policies": [],
-    "keywords": ["htr", "jewish_studies", "machine_learning", "nlp", "ocr"],
+    "keywords": [
+      "htr",
+      "jewish_studies",
+      "machine_learning",
+      "nlp",
+      "ocr"
+    ],
     "category": "tools_and_analysis",
     "comment": "The start date recorded for this project is approximate."
   }

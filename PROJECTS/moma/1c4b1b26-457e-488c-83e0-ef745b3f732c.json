@@ -12,20 +12,35 @@
     "abbr": "MoMa",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://mouse.digitalscholarship.nl"],
+    "websites": [
+      "https://mouse.digitalscholarship.nl"
+    ],
     "project_desc": "The aim of the 'Mouse & Manuscript' project is to enhance teaching on codicology and Oriental manuscripts by utilizing digital tools to make Leiden University's manuscript collections more accessible. The project provides interactive lessons, leveraging digital humanities technology, such as an IIIF viewer, to offer detailed, zoomable access to manuscripts, while integrating questions and assignments to engage students and support further scholarly research.",
     "places": [
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/"]
+          "ref": [
+            "https://www.geonames.org/2751773/"
+          ]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": [
+      "eng",
+      "ara"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,17 +51,23 @@
             "http://www.wikidata.org/entity/Q156598"
           ]
         },
-        "websites": ["https://www.universiteitleiden.nl/en"]
+        "websites": [
+          "https://www.universiteitleiden.nl/en"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "van Dalen, Dorrit",
-          "ref": ["https://d-nb.info/gnd/1117243222"]
+          "ref": [
+            "https://d-nb.info/gnd/1117243222"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.ascleiden.nl/content/ASC-community/members/dorrit-van-dalen"
         ]
@@ -54,21 +75,38 @@
       {
         "pers_name": {
           "text": "Webb, Peter",
-          "ref": ["https://d-nb.info/gnd/1131110315"]
+          "ref": [
+            "https://d-nb.info/gnd/1131110315"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.universiteitleiden.nl/en/staffmembers/peter-webb#tab-1"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "cop", "fas", "acw"],
+      "lang": [
+        "ara",
+        "cop",
+        "fas",
+        "acw"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -97,7 +135,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "e_learning",

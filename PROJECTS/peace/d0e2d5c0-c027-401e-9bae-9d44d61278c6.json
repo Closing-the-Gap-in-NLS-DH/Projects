@@ -12,34 +12,58 @@
     "abbr": "PEACE",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://peace.sites.uu.nl/"],
+    "websites": [
+      "https://peace.sites.uu.nl/"
+    ],
     "project_desc": "The PEACE portal explores Jewish funerary culture through the ages. In this initial phase, it focuses on epigraphical aspects: the inscriptions recorded on stone, plaster, or gold-glass. The other aspects, namely archaeology, conservation, and education, will be added to the portal in the coming years.",
     "places": [
       {
         "place_name": {
           "text": "Utrecht",
-          "ref": ["https://www.geonames.org/2745912/utrecht.html"]
+          "ref": [
+            "https://www.geonames.org/2745912/utrecht.html"
+          ]
         },
-        "coordinates": { "lat": "52.0907", "lng": "5.12156" }
+        "coordinates": {
+          "lat": "52.0907",
+          "lng": "5.12156"
+        }
       },
       {
         "place_name": {
           "text": "Essen",
-          "ref": ["https://www.geonames.org/2928810/essen.html"]
+          "ref": [
+            "https://www.geonames.org/2928810/essen.html"
+          ]
         },
-        "coordinates": { "lat": "51.45822", "lng": "7.01582" }
+        "coordinates": {
+          "lat": "51.45822",
+          "lng": "7.01582"
+        }
       },
       {
         "place_name": {
           "text": "Providence",
-          "ref": ["https://www.geonames.org/5224151/providence.html"]
+          "ref": [
+            "https://www.geonames.org/5224151/providence.html"
+          ]
         },
-        "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
+        "coordinates": {
+          "lat": "41.82399",
+          "lng": "-71.41283"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,7 +74,9 @@
             "https://www.wikidata.org/wiki/Q221653"
           ]
         },
-        "websites": ["https://www.uu.nl"]
+        "websites": [
+          "https://www.uu.nl"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -61,7 +87,9 @@
             "https://www.wikidata.org/wiki/Q49114"
           ]
         },
-        "websites": ["https://www.brown.edu/"]
+        "websites": [
+          "https://www.brown.edu/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -72,7 +100,9 @@
             "https://www.wikidata.org/wiki/Q974628"
           ]
         },
-        "websites": ["http://www.steinheim-institut.de"]
+        "websites": [
+          "http://www.steinheim-institut.de"
+        ]
       }
     ],
     "related_entities": [
@@ -83,11 +113,11 @@
       },
       {
         "relation_type": "cooperation",
-        "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+        "title": "Forschungsplattform für jüdische Grabsteinepigraphik",
         "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Rutgers, Leonard V.",
@@ -96,17 +126,33 @@
             "https://d-nb.info/gnd/143353578"
           ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.uu.nl/staff/LVRutgers"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.uu.nl/staff/LVRutgers"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "grc", "heb"],
+      "lang": [
+        "arc",
+        "grc",
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -135,7 +181,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "archaeology",
       "catalog",

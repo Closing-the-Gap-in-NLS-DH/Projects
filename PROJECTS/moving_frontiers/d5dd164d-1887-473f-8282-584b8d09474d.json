@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2010", "to": "2010" }],
+    "date": [
+      {
+        "from": "2010",
+        "to": "2010"
+      }
+    ],
     "maintained": false,
     "websites": [
       "https://www.universiteitleiden.nl/en/research/research-projects/humanities/moving-frontiers"
@@ -22,12 +27,19 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/leiden.html"]
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -38,7 +50,9 @@
             "https://ror.org/027bh9e22"
           ]
         },
-        "websites": ["https://www.universiteitleiden.nl/en"]
+        "websites": [
+          "https://www.universiteitleiden.nl/en"
+        ]
       }
     ],
     "related_entities": [
@@ -48,25 +62,39 @@
         "uuid": "33a6a747-4180-4e28-a99c-2bf6dcf53200"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Riep, Maria",
-          "ref": ["https://d-nb.info/gnd/1127749447"]
+          "ref": [
+            "https://d-nb.info/gnd/1127749447"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.universiteitleiden.nl/en/staffmembers/maria-riep#tab-1"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -95,7 +123,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "geodata",
       "history_studies",

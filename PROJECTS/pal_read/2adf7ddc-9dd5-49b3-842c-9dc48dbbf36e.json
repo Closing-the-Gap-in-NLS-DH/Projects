@@ -12,17 +12,29 @@
     "abbr": "PalREAD",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2018-04-01", "to": "2023-03-31" }],
+    "date": [
+      {
+        "from": "2018-04-01",
+        "to": "2023-03-31"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://www.geschkult.fu-berlin.de/en/e/palread/index.html"],
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/en/e/palread/index.html"
+    ],
     "project_desc": "PalREAD is a project dedicated to Palestinian literature from 1948 to the present which aims to find new ways to account for the literary production of a displaced population. It elaborates a new methodology of literary analysis that challenges and lies outside conventional conceptions of the nation-state and adopts an interdisciplinary and transmedial approach that embeds literary production in a wider cultural web of intersecting media and genres. The output of the project will be made accessible in the form of an online platform.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
     "lang": [],
@@ -36,7 +48,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -66,30 +80,66 @@
         "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505"
       }
     ],
-    "contacts": [
+    "people": [
       {
-        "pers_name": { "text": "Abu-Remaileh, Refqa", "ref": [] },
-        "roles": ["supervision"],
+        "pers_name": {
+          "text": "Abu-Remaileh, Refqa",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/Abu-Remaileh/index.html "
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["arabic_studies", "literary_studies"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "literary_studies"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }

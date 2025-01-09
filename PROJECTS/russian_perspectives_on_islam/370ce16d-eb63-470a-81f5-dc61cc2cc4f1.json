@@ -12,20 +12,34 @@
     "abbr": "RPI",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2016", "to": "" }],
+    "date": [
+      {
+        "from": "2016",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://islamperspectives.org/rpi/"],
+    "websites": [
+      "https://islamperspectives.org/rpi/"
+    ],
     "project_desc": "Russian Perspectives on Islam documents the encounter and evolving relationship between the Orthodox/secular state and the Islamic regions, groups, individuals, and ideologies on the territory of the former Soviet Union and neighboring countries. The digital archive is designed to disseminate these documents to the widest possible scholarly community and general readership.",
     "places": [
       {
         "place_name": {
           "text": "Fairfax",
-          "ref": ["https://www.geonames.org/4758023/fairfax.html/"]
+          "ref": [
+            "https://www.geonames.org/4758023/fairfax.html/"
+          ]
         },
-        "coordinates": { "lat": "38.84622", "lng": "-77.30637" }
+        "coordinates": {
+          "lat": "38.84622",
+          "lng": "-77.30637"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,27 +50,53 @@
             "https://www.wikidata.org/wiki/Q1411222"
           ]
         },
-        "websites": ["https://www.gmu.edu/"]
+        "websites": [
+          "https://www.gmu.edu/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Staklo, Vadim",
-          "ref": ["http://viaf.org/viaf/167201814"]
+          "ref": [
+            "http://viaf.org/viaf/167201814"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://historyarthistory.gmu.edu/people/vstaklo/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://historyarthistory.gmu.edu/people/vstaklo/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "aze", "hye", "kat", "rus", "tat", "tgk", "tuk", "uzb"],
+      "lang": [
+        "ara",
+        "aze",
+        "hye",
+        "kat",
+        "rus",
+        "tat",
+        "tgk",
+        "tuk",
+        "uzb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -85,7 +125,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "cultural_studies",

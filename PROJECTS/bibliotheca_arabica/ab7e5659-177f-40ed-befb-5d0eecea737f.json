@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2018", "to": "2035" }],
+    "date": [
+      {
+        "from": "2018",
+        "to": "2035"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.saw-leipzig.de/de/projekte/bibliotheca-arabica",
@@ -23,12 +28,20 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
         },
-        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,7 +52,9 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": ["https://www.saw-leipzig.de/de"]
+        "websites": [
+          "https://www.saw-leipzig.de/de"
+        ]
       }
     ],
     "related_entities": [
@@ -49,13 +64,17 @@
         "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Klemm, Verena",
-          "ref": ["https://www.wikidata.org/wiki/Q5675690"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
         ]
@@ -63,16 +82,27 @@
       {
         "pers_name": {
           "text": "Liebrenz, Boris",
-          "ref": ["https://d-nb.info/gnd/136837921"]
+          "ref": [
+            "https://d-nb.info/gnd/136837921"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitarbeiter/liebrenzb"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 100, "licensing": [] },
+      "publications": {
+        "open_access": 100,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
           {
@@ -87,7 +117,12 @@
             "licensing": [],
             "open_access": 50
           },
-          { "label": "CSV", "stage": "raw", "licensing": [], "open_access": 50 }
+          {
+            "label": "CSV",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 50
+          }
         ],
         "repositories": [
           {
@@ -102,15 +137,24 @@
       }
     },
     "stack": {
-      "database": ["JanusGraph"],
-      "backend": ["Python"],
-      "frontend": ["Vue", "HTML"],
+      "database": [
+        "JanusGraph"
+      ],
+      "backend": [
+        "Python"
+      ],
+      "frontend": [
+        "Vue",
+        "HTML"
+      ],
       "tools": [
         {
           "label": "Kraken",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://kraken.re/main/index.html"],
+          "websites": [
+            "https://kraken.re/main/index.html"
+          ],
           "description": "OCR engine unsed by eScriptorium"
         },
         {
@@ -121,9 +165,17 @@
           "description": "Developed with Vue and JRuby with use of JSON as data format"
         }
       ],
-      "languages": ["JRuby", "Python"]
+      "languages": [
+        "JRuby",
+        "Python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",
