@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.5";
+const schemaVersion = "0.2.6";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
@@ -172,7 +172,7 @@ export const projectSchema = z
               .strict(),
           )
           .describe("Entities that are related to the project"),
-        contacts: z
+        people: z
           .array(
             z
               .object({

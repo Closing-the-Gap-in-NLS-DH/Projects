@@ -1,5 +1,9 @@
 # Changelog - Schema
 
+- From version 0.2.5 to 0.2.6 (2025-01-09):
+
+    - Rename `contacts` to `people`. Our database includes deceased people, and we want to name this entity in a way that includes them as well.
+
 - From version 0.2.4 to 0.2.5 (2024-10-31):
 
   - Apply the differentiation between `ref` and `website` to the `research_data` and `stack` elements for consistency.
