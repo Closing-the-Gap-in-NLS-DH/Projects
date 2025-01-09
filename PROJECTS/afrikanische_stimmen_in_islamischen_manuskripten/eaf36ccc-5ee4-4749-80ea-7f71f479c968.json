@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968",
     "record_created_on": "2022-02-28",
@@ -12,7 +12,12 @@
     "abbr": "AJAMI LAB",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2017", "to": "2029" }],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2029"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/344888349",
@@ -24,19 +29,33 @@
       {
         "place_name": {
           "text": "Bamako",
-          "ref": ["https://www.geonames.org/2460596/bamako.html"]
+          "ref": [
+            "https://www.geonames.org/2460596/bamako.html"
+          ]
         },
-        "coordinates": { "lat": "12.65", "lng": "-8" }
+        "coordinates": {
+          "lat": "12.65",
+          "lng": "-8"
+        }
       },
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -47,7 +66,9 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de/"]
+        "websites": [
+          "https://www.uni-hamburg.de/"
+        ]
       }
     ],
     "related_entities": [
@@ -137,25 +158,40 @@
         "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Bondarev, Dmitry",
-          "ref": ["https://d-nb.info/gnd/1185835431"]
+          "ref": [
+            "https://d-nb.info/gnd/1185835431"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["mku", "snk"],
+      "lang": [
+        "mku",
+        "snk"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 80, "licensing": [] },
+      "publications": {
+        "open_access": 80,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "mdb", "stage": "raw", "licensing": [], "open_access": 0 },
+          {
+            "label": "mdb",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          },
           {
             "label": "xlsx",
             "stage": "final",
@@ -174,7 +210,9 @@
             "label": "ZFDM Repository - Universität Hamburg",
             "accessibility": "public",
             "ref": [],
-            "websites": ["https://www.fdr.uni-hamburg.de/"],
+            "websites": [
+              "https://www.fdr.uni-hamburg.de/"
+            ],
             "licensing": [],
             "description": ""
           },
@@ -192,7 +230,10 @@
       }
     },
     "stack": {
-      "database": ["mdb", "xlsx"],
+      "database": [
+        "mdb",
+        "xlsx"
+      ],
       "backend": [],
       "frontend": [],
       "tools": [
@@ -200,27 +241,38 @@
           "label": "Tropy",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://tropy.org/"],
+          "websites": [
+            "https://tropy.org/"
+          ],
           "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
         },
         {
           "label": "Toolbox",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://software.sil.org/toolbox/"],
+          "websites": [
+            "https://software.sil.org/toolbox/"
+          ],
           "description": "Free data management and analysis tool for field linguists."
         },
         {
           "label": "FLEx",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://software.sil.org/fieldworks/"],
+          "websites": [
+            "https://software.sil.org/fieldworks/"
+          ],
           "description": "Free software for language and cultural data, with support for complex scripts."
         }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "catalog",

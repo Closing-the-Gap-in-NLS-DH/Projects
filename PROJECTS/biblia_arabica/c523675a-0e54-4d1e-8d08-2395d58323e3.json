@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
     "record_created_on": "2021-11-11",
@@ -12,34 +12,58 @@
     "abbr": "Biblia Arabica",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2012", "to": "2018" }],
+    "date": [
+      {
+        "from": "2012",
+        "to": "2018"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://biblia-arabica.com/"],
+    "websites": [
+      "https://biblia-arabica.com/"
+    ],
     "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyzes different method of translation form the various source languages.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Tel Aviv",
-          "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
+          "ref": [
+            "https://www.geonames.org/293397/tel-aviv.html"
+          ]
         },
-        "coordinates": { "lat": "32.08088", "lng": "34.78057" }
+        "coordinates": {
+          "lat": "32.08088",
+          "lng": "34.78057"
+        }
       },
       {
         "place_name": {
           "text": "Munich",
-          "ref": ["https://www.geonames.org/2867714/munich.html"]
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
         },
-        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,7 +74,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -61,7 +87,9 @@
             "https://ror.org/04mhzgx49"
           ]
         },
-        "websites": ["https://english.tau.ac.il/"]
+        "websites": [
+          "https://english.tau.ac.il/"
+        ]
       },
       {
         "relation_type": "host",
@@ -72,7 +100,9 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": ["https://www.lmu.de/de/index.html"]
+        "websites": [
+          "https://www.lmu.de/de/index.html"
+        ]
       }
     ],
     "related_entities": [
@@ -92,32 +122,64 @@
         "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Vollandt, Ronny",
-          "ref": ["https://d-nb.info/gnd/1173742050"]
+          "ref": [
+            "https://d-nb.info/gnd/1173742050"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "religion_studies",

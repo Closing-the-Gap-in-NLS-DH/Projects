@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "63f0bf9c-f8e4-4ce0-beff-fc8de68d05f2",
     "record_created_on": "2024-09-25",
@@ -12,27 +12,48 @@
     "abbr": "SMT",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2021" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2021"
+      }
+    ],
     "maintained": false,
-    "websites": ["https://www.csmc.uni-hamburg.de/timbuktu.html"],
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/timbuktu.html"
+    ],
     "project_desc": "The project aims to save the Timbuktu manuscripts by perserving, restoring, and researching the manuscripts. The manuscripts are considered to be the most important collections of the written heritage of the West African literary tradition.",
     "places": [
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
         },
-        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
       },
       {
         "place_name": {
           "text": "Timbuktu",
-          "ref": ["https://www.geonames.org/2449067/timbuktu.html"]
+          "ref": [
+            "https://www.geonames.org/2449067/timbuktu.html"
+          ]
         },
-        "coordinates": { "lat": "16.77348", "lng": "-3.00742" }
+        "coordinates": {
+          "lat": "16.77348",
+          "lng": "-3.00742"
+        }
       }
     ],
-    "lang": ["deu", "eng", "fra"],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -43,12 +64,19 @@
             "http://www.wikidata.org/entity/Q156725"
           ]
         },
-        "websites": ["https://www.uni-hamburg.de"]
+        "websites": [
+          "https://www.uni-hamburg.de"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "AJAMI LAB", "ref": [] },
-        "websites": ["https://www.csmc.uni-hamburg.de/ajami-lab.html"]
+        "org_name": {
+          "text": "AJAMI LAB",
+          "ref": []
+        },
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/ajami-lab.html"
+        ]
       }
     ],
     "related_entities": [
@@ -78,25 +106,40 @@
         "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Bondarev, Dimitry",
-          "ref": ["https://d-nb.info/gnd/1185835431"]
+          "ref": [
+            "https://d-nb.info/gnd/1185835431"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["snk", "emk"],
+      "lang": [
+        "snk",
+        "emk"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -125,7 +168,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "catalog",

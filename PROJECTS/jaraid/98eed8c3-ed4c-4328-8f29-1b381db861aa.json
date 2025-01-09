@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "98eed8c3-ed4c-4328-8f29-1b381db861aa",
     "record_created_on": "2024-10-09",
@@ -12,7 +12,12 @@
     "abbr": "Jara'id",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2009", "to": "2020" }],
+    "date": [
+      {
+        "from": "2009",
+        "to": "2020"
+      }
+    ],
     "maintained": false,
     "websites": [
       "https://projectjaraid.github.io/index.html",
@@ -23,12 +28,19 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,27 +51,46 @@
             "https://www.wikidata.org/wiki/Q5062518"
           ]
         },
-        "websites": ["https://www.zmo.de/"]
+        "websites": [
+          "https://www.zmo.de/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Mestyan, Adam",
-          "ref": ["https://d-nb.info/gnd/1137238615"]
+          "ref": [
+            "https://d-nb.info/gnd/1137238615"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://adammestyan.com/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://adammestyan.com/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "eng"],
+      "lang": [
+        "ara",
+        "eng"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -88,7 +119,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "catalog",

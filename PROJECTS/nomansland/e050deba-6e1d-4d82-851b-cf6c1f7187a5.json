@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5",
     "record_created_on": "2022-05-10",
@@ -12,20 +12,35 @@
     "abbr": "NoMansLand",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2020", "to": "2026" }],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2026"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://www.oeaw.ac.at/iran/nomansland/"],
+    "websites": [
+      "https://www.oeaw.ac.at/iran/nomansland/"
+    ],
     "project_desc": "The focus of this projects lies on Iranian and Central Asian societies in the period between the 13th and 15th century which witnessed nomadic conquest after the rise of Chinggis Khan. The process of transculturation and interaction between the sedentary Muslim conquered and nomadic conqueror is documented in largely unstudied manuscripts from that period, which will be explored and analyzed in the course of this project. The technical side of the project will be responsible for developing and implementing of an independent Analytical Database of Islamic Manuscripts which will serve both as a digital repository of manuscripts and an analytical tool that will allow users to do wider research on Islamic and Eurasian studies.",
     "places": [
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +51,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -71,32 +88,65 @@
         "uuid": "325a929a-6764-41e1-b452-6556209fa74f"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "De Nicola, Bruno",
-          "ref": ["https://d-nb.info/gnd/1081572116"]
+          "ref": [
+            "https://d-nb.info/gnd/1081572116"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.oeaw.ac.at/en/ifi/institute/staff/research-staff/bruno-de-nicola/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "fas"],
+      "lang": [
+        "ara",
+        "fas"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "corpus_output",
       "digital_preservation",

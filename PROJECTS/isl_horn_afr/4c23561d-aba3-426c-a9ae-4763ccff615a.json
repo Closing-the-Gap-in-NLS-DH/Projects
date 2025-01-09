@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "4c23561d-aba3-426c-a9ae-4763ccff615a",
     "record_created_on": "2024-11-28",
@@ -12,20 +12,34 @@
     "abbr": "IslHornAfr",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "2018" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2018"
+      }
+    ],
     "maintained": false,
-    "websites": ["http://www.islhornafr.eu/index.html"],
+    "websites": [
+      "http://www.islhornafr.eu/index.html"
+    ],
     "project_desc": "The project focuses on the Islamic culture of the Horn of Africa, exploring the region's rich but under-researched literary heritage. It applies digital humanities approaches to catalog, digitize, and analyze manuscripts written in Arabic and local languages using Arabic script. The project has created a comprehensive database that documents over 4,000 texts, shedding light on the region's Islamic traditions and intellectual history while enhancing the preservation of its written heritage​.",
     "places": [
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["https://www.geonames.org/2618425/"]
+          "ref": [
+            "https://www.geonames.org/2618425/"
+          ]
         },
-        "coordinates": { "lat": "55.67594", "lng": "12.56553" }
+        "coordinates": {
+          "lat": "55.67594",
+          "lng": "12.56553"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +50,9 @@
             "http://www.wikidata.org/entity/Q186285"
           ]
         },
-        "websites": ["https://ccrs.ku.dk"]
+        "websites": [
+          "https://ccrs.ku.dk"
+        ]
       }
     ],
     "related_entities": [
@@ -46,23 +62,40 @@
         "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Gori, Alessandro",
-          "ref": ["https://d-nb.info/gnd/132297582"]
+          "ref": [
+            "https://d-nb.info/gnd/132297582"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "eng"],
+      "lang": [
+        "ara",
+        "eng"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -91,7 +124,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "african_studies",
       "biographical_data",

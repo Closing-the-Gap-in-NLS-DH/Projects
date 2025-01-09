@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f",
     "record_created_on": "2024-10-09",
@@ -12,20 +12,35 @@
     "abbr": "PATHs",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2015", "to": "" }],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://atlas.paths-erc.eu", "http://paths.uniroma1.it"],
+    "websites": [
+      "https://atlas.paths-erc.eu",
+      "http://paths.uniroma1.it"
+    ],
     "project_desc": "The project aims  to map and contextualize the distribution of Coptic literary texts across Egypt, focusing on their archaeological and manuscript traditions.",
     "places": [
       {
         "place_name": {
           "text": "Roma",
-          "ref": ["https://www.geonames.org/3169070/"]
+          "ref": [
+            "https://www.geonames.org/3169070/"
+          ]
         },
-        "coordinates": { "lat": "41.89193", "lng": "12.51133" }
+        "coordinates": {
+          "lat": "41.89193",
+          "lng": "12.51133"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q209344"
           ]
         },
-        "websites": ["http://www.uniroma1.it/"]
+        "websites": [
+          "http://www.uniroma1.it/"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -44,7 +61,9 @@
           "text": "Corpus dei Manoscritti Copti Letterari",
           "ref": []
         },
-        "websites": ["http://www.cmcl.it"]
+        "websites": [
+          "http://www.cmcl.it"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -52,7 +71,9 @@
           "text": "Center of the Study of Manuscript Cultures",
           "ref": []
         },
-        "websites": ["https://www.csmc.uni-hamburg.de"]
+        "websites": [
+          "https://www.csmc.uni-hamburg.de"
+        ]
       },
       {
         "relation_type": "cooperation",
@@ -60,65 +81,109 @@
           "text": "Digital Edition and Translation of the Coptic-Sahidic Old Testament",
           "ref": []
         },
-        "websites": ["http://coptot.manuscriptroom.com/"]
+        "websites": [
+          "http://coptot.manuscriptroom.com/"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Coptic Scriptorium ", "ref": [] },
-        "websites": ["http://copticscriptorium.org/"]
+        "org_name": {
+          "text": "Coptic Scriptorium ",
+          "ref": []
+        },
+        "websites": [
+          "http://copticscriptorium.org/"
+        ]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
-          "ref": ["https://www.wikidata.org/wiki/Q2945981"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2945981"
+          ]
         },
-        "websites": ["https://pcma.uw.edu.pl/en/"]
+        "websites": [
+          "https://pcma.uw.edu.pl/en/"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Beta maṣāḥǝft", "ref": [] },
-        "websites": ["https://www.betamasaheft.uni-hamburg.de/"]
+        "org_name": {
+          "text": "Beta maṣāḥǝft",
+          "ref": []
+        },
+        "websites": [
+          "https://www.betamasaheft.uni-hamburg.de/"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "TraCES", "ref": [] },
-        "websites": ["https://www.traces.uni-hamburg.de"]
+        "org_name": {
+          "text": "TraCES",
+          "ref": []
+        },
+        "websites": [
+          "https://www.traces.uni-hamburg.de"
+        ]
       },
       {
         "relation_type": "cooperation",
-        "org_name": { "text": "Trismegistos", "ref": [] },
-        "websites": ["https://www.trismegistos.org"]
+        "org_name": {
+          "text": "Trismegistos",
+          "ref": []
+        },
+        "websites": [
+          "https://www.trismegistos.org"
+        ]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Polish Centre of Mediterranean Archaeology of the University of Warsaw",
-          "ref": ["https://www.wikidata.org/wiki/Q2945981"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2945981"
+          ]
         },
-        "websites": ["https://pcma.uw.edu.pl/en/"]
+        "websites": [
+          "https://pcma.uw.edu.pl/en/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Buzi, Paola",
-          "ref": ["https://d-nb.info/gnd/1044013826"]
+          "ref": [
+            "https://d-nb.info/gnd/1044013826"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://corsidilaurea.uniroma1.it/en/users/paolabuziuniroma1it"
         ]
       }
     ],
     "research_data": {
-      "lang": ["cop"],
+      "lang": [
+        "cop"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -147,7 +212,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "digital_preservation",
       "image",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "1b865f29-d492-42f4-a029-49d93a1116f2",
     "record_created_on": "2022-12-05",
@@ -12,7 +12,12 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013", "to": "" }],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://mamluk.lib.uchicago.edu/index.html",
@@ -23,12 +28,19 @@
       {
         "place_name": {
           "text": "Chicago",
-          "ref": ["https://www.geonames.org/4887398/"]
+          "ref": [
+            "https://www.geonames.org/4887398/"
+          ]
         },
-        "coordinates": { "lat": "41.85003", "lng": "-87.65005" }
+        "coordinates": {
+          "lat": "41.85003",
+          "lng": "-87.65005"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -39,29 +51,45 @@
             "https://www.wikidata.org/wiki/Q55044"
           ]
         },
-        "websites": ["https://www.lib.uchicago.edu"]
+        "websites": [
+          "https://www.lib.uchicago.edu"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Saleh, Marlis",
-          "ref": ["https://d-nb.info/gnd/133588596X"]
+          "ref": [
+            "https://d-nb.info/gnd/133588596X"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.lib.uchicago.edu/about/directory/staff/marlis-j-saleh/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 80, "licensing": [] },
+      "publications": {
+        "open_access": 80,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "mdb", "stage": "raw", "licensing": [], "open_access": 0 },
+          {
+            "label": "mdb",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          },
           {
             "label": "xlsx",
             "stage": "final",
@@ -80,7 +108,9 @@
             "label": "ZFDM Repository - Universität Hamburg",
             "accessibility": "public",
             "ref": [],
-            "websites": ["https://www.fdr.uni-hamburg.de/"],
+            "websites": [
+              "https://www.fdr.uni-hamburg.de/"
+            ],
             "licensing": [],
             "description": ""
           },
@@ -98,7 +128,10 @@
       }
     },
     "stack": {
-      "database": ["mdb", "xlsx"],
+      "database": [
+        "mdb",
+        "xlsx"
+      ],
       "backend": [],
       "frontend": [],
       "tools": [
@@ -106,28 +139,43 @@
           "label": "Tropy",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://tropy.org/"],
+          "websites": [
+            "https://tropy.org/"
+          ],
           "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
         },
         {
           "label": "Toolbox",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://software.sil.org/toolbox/"],
+          "websites": [
+            "https://software.sil.org/toolbox/"
+          ],
           "description": "Free data management and analysis tool for field linguists."
         },
         {
           "label": "FLEx",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://software.sil.org/fieldworks/"],
+          "websites": [
+            "https://software.sil.org/fieldworks/"
+          ],
           "description": "Free software for language and cultural data, with support for complex scripts."
         }
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["arabic_studies", "catalog", "digital_preservation"],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "catalog",
+      "digital_preservation"
+    ],
     "category": "digital_preservation",
     "comment": ""
   }

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "3c022636-d84c-4997-8237-91120d9ebc12",
     "record_created_on": "2024-11-27",
@@ -13,37 +13,65 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "1996", "to": "1999" },
-      { "from": "1999", "to": "2002" },
-      { "from": "2002", "to": "" }
+      {
+        "from": "1996",
+        "to": "1999"
+      },
+      {
+        "from": "1999",
+        "to": "2002"
+      },
+      {
+        "from": "2002",
+        "to": ""
+      }
     ],
     "maintained": true,
-    "websites": ["https://www.inscriptionsisraelpalestine.org/"],
-    "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE \u2013 640 CE).",
+    "websites": [
+      "https://www.inscriptionsisraelpalestine.org/"
+    ],
+    "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE – 640 CE).",
     "places": [
       {
         "place_name": {
           "text": "Charlottesville",
-          "ref": ["https://www.geonames.org/4752031/charlottesville.html/"]
+          "ref": [
+            "https://www.geonames.org/4752031/charlottesville.html/"
+          ]
         },
-        "coordinates": { "lat": "38.02931", "lng": "-78.47668" }
+        "coordinates": {
+          "lat": "38.02931",
+          "lng": "-78.47668"
+        }
       },
       {
         "place_name": {
           "text": "Bloomington",
-          "ref": ["https://www.geonames.org/4254679/bloomington.html/"]
+          "ref": [
+            "https://www.geonames.org/4254679/bloomington.html/"
+          ]
         },
-        "coordinates": { "lat": "39.16704", "lng": "-86.53429" }
+        "coordinates": {
+          "lat": "39.16704",
+          "lng": "-86.53429"
+        }
       },
       {
         "place_name": {
           "text": "Providence",
-          "ref": ["https://www.geonames.org/5224151/providence.html"]
+          "ref": [
+            "https://www.geonames.org/5224151/providence.html"
+          ]
         },
-        "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
+        "coordinates": {
+          "lat": "41.82399",
+          "lng": "-71.41283"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -54,7 +82,9 @@
             "https://www.wikidata.org/wiki/Q213439"
           ]
         },
-        "websites": ["https://www.virginia.edu/"]
+        "websites": [
+          "https://www.virginia.edu/"
+        ]
       },
       {
         "relation_type": "host",
@@ -65,7 +95,9 @@
             "https://www.wikidata.org/wiki/Q6608367"
           ]
         },
-        "websites": ["https://www.iu.edu/"]
+        "websites": [
+          "https://www.iu.edu/"
+        ]
       },
       {
         "relation_type": "host",
@@ -76,11 +108,13 @@
             "https://www.wikidata.org/wiki/Q49114"
           ]
         },
-        "websites": ["https://www.brown.edu/"]
+        "websites": [
+          "https://www.brown.edu/"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Satlow, Michael",
@@ -89,17 +123,33 @@
             "https://d-nb.info/gnd/1053196598"
           ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://vivo.brown.edu/display/msatlow"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://vivo.brown.edu/display/msatlow"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc", "grc", "heb"],
+      "lang": [
+        "arc",
+        "grc",
+        "heb"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -128,7 +178,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "archaeology",
       "corpus_output",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "43f49ea7-ec28-4e08-9ff4-57de8c755acd",
     "record_created_on": "2022-05-31",
@@ -11,126 +11,217 @@
     "title": "European Lexicographic Infrastructure",
     "abbr": "ELEXIS",
     "type": "organization",
-    "ref": ["https://d-nb.info/gnd/124425259X"],
-    "date": [{ "from": "2018-02-01", "to": "2022-07-31" }],
+    "ref": [
+      "https://d-nb.info/gnd/124425259X"
+    ],
+    "date": [
+      {
+        "from": "2018-02-01",
+        "to": "2022-07-31"
+      }
+    ],
     "maintained": true,
-    "websites": ["https://elex.is/"],
+    "websites": [
+      "https://elex.is/"
+    ],
     "project_desc": "ELEXIS is a cooperation project carried out by 17 European partner institutions that aims to develop an infrastructure which will foster cooperation and knowledge exchange between different research communities in lexicography in order to bridge the gap between lesser-resourced languages and those for which advanced experience in e-lexicography exists. ELEXIS will introduce common standards of data management for lexicographic resources and dictionary databases and develop tools and infrastructure which will enhance and harmonize cooperation between European institutions, publishers, universities and communities have been developing dictionaries and/or dictionary data.",
     "places": [
       {
         "place_name": {
           "text": "Ljubljana",
-          "ref": ["https://www.geonames.org/3196359/ljubljana.html"]
+          "ref": [
+            "https://www.geonames.org/3196359/ljubljana.html"
+          ]
         },
-        "coordinates": { "lat": "46.05108", "lng": "14.50513" }
+        "coordinates": {
+          "lat": "46.05108",
+          "lng": "14.50513"
+        }
       },
       {
         "place_name": {
           "text": "Rome",
-          "ref": ["https://www.geonames.org/3169070/rome.html"]
+          "ref": [
+            "https://www.geonames.org/3169070/rome.html"
+          ]
         },
-        "coordinates": { "lat": "41.89193", "lng": "12.51133" }
+        "coordinates": {
+          "lat": "41.89193",
+          "lng": "12.51133"
+        }
       },
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       },
       {
         "place_name": {
           "text": "Tallinn",
-          "ref": ["https://www.geonames.org/588409/tallinn.html"]
+          "ref": [
+            "https://www.geonames.org/588409/tallinn.html"
+          ]
         },
-        "coordinates": { "lat": "59.43696", "lng": "24.75353" }
+        "coordinates": {
+          "lat": "59.43696",
+          "lng": "24.75353"
+        }
       },
       {
         "place_name": {
           "text": "Gaillimh",
-          "ref": ["https://www.geonames.org/2964180/gaillimh.html"]
+          "ref": [
+            "https://www.geonames.org/2964180/gaillimh.html"
+          ]
         },
-        "coordinates": { "lat": "53.27245", "lng": "-9.05095" }
+        "coordinates": {
+          "lat": "53.27245",
+          "lng": "-9.05095"
+        }
       },
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": ["https://www.geonames.org/2618424/kobenhavn.html"]
+          "ref": [
+            "https://www.geonames.org/2618424/kobenhavn.html"
+          ]
         },
-        "coordinates": { "lat": "55.6711", "lng": "12.56529" }
+        "coordinates": {
+          "lat": "55.6711",
+          "lng": "12.56529"
+        }
       },
       {
         "place_name": {
           "text": "Leiden",
-          "ref": ["https://www.geonames.org/2751773/leiden.html"]
+          "ref": [
+            "https://www.geonames.org/2751773/leiden.html"
+          ]
         },
-        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
+        "coordinates": {
+          "lat": "52.15833",
+          "lng": "4.49306"
+        }
       },
       {
         "place_name": {
           "text": "Sofia",
-          "ref": ["https://www.geonames.org/727011/sofia.html"]
+          "ref": [
+            "https://www.geonames.org/727011/sofia.html"
+          ]
         },
-        "coordinates": { "lat": "42.69751", "lng": "23.32415" }
+        "coordinates": {
+          "lat": "42.69751",
+          "lng": "23.32415"
+        }
       },
       {
         "place_name": {
           "text": "Madrid",
-          "ref": ["https://www.geonames.org/3117735/madrid.html"]
+          "ref": [
+            "https://www.geonames.org/3117735/madrid.html"
+          ]
         },
-        "coordinates": { "lat": "40.4165", "lng": "-3.70256" }
+        "coordinates": {
+          "lat": "40.4165",
+          "lng": "-3.70256"
+        }
       },
       {
         "place_name": {
           "text": "Brno",
-          "ref": ["https://www.geonames.org/3078610/brno.html"]
+          "ref": [
+            "https://www.geonames.org/3078610/brno.html"
+          ]
         },
-        "coordinates": { "lat": "49.19522", "lng": "16.60796" }
+        "coordinates": {
+          "lat": "49.19522",
+          "lng": "16.60796"
+        }
       },
       {
         "place_name": {
           "text": "Tel Aviv",
-          "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
+          "ref": [
+            "https://www.geonames.org/293397/tel-aviv.html"
+          ]
         },
-        "coordinates": { "lat": "32.08088", "lng": "34.78057" }
+        "coordinates": {
+          "lat": "32.08088",
+          "lng": "34.78057"
+        }
       },
       {
         "place_name": {
           "text": "Lisbon",
-          "ref": ["https://www.geonames.org/2267057/lisbon.html"]
+          "ref": [
+            "https://www.geonames.org/2267057/lisbon.html"
+          ]
         },
-        "coordinates": { "lat": "38.71667", "lng": "-9.13333" }
+        "coordinates": {
+          "lat": "38.71667",
+          "lng": "-9.13333"
+        }
       },
       {
         "place_name": {
           "text": "Belgrade",
-          "ref": ["https://www.geonames.org/792680/belgrade.html"]
+          "ref": [
+            "https://www.geonames.org/792680/belgrade.html"
+          ]
         },
-        "coordinates": { "lat": "44.80401", "lng": "20.46513" }
+        "coordinates": {
+          "lat": "44.80401",
+          "lng": "20.46513"
+        }
       },
       {
         "place_name": {
           "text": "Budapest",
-          "ref": ["https://www.geonames.org/3054643/budapest.html"]
+          "ref": [
+            "https://www.geonames.org/3054643/budapest.html"
+          ]
         },
-        "coordinates": { "lat": "47.49835", "lng": "19.04045" }
+        "coordinates": {
+          "lat": "47.49835",
+          "lng": "19.04045"
+        }
       },
       {
         "place_name": {
           "text": "Trier",
-          "ref": ["https://www.geonames.org/2821164/trier.html"]
+          "ref": [
+            "https://www.geonames.org/2821164/trier.html"
+          ]
         },
-        "coordinates": { "lat": "49.75565", "lng": "6.63935" }
+        "coordinates": {
+          "lat": "49.75565",
+          "lng": "6.63935"
+        }
       },
       {
         "place_name": {
           "text": "Pisa",
-          "ref": ["https://www.geonames.org/3170647/pisa.html"]
+          "ref": [
+            "https://www.geonames.org/3170647/pisa.html"
+          ]
         },
-        "coordinates": { "lat": "43.70853", "lng": "10.4036" }
+        "coordinates": {
+          "lat": "43.70853",
+          "lng": "10.4036"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "member",
@@ -141,7 +232,9 @@
             "https://www.wikidata.org/wiki/Q5918873"
           ]
         },
-        "websites": ["https://www.ijs.si/ijsw"]
+        "websites": [
+          "https://www.ijs.si/ijsw"
+        ]
       },
       {
         "relation_type": "member",
@@ -152,7 +245,9 @@
             "https://ror.org/011cabk38"
           ]
         },
-        "websites": ["https://www.uniroma1.it/"]
+        "websites": [
+          "https://www.uniroma1.it/"
+        ]
       },
       {
         "relation_type": "member",
@@ -163,7 +258,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       },
       {
         "relation_type": "member",
@@ -174,7 +271,9 @@
             "https://ror.org/041dzw371"
           ]
         },
-        "websites": ["https://en.eki.ee/index.php"]
+        "websites": [
+          "https://en.eki.ee/index.php"
+        ]
       },
       {
         "relation_type": "member",
@@ -185,15 +284,21 @@
             "https://www.wikidata.org/wiki/Q644478"
           ]
         },
-        "websites": ["https://www.nuigalway.ie/"]
+        "websites": [
+          "https://www.nuigalway.ie/"
+        ]
       },
       {
         "relation_type": "member",
         "org_name": {
           "text": "Society for Danish Language and Literature",
-          "ref": ["https://www.wikidata.org/wiki/Q12308333"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q12308333"
+          ]
         },
-        "websites": ["https://dsl.dk/"]
+        "websites": [
+          "https://dsl.dk/"
+        ]
       },
       {
         "relation_type": "member",
@@ -204,15 +309,21 @@
             "https://ror.org/035b05819"
           ]
         },
-        "websites": ["https://www.ku.dk/english/"]
+        "websites": [
+          "https://www.ku.dk/english/"
+        ]
       },
       {
         "relation_type": "member",
         "org_name": {
           "text": "The Dutch Language Institute",
-          "ref": ["https://www.wikidata.org/wiki/Q5200436"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5200436"
+          ]
         },
-        "websites": ["https://ivdnt.org/"]
+        "websites": [
+          "https://ivdnt.org/"
+        ]
       },
       {
         "relation_type": "member",
@@ -223,7 +334,9 @@
             "https://www.wikidata.org/wiki/Q12281765"
           ]
         },
-        "websites": ["https://ibl.bas.bg/en/"]
+        "websites": [
+          "https://ibl.bas.bg/en/"
+        ]
       },
       {
         "relation_type": "member",
@@ -234,7 +347,9 @@
             "https://www.wikidata.org/wiki/Q11993457"
           ]
         },
-        "websites": ["https://www.rae.es/"]
+        "websites": [
+          "https://www.rae.es/"
+        ]
       },
       {
         "relation_type": "member",
@@ -245,7 +360,9 @@
             "https://ror.org/012habm93"
           ]
         },
-        "websites": ["https://www.unl.pt/en/"]
+        "websites": [
+          "https://www.unl.pt/en/"
+        ]
       },
       {
         "relation_type": "member",
@@ -268,7 +385,9 @@
             "https://ror.org/02ks8qq67"
           ]
         },
-        "websites": ["https://mta.hu/english/"]
+        "websites": [
+          "https://mta.hu/english/"
+        ]
       },
       {
         "relation_type": "member",
@@ -279,7 +398,9 @@
             "https://www.wikidata.org/wiki/Q572286"
           ]
         },
-        "websites": ["https://www.uni-trier.de/"]
+        "websites": [
+          "https://www.uni-trier.de/"
+        ]
       },
       {
         "relation_type": "member",
@@ -290,7 +411,9 @@
             "https://ror.org/028g3pe33"
           ]
         },
-        "websites": ["http://www.ilc.cnr.it/"]
+        "websites": [
+          "http://www.ilc.cnr.it/"
+        ]
       }
     ],
     "related_entities": [
@@ -305,30 +428,62 @@
         "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Krek, Simon",
-          "ref": ["https://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"]
+          "ref": [
+            "https://viaf.org/viaf/308782046/#Krek,_Simon,__1967-"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.simonkrek.si/en/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.simonkrek.si/en/"
+        ]
       }
     ],
     "research_data": {
       "lang": [],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "lexicography",
       "research_data_management",

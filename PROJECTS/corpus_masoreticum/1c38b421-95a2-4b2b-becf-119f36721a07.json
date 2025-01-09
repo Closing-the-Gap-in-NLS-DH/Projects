@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "1c38b421-95a2-4b2b-becf-119f36721a07",
     "record_created_on": "2021-11-12",
@@ -13,8 +13,14 @@
     "type": "project",
     "ref": [],
     "date": [
-      { "from": "2018", "to": "2021" },
-      { "from": "2018", "to": "2030" }
+      {
+        "from": "2018",
+        "to": "2021"
+      },
+      {
+        "from": "2018",
+        "to": "2030"
+      }
     ],
     "maintained": true,
     "websites": [
@@ -27,20 +33,32 @@
       {
         "place_name": {
           "text": "Heidelberg",
-          "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
+          "ref": [
+            "https://www.geonames.org/2907911/heidelberg.html"
+          ]
         },
-        "coordinates": { "lat": "49.40768", "lng": "8.69079" }
+        "coordinates": {
+          "lat": "49.40768",
+          "lng": "8.69079"
+        }
       }
     ],
-    "lang": ["deu", "eng"],
+    "lang": [
+      "deu",
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
-          "ref": ["https://www.wikidata.org/wiki/Q1622186"]
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1622186"
+          ]
         },
-        "websites": ["https://www.hfjs.eu/"]
+        "websites": [
+          "https://www.hfjs.eu/"
+        ]
       }
     ],
     "related_entities": [
@@ -50,28 +68,41 @@
         "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Liss, Hanna",
-          "ref": ["https://d-nb.info/gnd/115755853"]
+          "ref": [
+            "https://d-nb.info/gnd/115755853"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.hfjs.eu/professuren/bibel-und-juedische-bibelauslegung/team/prof-dr-hanna-liss.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["heb"],
+      "lang": [
+        "heb"
+      ],
       "sustainability_plan": true,
-      "publications": { "open_access": 100, "licensing": ["CC BY-SA 4.0"] },
+      "publications": {
+        "open_access": 100,
+        "licensing": [
+          "CC BY-SA 4.0"
+        ]
+      },
       "data": {
         "datatypes": [
           {
             "label": "JSON",
             "stage": "final",
-            "licensing": ["CC BY-SA 4.0"],
+            "licensing": [
+              "CC BY-SA 4.0"
+            ],
             "open_access": 100
           }
         ],
@@ -80,7 +111,9 @@
             "label": "heiCLOUD",
             "accessibility": "private",
             "ref": [],
-            "websites": ["https://heicloud.uni-heidelberg.de/"],
+            "websites": [
+              "https://heicloud.uni-heidelberg.de/"
+            ],
             "licensing": [],
             "description": "Could service offered by the University Computing Center of Heidelberg (Universitätsrechenzentrum Heidelberg)"
           }
@@ -88,35 +121,62 @@
       }
     },
     "stack": {
-      "database": ["Neo4J"],
-      "backend": ["Rest API", "PHP", "Docker"],
-      "frontend": ["Angular", "JS", "HTML"],
+      "database": [
+        "Neo4J"
+      ],
+      "backend": [
+        "Rest API",
+        "PHP",
+        "Docker"
+      ],
+      "frontend": [
+        "Angular",
+        "JS",
+        "HTML"
+      ],
       "tools": [
         {
           "label": "Mirador",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://projectmirador.org/"],
+          "websites": [
+            "https://projectmirador.org/"
+          ],
           "description": "Open-source, web-based image viewer for zooming, comparing, and annotating images."
         },
         {
           "label": "eScriptorium",
           "self_developed": false,
-          "ref": ["https://www.wikidata.org/wiki/Q111218645"],
-          "websites": ["https://gitlab.com/scripta/escriptorium/"],
+          "ref": [
+            "https://www.wikidata.org/wiki/Q111218645"
+          ],
+          "websites": [
+            "https://gitlab.com/scripta/escriptorium/"
+          ],
           "description": "Tool for digital recognition of handwritten documents."
         },
         {
           "label": "BIMA",
           "self_developed": true,
           "ref": [],
-          "websites": ["http://bima2.corpusmasoreticum.de/"],
+          "websites": [
+            "http://bima2.corpusmasoreticum.de/"
+          ],
           "description": "Digital collaborative research environment for creating digital editions."
         }
       ],
-      "languages": ["PHP", "JS", "Cypher"]
+      "languages": [
+        "PHP",
+        "JS",
+        "Cypher"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "digital_edition",

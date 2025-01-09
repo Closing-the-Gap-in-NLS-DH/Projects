@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "79462111-75a7-4fa0-8e11-9d424293a074",
     "record_created_on": "2022-05-17",
@@ -12,20 +12,34 @@
     "abbr": "TUNICO",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2013-08-01", "to": "2016-12-31" }],
+    "date": [
+      {
+        "from": "2013-08-01",
+        "to": "2016-12-31"
+      }
+    ],
     "maintained": null,
-    "websites": ["https://tunico.acdh.oeaw.ac.at/project.html"],
+    "websites": [
+      "https://tunico.acdh.oeaw.ac.at/project.html"
+    ],
     "project_desc": "The focus of this project lies on the Arabic dialect spoken in the Tunisian capital. It investigates the linguistic dynamics caused by recent demographic changes in the metropolitan area of Tunis and its intention is to gather data through field recordings made with young speakers who were born in Tunis but descended from parents who arrived to the capital from other regions. Based on this data two digital language resources were created: a corpus of unmonitored speech that contains both conversations and narratives and a dictionary based on this corpus and on previously published resources.",
     "places": [
       {
         "place_name": {
           "text": "Vienna",
-          "ref": ["https://www.geonames.org/2761369/vienna.html"]
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
         },
-        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +50,9 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": ["https://www.oeaw.ac.at/en/"]
+        "websites": [
+          "https://www.oeaw.ac.at/en/"
+        ]
       }
     ],
     "related_entities": [
@@ -71,32 +87,64 @@
         "uuid": "325a929a-6764-41e1-b452-6556209fa74f"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Mörth, Karlheinz",
-          "ref": ["https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."]
+          "ref": [
+            "https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.oeaw.ac.at/de/acdh/institut/team/mitarbeitende/karlheinz-moerth/"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [""] },
-      "data": { "datatypes": [], "repositories": [] }
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
     },
     "stack": {
-      "database": ["sql", "xml", "json", "nosql"],
-      "backend": ["laravel"],
-      "frontend": ["vue"],
+      "database": [
+        "sql",
+        "xml",
+        "json",
+        "nosql"
+      ],
+      "backend": [
+        "laravel"
+      ],
+      "frontend": [
+        "vue"
+      ],
       "tools": [],
-      "languages": ["php", "javascript", "python"]
+      "languages": [
+        "php",
+        "javascript",
+        "python"
+      ]
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "arabic_studies",

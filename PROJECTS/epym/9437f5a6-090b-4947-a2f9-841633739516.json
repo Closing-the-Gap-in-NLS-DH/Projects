@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "9437f5a6-090b-4947-a2f9-841633739516",
     "record_created_on": "2024-11-28",
@@ -12,20 +12,34 @@
     "abbr": "EPYW",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2023", "to": "" }],
+    "date": [
+      {
+        "from": "2023",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://epyw.glitch.me"],
+    "websites": [
+      "https://epyw.glitch.me"
+    ],
     "project_desc": "The EPYW project aims to geographically visualize the dissemination of early printed Yemeni works, offering an interactive platform for exploring this literary heritage. Users can search the database by author, editor, and publication year, accessing detailed metadata that includes author names, editor names, publishers, and publishing dates. Additionally, the project features advanced place-based analytics, enabling users to analyze documented works geographically and sort data by individuals, years, or publishers, providing valuable insights into the historical and cultural landscape of Yemeni print culture.",
     "places": [
       {
         "place_name": {
           "text": "Madrid",
-          "ref": ["https://www.geonames.org/3117735/"]
+          "ref": [
+            "https://www.geonames.org/3117735/"
+          ]
         },
-        "coordinates": { "lat": "40.4165", "lng": "-3.70256" }
+        "coordinates": {
+          "lat": "40.4165",
+          "lng": "-3.70256"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,17 +50,23 @@
             "https://www.wikidata.org/wiki/Q1024362"
           ]
         },
-        "websites": ["https://www.csic.es/en"]
+        "websites": [
+          "https://www.csic.es/en"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Thiele, Jan",
-          "ref": ["https://orcid.org/0000-0002-8865-5997"]
+          "ref": [
+            "https://orcid.org/0000-0002-8865-5997"
+          ]
         },
-        "roles": ["supervision"],
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://cchs.csic.es/en/personal/jan-thiele",
           "https://www.csic.es/es/investigación/investigadoresjan-thiele"
@@ -54,12 +74,22 @@
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -88,7 +118,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "biographical_data",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
     "record_created_on": "2023-11-02",
@@ -12,7 +12,12 @@
     "abbr": "MESMOM",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2023-08-01", "to": "2024-02-29" }],
+    "date": [
+      {
+        "from": "2023-08-01",
+        "to": "2024-02-29"
+      }
+    ],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/forschung/MEMORY-SPACES/index.html"
@@ -22,19 +27,31 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
         },
-        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
       },
       {
         "place_name": {
           "text": "Amsterdam",
-          "ref": ["https://www.geonames.org/2759794/amsterdam.html"]
+          "ref": [
+            "https://www.geonames.org/2759794/amsterdam.html"
+          ]
         },
-        "coordinates": { "lat": "52.37403", "lng": "4.88969" }
+        "coordinates": {
+          "lat": "52.37403",
+          "lng": "4.88969"
+        }
       }
     ],
-    "lang": ["deu"],
+    "lang": [
+      "deu"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -45,7 +62,9 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": ["https://www.fu-berlin.de/"]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -56,7 +75,9 @@
             "https://ror.org/04dkp9463"
           ]
         },
-        "websites": ["https://www.uva.nl/en"]
+        "websites": [
+          "https://www.uva.nl/en"
+        ]
       }
     ],
     "related_entities": [
@@ -86,22 +107,37 @@
         "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
       }
     ],
-    "contacts": [
+    "people": [
       {
-        "pers_name": { "text": "Toral, Isabel", "ref": [] },
-        "roles": ["supervision"],
+        "pers_name": {
+          "text": "Toral, Isabel",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/toral/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": ["ara"],
+      "lang": [
+        "ara"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -130,7 +166,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "cultural_studies",

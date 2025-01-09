@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "725a2604-9720-4dad-b82e-a0f2e98f707f",
     "record_created_on": "2024-10-18",
@@ -12,20 +12,35 @@
     "abbr": "ISMI",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2006", "to": "2019" }],
+    "date": [
+      {
+        "from": "2006",
+        "to": "2019"
+      }
+    ],
     "maintained": false,
-    "websites": ["https://ismi.mpiwg-berlin.mpg.de/"],
+    "websites": [
+      "https://ismi.mpiwg-berlin.mpg.de/"
+    ],
     "project_desc": "ISMI is a catalogue that includes an object-relational database storing information on the rational scienes of scientific, philosophical and theological traditions of Islam before 1900 CE. The database aims to provide access to Islamicate authors, their works, and extant manuscript witnesses of mathematical sciences",
     "places": [
       {
         "place_name": {
           "text": "Istanbul",
-          "ref": ["https://www.geonames.org/745044/"]
+          "ref": [
+            "https://www.geonames.org/745044/"
+          ]
         },
-        "coordinates": { "lat": "41.01384", "lng": "28.94966" }
+        "coordinates": {
+          "lat": "41.01384",
+          "lng": "28.94966"
+        }
       }
     ],
-    "lang": ["eng", "ara"],
+    "lang": [
+      "eng",
+      "ara"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -36,7 +51,9 @@
             "https://www.wikidata.org/wiki/Q318118"
           ]
         },
-        "websites": ["https://www.mpiwg-berlin.mpg.de/"]
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/"
+        ]
       },
       {
         "relation_type": "host",
@@ -47,27 +64,47 @@
             "https://ror.org/05j1qpr59"
           ]
         },
-        "websites": ["https://medeniyet.edu.tr/tr"]
+        "websites": [
+          "https://medeniyet.edu.tr/tr"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
           "text": "Daston, Lorraine",
-          "ref": ["https://d-nb.info/gnd/121180646"]
+          "ref": [
+            "https://d-nb.info/gnd/121180646"
+          ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.mpiwg-berlin.mpg.de/people/ldaston"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/people/ldaston"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["ara", "tur", "fas"],
+      "lang": [
+        "ara",
+        "tur",
+        "fas"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -96,7 +133,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "arabic_studies",
       "biographical_data",

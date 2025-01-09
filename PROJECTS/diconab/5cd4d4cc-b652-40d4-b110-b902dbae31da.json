@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "5cd4d4cc-b652-40d4-b110-b902dbae31da",
     "record_created_on": "2024-11-11",
@@ -12,39 +12,59 @@
     "abbr": "DiCoNab",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "2022", "to": "" }],
+    "date": [
+      {
+        "from": "2022",
+        "to": ""
+      }
+    ],
     "maintained": true,
-    "websites": ["https://diconab.huma-num.fr/"],
+    "websites": [
+      "https://diconab.huma-num.fr/"
+    ],
     "project_desc": "DiCoNab aims at recording in a database easily accessible online the Nabataean and Developing Arabic inscriptions from the various countries and regions where they have been discovered since the mid-nineteenth century, primarily Syria, Jordan, Saudi Arabia, Yemen, and Egypt.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": ["https://www.geonames.org/2988507/paris.html"]
+          "ref": [
+            "https://www.geonames.org/2988507/paris.html"
+          ]
         },
-        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
+        "coordinates": {
+          "lat": "48.8535",
+          "lng": "2.34839"
+        }
       }
     ],
-    "lang": ["eng"],
+    "lang": [
+      "eng"
+    ],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Orient & M\u00e9diterran\u00e9e",
+          "text": "Orient & Méditerranée",
           "ref": [
             "https://ror.org/051gvfp41",
             "https://www.wikidata.org/wiki/Q30262398"
           ]
         },
-        "websites": ["https://www.orient-mediterranee.com/"]
+        "websites": [
+          "https://www.orient-mediterranee.com/"
+        ]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
-          "text": "Acad\u00e9mie des Inscriptions et Belles-Lettres",
-          "ref": ["https://www.wikidata.org/wiki/Q337526"]
+          "text": "Académie des Inscriptions et Belles-Lettres",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q337526"
+          ]
         },
-        "websites": ["https://aibl.fr/"]
+        "websites": [
+          "https://aibl.fr/"
+        ]
       }
     ],
     "related_entities": [
@@ -69,26 +89,40 @@
         "uuid": "a2a7a31f-06e0-494e-8da9-31340807e39b"
       }
     ],
-    "contacts": [
+    "people": [
       {
         "pers_name": {
-          "text": "Nehm\u00e9, La\u00efla",
+          "text": "Nehmé, Laïla",
           "ref": [
             "https://d-nb.info/gnd/113752877X",
             "https://www.wikidata.org/wiki/Q3220115"
           ]
         },
-        "roles": ["supervision"],
-        "websites": ["https://www.orient-mediterranee.com/member/nehme-laila/"]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.orient-mediterranee.com/member/nehme-laila/"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["arc"],
+      "lang": [
+        "arc"
+      ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -117,7 +151,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "archaeology",
       "corpus_output",

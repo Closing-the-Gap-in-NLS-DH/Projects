@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2.5",
+  "schema_version": "0.2.6",
   "record_metadata": {
     "uuid": "fbd22cab-b0b1-4ed4-aa1a-9f675c19c1af",
     "record_created_on": "2023-11-09",
@@ -12,17 +12,29 @@
     "abbr": "TITUS",
     "type": "project",
     "ref": [],
-    "date": [{ "from": "1986", "to": "" }],
+    "date": [
+      {
+        "from": "1986",
+        "to": ""
+      }
+    ],
     "maintained": null,
-    "websites": ["https://titus.uni-frankfurt.de/indexd.htm"],
+    "websites": [
+      "https://titus.uni-frankfurt.de/indexd.htm"
+    ],
     "project_desc": "The project seeks to organize the collaboration of numerous scholars in developing an electronic text collection. This collection will serve as a foundation for computer-aided investigations into diverse Indo-European languages. Additionally, the project aims to expand the initiative by generating a growing repository of files containing supplementary materials, including dictionaries, word lists, linguistic analysis tools, and similar resources.",
     "places": [
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
+          "ref": [
+            "https://www.geonames.org/2925533/frankfurt-am-main.html"
+          ]
         },
-        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
+        "coordinates": {
+          "lat": "50.11552",
+          "lng": "8.68417"
+        }
       }
     ],
     "lang": [],
@@ -36,15 +48,24 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": ["https://www.uni-frankfurt.de/de"]
+        "websites": [
+          "https://www.uni-frankfurt.de/de"
+        ]
       }
     ],
     "related_entities": [],
-    "contacts": [
+    "people": [
       {
-        "pers_name": { "text": "Gippert, Jost", "ref": [] },
-        "roles": ["supervision"],
-        "websites": ["https://d-nb.info/gnd/109337409"]
+        "pers_name": {
+          "text": "Gippert, Jost",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://d-nb.info/gnd/109337409"
+        ]
       }
     ],
     "research_data": {
@@ -92,10 +113,18 @@
         "zho"
       ],
       "sustainability_plan": null,
-      "publications": { "open_access": 0, "licensing": [] },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
       "data": {
         "datatypes": [
-          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
         "repositories": [
           {
@@ -124,7 +153,12 @@
       ],
       "languages": []
     },
-    "policies": [{ "description": "", "ref": [] }],
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
     "keywords": [
       "annotation",
       "corpus_output",
