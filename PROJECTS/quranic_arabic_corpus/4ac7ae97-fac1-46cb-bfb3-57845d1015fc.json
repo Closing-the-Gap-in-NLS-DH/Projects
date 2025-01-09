@@ -55,13 +55,7 @@
         ]
       }
     ],
-    "related_entities": [
-      {
-        "relation_type": "cooperation",
-        "title": "Tanzil",
-        "uuid": "d9e6ebb0-65f6-4b28-86b2-3617a5b99f13"
-      }
-    ],
+    "related_entities": [],
     "people": [
       {
         "pers_name": {
@@ -79,6 +73,7 @@
         "pers_name": {
           "text": "Atwell, Eric",
           "ref": [
+            "https://orcid.org/0000-0001-9395-3764",
             "http://viaf.org/viaf/34339580"
           ]
         },
