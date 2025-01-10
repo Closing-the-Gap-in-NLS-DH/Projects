@@ -96,9 +96,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Neuwirth, Angelika",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/108800083"
+            "https://d-nb.info/gnd/108800083",
+            "https://www.wikidata.org/wiki/Q534480"
           ]
         },
         "roles": [
@@ -110,8 +111,9 @@
       },
       {
         "pers_name": {
-          "text": "Robin, Christian Julien",
+          "text": "",
           "ref": [
+            "https://d-nb.info/gnd/133748847",
             "https://www.wikidata.org/wiki/Q27919930"
           ]
         },
@@ -119,7 +121,7 @@
           "supervision"
         ],
         "websites": [
-          "https://www.aibl.fr/membres/academiciens-depuis-1663/article/robin-christian-julien"
+          "https://aibl.fr/membres-academiciens/robin-christian-julien/"
         ]
       }
     ],

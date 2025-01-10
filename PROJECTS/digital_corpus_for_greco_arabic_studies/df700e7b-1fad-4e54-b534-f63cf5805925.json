@@ -84,9 +84,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Schiefsky, Mark",
+          "text": "",
           "ref": [
-            "https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John"
+            "https://viaf.org/viaf/44561461/#Schiefsky,_Mark_John",
+            "https://www.wikidata.org/wiki/Q114932972"
           ]
         },
         "roles": [

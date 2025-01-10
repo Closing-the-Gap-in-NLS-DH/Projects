@@ -21,7 +21,7 @@
     "maintained": null,
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
-      "https://www.apd.gwi.uni-muenchen.de/apd/about.jsp"
+      "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp"
     ],
     "project_desc": "The Arabic Papyrology database is a digital compilation of pre-modern Arabic manuscripts written between 7th and 16th century CE. It comprises a total of 13286 documents which can be search by their metadata and content.",
     "places": [
@@ -91,8 +91,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Kaplony, Andreas",
+          "text": "",
           "ref": [
+            "https://orcid.org/0009-0000-5271-5452",
             "https://d-nb.info/gnd/115211942"
           ]
         },

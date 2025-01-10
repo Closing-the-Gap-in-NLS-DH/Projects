@@ -59,8 +59,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Dmitriev, Kirill",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-2832-8804",
             "https://d-nb.info/gnd/138140030"
           ]
         },
@@ -73,7 +74,7 @@
       },
       {
         "pers_name": {
-          "text": "Orfali, Bilal",
+          "text": "",
           "ref": [
             "https://d-nb.info/gnd/140143777"
           ]

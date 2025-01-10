@@ -143,16 +143,18 @@
     "people": [
       {
         "pers_name": {
-          "text": "Friedrich, Michael",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1106567749"
+            "https://d-nb.info/gnd/1106567749",
+            "https://www.wikidata.org/wiki/Q15129130"
+
           ]
         },
         "roles": [
           "supervision"
         ],
         "websites": [
-          "https://www.aai.uni-hamburg.de/china/personen/friedrich.html"
+          "https://www.csmc.uni-hamburg.de/about/people/friedrichmichael.html"
         ]
       }
     ],

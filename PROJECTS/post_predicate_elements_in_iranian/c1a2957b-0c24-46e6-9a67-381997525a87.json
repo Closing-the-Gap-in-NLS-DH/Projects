@@ -107,17 +107,16 @@
     "people": [
       {
         "pers_name": {
-          "text": "Haig, Geoffrey",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-5410-3692",
             "https://d-nb.info/gnd/1016008090"
           ]
         },
         "roles": [
           "supervision"
         ],
-        "websites": [
-          "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/staff/prof-dr-geoffrey-haig/"
-        ]
+        "websites": []
       },
       {
         "pers_name": {

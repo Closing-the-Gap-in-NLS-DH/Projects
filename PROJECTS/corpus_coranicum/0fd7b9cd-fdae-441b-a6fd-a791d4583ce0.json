@@ -97,9 +97,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Neuwirth, Angelika",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/108800083"
+            "https://d-nb.info/gnd/108800083",
+            "https://www.wikidata.org/wiki/Q534480"
           ]
         },
         "roles": [
@@ -111,8 +112,11 @@
       },
       {
         "pers_name": {
-          "text": "Marx, Michael",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q112183312",
+            "https://d-nb.info/gnd/1084218380"
+          ]
         },
         "roles": [
           "supervision"

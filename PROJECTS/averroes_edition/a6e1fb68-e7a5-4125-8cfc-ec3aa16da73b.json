@@ -93,8 +93,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Wirmer, David",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0003-1408-7461"]
         },
         "roles": [
           "supervision"

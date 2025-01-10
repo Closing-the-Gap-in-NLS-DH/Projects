@@ -567,8 +567,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Morselli, Francesca",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-0501-9811"
+          ]
         },
         "roles": [
           "supervision"
@@ -579,9 +581,11 @@
       },
       {
         "pers_name": {
-          "text": "Scharnhorst, Andrea",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1024345688"
+            "https://orcid.org/0000-0001-8879-8798",
+            "https://d-nb.info/gnd/1024345688",
+            "https://www.wikidata.org/wiki/Q57414146"
           ]
         },
         "roles": [

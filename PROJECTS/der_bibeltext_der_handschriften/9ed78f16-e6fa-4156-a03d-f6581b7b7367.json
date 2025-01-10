@@ -59,9 +59,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Liss, Hanna",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/115755853"
+            "https://orcid.org/0000-0003-0137-3995",
+            "https://d-nb.info/gnd/115755853",
+            "https://www.wikidata.org/wiki/Q19963114"
           ]
         },
         "roles": [

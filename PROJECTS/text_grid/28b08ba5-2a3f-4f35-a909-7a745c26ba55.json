@@ -262,9 +262,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Horstmann, Wolfram",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/129236187"
+            "https://orcid.org/0000-0001-8673-6104",
+            "https://d-nb.info/gnd/129236187",
+            "https://www.wikidata.org/wiki/Q48689370"
           ]
         },
         "roles": [

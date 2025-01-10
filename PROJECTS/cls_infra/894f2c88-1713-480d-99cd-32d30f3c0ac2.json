@@ -351,9 +351,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Eder, Maciej",
+          "text": "",
           "ref": [
-            "https://www.wikidata.org/wiki/Q24649708#sitelinks-wikipedia"
+            "https://orcid.org/0000-0002-1429-5036",
+            "https://www.wikidata.org/wiki/Q24649708"
           ]
         },
         "roles": [
