@@ -20,7 +20,8 @@
     ],
     "maintained": null,
     "websites": [
-      "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp"
+      "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp",
+      "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/"
     ],
     "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is to create digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
     "places": [
@@ -77,18 +78,16 @@
     "people": [
       {
         "pers_name": {
-          "text": "Kaplony, Andreas",
+          "text": "",
           "ref": [
+            "https://orcid.org/0009-0000-5271-5452",
             "https://d-nb.info/gnd/115211942"
           ]
         },
         "roles": [
           "supervision"
         ],
-        "websites": [
-          "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/",
-          "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
-        ]
+        "websites": ["https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"]
       }
     ],
     "research_data": {

@@ -59,8 +59,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Riesenweber, Christina",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-7449-9209",
             "https://www.wikidata.org/wiki/Q57684019"
           ]
         },
@@ -73,8 +74,8 @@
       },
       {
         "pers_name": {
-          "text": "Lee, Martin",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0001-7550-7365"]
         },
         "roles": [
           "supervision"

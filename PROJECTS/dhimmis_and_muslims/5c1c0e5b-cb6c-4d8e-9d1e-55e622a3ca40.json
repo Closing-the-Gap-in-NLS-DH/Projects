@@ -114,9 +114,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Koch, Steffen",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1041280173"
+            "https://d-nb.info/gnd/1041280173",
+            "https://www.wikidata.org/wiki/Q126596324"
           ]
         },
         "roles": [
@@ -128,9 +129,10 @@
       },
       {
         "pers_name": {
-          "text": "Weltecke, Dorothea",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/124993095"
+            "https://d-nb.info/gnd/124993095",
+            "https://www.wikidata.org/wiki/Q23836118"
           ]
         },
         "roles": [

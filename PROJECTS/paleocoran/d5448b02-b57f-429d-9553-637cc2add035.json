@@ -98,8 +98,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Marx, Michael",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q112183312",
+            "https://d-nb.info/gnd/1084218380"
+          ]
         },
         "roles": [
           "supervision"

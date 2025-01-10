@@ -112,9 +112,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Jäger, Ralf Martin",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/122654099"
+            "https://orcid.org/0000-0002-2628-2283",
+            "https://d-nb.info/gnd/122654099",
+            "https://www.wikidata.org/wiki/Q113716689"
           ]
         },
         "roles": [

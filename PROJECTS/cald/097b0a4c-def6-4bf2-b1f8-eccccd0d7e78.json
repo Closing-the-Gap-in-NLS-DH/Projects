@@ -59,17 +59,16 @@
     "people": [
       {
         "pers_name": {
-          "text": "Müller, Christian",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-0686-4817",
             "http://viaf.org/viaf/113526270"
           ]
         },
         "roles": [
           "supervision"
         ],
-        "websites": [
-          "https://www.irht.cnrs.fr/fr/annuaire/muller-christian"
-        ]
+        "websites": ["https://www.irht.cnrs.fr/fr/annuaire/muller-christian"]
       }
     ],
     "research_data": {

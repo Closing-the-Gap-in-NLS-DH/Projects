@@ -67,7 +67,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Klemm, Verena",
+          "text": "",
           "ref": [
             "https://www.wikidata.org/wiki/Q5675690"
           ]
@@ -81,8 +81,9 @@
       },
       {
         "pers_name": {
-          "text": "Liebrenz, Boris",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-8860-484X",
             "https://d-nb.info/gnd/136837921"
           ]
         },

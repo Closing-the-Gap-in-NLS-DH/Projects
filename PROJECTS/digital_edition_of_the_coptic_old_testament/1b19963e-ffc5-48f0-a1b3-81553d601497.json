@@ -82,9 +82,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Feder, Frank",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1162448369"
+            "https://orcid.org/0000-0002-0930-4268",
+            "https://d-nb.info/gnd/1162448369",
+            "https://www.wikidata.org/wiki/Q126132633"
           ]
         },
         "roles": [

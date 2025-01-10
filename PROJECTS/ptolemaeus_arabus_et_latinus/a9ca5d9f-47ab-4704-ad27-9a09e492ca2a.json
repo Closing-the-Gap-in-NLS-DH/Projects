@@ -85,9 +85,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Hasse, Dag Nikolaus",
+          "text": "",
           "ref": [
-            "https://viaf.org/viaf/5717273/"
+            "https://orcid.org/0009-0002-8688-1218",
+            "https://d-nb.info/gnd/11800638X"
           ]
         },
         "roles": [
