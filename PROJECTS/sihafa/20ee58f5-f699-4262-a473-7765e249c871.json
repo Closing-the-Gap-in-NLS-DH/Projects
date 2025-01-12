@@ -141,8 +141,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Grallert, Till",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-5739-8094",
+            "https://www.wikidata.org/wiki/Q110952396"]
         },
         "roles": [
           "supervision"

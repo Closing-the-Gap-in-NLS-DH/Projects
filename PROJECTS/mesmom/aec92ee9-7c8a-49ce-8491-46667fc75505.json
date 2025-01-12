@@ -110,8 +110,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Toral, Isabel",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0001-5188-7110",
+            "https://www.wikidata.org/wiki/Q113769323"
+          ]
         },
         "roles": [
           "supervision"

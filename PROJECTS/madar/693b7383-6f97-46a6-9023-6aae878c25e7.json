@@ -133,8 +133,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Habash, Nizar",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-1831-3457",
             "https://www.wikidata.org/wiki/Q93953901"
           ]
         },
@@ -142,13 +143,15 @@
           "supervision"
         ],
         "websites": [
+          "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
           "https://www.nizarhabash.com"
         ]
       },
       {
         "pers_name": {
-          "text": "Oflazer, Kemal",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-4977-0079",
             "https://www.wikidata.org/wiki/Q102215353"
           ]
         },

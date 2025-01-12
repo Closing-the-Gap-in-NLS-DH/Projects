@@ -64,8 +64,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Penelas, Mayte",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0001-9261-7494",
             "https://d-nb.info/gnd/1067890963"
           ]
         },
@@ -78,7 +79,7 @@
       },
       {
         "pers_name": {
-          "text": "María Luisa Ávila",
+          "text": "",
           "ref": [
             "https://d-nb.info/gnd/1057141895"
           ]

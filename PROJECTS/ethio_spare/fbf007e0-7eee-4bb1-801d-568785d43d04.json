@@ -140,9 +140,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Nosnitsin, Denis",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/104770255X"
+            "https://d-nb.info/gnd/104770255X",
+            "https://www.wikidata.org/wiki/Q113811305"
           ]
         },
         "roles": [

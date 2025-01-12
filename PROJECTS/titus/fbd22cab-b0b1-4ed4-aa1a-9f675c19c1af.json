@@ -57,14 +57,18 @@
     "people": [
       {
         "pers_name": {
-          "text": "Gippert, Jost",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-2954-340X",
+            "https://d-nb.info/gnd/109337409",
+            "https://www.wikidata.org/wiki/Q15299239"
+          ]
         },
         "roles": [
           "supervision"
         ],
         "websites": [
-          "https://d-nb.info/gnd/109337409"
+          "https://www.csmc.uni-hamburg.de/about/people/gippert.html"
         ]
       }
     ],

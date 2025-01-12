@@ -51,17 +51,14 @@
     "people": [
       {
         "pers_name": {
-          "text": "Bednarkiewicz, Maroussia",
+          "text": "",
           "ref": [
+            "https://orcid.org/0009-0009-0445-6578",
             "https://viaf.org/viaf/9154380928130290538/"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"]
       }
     ],
     "research_data": {

@@ -90,13 +90,13 @@
     "people": [
       {
         "pers_name": {
-          "text": "Evison, Gillian",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0002-3245-669X"]
         },
         "roles": [
           "supervision"
         ],
-        "websites": []
+        "websites": ["https://legacy.ochs.org.uk/people/dr-gillian-evison"]
       }
     ],
     "research_data": {

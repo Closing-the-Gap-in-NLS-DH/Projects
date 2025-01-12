@@ -70,8 +70,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Adam, Volker",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0003-4816-0575",
             "https://www.wikidata.org/wiki/Q122190054",
             "https://d-nb.info/gnd/123956951"
           ]

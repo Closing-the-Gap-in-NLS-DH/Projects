@@ -72,8 +72,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-7331-3858"
+          ]
         },
         "roles": [
           "investigation"

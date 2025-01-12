@@ -71,8 +71,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Celik, Yusuf",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0002-1996-1149"]
         },
         "roles": [
           "supervision"

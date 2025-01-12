@@ -94,9 +94,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Behlmer, Heike",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/1075292484"
+            "https://d-nb.info/gnd/1075292484",
+            "https://www.wikidata.org/wiki/Q55147114"
           ]
         },
         "roles": [

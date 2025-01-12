@@ -68,8 +68,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Aghaei, Ali",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0002-1287-8721"]
         },
         "roles": [
           "supervision"

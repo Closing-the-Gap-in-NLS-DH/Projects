@@ -81,9 +81,10 @@
     "people": [
       {
         "pers_name": {
-          "text": "Seidensticker, Tilman",
+          "text": "",
           "ref": [
-            "https://d-nb.info/gnd/131508415"
+            "https://d-nb.info/gnd/131508415",
+            "https://www.wikidata.org/wiki/Q112472167"
           ]
         },
         "roles": [
