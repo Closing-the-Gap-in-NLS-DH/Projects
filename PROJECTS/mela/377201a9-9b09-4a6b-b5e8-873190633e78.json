@@ -47,8 +47,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Salamon, Anaïs",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0001-6649-6027"]
         },
         "roles": [
           "supervision"

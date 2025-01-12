@@ -60,7 +60,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Ermolaev, Natalia",
+          "text": "",
           "ref": []
         },
         "roles": [
@@ -72,8 +72,9 @@
       },
       {
         "pers_name": {
-          "text": "Janco, Andrew",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-8872-9474",
             "https://d-nb.info/gnd/1064765017"
           ]
         },

@@ -83,8 +83,11 @@
     "people": [
       {
         "pers_name": {
-          "text": "Abu-Remaileh, Refqa",
-          "ref": []
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-0235-0015",
+            "https://www.wikidata.org/wiki/Q114409698"
+          ]
         },
         "roles": [
           "supervision"

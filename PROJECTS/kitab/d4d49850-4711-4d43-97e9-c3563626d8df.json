@@ -70,8 +70,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Savant, Sarah",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-7828-5347",
             "https://d-nb.info/gnd/1044734957"
           ]
         },
@@ -84,8 +85,8 @@
       },
       {
         "pers_name": {
-          "text": "Romanov, Maxim",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0001-7331-3858"]
         },
         "roles": [
           "investigation"

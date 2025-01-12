@@ -45,8 +45,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Huber, Alexander",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0002-2151-6415"]
         },
         "roles": [
           "supervision"

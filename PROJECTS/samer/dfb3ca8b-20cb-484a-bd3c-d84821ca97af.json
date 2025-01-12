@@ -68,8 +68,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Muhamed Al Khalil",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0009-0006-5800-0558"]
         },
         "roles": [
           "supervision"
@@ -80,8 +80,9 @@
       },
       {
         "pers_name": {
-          "text": "Habash, Nizar",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-1831-3457",
             "https://www.wikidata.org/wiki/Q93953901"
           ]
         },
@@ -89,6 +90,7 @@
           "supervision"
         ],
         "websites": [
+          "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
           "https://www.nizarhabash.com"
         ]
       }

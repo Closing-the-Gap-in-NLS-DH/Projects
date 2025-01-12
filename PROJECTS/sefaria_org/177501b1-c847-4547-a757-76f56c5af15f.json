@@ -48,13 +48,13 @@
     "people": [
       {
         "pers_name": {
-          "text": "Septimus, Daniel",
+          "text": "",
           "ref": []
         },
         "roles": [
           "supervision"
         ],
-        "websites": []
+        "websites": ["https://www.sefaria.org/profile/daniel-septimus"]
       }
     ],
     "research_data": {

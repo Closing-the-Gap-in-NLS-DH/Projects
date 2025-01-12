@@ -166,8 +166,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Fedeli, Alba",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-8913-6873",
             "https://viaf.org/viaf/13159335176612960925"
           ]
         },
@@ -180,8 +181,9 @@
       },
       {
         "pers_name": {
-          "text": "Khan, Geoffrey",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-2550-9896",
             "https://d-nb.info/gnd/136726224"
           ]
         },

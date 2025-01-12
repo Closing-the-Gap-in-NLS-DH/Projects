@@ -143,7 +143,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Kratz, Reinhard G.",
+          "text": "",
           "ref": [
             "https://d-nb.info/gnd/115412700"
           ]
@@ -157,8 +157,9 @@
       },
       {
         "pers_name": {
-          "text": "Ben-Dov, Jonathan",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-5346-6950",
             "https://www.wikidata.org/wiki/Q66087728"
           ]
         },

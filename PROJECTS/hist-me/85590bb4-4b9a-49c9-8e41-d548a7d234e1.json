@@ -41,8 +41,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Grossner, Karl",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-4066-8297",
             "https://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"
           ]
         },
@@ -70,8 +71,8 @@
       },
       {
         "pers_name": {
-          "text": "Beers, Theodore",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0000-0002-5129-5748"]
         },
         "roles": [
           "supervision"
@@ -82,8 +83,9 @@
       },
       {
         "pers_name": {
-          "text": "Grallert, Till",
+          "text": "",
           "ref": [
+            "https://orcid.org/0000-0002-5739-8094",
             "https://www.wikidata.org/wiki/Q110952396"
           ]
         },

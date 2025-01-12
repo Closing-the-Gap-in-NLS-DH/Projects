@@ -65,8 +65,10 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Bauer, Thomas",
-          "ref": ["https://d-nb.info/gnd/130608467/"]
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0009-6369-4998",
+            "https://d-nb.info/gnd/130608467/"]
         },
         "role": 0,
         "websites": [

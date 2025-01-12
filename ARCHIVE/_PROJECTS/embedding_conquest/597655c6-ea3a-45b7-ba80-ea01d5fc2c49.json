@@ -70,8 +70,10 @@
     "contacts": [
       {
         "pers_name": {
-          "text": "Sijpesteijn, Petra",
-          "ref": ["https://www.wikidata.org/wiki/Q14084136"]
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-6615-469X",
+            "https://www.wikidata.org/wiki/Q14084136"]
         },
         "role": 0,
         "websites": [

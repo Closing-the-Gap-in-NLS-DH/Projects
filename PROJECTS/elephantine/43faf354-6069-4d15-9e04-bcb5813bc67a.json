@@ -59,8 +59,9 @@
     "people": [
       {
         "pers_name": {
-          "text": "Lepper, Verena",
+          "text": "",
           "ref": [
+            "https://www.wikidata.org/wiki/Q1619476",
             "https://d-nb.info/gnd/1027812333"
           ]
         },
