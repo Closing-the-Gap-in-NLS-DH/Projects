@@ -1,0 +1,115 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+      "uuid": "85e367b3-1703-4ea5-95e0-7401b05580fe",
+      "record_created_on": "2024-12-16",
+      "record_created_by": "Rabus, Achim; Beimesche, Franz",
+      "last_edited_on": "2025-01-14",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Modern Bulgarian Transcriptions",
+      "abbr": "MBT",
+      "type": "project",
+      "ref": [],
+      "date": [
+        { "from": "2024", "to": "" }
+      ],
+      "maintained": true,
+      "websites": ["https://www.slavistik.uni-freiburg.de/personal/univ-prof-dr-achim-rabus"],
+      "project_desc": "The following project is meant to improve softwares skills of Transkribus in modern Bulgarian. Still there is no model for modern Bulgarian language. Transkribus is about to get enabled to read Bulgarian handwritten texts from the 1960s until today.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Freiburg",
+            "ref": ["https://www.geonames.org/2925177/freiburg.html"]
+          },
+          "coordinates": { "lat": "47.99609", "lng": "7.8494" }
+        }
+      ],
+      "lang": ["eng", "deu"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "University of Freiburg",
+            "ref": [
+              "https://ror.org/0245cg223",
+              "https://www.wikidata.org/wiki/Q153987x"
+            ]
+          },
+          "websites": ["https://uni-freiburg.de/"]
+        }
+      ],
+      "related_entities": [],
+      "people": [
+        {
+          "pers_name": {
+            "text": "Rabus, Achim",
+            "ref": [
+              "https://orcid.org/0000-0002-5366-1430",
+              "https://www.wikidata.org/wiki/Q112446108",
+              "https://d-nb.info/gnd/105350831X"
+            ]
+          },
+          "roles": ["supervision"],
+          "websites": [
+            "https://www.slavistik.uni-freiburg.de/personal/univ-prof-dr-achim-rabus"
+          ]
+        }
+      ],
+      "research_data": {
+        "lang": ["bul"],
+        "sustainability_plan": null,
+        "publications": {
+          "open_access": 0,
+          "licensing": []
+        },
+        "data": {
+          "datatypes": [
+            {
+              "label": "",
+              "stage": "raw",
+              "licensing": [],
+              "open_access": 0
+            }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [
+        {
+          "description": "",
+          "ref": []
+        }
+      ],
+      "keywords": ["ocr", "manuscript", "nlp"],
+      "category": "tools_and_analysis",
+      "comment": ""
+    }
+  }
+  
