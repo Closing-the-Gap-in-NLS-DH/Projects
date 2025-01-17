@@ -1,7 +1,10 @@
 ﻿# Protocol of CtG Team Meetings
 
+
  ##2025-01-17
-Time: 15:00-16:00 (Berlin) Participants (alphabetical): Alieva, Aibaniz; Beers, Theo; Casey, Christian; Kudela, M. Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
+ 
+**Time**: 15:00-16:00 (Berlin) 
+**Participants** (alphabetical): Alieva, Aibaniz; Beers, Theo; Casey, Christian; Kudela, M. Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
 
 
 Research Presentation Opportunities
