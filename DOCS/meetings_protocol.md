@@ -1,6 +1,68 @@
 ﻿# Protocol of CtG Team Meetings
 
-##2004-11-22
+ ##2025-01-17
+Time: 15:00-16:00 (Berlin) Participants (alphabetical): Alieva, Aibaniz; Beers, Theo; Casey, Christian; Kudela, M. Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
+
+
+Research Presentation Opportunities
+- Opportunities Discussed: The team explored various avenues for presenting research findings and increasing project visibility
+  
+Strategic Goal 2025 for CtG
+- Main Objective: Achieve high project visibility by 2025, serving two key purposes:
+    - Funding Justification: Demonstrate the project's impact to secure future funding.
+    - Practical Project Goals: Highlight how the project contributes to academia and the broader digital humanities field.
+      
+Data Maintenance and Sustainability
+- Sustainability Plans and Data Maintenance:
+    - Addressing the tension between maintaining datasets and long-term sustainability goals for digital humanities projects.
+    - Encourage the use of open-source tools and public datasets to enhance accessibility and collaboration.
+- Evaluation Process: Developing criteria to assess project adherence to sustainability best practices:
+    - Do projects follow through on their commitments to sustainable practices?
+    - How do these practices contribute to achieving long-term goals?
+    - Use unit tests or automated tools to measure compliance.
+- Metrics for Assessment:
+    - Calculate the percentage of output data that adheres to sustainability standards.
+    - Develop a score system to quantify adherence and impact.
+- Economic Reward Systems:
+    - Analyze how economic incentives or constraints influence sustainability efforts.
+    - Could offering tangible rewards improve sustainability adherence?
+- Comparative Analysis:
+    - Evaluate how initial sustainability plans compare to actual results, identifying discrepancies and lessons learned.
+      
+Blog Post
+- Christian Casey is contributing a blog post discussing good practices and bad practices considering sustainability plans of DH projects
+  
+Speaker Invitations
+Inviting Experts:
+- Identify and invite project members or collaborators to speak on:
+     - Best practices in digital humanities.
+     - Case studies or lessons from the current project.
+     - Broader discussions on sustainability in research.
+ 
+Social Media Presence
+- Bluesky:
+    - Focus on building a presence on Bluesky, a decentralized social media platform.
+    - Leverage it to connect with niche academic and tech-savvy communities.
+    - Share project updates, blog posts, and event information.
+    - Increase visibility and engagement with digital humanities scholars globally.
+      
+Collaborations
+- ISAW Library Collaboration: Explore potential partnerships with the Institute for the Study of the Ancient World (ISAW) library, while maintaining a shared focus on research projects within the DACH region.
+- Collaboration focus areas:
+  - Shared datasets.
+  - Joint events or publications.
+    
+Interview Participation
+- Enhancing Attractivity: Encourage broader participation in project-related interviews by offering flexible formats:
+  - Online Interviews:
+       - Increase visibility for both the project and participants.
+       - Remove geographical barriers, enabling international collaboration.
+  - Offline Interviews:
+       - Provide opportunities for in-depth discussions and personal interaction.
+       - Emphasize the value of participation to potential interviewees by highlighting benefits such as networking, visibility, and contribution to meaningful research.
+
+
+##2024-11-22
 
 **Time**: 12:00 - 13:30 (Berlin)
 **Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
