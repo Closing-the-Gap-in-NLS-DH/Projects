@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.5",
+    "schema_version": "0.2.6",
     "record_metadata": {
       "uuid": "58284cd4-3a2a-4e3f-81cc-2ab8dd36b0d2",
       "record_created_on": "2025-01-17",
@@ -44,7 +44,10 @@
         {
           "pers_name": {
             "text": "Sagi, Tomer",
-            "ref": ["https://www.wikidata.org/wiki/Q110699727", "https://orcid.org/0000-0002-8916-0128"]
+            "ref": [
+            "https://www.wikidata.org/wiki/Q110699727", 
+            "https://orcid.org/0000-0002-8916-0128"
+            ]
           },
           "roles": ["supervision"],
           "websites": [
@@ -92,7 +95,7 @@
       "keywords": [
         "arabic_studies",
         "geodata",
-        "hebrew_studies",
+        "jewish_studies",
         "linguistics",
         "map",
         "manuscript",
