@@ -1,0 +1,105 @@
+{
+    "schema_version": "0.2.5",
+    "record_metadata": {
+      "uuid": "58284cd4-3a2a-4e3f-81cc-2ab8dd36b0d2",
+      "record_created_on": "2025-01-17",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "2025-01-17",
+      "interviewed": false
+    },
+    "project": {
+      "title": "The Middle Eastern Historical Data Integration Endeavor",
+      "abbr": "MEHDIE",
+      "type": "project",
+      "ref": [],
+      "date": [{ "from": "2020", "to": "2023" }],
+      "maintained": null,
+      "websites": ["https://mehdie.org/#"],
+      "project_desc": "The project aims to integrate multilingual Medieval Middle Eastern historical and geographical data using Knowledge Graph technology, leveraging the linguistic affinity between Semitic languages and their English translations. By structuring and linking curated datasets in Arabic, Hebrew, and Judeo-Arabic, it provides a foundational resource for data-driven research in the digital humanities.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Haifa",
+            "ref": ["https://www.geonames.org/294801/"]
+          },
+          "coordinates": { "lat": "32.81841", "lng": "34.9885" }
+        }
+      ],
+      "lang": ["eng"],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "University of Haifa",
+            "ref": [
+              "https://ror.org/02f009v59",
+              "https://www.wikidata.org/wiki/Q591115"
+            ]
+          },
+          "websites": ["https://www.princeton.edu/"]
+        }
+      ],
+      "related_entities": [],
+      "contacts": [
+        {
+          "pers_name": {
+            "text": "Sagi, Tomer",
+            "ref": ["https://www.wikidata.org/wiki/Q110699727", "https://orcid.org/0000-0002-8916-0128"]
+          },
+          "roles": ["supervision"],
+          "websites": [
+            "https://is-web.hevra.haifa.ac.il/index.php/en/dr-tomer-sagi",
+            "https://sites.google.com/edu.haifa.ac.il/data-management-lab"
+          ]
+        }
+      ],
+      "research_data": {
+        "lang": ["ara", "heb", "eng", "jrb"],
+        "sustainability_plan": null,
+        "publications": { "open_access": 0, "licensing": [] },
+        "data": {
+          "datatypes": [
+            { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [{ "description": "", "ref": [] }],
+      "keywords": [
+        "arabic_studies",
+        "geodata",
+        "hebrew_studies",
+        "linguistics",
+        "map",
+        "manuscript",
+        "machine_learning"
+      ],
+      "category": "digital_preservation",
+      "comment": "Website is in progress"
+    }
+  }
+  
