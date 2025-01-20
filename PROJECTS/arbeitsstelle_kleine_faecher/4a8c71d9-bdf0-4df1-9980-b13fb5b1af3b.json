@@ -4,7 +4,7 @@
     "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -15,10 +15,10 @@
     "date": [
       {
         "from": "2005",
-        "to": ""
+        "to": "2028"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher"
     ],

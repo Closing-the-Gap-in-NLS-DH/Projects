@@ -4,7 +4,7 @@
     "uuid": "70944a30-3932-46bb-8c3f-410a48d9e0b9",
     "record_created_on": "2022-05-09",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2021"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://hunaynnet.oeaw.ac.at/",
       "https://cordis.europa.eu/project/id/679083/de"
@@ -133,6 +133,6 @@
       "vre"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "GitHub last updated 4 years ago, no files available"
   }
 }

@@ -4,7 +4,7 @@
     "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773",
     "record_created_on": "2022-09-01",
     "record_created_by": "Müller-Laackman, Jonas",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml"
     ],
@@ -133,6 +133,6 @@
       "translation_studies"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "website with no maintenance since 2023"
   }
 }

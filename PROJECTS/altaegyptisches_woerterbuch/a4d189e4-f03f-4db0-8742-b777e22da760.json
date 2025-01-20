@@ -4,7 +4,7 @@
     "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
     "record_created_on": "2022-01-17",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2012"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
       "https://aaew.bbaw.de/tla/index.html",
@@ -132,6 +132,6 @@
       "translation"
     ],
     "category": "tools_and_analysis",
-    "comment": ""
+    "comment": "Database not maintained since 2014"
   }
 }

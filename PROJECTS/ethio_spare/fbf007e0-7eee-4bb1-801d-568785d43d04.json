@@ -4,7 +4,7 @@
     "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04",
     "record_created_on": "2023-11-13",
     "record_created_by": "Kudela, Xeina Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2015"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare.html"
     ],
@@ -212,6 +212,6 @@
       "manuscript"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "Publications without Open access, no website"
   }
 }

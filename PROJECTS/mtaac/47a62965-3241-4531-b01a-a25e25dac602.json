@@ -4,7 +4,7 @@
     "uuid": "47a62965-3241-4531-b01a-a25e25dac602",
     "record_created_on": "2022-11.21",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2021"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://cdli-gh.github.io/mtaac/",
       "https://gepris.dfg.de/gepris/projekt/329145082"
@@ -185,6 +185,6 @@
       "translation_studies"
     ],
     "category": "tools_and_analysis",
-    "comment": ""
+    "comment": "website not maintained"
   }
 }

@@ -4,7 +4,7 @@
     "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
     "record_created_on": "2022-09-01",
     "record_created_by": "Müller-Laackman, Jonas",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -22,7 +22,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://algloss.de.dariah.eu/"
     ],
