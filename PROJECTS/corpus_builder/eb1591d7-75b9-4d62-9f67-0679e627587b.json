@@ -4,7 +4,7 @@
     "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
     "record_created_on": "2022-09-07",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2020"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://openiti.org/projects/CorpusBuilder.html"
     ],

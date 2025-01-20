@@ -4,7 +4,7 @@
     "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2",
     "record_created_on": "2022-02-21",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://averroes.uni-koeln.de/edition/current-editions/"
     ],
@@ -132,6 +132,6 @@
       "science_history"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "no findings or publications yet"
   }
 }

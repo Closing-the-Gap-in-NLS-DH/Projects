@@ -4,7 +4,7 @@
     "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064",
     "record_created_on": "2022-02-28",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2019"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://gepris.dfg.de/gepris/projekt/203078463",
       "https://www.manuscript-cultures.uni-hamburg.de/Poster/Z01_A4_P2.pdf",

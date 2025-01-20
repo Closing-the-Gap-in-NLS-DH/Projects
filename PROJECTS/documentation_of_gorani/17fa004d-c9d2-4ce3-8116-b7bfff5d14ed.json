@@ -4,7 +4,7 @@
     "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2012"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://dobes.mpi.nl/projects/gorani/",
       "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/"

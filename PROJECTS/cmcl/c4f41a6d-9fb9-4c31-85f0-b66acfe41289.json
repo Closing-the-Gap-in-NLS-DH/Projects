@@ -4,7 +4,7 @@
     "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289",
     "record_created_on": "2023-11-14",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -26,7 +26,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.aai.uni-hamburg.de/en/ethiostudies/research/cmcl.html",
       "http://www.cmcl.it/"
@@ -246,6 +246,6 @@
       "manuscript"
     ],
     "category": "digital_preservation",
-    "comment": "Apart from the first founding phase, the dates are approximate."
+    "comment": "Apart from the first founding phase, the dates are approximate. Last publication dated 2022, Open access publications."
   }
 }

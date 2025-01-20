@@ -4,7 +4,7 @@
     "uuid": "7a287a76-c663-413d-9e3e-3191b1d6093e",
     "record_created_on": "2022-09-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -22,7 +22,7 @@
         "to": "2015"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://glossga.bbaw.de/index.html",
       "http://www.greekintoarabic.eu/indexdcfd.html"
@@ -158,6 +158,6 @@
       "vre"
     ],
     "category": "tools_and_analysis",
-    "comment": ""
+    "comment": "Glossarium is free accessible"
   }
 }

@@ -4,7 +4,7 @@
     "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9",
     "record_created_on": "2021-11-08",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
       "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp"
@@ -156,6 +156,6 @@
       "translation"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "website with no maintenance"
   }
 }

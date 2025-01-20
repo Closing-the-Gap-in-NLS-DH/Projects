@@ -4,7 +4,7 @@
     "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186",
     "record_created_on": "2022-06-16",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-11-15",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2021"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://multicast.aspra.uni-bamberg.de/"
     ],

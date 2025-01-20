@@ -4,7 +4,7 @@
     "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
     "record_created_on": "2022-02-14",
     "record_created_by": "Kudela, Monkia Xenia",
-    "last_edited_on": "2024-10-31",
+    "last_edited_on": "2025-01-17",
     "interviewed": false
   },
   "project": {
@@ -18,7 +18,7 @@
         "to": "2022"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://orient-kohd.dl.uni-leipzig.de/content/index.xml"
     ],
@@ -152,6 +152,6 @@
       "turkology"
     ],
     "category": "digital_preservation",
-    "comment": ""
+    "comment": "website not accessible"
   }
 }
