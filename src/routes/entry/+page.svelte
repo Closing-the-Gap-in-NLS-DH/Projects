@@ -59,7 +59,7 @@
 		periods = selectedProjData.project.date;
 		relatedInsts = selectedProjData.project.related_institutions;
 		relatedEnts = selectedProjData.project.related_entities;
-		contacts = selectedProjData.project.contacts;
+		contacts = selectedProjData.project.people;
 		researchLangs = selectedProjData.project.research_data.lang;
 
 		loading = false;
