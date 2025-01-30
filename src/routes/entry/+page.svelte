@@ -171,14 +171,23 @@
 				{/if}
 			</ul>
 			<hr class="mb-3 border-ctgblue" />
-			<p class="mb-1 font-normal">{entityCap} contacts:</p>
+			<p class="mb-1 font-normal">Involved researchers:</p>
 			<ul class="ml-4 list-disc">
 				{#each contacts as contact}
-					<li>
-						<a href={contact.websites[0]} target="_blank" rel="noreferrer" class="hover:underline"
-							>{contact.pers_name.text}</a
-						>
-					</li>
+						{#if contact.pers_name.text !== ""}
+						<li>
+						{contact.pers_name.text}
+						{#each contact.pers_name.ref.filter(r => r.startsWith("https://orcid.org")) as orcid}
+							: <a href="{orcid}" target="_blank" rel="noreferrer" class="break-words hover:underline">{orcid}</a>
+						{/each}
+						</li>
+					{:else if contact.pers_name.ref.some(r => r.startsWith("https://orcid.org"))}
+						{#each contact.pers_name.ref.filter(r => r.startsWith("https://orcid.org")) as orcid}
+						<li>
+							<a href="{orcid}" target="_blank" rel="noreferrer" class="break-words hover:underline">{orcid}</a>
+						</li>
+						{/each}
+					{/if}
 				{/each}
 			</ul>
 		{/if}
