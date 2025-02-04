@@ -43,6 +43,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - [literary_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept31)
    - medicine_history
    - music_studies
+   - ottoman_studies
    - [philosophy](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept26)
    - religion_studies
    - science_history

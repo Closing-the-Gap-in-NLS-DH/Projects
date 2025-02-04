@@ -109,6 +109,7 @@
     "research_data": {
       "lang": [
         "deu",
+        "ota",
         "tur"
       ],
       "sustainability_plan": null,
@@ -155,6 +156,7 @@
       "digital_preservation",
       "image",
       "manuscript",
+      "ottoman_studies",
       "translation",
       "turkology",
       "vre"

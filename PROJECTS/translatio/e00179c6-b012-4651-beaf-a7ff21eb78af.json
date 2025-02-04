@@ -139,6 +139,7 @@
       "lang": [
         "ara",
         "fas",
+        "ota",
         "tur"
       ],
       "sustainability_plan": null,
@@ -195,6 +196,7 @@
       "history_studies",
       "image",
       "iranian_studies",
+      "ottoman_studies",
       "turkology"
     ],
     "category": "digital_preservation",
