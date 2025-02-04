@@ -18,9 +18,9 @@
         "to": "2016-12-31"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
-      "https://tunico.acdh.oeaw.ac.at/project.html"
+      "https://tunico.acdh.oeaw.ac.at/"
     ],
     "project_desc": "The focus of this project lies on the Arabic dialect spoken in the Tunisian capital. It investigates the linguistic dynamics caused by recent demographic changes in the metropolitan area of Tunis and its intention is to gather data through field recordings made with young speakers who were born in Tunis but descended from parents who arrived to the capital from other regions. Based on this data two digital language resources were created: a corpus of unmonitored speech that contains both conversations and narratives and a dictionary based on this corpus and on previously published resources.",
     "places": [

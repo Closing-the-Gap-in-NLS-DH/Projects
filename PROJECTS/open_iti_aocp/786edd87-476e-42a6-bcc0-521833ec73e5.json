@@ -18,7 +18,7 @@
         "to": "2021-12"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://openiti.org/projects/OpenITI%20AOCP%20Phase%20One.html",
       "https://mith.umd.edu/research/openiti-aocp/"

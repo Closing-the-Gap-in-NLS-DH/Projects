@@ -14,11 +14,15 @@
     "ref": [],
     "date": [
       {
-        "from": "2019-09-01",
-        "to": "2021-12-31"
+        "from": "2019",
+        "to": "2021"
+      },
+      {
+        "from": "2022",
+        "to": "2025"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://openiti.org/",
       "https://alraqmiyyat.github.io/OpenITI/",

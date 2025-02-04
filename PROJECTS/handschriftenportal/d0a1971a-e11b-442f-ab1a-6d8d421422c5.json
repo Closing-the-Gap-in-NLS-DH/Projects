@@ -16,9 +16,13 @@
       {
         "from": "2018",
         "to": "2021"
+      },
+      {
+        "from": "2023",
+        "to": "2026"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://handschriftenportal.de/"
     ],

@@ -18,7 +18,7 @@
         "to": "2019"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
       "https://www.traces.uni-hamburg.de/",
       "https://github.com/TraCES-Lexicon"
