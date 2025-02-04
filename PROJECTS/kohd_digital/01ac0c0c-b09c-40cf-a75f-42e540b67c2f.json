@@ -101,6 +101,7 @@
         "bod",
         "fas",
         "khm",
+        "ota",
         "san",
         "tam",
         "tur"
@@ -149,6 +150,7 @@
       "digital_preservation",
       "iranian_studies",
       "manuscript",
+      "ottoman_studies",
       "turkology"
     ],
     "category": "digital_preservation",

@@ -130,6 +130,7 @@
     "research_data": {
       "lang": [
         "ara",
+        "ota",
         "tur"
       ],
       "sustainability_plan": null,
@@ -177,6 +178,7 @@
       "image",
       "manuscript",
       "music_studies",
+      "ottoman_studies",
       "vre"
     ],
     "category": "digital_preservation",

@@ -102,7 +102,10 @@
     ],
     "research_data": {
       "lang": [
-        "ota"
+        "ara",
+        "fas",
+        "ota",
+        "tur"
       ],
       "sustainability_plan": null,
       "publications": {
@@ -158,6 +161,7 @@
       "image",
       "inscription",
       "map",
+      "ottoman_studies",
       "turkology"
     ],
     "category": "digital_preservation",
