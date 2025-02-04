@@ -4,7 +4,7 @@
     "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2",
     "record_created_on": "2022-02-21",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
+    "last_edited_on": "2025-02-04",
     "interviewed": false
   },
   "project": {
@@ -66,8 +66,8 @@
     "people": [
       {
         "pers_name": {
-          "text": "Horezky, Oded",
-          "ref": []
+          "text": "",
+          "ref": ["https://orcid.org/0009-0006-0068-7879"]
         },
         "roles": [
           "investigation"
@@ -78,7 +78,7 @@
       },
       {
         "pers_name": {
-          "text": "Clesse, Grégory",
+          "text": "",
           "ref": [
             "https://viaf.org/viaf/48155707096822411871/"
           ]

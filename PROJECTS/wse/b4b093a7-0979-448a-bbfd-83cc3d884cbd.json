@@ -59,7 +59,7 @@
       {
         "pers_name": {
           "text": "Simha, Vyshantha",
-          "ref": []
+          "ref": ["https://orcid.org/0009-0002-3310-7763"]
         },
         "roles": [
           "software"
@@ -71,7 +71,7 @@
       },
       {
         "pers_name": {
-          "text": "",
+          "text": "Eide, Øyvind",
           "ref": [
             "https://orcid.org/0000-0002-7766-6287",
             "https://d-nb.info/gnd/1084655063"
