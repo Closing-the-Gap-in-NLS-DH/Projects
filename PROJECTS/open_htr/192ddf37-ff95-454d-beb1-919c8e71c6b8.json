@@ -20,6 +20,7 @@
     ],
     "maintained": true,
     "websites": [
+      "https://cdh.princeton.edu/projects/princeton-open-htr-initiative/",
       "https://github.com/Princeton-CDH/htr2hpc"
     ],
     "project_desc": "The project aims to advance digital humanities research by integrating eScriptorium handwritten text recognition (HTR) software into Princeton's research infrastructure. By making historical texts machine-readable, it enables text search and computational analysis at scale, lowering barriers of technical expertise and cost for humanities scholars. This pilot project explores creating a centralized resource for HTR to support diverse research workflows in the digital humanities.",

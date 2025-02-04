@@ -20,6 +20,7 @@
     ],
     "maintained": true,
     "websites": [
+      "https://vrr-kitab.azurewebsites.net/",
       "https://kitab-project.org/about/funders#qatar-national-library-digital-sirah-project"
     ],
     "project_desc": "This project combines traditional methods of textual discovery and machine learning technologies with the goal of developing algorithms that are capable to locate reuse of Sirah (Biography) of the Prophet Muhammad, written by Muhammad b. Ishaq (d. 150/767) in a 1.5 billion word corpus of classical Arabic texts.",

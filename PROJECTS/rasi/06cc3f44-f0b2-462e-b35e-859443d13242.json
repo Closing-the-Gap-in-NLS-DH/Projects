@@ -4,7 +4,7 @@
     "uuid": "06cc3f44-f0b2-462e-b35e-859443d13242",
     "record_created_on": "2024-11-14",
     "record_created_by": "Sido Bozan, Joudy",
-    "last_edited_on": "2024-11-14",
+    "last_edited_on": "2024-02-04",
     "interviewed": false
   },
   "project": {
@@ -45,11 +45,14 @@
       {
         "relation_type": "host",
         "org_name": {
-          "text": "Digital Humanities Development",
-          "ref": []
+          "text": "McGill University",
+          "ref": [
+            "https://ror.org/01pxwe438",
+            "https://www.wikidata.org/wiki/Q201492"
+        ]
         },
         "websites": [
-          "https://www.dh-dev.com/"
+          "https://www.mcgill.ca/"
         ]
       }
     ],
@@ -59,14 +62,15 @@
         "pers_name": {
           "text": "",
           "ref": [
-            "http://viaf.org/viaf/241276199"
+            "https://d-nb.info/gnd/1116989573",
+            "https://www.wikidata.org/wiki/Q113842885"
           ]
         },
         "roles": [
           "supervision"
         ],
         "websites": [
-          "https://hcges.haifa.ac.il/2024/10/02/sinai-rusinek-dh-expert/"
+          "https://islamsci.mcgill.ca/Jamil/"
         ]
       }
     ],

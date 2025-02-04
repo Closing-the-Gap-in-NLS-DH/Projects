@@ -18,7 +18,7 @@
         "to": "2015-01"
       }
     ],
-    "maintained": true,
+    "maintained": false,
     "websites": [
       "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
     ],
@@ -77,7 +77,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Verena Klemm",
+          "text": "Klemm, Verena",
           "ref": [
             "https://www.wikidata.org/wiki/Q5675690"
           ]

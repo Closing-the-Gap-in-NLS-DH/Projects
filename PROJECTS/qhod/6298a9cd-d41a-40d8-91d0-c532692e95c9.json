@@ -18,7 +18,7 @@
         "to": ""
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://qhod.net/",
       "https://gams.uni-graz.at/context:qhod",

@@ -18,7 +18,7 @@
         "to": "2022-06-30"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://multicast.aspra.uni-bamberg.de/resources/hambam/",
       "https://multicast.aspra.uni-bamberg.de/resources/wowa/",

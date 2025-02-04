@@ -20,7 +20,7 @@
         "to": "2018"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
       "https://rla.badw.de/das-projekt.html",
       "https://publikationen.badw.de/de/rla"
@@ -70,7 +70,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Streck, Michael P.",
+          "text": "",
           "ref": [
             "https://d-nb.info/gnd/130425893"
           ]

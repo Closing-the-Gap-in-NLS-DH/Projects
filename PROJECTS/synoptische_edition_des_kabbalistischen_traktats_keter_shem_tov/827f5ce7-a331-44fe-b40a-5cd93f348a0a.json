@@ -16,11 +16,16 @@
       {
         "from": "2019",
         "to": "2022"
+      },
+      {
+        "from": "2022",
+        "to": "2025"
       }
     ],
-    "maintained": null,
+    "maintained": true,
     "websites": [
-      "https://kabbalaheditions.org"
+      "https://kabbalaheditions.org",
+      "https://lera.uzi.uni-halle.de/editions/2?lang=en"
     ],
     "project_desc": "The research object of this project is the approximately 700 years old Hebrew treatise Keter Shem Tov, which constitutes one of the most important introductory texts into the Kabbalah. The purpose of the project to prepare a critical printed edition of the text as well as its online, interactive and openly accessible version along with an English translation. To reach this objective the project contributes to the further development of an interactive, digital tool LERA.",
     "places": [

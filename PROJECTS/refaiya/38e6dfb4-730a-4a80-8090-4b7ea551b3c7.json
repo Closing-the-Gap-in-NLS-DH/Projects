@@ -18,8 +18,9 @@
         "to": "2013"
       }
     ],
-    "maintained": null,
+    "maintained": false,
     "websites": [
+      "https://www.refaiya.uni-leipzig.de/content/project-wrapper.xed?project=refaiya",
       "https://web.archive.org/web/20211005153037/https://www.refaiya.uni-leipzig.de/content/index.xml",
       "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/damaszener-familienbibliothek-refaiya/"
     ],
@@ -78,7 +79,7 @@
     "people": [
       {
         "pers_name": {
-          "text": "Verena Klemm",
+          "text": "Klemm, Verena",
           "ref": [
             "https://www.wikidata.org/wiki/Q5675690"
           ]

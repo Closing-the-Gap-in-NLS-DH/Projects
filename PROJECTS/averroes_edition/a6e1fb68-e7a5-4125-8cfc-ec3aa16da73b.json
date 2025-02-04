@@ -102,6 +102,22 @@
         "websites": [
           "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/david-wirmer"
         ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-7263-1405",
+            "https://www.wikidata.org/wiki/Q500733",
+            "https://d-nb.info/gnd/111608708"
+          ]
+        },
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://thomasinstitut.uni-koeln.de/mitarbeiterinnen/andreas-speer"
+        ]
       }
     ],
     "research_data": {
