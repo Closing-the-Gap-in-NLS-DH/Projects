@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"deploy": "npm run build && gh-pages -d build -t true",
+		"deploy": "npm run build && gh-pages -d build",
 		"dev": "vite dev",
 		"format": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --write .",
 		"lint": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --check . && eslint .",
@@ -17,7 +17,7 @@
 	},
 	"dependencies": {
 		"leaflet": "^1.9.4",
-		"vega-embed": "^6.25.0"
+		"vega-embed": "^6.29.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.5",
@@ -32,7 +32,7 @@
 		"eslint": "^8.57.1",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.44.1",
-		"gh-pages": "^6.1.1",
+		"gh-pages": "^6.3.0",
 		"postcss": "^8.4.47",
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.7",
