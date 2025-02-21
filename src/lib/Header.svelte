@@ -46,7 +46,7 @@
 			<h1 class="mb-2.5 text-5xl">
 				<a href="/Closing-The-Gap-In-Non-Latin-Script-Data/">Closing the Gap</a>
 			</h1>
-			<h2 class="text-2xl">in Non-Latin-Script Data</h2>
+			<h2 class="text-2xl">in Non-Latin Script Data</h2>
 		</div>
 	</div>
 </div>
