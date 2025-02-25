@@ -1,0 +1,121 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "e8ceae3b-140f-4edc-b192-023be857bbbd",
+        "record_created_on": "2025-02-25",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-02-25",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Analytical Database of Arabic Poetry",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2013",
+                "to": "2019"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.arabicpoetry.ac.uk/index.php"
+        ],
+        "project_desc": "The Analytical Database of Arabic Poetry provides an innovative digital platform for research on the semantics of the Arabic language and the history of Arabic poetic tradition from late antiquity onwards.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Saint Andrews",
+                    "ref": [
+                        "https://www.geonames.org/2638864/saint-andrews.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "56.34039",
+                    "lng": "-2.79558"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of St Andrews",
+                    "ref": [
+                        "https://ror.org/02wn5qz54",
+                        "https://www.wikidata.org/wiki/Q216273"
+                    ]
+                },
+                "websites": [
+                    "https://www.st-andrews.ac.uk/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Khamriyya as a World Poetic Genre",
+                "uuid": "3cd1ee13-a294-449d-8df2-f097a7b94f94"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-2832-8804",
+                        "https://d-nb.info/gnd/138140030"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "computational_text_analysis",
+            "corpus_output",
+            "lexicon",
+            "linguistics",
+            "literary_studies",
+            "translation"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
+}

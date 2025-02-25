@@ -1,0 +1,159 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "3cd1ee13-a294-449d-8df2-f097a7b94f94",
+        "record_created_on": "2025-02-25",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-02-25",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Khamriyya as a World Poetic Genre",
+        "abbr": "Khamriyya",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2014",
+                "to": "2017"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://khamriyya.wp.st-andrews.ac.uk/",
+            "https://opendata.uni-halle.de/bitstream/1981185920/83824/1/BeiruterTexteundStudien_142.pdf"
+        ],
+        "project_desc": "The project aims at exploring the history of wine poetry in various Near and Middle Eastern literatures from its origins in the sixth century up until the early modern period. Khamriyya represents along with ghazal a major form of poetic expression in various literary traditions including Arabic, Persian, Hebrew, Syriac, Ethiopian, Armenian, Georgian and Ottoman Turkish. Historical diversity and aesthetic versatility of khamriyya defined its development over many centuries in different cultural, religious and social contexts. In order to reveal the richness and importance of khamriyya as a world poetic genre, the initiative applies a comparative approach, which helps understand the transformations of the genre throughout different periods of literary history and across diverse cultural and linguistic milieus.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Saint Andrews",
+                    "ref": [
+                        "https://www.geonames.org/2638864/saint-andrews.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "56.34039",
+                    "lng": "-2.79558"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Cambridge",
+                    "ref": [
+                        "https://www.geonames.org/2653941/cambridge.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.20553",
+                    "lng": "0.11866"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of St Andrews",
+                    "ref": [
+                        "https://ror.org/02wn5qz54",
+                        "https://www.wikidata.org/wiki/Q216273"
+                    ]
+                },
+                "websites": [
+                    "https://www.st-andrews.ac.uk/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of St Andrews",
+                    "ref": [
+                        "https://ror.org/013meh722",
+                        "https://www.wikidata.org/wiki/Q35794"
+                    ]
+                },
+                "websites": [
+                    "https://www.cam.ac.uk/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Analytical Database of Arabic Poetry",
+                "uuid": "e8ceae3b-140f-4edc-b192-023be857bbbd"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-2832-8804",
+                        "https://d-nb.info/gnd/138140030"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0003-1000-1763",
+                        "https://d-nb.info/gnd/111975013X",
+                        "https://www.wikidata.org/wiki/Q113843541"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.ames.cam.ac.uk/people/professor-christine-van-ruymbeke"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "collaboration_platform",
+            "literary_studies"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
