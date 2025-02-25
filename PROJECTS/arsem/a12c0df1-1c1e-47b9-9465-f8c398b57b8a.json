@@ -1,0 +1,105 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "a12c0df1-1c1e-47b9-9465-f8c398b57b8a",
+        "record_created_on": "2025-02-25",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-02-25",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Language-Philology-Culture: Arab Cultural Semantics In Transition",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            { "from": "2013", "to": "2019"}
+        ],
+        "maintained": false,
+        "websites": ["https://www.st-andrews.ac.uk/modern-languages/research/projects/language-philology-culture/"],
+        "project_desc": "The project explored the pivotal role of language consciousness in the history of Arab culture. It aimed to study the semantic development of the vocabulary of the Arabic language, philological discourses on the semantic changes in the language in the classical Arabic philological tradition (8th \u2013 10th centuries A.D.), and the impact of Arabic philology in the wider historical and cultural context of the Judaeo-Arab neo-classical heritage (12th \u2013 13th centuries A.D.) and Christian-Arab intellectual history on the eve of modernity (19th century A.D.). ",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Saint Andrews",
+                    "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
+                },
+                "coordinates": {"lat": "56.34039","lng": "-2.79558"}
+            }
+        ],
+        "lang": ["eng"],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of St Andrews",
+                    "ref": [
+                        "https://ror.org/02wn5qz54",
+                        "https://www.wikidata.org/wiki/Q216273"
+                    ]
+                },
+                "websites": ["https://www.st-andrews.ac.uk/"]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "child",
+                "title": "Analytical Database of Arabic Poetry",
+                "uuid": "e8ceae3b-140f-4edc-b192-023be857bbbd"
+            },
+            {
+                "relation_type": "child",
+                "title": "Khamriyya as a World Poetic Genre",
+                "uuid": "3cd1ee13-a294-449d-8df2-f097a7b94f94"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-2832-8804",
+                        "https://d-nb.info/gnd/138140030"
+                    ]
+                },
+                "roles": ["supervision"],
+                "websites": [ "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"]
+            }
+        ],
+        "research_data": {
+            "lang": ["ara"],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "computational_text_analysis",
+            "corpus_output",
+            "lexicon",
+            "linguistics",
+            "literary_studies"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
+}
