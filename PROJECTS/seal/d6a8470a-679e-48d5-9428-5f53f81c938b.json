@@ -1,0 +1,151 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "d6a8470a-679e-48d5-9428-5f53f81c938b",
+        "record_created_on": "2025-02-27",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-02-27",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Sources of Early Akkadian Literature",
+        "abbr": "SEAL",
+        "type": "project",
+        "ref": [],
+        "date": [
+            { "from": "2007", "to": ""}
+        ],
+        "maintained": true,
+        "websites": [
+            "https://seal.huji.ac.il/"
+        ],
+        "project_desc": "Project aims to compile an exhaustive catalogue of Akkadian literary texts from the 3rd and 2nd millennia BCE, to present this corpus in such a way as to enable the efficient study of the entire early Akkadian corpus in all its philological, literary, and historical dimensions. Many of the editions in SEAL rely on new collations and photographs.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Jerusalem",
+                    "ref": [
+                        "https://www.geonames.org/281184/jerusalem.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "31.77882",
+                    "lng": "35.22576"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Leipzig",
+                    "ref": [
+                        "https://www.geonames.org/2879139/leipzig.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.34063",
+                    "lng": "12.37473"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Hebrew University of Jerusalem",
+                    "ref": [
+                        "https://ror.org/03qxff017",
+                        "https://www.wikidata.org/wiki/Q174158/"
+                    ]
+                },
+                "websites": [
+                    "https://new.huji.ac.il/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Universit\u00e4t Leipzig",
+                    "ref": [
+                        "https://ror.org/03s7gtk40",
+                        "https://www.wikidata.org/wiki/Q154804/"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-leipzig.de/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-4966-6538",
+                        "http://d-nb.info/gnd/132642824",
+                        "https://www.wikidata.org/wiki/Q6729360"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://archaeology.huji.ac.il/people/nathan-wasserman"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1928806",
+                        "https://d-nb.info/gnd/130425893"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "akk"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "catalog",
+            "corpus_output",
+            "geodata",
+            "inscription",
+            "semitic_studies"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
